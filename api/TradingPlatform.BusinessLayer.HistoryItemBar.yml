@@ -1,0 +1,1253 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar
+  commentId: T:TradingPlatform.BusinessLayer.HistoryItemBar
+  id: HistoryItemBar
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryItemBar.#ctor
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Clone
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Close
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode
+  - TradingPlatform.BusinessLayer.HistoryItemBar.High
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Item(TradingPlatform.BusinessLayer.PriceType)
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Low
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Median
+  - TradingPlatform.BusinessLayer.HistoryItemBar.op_Equality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  - TradingPlatform.BusinessLayer.HistoryItemBar.op_Inequality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Open
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Ticks
+  - TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight
+  - TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight
+  - TradingPlatform.BusinessLayer.HistoryItemBar.ToString
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Typical
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Volume
+  - TradingPlatform.BusinessLayer.HistoryItemBar.Weighted
+  langs:
+  - csharp
+  - vb
+  name: HistoryItemBar
+  nameWithType: HistoryItemBar
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: HistoryItemBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class HistoryItemBar : HistoryItem, IHistoryItem, ICloneable'
+    content.vb: >-
+      Public Class HistoryItemBar
+          Inherits HistoryItem
+          Implements IHistoryItem, ICloneable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.HistoryItem
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryItem
+  - System.ICloneable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+  - TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight
+  id: TimeRight
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: TimeRight
+  nameWithType: HistoryItemBar.TimeRight
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: TimeRight
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime TimeRight { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property TimeRight As Date
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight
+  id: TicksRight
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: TicksRight
+  nameWithType: HistoryItemBar.TicksRight
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: TicksRight
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public long TicksRight { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TicksRight As Long
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Open
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Open
+  id: Open
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: HistoryItemBar.Open
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Open
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Open
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Open { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Open As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Open*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.High
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.High
+  id: High
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: HistoryItemBar.High
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.High
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: High
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double High { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property High As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.High*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Low
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Low
+  id: Low
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: HistoryItemBar.Low
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Low
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Low
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Low { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Low As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Low*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Close
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Close
+  id: Close
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: HistoryItemBar.Close
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Close
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Close
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Close { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Close As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Close*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Median
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Median
+  id: Median
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Median
+  nameWithType: HistoryItemBar.Median
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Median
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Median
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Median { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Median As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Median*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Typical
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Typical
+  id: Typical
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Typical
+  nameWithType: HistoryItemBar.Typical
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Typical
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Typical
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Typical { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Typical As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Typical*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Weighted
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Weighted
+  id: Weighted
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Weighted
+  nameWithType: HistoryItemBar.Weighted
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Weighted
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Weighted
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Weighted { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Weighted As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Weighted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Ticks
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Ticks
+  id: Ticks
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Ticks
+  nameWithType: HistoryItemBar.Ticks
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Ticks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Ticks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int Ticks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Ticks As Integer
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Ticks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Volume
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Volume
+  id: Volume
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: HistoryItemBar.Volume
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Volume
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Volume
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Volume As Double
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Volume*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Item(TradingPlatform.BusinessLayer.PriceType)
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemBar.Item(TradingPlatform.BusinessLayer.PriceType)
+  id: Item(TradingPlatform.BusinessLayer.PriceType)
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Item[PriceType]
+  nameWithType: HistoryItemBar.Item[PriceType]
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Item[TradingPlatform.BusinessLayer.PriceType]
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: this[]
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override double this[PriceType priceType] { get; }
+    parameters:
+    - id: priceType
+      type: TradingPlatform.BusinessLayer.PriceType
+    return:
+      type: System.Double
+    content.vb: Public Overrides ReadOnly Property Item(priceType As PriceType) As Double
+  overridden: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Item*
+  nameWithType.vb: HistoryItemBar.Item(PriceType)
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: TradingPlatform.BusinessLayer.HistoryItemBar.Item(TradingPlatform.BusinessLayer.PriceType)
+  name.vb: Item(PriceType)
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: HistoryItemBar()
+  nameWithType: HistoryItemBar.HistoryItemBar()
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.HistoryItemBar()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryItemBar()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: HistoryItemBar.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 76
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: HistoryItemBar.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 93
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.op_Equality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.op_Equality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  id: op_Equality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Equality(HistoryItemBar, HistoryItemBar)
+  nameWithType: HistoryItemBar.Equality(HistoryItemBar, HistoryItemBar)
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Equality(TradingPlatform.BusinessLayer.HistoryItemBar, TradingPlatform.BusinessLayer.HistoryItemBar)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: op_Equality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 105
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator ==(HistoryItemBar a, HistoryItemBar b)
+    parameters:
+    - id: a
+      type: TradingPlatform.BusinessLayer.HistoryItemBar
+    - id: b
+      type: TradingPlatform.BusinessLayer.HistoryItemBar
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As HistoryItemBar, b As HistoryItemBar) As Boolean
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.op_Inequality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.op_Inequality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  id: op_Inequality(TradingPlatform.BusinessLayer.HistoryItemBar,TradingPlatform.BusinessLayer.HistoryItemBar)
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Inequality(HistoryItemBar, HistoryItemBar)
+  nameWithType: HistoryItemBar.Inequality(HistoryItemBar, HistoryItemBar)
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Inequality(TradingPlatform.BusinessLayer.HistoryItemBar, TradingPlatform.BusinessLayer.HistoryItemBar)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: op_Inequality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 123
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator !=(HistoryItemBar a, HistoryItemBar b)
+    parameters:
+    - id: a
+      type: TradingPlatform.BusinessLayer.HistoryItemBar
+    - id: b
+      type: TradingPlatform.BusinessLayer.HistoryItemBar
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As HistoryItemBar, b As HistoryItemBar) As Boolean
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.ToString
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: HistoryItemBar.ToString()
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 130
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemBar.Clone
+  id: Clone
+  parent: TradingPlatform.BusinessLayer.HistoryItemBar
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: HistoryItemBar.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Clone()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    id: Clone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryItemBar.cs
+    startLine: 145
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Clone As Object
+  overridden: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  overload: TradingPlatform.BusinessLayer.HistoryItemBar.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.HistoryItem
+  commentId: T:TradingPlatform.BusinessLayer.HistoryItem
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: TradingPlatform.BusinessLayer.HistoryItem
+- uid: TradingPlatform.BusinessLayer.IHistoryItem
+  commentId: T:TradingPlatform.BusinessLayer.IHistoryItem
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoryItem
+  nameWithType: IHistoryItem
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: TimeLeft
+  nameWithType: HistoryItem.TimeLeft
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+- uid: TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: TicksLeft
+  nameWithType: HistoryItem.TicksLeft
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight
+  name: TimeRight
+  nameWithType: HistoryItemBar.TimeRight
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.TimeRight
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight
+  name: TicksRight
+  nameWithType: HistoryItemBar.TicksRight
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.TicksRight
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Open*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Open
+  name: Open
+  nameWithType: HistoryItemBar.Open
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Open
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.High*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.High
+  name: High
+  nameWithType: HistoryItemBar.High
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.High
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Low*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Low
+  name: Low
+  nameWithType: HistoryItemBar.Low
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Low
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Close*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Close
+  name: Close
+  nameWithType: HistoryItemBar.Close
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Close
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Median*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Median
+  name: Median
+  nameWithType: HistoryItemBar.Median
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Median
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Typical*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Typical
+  name: Typical
+  nameWithType: HistoryItemBar.Typical
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Typical
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Weighted*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Weighted
+  name: Weighted
+  nameWithType: HistoryItemBar.Weighted
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Weighted
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Ticks*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Ticks
+  name: Ticks
+  nameWithType: HistoryItemBar.Ticks
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Ticks
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Volume*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Volume
+  name: Volume
+  nameWithType: HistoryItemBar.Volume
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Volume
+- uid: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: Item[PriceType]
+  nameWithType: HistoryItem.Item[PriceType]
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.Item[TradingPlatform.BusinessLayer.PriceType]
+  nameWithType.vb: HistoryItem.Item(PriceType)
+  fullName.vb: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  name.vb: Item(PriceType)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+    name: Item
+    nameWithType: HistoryItem.Item
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+    nameWithType: PriceType
+    fullName: TradingPlatform.BusinessLayer.PriceType
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+    name: Item
+    nameWithType: HistoryItem.Item
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+    nameWithType: PriceType
+    fullName: TradingPlatform.BusinessLayer.PriceType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Item*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Item
+  name: Item
+  nameWithType: HistoryItemBar.Item
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Item
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  parent: TradingPlatform.BusinessLayer
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.#ctor
+  name: HistoryItemBar
+  nameWithType: HistoryItemBar.HistoryItemBar
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.HistoryItemBar
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Equals
+  name: Equals
+  nameWithType: HistoryItemBar.Equals
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode
+  name: GetHashCode
+  nameWithType: HistoryItemBar.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.GetHashCode
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.op_Equality*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.op_Equality
+  name: Equality
+  nameWithType: HistoryItemBar.Equality
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Equality
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar
+  commentId: T:TradingPlatform.BusinessLayer.HistoryItemBar
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryItemBar
+  nameWithType: HistoryItemBar
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.op_Inequality*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.op_Inequality
+  name: Inequality
+  nameWithType: HistoryItemBar.Inequality
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Inequality
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.ToString
+  name: ToString
+  nameWithType: HistoryItemBar.ToString
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItem.Clone
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: Clone()
+  nameWithType: HistoryItem.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.Clone()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Clone
+    name: Clone
+    nameWithType: HistoryItem.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Clone
+    name: Clone
+    nameWithType: HistoryItem.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemBar.Clone*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemBar.Clone
+  name: Clone
+  nameWithType: HistoryItemBar.Clone
+  fullName: TradingPlatform.BusinessLayer.HistoryItemBar.Clone

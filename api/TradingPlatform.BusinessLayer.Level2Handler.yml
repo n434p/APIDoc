@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Level2Handler
+  commentId: T:TradingPlatform.BusinessLayer.Level2Handler
+  id: Level2Handler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Level2Handler
+  nameWithType: Level2Handler
+  fullName: TradingPlatform.BusinessLayer.Level2Handler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Level2Handler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1271
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void Level2Handler(Instrument instrument, Level2Quote level2, DOMQuote dom);
+    parameters:
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: level2
+      type: TradingPlatform.BusinessLayer.Level2Quote
+    - id: dom
+      type: TradingPlatform.BusinessLayer.DOMQuote
+    content.vb: Public Delegate Sub Level2Handler(instrument As Instrument, level2 As Level2Quote, dom As DOMQuote)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Level2Quote
+  commentId: T:TradingPlatform.BusinessLayer.Level2Quote
+  parent: TradingPlatform.BusinessLayer
+  name: Level2Quote
+  nameWithType: Level2Quote
+  fullName: TradingPlatform.BusinessLayer.Level2Quote
+- uid: TradingPlatform.BusinessLayer.DOMQuote
+  commentId: T:TradingPlatform.BusinessLayer.DOMQuote
+  parent: TradingPlatform.BusinessLayer
+  name: DOMQuote
+  nameWithType: DOMQuote
+  fullName: TradingPlatform.BusinessLayer.DOMQuote

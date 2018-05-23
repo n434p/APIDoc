@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  id: ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ICustomizable.Settings
+  langs:
+  - csharp
+  - vb
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    id: ICustomizable
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface ICustomizable
+    content.vb: Public Interface ICustomizable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.ICustomizable
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Property Settings As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.ICustomizable.Settings*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

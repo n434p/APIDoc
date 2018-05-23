@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  commentId: T:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  id: AccountAdditionalInfoItemFormatingType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.AssetBalance
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.CustomAsset
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.None
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.Percent
+  langs:
+  - csharp
+  - vb
+  name: AccountAdditionalInfoItemFormatingType
+  nameWithType: AccountAdditionalInfoItemFormatingType
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: AccountAdditionalInfoItemFormatingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum AccountAdditionalInfoItemFormatingType
+    content.vb: Public Enum AccountAdditionalInfoItemFormatingType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.None
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AccountAdditionalInfoItemFormatingType.None
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.AssetBalance
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.AssetBalance
+  id: AssetBalance
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  langs:
+  - csharp
+  - vb
+  name: AssetBalance
+  nameWithType: AccountAdditionalInfoItemFormatingType.AssetBalance
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.AssetBalance
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: AssetBalance
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AssetBalance = 1
+    return:
+      type: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.CustomAsset
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.CustomAsset
+  id: CustomAsset
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  langs:
+  - csharp
+  - vb
+  name: CustomAsset
+  nameWithType: AccountAdditionalInfoItemFormatingType.CustomAsset
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.CustomAsset
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: CustomAsset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: CustomAsset = 2
+    return:
+      type: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.Percent
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.Percent
+  id: Percent
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: AccountAdditionalInfoItemFormatingType.Percent
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType.Percent
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: Percent
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Percent = 3
+    return:
+      type: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  commentId: T:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  parent: TradingPlatform.BusinessLayer
+  name: AccountAdditionalInfoItemFormatingType
+  nameWithType: AccountAdditionalInfoItemFormatingType
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType

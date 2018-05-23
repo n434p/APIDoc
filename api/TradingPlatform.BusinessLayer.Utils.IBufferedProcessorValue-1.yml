@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  commentId: T:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  id: IBufferedProcessorValue`1
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  langs:
+  - csharp
+  - vb
+  name: IBufferedProcessorValue<TKey>
+  nameWithType: IBufferedProcessorValue<TKey>
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<TKey>
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/BufferedProcessorWithSubscribers.cs
+    id: IBufferedProcessorValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/BufferedProcessorWithSubscribers.cs
+    startLine: 111
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public interface IBufferedProcessorValue<TKey>
+    typeParameters:
+    - id: TKey
+    content.vb: Public Interface IBufferedProcessorValue(Of TKey)
+  nameWithType.vb: IBufferedProcessorValue(Of TKey)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of TKey)
+  name.vb: IBufferedProcessorValue(Of TKey)
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  commentId: P:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  id: Key
+  parent: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: IBufferedProcessorValue<TKey>.Key
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<TKey>.Key
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/BufferedProcessorWithSubscribers.cs
+    id: Key
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/BufferedProcessorWithSubscribers.cs
+    startLine: 113
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: TKey Key { get; }
+    parameters: []
+    return:
+      type: '{TKey}'
+    content.vb: ReadOnly Property Key As TKey
+  overload: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key*
+  nameWithType.vb: IBufferedProcessorValue(Of TKey).Key
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of TKey).Key
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  name: Key
+  nameWithType: IBufferedProcessorValue<TKey>.Key
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<TKey>.Key
+  nameWithType.vb: IBufferedProcessorValue(Of TKey).Key
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of TKey).Key
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey

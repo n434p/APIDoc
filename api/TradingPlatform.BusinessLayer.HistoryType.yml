@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryType
+  id: HistoryType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryType.Ask
+  - TradingPlatform.BusinessLayer.HistoryType.Bid
+  - TradingPlatform.BusinessLayer.HistoryType.BidAskAverage
+  - TradingPlatform.BusinessLayer.HistoryType.Last
+  langs:
+  - csharp
+  - vb
+  name: HistoryType
+  nameWithType: HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoryType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: HistoryType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "HistoryType", Namespace = "TradingPlatform")]
+
+      public enum HistoryType
+    content.vb: >-
+      <DataContract(Name:="HistoryType", Namespace:="TradingPlatform")>
+
+      Public Enum HistoryType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: HistoryType
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.HistoryType.Bid
+  commentId: F:TradingPlatform.BusinessLayer.HistoryType.Bid
+  id: Bid
+  parent: TradingPlatform.BusinessLayer.HistoryType
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: HistoryType.Bid
+  fullName: TradingPlatform.BusinessLayer.HistoryType.Bid
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Bid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Bid = 0
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryType
+    content.vb: >-
+      <EnumMember>
+
+      Bid = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryType.Ask
+  commentId: F:TradingPlatform.BusinessLayer.HistoryType.Ask
+  id: Ask
+  parent: TradingPlatform.BusinessLayer.HistoryType
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: HistoryType.Ask
+  fullName: TradingPlatform.BusinessLayer.HistoryType.Ask
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Ask
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 52
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Ask = 1
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryType
+    content.vb: >-
+      <EnumMember>
+
+      Ask = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryType.BidAskAverage
+  commentId: F:TradingPlatform.BusinessLayer.HistoryType.BidAskAverage
+  id: BidAskAverage
+  parent: TradingPlatform.BusinessLayer.HistoryType
+  langs:
+  - csharp
+  - vb
+  name: BidAskAverage
+  nameWithType: HistoryType.BidAskAverage
+  fullName: TradingPlatform.BusinessLayer.HistoryType.BidAskAverage
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BidAskAverage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BidAskAverage = 2
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryType
+    content.vb: >-
+      <EnumMember>
+
+      BidAskAverage = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryType.Last
+  commentId: F:TradingPlatform.BusinessLayer.HistoryType.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.HistoryType
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: HistoryType.Last
+  fullName: TradingPlatform.BusinessLayer.HistoryType.Last
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 56
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Last = 3
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryType
+    content.vb: >-
+      <EnumMember>
+
+      Last = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.HistoryType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryType
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryType
+  nameWithType: HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoryType

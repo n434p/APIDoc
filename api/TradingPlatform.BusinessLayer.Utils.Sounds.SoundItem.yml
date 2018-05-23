@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  id: SoundItem
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds
+  children:
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.CurrentPath
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.DefaultPath
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Enabled
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Name
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement
+  langs:
+  - csharp
+  - vb
+  name: SoundItem
+  nameWithType: SoundItem
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: SoundItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: >-
+      [DataContract(Name = "SoundItem", Namespace = "TradingPlatform")]
+
+      public class SoundItem : IXElementSerialization
+    content.vb: >-
+      <DataContract(Name:="SoundItem", Namespace:="TradingPlatform")>
+
+      Public Class SoundItem
+          Implements IXElementSerialization
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: SoundItem
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Enabled
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Enabled
+  id: Enabled
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: SoundItem.Enabled
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Enabled
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: Enabled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: >-
+      [DataMember(Name = "Enabled")]
+
+      public bool Enabled
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember(Name:="Enabled")>
+
+      Public Enabled As Boolean
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Enabled
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Name
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoundItem.Name
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.Name
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: >-
+      [DataMember(Name = "Name")]
+
+      public string Name
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Name")>
+
+      Public Name As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Name
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.DefaultPath
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.DefaultPath
+  id: DefaultPath
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: DefaultPath
+  nameWithType: SoundItem.DefaultPath
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.DefaultPath
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: DefaultPath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: >-
+      [DataMember(Name = "Path")]
+
+      public string DefaultPath
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Path")>
+
+      Public DefaultPath As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Path
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.CurrentPath
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.CurrentPath
+  id: CurrentPath
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: CurrentPath
+  nameWithType: SoundItem.CurrentPath
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.CurrentPath
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: CurrentPath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: >-
+      [DataMember(Name = "CurrentPath")]
+
+      public string CurrentPath
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="CurrentPath")>
+
+      Public CurrentPath As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: CurrentPath
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: SoundItem.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: SoundItem.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath
+  commentId: M:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath
+  id: IsDefaultPath
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultPath()
+  nameWithType: SoundItem.IsDefaultPath()
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    id: IsDefaultPath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/SoundItem.cs
+    startLine: 77
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public bool IsDefaultPath()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDefaultPath As Boolean
+  overload: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds
+  commentId: N:TradingPlatform.BusinessLayer.Utils.Sounds
+  name: TradingPlatform.BusinessLayer.Utils.Sounds
+  nameWithType: TradingPlatform.BusinessLayer.Utils.Sounds
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement
+  name: FromXElement
+  nameWithType: SoundItem.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement
+  name: ToXElement
+  nameWithType: SoundItem.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath
+  name: IsDefaultPath
+  nameWithType: SoundItem.IsDefaultPath
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem.IsDefaultPath

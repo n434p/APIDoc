@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryEventHandler
+  commentId: T:TradingPlatform.BusinessLayer.HistoryEventHandler
+  id: HistoryEventHandler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: HistoryEventHandler
+  nameWithType: HistoryEventHandler
+  fullName: TradingPlatform.BusinessLayer.HistoryEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEventArgs.cs
+    id: HistoryEventHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEventArgs.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void HistoryEventHandler(object sender, HistoryEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: TradingPlatform.BusinessLayer.HistoryEventArgs
+    content.vb: Public Delegate Sub HistoryEventHandler(sender As Object, e As HistoryEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.HistoryEventArgs
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryEventArgs
+  nameWithType: HistoryEventArgs
+  fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

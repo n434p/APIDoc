@@ -1,0 +1,2372 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Period
+  commentId: T:TradingPlatform.BusinessLayer.Period
+  id: Period
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Period.#ctor(TradingPlatform.BusinessLayer.BasePeriod,System.Int32)
+  - TradingPlatform.BusinessLayer.Period.BasePeriod
+  - TradingPlatform.BusinessLayer.Period.BasePeriodToShortString(TradingPlatform.BusinessLayer.BasePeriod)
+  - TradingPlatform.BusinessLayer.Period.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.Period.DAY1
+  - TradingPlatform.BusinessLayer.Period.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.Period.Format(System.DateTime)
+  - TradingPlatform.BusinessLayer.Period.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Period.GetHashCode
+  - TradingPlatform.BusinessLayer.Period.HOUR1
+  - TradingPlatform.BusinessLayer.Period.HOUR12
+  - TradingPlatform.BusinessLayer.Period.HOUR2
+  - TradingPlatform.BusinessLayer.Period.HOUR3
+  - TradingPlatform.BusinessLayer.Period.HOUR4
+  - TradingPlatform.BusinessLayer.Period.HOUR6
+  - TradingPlatform.BusinessLayer.Period.HOUR8
+  - TradingPlatform.BusinessLayer.Period.MIN1
+  - TradingPlatform.BusinessLayer.Period.MIN10
+  - TradingPlatform.BusinessLayer.Period.MIN15
+  - TradingPlatform.BusinessLayer.Period.MIN2
+  - TradingPlatform.BusinessLayer.Period.MIN3
+  - TradingPlatform.BusinessLayer.Period.MIN30
+  - TradingPlatform.BusinessLayer.Period.MIN4
+  - TradingPlatform.BusinessLayer.Period.MIN5
+  - TradingPlatform.BusinessLayer.Period.MONTH1
+  - TradingPlatform.BusinessLayer.Period.op_Equality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  - TradingPlatform.BusinessLayer.Period.op_GreaterThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  - TradingPlatform.BusinessLayer.Period.op_GreaterThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  - TradingPlatform.BusinessLayer.Period.op_Inequality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  - TradingPlatform.BusinessLayer.Period.op_LessThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  - TradingPlatform.BusinessLayer.Period.op_LessThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  - TradingPlatform.BusinessLayer.Period.PeriodMultiplier
+  - TradingPlatform.BusinessLayer.Period.SECOND1
+  - TradingPlatform.BusinessLayer.Period.SECOND10
+  - TradingPlatform.BusinessLayer.Period.SECOND15
+  - TradingPlatform.BusinessLayer.Period.SECOND30
+  - TradingPlatform.BusinessLayer.Period.SECOND5
+  - TradingPlatform.BusinessLayer.Period.TICK1
+  - TradingPlatform.BusinessLayer.Period.Ticks
+  - TradingPlatform.BusinessLayer.Period.TicksInBasePeriod(TradingPlatform.BusinessLayer.BasePeriod)
+  - TradingPlatform.BusinessLayer.Period.ToString
+  - TradingPlatform.BusinessLayer.Period.ToXElement
+  - TradingPlatform.BusinessLayer.Period.WEEK1
+  - TradingPlatform.BusinessLayer.Period.YEAR1
+  langs:
+  - csharp
+  - vb
+  name: Period
+  nameWithType: Period
+  fullName: TradingPlatform.BusinessLayer.Period
+  type: Struct
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: Period
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [Serializable]
+
+      [DataContract(Name = "Period", Namespace = "TradingPlatform")]
+
+      public struct Period : IComparable, IXElementSerialization
+    content.vb: >-
+      <Serializable>
+
+      <DataContract(Name:="Period", Namespace:="TradingPlatform")>
+
+      Public Structure Period
+          Implements IComparable, IXElementSerialization
+  implements:
+  - System.IComparable
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Period
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: TradingPlatform.BusinessLayer.Period.PeriodMultiplier
+  commentId: P:TradingPlatform.BusinessLayer.Period.PeriodMultiplier
+  id: PeriodMultiplier
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: PeriodMultiplier
+  nameWithType: Period.PeriodMultiplier
+  fullName: TradingPlatform.BusinessLayer.Period.PeriodMultiplier
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: PeriodMultiplier
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "PeriodMultiplier")]
+
+      public int PeriodMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember(Name:="PeriodMultiplier")>
+
+      Public Property PeriodMultiplier As Integer
+  overload: TradingPlatform.BusinessLayer.Period.PeriodMultiplier*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PeriodMultiplier
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.BasePeriod
+  commentId: P:TradingPlatform.BusinessLayer.Period.BasePeriod
+  id: BasePeriod
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: BasePeriod
+  nameWithType: Period.BasePeriod
+  fullName: TradingPlatform.BusinessLayer.Period.BasePeriod
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: BasePeriod
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "BasePeriod")]
+
+      public BasePeriod BasePeriod { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.BasePeriod
+    content.vb: >-
+      <DataMember(Name:="BasePeriod")>
+
+      Public Property BasePeriod As BasePeriod
+  overload: TradingPlatform.BusinessLayer.Period.BasePeriod*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: BasePeriod
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.Ticks
+  commentId: P:TradingPlatform.BusinessLayer.Period.Ticks
+  id: Ticks
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: Ticks
+  nameWithType: Period.Ticks
+  fullName: TradingPlatform.BusinessLayer.Period.Ticks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: Ticks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public long Ticks { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Ticks As Long
+  overload: TradingPlatform.BusinessLayer.Period.Ticks*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.#ctor(TradingPlatform.BusinessLayer.BasePeriod,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Period.#ctor(TradingPlatform.BusinessLayer.BasePeriod,System.Int32)
+  id: '#ctor(TradingPlatform.BusinessLayer.BasePeriod,System.Int32)'
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: Period(BasePeriod, Int32)
+  nameWithType: Period.Period(BasePeriod, Int32)
+  fullName: TradingPlatform.BusinessLayer.Period.Period(TradingPlatform.BusinessLayer.BasePeriod, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Period(BasePeriod basePeriod, int periodMultiplier)
+    parameters:
+    - id: basePeriod
+      type: TradingPlatform.BusinessLayer.BasePeriod
+    - id: periodMultiplier
+      type: System.Int32
+    content.vb: Public Sub New(basePeriod As BasePeriod, periodMultiplier As Integer)
+  overload: TradingPlatform.BusinessLayer.Period.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.op_Equality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  commentId: M:TradingPlatform.BusinessLayer.Period.op_Equality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  id: op_Equality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: Equality(Period, Period)
+  nameWithType: Period.Equality(Period, Period)
+  fullName: TradingPlatform.BusinessLayer.Period.Equality(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.Period)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: op_Equality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator ==(Period period1, Period period2)
+    parameters:
+    - id: period1
+      type: TradingPlatform.BusinessLayer.Period
+    - id: period2
+      type: TradingPlatform.BusinessLayer.Period
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(period1 As Period, period2 As Period) As Boolean
+  overload: TradingPlatform.BusinessLayer.Period.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.op_Inequality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  commentId: M:TradingPlatform.BusinessLayer.Period.op_Inequality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  id: op_Inequality(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: Inequality(Period, Period)
+  nameWithType: Period.Inequality(Period, Period)
+  fullName: TradingPlatform.BusinessLayer.Period.Inequality(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.Period)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: op_Inequality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator !=(Period period1, Period period2)
+    parameters:
+    - id: period1
+      type: TradingPlatform.BusinessLayer.Period
+    - id: period2
+      type: TradingPlatform.BusinessLayer.Period
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(period1 As Period, period2 As Period) As Boolean
+  overload: TradingPlatform.BusinessLayer.Period.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.op_LessThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  commentId: M:TradingPlatform.BusinessLayer.Period.op_LessThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  id: op_LessThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: LessThan(Period, Period)
+  nameWithType: Period.LessThan(Period, Period)
+  fullName: TradingPlatform.BusinessLayer.Period.LessThan(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.Period)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: op_LessThan
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator <(Period period1, Period period2)
+    parameters:
+    - id: period1
+      type: TradingPlatform.BusinessLayer.Period
+    - id: period2
+      type: TradingPlatform.BusinessLayer.Period
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <(period1 As Period, period2 As Period) As Boolean
+  overload: TradingPlatform.BusinessLayer.Period.op_LessThan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.op_GreaterThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  commentId: M:TradingPlatform.BusinessLayer.Period.op_GreaterThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  id: op_GreaterThan(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan(Period, Period)
+  nameWithType: Period.GreaterThan(Period, Period)
+  fullName: TradingPlatform.BusinessLayer.Period.GreaterThan(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.Period)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: op_GreaterThan
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator>(Period period1, Period period2)
+    parameters:
+    - id: period1
+      type: TradingPlatform.BusinessLayer.Period
+    - id: period2
+      type: TradingPlatform.BusinessLayer.Period
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator>(period1 As Period, period2 As Period) As Boolean
+  overload: TradingPlatform.BusinessLayer.Period.op_GreaterThan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.op_LessThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  commentId: M:TradingPlatform.BusinessLayer.Period.op_LessThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  id: op_LessThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: LessThanOrEqual(Period, Period)
+  nameWithType: Period.LessThanOrEqual(Period, Period)
+  fullName: TradingPlatform.BusinessLayer.Period.LessThanOrEqual(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.Period)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: op_LessThanOrEqual
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 58
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator <=(Period period1, Period period2)
+    parameters:
+    - id: period1
+      type: TradingPlatform.BusinessLayer.Period
+    - id: period2
+      type: TradingPlatform.BusinessLayer.Period
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <=(period1 As Period, period2 As Period) As Boolean
+  overload: TradingPlatform.BusinessLayer.Period.op_LessThanOrEqual*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.op_GreaterThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  commentId: M:TradingPlatform.BusinessLayer.Period.op_GreaterThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  id: op_GreaterThanOrEqual(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.Period)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: GreaterThanOrEqual(Period, Period)
+  nameWithType: Period.GreaterThanOrEqual(Period, Period)
+  fullName: TradingPlatform.BusinessLayer.Period.GreaterThanOrEqual(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.Period)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: op_GreaterThanOrEqual
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator >=(Period period1, Period period2)
+    parameters:
+    - id: period1
+      type: TradingPlatform.BusinessLayer.Period
+    - id: period2
+      type: TradingPlatform.BusinessLayer.Period
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator >=(period1 As Period, period2 As Period) As Boolean
+  overload: TradingPlatform.BusinessLayer.Period.op_GreaterThanOrEqual*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.Period.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Period.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.Period.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 80
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.Period.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Period.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.Period.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Period.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.Period.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 88
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: TradingPlatform.BusinessLayer.Period.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Period.Format(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Period.Format(System.DateTime)
+  id: Format(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: Format(DateTime)
+  nameWithType: Period.Format(DateTime)
+  fullName: TradingPlatform.BusinessLayer.Period.Format(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: Format
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Format(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: Public Function Format(dateTime As Date) As String
+  overload: TradingPlatform.BusinessLayer.Period.Format*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Period.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Period.ToString()
+  fullName: TradingPlatform.BusinessLayer.Period.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 119
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.ValueType.ToString
+  overload: TradingPlatform.BusinessLayer.Period.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Period.TicksInBasePeriod(TradingPlatform.BusinessLayer.BasePeriod)
+  commentId: M:TradingPlatform.BusinessLayer.Period.TicksInBasePeriod(TradingPlatform.BusinessLayer.BasePeriod)
+  id: TicksInBasePeriod(TradingPlatform.BusinessLayer.BasePeriod)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: TicksInBasePeriod(BasePeriod)
+  nameWithType: Period.TicksInBasePeriod(BasePeriod)
+  fullName: TradingPlatform.BusinessLayer.Period.TicksInBasePeriod(TradingPlatform.BusinessLayer.BasePeriod)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: TicksInBasePeriod
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 121
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static long TicksInBasePeriod(BasePeriod basePeriod)
+    parameters:
+    - id: basePeriod
+      type: TradingPlatform.BusinessLayer.BasePeriod
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function TicksInBasePeriod(basePeriod As BasePeriod) As Long
+  overload: TradingPlatform.BusinessLayer.Period.TicksInBasePeriod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.BasePeriodToShortString(TradingPlatform.BusinessLayer.BasePeriod)
+  commentId: M:TradingPlatform.BusinessLayer.Period.BasePeriodToShortString(TradingPlatform.BusinessLayer.BasePeriod)
+  id: BasePeriodToShortString(TradingPlatform.BusinessLayer.BasePeriod)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: BasePeriodToShortString(BasePeriod)
+  nameWithType: Period.BasePeriodToShortString(BasePeriod)
+  fullName: TradingPlatform.BusinessLayer.Period.BasePeriodToShortString(TradingPlatform.BusinessLayer.BasePeriod)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: BasePeriodToShortString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 146
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string BasePeriodToShortString(BasePeriod basePeriod)
+    parameters:
+    - id: basePeriod
+      type: TradingPlatform.BusinessLayer.BasePeriod
+    return:
+      type: System.String
+    content.vb: Public Shared Function BasePeriodToShortString(basePeriod As BasePeriod) As String
+  overload: TradingPlatform.BusinessLayer.Period.BasePeriodToShortString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Period.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.Period.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Object)
+  nameWithType: Period.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.Period.CompareTo(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: CompareTo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 171
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int CompareTo(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As Object) As Integer
+  overload: TradingPlatform.BusinessLayer.Period.CompareTo*
+  implements:
+  - System.IComparable.CompareTo(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Period.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: Period.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Period.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 176
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Period.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Period.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: Period.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Period.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 181
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Period.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Period.TICK1
+  commentId: P:TradingPlatform.BusinessLayer.Period.TICK1
+  id: TICK1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: TICK1
+  nameWithType: Period.TICK1
+  fullName: TradingPlatform.BusinessLayer.Period.TICK1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: TICK1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 190
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period TICK1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property TICK1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.TICK1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.SECOND1
+  commentId: P:TradingPlatform.BusinessLayer.Period.SECOND1
+  id: SECOND1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: SECOND1
+  nameWithType: Period.SECOND1
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: SECOND1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 192
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period SECOND1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property SECOND1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.SECOND1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.SECOND5
+  commentId: P:TradingPlatform.BusinessLayer.Period.SECOND5
+  id: SECOND5
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: SECOND5
+  nameWithType: Period.SECOND5
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND5
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: SECOND5
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 194
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period SECOND5 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property SECOND5 As Period
+  overload: TradingPlatform.BusinessLayer.Period.SECOND5*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.SECOND10
+  commentId: P:TradingPlatform.BusinessLayer.Period.SECOND10
+  id: SECOND10
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: SECOND10
+  nameWithType: Period.SECOND10
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND10
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: SECOND10
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 196
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period SECOND10 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property SECOND10 As Period
+  overload: TradingPlatform.BusinessLayer.Period.SECOND10*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.SECOND15
+  commentId: P:TradingPlatform.BusinessLayer.Period.SECOND15
+  id: SECOND15
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: SECOND15
+  nameWithType: Period.SECOND15
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND15
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: SECOND15
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 198
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period SECOND15 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property SECOND15 As Period
+  overload: TradingPlatform.BusinessLayer.Period.SECOND15*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.SECOND30
+  commentId: P:TradingPlatform.BusinessLayer.Period.SECOND30
+  id: SECOND30
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: SECOND30
+  nameWithType: Period.SECOND30
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND30
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: SECOND30
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 200
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period SECOND30 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property SECOND30 As Period
+  overload: TradingPlatform.BusinessLayer.Period.SECOND30*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN1
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN1
+  id: MIN1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN1
+  nameWithType: Period.MIN1
+  fullName: TradingPlatform.BusinessLayer.Period.MIN1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 202
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN2
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN2
+  id: MIN2
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN2
+  nameWithType: Period.MIN2
+  fullName: TradingPlatform.BusinessLayer.Period.MIN2
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 204
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN2 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN2 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN2*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN3
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN3
+  id: MIN3
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN3
+  nameWithType: Period.MIN3
+  fullName: TradingPlatform.BusinessLayer.Period.MIN3
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 206
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN3 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN3 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN3*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN4
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN4
+  id: MIN4
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN4
+  nameWithType: Period.MIN4
+  fullName: TradingPlatform.BusinessLayer.Period.MIN4
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 208
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN4 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN4 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN4*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN5
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN5
+  id: MIN5
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN5
+  nameWithType: Period.MIN5
+  fullName: TradingPlatform.BusinessLayer.Period.MIN5
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN5
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 210
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN5 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN5 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN5*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN10
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN10
+  id: MIN10
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN10
+  nameWithType: Period.MIN10
+  fullName: TradingPlatform.BusinessLayer.Period.MIN10
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN10
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 212
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN10 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN10 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN10*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN15
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN15
+  id: MIN15
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN15
+  nameWithType: Period.MIN15
+  fullName: TradingPlatform.BusinessLayer.Period.MIN15
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN15
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 214
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN15 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN15 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN15*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MIN30
+  commentId: P:TradingPlatform.BusinessLayer.Period.MIN30
+  id: MIN30
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MIN30
+  nameWithType: Period.MIN30
+  fullName: TradingPlatform.BusinessLayer.Period.MIN30
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MIN30
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 216
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MIN30 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MIN30 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MIN30*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR1
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR1
+  id: HOUR1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR1
+  nameWithType: Period.HOUR1
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 218
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR2
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR2
+  id: HOUR2
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR2
+  nameWithType: Period.HOUR2
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR2
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 220
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR2 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR2 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR2*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR3
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR3
+  id: HOUR3
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR3
+  nameWithType: Period.HOUR3
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR3
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 222
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR3 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR3 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR3*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR4
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR4
+  id: HOUR4
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR4
+  nameWithType: Period.HOUR4
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR4
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 224
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR4 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR4 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR4*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR6
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR6
+  id: HOUR6
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR6
+  nameWithType: Period.HOUR6
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR6
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR6
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 226
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR6 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR6 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR6*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR8
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR8
+  id: HOUR8
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR8
+  nameWithType: Period.HOUR8
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR8
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR8
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 228
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR8 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR8 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR8*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.HOUR12
+  commentId: P:TradingPlatform.BusinessLayer.Period.HOUR12
+  id: HOUR12
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: HOUR12
+  nameWithType: Period.HOUR12
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR12
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: HOUR12
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 230
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period HOUR12 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property HOUR12 As Period
+  overload: TradingPlatform.BusinessLayer.Period.HOUR12*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.DAY1
+  commentId: P:TradingPlatform.BusinessLayer.Period.DAY1
+  id: DAY1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: DAY1
+  nameWithType: Period.DAY1
+  fullName: TradingPlatform.BusinessLayer.Period.DAY1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: DAY1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 232
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period DAY1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property DAY1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.DAY1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.WEEK1
+  commentId: P:TradingPlatform.BusinessLayer.Period.WEEK1
+  id: WEEK1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: WEEK1
+  nameWithType: Period.WEEK1
+  fullName: TradingPlatform.BusinessLayer.Period.WEEK1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: WEEK1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 234
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period WEEK1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property WEEK1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.WEEK1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.MONTH1
+  commentId: P:TradingPlatform.BusinessLayer.Period.MONTH1
+  id: MONTH1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: MONTH1
+  nameWithType: Period.MONTH1
+  fullName: TradingPlatform.BusinessLayer.Period.MONTH1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: MONTH1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 236
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period MONTH1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property MONTH1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.MONTH1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Period.YEAR1
+  commentId: P:TradingPlatform.BusinessLayer.Period.YEAR1
+  id: YEAR1
+  parent: TradingPlatform.BusinessLayer.Period
+  langs:
+  - csharp
+  - vb
+  name: YEAR1
+  nameWithType: Period.YEAR1
+  fullName: TradingPlatform.BusinessLayer.Period.YEAR1
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    id: YEAR1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Period.cs
+    startLine: 238
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Period YEAR1 { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Shared ReadOnly Property YEAR1 As Period
+  overload: TradingPlatform.BusinessLayer.Period.YEAR1*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Period.PeriodMultiplier*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.PeriodMultiplier
+  name: PeriodMultiplier
+  nameWithType: Period.PeriodMultiplier
+  fullName: TradingPlatform.BusinessLayer.Period.PeriodMultiplier
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Period.BasePeriod*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.BasePeriod
+  name: BasePeriod
+  nameWithType: Period.BasePeriod
+  fullName: TradingPlatform.BusinessLayer.Period.BasePeriod
+- uid: TradingPlatform.BusinessLayer.BasePeriod
+  commentId: T:TradingPlatform.BusinessLayer.BasePeriod
+  parent: TradingPlatform.BusinessLayer
+  name: BasePeriod
+  nameWithType: BasePeriod
+  fullName: TradingPlatform.BusinessLayer.BasePeriod
+- uid: TradingPlatform.BusinessLayer.Period.Ticks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.Ticks
+  name: Ticks
+  nameWithType: Period.Ticks
+  fullName: TradingPlatform.BusinessLayer.Period.Ticks
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TradingPlatform.BusinessLayer.Period.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.#ctor
+  name: Period
+  nameWithType: Period.Period
+  fullName: TradingPlatform.BusinessLayer.Period.Period
+- uid: TradingPlatform.BusinessLayer.Period.op_Equality*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.op_Equality
+  name: Equality
+  nameWithType: Period.Equality
+  fullName: TradingPlatform.BusinessLayer.Period.Equality
+- uid: TradingPlatform.BusinessLayer.Period
+  commentId: T:TradingPlatform.BusinessLayer.Period
+  parent: TradingPlatform.BusinessLayer
+  name: Period
+  nameWithType: Period
+  fullName: TradingPlatform.BusinessLayer.Period
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Period.op_Inequality*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.op_Inequality
+  name: Inequality
+  nameWithType: Period.Inequality
+  fullName: TradingPlatform.BusinessLayer.Period.Inequality
+- uid: TradingPlatform.BusinessLayer.Period.op_LessThan*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.op_LessThan
+  name: LessThan
+  nameWithType: Period.LessThan
+  fullName: TradingPlatform.BusinessLayer.Period.LessThan
+- uid: TradingPlatform.BusinessLayer.Period.op_GreaterThan*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.op_GreaterThan
+  name: GreaterThan
+  nameWithType: Period.GreaterThan
+  fullName: TradingPlatform.BusinessLayer.Period.GreaterThan
+- uid: TradingPlatform.BusinessLayer.Period.op_LessThanOrEqual*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.op_LessThanOrEqual
+  name: LessThanOrEqual
+  nameWithType: Period.LessThanOrEqual
+  fullName: TradingPlatform.BusinessLayer.Period.LessThanOrEqual
+- uid: TradingPlatform.BusinessLayer.Period.op_GreaterThanOrEqual*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.op_GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  nameWithType: Period.GreaterThanOrEqual
+  fullName: TradingPlatform.BusinessLayer.Period.GreaterThanOrEqual
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Period.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.Equals
+  name: Equals
+  nameWithType: Period.Equals
+  fullName: TradingPlatform.BusinessLayer.Period.Equals
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Period.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.GetHashCode
+  name: GetHashCode
+  nameWithType: Period.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.Period.GetHashCode
+- uid: TradingPlatform.BusinessLayer.Period.Format*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.Format
+  name: Format
+  nameWithType: Period.Format
+  fullName: TradingPlatform.BusinessLayer.Period.Format
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Period.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.ToString
+  name: ToString
+  nameWithType: Period.ToString
+  fullName: TradingPlatform.BusinessLayer.Period.ToString
+- uid: TradingPlatform.BusinessLayer.Period.TicksInBasePeriod*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.TicksInBasePeriod
+  name: TicksInBasePeriod
+  nameWithType: Period.TicksInBasePeriod
+  fullName: TradingPlatform.BusinessLayer.Period.TicksInBasePeriod
+- uid: TradingPlatform.BusinessLayer.Period.BasePeriodToShortString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.BasePeriodToShortString
+  name: BasePeriodToShortString
+  nameWithType: Period.BasePeriodToShortString
+  fullName: TradingPlatform.BusinessLayer.Period.BasePeriodToShortString
+- uid: TradingPlatform.BusinessLayer.Period.CompareTo*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.CompareTo
+  name: CompareTo
+  nameWithType: Period.CompareTo
+  fullName: TradingPlatform.BusinessLayer.Period.CompareTo
+- uid: System.IComparable.CompareTo(System.Object)
+  commentId: M:System.IComparable.CompareTo(System.Object)
+  parent: System.IComparable
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: IComparable.CompareTo(Object)
+  fullName: System.IComparable.CompareTo(System.Object)
+  spec.csharp:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Period.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.ToXElement
+  name: ToXElement
+  nameWithType: Period.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Period.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Period.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.FromXElement
+  name: FromXElement
+  nameWithType: Period.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Period.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+- uid: TradingPlatform.BusinessLayer.Period.TICK1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.TICK1
+  name: TICK1
+  nameWithType: Period.TICK1
+  fullName: TradingPlatform.BusinessLayer.Period.TICK1
+- uid: TradingPlatform.BusinessLayer.Period.SECOND1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.SECOND1
+  name: SECOND1
+  nameWithType: Period.SECOND1
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND1
+- uid: TradingPlatform.BusinessLayer.Period.SECOND5*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.SECOND5
+  name: SECOND5
+  nameWithType: Period.SECOND5
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND5
+- uid: TradingPlatform.BusinessLayer.Period.SECOND10*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.SECOND10
+  name: SECOND10
+  nameWithType: Period.SECOND10
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND10
+- uid: TradingPlatform.BusinessLayer.Period.SECOND15*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.SECOND15
+  name: SECOND15
+  nameWithType: Period.SECOND15
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND15
+- uid: TradingPlatform.BusinessLayer.Period.SECOND30*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.SECOND30
+  name: SECOND30
+  nameWithType: Period.SECOND30
+  fullName: TradingPlatform.BusinessLayer.Period.SECOND30
+- uid: TradingPlatform.BusinessLayer.Period.MIN1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN1
+  name: MIN1
+  nameWithType: Period.MIN1
+  fullName: TradingPlatform.BusinessLayer.Period.MIN1
+- uid: TradingPlatform.BusinessLayer.Period.MIN2*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN2
+  name: MIN2
+  nameWithType: Period.MIN2
+  fullName: TradingPlatform.BusinessLayer.Period.MIN2
+- uid: TradingPlatform.BusinessLayer.Period.MIN3*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN3
+  name: MIN3
+  nameWithType: Period.MIN3
+  fullName: TradingPlatform.BusinessLayer.Period.MIN3
+- uid: TradingPlatform.BusinessLayer.Period.MIN4*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN4
+  name: MIN4
+  nameWithType: Period.MIN4
+  fullName: TradingPlatform.BusinessLayer.Period.MIN4
+- uid: TradingPlatform.BusinessLayer.Period.MIN5*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN5
+  name: MIN5
+  nameWithType: Period.MIN5
+  fullName: TradingPlatform.BusinessLayer.Period.MIN5
+- uid: TradingPlatform.BusinessLayer.Period.MIN10*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN10
+  name: MIN10
+  nameWithType: Period.MIN10
+  fullName: TradingPlatform.BusinessLayer.Period.MIN10
+- uid: TradingPlatform.BusinessLayer.Period.MIN15*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN15
+  name: MIN15
+  nameWithType: Period.MIN15
+  fullName: TradingPlatform.BusinessLayer.Period.MIN15
+- uid: TradingPlatform.BusinessLayer.Period.MIN30*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MIN30
+  name: MIN30
+  nameWithType: Period.MIN30
+  fullName: TradingPlatform.BusinessLayer.Period.MIN30
+- uid: TradingPlatform.BusinessLayer.Period.HOUR1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR1
+  name: HOUR1
+  nameWithType: Period.HOUR1
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR1
+- uid: TradingPlatform.BusinessLayer.Period.HOUR2*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR2
+  name: HOUR2
+  nameWithType: Period.HOUR2
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR2
+- uid: TradingPlatform.BusinessLayer.Period.HOUR3*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR3
+  name: HOUR3
+  nameWithType: Period.HOUR3
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR3
+- uid: TradingPlatform.BusinessLayer.Period.HOUR4*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR4
+  name: HOUR4
+  nameWithType: Period.HOUR4
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR4
+- uid: TradingPlatform.BusinessLayer.Period.HOUR6*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR6
+  name: HOUR6
+  nameWithType: Period.HOUR6
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR6
+- uid: TradingPlatform.BusinessLayer.Period.HOUR8*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR8
+  name: HOUR8
+  nameWithType: Period.HOUR8
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR8
+- uid: TradingPlatform.BusinessLayer.Period.HOUR12*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.HOUR12
+  name: HOUR12
+  nameWithType: Period.HOUR12
+  fullName: TradingPlatform.BusinessLayer.Period.HOUR12
+- uid: TradingPlatform.BusinessLayer.Period.DAY1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.DAY1
+  name: DAY1
+  nameWithType: Period.DAY1
+  fullName: TradingPlatform.BusinessLayer.Period.DAY1
+- uid: TradingPlatform.BusinessLayer.Period.WEEK1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.WEEK1
+  name: WEEK1
+  nameWithType: Period.WEEK1
+  fullName: TradingPlatform.BusinessLayer.Period.WEEK1
+- uid: TradingPlatform.BusinessLayer.Period.MONTH1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.MONTH1
+  name: MONTH1
+  nameWithType: Period.MONTH1
+  fullName: TradingPlatform.BusinessLayer.Period.MONTH1
+- uid: TradingPlatform.BusinessLayer.Period.YEAR1*
+  commentId: Overload:TradingPlatform.BusinessLayer.Period.YEAR1
+  name: YEAR1
+  nameWithType: Period.YEAR1
+  fullName: TradingPlatform.BusinessLayer.Period.YEAR1

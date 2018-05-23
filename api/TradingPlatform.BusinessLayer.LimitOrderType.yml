@@ -1,0 +1,1445 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.LimitOrderType
+  commentId: T:TradingPlatform.BusinessLayer.LimitOrderType
+  id: LimitOrderType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.LimitOrderType.#ctor(TradingPlatform.BusinessLayer.TimeInForce[])
+  - TradingPlatform.BusinessLayer.LimitOrderType.Behavior
+  - TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  - TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  - TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  - TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  - TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  - TradingPlatform.BusinessLayer.LimitOrderType.Id
+  - TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  langs:
+  - csharp
+  - vb
+  name: LimitOrderType
+  nameWithType: LimitOrderType
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: LimitOrderType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class LimitOrderType : OrderType, IConnectionBindedObject, IUniqueID, IComparable, IRulesContainer'
+    content.vb: >-
+      Public Class LimitOrderType
+          Inherits OrderType
+          Implements IConnectionBindedObject, IUniqueID, IComparable, IRulesContainer
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  - TradingPlatform.BusinessLayer.OrderType
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.StopLimitOrderType
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  - System.IComparable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.OrderType.MarketOrderTypeId
+  - TradingPlatform.BusinessLayer.OrderType.LimitOrderTypeId
+  - TradingPlatform.BusinessLayer.OrderType.StopOrderTypeId
+  - TradingPlatform.BusinessLayer.OrderType.TrailingStopOrderTypeId
+  - TradingPlatform.BusinessLayer.OrderType.StopLimitOrderTypeId
+  - TradingPlatform.BusinessLayer.OrderType.PRICE
+  - TradingPlatform.BusinessLayer.OrderType.TRIGGER_PRICE
+  - TradingPlatform.BusinessLayer.OrderType.TRAIL_OFFSET
+  - TradingPlatform.BusinessLayer.OrderType.Name
+  - TradingPlatform.BusinessLayer.OrderType.Usage
+  - TradingPlatform.BusinessLayer.OrderType.AllowedTifs
+  - TradingPlatform.BusinessLayer.OrderType.SLTPPriceMeasurement
+  - TradingPlatform.BusinessLayer.OrderType.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.Id
+  commentId: P:TradingPlatform.BusinessLayer.LimitOrderType.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: LimitOrderType.Id
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Id As String
+  overridden: TradingPlatform.BusinessLayer.OrderType.Id
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.Id*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.Behavior
+  commentId: P:TradingPlatform.BusinessLayer.LimitOrderType.Behavior
+  id: Behavior
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: Behavior
+  nameWithType: LimitOrderType.Behavior
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.Behavior
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: Behavior
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override OrderTypeBehavior Behavior { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+    content.vb: Public Overrides ReadOnly Property Behavior As OrderTypeBehavior
+  overridden: TradingPlatform.BusinessLayer.OrderType.Behavior
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.Behavior*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.#ctor(TradingPlatform.BusinessLayer.TimeInForce[])
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.#ctor(TradingPlatform.BusinessLayer.TimeInForce[])
+  id: '#ctor(TradingPlatform.BusinessLayer.TimeInForce[])'
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: LimitOrderType(TimeInForce[])
+  nameWithType: LimitOrderType.LimitOrderType(TimeInForce[])
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.LimitOrderType(TradingPlatform.BusinessLayer.TimeInForce[])
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public LimitOrderType(params TimeInForce[] allowedTimeInForce)
+    parameters:
+    - id: allowedTimeInForce
+      type: TradingPlatform.BusinessLayer.TimeInForce[]
+    content.vb: Public Sub New(ParamArray allowedTimeInForce As TimeInForce())
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.#ctor*
+  nameWithType.vb: LimitOrderType.LimitOrderType(TimeInForce())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.LimitOrderType.LimitOrderType(TradingPlatform.BusinessLayer.TimeInForce())
+  name.vb: LimitOrderType(TimeInForce())
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  id: GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: GetOrderSettings(OrderRequestParameters)
+  nameWithType: LimitOrderType.GetOrderSettings(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: GetOrderSettings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<SettingItem> GetOrderSettings(OrderRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.OrderRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overrides Function GetOrderSettings(parameters As OrderRequestParameters) As IList(Of SettingItem)
+  overridden: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  id: GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: GetPlaceConfirmMessage(PlaceOrderRequestParameters, FormatSettings)
+  nameWithType: LimitOrderType.GetPlaceConfirmMessage(PlaceOrderRequestParameters, FormatSettings)
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters, TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: GetPlaceConfirmMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string GetPlaceConfirmMessage(PlaceOrderRequestParameters placeRequest, FormatSettings formatSettings)
+    parameters:
+    - id: placeRequest
+      type: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+    - id: formatSettings
+      type: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    return:
+      type: System.String
+    content.vb: Public Overrides Function GetPlaceConfirmMessage(placeRequest As PlaceOrderRequestParameters, formatSettings As FormatSettings) As String
+  overridden: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  id: GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: GetModifyConfirmMessage(ModifyOrderRequestParameters, FormatSettings)
+  nameWithType: LimitOrderType.GetModifyConfirmMessage(ModifyOrderRequestParameters, FormatSettings)
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters, TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: GetModifyConfirmMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 75
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string GetModifyConfirmMessage(ModifyOrderRequestParameters modifyRequest, FormatSettings formatSettings)
+    parameters:
+    - id: modifyRequest
+      type: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+    - id: formatSettings
+      type: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    return:
+      type: System.String
+    content.vb: Public Overrides Function GetModifyConfirmMessage(modifyRequest As ModifyOrderRequestParameters, formatSettings As FormatSettings) As String
+  overridden: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  id: GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: GetCancelConfirmMessage(CancelOrderRequestParameters, FormatSettings)
+  nameWithType: LimitOrderType.GetCancelConfirmMessage(CancelOrderRequestParameters, FormatSettings)
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters, TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: GetCancelConfirmMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 83
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string GetCancelConfirmMessage(CancelOrderRequestParameters cancelRequest, FormatSettings formatSettings)
+    parameters:
+    - id: cancelRequest
+      type: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+    - id: formatSettings
+      type: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    return:
+      type: System.String
+    content.vb: Public Overrides Function GetCancelConfirmMessage(cancelRequest As CancelOrderRequestParameters, formatSettings As FormatSettings) As String
+  overridden: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  id: ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: ValidateOrderRequestParameters(OrderRequestParameters)
+  nameWithType: LimitOrderType.ValidateOrderRequestParameters(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: ValidateOrderRequestParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 94
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override ValidateResult ValidateOrderRequestParameters(OrderRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.OrderRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.ValidateResult
+    content.vb: Public Overrides Function ValidateOrderRequestParameters(parameters As OrderRequestParameters) As ValidateResult
+  overridden: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  id: GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.LimitOrderType
+  langs:
+  - csharp
+  - vb
+  name: GetDealTicketItems(OrderRequestParameters)
+  nameWithType: LimitOrderType.GetDealTicketItems(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    id: GetDealTicketItems
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/LimitOrderType.cs
+    startLine: 128
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<DealTicketItem> GetDealTicketItems(OrderRequestParameters request)
+    parameters:
+    - id: request
+      type: TradingPlatform.BusinessLayer.OrderRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.DealTicketItem}
+    content.vb: Public Overrides Function GetDealTicketItems(request As OrderRequestParameters) As IList(Of DealTicketItem)
+  overridden: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  overload: TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.OrderType
+  commentId: T:TradingPlatform.BusinessLayer.OrderType
+  parent: TradingPlatform.BusinessLayer
+  name: OrderType
+  nameWithType: OrderType
+  fullName: TradingPlatform.BusinessLayer.OrderType
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.OrderType.MarketOrderTypeId
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.MarketOrderTypeId
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: MarketOrderTypeId
+  nameWithType: OrderType.MarketOrderTypeId
+  fullName: TradingPlatform.BusinessLayer.OrderType.MarketOrderTypeId
+- uid: TradingPlatform.BusinessLayer.OrderType.LimitOrderTypeId
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.LimitOrderTypeId
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: LimitOrderTypeId
+  nameWithType: OrderType.LimitOrderTypeId
+  fullName: TradingPlatform.BusinessLayer.OrderType.LimitOrderTypeId
+- uid: TradingPlatform.BusinessLayer.OrderType.StopOrderTypeId
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.StopOrderTypeId
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: StopOrderTypeId
+  nameWithType: OrderType.StopOrderTypeId
+  fullName: TradingPlatform.BusinessLayer.OrderType.StopOrderTypeId
+- uid: TradingPlatform.BusinessLayer.OrderType.TrailingStopOrderTypeId
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.TrailingStopOrderTypeId
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: TrailingStopOrderTypeId
+  nameWithType: OrderType.TrailingStopOrderTypeId
+  fullName: TradingPlatform.BusinessLayer.OrderType.TrailingStopOrderTypeId
+- uid: TradingPlatform.BusinessLayer.OrderType.StopLimitOrderTypeId
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.StopLimitOrderTypeId
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: StopLimitOrderTypeId
+  nameWithType: OrderType.StopLimitOrderTypeId
+  fullName: TradingPlatform.BusinessLayer.OrderType.StopLimitOrderTypeId
+- uid: TradingPlatform.BusinessLayer.OrderType.PRICE
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.PRICE
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: PRICE
+  nameWithType: OrderType.PRICE
+  fullName: TradingPlatform.BusinessLayer.OrderType.PRICE
+- uid: TradingPlatform.BusinessLayer.OrderType.TRIGGER_PRICE
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.TRIGGER_PRICE
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: TRIGGER_PRICE
+  nameWithType: OrderType.TRIGGER_PRICE
+  fullName: TradingPlatform.BusinessLayer.OrderType.TRIGGER_PRICE
+- uid: TradingPlatform.BusinessLayer.OrderType.TRAIL_OFFSET
+  commentId: F:TradingPlatform.BusinessLayer.OrderType.TRAIL_OFFSET
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: TRAIL_OFFSET
+  nameWithType: OrderType.TRAIL_OFFSET
+  fullName: TradingPlatform.BusinessLayer.OrderType.TRAIL_OFFSET
+- uid: TradingPlatform.BusinessLayer.OrderType.Name
+  commentId: P:TradingPlatform.BusinessLayer.OrderType.Name
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: Name
+  nameWithType: OrderType.Name
+  fullName: TradingPlatform.BusinessLayer.OrderType.Name
+- uid: TradingPlatform.BusinessLayer.OrderType.Usage
+  commentId: P:TradingPlatform.BusinessLayer.OrderType.Usage
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: Usage
+  nameWithType: OrderType.Usage
+  fullName: TradingPlatform.BusinessLayer.OrderType.Usage
+- uid: TradingPlatform.BusinessLayer.OrderType.AllowedTifs
+  commentId: P:TradingPlatform.BusinessLayer.OrderType.AllowedTifs
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: AllowedTifs
+  nameWithType: OrderType.AllowedTifs
+  fullName: TradingPlatform.BusinessLayer.OrderType.AllowedTifs
+- uid: TradingPlatform.BusinessLayer.OrderType.SLTPPriceMeasurement
+  commentId: P:TradingPlatform.BusinessLayer.OrderType.SLTPPriceMeasurement
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: SLTPPriceMeasurement
+  nameWithType: OrderType.SLTPPriceMeasurement
+  fullName: TradingPlatform.BusinessLayer.OrderType.SLTPPriceMeasurement
+- uid: TradingPlatform.BusinessLayer.OrderType.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: OrderType.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.OrderType.CompareTo(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: OrderType.CompareTo
+    fullName: TradingPlatform.BusinessLayer.OrderType.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: OrderType.CompareTo
+    fullName: TradingPlatform.BusinessLayer.OrderType.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: GetSLTPComfirmMessage(OrderRequestParameters)
+  nameWithType: OrderType.GetSLTPComfirmMessage(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetSLTPComfirmMessage
+    nameWithType: OrderType.GetSLTPComfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetSLTPComfirmMessage
+    nameWithType: OrderType.GetSLTPComfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetSLTPComfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.OrderType.Id
+  commentId: P:TradingPlatform.BusinessLayer.OrderType.Id
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: Id
+  nameWithType: OrderType.Id
+  fullName: TradingPlatform.BusinessLayer.OrderType.Id
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.Id
+  name: Id
+  nameWithType: LimitOrderType.Id
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.OrderType.Behavior
+  commentId: P:TradingPlatform.BusinessLayer.OrderType.Behavior
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: Behavior
+  nameWithType: OrderType.Behavior
+  fullName: TradingPlatform.BusinessLayer.OrderType.Behavior
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.Behavior*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.Behavior
+  name: Behavior
+  nameWithType: LimitOrderType.Behavior
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.Behavior
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  commentId: T:TradingPlatform.BusinessLayer.OrderTypeBehavior
+  parent: TradingPlatform.BusinessLayer
+  name: OrderTypeBehavior
+  nameWithType: OrderTypeBehavior
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.#ctor
+  name: LimitOrderType
+  nameWithType: LimitOrderType.LimitOrderType
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.LimitOrderType
+- uid: TradingPlatform.BusinessLayer.TimeInForce[]
+  isExternal: true
+  name: TimeInForce[]
+  nameWithType: TimeInForce[]
+  fullName: TradingPlatform.BusinessLayer.TimeInForce[]
+  nameWithType.vb: TimeInForce()
+  fullName.vb: TradingPlatform.BusinessLayer.TimeInForce()
+  name.vb: TimeInForce()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.TimeInForce
+    name: TimeInForce
+    nameWithType: TimeInForce
+    fullName: TradingPlatform.BusinessLayer.TimeInForce
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.TimeInForce
+    name: TimeInForce
+    nameWithType: TimeInForce
+    fullName: TradingPlatform.BusinessLayer.TimeInForce
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: GetOrderSettings(OrderRequestParameters)
+  nameWithType: OrderType.GetOrderSettings(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetOrderSettings
+    nameWithType: OrderType.GetOrderSettings
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetOrderSettings
+    nameWithType: OrderType.GetOrderSettings
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetOrderSettings
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings
+  name: GetOrderSettings
+  nameWithType: LimitOrderType.GetOrderSettings
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetOrderSettings
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.OrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: OrderRequestParameters
+  nameWithType: OrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: GetPlaceConfirmMessage(PlaceOrderRequestParameters, FormatSettings)
+  nameWithType: OrderType.GetPlaceConfirmMessage(PlaceOrderRequestParameters, FormatSettings)
+  fullName: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters, TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+    name: GetPlaceConfirmMessage
+    nameWithType: OrderType.GetPlaceConfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+    name: PlaceOrderRequestParameters
+    nameWithType: PlaceOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+    nameWithType: FormatSettings
+    fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+    name: GetPlaceConfirmMessage
+    nameWithType: OrderType.GetPlaceConfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetPlaceConfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+    name: PlaceOrderRequestParameters
+    nameWithType: PlaceOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+    nameWithType: FormatSettings
+    fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage
+  name: GetPlaceConfirmMessage
+  nameWithType: LimitOrderType.GetPlaceConfirmMessage
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetPlaceConfirmMessage
+- uid: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: PlaceOrderRequestParameters
+  nameWithType: PlaceOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  commentId: T:TradingPlatform.BusinessLayer.Utils.FormatSettings
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: FormatSettings
+  nameWithType: FormatSettings
+  fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: GetModifyConfirmMessage(ModifyOrderRequestParameters, FormatSettings)
+  nameWithType: OrderType.GetModifyConfirmMessage(ModifyOrderRequestParameters, FormatSettings)
+  fullName: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters, TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+    name: GetModifyConfirmMessage
+    nameWithType: OrderType.GetModifyConfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+    name: ModifyOrderRequestParameters
+    nameWithType: ModifyOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+    nameWithType: FormatSettings
+    fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+    name: GetModifyConfirmMessage
+    nameWithType: OrderType.GetModifyConfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetModifyConfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+    name: ModifyOrderRequestParameters
+    nameWithType: ModifyOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+    nameWithType: FormatSettings
+    fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage
+  name: GetModifyConfirmMessage
+  nameWithType: LimitOrderType.GetModifyConfirmMessage
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetModifyConfirmMessage
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: ModifyOrderRequestParameters
+  nameWithType: ModifyOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: GetCancelConfirmMessage(CancelOrderRequestParameters, FormatSettings)
+  nameWithType: OrderType.GetCancelConfirmMessage(CancelOrderRequestParameters, FormatSettings)
+  fullName: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters, TradingPlatform.BusinessLayer.Utils.FormatSettings)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+    name: GetCancelConfirmMessage
+    nameWithType: OrderType.GetCancelConfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+    name: CancelOrderRequestParameters
+    nameWithType: CancelOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+    nameWithType: FormatSettings
+    fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage(TradingPlatform.BusinessLayer.CancelOrderRequestParameters,TradingPlatform.BusinessLayer.Utils.FormatSettings)
+    name: GetCancelConfirmMessage
+    nameWithType: OrderType.GetCancelConfirmMessage
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetCancelConfirmMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+    name: CancelOrderRequestParameters
+    nameWithType: CancelOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+    nameWithType: FormatSettings
+    fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage
+  name: GetCancelConfirmMessage
+  nameWithType: LimitOrderType.GetCancelConfirmMessage
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetCancelConfirmMessage
+- uid: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: CancelOrderRequestParameters
+  nameWithType: CancelOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: ValidateOrderRequestParameters(OrderRequestParameters)
+  nameWithType: OrderType.ValidateOrderRequestParameters(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: ValidateOrderRequestParameters
+    nameWithType: OrderType.ValidateOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: ValidateOrderRequestParameters
+    nameWithType: OrderType.ValidateOrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderType.ValidateOrderRequestParameters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters
+  name: ValidateOrderRequestParameters
+  nameWithType: LimitOrderType.ValidateOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.ValidateOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.ValidateResult
+  commentId: T:TradingPlatform.BusinessLayer.ValidateResult
+  parent: TradingPlatform.BusinessLayer
+  name: ValidateResult
+  nameWithType: ValidateResult
+  fullName: TradingPlatform.BusinessLayer.ValidateResult
+- uid: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.OrderType
+  name: GetDealTicketItems(OrderRequestParameters)
+  nameWithType: OrderType.GetDealTicketItems(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetDealTicketItems
+    nameWithType: OrderType.GetDealTicketItems
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetDealTicketItems
+    nameWithType: OrderType.GetDealTicketItems
+    fullName: TradingPlatform.BusinessLayer.OrderType.GetDealTicketItems
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems*
+  commentId: Overload:TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems
+  name: GetDealTicketItems
+  nameWithType: LimitOrderType.GetDealTicketItems
+  fullName: TradingPlatform.BusinessLayer.LimitOrderType.GetDealTicketItems
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.DealTicketItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.DealTicketItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<DealTicketItem>
+  nameWithType: IList<DealTicketItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.DealTicketItem>
+  nameWithType.vb: IList(Of DealTicketItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.DealTicketItem)
+  name.vb: IList(Of DealTicketItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.DealTicketItem
+    name: DealTicketItem
+    nameWithType: DealTicketItem
+    fullName: TradingPlatform.BusinessLayer.DealTicketItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.DealTicketItem
+    name: DealTicketItem
+    nameWithType: DealTicketItem
+    fullName: TradingPlatform.BusinessLayer.DealTicketItem
+  - name: )
+    nameWithType: )
+    fullName: )

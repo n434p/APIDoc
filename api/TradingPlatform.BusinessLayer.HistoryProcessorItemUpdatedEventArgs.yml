@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs
+  id: HistoryProcessorItemUpdatedEventArgs
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.#ctor(System.Int32)
+  - TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessorItemUpdatedEventArgs
+  nameWithType: HistoryProcessorItemUpdatedEventArgs
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessorItemUpdatedEventArgs.cs
+    id: HistoryProcessorItemUpdatedEventArgs
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessorItemUpdatedEventArgs.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class HistoryProcessorItemUpdatedEventArgs : HistoryProcessorEventArgs'
+    content.vb: >-
+      Public Class HistoryProcessorItemUpdatedEventArgs
+          Inherits HistoryProcessorEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.Empty
+  - TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.IndicatorUpdateReason
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  commentId: P:TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  id: ItemOffset
+  parent: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ItemOffset
+  nameWithType: HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessorItemUpdatedEventArgs.cs
+    id: ItemOffset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessorItemUpdatedEventArgs.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int ItemOffset { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ItemOffset As Integer
+  overload: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.#ctor(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessorItemUpdatedEventArgs(Int32)
+  nameWithType: HistoryProcessorItemUpdatedEventArgs.HistoryProcessorItemUpdatedEventArgs(Int32)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.HistoryProcessorItemUpdatedEventArgs(System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessorItemUpdatedEventArgs.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessorItemUpdatedEventArgs.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryProcessorItemUpdatedEventArgs(int itemOffset = 0)
+    parameters:
+    - id: itemOffset
+      type: System.Int32
+    content.vb: Public Sub New(itemOffset As Integer = 0)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryProcessorEventArgs
+  nameWithType: HistoryProcessorEventArgs
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.Empty
+  commentId: P:TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.Empty
+  parent: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+  name: Empty
+  nameWithType: HistoryProcessorEventArgs.Empty
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.Empty
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.IndicatorUpdateReason
+  commentId: P:TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.IndicatorUpdateReason
+  parent: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+  name: IndicatorUpdateReason
+  nameWithType: HistoryProcessorEventArgs.IndicatorUpdateReason
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs.IndicatorUpdateReason
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  name: ItemOffset
+  nameWithType: HistoryProcessorItemUpdatedEventArgs.ItemOffset
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.ItemOffset
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.#ctor
+  name: HistoryProcessorItemUpdatedEventArgs
+  nameWithType: HistoryProcessorItemUpdatedEventArgs.HistoryProcessorItemUpdatedEventArgs
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs.HistoryProcessorItemUpdatedEventArgs

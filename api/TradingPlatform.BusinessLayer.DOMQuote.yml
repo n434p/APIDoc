@@ -1,0 +1,726 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.DOMQuote
+  commentId: T:TradingPlatform.BusinessLayer.DOMQuote
+  id: DOMQuote
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.DOMQuote.#ctor(System.String,System.DateTime)
+  - TradingPlatform.BusinessLayer.DOMQuote.Asks
+  - TradingPlatform.BusinessLayer.DOMQuote.Bids
+  - TradingPlatform.BusinessLayer.DOMQuote.ToString
+  - TradingPlatform.BusinessLayer.DOMQuote.Type
+  langs:
+  - csharp
+  - vb
+  name: DOMQuote
+  nameWithType: DOMQuote
+  fullName: TradingPlatform.BusinessLayer.DOMQuote
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    id: DOMQuote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "DOMQuote", Namespace = "TradingPlatform")]
+
+      public class DOMQuote : MessageQuote
+    content.vb: >-
+      <DataContract(Name:="DOMQuote", Namespace:="TradingPlatform")>
+
+      Public Class DOMQuote
+          Inherits MessageQuote
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  - TradingPlatform.BusinessLayer.MessageQuote
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+  - TradingPlatform.BusinessLayer.MessageQuote.Time
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: DOMQuote
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.DOMQuote.Type
+  commentId: P:TradingPlatform.BusinessLayer.DOMQuote.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.DOMQuote
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DOMQuote.Type
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.DOMQuote.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.DOMQuote.Asks
+  commentId: P:TradingPlatform.BusinessLayer.DOMQuote.Asks
+  id: Asks
+  parent: TradingPlatform.BusinessLayer.DOMQuote
+  langs:
+  - csharp
+  - vb
+  name: Asks
+  nameWithType: DOMQuote.Asks
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.Asks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    id: Asks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Asks")]
+
+      public List<Level2Quote> Asks { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Level2Quote}
+    content.vb: >-
+      <DataMember(Name:="Asks")>
+
+      Public Property Asks As List(Of Level2Quote)
+  overload: TradingPlatform.BusinessLayer.DOMQuote.Asks*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Asks
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DOMQuote.Bids
+  commentId: P:TradingPlatform.BusinessLayer.DOMQuote.Bids
+  id: Bids
+  parent: TradingPlatform.BusinessLayer.DOMQuote
+  langs:
+  - csharp
+  - vb
+  name: Bids
+  nameWithType: DOMQuote.Bids
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.Bids
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    id: Bids
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Bids")]
+
+      public List<Level2Quote> Bids { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Level2Quote}
+    content.vb: >-
+      <DataMember(Name:="Bids")>
+
+      Public Property Bids As List(Of Level2Quote)
+  overload: TradingPlatform.BusinessLayer.DOMQuote.Bids*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Bids
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DOMQuote.#ctor(System.String,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.DOMQuote.#ctor(System.String,System.DateTime)
+  id: '#ctor(System.String,System.DateTime)'
+  parent: TradingPlatform.BusinessLayer.DOMQuote
+  langs:
+  - csharp
+  - vb
+  name: DOMQuote(String, DateTime)
+  nameWithType: DOMQuote.DOMQuote(String, DateTime)
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.DOMQuote(System.String, System.DateTime)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DOMQuote(string instrumentId, DateTime time)
+    parameters:
+    - id: instrumentId
+      type: System.String
+    - id: time
+      type: System.DateTime
+    content.vb: Public Sub New(instrumentId As String, time As Date)
+  overload: TradingPlatform.BusinessLayer.DOMQuote.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DOMQuote.ToString
+  commentId: M:TradingPlatform.BusinessLayer.DOMQuote.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.DOMQuote
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DOMQuote.ToString()
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DOMQuote.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  overload: TradingPlatform.BusinessLayer.DOMQuote.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.MessageQuote
+  commentId: T:TradingPlatform.BusinessLayer.MessageQuote
+  parent: TradingPlatform.BusinessLayer
+  name: MessageQuote
+  nameWithType: MessageQuote
+  fullName: TradingPlatform.BusinessLayer.MessageQuote
+- uid: TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+  commentId: P:TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+  parent: TradingPlatform.BusinessLayer.MessageQuote
+  name: InstrumentId
+  nameWithType: MessageQuote.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+- uid: TradingPlatform.BusinessLayer.MessageQuote.Time
+  commentId: P:TradingPlatform.BusinessLayer.MessageQuote.Time
+  parent: TradingPlatform.BusinessLayer.MessageQuote
+  name: Time
+  nameWithType: MessageQuote.Time
+  fullName: TradingPlatform.BusinessLayer.MessageQuote.Time
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.DOMQuote.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.DOMQuote.Type
+  name: Type
+  nameWithType: DOMQuote.Type
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.DOMQuote.Asks*
+  commentId: Overload:TradingPlatform.BusinessLayer.DOMQuote.Asks
+  name: Asks
+  nameWithType: DOMQuote.Asks
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.Asks
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Level2Quote}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Level2Quote}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Level2Quote>
+  nameWithType: List<Level2Quote>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Level2Quote>
+  nameWithType.vb: List(Of Level2Quote)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Level2Quote)
+  name.vb: List(Of Level2Quote)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Level2Quote
+    name: Level2Quote
+    nameWithType: Level2Quote
+    fullName: TradingPlatform.BusinessLayer.Level2Quote
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Level2Quote
+    name: Level2Quote
+    nameWithType: Level2Quote
+    fullName: TradingPlatform.BusinessLayer.Level2Quote
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.DOMQuote.Bids*
+  commentId: Overload:TradingPlatform.BusinessLayer.DOMQuote.Bids
+  name: Bids
+  nameWithType: DOMQuote.Bids
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.Bids
+- uid: TradingPlatform.BusinessLayer.DOMQuote.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.DOMQuote.#ctor
+  name: DOMQuote
+  nameWithType: DOMQuote.DOMQuote
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.DOMQuote
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.DOMQuote.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.DOMQuote.ToString
+  name: ToString
+  nameWithType: DOMQuote.ToString
+  fullName: TradingPlatform.BusinessLayer.DOMQuote.ToString

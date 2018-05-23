@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  id: IChartDrawings
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.Added
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine(System.Int32,TradingPlatform.BusinessLayer.Instrument,System.Drawing.Color,TradingPlatform.BusinessLayer.LineStyle,System.Int32,System.DateTime,System.Double,System.DateTime,System.Double)
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById(System.String)
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.Moved
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(System.String)
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.Removed
+  - TradingPlatform.BusinessLayer.Chart.IChartDrawings.SelectionChanged
+  langs:
+  - csharp
+  - vb
+  name: IChartDrawings
+  nameWithType: IChartDrawings
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: IChartDrawings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public interface IChartDrawings
+    content.vb: Public Interface IChartDrawings
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  id: Add(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: Add(IDrawing)
+  nameWithType: IChartDrawings.Add(IDrawing)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: Add
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: void Add(IDrawing drawing)
+    parameters:
+    - id: drawing
+      type: TradingPlatform.BusinessLayer.Chart.IDrawing
+    content.vb: Sub Add(drawing As IDrawing)
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById(System.String)
+  id: FindById(System.String)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: FindById(String)
+  nameWithType: IChartDrawings.FindById(String)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: FindById
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: IDrawing FindById(string drawingId)
+    parameters:
+    - id: drawingId
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.IDrawing
+    content.vb: Function FindById(drawingId As String) As IDrawing
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll
+  id: GetAll
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: IChartDrawings.GetAll()
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: GetAll
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: List<IDrawing> GetAll()
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Chart.IDrawing}
+    content.vb: Function GetAll As List(Of IDrawing)
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(System.String)
+  id: Remove(System.String)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: Remove(String)
+  nameWithType: IChartDrawings.Remove(String)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: Remove
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: void Remove(string drawingId)
+    parameters:
+    - id: drawingId
+      type: System.String
+    content.vb: Sub Remove(drawingId As String)
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  id: Remove(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: Remove(IDrawing)
+  nameWithType: IChartDrawings.Remove(IDrawing)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove(TradingPlatform.BusinessLayer.Chart.IDrawing)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: Remove
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: void Remove(IDrawing drawing)
+    parameters:
+    - id: drawing
+      type: TradingPlatform.BusinessLayer.Chart.IDrawing
+    content.vb: Sub Remove(drawing As IDrawing)
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll
+  id: RemoveAll
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll()
+  nameWithType: IChartDrawings.RemoveAll()
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: RemoveAll
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: void RemoveAll()
+    content.vb: Sub RemoveAll
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Added
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Added
+  id: Added
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: Added
+  nameWithType: IChartDrawings.Added
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Added
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: Added
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event Action<DrawingEventArgs> Added
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.Chart.DrawingEventArgs}
+    content.vb: Event Added As Action(Of DrawingEventArgs)
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Moved
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Moved
+  id: Moved
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: Moved
+  nameWithType: IChartDrawings.Moved
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Moved
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: Moved
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event Action<DrawingEventArgs> Moved
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.Chart.DrawingEventArgs}
+    content.vb: Event Moved As Action(Of DrawingEventArgs)
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Removed
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Removed
+  id: Removed
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: Removed
+  nameWithType: IChartDrawings.Removed
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Removed
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: Removed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event Action<DrawingEventArgs> Removed
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.Chart.DrawingEventArgs}
+    content.vb: Event Removed As Action(Of DrawingEventArgs)
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.SelectionChanged
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChartDrawings.SelectionChanged
+  id: SelectionChanged
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: SelectionChanged
+  nameWithType: IChartDrawings.SelectionChanged
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.SelectionChanged
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: SelectionChanged
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event Action<DrawingSelectionEventArgs> SelectionChanged
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs}
+    content.vb: Event SelectionChanged As Action(Of DrawingSelectionEventArgs)
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine(System.Int32,TradingPlatform.BusinessLayer.Instrument,System.Drawing.Color,TradingPlatform.BusinessLayer.LineStyle,System.Int32,System.DateTime,System.Double,System.DateTime,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine(System.Int32,TradingPlatform.BusinessLayer.Instrument,System.Drawing.Color,TradingPlatform.BusinessLayer.LineStyle,System.Int32,System.DateTime,System.Double,System.DateTime,System.Double)
+  id: AddLine(System.Int32,TradingPlatform.BusinessLayer.Instrument,System.Drawing.Color,TradingPlatform.BusinessLayer.LineStyle,System.Int32,System.DateTime,System.Double,System.DateTime,System.Double)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  langs:
+  - csharp
+  - vb
+  name: AddLine(Int32, Instrument, Color, LineStyle, Int32, DateTime, Double, DateTime, Double)
+  nameWithType: IChartDrawings.AddLine(Int32, Instrument, Color, LineStyle, Int32, DateTime, Double, DateTime, Double)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine(System.Int32, TradingPlatform.BusinessLayer.Instrument, System.Drawing.Color, TradingPlatform.BusinessLayer.LineStyle, System.Int32, System.DateTime, System.Double, System.DateTime, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    id: AddLine
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartDrawings.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: ILineDrawing AddLine(int windowsNumber, Instrument instrument, Color color, LineStyle style, int width, DateTime beginTime, double beginPrice, DateTime endTime, double endPrice)
+    parameters:
+    - id: windowsNumber
+      type: System.Int32
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: color
+      type: System.Drawing.Color
+    - id: style
+      type: TradingPlatform.BusinessLayer.LineStyle
+    - id: width
+      type: System.Int32
+    - id: beginTime
+      type: System.DateTime
+    - id: beginPrice
+      type: System.Double
+    - id: endTime
+      type: System.DateTime
+    - id: endPrice
+      type: System.Double
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+    content.vb: Function AddLine(windowsNumber As Integer, instrument As Instrument, color As Color, style As LineStyle, width As Integer, beginTime As Date, beginPrice As Double, endTime As Date, endPrice As Double) As ILineDrawing
+  overload: TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine*
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add
+  name: Add
+  nameWithType: IChartDrawings.Add
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Add
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IDrawing
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: IDrawing
+  nameWithType: IDrawing
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById
+  name: FindById
+  nameWithType: IChartDrawings.FindById
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.FindById
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll
+  name: GetAll
+  nameWithType: IChartDrawings.GetAll
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.GetAll
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Chart.IDrawing}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Chart.IDrawing}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IDrawing>
+  nameWithType: List<IDrawing>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Chart.IDrawing>
+  nameWithType.vb: List(Of IDrawing)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Chart.IDrawing)
+  name.vb: List(Of IDrawing)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing
+    name: IDrawing
+    nameWithType: IDrawing
+    fullName: TradingPlatform.BusinessLayer.Chart.IDrawing
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing
+    name: IDrawing
+    nameWithType: IDrawing
+    fullName: TradingPlatform.BusinessLayer.Chart.IDrawing
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove
+  name: Remove
+  nameWithType: IChartDrawings.Remove
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.Remove
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll
+  name: RemoveAll
+  nameWithType: IChartDrawings.RemoveAll
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.RemoveAll
+- uid: System.Action{TradingPlatform.BusinessLayer.Chart.DrawingEventArgs}
+  commentId: T:System.Action{TradingPlatform.BusinessLayer.Chart.DrawingEventArgs}
+  parent: System
+  definition: System.Action`1
+  name: Action<DrawingEventArgs>
+  nameWithType: Action<DrawingEventArgs>
+  fullName: System.Action<TradingPlatform.BusinessLayer.Chart.DrawingEventArgs>
+  nameWithType.vb: Action(Of DrawingEventArgs)
+  fullName.vb: System.Action(Of TradingPlatform.BusinessLayer.Chart.DrawingEventArgs)
+  name.vb: Action(Of DrawingEventArgs)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingEventArgs
+    name: DrawingEventArgs
+    nameWithType: DrawingEventArgs
+    fullName: TradingPlatform.BusinessLayer.Chart.DrawingEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingEventArgs
+    name: DrawingEventArgs
+    nameWithType: DrawingEventArgs
+    fullName: TradingPlatform.BusinessLayer.Chart.DrawingEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs}
+  commentId: T:System.Action{TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs}
+  parent: System
+  definition: System.Action`1
+  name: Action<DrawingSelectionEventArgs>
+  nameWithType: Action<DrawingSelectionEventArgs>
+  fullName: System.Action<TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs>
+  nameWithType.vb: Action(Of DrawingSelectionEventArgs)
+  fullName.vb: System.Action(Of TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs)
+  name.vb: Action(Of DrawingSelectionEventArgs)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs
+    name: DrawingSelectionEventArgs
+    nameWithType: DrawingSelectionEventArgs
+    fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs
+    name: DrawingSelectionEventArgs
+    nameWithType: DrawingSelectionEventArgs
+    fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine
+  name: AddLine
+  nameWithType: IChartDrawings.AddLine
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings.AddLine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  commentId: T:TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: ILineDrawing
+  nameWithType: ILineDrawing
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing

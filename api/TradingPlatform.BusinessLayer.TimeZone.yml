@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeZone
+  commentId: T:TradingPlatform.BusinessLayer.TimeZone
+  id: TimeZone
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TimeZone.#ctor(TradingPlatform.BusinessLayer.TimeZoneType,System.TimeZoneInfo)
+  - TradingPlatform.BusinessLayer.TimeZone.Cities(TradingPlatform.BusinessLayer.TimeZone)
+  - TradingPlatform.BusinessLayer.TimeZone.IsEmpty
+  - TradingPlatform.BusinessLayer.TimeZone.op_Equality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  - TradingPlatform.BusinessLayer.TimeZone.op_Inequality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  - TradingPlatform.BusinessLayer.TimeZone.ShortName(TradingPlatform.BusinessLayer.TimeZone)
+  - TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo
+  - TradingPlatform.BusinessLayer.TimeZone.Type
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: TimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeZone
+  type: Struct
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: TimeZone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public struct TimeZone
+    content.vb: Public Structure TimeZone
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo
+  commentId: P:TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo
+  id: TimeZoneInfo
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneInfo
+  nameWithType: TimeZone.TimeZoneInfo
+  fullName: TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: TimeZoneInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TimeZoneInfo TimeZoneInfo { get; }
+    parameters: []
+    return:
+      type: System.TimeZoneInfo
+    content.vb: Public ReadOnly Property TimeZoneInfo As TimeZoneInfo
+  overload: TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeZone.Type
+  commentId: P:TradingPlatform.BusinessLayer.TimeZone.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TimeZone.Type
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TimeZoneType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.TimeZoneType
+    content.vb: Public ReadOnly Property Type As TimeZoneType
+  overload: TradingPlatform.BusinessLayer.TimeZone.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeZone.#ctor(TradingPlatform.BusinessLayer.TimeZoneType,System.TimeZoneInfo)
+  commentId: M:TradingPlatform.BusinessLayer.TimeZone.#ctor(TradingPlatform.BusinessLayer.TimeZoneType,System.TimeZoneInfo)
+  id: '#ctor(TradingPlatform.BusinessLayer.TimeZoneType,System.TimeZoneInfo)'
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: TimeZone(TimeZoneType, TimeZoneInfo)
+  nameWithType: TimeZone.TimeZone(TimeZoneType, TimeZoneInfo)
+  fullName: TradingPlatform.BusinessLayer.TimeZone.TimeZone(TradingPlatform.BusinessLayer.TimeZoneType, System.TimeZoneInfo)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TimeZone(TimeZoneType type, TimeZoneInfo timeZoneInfo = null)
+    parameters:
+    - id: type
+      type: TradingPlatform.BusinessLayer.TimeZoneType
+    - id: timeZoneInfo
+      type: System.TimeZoneInfo
+    content.vb: Public Sub New(type As TimeZoneType, timeZoneInfo As TimeZoneInfo = Nothing)
+  overload: TradingPlatform.BusinessLayer.TimeZone.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeZone.ShortName(TradingPlatform.BusinessLayer.TimeZone)
+  commentId: M:TradingPlatform.BusinessLayer.TimeZone.ShortName(TradingPlatform.BusinessLayer.TimeZone)
+  id: ShortName(TradingPlatform.BusinessLayer.TimeZone)
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: ShortName(TimeZone)
+  nameWithType: TimeZone.ShortName(TimeZone)
+  fullName: TradingPlatform.BusinessLayer.TimeZone.ShortName(TradingPlatform.BusinessLayer.TimeZone)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: ShortName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string ShortName(TimeZone timeZone)
+    parameters:
+    - id: timeZone
+      type: TradingPlatform.BusinessLayer.TimeZone
+    return:
+      type: System.String
+    content.vb: Public Shared Function ShortName(timeZone As TimeZone) As String
+  overload: TradingPlatform.BusinessLayer.TimeZone.ShortName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TimeZone.Cities(TradingPlatform.BusinessLayer.TimeZone)
+  commentId: M:TradingPlatform.BusinessLayer.TimeZone.Cities(TradingPlatform.BusinessLayer.TimeZone)
+  id: Cities(TradingPlatform.BusinessLayer.TimeZone)
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: Cities(TimeZone)
+  nameWithType: TimeZone.Cities(TimeZone)
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Cities(TradingPlatform.BusinessLayer.TimeZone)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: Cities
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string Cities(TimeZone timeZone)
+    parameters:
+    - id: timeZone
+      type: TradingPlatform.BusinessLayer.TimeZone
+    return:
+      type: System.String
+    content.vb: Public Shared Function Cities(timeZone As TimeZone) As String
+  overload: TradingPlatform.BusinessLayer.TimeZone.Cities*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TimeZone.op_Equality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  commentId: M:TradingPlatform.BusinessLayer.TimeZone.op_Equality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  id: op_Equality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: Equality(TimeZone, TimeZone)
+  nameWithType: TimeZone.Equality(TimeZone, TimeZone)
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Equality(TradingPlatform.BusinessLayer.TimeZone, TradingPlatform.BusinessLayer.TimeZone)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: op_Equality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 52
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator ==(TimeZone timeZone1, TimeZone timeZone2)
+    parameters:
+    - id: timeZone1
+      type: TradingPlatform.BusinessLayer.TimeZone
+    - id: timeZone2
+      type: TradingPlatform.BusinessLayer.TimeZone
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(timeZone1 As TimeZone, timeZone2 As TimeZone) As Boolean
+  overload: TradingPlatform.BusinessLayer.TimeZone.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TimeZone.op_Inequality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  commentId: M:TradingPlatform.BusinessLayer.TimeZone.op_Inequality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  id: op_Inequality(TradingPlatform.BusinessLayer.TimeZone,TradingPlatform.BusinessLayer.TimeZone)
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: Inequality(TimeZone, TimeZone)
+  nameWithType: TimeZone.Inequality(TimeZone, TimeZone)
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Inequality(TradingPlatform.BusinessLayer.TimeZone, TradingPlatform.BusinessLayer.TimeZone)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: op_Inequality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator !=(TimeZone timeZone1, TimeZone timeZone2)
+    parameters:
+    - id: timeZone1
+      type: TradingPlatform.BusinessLayer.TimeZone
+    - id: timeZone2
+      type: TradingPlatform.BusinessLayer.TimeZone
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(timeZone1 As TimeZone, timeZone2 As TimeZone) As Boolean
+  overload: TradingPlatform.BusinessLayer.TimeZone.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TimeZone.IsEmpty
+  commentId: P:TradingPlatform.BusinessLayer.TimeZone.IsEmpty
+  id: IsEmpty
+  parent: TradingPlatform.BusinessLayer.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: TimeZone.IsEmpty
+  fullName: TradingPlatform.BusinessLayer.TimeZone.IsEmpty
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: IsEmpty
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 56
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: TradingPlatform.BusinessLayer.TimeZone.IsEmpty*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo
+  name: TimeZoneInfo
+  nameWithType: TimeZone.TimeZoneInfo
+  fullName: TradingPlatform.BusinessLayer.TimeZone.TimeZoneInfo
+- uid: System.TimeZoneInfo
+  commentId: T:System.TimeZoneInfo
+  parent: System
+  isExternal: true
+  name: TimeZoneInfo
+  nameWithType: TimeZoneInfo
+  fullName: System.TimeZoneInfo
+- uid: TradingPlatform.BusinessLayer.TimeZone.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.Type
+  name: Type
+  nameWithType: TimeZone.Type
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Type
+- uid: TradingPlatform.BusinessLayer.TimeZoneType
+  commentId: T:TradingPlatform.BusinessLayer.TimeZoneType
+  parent: TradingPlatform.BusinessLayer
+  name: TimeZoneType
+  nameWithType: TimeZoneType
+  fullName: TradingPlatform.BusinessLayer.TimeZoneType
+- uid: TradingPlatform.BusinessLayer.TimeZone.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.#ctor
+  name: TimeZone
+  nameWithType: TimeZone.TimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeZone.TimeZone
+- uid: TradingPlatform.BusinessLayer.TimeZone.ShortName*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.ShortName
+  name: ShortName
+  nameWithType: TimeZone.ShortName
+  fullName: TradingPlatform.BusinessLayer.TimeZone.ShortName
+- uid: TradingPlatform.BusinessLayer.TimeZone
+  commentId: T:TradingPlatform.BusinessLayer.TimeZone
+  parent: TradingPlatform.BusinessLayer
+  name: TimeZone
+  nameWithType: TimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeZone
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.TimeZone.Cities*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.Cities
+  name: Cities
+  nameWithType: TimeZone.Cities
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Cities
+- uid: TradingPlatform.BusinessLayer.TimeZone.op_Equality*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.op_Equality
+  name: Equality
+  nameWithType: TimeZone.Equality
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Equality
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.TimeZone.op_Inequality*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.op_Inequality
+  name: Inequality
+  nameWithType: TimeZone.Inequality
+  fullName: TradingPlatform.BusinessLayer.TimeZone.Inequality
+- uid: TradingPlatform.BusinessLayer.TimeZone.IsEmpty*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeZone.IsEmpty
+  name: IsEmpty
+  nameWithType: TimeZone.IsEmpty
+  fullName: TradingPlatform.BusinessLayer.TimeZone.IsEmpty

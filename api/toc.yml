@@ -1,0 +1,971 @@
+### YamlMime:TableOfContent
+- uid: AggregatorHeikenAshi
+  name: AggregatorHeikenAshi
+  items:
+  - uid: AggregatorHeikenAshi.HistoryProcessorHeikenAshi
+    name: HistoryProcessorHeikenAshi
+- uid: Channels
+  name: Channels
+  items:
+  - uid: Channels.BB
+    name: BB
+  - uid: Channels.BBF
+    name: BBF
+  - uid: Channels.Channel
+    name: Channel
+  - uid: Channels.Keltner
+    name: Keltner
+  - uid: Channels.MAE
+    name: MAE
+- uid: HistoryProcessorRangeBars
+  name: HistoryProcessorRangeBars
+  items:
+  - uid: HistoryProcessorRangeBars.HistoryProcessorRangeBars
+    name: HistoryProcessorRangeBars
+- uid: HistoryProcessorRenko
+  name: HistoryProcessorRenko
+  items:
+  - uid: HistoryProcessorRenko.HistoryProcessorRenko
+    name: HistoryProcessorRenko
+  - uid: HistoryProcessorRenko.Trend
+    name: Trend
+- uid: HistoryProcessorTick
+  name: HistoryProcessorTick
+  items:
+  - uid: HistoryProcessorTick.HistoryProcessorTick
+    name: HistoryProcessorTick
+- uid: HistoryProcessorTime
+  name: HistoryProcessorTime
+  items:
+  - uid: HistoryProcessorTime.HistoryProcessorTime
+    name: HistoryProcessorTime
+- uid: Indicators
+  name: Indicators
+  items:
+  - uid: Indicators.Template
+    name: Template
+  - uid: Indicators.TestingIndicator
+    name: TestingIndicator
+- uid: LocalFileProviderBranding
+  name: LocalFileProviderBranding
+  items:
+  - uid: LocalFileProviderBranding.LocalFileBrandingInformation
+    name: LocalFileBrandingInformation
+  - uid: LocalFileProviderBranding.LocalFileProviderBranding
+    name: LocalFileProviderBranding
+- uid: MovingAverages
+  name: MovingAverages
+  items:
+  - uid: MovingAverages.AFIRMA
+    name: AFIRMA
+  - uid: MovingAverages.EMA
+    name: EMA
+  - uid: MovingAverages.KAMA
+    name: KAMA
+  - uid: MovingAverages.LWMA
+    name: LWMA
+  - uid: MovingAverages.MAS3
+    name: MAS3
+  - uid: MovingAverages.MD
+    name: MD
+  - uid: MovingAverages.MMA
+    name: MMA
+  - uid: MovingAverages.PPMA
+    name: PPMA
+  - uid: MovingAverages.Regression
+    name: Regression
+  - uid: MovingAverages.SMA
+    name: SMA
+  - uid: MovingAverages.SMMA
+    name: SMMA
+  - uid: MovingAverages.TestColor
+    name: TestColor
+- uid: MySimpleLogger
+  name: MySimpleLogger
+  items:
+  - uid: MySimpleLogger.MySimpleLogger
+    name: MySimpleLogger
+- uid: Oscillators
+  name: Oscillators
+  items:
+  - uid: Oscillators.AC
+    name: AC
+  - uid: Oscillators.AO
+    name: AO
+  - uid: Oscillators.AROON
+    name: AROON
+  - uid: Oscillators.CCI
+    name: CCI
+  - uid: Oscillators.KRI
+    name: KRI
+  - uid: Oscillators.MACD
+    name: MACD
+  - uid: Oscillators.Momentum
+    name: Momentum
+  - uid: Oscillators.OsMA
+    name: OsMA
+  - uid: Oscillators.PO
+    name: PO
+  - uid: Oscillators.PPO
+    name: PPO
+  - uid: Oscillators.Qstick
+    name: Qstick
+  - uid: Oscillators.RLW
+    name: RLW
+  - uid: Oscillators.ROC
+    name: ROC
+  - uid: Oscillators.RSI
+    name: RSI
+  - uid: Oscillators.Stochastic
+    name: Stochastic
+  - uid: Oscillators.StochasticRSI
+    name: StochasticRSI
+  - uid: Oscillators.TSI
+    name: TSI
+- uid: Platform.Utils
+  name: Platform.Utils
+  items:
+  - uid: Platform.Utils.Encryptor
+    name: Encryptor
+- uid: SQLiteDBProvider
+  name: SQLiteDBProvider
+  items:
+  - uid: SQLiteDBProvider.SQLiteDBProvider
+    name: SQLiteDBProvider
+- uid: TestIndicator
+  name: TestIndicator
+  items:
+  - uid: TestIndicator.TestIndicator
+    name: TestIndicator
+- uid: TestStrategy
+  name: TestStrategy
+  items:
+  - uid: TestStrategy.TestStrategy
+    name: TestStrategy
+- uid: TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  items:
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+  - uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoDestinationPanel
+    name: AccountAdditionalInfoDestinationPanel
+  - uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+    name: AccountAdditionalInfoItem
+  - uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+    name: AccountAdditionalInfoItemFormatingType
+  - uid: TradingPlatform.BusinessLayer.AccountStatus
+    name: AccountStatus
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    name: AdditionalInfoItem
+  - uid: TradingPlatform.BusinessLayer.AfirmaMode
+    name: AfirmaMode
+  - uid: TradingPlatform.BusinessLayer.AggregateMethod
+    name: AggregateMethod
+  - uid: TradingPlatform.BusinessLayer.AggressorFlag
+    name: AggressorFlag
+  - uid: TradingPlatform.BusinessLayer.AllowedResult
+    name: AllowedResult
+  - uid: TradingPlatform.BusinessLayer.AMATrendType
+    name: AMATrendType
+  - uid: TradingPlatform.BusinessLayer.ArgCmdManager
+    name: ArgCmdManager
+  - uid: TradingPlatform.BusinessLayer.AssemblyLoader
+    name: AssemblyLoader
+  - uid: TradingPlatform.BusinessLayer.Asset
+    name: Asset
+  - uid: TradingPlatform.BusinessLayer.BasePeriod
+    name: BasePeriod
+  - uid: TradingPlatform.BusinessLayer.BusinessObject
+    name: BusinessObject
+  - uid: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    name: BusinessObjectInfo
+  - uid: TradingPlatform.BusinessLayer.BusinessObjectState
+    name: BusinessObjectState
+  - uid: TradingPlatform.BusinessLayer.CachedRequestParameters
+    name: CachedRequestParameters
+  - uid: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+    name: CancelOrderRequestParameters
+  - uid: TradingPlatform.BusinessLayer.CloseOrderType
+    name: CloseOrderType
+  - uid: TradingPlatform.BusinessLayer.ClosePositionRequestParameters
+    name: ClosePositionRequestParameters
+  - uid: TradingPlatform.BusinessLayer.ColouringModes
+    name: ColouringModes
+  - uid: TradingPlatform.BusinessLayer.CompareType
+    name: CompareType
+  - uid: TradingPlatform.BusinessLayer.ComparingType
+    name: ComparingType
+  - uid: TradingPlatform.BusinessLayer.Connection
+    name: Connection
+  - uid: TradingPlatform.BusinessLayer.ConnectionInfo
+    name: ConnectionInfo
+  - uid: TradingPlatform.BusinessLayer.ConnectionsCollection
+    name: ConnectionsCollection
+  - uid: TradingPlatform.BusinessLayer.ConnectionState
+    name: ConnectionState
+  - uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+    name: ConnectionStateChangedEventArgs
+  - uid: TradingPlatform.BusinessLayer.ConnectionType
+    name: ConnectionType
+  - uid: TradingPlatform.BusinessLayer.ConnectionUserType
+    name: ConnectionUserType
+  - uid: TradingPlatform.BusinessLayer.Core
+    name: Core
+  - uid: TradingPlatform.BusinessLayer.CustomInstrument
+    name: CustomInstrument
+  - uid: TradingPlatform.BusinessLayer.DayBar
+    name: DayBar
+  - uid: TradingPlatform.BusinessLayer.DayBarHandler
+    name: DayBarHandler
+  - uid: TradingPlatform.BusinessLayer.DealTicket
+    name: DealTicket
+  - uid: TradingPlatform.BusinessLayer.DealTicketGenerator
+    name: DealTicketGenerator
+  - uid: TradingPlatform.BusinessLayer.DealTicketItem
+    name: DealTicketItem
+  - uid: TradingPlatform.BusinessLayer.DealTicketPriority
+    name: DealTicketPriority
+  - uid: TradingPlatform.BusinessLayer.DealTicketState
+    name: DealTicketState
+  - uid: TradingPlatform.BusinessLayer.DealTicketTradingType
+    name: DealTicketTradingType
+  - uid: TradingPlatform.BusinessLayer.DealTicketType
+    name: DealTicketType
+  - uid: TradingPlatform.BusinessLayer.DefaultIndicators
+    name: DefaultIndicators
+  - uid: TradingPlatform.BusinessLayer.DOMQuote
+    name: DOMQuote
+  - uid: TradingPlatform.BusinessLayer.EmailParameters
+    name: EmailParameters
+  - uid: TradingPlatform.BusinessLayer.EmailSendCompletedResult
+    name: EmailSendCompletedResult
+  - uid: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+    name: EmailSendCompletedStatus
+  - uid: TradingPlatform.BusinessLayer.Exchange
+    name: Exchange
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity
+    name: ExecutionEntity
+  - uid: TradingPlatform.BusinessLayer.Extensions
+    name: Extensions
+  - uid: TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters
+    name: GetFutureContractsRequestParameters
+  - uid: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+    name: GetInstrumentRequestParameters
+  - uid: TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters
+    name: GetOptionSeriesRequestParameters
+  - uid: TradingPlatform.BusinessLayer.GetSortedListParameters
+    name: GetSortedListParameters
+  - uid: TradingPlatform.BusinessLayer.GetStrikesRequestParameters
+    name: GetStrikesRequestParameters
+  - uid: TradingPlatform.BusinessLayer.GroupActionInfo
+    name: GroupActionInfo
+  - uid: TradingPlatform.BusinessLayer.HistoricalData
+    name: HistoricalData
+  - uid: TradingPlatform.BusinessLayer.HistoricalDataCustom
+    name: HistoricalDataCustom
+  - uid: TradingPlatform.BusinessLayer.HistoricalDataState
+    name: HistoricalDataState
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation
+    name: HistoryAggregation
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+    name: HistoryAggregationHeikenAshi
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationManager
+    name: HistoryAggregationManager
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationRangeBars
+    name: HistoryAggregationRangeBars
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+    name: HistoryAggregationRenko
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationTick
+    name: HistoryAggregationTick
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationTime
+    name: HistoryAggregationTime
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+    name: HistoryAggregationTimeScaleType
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+  - uid: TradingPlatform.BusinessLayer.HistoryEventHandler
+    name: HistoryEventHandler
+  - uid: TradingPlatform.BusinessLayer.HistoryHolder
+    name: HistoryHolder
+  - uid: TradingPlatform.BusinessLayer.HistoryItem
+    name: HistoryItem
+  - uid: TradingPlatform.BusinessLayer.HistoryItemBar
+    name: HistoryItemBar
+  - uid: TradingPlatform.BusinessLayer.HistoryItemCustom
+    name: HistoryItemCustom
+  - uid: TradingPlatform.BusinessLayer.HistoryItemLast
+    name: HistoryItemLast
+  - uid: TradingPlatform.BusinessLayer.HistoryItemTick
+    name: HistoryItemTick
+  - uid: TradingPlatform.BusinessLayer.HistoryProcessor
+    name: HistoryProcessor
+  - uid: TradingPlatform.BusinessLayer.HistoryProcessorEventArgs
+    name: HistoryProcessorEventArgs
+  - uid: TradingPlatform.BusinessLayer.HistoryProcessorItemUpdatedEventArgs
+    name: HistoryProcessorItemUpdatedEventArgs
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+  - uid: TradingPlatform.BusinessLayer.HVSheduleMode
+    name: HVSheduleMode
+  - uid: TradingPlatform.BusinessLayer.IconDisplayType
+    name: IconDisplayType
+  - uid: TradingPlatform.BusinessLayer.IconType
+    name: IconType
+  - uid: TradingPlatform.BusinessLayer.ICustomizable
+    name: ICustomizable
+  - uid: TradingPlatform.BusinessLayer.ICustomizableVisualGroups
+    name: ICustomizableVisualGroups
+  - uid: TradingPlatform.BusinessLayer.IHistoricalData
+    name: IHistoricalData
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor
+    name: IHistoryProcessor
+  - uid: TradingPlatform.BusinessLayer.IIndicatorsCollection
+    name: IIndicatorsCollection
+  - uid: TradingPlatform.BusinessLayer.ILoggable
+    name: ILoggable
+  - uid: TradingPlatform.BusinessLayer.ILogger
+    name: ILogger
+  - uid: TradingPlatform.BusinessLayer.IModule
+    name: IModule
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+  - uid: TradingPlatform.BusinessLayer.IndicatorInfo
+    name: IndicatorInfo
+  - uid: TradingPlatform.BusinessLayer.IndicatorManager
+    name: IndicatorManager
+  - uid: TradingPlatform.BusinessLayer.IndicatorMarker
+    name: IndicatorMarker
+  - uid: TradingPlatform.BusinessLayer.InputParameterAttribute
+    name: InputParameterAttribute
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+  - uid: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+    name: InstrumentAdditionalInfoItem
+  - uid: TradingPlatform.BusinessLayer.InstrumentGroup
+    name: InstrumentGroup
+  - uid: TradingPlatform.BusinessLayer.InstrumentList
+    name: InstrumentList
+  - uid: TradingPlatform.BusinessLayer.InstrumentQuotingType
+    name: InstrumentQuotingType
+  - uid: TradingPlatform.BusinessLayer.InstrumentsListManager
+    name: InstrumentsListManager
+  - uid: TradingPlatform.BusinessLayer.InstrumentType
+    name: InstrumentType
+  - uid: TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+    name: InstrumentUpdateHandler
+  - uid: TradingPlatform.BusinessLayer.InstrumentVolumeType
+    name: InstrumentVolumeType
+  - uid: TradingPlatform.BusinessLayer.IRenamable
+    name: IRenamable
+  - uid: TradingPlatform.BusinessLayer.ISettingsGroup
+    name: ISettingsGroup
+  - uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+    name: ISyntheticSynhroniserItem
+  - uid: TradingPlatform.BusinessLayer.IUniqueID
+    name: IUniqueID
+  - uid: TradingPlatform.BusinessLayer.Last
+    name: Last
+  - uid: TradingPlatform.BusinessLayer.LastHandler
+    name: LastHandler
+  - uid: TradingPlatform.BusinessLayer.Level2Collection
+    name: Level2Collection
+  - uid: TradingPlatform.BusinessLayer.Level2Handler
+    name: Level2Handler
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+  - uid: TradingPlatform.BusinessLayer.Level2ItemComparer
+    name: Level2ItemComparer
+  - uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+    name: Level2ItemComparer.Filter
+  - uid: TradingPlatform.BusinessLayer.Level2Quote
+    name: Level2Quote
+  - uid: TradingPlatform.BusinessLayer.Level2Type
+    name: Level2Type
+  - uid: TradingPlatform.BusinessLayer.LimitOrderType
+    name: LimitOrderType
+  - uid: TradingPlatform.BusinessLayer.Line
+    name: Line
+  - uid: TradingPlatform.BusinessLayer.LineLevel
+    name: LineLevel
+  - uid: TradingPlatform.BusinessLayer.LineSeries
+    name: LineSeries
+  - uid: TradingPlatform.BusinessLayer.LineStyle
+    name: LineStyle
+  - uid: TradingPlatform.BusinessLayer.LinkState
+    name: LinkState
+  - uid: TradingPlatform.BusinessLayer.Log4NetLogger
+    name: Log4NetLogger
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+  - uid: TradingPlatform.BusinessLayer.LoggerManager
+    name: LoggerManager
+  - uid: TradingPlatform.BusinessLayer.LoggingLevel
+    name: LoggingLevel
+  - uid: TradingPlatform.BusinessLayer.MailUtils
+    name: MailUtils
+  - uid: TradingPlatform.BusinessLayer.MaMode
+    name: MaMode
+  - uid: TradingPlatform.BusinessLayer.MarketOrderType
+    name: MarketOrderType
+  - uid: TradingPlatform.BusinessLayer.MessageQuote
+    name: MessageQuote
+  - uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+    name: ModifyOrderRequestParameters
+  - uid: TradingPlatform.BusinessLayer.MultipleRelationCondition
+    name: MultipleRelationCondition
+  - uid: TradingPlatform.BusinessLayer.NativeAlignment
+    name: NativeAlignment
+  - uid: TradingPlatform.BusinessLayer.NativeDragDropEffects
+    name: NativeDragDropEffects
+  - uid: TradingPlatform.BusinessLayer.NativeDragEventArgs
+    name: NativeDragEventArgs
+  - uid: TradingPlatform.BusinessLayer.NativeKey
+    name: NativeKey
+  - uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+    name: NativeKeyEventArgs
+  - uid: TradingPlatform.BusinessLayer.NativeModifierKeys
+    name: NativeModifierKeys
+  - uid: TradingPlatform.BusinessLayer.NettingType
+    name: NettingType
+  - uid: TradingPlatform.BusinessLayer.NonFixedListDownload
+    name: NonFixedListDownload
+  - uid: TradingPlatform.BusinessLayer.OptionCodingStyle
+    name: OptionCodingStyle
+  - uid: TradingPlatform.BusinessLayer.OptionSerie
+    name: OptionSerie
+  - uid: TradingPlatform.BusinessLayer.OptionType
+    name: OptionType
+  - uid: TradingPlatform.BusinessLayer.Order
+    name: Order
+  - uid: TradingPlatform.BusinessLayer.OrderHistory
+    name: OrderHistory
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+  - uid: TradingPlatform.BusinessLayer.OrderStatus
+    name: OrderStatus
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+  - uid: TradingPlatform.BusinessLayer.OrderTypeBehavior
+    name: OrderTypeBehavior
+  - uid: TradingPlatform.BusinessLayer.OrderTypeUsage
+    name: OrderTypeUsage
+  - uid: TradingPlatform.BusinessLayer.PaintChartEventArgs
+    name: PaintChartEventArgs
+  - uid: TradingPlatform.BusinessLayer.PairColor
+    name: PairColor
+  - uid: TradingPlatform.BusinessLayer.PasswordHolder
+    name: PasswordHolder
+  - uid: TradingPlatform.BusinessLayer.Period
+    name: Period
+  - uid: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+    name: PlaceOrderRequestParameters
+  - uid: TradingPlatform.BusinessLayer.PnL
+    name: PnL
+  - uid: TradingPlatform.BusinessLayer.PnLItem
+    name: PnLItem
+  - uid: TradingPlatform.BusinessLayer.PnLRequestParameters
+    name: PnLRequestParameters
+  - uid: TradingPlatform.BusinessLayer.Position
+    name: Position
+  - uid: TradingPlatform.BusinessLayer.Price
+    name: Price
+  - uid: TradingPlatform.BusinessLayer.PriceMeasurement
+    name: PriceMeasurement
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+  - uid: TradingPlatform.BusinessLayer.Quote
+    name: Quote
+  - uid: TradingPlatform.BusinessLayer.QuoteHandler
+    name: QuoteHandler
+  - uid: TradingPlatform.BusinessLayer.RenkoStyle
+    name: RenkoStyle
+  - uid: TradingPlatform.BusinessLayer.Report
+    name: Report
+  - uid: TradingPlatform.BusinessLayer.ReportCell
+    name: ReportCell
+  - uid: TradingPlatform.BusinessLayer.ReportColumn
+    name: ReportColumn
+  - uid: TradingPlatform.BusinessLayer.ReportRequestParameters
+    name: ReportRequestParameters
+  - uid: TradingPlatform.BusinessLayer.ReportRow
+    name: ReportRow
+  - uid: TradingPlatform.BusinessLayer.ReportType
+    name: ReportType
+  - uid: TradingPlatform.BusinessLayer.RequestParameters
+    name: RequestParameters
+  - uid: TradingPlatform.BusinessLayer.RequestType
+    name: RequestType
+  - uid: TradingPlatform.BusinessLayer.res
+    name: res
+  - uid: TradingPlatform.BusinessLayer.RSIMode
+    name: RSIMode
+  - uid: TradingPlatform.BusinessLayer.Rule
+    name: Rule
+  - uid: TradingPlatform.BusinessLayer.RulesManager
+    name: RulesManager
+  - uid: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+    name: SearchInstrumentsRequestParameters
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+  - uid: TradingPlatform.BusinessLayer.SelectItem
+    name: SelectItem
+  - uid: TradingPlatform.BusinessLayer.SendMailCallbackDelegate
+    name: SendMailCallbackDelegate
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+  - uid: TradingPlatform.BusinessLayer.SettingItemAccount
+    name: SettingItemAccount
+  - uid: TradingPlatform.BusinessLayer.SettingItemAction
+    name: SettingItemAction
+  - uid: TradingPlatform.BusinessLayer.SettingItemActionDelegate
+    name: SettingItemActionDelegate
+  - uid: TradingPlatform.BusinessLayer.SettingItemAlignment
+    name: SettingItemAlignment
+  - uid: TradingPlatform.BusinessLayer.SettingItemBoolean
+    name: SettingItemBoolean
+  - uid: TradingPlatform.BusinessLayer.SettingItemBooleanSwitcher
+    name: SettingItemBooleanSwitcher
+  - uid: TradingPlatform.BusinessLayer.SettingItemColor
+    name: SettingItemColor
+  - uid: TradingPlatform.BusinessLayer.SettingItemDateTime
+    name: SettingItemDateTime
+  - uid: TradingPlatform.BusinessLayer.SettingItemDouble
+    name: SettingItemDouble
+  - uid: TradingPlatform.BusinessLayer.SettingItemEventArgs
+    name: SettingItemEventArgs
+  - uid: TradingPlatform.BusinessLayer.SettingItemEventHandler
+    name: SettingItemEventHandler
+  - uid: TradingPlatform.BusinessLayer.SettingItemFile
+    name: SettingItemFile
+  - uid: TradingPlatform.BusinessLayer.SettingItemFont
+    name: SettingItemFont
+  - uid: TradingPlatform.BusinessLayer.SettingItemGroup
+    name: SettingItemGroup
+  - uid: TradingPlatform.BusinessLayer.SettingItemHotKey
+    name: SettingItemHotKey
+  - uid: TradingPlatform.BusinessLayer.SettingItemInstrument
+    name: SettingItemInstrument
+  - uid: TradingPlatform.BusinessLayer.SettingItemInteger
+    name: SettingItemInteger
+  - uid: TradingPlatform.BusinessLayer.SettingItemLineOptions
+    name: SettingItemLineOptions
+  - uid: TradingPlatform.BusinessLayer.SettingItemList
+    name: SettingItemList
+  - uid: TradingPlatform.BusinessLayer.SettingItemObject
+    name: SettingItemObject
+  - uid: TradingPlatform.BusinessLayer.SettingItemPairColor
+    name: SettingItemPairColor
+  - uid: TradingPlatform.BusinessLayer.SettingItemPassword
+    name: SettingItemPassword
+  - uid: TradingPlatform.BusinessLayer.SettingItemPeriod
+    name: SettingItemPeriod
+  - uid: TradingPlatform.BusinessLayer.SettingItemRadioLocalized
+    name: SettingItemRadioLocalized
+  - uid: TradingPlatform.BusinessLayer.SettingItemRelation
+    name: SettingItemRelation
+  - uid: TradingPlatform.BusinessLayer.SettingItemRelationDelegate
+    name: SettingItemRelationDelegate
+  - uid: TradingPlatform.BusinessLayer.SettingItemRelationEnability
+    name: SettingItemRelationEnability
+  - uid: TradingPlatform.BusinessLayer.SettingItemRelationParameters
+    name: SettingItemRelationParameters
+  - uid: TradingPlatform.BusinessLayer.SettingItemRelationVisibility
+    name: SettingItemRelationVisibility
+  - uid: TradingPlatform.BusinessLayer.SettingItemRss
+    name: SettingItemRss
+  - uid: TradingPlatform.BusinessLayer.SettingItemSelector
+    name: SettingItemSelector
+  - uid: TradingPlatform.BusinessLayer.SettingItemSelectorLocalized
+    name: SettingItemSelectorLocalized
+  - uid: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup
+    name: SettingItemSeparatorGroup
+  - uid: TradingPlatform.BusinessLayer.SettingItemSound
+    name: SettingItemSound
+  - uid: TradingPlatform.BusinessLayer.SettingItemString
+    name: SettingItemString
+  - uid: TradingPlatform.BusinessLayer.SettingItemTimeZone
+    name: SettingItemTimeZone
+  - uid: TradingPlatform.BusinessLayer.SettingItemTimeZoneManager
+    name: SettingItemTimeZoneManager
+  - uid: TradingPlatform.BusinessLayer.SettingItemType
+    name: SettingItemType
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+    name: SettingItemVisualGroup
+  - uid: TradingPlatform.BusinessLayer.SettingsHolder
+    name: SettingsHolder
+  - uid: TradingPlatform.BusinessLayer.Side
+    name: Side
+  - uid: TradingPlatform.BusinessLayer.SlTpHolder
+    name: SlTpHolder
+  - uid: TradingPlatform.BusinessLayer.StopLimitOrderType
+    name: StopLimitOrderType
+  - uid: TradingPlatform.BusinessLayer.StopOrderType
+    name: StopOrderType
+  - uid: TradingPlatform.BusinessLayer.Strategy
+    name: Strategy
+  - uid: TradingPlatform.BusinessLayer.StrategyInfo
+    name: StrategyInfo
+  - uid: TradingPlatform.BusinessLayer.StrategyManager
+    name: StrategyManager
+  - uid: TradingPlatform.BusinessLayer.StrategyState
+    name: StrategyState
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuotesParameters
+    name: SubscribeQuotesParameters
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+  - uid: TradingPlatform.BusinessLayer.Synthetic
+    name: Synthetic
+  - uid: TradingPlatform.BusinessLayer.SyntheticItem
+    name: SyntheticItem
+  - uid: TradingPlatform.BusinessLayer.SyntheticState
+    name: SyntheticState
+  - uid: TradingPlatform.BusinessLayer.TimeInForce
+    name: TimeInForce
+  - uid: TradingPlatform.BusinessLayer.TimeUtils
+    name: TimeUtils
+  - uid: TradingPlatform.BusinessLayer.TimeZone
+    name: TimeZone
+  - uid: TradingPlatform.BusinessLayer.TimeZoneType
+    name: TimeZoneType
+  - uid: TradingPlatform.BusinessLayer.Trade
+    name: Trade
+  - uid: TradingPlatform.BusinessLayer.TradingObject
+    name: TradingObject
+  - uid: TradingPlatform.BusinessLayer.TradingOperation
+    name: TradingOperation
+  - uid: TradingPlatform.BusinessLayer.TradingOperationParameters
+    name: TradingOperationParameters
+  - uid: TradingPlatform.BusinessLayer.TradingOperationResult
+    name: TradingOperationResult
+  - uid: TradingPlatform.BusinessLayer.TradingOperationResultStatus
+    name: TradingOperationResultStatus
+  - uid: TradingPlatform.BusinessLayer.TradingOperations
+    name: TradingOperations
+  - uid: TradingPlatform.BusinessLayer.TradingOperationStatus
+    name: TradingOperationStatus
+  - uid: TradingPlatform.BusinessLayer.TradingRequestParameters
+    name: TradingRequestParameters
+  - uid: TradingPlatform.BusinessLayer.TradingStatus
+    name: TradingStatus
+  - uid: TradingPlatform.BusinessLayer.TrailingStopOrderType
+    name: TrailingStopOrderType
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+  - uid: TradingPlatform.BusinessLayer.UpdateReason
+    name: UpdateReason
+  - uid: TradingPlatform.BusinessLayer.ValidateResult
+    name: ValidateResult
+  - uid: TradingPlatform.BusinessLayer.ValidateState
+    name: ValidateState
+  - uid: TradingPlatform.BusinessLayer.VariableTick
+    name: VariableTick
+  - uid: TradingPlatform.BusinessLayer.VisibilityMode
+    name: VisibilityMode
+  - uid: TradingPlatform.BusinessLayer.VWAP
+    name: VWAP
+  - uid: TradingPlatform.BusinessLayer.XmlLayout
+    name: XmlLayout
+- uid: TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  items:
+  - uid: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    name: ChartMouseEventHandler
+  - uid: TradingPlatform.BusinessLayer.Chart.ChartMouseNativeEventArgs
+    name: ChartMouseNativeEventArgs
+  - uid: TradingPlatform.BusinessLayer.Chart.CreationMode
+    name: CreationMode
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingEventArgs
+    name: DrawingEventArgs
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionEventArgs
+    name: DrawingSelectionEventArgs
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+    name: DrawingSelectionState
+  - uid: TradingPlatform.BusinessLayer.Chart.DrawingState
+    name: DrawingState
+  - uid: TradingPlatform.BusinessLayer.Chart.IChart
+    name: IChart
+  - uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+    name: IChartDrawings
+  - uid: TradingPlatform.BusinessLayer.Chart.IChartWindow
+    name: IChartWindow
+  - uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+    name: IChartWindowCoordinatesConverter
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing
+    name: IDrawing
+  - uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+    name: ILineDrawing
+- uid: TradingPlatform.BusinessLayer.GlobalVariables
+  name: TradingPlatform.BusinessLayer.GlobalVariables
+  items:
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+    name: GlobalVariable
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+    name: GlobalVariablesManager
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.NonSerializableObjectException
+    name: NonSerializableObjectException
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.TooBigObjectException
+    name: TooBigObjectException
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+    name: VariableLifetime
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableNotExistsException
+    name: VariableNotExistsException
+- uid: TradingPlatform.BusinessLayer.History.DB
+  name: TradingPlatform.BusinessLayer.History.DB
+  items:
+  - uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+    name: DateHistoryInterval
+  - uid: TradingPlatform.BusinessLayer.History.DB.DBLayer
+    name: DBLayer
+  - uid: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+    name: HistoryDescription
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+    name: IDBProvider
+  - uid: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+    name: ReceiveHistoryRequest
+  - uid: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+    name: RecordHistoryRequest
+- uid: TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  items:
+  - uid: TradingPlatform.BusinessLayer.Integration.AssetFormattingDescription
+    name: AssetFormattingDescription
+  - uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+    name: ConnectionResult
+  - uid: TradingPlatform.BusinessLayer.Integration.CustomMessage
+    name: CustomMessage
+  - uid: TradingPlatform.BusinessLayer.Integration.CustomMessageEmulatorProgress
+    name: CustomMessageEmulatorProgress
+  - uid: TradingPlatform.BusinessLayer.Integration.CustomMessageEmulatorReachTheEnd
+    name: CustomMessageEmulatorReachTheEnd
+  - uid: TradingPlatform.BusinessLayer.Integration.DateTimeFormatterDescription
+    name: DateTimeFormatterDescription
+  - uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+    name: DayBarMessageCreator
+  - uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageGenerationParamters
+    name: DayBarMessageGenerationParamters
+  - uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+    name: DayBarOHLCUpdateType
+  - uid: TradingPlatform.BusinessLayer.Integration.FormattingDescription
+    name: FormattingDescription
+  - uid: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+    name: HistoryMetadata
+  - uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSourceType
+    name: HistoryPlayerSourceType
+  - uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+    name: HistoryPlayerSpeed
+  - uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerStepRequest
+    name: HistoryPlayerStepRequest
+  - uid: TradingPlatform.BusinessLayer.Integration.Message
+    name: Message
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageAccount
+    name: MessageAccount
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageAsset
+    name: MessageAsset
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageCloseOrder
+    name: MessageCloseOrder
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageClosePosition
+    name: MessageClosePosition
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+    name: MessageDealTicket
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageExchange
+    name: MessageExchange
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+    name: MessageInstrument
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup
+    name: MessageInstrumentGroup
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+    name: MessageInstrumentTypes
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+    name: MessageOpenOrder
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+    name: MessageOpenPosition
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOrderHistory
+    name: MessageOrderHistory
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageReportType
+    name: MessageReportType
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+    name: MessageRule
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageTrade
+    name: MessageTrade
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageType
+    name: MessageType
+  - uid: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+    name: ModellingSchema
+  - uid: TradingPlatform.BusinessLayer.Integration.PingEnum
+    name: PingEnum
+  - uid: TradingPlatform.BusinessLayer.Integration.PingResult
+    name: PingResult
+  - uid: TradingPlatform.BusinessLayer.Integration.PriceFormattingDescription
+    name: PriceFormattingDescription
+  - uid: TradingPlatform.BusinessLayer.Integration.QuotePriceType
+    name: QuotePriceType
+  - uid: TradingPlatform.BusinessLayer.Integration.SetHistoryPlayerSpeedRequest
+    name: SetHistoryPlayerSpeedRequest
+  - uid: TradingPlatform.BusinessLayer.Integration.TimeRangeStepper
+    name: TimeRangeStepper
+  - uid: TradingPlatform.BusinessLayer.Integration.Vendor
+    name: Vendor
+  - uid: TradingPlatform.BusinessLayer.Integration.VendorInfo
+    name: VendorInfo
+  - uid: TradingPlatform.BusinessLayer.Integration.VendorManager
+    name: VendorManager
+  - uid: TradingPlatform.BusinessLayer.Integration.VendorMetaData
+    name: VendorMetaData
+  - uid: TradingPlatform.BusinessLayer.Integration.VolumeFormattingDescription
+    name: VolumeFormattingDescription
+  - uid: TradingPlatform.BusinessLayer.Integration.VolumeFormattingDescriptionBase
+    name: VolumeFormattingDescriptionBase
+- uid: TradingPlatform.BusinessLayer.Licence
+  name: TradingPlatform.BusinessLayer.Licence
+  items:
+  - uid: TradingPlatform.BusinessLayer.Licence.CoreLicenceKeys
+    name: CoreLicenceKeys
+  - uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+    name: IOAuthBrowserControl
+  - uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+    name: IOAuthBrowserCreator
+  - uid: TradingPlatform.BusinessLayer.Licence.LicenceItem
+    name: LicenceItem
+  - uid: TradingPlatform.BusinessLayer.Licence.LicencesManager
+    name: LicencesManager
+  - uid: TradingPlatform.BusinessLayer.Licence.UserInfo
+    name: UserInfo
+- uid: TradingPlatform.BusinessLayer.Native
+  name: TradingPlatform.BusinessLayer.Native
+  items:
+  - uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+    name: NativeMouseButtons
+  - uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+    name: NativeMouseEventArgs
+- uid: TradingPlatform.BusinessLayer.Options
+  name: TradingPlatform.BusinessLayer.Options
+  items:
+  - uid: TradingPlatform.BusinessLayer.Options.BlackScholesPriceModel
+    name: BlackScholesPriceModel
+  - uid: TradingPlatform.BusinessLayer.Options.OptionMath
+    name: OptionMath
+  - uid: TradingPlatform.BusinessLayer.Options.OptionPriceType
+    name: OptionPriceType
+  - uid: TradingPlatform.BusinessLayer.Options.PriceModel
+    name: PriceModel
+  - uid: TradingPlatform.BusinessLayer.Options.PriceModels
+    name: PriceModels
+- uid: TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  items:
+  - uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+    name: BusinessObjectsWrapper
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+    name: IXElementSerialization
+  - uid: TradingPlatform.BusinessLayer.Serialization.MessagesWrapper
+    name: MessagesWrapper
+  - uid: TradingPlatform.BusinessLayer.Serialization.Serializer
+    name: Serializer
+- uid: TradingPlatform.BusinessLayer.Settings
+  name: TradingPlatform.BusinessLayer.Settings
+  items:
+  - uid: TradingPlatform.BusinessLayer.Settings.SettingItemAlert
+    name: SettingItemAlert
+- uid: TradingPlatform.BusinessLayer.TimeSync
+  name: TradingPlatform.BusinessLayer.TimeSync
+  items:
+  - uid: TradingPlatform.BusinessLayer.TimeSync._Mode
+    name: _Mode
+  - uid: TradingPlatform.BusinessLayer.TimeSync._Stratum
+    name: _Stratum
+  - uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+    name: NTPClient
+- uid: TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  items:
+  - uid: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+    name: ActionBufferedProcessor
+  - uid: TradingPlatform.BusinessLayer.Utils.ActionWrapper
+    name: ActionWrapper
+  - uid: TradingPlatform.BusinessLayer.Utils.AlertData
+    name: AlertData
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor<T>
+    name.vb: BufferedProcessor(Of T)
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers`2
+    name: BufferedProcessorWithSubscribers<TKey, TValue>
+    name.vb: BufferedProcessorWithSubscribers(Of TKey, TValue)
+  - uid: TradingPlatform.BusinessLayer.Utils.ColumnBaseInformation
+    name: ColumnBaseInformation
+  - uid: TradingPlatform.BusinessLayer.Utils.ConditionGroup
+    name: ConditionGroup
+  - uid: TradingPlatform.BusinessLayer.Utils.ConditionItem
+    name: ConditionItem
+  - uid: TradingPlatform.BusinessLayer.Utils.Const
+    name: Const
+  - uid: TradingPlatform.BusinessLayer.Utils.CoreMath
+    name: CoreMath
+  - uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+    name: FormatSettings
+  - uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+    name: HotKeyInformation
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue<TKey>
+    name.vb: IBufferedProcessorValue(Of TKey)
+  - uid: TradingPlatform.BusinessLayer.Utils.LineOptions
+    name: LineOptions
+  - uid: TradingPlatform.BusinessLayer.Utils.Rss
+    name: Rss
+  - uid: TradingPlatform.BusinessLayer.Utils.RssItem
+    name: RssItem
+  - uid: TradingPlatform.BusinessLayer.Utils.TableBaseType
+    name: TableBaseType
+  - uid: TradingPlatform.BusinessLayer.Utils.TableConditionType
+    name: TableConditionType
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds
+  name: TradingPlatform.BusinessLayer.Utils.Sounds
+  items:
+  - uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+    name: Sound
+  - uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+    name: SoundItem
+- uid: Trend
+  name: Trend
+  items:
+  - uid: Trend.ADX
+    name: ADX
+  - uid: Trend.Alligator
+    name: Alligator
+  - uid: Trend.DMI
+    name: DMI
+  - uid: Trend.ICH
+    name: ICH
+  - uid: Trend.SAR
+    name: SAR
+  - uid: Trend.SI
+    name: SI
+  - uid: Trend.ZZ
+    name: ZZ
+- uid: Volatility
+  name: Volatility
+  items:
+  - uid: Volatility.ATR
+    name: ATR
+  - uid: Volatility.CMO
+    name: CMO
+  - uid: Volatility.HV
+    name: HV
+  - uid: Volatility.SD
+    name: SD
+- uid: Volume
+  name: Volume
+  items:
+  - uid: Volume.MFI
+    name: MFI
+  - uid: Volume.OBV
+    name: OBV
+  - uid: Volume.PVI
+    name: PVI
+  - uid: Volume.Volume
+    name: Volume

@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AggregateMethod
+  commentId: T:TradingPlatform.BusinessLayer.AggregateMethod
+  id: AggregateMethod
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AggregateMethod.ByMMIDAndPrice
+  - TradingPlatform.BusinessLayer.AggregateMethod.ByPriceLVL
+  - TradingPlatform.BusinessLayer.AggregateMethod.None
+  langs:
+  - csharp
+  - vb
+  name: AggregateMethod
+  nameWithType: AggregateMethod
+  fullName: TradingPlatform.BusinessLayer.AggregateMethod
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: AggregateMethod
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 503
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum AggregateMethod
+    content.vb: Public Enum AggregateMethod
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.AggregateMethod.ByPriceLVL
+  commentId: F:TradingPlatform.BusinessLayer.AggregateMethod.ByPriceLVL
+  id: ByPriceLVL
+  parent: TradingPlatform.BusinessLayer.AggregateMethod
+  langs:
+  - csharp
+  - vb
+  name: ByPriceLVL
+  nameWithType: AggregateMethod.ByPriceLVL
+  fullName: TradingPlatform.BusinessLayer.AggregateMethod.ByPriceLVL
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: ByPriceLVL
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 505
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ByPriceLVL = 0
+    return:
+      type: TradingPlatform.BusinessLayer.AggregateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AggregateMethod.ByMMIDAndPrice
+  commentId: F:TradingPlatform.BusinessLayer.AggregateMethod.ByMMIDAndPrice
+  id: ByMMIDAndPrice
+  parent: TradingPlatform.BusinessLayer.AggregateMethod
+  langs:
+  - csharp
+  - vb
+  name: ByMMIDAndPrice
+  nameWithType: AggregateMethod.ByMMIDAndPrice
+  fullName: TradingPlatform.BusinessLayer.AggregateMethod.ByMMIDAndPrice
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: ByMMIDAndPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 506
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ByMMIDAndPrice = 1
+    return:
+      type: TradingPlatform.BusinessLayer.AggregateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AggregateMethod.None
+  commentId: F:TradingPlatform.BusinessLayer.AggregateMethod.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.AggregateMethod
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AggregateMethod.None
+  fullName: TradingPlatform.BusinessLayer.AggregateMethod.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 507
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: None = 2
+    return:
+      type: TradingPlatform.BusinessLayer.AggregateMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.AggregateMethod
+  commentId: T:TradingPlatform.BusinessLayer.AggregateMethod
+  parent: TradingPlatform.BusinessLayer
+  name: AggregateMethod
+  nameWithType: AggregateMethod
+  fullName: TradingPlatform.BusinessLayer.AggregateMethod

@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NonFixedListDownload
+  commentId: T:TradingPlatform.BusinessLayer.NonFixedListDownload
+  id: NonFixedListDownload
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NonFixedListDownload.Download
+  - TradingPlatform.BusinessLayer.NonFixedListDownload.IgnoreDownload
+  langs:
+  - csharp
+  - vb
+  name: NonFixedListDownload
+  nameWithType: NonFixedListDownload
+  fullName: TradingPlatform.BusinessLayer.NonFixedListDownload
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NonFixedListDownload
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 88
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum NonFixedListDownload
+    content.vb: Public Enum NonFixedListDownload
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.NonFixedListDownload.Download
+  commentId: F:TradingPlatform.BusinessLayer.NonFixedListDownload.Download
+  id: Download
+  parent: TradingPlatform.BusinessLayer.NonFixedListDownload
+  langs:
+  - csharp
+  - vb
+  name: Download
+  nameWithType: NonFixedListDownload.Download
+  fullName: TradingPlatform.BusinessLayer.NonFixedListDownload.Download
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Download
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 90
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Download = 0
+    return:
+      type: TradingPlatform.BusinessLayer.NonFixedListDownload
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NonFixedListDownload.IgnoreDownload
+  commentId: F:TradingPlatform.BusinessLayer.NonFixedListDownload.IgnoreDownload
+  id: IgnoreDownload
+  parent: TradingPlatform.BusinessLayer.NonFixedListDownload
+  langs:
+  - csharp
+  - vb
+  name: IgnoreDownload
+  nameWithType: NonFixedListDownload.IgnoreDownload
+  fullName: TradingPlatform.BusinessLayer.NonFixedListDownload.IgnoreDownload
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: IgnoreDownload
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: IgnoreDownload = 1
+    return:
+      type: TradingPlatform.BusinessLayer.NonFixedListDownload
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.NonFixedListDownload
+  commentId: T:TradingPlatform.BusinessLayer.NonFixedListDownload
+  parent: TradingPlatform.BusinessLayer
+  name: NonFixedListDownload
+  nameWithType: NonFixedListDownload
+  fullName: TradingPlatform.BusinessLayer.NonFixedListDownload

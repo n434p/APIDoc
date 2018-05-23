@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.NativeDragEventArgs
+  id: NativeDragEventArgs
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor(System.Object[],System.Drawing.Point)
+  - TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor(TradingPlatform.BusinessLayer.NativeDragDropEffects,System.Object[],System.Drawing.Point)
+  - TradingPlatform.BusinessLayer.NativeDragEventArgs.Data
+  - TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects
+  - TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled
+  - TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition
+  langs:
+  - csharp
+  - vb
+  name: NativeDragEventArgs
+  nameWithType: NativeDragEventArgs
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NativeDragEventArgs
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1050
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class NativeDragEventArgs
+    content.vb: Public Class NativeDragEventArgs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects
+  commentId: P:TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects
+  id: Effects
+  parent: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Effects
+  nameWithType: NativeDragEventArgs.Effects
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Effects
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1052
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public NativeDragDropEffects Effects { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+    content.vb: Public Property Effects As NativeDragDropEffects
+  overload: TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled
+  commentId: P:TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled
+  id: Handled
+  parent: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Handled
+  nameWithType: NativeDragEventArgs.Handled
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Handled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1053
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool Handled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Handled As Boolean
+  overload: TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.Data
+  commentId: P:TradingPlatform.BusinessLayer.NativeDragEventArgs.Data
+  id: Data
+  parent: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: NativeDragEventArgs.Data
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.Data
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Data
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1054
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public object[] Data { get; }
+    parameters: []
+    return:
+      type: System.Object[]
+    content.vb: Public ReadOnly Property Data As Object()
+  overload: TradingPlatform.BusinessLayer.NativeDragEventArgs.Data*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition
+  commentId: P:TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition
+  id: MousePosition
+  parent: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  langs:
+  - csharp
+  - vb
+  name: MousePosition
+  nameWithType: NativeDragEventArgs.MousePosition
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: MousePosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1056
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Point MousePosition { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Point
+    content.vb: Public ReadOnly Property MousePosition As Point
+  overload: TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor(TradingPlatform.BusinessLayer.NativeDragDropEffects,System.Object[],System.Drawing.Point)
+  commentId: M:TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor(TradingPlatform.BusinessLayer.NativeDragDropEffects,System.Object[],System.Drawing.Point)
+  id: '#ctor(TradingPlatform.BusinessLayer.NativeDragDropEffects,System.Object[],System.Drawing.Point)'
+  parent: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NativeDragEventArgs(NativeDragDropEffects, Object[], Point)
+  nameWithType: NativeDragEventArgs.NativeDragEventArgs(NativeDragDropEffects, Object[], Point)
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.NativeDragEventArgs(TradingPlatform.BusinessLayer.NativeDragDropEffects, System.Object[], System.Drawing.Point)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1058
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public NativeDragEventArgs(NativeDragDropEffects effects, object[] data, Point mousePosition)
+    parameters:
+    - id: effects
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+    - id: data
+      type: System.Object[]
+    - id: mousePosition
+      type: System.Drawing.Point
+    content.vb: Public Sub New(effects As NativeDragDropEffects, data As Object(), mousePosition As Point)
+  overload: TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor*
+  nameWithType.vb: NativeDragEventArgs.NativeDragEventArgs(NativeDragDropEffects, Object(), Point)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.NativeDragEventArgs.NativeDragEventArgs(TradingPlatform.BusinessLayer.NativeDragDropEffects, System.Object(), System.Drawing.Point)
+  name.vb: NativeDragEventArgs(NativeDragDropEffects, Object(), Point)
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor(System.Object[],System.Drawing.Point)
+  commentId: M:TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor(System.Object[],System.Drawing.Point)
+  id: '#ctor(System.Object[],System.Drawing.Point)'
+  parent: TradingPlatform.BusinessLayer.NativeDragEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NativeDragEventArgs(Object[], Point)
+  nameWithType: NativeDragEventArgs.NativeDragEventArgs(Object[], Point)
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.NativeDragEventArgs(System.Object[], System.Drawing.Point)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1064
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public NativeDragEventArgs(object[] data, Point mousePosition)
+    parameters:
+    - id: data
+      type: System.Object[]
+    - id: mousePosition
+      type: System.Drawing.Point
+    content.vb: Public Sub New(data As Object(), mousePosition As Point)
+  overload: TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor*
+  nameWithType.vb: NativeDragEventArgs.NativeDragEventArgs(Object(), Point)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.NativeDragEventArgs.NativeDragEventArgs(System.Object(), System.Drawing.Point)
+  name.vb: NativeDragEventArgs(Object(), Point)
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects
+  name: Effects
+  nameWithType: NativeDragEventArgs.Effects
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.Effects
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  commentId: T:TradingPlatform.BusinessLayer.NativeDragDropEffects
+  parent: TradingPlatform.BusinessLayer
+  name: NativeDragDropEffects
+  nameWithType: NativeDragDropEffects
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled
+  name: Handled
+  nameWithType: NativeDragEventArgs.Handled
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.Handled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.Data*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeDragEventArgs.Data
+  name: Data
+  nameWithType: NativeDragEventArgs.Data
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.Data
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition
+  name: MousePosition
+  nameWithType: NativeDragEventArgs.MousePosition
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.MousePosition
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeDragEventArgs.#ctor
+  name: NativeDragEventArgs
+  nameWithType: NativeDragEventArgs.NativeDragEventArgs
+  fullName: TradingPlatform.BusinessLayer.NativeDragEventArgs.NativeDragEventArgs

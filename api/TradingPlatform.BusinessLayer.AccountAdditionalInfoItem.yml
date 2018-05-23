@@ -1,0 +1,675 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  commentId: T:TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  id: AccountAdditionalInfoItem
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.CustomAssetID
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Destination
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.FormatingType
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  langs:
+  - csharp
+  - vb
+  name: AccountAdditionalInfoItem
+  nameWithType: AccountAdditionalInfoItem
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    id: AccountAdditionalInfoItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class AccountAdditionalInfoItem : AdditionalInfoItem'
+    content.vb: >-
+      Public Class AccountAdditionalInfoItem
+          Inherits AdditionalInfoItem
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.FormatingType
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.FormatingType
+  id: FormatingType
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: FormatingType
+  nameWithType: AccountAdditionalInfoItem.FormatingType
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.FormatingType
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    id: FormatingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AccountAdditionalInfoItemFormatingType FormatingType
+    return:
+      type: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+    content.vb: Public FormatingType As AccountAdditionalInfoItemFormatingType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Destination
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Destination
+  id: Destination
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: Destination
+  nameWithType: AccountAdditionalInfoItem.Destination
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Destination
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    id: Destination
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AccountAdditionalInfoDestinationPanel Destination
+    return:
+      type: TradingPlatform.BusinessLayer.AccountAdditionalInfoDestinationPanel
+    content.vb: Public Destination As AccountAdditionalInfoDestinationPanel
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.CustomAssetID
+  commentId: F:TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.CustomAssetID
+  id: CustomAssetID
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: CustomAssetID
+  nameWithType: AccountAdditionalInfoItem.CustomAssetID
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.CustomAssetID
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    id: CustomAssetID
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nиспользуется в связске с  AccountAdditionalInfoItemFormatingType.CustomAsset для форматирования в заданном ассете\n"
+  example: []
+  syntax:
+    content: public int? CustomAssetID
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public CustomAssetID As Integer?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  commentId: M:TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  id: Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  parent: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: Update(AdditionalInfoItem)
+  nameWithType: AccountAdditionalInfoItem.Update(AdditionalInfoItem)
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    id: Update
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalAccountInfo.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override void Update(AdditionalInfoItem item)
+    parameters:
+    - id: item
+      type: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    content.vb: Public Overrides Sub Update(item As AdditionalInfoItem)
+  overridden: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  overload: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  commentId: T:TradingPlatform.BusinessLayer.AdditionalInfoItem
+  parent: TradingPlatform.BusinessLayer
+  name: AdditionalInfoItem
+  nameWithType: AdditionalInfoItem
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: GroupInfo
+  nameWithType: AdditionalInfoItem.GroupInfo
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: SortIndex
+  nameWithType: AdditionalInfoItem.SortIndex
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: NameKey
+  nameWithType: AdditionalInfoItem.NameKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: ToolTipKey
+  nameWithType: AdditionalInfoItem.ToolTipKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: DataType
+  nameWithType: AdditionalInfoItem.DataType
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: Value
+  nameWithType: AdditionalInfoItem.Value
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: Hidden
+  nameWithType: AdditionalInfoItem.Hidden
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: APIKey
+  nameWithType: AdditionalInfoItem.APIKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: UseColor
+  nameWithType: AdditionalInfoItem.UseColor
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  commentId: T:TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+  parent: TradingPlatform.BusinessLayer
+  name: AccountAdditionalInfoItemFormatingType
+  nameWithType: AccountAdditionalInfoItemFormatingType
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItemFormatingType
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoDestinationPanel
+  commentId: T:TradingPlatform.BusinessLayer.AccountAdditionalInfoDestinationPanel
+  parent: TradingPlatform.BusinessLayer
+  name: AccountAdditionalInfoDestinationPanel
+  nameWithType: AccountAdditionalInfoDestinationPanel
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoDestinationPanel
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  commentId: M:TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: Update(AdditionalInfoItem)
+  nameWithType: AdditionalInfoItem.Update(AdditionalInfoItem)
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+    name: Update
+    nameWithType: AdditionalInfoItem.Update
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    name: AdditionalInfoItem
+    nameWithType: AdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+    name: Update
+    nameWithType: AdditionalInfoItem.Update
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    name: AdditionalInfoItem
+    nameWithType: AdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update*
+  commentId: Overload:TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update
+  name: Update
+  nameWithType: AccountAdditionalInfoItem.Update
+  fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem.Update

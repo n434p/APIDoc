@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: HistoryProcessorRenko
+  commentId: N:HistoryProcessorRenko
+  id: HistoryProcessorRenko
+  children:
+  - HistoryProcessorRenko.HistoryProcessorRenko
+  - HistoryProcessorRenko.Trend
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessorRenko
+  nameWithType: HistoryProcessorRenko
+  fullName: HistoryProcessorRenko
+  type: Namespace
+  assemblies:
+  - HistoryProcessorRenko
+references:
+- uid: HistoryProcessorRenko.Trend
+  commentId: T:HistoryProcessorRenko.Trend
+  parent: HistoryProcessorRenko
+  name: Trend
+  nameWithType: Trend
+  fullName: HistoryProcessorRenko.Trend
+- uid: HistoryProcessorRenko.HistoryProcessorRenko
+  commentId: T:HistoryProcessorRenko.HistoryProcessorRenko
+  name: HistoryProcessorRenko
+  nameWithType: HistoryProcessorRenko
+  fullName: HistoryProcessorRenko.HistoryProcessorRenko
+- uid: HistoryProcessorRenko
+  commentId: N:HistoryProcessorRenko
+  name: HistoryProcessorRenko
+  nameWithType: HistoryProcessorRenko
+  fullName: HistoryProcessorRenko

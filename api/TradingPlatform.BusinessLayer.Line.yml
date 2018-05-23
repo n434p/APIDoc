@@ -1,0 +1,769 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Line
+  commentId: T:TradingPlatform.BusinessLayer.Line
+  id: Line
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Line.#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  - TradingPlatform.BusinessLayer.Line.Color
+  - TradingPlatform.BusinessLayer.Line.Name
+  - TradingPlatform.BusinessLayer.Line.Settings
+  - TradingPlatform.BusinessLayer.Line.Style
+  - TradingPlatform.BusinessLayer.Line.Visible
+  - TradingPlatform.BusinessLayer.Line.Width
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: Line
+  fullName: TradingPlatform.BusinessLayer.Line
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Line
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public abstract class Line : ICustomizable'
+    content.vb: >-
+      Public MustInherit Class Line
+          Implements ICustomizable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.LineLevel
+  - TradingPlatform.BusinessLayer.LineSeries
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.Line.Name
+  commentId: P:TradingPlatform.BusinessLayer.Line.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Line.Name
+  fullName: TradingPlatform.BusinessLayer.Line.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: TradingPlatform.BusinessLayer.Line.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Line.Color
+  commentId: P:TradingPlatform.BusinessLayer.Line.Color
+  id: Color
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Line.Color
+  fullName: TradingPlatform.BusinessLayer.Line.Color
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Color
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Color Color { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property Color As Color
+  overload: TradingPlatform.BusinessLayer.Line.Color*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Line.Width
+  commentId: P:TradingPlatform.BusinessLayer.Line.Width
+  id: Width
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Line.Width
+  fullName: TradingPlatform.BusinessLayer.Line.Width
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Width
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: TradingPlatform.BusinessLayer.Line.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Line.Style
+  commentId: P:TradingPlatform.BusinessLayer.Line.Style
+  id: Style
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: Line.Style
+  fullName: TradingPlatform.BusinessLayer.Line.Style
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Style
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public LineStyle Style { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Public Property Style As LineStyle
+  overload: TradingPlatform.BusinessLayer.Line.Style*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Line.Visible
+  commentId: P:TradingPlatform.BusinessLayer.Line.Visible
+  id: Visible
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: Line.Visible
+  fullName: TradingPlatform.BusinessLayer.Line.Visible
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Visible
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool Visible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Visible As Boolean
+  overload: TradingPlatform.BusinessLayer.Line.Visible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Line.#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  commentId: M:TradingPlatform.BusinessLayer.Line.#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  id: '#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)'
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Line(String, Color, Int32, LineStyle)
+  nameWithType: Line.Line(String, Color, Int32, LineStyle)
+  fullName: TradingPlatform.BusinessLayer.Line.Line(System.String, System.Drawing.Color, System.Int32, TradingPlatform.BusinessLayer.LineStyle)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Line(string name, Color color, int width, LineStyle style)
+    parameters:
+    - id: name
+      type: System.String
+    - id: color
+      type: System.Drawing.Color
+    - id: width
+      type: System.Int32
+    - id: style
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Protected Sub New(name As String, color As Color, width As Integer, style As LineStyle)
+  overload: TradingPlatform.BusinessLayer.Line.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Line.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Line.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.Line
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Line.Settings
+  fullName: TradingPlatform.BusinessLayer.Line.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Line.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overridable Property Settings As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.Line.Settings*
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable.Settings
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Line.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.Name
+  name: Name
+  nameWithType: Line.Name
+  fullName: TradingPlatform.BusinessLayer.Line.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Line.Color*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.Color
+  name: Color
+  nameWithType: Line.Color
+  fullName: TradingPlatform.BusinessLayer.Line.Color
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.Line.Width*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.Width
+  name: Width
+  nameWithType: Line.Width
+  fullName: TradingPlatform.BusinessLayer.Line.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Line.Style*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.Style
+  name: Style
+  nameWithType: Line.Style
+  fullName: TradingPlatform.BusinessLayer.Line.Style
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+- uid: TradingPlatform.BusinessLayer.Line.Visible*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.Visible
+  name: Visible
+  nameWithType: Line.Visible
+  fullName: TradingPlatform.BusinessLayer.Line.Visible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Line.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.#ctor
+  name: Line
+  nameWithType: Line.Line
+  fullName: TradingPlatform.BusinessLayer.Line.Line
+- uid: TradingPlatform.BusinessLayer.Line.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.Line.Settings
+  name: Settings
+  nameWithType: Line.Settings
+  fullName: TradingPlatform.BusinessLayer.Line.Settings
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  parent: TradingPlatform.BusinessLayer.ICustomizable
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

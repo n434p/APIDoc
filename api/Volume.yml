@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Volume
+  commentId: N:Volume
+  id: Volume
+  children:
+  - Volume.MFI
+  - Volume.OBV
+  - Volume.PVI
+  - Volume.Volume
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: Volume
+  fullName: Volume
+  type: Namespace
+  assemblies:
+  - Indicators
+references:
+- uid: Volume.MFI
+  commentId: T:Volume.MFI
+  name: MFI
+  nameWithType: MFI
+  fullName: Volume.MFI
+- uid: Volume.OBV
+  commentId: T:Volume.OBV
+  name: OBV
+  nameWithType: OBV
+  fullName: Volume.OBV
+- uid: Volume.PVI
+  commentId: T:Volume.PVI
+  name: PVI
+  nameWithType: PVI
+  fullName: Volume.PVI
+- uid: Volume.Volume
+  commentId: T:Volume.Volume
+  name: Volume
+  nameWithType: Volume
+  fullName: Volume.Volume

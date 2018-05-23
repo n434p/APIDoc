@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  id: IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/IUniqueID.cs
+    id: IUniqueID
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/IUniqueID.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface IUniqueID
+    content.vb: Public Interface IUniqueID
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  id: UniqueId
+  parent: TradingPlatform.BusinessLayer.IUniqueID
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: IUniqueID.UniqueId
+  fullName: TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/IUniqueID.cs
+    id: UniqueId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/IUniqueID.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string UniqueId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property UniqueId As String
+  overload: TradingPlatform.BusinessLayer.IUniqueID.UniqueId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.IUniqueID.UniqueId*
+  commentId: Overload:TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  name: UniqueId
+  nameWithType: IUniqueID.UniqueId
+  fullName: TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

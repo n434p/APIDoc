@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IRenamable
+  commentId: T:TradingPlatform.BusinessLayer.IRenamable
+  id: IRenamable
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+  - TradingPlatform.BusinessLayer.IRenamable.Name
+  langs:
+  - csharp
+  - vb
+  name: IRenamable
+  nameWithType: IRenamable
+  fullName: TradingPlatform.BusinessLayer.IRenamable
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/IRenameble.cs
+    id: IRenamable
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/IRenameble.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface IRenamable
+    content.vb: Public Interface IRenamable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.IRenamable.Name
+  commentId: P:TradingPlatform.BusinessLayer.IRenamable.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.IRenamable
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IRenamable.Name
+  fullName: TradingPlatform.BusinessLayer.IRenamable.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/IRenameble.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/IRenameble.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Name As String
+  overload: TradingPlatform.BusinessLayer.IRenamable.Name*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+  commentId: M:TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+  id: IsNameAllowed(System.String,System.String@)
+  parent: TradingPlatform.BusinessLayer.IRenamable
+  langs:
+  - csharp
+  - vb
+  name: IsNameAllowed(String, ref String)
+  nameWithType: IRenamable.IsNameAllowed(String, ref String)
+  fullName: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String, ref System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/IRenameble.cs
+    id: IsNameAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/IRenameble.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: bool IsNameAllowed(string s, ref string error)
+    parameters:
+    - id: s
+      type: System.String
+    - id: error
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsNameAllowed(s As String, ByRef error As String) As Boolean
+  overload: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed*
+  nameWithType.vb: IRenamable.IsNameAllowed(String, ByRef String)
+  fullName.vb: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String, ByRef System.String)
+  name.vb: IsNameAllowed(String, ByRef String)
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.IRenamable.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.IRenamable.Name
+  name: Name
+  nameWithType: IRenamable.Name
+  fullName: TradingPlatform.BusinessLayer.IRenamable.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed
+  name: IsNameAllowed
+  nameWithType: IRenamable.IsNameAllowed
+  fullName: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

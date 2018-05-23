@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TradingOperation
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperation
+  id: TradingOperation
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TradingOperation.CancelOrder
+  - TradingPlatform.BusinessLayer.TradingOperation.ClosePosition
+  - TradingPlatform.BusinessLayer.TradingOperation.ModifyOrder
+  - TradingPlatform.BusinessLayer.TradingOperation.PlaceOrder
+  langs:
+  - csharp
+  - vb
+  name: TradingOperation
+  nameWithType: TradingOperation
+  fullName: TradingPlatform.BusinessLayer.TradingOperation
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: TradingOperation
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 134
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum TradingOperation
+    content.vb: Public Enum TradingOperation
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.TradingOperation.PlaceOrder
+  commentId: F:TradingPlatform.BusinessLayer.TradingOperation.PlaceOrder
+  id: PlaceOrder
+  parent: TradingPlatform.BusinessLayer.TradingOperation
+  langs:
+  - csharp
+  - vb
+  name: PlaceOrder
+  nameWithType: TradingOperation.PlaceOrder
+  fullName: TradingPlatform.BusinessLayer.TradingOperation.PlaceOrder
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: PlaceOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 136
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: PlaceOrder = 0
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TradingOperation.ModifyOrder
+  commentId: F:TradingPlatform.BusinessLayer.TradingOperation.ModifyOrder
+  id: ModifyOrder
+  parent: TradingPlatform.BusinessLayer.TradingOperation
+  langs:
+  - csharp
+  - vb
+  name: ModifyOrder
+  nameWithType: TradingOperation.ModifyOrder
+  fullName: TradingPlatform.BusinessLayer.TradingOperation.ModifyOrder
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ModifyOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 137
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ModifyOrder = 1
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TradingOperation.CancelOrder
+  commentId: F:TradingPlatform.BusinessLayer.TradingOperation.CancelOrder
+  id: CancelOrder
+  parent: TradingPlatform.BusinessLayer.TradingOperation
+  langs:
+  - csharp
+  - vb
+  name: CancelOrder
+  nameWithType: TradingOperation.CancelOrder
+  fullName: TradingPlatform.BusinessLayer.TradingOperation.CancelOrder
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: CancelOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 138
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: CancelOrder = 2
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TradingOperation.ClosePosition
+  commentId: F:TradingPlatform.BusinessLayer.TradingOperation.ClosePosition
+  id: ClosePosition
+  parent: TradingPlatform.BusinessLayer.TradingOperation
+  langs:
+  - csharp
+  - vb
+  name: ClosePosition
+  nameWithType: TradingOperation.ClosePosition
+  fullName: TradingPlatform.BusinessLayer.TradingOperation.ClosePosition
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ClosePosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 139
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ClosePosition = 3
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.TradingOperation
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperation
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperation
+  nameWithType: TradingOperation
+  fullName: TradingPlatform.BusinessLayer.TradingOperation

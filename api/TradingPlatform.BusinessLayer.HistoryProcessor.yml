@@ -1,0 +1,1050 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor
+  commentId: T:TradingPlatform.BusinessLayer.HistoryProcessor
+  id: HistoryProcessor
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryProcessor.#ctor
+  - TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  - TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.HistoryProcessor.Dispose
+  - TradingPlatform.BusinessLayer.HistoryProcessor.HistoryItemUpdated
+  - TradingPlatform.BusinessLayer.HistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.HistoryProcessor.NewHistoryItem
+  - TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  - TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  - TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessor
+  nameWithType: HistoryProcessor
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: HistoryProcessor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public abstract class HistoryProcessor : IHistoryProcessor, IDisposable'
+    content.vb: >-
+      Public MustInherit Class HistoryProcessor
+          Implements IHistoryProcessor, IDisposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - AggregatorHeikenAshi.HistoryProcessorHeikenAshi
+  - HistoryProcessorRangeBars.HistoryProcessorRangeBars
+  - HistoryProcessorRenko.HistoryProcessorRenko
+  - HistoryProcessorTick.HistoryProcessorTick
+  - HistoryProcessorTime.HistoryProcessorTime
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.NewHistoryItem
+  commentId: E:TradingPlatform.BusinessLayer.HistoryProcessor.NewHistoryItem
+  id: NewHistoryItem
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: NewHistoryItem
+  nameWithType: HistoryProcessor.NewHistoryItem
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.NewHistoryItem
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: NewHistoryItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event HistoryEventHandler NewHistoryItem
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryEventHandler
+    content.vb: Public Event NewHistoryItem As HistoryEventHandler
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor.NewHistoryItem
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.HistoryItemUpdated
+  commentId: E:TradingPlatform.BusinessLayer.HistoryProcessor.HistoryItemUpdated
+  id: HistoryItemUpdated
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: HistoryItemUpdated
+  nameWithType: HistoryProcessor.HistoryItemUpdated
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.HistoryItemUpdated
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: HistoryItemUpdated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event HistoryEventHandler HistoryItemUpdated
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryEventHandler
+    content.vb: Public Event HistoryItemUpdated As HistoryEventHandler
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor.HistoryItemUpdated
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  id: Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: Initialize(HistoryRequestParameters)
+  nameWithType: HistoryProcessor.Initialize(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: Initialize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void Initialize(HistoryRequestParameters historyRequestParameters)
+    parameters:
+    - id: historyRequestParameters
+      type: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    content.vb: Public Overridable Sub Initialize(historyRequestParameters As HistoryRequestParameters)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.Initialize*
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  id: AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: AggregateHistory(HistoryHolder)
+  nameWithType: HistoryProcessor.AggregateHistory(HistoryHolder)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: AggregateHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual IList<IHistoryItem> AggregateHistory(HistoryHolder historyHolder)
+    parameters:
+    - id: historyHolder
+      type: TradingPlatform.BusinessLayer.HistoryHolder
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+    content.vb: Public Overridable Function AggregateHistory(historyHolder As HistoryHolder) As IList(Of IHistoryItem)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory*
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  id: ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: ProcessQuote(MessageQuote)
+  nameWithType: HistoryProcessor.ProcessQuote(MessageQuote)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: ProcessQuote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void ProcessQuote(MessageQuote messageQuote)
+    parameters:
+    - id: messageQuote
+      type: TradingPlatform.BusinessLayer.MessageQuote
+    content.vb: Public Overridable Sub ProcessQuote(messageQuote As MessageQuote)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote*
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  id: CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: CorrectHistoryRequestBorders(HistoryRequestParameters)
+  nameWithType: HistoryProcessor.CorrectHistoryRequestBorders(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: CorrectHistoryRequestBorders
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void CorrectHistoryRequestBorders(HistoryRequestParameters historyRequestParameters)
+    parameters:
+    - id: historyRequestParameters
+      type: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    content.vb: Public Overridable Sub CorrectHistoryRequestBorders(historyRequestParameters As HistoryRequestParameters)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders*
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: HistoryProcessor.Dispose()
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void Dispose()
+    content.vb: Public Overridable Sub Dispose
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessor()
+  nameWithType: HistoryProcessor.HistoryProcessor()
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.HistoryProcessor()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected HistoryProcessor()
+    content.vb: Protected Sub New
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  id: OnNewHistoryItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: OnNewHistoryItem(HistoryEventArgs)
+  nameWithType: HistoryProcessor.OnNewHistoryItem(HistoryEventArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: OnNewHistoryItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected virtual void OnNewHistoryItem(HistoryEventArgs e)
+    parameters:
+    - id: e
+      type: TradingPlatform.BusinessLayer.HistoryEventArgs
+    content.vb: Protected Overridable Sub OnNewHistoryItem(e As HistoryEventArgs)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  id: OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  parent: TradingPlatform.BusinessLayer.HistoryProcessor
+  langs:
+  - csharp
+  - vb
+  name: OnHistoryItemUpdated(HistoryEventArgs)
+  nameWithType: HistoryProcessor.OnHistoryItemUpdated(HistoryEventArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    id: OnHistoryItemUpdated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryProcessor.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected virtual void OnHistoryItemUpdated(HistoryEventArgs e)
+    parameters:
+    - id: e
+      type: TradingPlatform.BusinessLayer.HistoryEventArgs
+    content.vb: Protected Overridable Sub OnHistoryItemUpdated(e As HistoryEventArgs)
+  overload: TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor
+  commentId: T:TradingPlatform.BusinessLayer.IHistoryProcessor
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoryProcessor
+  nameWithType: IHistoryProcessor
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor.NewHistoryItem
+  commentId: E:TradingPlatform.BusinessLayer.IHistoryProcessor.NewHistoryItem
+  parent: TradingPlatform.BusinessLayer.IHistoryProcessor
+  name: NewHistoryItem
+  nameWithType: IHistoryProcessor.NewHistoryItem
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.NewHistoryItem
+- uid: TradingPlatform.BusinessLayer.HistoryEventHandler
+  commentId: T:TradingPlatform.BusinessLayer.HistoryEventHandler
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryEventHandler
+  nameWithType: HistoryEventHandler
+  fullName: TradingPlatform.BusinessLayer.HistoryEventHandler
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor.HistoryItemUpdated
+  commentId: E:TradingPlatform.BusinessLayer.IHistoryProcessor.HistoryItemUpdated
+  parent: TradingPlatform.BusinessLayer.IHistoryProcessor
+  name: HistoryItemUpdated
+  nameWithType: IHistoryProcessor.HistoryItemUpdated
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.HistoryItemUpdated
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.Initialize*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.Initialize
+  name: Initialize
+  nameWithType: HistoryProcessor.Initialize
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.Initialize
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.IHistoryProcessor
+  name: Initialize(HistoryRequestParameters)
+  nameWithType: IHistoryProcessor.Initialize(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: Initialize
+    nameWithType: IHistoryProcessor.Initialize
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: Initialize
+    nameWithType: IHistoryProcessor.Initialize
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.HistoryRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryRequestParameters
+  nameWithType: HistoryRequestParameters
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory
+  name: AggregateHistory
+  nameWithType: HistoryProcessor.AggregateHistory
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.AggregateHistory
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  commentId: M:TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  parent: TradingPlatform.BusinessLayer.IHistoryProcessor
+  name: AggregateHistory(HistoryHolder)
+  nameWithType: IHistoryProcessor.AggregateHistory(HistoryHolder)
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+    name: AggregateHistory
+    nameWithType: IHistoryProcessor.AggregateHistory
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryHolder
+    name: HistoryHolder
+    nameWithType: HistoryHolder
+    fullName: TradingPlatform.BusinessLayer.HistoryHolder
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory(TradingPlatform.BusinessLayer.HistoryHolder)
+    name: AggregateHistory
+    nameWithType: IHistoryProcessor.AggregateHistory
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.AggregateHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryHolder
+    name: HistoryHolder
+    nameWithType: HistoryHolder
+    fullName: TradingPlatform.BusinessLayer.HistoryHolder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryHolder
+  commentId: T:TradingPlatform.BusinessLayer.HistoryHolder
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryHolder
+  nameWithType: HistoryHolder
+  fullName: TradingPlatform.BusinessLayer.HistoryHolder
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IHistoryItem>
+  nameWithType: IList<IHistoryItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.IHistoryItem>
+  nameWithType.vb: IList(Of IHistoryItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.IHistoryItem)
+  name.vb: IList(Of IHistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote
+  name: ProcessQuote
+  nameWithType: HistoryProcessor.ProcessQuote
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.ProcessQuote
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  commentId: M:TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  parent: TradingPlatform.BusinessLayer.IHistoryProcessor
+  name: ProcessQuote(MessageQuote)
+  nameWithType: IHistoryProcessor.ProcessQuote(MessageQuote)
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+    name: ProcessQuote
+    nameWithType: IHistoryProcessor.ProcessQuote
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.MessageQuote
+    name: MessageQuote
+    nameWithType: MessageQuote
+    fullName: TradingPlatform.BusinessLayer.MessageQuote
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote(TradingPlatform.BusinessLayer.MessageQuote)
+    name: ProcessQuote
+    nameWithType: IHistoryProcessor.ProcessQuote
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.ProcessQuote
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.MessageQuote
+    name: MessageQuote
+    nameWithType: MessageQuote
+    fullName: TradingPlatform.BusinessLayer.MessageQuote
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.MessageQuote
+  commentId: T:TradingPlatform.BusinessLayer.MessageQuote
+  parent: TradingPlatform.BusinessLayer
+  name: MessageQuote
+  nameWithType: MessageQuote
+  fullName: TradingPlatform.BusinessLayer.MessageQuote
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders
+  name: CorrectHistoryRequestBorders
+  nameWithType: HistoryProcessor.CorrectHistoryRequestBorders
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.CorrectHistoryRequestBorders
+- uid: TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.IHistoryProcessor
+  name: CorrectHistoryRequestBorders(HistoryRequestParameters)
+  nameWithType: IHistoryProcessor.CorrectHistoryRequestBorders(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: CorrectHistoryRequestBorders
+    nameWithType: IHistoryProcessor.CorrectHistoryRequestBorders
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: CorrectHistoryRequestBorders
+    nameWithType: IHistoryProcessor.CorrectHistoryRequestBorders
+    fullName: TradingPlatform.BusinessLayer.IHistoryProcessor.CorrectHistoryRequestBorders
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.Dispose
+  name: Dispose
+  nameWithType: HistoryProcessor.Dispose
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.#ctor
+  name: HistoryProcessor
+  nameWithType: HistoryProcessor.HistoryProcessor
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.HistoryProcessor
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem
+  name: OnNewHistoryItem
+  nameWithType: HistoryProcessor.OnNewHistoryItem
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.OnNewHistoryItem
+- uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.HistoryEventArgs
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryEventArgs
+  nameWithType: HistoryEventArgs
+  fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+- uid: TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated
+  name: OnHistoryItemUpdated
+  nameWithType: HistoryProcessor.OnHistoryItemUpdated
+  fullName: TradingPlatform.BusinessLayer.HistoryProcessor.OnHistoryItemUpdated

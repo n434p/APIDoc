@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.LoggingLevel
+  commentId: T:TradingPlatform.BusinessLayer.LoggingLevel
+  id: LoggingLevel
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.LoggingLevel.Error
+  - TradingPlatform.BusinessLayer.LoggingLevel.Painting
+  - TradingPlatform.BusinessLayer.LoggingLevel.Quotes
+  - TradingPlatform.BusinessLayer.LoggingLevel.System
+  - TradingPlatform.BusinessLayer.LoggingLevel.Trading
+  - TradingPlatform.BusinessLayer.LoggingLevel.Verbose
+  langs:
+  - csharp
+  - vb
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LoggingLevel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum LoggingLevel
+    content.vb: >-
+      <Flags>
+
+      Public Enum LoggingLevel
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.LoggingLevel.System
+  commentId: F:TradingPlatform.BusinessLayer.LoggingLevel.System
+  id: System
+  parent: TradingPlatform.BusinessLayer.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: LoggingLevel.System
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel.System
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: System
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 70
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: System = 1
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LoggingLevel.Error
+  commentId: F:TradingPlatform.BusinessLayer.LoggingLevel.Error
+  id: Error
+  parent: TradingPlatform.BusinessLayer.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LoggingLevel.Error
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel.Error
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Error
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 71
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Error = 2
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LoggingLevel.Trading
+  commentId: F:TradingPlatform.BusinessLayer.LoggingLevel.Trading
+  id: Trading
+  parent: TradingPlatform.BusinessLayer.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Trading
+  nameWithType: LoggingLevel.Trading
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel.Trading
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Trading
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 73
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Trading = 4
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LoggingLevel.Verbose
+  commentId: F:TradingPlatform.BusinessLayer.LoggingLevel.Verbose
+  id: Verbose
+  parent: TradingPlatform.BusinessLayer.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Verbose
+  nameWithType: LoggingLevel.Verbose
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel.Verbose
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Verbose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 74
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Verbose = 8
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LoggingLevel.Quotes
+  commentId: F:TradingPlatform.BusinessLayer.LoggingLevel.Quotes
+  id: Quotes
+  parent: TradingPlatform.BusinessLayer.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Quotes
+  nameWithType: LoggingLevel.Quotes
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel.Quotes
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Quotes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 75
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Quotes = 16
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LoggingLevel.Painting
+  commentId: F:TradingPlatform.BusinessLayer.LoggingLevel.Painting
+  id: Painting
+  parent: TradingPlatform.BusinessLayer.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Painting
+  nameWithType: LoggingLevel.Painting
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel.Painting
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Painting
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 76
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Painting = 32
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.LoggingLevel
+  commentId: T:TradingPlatform.BusinessLayer.LoggingLevel
+  parent: TradingPlatform.BusinessLayer
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel

@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IDrawing
+  id: IDrawing
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  langs:
+  - csharp
+  - vb
+  name: IDrawing
+  nameWithType: IDrawing
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: IDrawing
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public interface IDrawing
+    content.vb: Public Interface IDrawing
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  id: CreationMode
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  langs:
+  - csharp
+  - vb
+  name: CreationMode
+  nameWithType: IDrawing.CreationMode
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: CreationMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: CreationMode CreationMode { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.CreationMode
+    content.vb: ReadOnly Property CreationMode As CreationMode
+  overload: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  id: ID
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: IDrawing.ID
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: ID
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: string ID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ID As String
+  overload: TradingPlatform.BusinessLayer.Chart.IDrawing.ID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  id: MoveToBackground
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  langs:
+  - csharp
+  - vb
+  name: MoveToBackground
+  nameWithType: IDrawing.MoveToBackground
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: MoveToBackground
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: bool MoveToBackground { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property MoveToBackground As Boolean
+  overload: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: IDrawing.State
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: DrawingState State { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.DrawingState
+    content.vb: Property State As DrawingState
+  overload: TradingPlatform.BusinessLayer.Chart.IDrawing.State*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  id: GetPoint(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  langs:
+  - csharp
+  - vb
+  name: GetPoint(Int32)
+  nameWithType: IDrawing.GetPoint(Int32)
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: GetPoint
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: GetPoint(int pointIndex)
+    parameters:
+    - id: pointIndex
+      type: System.Int32
+    return:
+      type: System.ValueTuple{System.DateTime,System.Double}
+    content.vb: 'Function GetPoint(pointIndex As Integer) As '
+  overload: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint*
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+  id: SetPoint(System.Int32,System.DateTime,System.Double)
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  langs:
+  - csharp
+  - vb
+  name: SetPoint(Int32, DateTime, Double)
+  nameWithType: IDrawing.SetPoint(Int32, DateTime, Double)
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32, System.DateTime, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    id: SetPoint
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IDrawing.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: void SetPoint(int pointIndex, DateTime time, double price)
+    parameters:
+    - id: pointIndex
+      type: System.Int32
+    - id: time
+      type: System.DateTime
+    - id: price
+      type: System.Double
+    content.vb: Sub SetPoint(pointIndex As Integer, time As Date, price As Double)
+  overload: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint*
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  name: CreationMode
+  nameWithType: IDrawing.CreationMode
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+- uid: TradingPlatform.BusinessLayer.Chart.CreationMode
+  commentId: T:TradingPlatform.BusinessLayer.Chart.CreationMode
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: CreationMode
+  nameWithType: CreationMode
+  fullName: TradingPlatform.BusinessLayer.Chart.CreationMode
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.ID*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  name: ID
+  nameWithType: IDrawing.ID
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  name: MoveToBackground
+  nameWithType: IDrawing.MoveToBackground
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  name: State
+  nameWithType: IDrawing.State
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.State
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingState
+  commentId: T:TradingPlatform.BusinessLayer.Chart.DrawingState
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: DrawingState
+  nameWithType: DrawingState
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingState
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint
+  name: GetPoint
+  nameWithType: IDrawing.GetPoint
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.ValueTuple{System.DateTime,System.Double}
+  commentId: T:System.ValueTuple{System.DateTime,System.Double}
+  parent: System
+  name: ''
+  nameWithType: ''
+  fullName: System.
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint
+  name: SetPoint
+  nameWithType: IDrawing.SetPoint
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

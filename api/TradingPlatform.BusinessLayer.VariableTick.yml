@@ -1,0 +1,1084 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.VariableTick
+  commentId: T:TradingPlatform.BusinessLayer.VariableTick
+  id: VariableTick
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.VariableTick.#ctor(System.Double,System.Double,System.Boolean,System.Double,System.Double,System.Nullable{System.Int32})
+  - TradingPlatform.BusinessLayer.VariableTick.CheckPrice(System.Double)
+  - TradingPlatform.BusinessLayer.VariableTick.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder
+  - TradingPlatform.BusinessLayer.VariableTick.LeftBorder
+  - TradingPlatform.BusinessLayer.VariableTick.Precision
+  - TradingPlatform.BusinessLayer.VariableTick.RightBorder
+  - TradingPlatform.BusinessLayer.VariableTick.TickCost
+  - TradingPlatform.BusinessLayer.VariableTick.TickSize
+  - TradingPlatform.BusinessLayer.VariableTick.ToString
+  - TradingPlatform.BusinessLayer.VariableTick.ToXElement
+  langs:
+  - csharp
+  - vb
+  name: VariableTick
+  nameWithType: VariableTick
+  fullName: TradingPlatform.BusinessLayer.VariableTick
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: VariableTick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "VariableTick", Namespace = "TradingPlatform")]
+
+      public class VariableTick : IXElementSerialization
+    content.vb: >-
+      <DataContract(Name:="VariableTick", Namespace:="TradingPlatform")>
+
+      Public Class VariableTick
+          Implements IXElementSerialization
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: VariableTick
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.VariableTick.LeftBorder
+  commentId: P:TradingPlatform.BusinessLayer.VariableTick.LeftBorder
+  id: LeftBorder
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: LeftBorder
+  nameWithType: VariableTick.LeftBorder
+  fullName: TradingPlatform.BusinessLayer.VariableTick.LeftBorder
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: LeftBorder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public double LeftBorder { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember>
+
+      Public ReadOnly Property LeftBorder As Double
+  overload: TradingPlatform.BusinessLayer.VariableTick.LeftBorder*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder
+  commentId: P:TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder
+  id: IncludeLeftBorder
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: IncludeLeftBorder
+  nameWithType: VariableTick.IncludeLeftBorder
+  fullName: TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: IncludeLeftBorder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public bool IncludeLeftBorder { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public ReadOnly Property IncludeLeftBorder As Boolean
+  overload: TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.VariableTick.TickSize
+  commentId: P:TradingPlatform.BusinessLayer.VariableTick.TickSize
+  id: TickSize
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: TickSize
+  nameWithType: VariableTick.TickSize
+  fullName: TradingPlatform.BusinessLayer.VariableTick.TickSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: TickSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public double TickSize { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember>
+
+      Public ReadOnly Property TickSize As Double
+  overload: TradingPlatform.BusinessLayer.VariableTick.TickSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.VariableTick.TickCost
+  commentId: P:TradingPlatform.BusinessLayer.VariableTick.TickCost
+  id: TickCost
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: TickCost
+  nameWithType: VariableTick.TickCost
+  fullName: TradingPlatform.BusinessLayer.VariableTick.TickCost
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: TickCost
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public double TickCost { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember>
+
+      Public ReadOnly Property TickCost As Double
+  overload: TradingPlatform.BusinessLayer.VariableTick.TickCost*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.VariableTick.RightBorder
+  commentId: P:TradingPlatform.BusinessLayer.VariableTick.RightBorder
+  id: RightBorder
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: RightBorder
+  nameWithType: VariableTick.RightBorder
+  fullName: TradingPlatform.BusinessLayer.VariableTick.RightBorder
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: RightBorder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public double RightBorder { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember>
+
+      Public ReadOnly Property RightBorder As Double
+  overload: TradingPlatform.BusinessLayer.VariableTick.RightBorder*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.VariableTick.Precision
+  commentId: P:TradingPlatform.BusinessLayer.VariableTick.Precision
+  id: Precision
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: Precision
+  nameWithType: VariableTick.Precision
+  fullName: TradingPlatform.BusinessLayer.VariableTick.Precision
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: Precision
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public int Precision { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public ReadOnly Property Precision As Integer
+  overload: TradingPlatform.BusinessLayer.VariableTick.Precision*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.VariableTick.CheckPrice(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.VariableTick.CheckPrice(System.Double)
+  id: CheckPrice(System.Double)
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: CheckPrice(Double)
+  nameWithType: VariableTick.CheckPrice(Double)
+  fullName: TradingPlatform.BusinessLayer.VariableTick.CheckPrice(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: CheckPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nпроверка на вхождение\n"
+  example: []
+  syntax:
+    content: public bool CheckPrice(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Function CheckPrice(price As Double) As Boolean
+  overload: TradingPlatform.BusinessLayer.VariableTick.CheckPrice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.VariableTick.#ctor(System.Double,System.Double,System.Boolean,System.Double,System.Double,System.Nullable{System.Int32})
+  commentId: M:TradingPlatform.BusinessLayer.VariableTick.#ctor(System.Double,System.Double,System.Boolean,System.Double,System.Double,System.Nullable{System.Int32})
+  id: '#ctor(System.Double,System.Double,System.Boolean,System.Double,System.Double,System.Nullable{System.Int32})'
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: VariableTick(Double, Double, Boolean, Double, Double, Nullable<Int32>)
+  nameWithType: VariableTick.VariableTick(Double, Double, Boolean, Double, Double, Nullable<Int32>)
+  fullName: TradingPlatform.BusinessLayer.VariableTick.VariableTick(System.Double, System.Double, System.Boolean, System.Double, System.Double, System.Nullable<System.Int32>)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public VariableTick(double lowLimit, double highLimit, bool allowLimit, double pointSize, double tickCost, int? precision = default(int? ))
+    parameters:
+    - id: lowLimit
+      type: System.Double
+    - id: highLimit
+      type: System.Double
+    - id: allowLimit
+      type: System.Boolean
+    - id: pointSize
+      type: System.Double
+    - id: tickCost
+      type: System.Double
+    - id: precision
+      type: System.Nullable{System.Int32}
+    content.vb: Public Sub New(lowLimit As Double, highLimit As Double, allowLimit As Boolean, pointSize As Double, tickCost As Double, precision As Integer? = Nothing)
+  overload: TradingPlatform.BusinessLayer.VariableTick.#ctor*
+  nameWithType.vb: VariableTick.VariableTick(Double, Double, Boolean, Double, Double, Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.VariableTick.VariableTick(System.Double, System.Double, System.Boolean, System.Double, System.Double, System.Nullable(Of System.Int32))
+  name.vb: VariableTick(Double, Double, Boolean, Double, Double, Nullable(Of Int32))
+- uid: TradingPlatform.BusinessLayer.VariableTick.ToString
+  commentId: M:TradingPlatform.BusinessLayer.VariableTick.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: VariableTick.ToString()
+  fullName: TradingPlatform.BusinessLayer.VariableTick.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.VariableTick.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.VariableTick.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.VariableTick.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: VariableTick.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.VariableTick.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.VariableTick.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.VariableTick.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.VariableTick.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.VariableTick
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: VariableTick.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.VariableTick.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/VariableTick.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.VariableTick.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.VariableTick.LeftBorder*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.LeftBorder
+  name: LeftBorder
+  nameWithType: VariableTick.LeftBorder
+  fullName: TradingPlatform.BusinessLayer.VariableTick.LeftBorder
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder
+  name: IncludeLeftBorder
+  nameWithType: VariableTick.IncludeLeftBorder
+  fullName: TradingPlatform.BusinessLayer.VariableTick.IncludeLeftBorder
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.VariableTick.TickSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.TickSize
+  name: TickSize
+  nameWithType: VariableTick.TickSize
+  fullName: TradingPlatform.BusinessLayer.VariableTick.TickSize
+- uid: TradingPlatform.BusinessLayer.VariableTick.TickCost*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.TickCost
+  name: TickCost
+  nameWithType: VariableTick.TickCost
+  fullName: TradingPlatform.BusinessLayer.VariableTick.TickCost
+- uid: TradingPlatform.BusinessLayer.VariableTick.RightBorder*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.RightBorder
+  name: RightBorder
+  nameWithType: VariableTick.RightBorder
+  fullName: TradingPlatform.BusinessLayer.VariableTick.RightBorder
+- uid: TradingPlatform.BusinessLayer.VariableTick.Precision*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.Precision
+  name: Precision
+  nameWithType: VariableTick.Precision
+  fullName: TradingPlatform.BusinessLayer.VariableTick.Precision
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.VariableTick.CheckPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.CheckPrice
+  name: CheckPrice
+  nameWithType: VariableTick.CheckPrice
+  fullName: TradingPlatform.BusinessLayer.VariableTick.CheckPrice
+- uid: TradingPlatform.BusinessLayer.VariableTick.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.#ctor
+  name: VariableTick
+  nameWithType: VariableTick.VariableTick
+  fullName: TradingPlatform.BusinessLayer.VariableTick.VariableTick
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.VariableTick.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.ToString
+  name: ToString
+  nameWithType: VariableTick.ToString
+  fullName: TradingPlatform.BusinessLayer.VariableTick.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.VariableTick.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.ToXElement
+  name: ToXElement
+  nameWithType: VariableTick.ToXElement
+  fullName: TradingPlatform.BusinessLayer.VariableTick.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.VariableTick.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.VariableTick.FromXElement
+  name: FromXElement
+  nameWithType: VariableTick.FromXElement
+  fullName: TradingPlatform.BusinessLayer.VariableTick.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo

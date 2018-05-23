@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables
+  commentId: N:TradingPlatform.BusinessLayer.GlobalVariables
+  id: TradingPlatform.BusinessLayer.GlobalVariables
+  children:
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  - TradingPlatform.BusinessLayer.GlobalVariables.NonSerializableObjectException
+  - TradingPlatform.BusinessLayer.GlobalVariables.TooBigObjectException
+  - TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  - TradingPlatform.BusinessLayer.GlobalVariables.VariableNotExistsException
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.GlobalVariables
+  nameWithType: TradingPlatform.BusinessLayer.GlobalVariables
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  parent: TradingPlatform.BusinessLayer.GlobalVariables
+  name: VariableLifetime
+  nameWithType: VariableLifetime
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  name: GlobalVariable
+  nameWithType: GlobalVariable
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  name: GlobalVariablesManager
+  nameWithType: GlobalVariablesManager
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.NonSerializableObjectException
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.NonSerializableObjectException
+  name: NonSerializableObjectException
+  nameWithType: NonSerializableObjectException
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.NonSerializableObjectException
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.TooBigObjectException
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.TooBigObjectException
+  name: TooBigObjectException
+  nameWithType: TooBigObjectException
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.TooBigObjectException
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableNotExistsException
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.VariableNotExistsException
+  name: VariableNotExistsException
+  nameWithType: VariableNotExistsException
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableNotExistsException
+- uid: TradingPlatform.BusinessLayer.GlobalVariables
+  commentId: N:TradingPlatform.BusinessLayer.GlobalVariables
+  name: TradingPlatform.BusinessLayer.GlobalVariables
+  nameWithType: TradingPlatform.BusinessLayer.GlobalVariables
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables

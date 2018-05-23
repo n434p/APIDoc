@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.UpdateReason
+  commentId: T:TradingPlatform.BusinessLayer.UpdateReason
+  id: UpdateReason
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.UpdateReason.HistoricalBar
+  - TradingPlatform.BusinessLayer.UpdateReason.NewBar
+  - TradingPlatform.BusinessLayer.UpdateReason.NewTick
+  - TradingPlatform.BusinessLayer.UpdateReason.Unknown
+  langs:
+  - csharp
+  - vb
+  name: UpdateReason
+  nameWithType: UpdateReason
+  fullName: TradingPlatform.BusinessLayer.UpdateReason
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: UpdateReason
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSpecifies the reason of price data updating.\n"
+  example: []
+  syntax:
+    content: public enum UpdateReason
+    content.vb: Public Enum UpdateReason
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.UpdateReason.Unknown
+  commentId: F:TradingPlatform.BusinessLayer.UpdateReason.Unknown
+  id: Unknown
+  parent: TradingPlatform.BusinessLayer.UpdateReason
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: UpdateReason.Unknown
+  fullName: TradingPlatform.BusinessLayer.UpdateReason.Unknown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Unknown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Unknown = 0
+    return:
+      type: TradingPlatform.BusinessLayer.UpdateReason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.UpdateReason.HistoricalBar
+  commentId: F:TradingPlatform.BusinessLayer.UpdateReason.HistoricalBar
+  id: HistoricalBar
+  parent: TradingPlatform.BusinessLayer.UpdateReason
+  langs:
+  - csharp
+  - vb
+  name: HistoricalBar
+  nameWithType: UpdateReason.HistoricalBar
+  fullName: TradingPlatform.BusinessLayer.UpdateReason.HistoricalBar
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: HistoricalBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nIndicates the processing of new historical bar.\n"
+  example: []
+  syntax:
+    content: HistoricalBar = 1
+    return:
+      type: TradingPlatform.BusinessLayer.UpdateReason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.UpdateReason.NewTick
+  commentId: F:TradingPlatform.BusinessLayer.UpdateReason.NewTick
+  id: NewTick
+  parent: TradingPlatform.BusinessLayer.UpdateReason
+  langs:
+  - csharp
+  - vb
+  name: NewTick
+  nameWithType: UpdateReason.NewTick
+  fullName: TradingPlatform.BusinessLayer.UpdateReason.NewTick
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: NewTick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nIndicates the coming of new real-time tick.\n"
+  example: []
+  syntax:
+    content: NewTick = 2
+    return:
+      type: TradingPlatform.BusinessLayer.UpdateReason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.UpdateReason.NewBar
+  commentId: F:TradingPlatform.BusinessLayer.UpdateReason.NewBar
+  id: NewBar
+  parent: TradingPlatform.BusinessLayer.UpdateReason
+  langs:
+  - csharp
+  - vb
+  name: NewBar
+  nameWithType: UpdateReason.NewBar
+  fullName: TradingPlatform.BusinessLayer.UpdateReason.NewBar
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: NewBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nIndicates a start of new real-time bar.\n"
+  example: []
+  syntax:
+    content: NewBar = 3
+    return:
+      type: TradingPlatform.BusinessLayer.UpdateReason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.UpdateReason
+  commentId: T:TradingPlatform.BusinessLayer.UpdateReason
+  parent: TradingPlatform.BusinessLayer
+  name: UpdateReason
+  nameWithType: UpdateReason
+  fullName: TradingPlatform.BusinessLayer.UpdateReason

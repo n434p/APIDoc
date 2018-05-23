@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ComparingType
+  commentId: T:TradingPlatform.BusinessLayer.ComparingType
+  id: ComparingType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ComparingType.DateTime
+  - TradingPlatform.BusinessLayer.ComparingType.Double
+  - TradingPlatform.BusinessLayer.ComparingType.Int
+  - TradingPlatform.BusinessLayer.ComparingType.Long
+  - TradingPlatform.BusinessLayer.ComparingType.String
+  langs:
+  - csharp
+  - vb
+  name: ComparingType
+  nameWithType: ComparingType
+  fullName: TradingPlatform.BusinessLayer.ComparingType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: ComparingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "ComparingType", Namespace = "TradingPlatform")]
+
+      public enum ComparingType
+    content.vb: >-
+      <DataContract(Name:="ComparingType", Namespace:="TradingPlatform")>
+
+      Public Enum ComparingType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ComparingType
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.ComparingType.String
+  commentId: F:TradingPlatform.BusinessLayer.ComparingType.String
+  id: String
+  parent: TradingPlatform.BusinessLayer.ComparingType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: ComparingType.String
+  fullName: TradingPlatform.BusinessLayer.ComparingType.String
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: String
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      String = 0
+    return:
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: >-
+      <EnumMember>
+
+      String = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ComparingType.Int
+  commentId: F:TradingPlatform.BusinessLayer.ComparingType.Int
+  id: Int
+  parent: TradingPlatform.BusinessLayer.ComparingType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: ComparingType.Int
+  fullName: TradingPlatform.BusinessLayer.ComparingType.Int
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: Int
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Int = 1
+    return:
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: >-
+      <EnumMember>
+
+      Int = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ComparingType.Double
+  commentId: F:TradingPlatform.BusinessLayer.ComparingType.Double
+  id: Double
+  parent: TradingPlatform.BusinessLayer.ComparingType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: ComparingType.Double
+  fullName: TradingPlatform.BusinessLayer.ComparingType.Double
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: Double
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Double = 2
+    return:
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: >-
+      <EnumMember>
+
+      Double = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ComparingType.Long
+  commentId: F:TradingPlatform.BusinessLayer.ComparingType.Long
+  id: Long
+  parent: TradingPlatform.BusinessLayer.ComparingType
+  langs:
+  - csharp
+  - vb
+  name: Long
+  nameWithType: ComparingType.Long
+  fullName: TradingPlatform.BusinessLayer.ComparingType.Long
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: Long
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Long = 3
+    return:
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: >-
+      <EnumMember>
+
+      Long = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ComparingType.DateTime
+  commentId: F:TradingPlatform.BusinessLayer.ComparingType.DateTime
+  id: DateTime
+  parent: TradingPlatform.BusinessLayer.ComparingType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: ComparingType.DateTime
+  fullName: TradingPlatform.BusinessLayer.ComparingType.DateTime
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    id: DateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoEnums.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DateTime = 4
+    return:
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: >-
+      <EnumMember>
+
+      DateTime = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.ComparingType
+  commentId: T:TradingPlatform.BusinessLayer.ComparingType
+  parent: TradingPlatform.BusinessLayer
+  name: ComparingType
+  nameWithType: ComparingType
+  fullName: TradingPlatform.BusinessLayer.ComparingType

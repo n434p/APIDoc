@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  id: NativeKeyEventArgs
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NativeKeyEventArgs.#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys)
+  - TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled
+  - TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key
+  - TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers
+  langs:
+  - csharp
+  - vb
+  name: NativeKeyEventArgs
+  nameWithType: NativeKeyEventArgs
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NativeKeyEventArgs
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1007
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class NativeKeyEventArgs
+    content.vb: Public Class NativeKeyEventArgs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key
+  commentId: P:TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key
+  id: Key
+  parent: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: NativeKeyEventArgs.Key
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Key
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1009
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public NativeKey Key { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+    content.vb: Public ReadOnly Property Key As NativeKey
+  overload: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers
+  commentId: P:TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers
+  id: Modifiers
+  parent: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Modifiers
+  nameWithType: NativeKeyEventArgs.Modifiers
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Modifiers
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1010
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public NativeModifierKeys Modifiers { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+    content.vb: Public ReadOnly Property Modifiers As NativeModifierKeys
+  overload: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled
+  commentId: P:TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled
+  id: Handled
+  parent: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Handled
+  nameWithType: NativeKeyEventArgs.Handled
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Handled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1012
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool Handled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Handled As Boolean
+  overload: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys)
+  commentId: M:TradingPlatform.BusinessLayer.NativeKeyEventArgs.#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys)
+  id: '#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys)'
+  parent: TradingPlatform.BusinessLayer.NativeKeyEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NativeKeyEventArgs(NativeKey, NativeModifierKeys)
+  nameWithType: NativeKeyEventArgs.NativeKeyEventArgs(NativeKey, NativeModifierKeys)
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.NativeKeyEventArgs(TradingPlatform.BusinessLayer.NativeKey, TradingPlatform.BusinessLayer.NativeModifierKeys)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1014
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public NativeKeyEventArgs(NativeKey key, NativeModifierKeys modifiers)
+    parameters:
+    - id: key
+      type: TradingPlatform.BusinessLayer.NativeKey
+    - id: modifiers
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+    content.vb: Public Sub New(key As NativeKey, modifiers As NativeModifierKeys)
+  overload: TradingPlatform.BusinessLayer.NativeKeyEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key
+  name: Key
+  nameWithType: NativeKeyEventArgs.Key
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Key
+- uid: TradingPlatform.BusinessLayer.NativeKey
+  commentId: T:TradingPlatform.BusinessLayer.NativeKey
+  parent: TradingPlatform.BusinessLayer
+  name: NativeKey
+  nameWithType: NativeKey
+  fullName: TradingPlatform.BusinessLayer.NativeKey
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers
+  name: Modifiers
+  nameWithType: NativeKeyEventArgs.Modifiers
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Modifiers
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys
+  commentId: T:TradingPlatform.BusinessLayer.NativeModifierKeys
+  parent: TradingPlatform.BusinessLayer
+  name: NativeModifierKeys
+  nameWithType: NativeModifierKeys
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled
+  name: Handled
+  nameWithType: NativeKeyEventArgs.Handled
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.Handled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.NativeKeyEventArgs.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.NativeKeyEventArgs.#ctor
+  name: NativeKeyEventArgs
+  nameWithType: NativeKeyEventArgs.NativeKeyEventArgs
+  fullName: TradingPlatform.BusinessLayer.NativeKeyEventArgs.NativeKeyEventArgs

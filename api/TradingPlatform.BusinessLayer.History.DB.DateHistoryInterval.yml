@@ -1,0 +1,675 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  id: DateHistoryInterval
+  parent: TradingPlatform.BusinessLayer.History.DB
+  children:
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.#ctor(System.Int64,System.Int64)
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.FromTime
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.ToTime
+  langs:
+  - csharp
+  - vb
+  name: DateHistoryInterval
+  nameWithType: DateHistoryInterval
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: DateHistoryInterval
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 381
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: 'public class DateHistoryInterval : IComparable'
+    content.vb: >-
+      Public Class DateHistoryInterval
+          Implements IComparable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IComparable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From
+  commentId: P:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From
+  id: From
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: DateHistoryInterval.From
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: From
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 386
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  summary: "\nнапрямую не вызывать, эти проперти для дебага. Использовать FromTime и ToTime\n"
+  example: []
+  syntax:
+    content: public DateTime From { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property From As Date
+  overload: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To
+  commentId: P:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To
+  id: To
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: DateHistoryInterval.To
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: To
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 387
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public DateTime To { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property To As Date
+  overload: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.FromTime
+  commentId: F:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.FromTime
+  id: FromTime
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: FromTime
+  nameWithType: DateHistoryInterval.FromTime
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.FromTime
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: FromTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 389
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public long FromTime
+    return:
+      type: System.Int64
+    content.vb: Public FromTime As Long
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.ToTime
+  commentId: F:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.ToTime
+  id: ToTime
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: ToTime
+  nameWithType: DateHistoryInterval.ToTime
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.ToTime
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: ToTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 390
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public long ToTime
+    return:
+      type: System.Int64
+    content.vb: Public ToTime As Long
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.#ctor(System.Int64,System.Int64)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.#ctor(System.Int64,System.Int64)
+  id: '#ctor(System.Int64,System.Int64)'
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: DateHistoryInterval(Int64, Int64)
+  nameWithType: DateHistoryInterval.DateHistoryInterval(Int64, Int64)
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.DateHistoryInterval(System.Int64, System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 392
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public DateHistoryInterval(long from, long to)
+    parameters:
+    - id: from
+      type: System.Int64
+    - id: to
+      type: System.Int64
+    content.vb: Public Sub New(from As Long, to As Long)
+  overload: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Object)
+  nameWithType: DateHistoryInterval.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: CompareTo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 399
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public int CompareTo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(obj As Object) As Integer
+  overload: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo*
+  implements:
+  - System.IComparable.CompareTo(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy
+  id: Copy
+  parent: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: DateHistoryInterval.Copy()
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    id: Copy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/DBLayer.cs
+    startLine: 405
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public DateHistoryInterval Copy()
+    return:
+      type: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+    content.vb: Public Function Copy As DateHistoryInterval
+  overload: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.History.DB
+  commentId: N:TradingPlatform.BusinessLayer.History.DB
+  name: TradingPlatform.BusinessLayer.History.DB
+  nameWithType: TradingPlatform.BusinessLayer.History.DB
+  fullName: TradingPlatform.BusinessLayer.History.DB
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From
+  name: From
+  nameWithType: DateHistoryInterval.From
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.From
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To
+  name: To
+  nameWithType: DateHistoryInterval.To
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.To
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.#ctor
+  name: DateHistoryInterval
+  nameWithType: DateHistoryInterval.DateHistoryInterval
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.DateHistoryInterval
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo
+  name: CompareTo
+  nameWithType: DateHistoryInterval.CompareTo
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.CompareTo
+- uid: System.IComparable.CompareTo(System.Object)
+  commentId: M:System.IComparable.CompareTo(System.Object)
+  parent: System.IComparable
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: IComparable.CompareTo(Object)
+  fullName: System.IComparable.CompareTo(System.Object)
+  spec.csharp:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy
+  name: Copy
+  nameWithType: DateHistoryInterval.Copy
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval.Copy
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: DateHistoryInterval
+  nameWithType: DateHistoryInterval
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval

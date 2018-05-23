@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeZoneType
+  commentId: T:TradingPlatform.BusinessLayer.TimeZoneType
+  id: TimeZoneType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TimeZoneType.Local
+  - TradingPlatform.BusinessLayer.TimeZoneType.Specific
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneType
+  nameWithType: TimeZoneType
+  fullName: TradingPlatform.BusinessLayer.TimeZoneType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: TimeZoneType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum TimeZoneType
+    content.vb: Public Enum TimeZoneType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.TimeZoneType.Specific
+  commentId: F:TradingPlatform.BusinessLayer.TimeZoneType.Specific
+  id: Specific
+  parent: TradingPlatform.BusinessLayer.TimeZoneType
+  langs:
+  - csharp
+  - vb
+  name: Specific
+  nameWithType: TimeZoneType.Specific
+  fullName: TradingPlatform.BusinessLayer.TimeZoneType.Specific
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: Specific
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Specific = 0
+    return:
+      type: TradingPlatform.BusinessLayer.TimeZoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeZoneType.Local
+  commentId: F:TradingPlatform.BusinessLayer.TimeZoneType.Local
+  id: Local
+  parent: TradingPlatform.BusinessLayer.TimeZoneType
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: TimeZoneType.Local
+  fullName: TradingPlatform.BusinessLayer.TimeZoneType.Local
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    id: Local
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeZone.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Local = 1
+    return:
+      type: TradingPlatform.BusinessLayer.TimeZoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.TimeZoneType
+  commentId: T:TradingPlatform.BusinessLayer.TimeZoneType
+  parent: TradingPlatform.BusinessLayer
+  name: TimeZoneType
+  nameWithType: TimeZoneType
+  fullName: TradingPlatform.BusinessLayer.TimeZoneType

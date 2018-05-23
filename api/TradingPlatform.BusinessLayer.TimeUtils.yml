@@ -1,0 +1,786 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeUtils
+  commentId: T:TradingPlatform.BusinessLayer.TimeUtils
+  id: TimeUtils
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TimeUtils.#ctor
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds(System.DateTime)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds(System.DateTime)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC(System.DateTime)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone(System.DateTime)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime(System.Int64)
+  - TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime(System.Int32)
+  - TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow
+  - TradingPlatform.BusinessLayer.TimeUtils.SelectedTimeZone
+  langs:
+  - csharp
+  - vb
+  name: TimeUtils
+  nameWithType: TimeUtils
+  fullName: TradingPlatform.BusinessLayer.TimeUtils
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: TimeUtils
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class TimeUtils
+    content.vb: Public Class TimeUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow
+  commentId: P:TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow
+  id: DateTimeUtcNow
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: DateTimeUtcNow
+  nameWithType: TimeUtils.DateTimeUtcNow
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: DateTimeUtcNow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime DateTimeUtcNow { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property DateTimeUtcNow As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeUtils.SelectedTimeZone
+  commentId: F:TradingPlatform.BusinessLayer.TimeUtils.SelectedTimeZone
+  id: SelectedTimeZone
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: SelectedTimeZone
+  nameWithType: TimeUtils.SelectedTimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.SelectedTimeZone
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: SelectedTimeZone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TimeZone SelectedTimeZone
+    return:
+      type: TradingPlatform.BusinessLayer.TimeZone
+    content.vb: Public SelectedTimeZone As TimeZone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: TimeUtils()
+  nameWithType: TimeUtils.TimeUtils()
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.TimeUtils()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TimeUtils()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.TimeUtils.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone(System.DateTime)
+  id: ConvertFromUTCToSelectedTimeZone(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromUTCToSelectedTimeZone(DateTime)
+  nameWithType: TimeUtils.ConvertFromUTCToSelectedTimeZone(DateTime)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertFromUTCToSelectedTimeZone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ConvertFromUTCToSelectedTimeZone(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: Public Function ConvertFromUTCToSelectedTimeZone(dateTime As Date) As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC(System.DateTime)
+  id: ConvertFromSelectedTimeZoneToUTC(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromSelectedTimeZoneToUTC(DateTime)
+  nameWithType: TimeUtils.ConvertFromSelectedTimeZoneToUTC(DateTime)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertFromSelectedTimeZoneToUTC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ConvertFromSelectedTimeZoneToUTC(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: Public Function ConvertFromSelectedTimeZoneToUTC(dateTime As Date) As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  id: ConvertFromUTCToTimeZone(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromUTCToTimeZone(DateTime, TimeZone)
+  nameWithType: TimeUtils.ConvertFromUTCToTimeZone(DateTime, TimeZone)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone(System.DateTime, TradingPlatform.BusinessLayer.TimeZone)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertFromUTCToTimeZone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ConvertFromUTCToTimeZone(DateTime dateTime, TimeZone timeZone)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    - id: timeZone
+      type: TradingPlatform.BusinessLayer.TimeZone
+    return:
+      type: System.DateTime
+    content.vb: Public Function ConvertFromUTCToTimeZone(dateTime As Date, timeZone As TimeZone) As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  id: ConvertFromTimeZoneToUTC(System.DateTime,TradingPlatform.BusinessLayer.TimeZone)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromTimeZoneToUTC(DateTime, TimeZone)
+  nameWithType: TimeUtils.ConvertFromTimeZoneToUTC(DateTime, TimeZone)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC(System.DateTime, TradingPlatform.BusinessLayer.TimeZone)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertFromTimeZoneToUTC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ConvertFromTimeZoneToUTC(DateTime dateTime, TimeZone timeZone)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    - id: timeZone
+      type: TradingPlatform.BusinessLayer.TimeZone
+    return:
+      type: System.DateTime
+    content.vb: Public Function ConvertFromTimeZoneToUTC(dateTime As Date, timeZone As TimeZone) As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime(System.Int32)
+  id: ConvertUnixSecondsToDateTime(System.Int32)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertUnixSecondsToDateTime(Int32)
+  nameWithType: TimeUtils.ConvertUnixSecondsToDateTime(Int32)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertUnixSecondsToDateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ConvertUnixSecondsToDateTime(int unixSeconds)
+    parameters:
+    - id: unixSeconds
+      type: System.Int32
+    return:
+      type: System.DateTime
+    content.vb: Public Function ConvertUnixSecondsToDateTime(unixSeconds As Integer) As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds(System.DateTime)
+  id: ConvertDateTimeToUnixSeconds(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertDateTimeToUnixSeconds(DateTime)
+  nameWithType: TimeUtils.ConvertDateTimeToUnixSeconds(DateTime)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertDateTimeToUnixSeconds
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 74
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int ConvertDateTimeToUnixSeconds(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int32
+    content.vb: Public Function ConvertDateTimeToUnixSeconds(dateTime As Date) As Integer
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime(System.Int64)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime(System.Int64)
+  id: ConvertUnixMilisecondsToDateTime(System.Int64)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertUnixMilisecondsToDateTime(Int64)
+  nameWithType: TimeUtils.ConvertUnixMilisecondsToDateTime(Int64)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertUnixMilisecondsToDateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 79
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ConvertUnixMilisecondsToDateTime(long unixMiliseconds)
+    parameters:
+    - id: unixMiliseconds
+      type: System.Int64
+    return:
+      type: System.DateTime
+    content.vb: Public Function ConvertUnixMilisecondsToDateTime(unixMiliseconds As Long) As Date
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds(System.DateTime)
+  id: ConvertDateTimeToUnixMiliseconds(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.TimeUtils
+  langs:
+  - csharp
+  - vb
+  name: ConvertDateTimeToUnixMiliseconds(DateTime)
+  nameWithType: TimeUtils.ConvertDateTimeToUnixMiliseconds(DateTime)
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    id: ConvertDateTimeToUnixMiliseconds
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeUtils/TimeUtils.cs
+    startLine: 84
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public long ConvertDateTimeToUnixMiliseconds(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Function ConvertDateTimeToUnixMiliseconds(dateTime As Date) As Long
+  overload: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow
+  name: DateTimeUtcNow
+  nameWithType: TimeUtils.DateTimeUtcNow
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.DateTimeUtcNow
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.TimeZone
+  commentId: T:TradingPlatform.BusinessLayer.TimeZone
+  parent: TradingPlatform.BusinessLayer
+  name: TimeZone
+  nameWithType: TimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeZone
+- uid: TradingPlatform.BusinessLayer.TimeUtils.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.#ctor
+  name: TimeUtils
+  nameWithType: TimeUtils.TimeUtils
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.TimeUtils
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone
+  name: ConvertFromUTCToSelectedTimeZone
+  nameWithType: TimeUtils.ConvertFromUTCToSelectedTimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToSelectedTimeZone
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC
+  name: ConvertFromSelectedTimeZoneToUTC
+  nameWithType: TimeUtils.ConvertFromSelectedTimeZoneToUTC
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromSelectedTimeZoneToUTC
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone
+  name: ConvertFromUTCToTimeZone
+  nameWithType: TimeUtils.ConvertFromUTCToTimeZone
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromUTCToTimeZone
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC
+  name: ConvertFromTimeZoneToUTC
+  nameWithType: TimeUtils.ConvertFromTimeZoneToUTC
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertFromTimeZoneToUTC
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime
+  name: ConvertUnixSecondsToDateTime
+  nameWithType: TimeUtils.ConvertUnixSecondsToDateTime
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixSecondsToDateTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds
+  name: ConvertDateTimeToUnixSeconds
+  nameWithType: TimeUtils.ConvertDateTimeToUnixSeconds
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixSeconds
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime
+  name: ConvertUnixMilisecondsToDateTime
+  nameWithType: TimeUtils.ConvertUnixMilisecondsToDateTime
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertUnixMilisecondsToDateTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds
+  name: ConvertDateTimeToUnixMiliseconds
+  nameWithType: TimeUtils.ConvertDateTimeToUnixMiliseconds
+  fullName: TradingPlatform.BusinessLayer.TimeUtils.ConvertDateTimeToUnixMiliseconds

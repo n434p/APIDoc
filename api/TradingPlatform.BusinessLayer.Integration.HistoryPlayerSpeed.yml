@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  commentId: T:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  id: HistoryPlayerSpeed
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Maximum
+  - TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.QuoteByQuote
+  - TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed1
+  - TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed2
+  - TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed3
+  - TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed4
+  langs:
+  - csharp
+  - vb
+  name: HistoryPlayerSpeed
+  nameWithType: HistoryPlayerSpeed
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: HistoryPlayerSpeed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public enum HistoryPlayerSpeed
+    content.vb: Public Enum HistoryPlayerSpeed
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Maximum
+  commentId: F:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Maximum
+  id: Maximum
+  parent: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  langs:
+  - csharp
+  - vb
+  name: Maximum
+  nameWithType: HistoryPlayerSpeed.Maximum
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Maximum
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Maximum
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Maximum = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed4
+  commentId: F:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed4
+  id: Speed4
+  parent: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  langs:
+  - csharp
+  - vb
+  name: Speed4
+  nameWithType: HistoryPlayerSpeed.Speed4
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed4
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Speed4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Speed4 = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed3
+  commentId: F:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed3
+  id: Speed3
+  parent: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  langs:
+  - csharp
+  - vb
+  name: Speed3
+  nameWithType: HistoryPlayerSpeed.Speed3
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed3
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Speed3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Speed3 = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed2
+  commentId: F:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed2
+  id: Speed2
+  parent: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  langs:
+  - csharp
+  - vb
+  name: Speed2
+  nameWithType: HistoryPlayerSpeed.Speed2
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Speed2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Speed2 = 3
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed1
+  commentId: F:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed1
+  id: Speed1
+  parent: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  langs:
+  - csharp
+  - vb
+  name: Speed1
+  nameWithType: HistoryPlayerSpeed.Speed1
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.Speed1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Speed1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Speed1 = 4
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.QuoteByQuote
+  commentId: F:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.QuoteByQuote
+  id: QuoteByQuote
+  parent: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  langs:
+  - csharp
+  - vb
+  name: QuoteByQuote
+  nameWithType: HistoryPlayerSpeed.QuoteByQuote
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed.QuoteByQuote
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: QuoteByQuote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: QuoteByQuote = 5
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  commentId: T:TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: HistoryPlayerSpeed
+  nameWithType: HistoryPlayerSpeed
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryPlayerSpeed

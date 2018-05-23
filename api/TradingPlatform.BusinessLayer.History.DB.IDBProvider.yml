@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  id: IDBProvider
+  parent: TradingPlatform.BusinessLayer.History.DB
+  children:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  langs:
+  - csharp
+  - vb
+  name: IDBProvider
+  nameWithType: IDBProvider
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: IDBProvider
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: public interface IDBProvider
+    content.vb: Public Interface IDBProvider
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  commentId: P:TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  id: IsConnected
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: IsConnected
+  nameWithType: IDBProvider.IsConnected
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: IsConnected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: bool IsConnected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsConnected As Boolean
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  id: ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: ReceiveHistoryFromDatabase(ReceiveHistoryRequest)
+  nameWithType: IDBProvider.ReceiveHistoryFromDatabase(ReceiveHistoryRequest)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: ReceiveHistoryFromDatabase
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: IList<IHistoryItem> ReceiveHistoryFromDatabase(ReceiveHistoryRequest receiveHistoryRequest)
+    parameters:
+    - id: receiveHistoryRequest
+      type: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+    content.vb: Function ReceiveHistoryFromDatabase(receiveHistoryRequest As ReceiveHistoryRequest) As IList(Of IHistoryItem)
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase*
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  id: RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: RecordHistoryToDatabase(RecordHistoryRequest)
+  nameWithType: IDBProvider.RecordHistoryToDatabase(RecordHistoryRequest)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: RecordHistoryToDatabase
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: void RecordHistoryToDatabase(RecordHistoryRequest recordHistoryRequest)
+    parameters:
+    - id: recordHistoryRequest
+      type: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+    content.vb: Sub RecordHistoryToDatabase(recordHistoryRequest As RecordHistoryRequest)
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase*
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  id: Connect(System.String)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: Connect(String)
+  nameWithType: IDBProvider.Connect(String)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: Connect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: void Connect(string fullName)
+    parameters:
+    - id: fullName
+      type: System.String
+    content.vb: Sub Connect(fullName As String)
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect*
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  id: Disconnect
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: IDBProvider.Disconnect()
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: Disconnect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: void Disconnect()
+    content.vb: Sub Disconnect
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect*
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: Initialize(String)
+  nameWithType: IDBProvider.Initialize(String)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: Initialize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: void Initialize(string fullName)
+    parameters:
+    - id: fullName
+      type: System.String
+    content.vb: Sub Initialize(fullName As String)
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize*
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  id: GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDescriptionId(HistoryDescription)
+  nameWithType: IDBProvider.GetDescriptionId(HistoryDescription)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: GetDescriptionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: int GetDescriptionId(HistoryDescription descriptionParams)
+    parameters:
+    - id: descriptionParams
+      type: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+    return:
+      type: System.Int32
+    content.vb: Function GetDescriptionId(descriptionParams As HistoryDescription) As Integer
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId*
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  id: GetDataRequestsByDescriptionId(System.Int32)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDataRequestsByDescriptionId(Int32)
+  nameWithType: IDBProvider.GetDataRequestsByDescriptionId(Int32)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    id: GetDataRequestsByDescriptionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/DB/IDBProvider.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.History.DB
+  syntax:
+    content: List<DateHistoryInterval> GetDataRequestsByDescriptionId(int descriptionId)
+    parameters:
+    - id: descriptionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval}
+    content.vb: Function GetDataRequestsByDescriptionId(descriptionId As Integer) As List(Of DateHistoryInterval)
+  overload: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId*
+references:
+- uid: TradingPlatform.BusinessLayer.History.DB
+  commentId: N:TradingPlatform.BusinessLayer.History.DB
+  name: TradingPlatform.BusinessLayer.History.DB
+  nameWithType: TradingPlatform.BusinessLayer.History.DB
+  fullName: TradingPlatform.BusinessLayer.History.DB
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  name: IsConnected
+  nameWithType: IDBProvider.IsConnected
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase
+  name: ReceiveHistoryFromDatabase
+  nameWithType: IDBProvider.ReceiveHistoryFromDatabase
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase
+- uid: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: ReceiveHistoryRequest
+  nameWithType: ReceiveHistoryRequest
+  fullName: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IHistoryItem>
+  nameWithType: IList<IHistoryItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.IHistoryItem>
+  nameWithType.vb: IList(Of IHistoryItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.IHistoryItem)
+  name.vb: IList(Of IHistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase
+  name: RecordHistoryToDatabase
+  nameWithType: IDBProvider.RecordHistoryToDatabase
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase
+- uid: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: RecordHistoryRequest
+  nameWithType: RecordHistoryRequest
+  fullName: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect
+  name: Connect
+  nameWithType: IDBProvider.Connect
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  name: Disconnect
+  nameWithType: IDBProvider.Disconnect
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize
+  name: Initialize
+  nameWithType: IDBProvider.Initialize
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId
+  name: GetDescriptionId
+  nameWithType: IDBProvider.GetDescriptionId
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId
+- uid: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: HistoryDescription
+  nameWithType: HistoryDescription
+  fullName: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId
+  name: GetDataRequestsByDescriptionId
+  nameWithType: IDBProvider.GetDataRequestsByDescriptionId
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DateHistoryInterval>
+  nameWithType: List<DateHistoryInterval>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval>
+  nameWithType.vb: List(Of DateHistoryInterval)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval)
+  name.vb: List(Of DateHistoryInterval)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+    name: DateHistoryInterval
+    nameWithType: DateHistoryInterval
+    fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+    name: DateHistoryInterval
+    nameWithType: DateHistoryInterval
+    fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

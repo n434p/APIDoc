@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.DealTicketState
+  commentId: T:TradingPlatform.BusinessLayer.DealTicketState
+  id: DealTicketState
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.DealTicketState.Received
+  - TradingPlatform.BusinessLayer.DealTicketState.Seen
+  langs:
+  - csharp
+  - vb
+  name: DealTicketState
+  nameWithType: DealTicketState
+  fullName: TradingPlatform.BusinessLayer.DealTicketState
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: DealTicketState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 123
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum DealTicketState
+    content.vb: Public Enum DealTicketState
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.DealTicketState.Received
+  commentId: F:TradingPlatform.BusinessLayer.DealTicketState.Received
+  id: Received
+  parent: TradingPlatform.BusinessLayer.DealTicketState
+  langs:
+  - csharp
+  - vb
+  name: Received
+  nameWithType: DealTicketState.Received
+  fullName: TradingPlatform.BusinessLayer.DealTicketState.Received
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Received
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 125
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Received = 0
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicketState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.DealTicketState.Seen
+  commentId: F:TradingPlatform.BusinessLayer.DealTicketState.Seen
+  id: Seen
+  parent: TradingPlatform.BusinessLayer.DealTicketState
+  langs:
+  - csharp
+  - vb
+  name: Seen
+  nameWithType: DealTicketState.Seen
+  fullName: TradingPlatform.BusinessLayer.DealTicketState.Seen
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Seen
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 126
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Seen = 1
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicketState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.DealTicketState
+  commentId: T:TradingPlatform.BusinessLayer.DealTicketState
+  parent: TradingPlatform.BusinessLayer
+  name: DealTicketState
+  nameWithType: DealTicketState
+  fullName: TradingPlatform.BusinessLayer.DealTicketState

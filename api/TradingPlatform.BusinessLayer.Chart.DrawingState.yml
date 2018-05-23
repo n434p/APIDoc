@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingState
+  commentId: T:TradingPlatform.BusinessLayer.Chart.DrawingState
+  id: DrawingState
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.DrawingState.Locked
+  - TradingPlatform.BusinessLayer.Chart.DrawingState.Unlocked
+  langs:
+  - csharp
+  - vb
+  name: DrawingState
+  nameWithType: DrawingState
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingState
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: DrawingState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public enum DrawingState
+    content.vb: Public Enum DrawingState
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingState.Unlocked
+  commentId: F:TradingPlatform.BusinessLayer.Chart.DrawingState.Unlocked
+  id: Unlocked
+  parent: TradingPlatform.BusinessLayer.Chart.DrawingState
+  langs:
+  - csharp
+  - vb
+  name: Unlocked
+  nameWithType: DrawingState.Unlocked
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingState.Unlocked
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: Unlocked
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Unlocked = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.DrawingState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingState.Locked
+  commentId: F:TradingPlatform.BusinessLayer.Chart.DrawingState.Locked
+  id: Locked
+  parent: TradingPlatform.BusinessLayer.Chart.DrawingState
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: DrawingState.Locked
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingState.Locked
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: Locked
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Locked = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.DrawingState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingState
+  commentId: T:TradingPlatform.BusinessLayer.Chart.DrawingState
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: DrawingState
+  nameWithType: DrawingState
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingState

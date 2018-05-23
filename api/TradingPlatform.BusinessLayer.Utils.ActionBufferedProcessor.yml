@@ -1,0 +1,855 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  commentId: T:TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  id: ActionBufferedProcessor
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process(System.Action)
+  langs:
+  - csharp
+  - vb
+  name: ActionBufferedProcessor
+  nameWithType: ActionBufferedProcessor
+  fullName: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ActionBufferedProcessor.cs
+    id: ActionBufferedProcessor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ActionBufferedProcessor.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: 'public class ActionBufferedProcessor : BufferedProcessor<Action>'
+    content.vb: >-
+      Public Class ActionBufferedProcessor
+          Inherits BufferedProcessor(Of Action)
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.ExceptionOccurred
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.QueueCount
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.ProcessTreadsCount
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Start
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Stop
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Push(System.Action)
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Clear
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process(System.Action)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process(System.Action)
+  id: Process(System.Action)
+  parent: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  langs:
+  - csharp
+  - vb
+  name: Process(Action)
+  nameWithType: ActionBufferedProcessor.Process(Action)
+  fullName: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process(System.Action)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ActionBufferedProcessor.cs
+    id: Process
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ActionBufferedProcessor.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: protected override void Process(Action subject)
+    parameters:
+    - id: subject
+      type: System.Action
+    content.vb: Protected Overrides Sub Process(subject As Action)
+  overridden: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Process(System.Action)
+  overload: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  commentId: T:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  parent: TradingPlatform.BusinessLayer.Utils
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+  name: BufferedProcessor<Action>
+  nameWithType: BufferedProcessor<Action>
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>
+  nameWithType.vb: BufferedProcessor(Of Action)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action)
+  name.vb: BufferedProcessor(Of Action)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor
+    nameWithType: BufferedProcessor
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor
+    nameWithType: BufferedProcessor
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.ExceptionOccurred
+  commentId: E:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.ExceptionOccurred
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.ExceptionOccurred
+  name: ExceptionOccurred
+  nameWithType: BufferedProcessor<Action>.ExceptionOccurred
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.ExceptionOccurred
+  nameWithType.vb: BufferedProcessor(Of Action).ExceptionOccurred
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).ExceptionOccurred
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.QueueCount
+  commentId: P:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.QueueCount
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.QueueCount
+  name: QueueCount
+  nameWithType: BufferedProcessor<Action>.QueueCount
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.QueueCount
+  nameWithType.vb: BufferedProcessor(Of Action).QueueCount
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).QueueCount
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.ProcessTreadsCount
+  commentId: F:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.ProcessTreadsCount
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.ProcessTreadsCount
+  name: ProcessTreadsCount
+  nameWithType: BufferedProcessor<Action>.ProcessTreadsCount
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.ProcessTreadsCount
+  nameWithType.vb: BufferedProcessor(Of Action).ProcessTreadsCount
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).ProcessTreadsCount
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Start
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Start
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+  name: Start()
+  nameWithType: BufferedProcessor<Action>.Start()
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Start()
+  nameWithType.vb: BufferedProcessor(Of Action).Start()
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Start()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+    name: Start
+    nameWithType: BufferedProcessor<Action>.Start
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+    name: Start
+    nameWithType: BufferedProcessor(Of Action).Start
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Stop
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Stop
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+  name: Stop()
+  nameWithType: BufferedProcessor<Action>.Stop()
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Stop()
+  nameWithType.vb: BufferedProcessor(Of Action).Stop()
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Stop()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+    name: Stop
+    nameWithType: BufferedProcessor<Action>.Stop
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+    name: Stop
+    nameWithType: BufferedProcessor(Of Action).Stop
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Push(System.Action)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Push(System.Action)
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+  name: Push(Action)
+  nameWithType: BufferedProcessor<Action>.Push(Action)
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Push(System.Action)
+  nameWithType.vb: BufferedProcessor(Of Action).Push(Action)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Push(System.Action)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+    name: Push
+    nameWithType: BufferedProcessor<Action>.Push
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Push
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+    name: Push
+    nameWithType: BufferedProcessor(Of Action).Push
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Push
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Clear
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Clear
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+  name: Clear()
+  nameWithType: BufferedProcessor<Action>.Clear()
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Clear()
+  nameWithType.vb: BufferedProcessor(Of Action).Clear()
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+    name: Clear
+    nameWithType: BufferedProcessor<Action>.Clear
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+    name: Clear
+    nameWithType: BufferedProcessor(Of Action).Clear
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+  commentId: T:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+  name: BufferedProcessor<T>
+  nameWithType: BufferedProcessor<T>
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>
+  nameWithType.vb: BufferedProcessor(Of T)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T)
+  name.vb: BufferedProcessor(Of T)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor
+    nameWithType: BufferedProcessor
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor
+    nameWithType: BufferedProcessor
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.ExceptionOccurred
+  commentId: E:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.ExceptionOccurred
+  name: ExceptionOccurred
+  nameWithType: BufferedProcessor<T>.ExceptionOccurred
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.ExceptionOccurred
+  nameWithType.vb: BufferedProcessor(Of T).ExceptionOccurred
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).ExceptionOccurred
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.QueueCount
+  commentId: P:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.QueueCount
+  name: QueueCount
+  nameWithType: BufferedProcessor<T>.QueueCount
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.QueueCount
+  nameWithType.vb: BufferedProcessor(Of T).QueueCount
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).QueueCount
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.ProcessTreadsCount
+  commentId: F:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.ProcessTreadsCount
+  name: ProcessTreadsCount
+  nameWithType: BufferedProcessor<T>.ProcessTreadsCount
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.ProcessTreadsCount
+  nameWithType.vb: BufferedProcessor(Of T).ProcessTreadsCount
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).ProcessTreadsCount
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+  name: Start()
+  nameWithType: BufferedProcessor<T>.Start()
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Start()
+  nameWithType.vb: BufferedProcessor(Of T).Start()
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Start()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+    name: Start
+    nameWithType: BufferedProcessor<T>.Start
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Start
+    name: Start
+    nameWithType: BufferedProcessor(Of T).Start
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+  name: Stop()
+  nameWithType: BufferedProcessor<T>.Stop()
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Stop()
+  nameWithType.vb: BufferedProcessor(Of T).Stop()
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Stop()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+    name: Stop
+    nameWithType: BufferedProcessor<T>.Stop
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Stop
+    name: Stop
+    nameWithType: BufferedProcessor(Of T).Stop
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+  name: Push(T)
+  nameWithType: BufferedProcessor<T>.Push(T)
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Push(T)
+  nameWithType.vb: BufferedProcessor(Of T).Push(T)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Push(T)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+    name: Push
+    nameWithType: BufferedProcessor<T>.Push
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Push
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Push(`0)
+    name: Push
+    nameWithType: BufferedProcessor(Of T).Push
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Push
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+  name: Clear()
+  nameWithType: BufferedProcessor<T>.Clear()
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Clear()
+  nameWithType.vb: BufferedProcessor(Of T).Clear()
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+    name: Clear
+    nameWithType: BufferedProcessor<T>.Clear
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Clear
+    name: Clear
+    nameWithType: BufferedProcessor(Of T).Clear
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Process(System.Action)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}.Process(System.Action)
+  parent: TradingPlatform.BusinessLayer.Utils.BufferedProcessor{System.Action}
+  definition: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+  name: Process(Action)
+  nameWithType: BufferedProcessor<Action>.Process(Action)
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Process(System.Action)
+  nameWithType.vb: BufferedProcessor(Of Action).Process(Action)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Process(System.Action)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+    name: Process
+    nameWithType: BufferedProcessor<Action>.Process
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<System.Action>.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+    name: Process
+    nameWithType: BufferedProcessor(Of Action).Process
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of System.Action).Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process
+  name: Process
+  nameWithType: ActionBufferedProcessor.Process
+  fullName: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor.Process
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+  name: Process(T)
+  nameWithType: BufferedProcessor<T>.Process(T)
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Process(T)
+  nameWithType.vb: BufferedProcessor(Of T).Process(T)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Process(T)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+    name: Process
+    nameWithType: BufferedProcessor<T>.Process
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1.Process(`0)
+    name: Process
+    nameWithType: BufferedProcessor(Of T).Process
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T).Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

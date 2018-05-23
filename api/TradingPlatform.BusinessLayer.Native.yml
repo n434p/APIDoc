@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Native
+  commentId: N:TradingPlatform.BusinessLayer.Native
+  id: TradingPlatform.BusinessLayer.Native
+  children:
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Native
+  nameWithType: TradingPlatform.BusinessLayer.Native
+  fullName: TradingPlatform.BusinessLayer.Native
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  commentId: T:TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  parent: TradingPlatform.BusinessLayer.Native
+  name: NativeMouseButtons
+  nameWithType: NativeMouseButtons
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  parent: TradingPlatform.BusinessLayer.Native
+  name: NativeMouseEventArgs
+  nameWithType: NativeMouseEventArgs
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+- uid: TradingPlatform.BusinessLayer.Native
+  commentId: N:TradingPlatform.BusinessLayer.Native
+  name: TradingPlatform.BusinessLayer.Native
+  nameWithType: TradingPlatform.BusinessLayer.Native
+  fullName: TradingPlatform.BusinessLayer.Native

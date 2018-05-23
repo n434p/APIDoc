@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AccountStatus
+  commentId: T:TradingPlatform.BusinessLayer.AccountStatus
+  id: AccountStatus
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AccountStatus.Active
+  - TradingPlatform.BusinessLayer.AccountStatus.Closed
+  - TradingPlatform.BusinessLayer.AccountStatus.Halted
+  langs:
+  - csharp
+  - vb
+  name: AccountStatus
+  nameWithType: AccountStatus
+  fullName: TradingPlatform.BusinessLayer.AccountStatus
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: AccountStatus
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "AccountStatus", Namespace = "TradingPlatform")]
+
+      public enum AccountStatus
+    content.vb: >-
+      <DataContract(Name:="AccountStatus", Namespace:="TradingPlatform")>
+
+      Public Enum AccountStatus
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AccountStatus
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.AccountStatus.Active
+  commentId: F:TradingPlatform.BusinessLayer.AccountStatus.Active
+  id: Active
+  parent: TradingPlatform.BusinessLayer.AccountStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: AccountStatus.Active
+  fullName: TradingPlatform.BusinessLayer.AccountStatus.Active
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Active
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Active = 0
+    return:
+      type: TradingPlatform.BusinessLayer.AccountStatus
+    content.vb: >-
+      <EnumMember>
+
+      Active = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AccountStatus.Closed
+  commentId: F:TradingPlatform.BusinessLayer.AccountStatus.Closed
+  id: Closed
+  parent: TradingPlatform.BusinessLayer.AccountStatus
+  langs:
+  - csharp
+  - vb
+  name: Closed
+  nameWithType: AccountStatus.Closed
+  fullName: TradingPlatform.BusinessLayer.AccountStatus.Closed
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Closed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Closed = 1
+    return:
+      type: TradingPlatform.BusinessLayer.AccountStatus
+    content.vb: >-
+      <EnumMember>
+
+      Closed = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AccountStatus.Halted
+  commentId: F:TradingPlatform.BusinessLayer.AccountStatus.Halted
+  id: Halted
+  parent: TradingPlatform.BusinessLayer.AccountStatus
+  langs:
+  - csharp
+  - vb
+  name: Halted
+  nameWithType: AccountStatus.Halted
+  fullName: TradingPlatform.BusinessLayer.AccountStatus.Halted
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Halted
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Halted = 2
+    return:
+      type: TradingPlatform.BusinessLayer.AccountStatus
+    content.vb: >-
+      <EnumMember>
+
+      Halted = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.AccountStatus
+  commentId: T:TradingPlatform.BusinessLayer.AccountStatus
+  parent: TradingPlatform.BusinessLayer
+  name: AccountStatus
+  nameWithType: AccountStatus
+  fullName: TradingPlatform.BusinessLayer.AccountStatus

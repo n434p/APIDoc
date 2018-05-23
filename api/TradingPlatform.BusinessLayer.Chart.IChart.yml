@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.IChart
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChart
+  id: IChart
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth
+  - TradingPlatform.BusinessLayer.Chart.IChart.Drawings
+  - TradingPlatform.BusinessLayer.Chart.IChart.ID
+  - TradingPlatform.BusinessLayer.Chart.IChart.MainWindow
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseClick
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseDoubleClick
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseDown
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseEnter
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseLeave
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseMove
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseUp
+  - TradingPlatform.BusinessLayer.Chart.IChart.MouseWheel
+  - TradingPlatform.BusinessLayer.Chart.IChart.Refresh
+  - TradingPlatform.BusinessLayer.Chart.IChart.RightOffset
+  - TradingPlatform.BusinessLayer.Chart.IChart.Windows
+  langs:
+  - csharp
+  - vb
+  name: IChart
+  nameWithType: IChart
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: IChart
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public interface IChart
+    content.vb: Public Interface IChart
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.ID
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChart.ID
+  id: ID
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: IChart.ID
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.ID
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: ID
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: string ID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ID As String
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.ID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.Windows
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChart.Windows
+  id: Windows
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: IChart.Windows
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.Windows
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: Windows
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: IChartWindow[] Windows { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.IChartWindow[]
+    content.vb: ReadOnly Property Windows As IChartWindow()
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.Windows*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth
+  id: BarsWidth
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: BarsWidth
+  nameWithType: IChart.BarsWidth
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: BarsWidth
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: int BarsWidth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property BarsWidth As Integer
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MainWindow
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChart.MainWindow
+  id: MainWindow
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MainWindow
+  nameWithType: IChart.MainWindow
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MainWindow
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MainWindow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: IChartWindow MainWindow { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.IChartWindow
+    content.vb: ReadOnly Property MainWindow As IChartWindow
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.MainWindow*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.RightOffset
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChart.RightOffset
+  id: RightOffset
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: RightOffset
+  nameWithType: IChart.RightOffset
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.RightOffset
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: RightOffset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: int RightOffset { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property RightOffset As Integer
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.RightOffset*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.Drawings
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChart.Drawings
+  id: Drawings
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: Drawings
+  nameWithType: IChart.Drawings
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.Drawings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: Drawings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: IChartDrawings Drawings { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+    content.vb: ReadOnly Property Drawings As IChartDrawings
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.Drawings*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.Refresh
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChart.Refresh
+  id: Refresh
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: IChart.Refresh()
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.Refresh()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: Refresh
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: void Refresh()
+    content.vb: Sub Refresh
+  overload: TradingPlatform.BusinessLayer.Chart.IChart.Refresh*
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseDown
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseDown
+  id: MouseDown
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseDown
+  nameWithType: IChart.MouseDown
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseDown
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseDown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseDown
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseDown As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseUp
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseUp
+  id: MouseUp
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseUp
+  nameWithType: IChart.MouseUp
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseUp
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseUp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseUp
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseUp As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseClick
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseClick
+  id: MouseClick
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseClick
+  nameWithType: IChart.MouseClick
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseClick
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseClick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseClick
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseClick As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseDoubleClick
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseDoubleClick
+  id: MouseDoubleClick
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseDoubleClick
+  nameWithType: IChart.MouseDoubleClick
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseDoubleClick
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseDoubleClick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseDoubleClick
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseDoubleClick As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseMove
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseMove
+  id: MouseMove
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseMove
+  nameWithType: IChart.MouseMove
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseMove
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseMove
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseMove
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseMove As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseWheel
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseWheel
+  id: MouseWheel
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseWheel
+  nameWithType: IChart.MouseWheel
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseWheel
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseWheel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseWheel
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseWheel As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseEnter
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseEnter
+  id: MouseEnter
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseEnter
+  nameWithType: IChart.MouseEnter
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseEnter
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseEnter
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseEnter
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseEnter As ChartMouseEventHandler
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MouseLeave
+  commentId: E:TradingPlatform.BusinessLayer.Chart.IChart.MouseLeave
+  id: MouseLeave
+  parent: TradingPlatform.BusinessLayer.Chart.IChart
+  langs:
+  - csharp
+  - vb
+  name: MouseLeave
+  nameWithType: IChart.MouseLeave
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MouseLeave
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    id: MouseLeave
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChart.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: event ChartMouseEventHandler MouseLeave
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+    content.vb: Event MouseLeave As ChartMouseEventHandler
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.ID*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.ID
+  name: ID
+  nameWithType: IChart.ID
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.ID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.Windows*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.Windows
+  name: Windows
+  nameWithType: IChart.Windows
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.Windows
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow[]
+  isExternal: true
+  name: IChartWindow[]
+  nameWithType: IChartWindow[]
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow[]
+  nameWithType.vb: IChartWindow()
+  fullName.vb: TradingPlatform.BusinessLayer.Chart.IChartWindow()
+  name.vb: IChartWindow()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Chart.IChartWindow
+    name: IChartWindow
+    nameWithType: IChartWindow
+    fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Chart.IChartWindow
+    name: IChartWindow
+    nameWithType: IChartWindow
+    fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth
+  name: BarsWidth
+  nameWithType: IChart.BarsWidth
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.BarsWidth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.MainWindow*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.MainWindow
+  name: MainWindow
+  nameWithType: IChart.MainWindow
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.MainWindow
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChartWindow
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: IChartWindow
+  nameWithType: IChartWindow
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.RightOffset*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.RightOffset
+  name: RightOffset
+  nameWithType: IChart.RightOffset
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.RightOffset
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.Drawings*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.Drawings
+  name: Drawings
+  nameWithType: IChart.Drawings
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.Drawings
+- uid: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChartDrawings
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: IChartDrawings
+  nameWithType: IChartDrawings
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartDrawings
+- uid: TradingPlatform.BusinessLayer.Chart.IChart.Refresh*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChart.Refresh
+  name: Refresh
+  nameWithType: IChart.Refresh
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart.Refresh
+- uid: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+  commentId: T:TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: ChartMouseEventHandler
+  nameWithType: ChartMouseEventHandler
+  fullName: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler

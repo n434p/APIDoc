@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  commentId: T:TradingPlatform.BusinessLayer.MultipleRelationCondition
+  id: MultipleRelationCondition
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAll
+  - TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAny
+  langs:
+  - csharp
+  - vb
+  name: MultipleRelationCondition
+  nameWithType: MultipleRelationCondition
+  fullName: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: MultipleRelationCondition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum MultipleRelationCondition
+    content.vb: Public Enum MultipleRelationCondition
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAny
+  commentId: F:TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAny
+  id: IfAny
+  parent: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  langs:
+  - csharp
+  - vb
+  name: IfAny
+  nameWithType: MultipleRelationCondition.IfAny
+  fullName: TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAny
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: IfAny
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 52
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: IfAny = 0
+    return:
+      type: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAll
+  commentId: F:TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAll
+  id: IfAll
+  parent: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  langs:
+  - csharp
+  - vb
+  name: IfAll
+  nameWithType: MultipleRelationCondition.IfAll
+  fullName: TradingPlatform.BusinessLayer.MultipleRelationCondition.IfAll
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: IfAll
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: IfAll = 1
+    return:
+      type: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.MultipleRelationCondition
+  commentId: T:TradingPlatform.BusinessLayer.MultipleRelationCondition
+  parent: TradingPlatform.BusinessLayer
+  name: MultipleRelationCondition
+  nameWithType: MultipleRelationCondition
+  fullName: TradingPlatform.BusinessLayer.MultipleRelationCondition

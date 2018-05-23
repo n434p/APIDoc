@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SettingItemActionDelegate
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemActionDelegate
+  id: SettingItemActionDelegate
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SettingItemActionDelegate
+  nameWithType: SettingItemActionDelegate
+  fullName: TradingPlatform.BusinessLayer.SettingItemActionDelegate
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemAction.cs
+    id: SettingItemActionDelegate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemAction.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate object SettingItemActionDelegate(object args = null);
+    parameters:
+    - id: args
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Public Delegate Function SettingItemActionDelegate(args As Object = Nothing) As Object
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

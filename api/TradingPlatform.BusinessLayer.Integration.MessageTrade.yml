@@ -1,0 +1,1198 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageTrade
+  id: MessageTrade
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.Price
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.Side
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId
+  - TradingPlatform.BusinessLayer.Integration.MessageTrade.Type
+  langs:
+  - csharp
+  - vb
+  name: MessageTrade
+  nameWithType: MessageTrade
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: MessageTrade
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataContract(Name = "Trade", Namespace = "TradingPlatform")]
+
+      public sealed class MessageTrade : Message
+    content.vb: >-
+      <DataContract(Name:="Trade", Namespace:="TradingPlatform")>
+
+      Public NotInheritable Class MessageTrade
+          Inherits Message
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Trade
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageTrade.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId
+  id: TradeId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: TradeId
+  nameWithType: MessageTrade.TradeId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: TradeId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "TradeId")]
+
+      public string TradeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="TradeId")>
+
+      Public Property TradeId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: TradeId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId
+  id: OrderId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: OrderId
+  nameWithType: MessageTrade.OrderId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: OrderId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "OrderId")]
+
+      public string OrderId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="OrderId")>
+
+      Public Property OrderId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OrderId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId
+  id: PositionId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: PositionId
+  nameWithType: MessageTrade.PositionId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: PositionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "PositionId")]
+
+      public string PositionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="PositionId")>
+
+      Public Property PositionId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PositionId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Price
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.Price
+  id: Price
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: MessageTrade.Price
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Price
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: Price
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Price")]
+
+      public double Price { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Price")>
+
+      Public Property Price As Double
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.Price*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Price
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity
+  id: Quantity
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: MessageTrade.Quantity
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: Quantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Quantity")]
+
+      public double Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Quantity")>
+
+      Public Property Quantity As Double
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Quantity
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Side
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.Side
+  id: Side
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: Side
+  nameWithType: MessageTrade.Side
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Side
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: Side
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Side")]
+
+      public Side Side { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Side
+    content.vb: >-
+      <DataMember(Name:="Side")>
+
+      Public Property Side As Side
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.Side*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Side
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId
+  id: AccountId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: AccountId
+  nameWithType: MessageTrade.AccountId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: AccountId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "AccountId")]
+
+      public string AccountId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="AccountId")>
+
+      Public Property AccountId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AccountId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId
+  id: InstrumentId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: InstrumentId
+  nameWithType: MessageTrade.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: InstrumentId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "InstrumentSymbol")]
+
+      public string InstrumentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="InstrumentSymbol")>
+
+      Public Property InstrumentId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentSymbol
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime
+  id: DateTime
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: MessageTrade.DateTime
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: DateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "DateTime")]
+
+      public DateTime DateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember(Name:="DateTime")>
+
+      Public Property DateTime As Date
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: DateTime
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment
+  id: Comment
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: MessageTrade.Comment
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: Comment
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Comment")]
+
+      public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Comment")>
+
+      Public Property Comment As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Comment
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId
+  id: OrderTypeId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: OrderTypeId
+  nameWithType: MessageTrade.OrderTypeId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: OrderTypeId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "OrderType")]
+
+      public string OrderTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="OrderType")>
+
+      Public Property OrderTypeId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OrderType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl
+  id: GrossPnl
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: GrossPnl
+  nameWithType: MessageTrade.GrossPnl
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: GrossPnl
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "GrossPnl")]
+
+      public PnLItem GrossPnl { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.PnLItem
+    content.vb: >-
+      <DataMember(Name:="GrossPnl")>
+
+      Public Property GrossPnl As PnLItem
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: GrossPnl
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl
+  id: NetPnl
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: NetPnl
+  nameWithType: MessageTrade.NetPnl
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: NetPnl
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 37
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "NetPnl")]
+
+      public PnLItem NetPnl { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.PnLItem
+    content.vb: >-
+      <DataMember(Name:="NetPnl")>
+
+      Public Property NetPnl As PnLItem
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: NetPnl
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee
+  id: Fee
+  parent: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  langs:
+  - csharp
+  - vb
+  name: Fee
+  nameWithType: MessageTrade.Fee
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    id: Fee
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageTrade.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Fee")]
+
+      public PnLItem Fee { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.PnLItem
+    content.vb: >-
+      <DataMember(Name:="Fee")>
+
+      Public Property Fee As PnLItem
+  overload: TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Fee
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.Type
+  name: Type
+  nameWithType: MessageTrade.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId
+  name: TradeId
+  nameWithType: MessageTrade.TradeId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.TradeId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId
+  name: OrderId
+  nameWithType: MessageTrade.OrderId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId
+  name: PositionId
+  nameWithType: MessageTrade.PositionId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.PositionId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Price*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.Price
+  name: Price
+  nameWithType: MessageTrade.Price
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Price
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity
+  name: Quantity
+  nameWithType: MessageTrade.Quantity
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Quantity
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Side*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.Side
+  name: Side
+  nameWithType: MessageTrade.Side
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Side
+- uid: TradingPlatform.BusinessLayer.Side
+  commentId: T:TradingPlatform.BusinessLayer.Side
+  parent: TradingPlatform.BusinessLayer
+  name: Side
+  nameWithType: Side
+  fullName: TradingPlatform.BusinessLayer.Side
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId
+  name: AccountId
+  nameWithType: MessageTrade.AccountId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.AccountId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId
+  name: InstrumentId
+  nameWithType: MessageTrade.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.InstrumentId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime
+  name: DateTime
+  nameWithType: MessageTrade.DateTime
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.DateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment
+  name: Comment
+  nameWithType: MessageTrade.Comment
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Comment
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId
+  name: OrderTypeId
+  nameWithType: MessageTrade.OrderTypeId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.OrderTypeId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl
+  name: GrossPnl
+  nameWithType: MessageTrade.GrossPnl
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.GrossPnl
+- uid: TradingPlatform.BusinessLayer.PnLItem
+  commentId: T:TradingPlatform.BusinessLayer.PnLItem
+  parent: TradingPlatform.BusinessLayer
+  name: PnLItem
+  nameWithType: PnLItem
+  fullName: TradingPlatform.BusinessLayer.PnLItem
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl
+  name: NetPnl
+  nameWithType: MessageTrade.NetPnl
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.NetPnl
+- uid: TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee
+  name: Fee
+  nameWithType: MessageTrade.Fee
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade.Fee

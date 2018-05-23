@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  commentId: T:TradingPlatform.BusinessLayer.Utils.TableBaseType
+  id: TableBaseType
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.TableBaseType.Date
+  - TradingPlatform.BusinessLayer.Utils.TableBaseType.Numeric
+  - TradingPlatform.BusinessLayer.Utils.TableBaseType.String
+  langs:
+  - csharp
+  - vb
+  name: TableBaseType
+  nameWithType: TableBaseType
+  fullName: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    id: TableBaseType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    startLine: 2
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public enum TableBaseType
+    content.vb: Public Enum TableBaseType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Utils.TableBaseType.Numeric
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableBaseType.Numeric
+  id: Numeric
+  parent: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  langs:
+  - csharp
+  - vb
+  name: Numeric
+  nameWithType: TableBaseType.Numeric
+  fullName: TradingPlatform.BusinessLayer.Utils.TableBaseType.Numeric
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    id: Numeric
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: Numeric = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableBaseType.String
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableBaseType.String
+  id: String
+  parent: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: TableBaseType.String
+  fullName: TradingPlatform.BusinessLayer.Utils.TableBaseType.String
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    id: String
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    startLine: 5
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: String = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableBaseType.Date
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableBaseType.Date
+  id: Date
+  parent: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TableBaseType.Date
+  fullName: TradingPlatform.BusinessLayer.Utils.TableBaseType.Date
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    id: Date
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableBaseType.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: Date = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  commentId: T:TradingPlatform.BusinessLayer.Utils.TableBaseType
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: TableBaseType
+  nameWithType: TableBaseType
+  fullName: TradingPlatform.BusinessLayer.Utils.TableBaseType

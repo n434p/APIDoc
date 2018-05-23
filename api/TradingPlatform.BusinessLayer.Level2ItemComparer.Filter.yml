@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  commentId: T:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  id: Level2ItemComparer.Filter
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.MinusOne
+  - TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.None
+  - TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Size
+  - TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Time
+  langs:
+  - csharp
+  - vb
+  name: Level2ItemComparer.Filter
+  nameWithType: Level2ItemComparer.Filter
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Filter
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 337
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Filter
+    content.vb: >-
+      <Flags>
+
+      Public Enum Filter
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.None
+  commentId: F:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Level2ItemComparer.Filter.None
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 340
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.MinusOne
+  commentId: F:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.MinusOne
+  id: MinusOne
+  parent: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  langs:
+  - csharp
+  - vb
+  name: MinusOne
+  nameWithType: Level2ItemComparer.Filter.MinusOne
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.MinusOne
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: MinusOne
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 341
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: MinusOne = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Time
+  commentId: F:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Time
+  id: Time
+  parent: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: Level2ItemComparer.Filter.Time
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Time
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Time
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 342
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Time = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Size
+  commentId: F:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Size
+  id: Size
+  parent: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Level2ItemComparer.Filter.Size
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter.Size
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Size
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 343
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Size = 4
+    return:
+      type: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  commentId: T:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  parent: TradingPlatform.BusinessLayer
+  name: Level2ItemComparer.Filter
+  nameWithType: Level2ItemComparer.Filter
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter

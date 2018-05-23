@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.StrategyManager
+  commentId: T:TradingPlatform.BusinessLayer.StrategyManager
+  id: StrategyManager
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies
+  - TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy(System.String)
+  - TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy(TradingPlatform.BusinessLayer.Strategy)
+  - TradingPlatform.BusinessLayer.StrategyManager.Strategies
+  langs:
+  - csharp
+  - vb
+  name: StrategyManager
+  nameWithType: StrategyManager
+  fullName: TradingPlatform.BusinessLayer.StrategyManager
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    id: StrategyManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public sealed class StrategyManager
+    content.vb: Public NotInheritable Class StrategyManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.StrategyManager.Strategies
+  commentId: P:TradingPlatform.BusinessLayer.StrategyManager.Strategies
+  id: Strategies
+  parent: TradingPlatform.BusinessLayer.StrategyManager
+  langs:
+  - csharp
+  - vb
+  name: Strategies
+  nameWithType: StrategyManager.Strategies
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.Strategies
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    id: Strategies
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public List<StrategyInfo> Strategies { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.StrategyInfo}
+    content.vb: Public ReadOnly Property Strategies As List(Of StrategyInfo)
+  overload: TradingPlatform.BusinessLayer.StrategyManager.Strategies*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies
+  commentId: P:TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies
+  id: CreatedStrategies
+  parent: TradingPlatform.BusinessLayer.StrategyManager
+  langs:
+  - csharp
+  - vb
+  name: CreatedStrategies
+  nameWithType: StrategyManager.CreatedStrategies
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    id: CreatedStrategies
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Strategy[] CreatedStrategies { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Strategy[]
+    content.vb: Public ReadOnly Property CreatedStrategies As Strategy()
+  overload: TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy(System.String)
+  id: CreateStrategy(System.String)
+  parent: TradingPlatform.BusinessLayer.StrategyManager
+  langs:
+  - csharp
+  - vb
+  name: CreateStrategy(String)
+  nameWithType: StrategyManager.CreateStrategy(String)
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    id: CreateStrategy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    startLine: 60
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Strategy CreateStrategy(string strategyName)
+    parameters:
+    - id: strategyName
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.Strategy
+    content.vb: Public Function CreateStrategy(strategyName As String) As Strategy
+  overload: TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy(TradingPlatform.BusinessLayer.Strategy)
+  commentId: M:TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy(TradingPlatform.BusinessLayer.Strategy)
+  id: DeleteStrategy(TradingPlatform.BusinessLayer.Strategy)
+  parent: TradingPlatform.BusinessLayer.StrategyManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteStrategy(Strategy)
+  nameWithType: StrategyManager.DeleteStrategy(Strategy)
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy(TradingPlatform.BusinessLayer.Strategy)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    id: DeleteStrategy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/StrategyManager.cs
+    startLine: 74
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void DeleteStrategy(Strategy strategy)
+    parameters:
+    - id: strategy
+      type: TradingPlatform.BusinessLayer.Strategy
+    content.vb: Public Sub DeleteStrategy(strategy As Strategy)
+  overload: TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.StrategyManager.Strategies*
+  commentId: Overload:TradingPlatform.BusinessLayer.StrategyManager.Strategies
+  name: Strategies
+  nameWithType: StrategyManager.Strategies
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.Strategies
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.StrategyInfo}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.StrategyInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<StrategyInfo>
+  nameWithType: List<StrategyInfo>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.StrategyInfo>
+  nameWithType.vb: List(Of StrategyInfo)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.StrategyInfo)
+  name.vb: List(Of StrategyInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.StrategyInfo
+    name: StrategyInfo
+    nameWithType: StrategyInfo
+    fullName: TradingPlatform.BusinessLayer.StrategyInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.StrategyInfo
+    name: StrategyInfo
+    nameWithType: StrategyInfo
+    fullName: TradingPlatform.BusinessLayer.StrategyInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies*
+  commentId: Overload:TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies
+  name: CreatedStrategies
+  nameWithType: StrategyManager.CreatedStrategies
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.CreatedStrategies
+- uid: TradingPlatform.BusinessLayer.Strategy[]
+  isExternal: true
+  name: Strategy[]
+  nameWithType: Strategy[]
+  fullName: TradingPlatform.BusinessLayer.Strategy[]
+  nameWithType.vb: Strategy()
+  fullName.vb: TradingPlatform.BusinessLayer.Strategy()
+  name.vb: Strategy()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Strategy
+    name: Strategy
+    nameWithType: Strategy
+    fullName: TradingPlatform.BusinessLayer.Strategy
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Strategy
+    name: Strategy
+    nameWithType: Strategy
+    fullName: TradingPlatform.BusinessLayer.Strategy
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy*
+  commentId: Overload:TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy
+  name: CreateStrategy
+  nameWithType: StrategyManager.CreateStrategy
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.CreateStrategy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Strategy
+  commentId: T:TradingPlatform.BusinessLayer.Strategy
+  parent: TradingPlatform.BusinessLayer
+  name: Strategy
+  nameWithType: Strategy
+  fullName: TradingPlatform.BusinessLayer.Strategy
+- uid: TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy*
+  commentId: Overload:TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy
+  name: DeleteStrategy
+  nameWithType: StrategyManager.DeleteStrategy
+  fullName: TradingPlatform.BusinessLayer.StrategyManager.DeleteStrategy

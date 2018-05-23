@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.VisibilityMode
+  commentId: T:TradingPlatform.BusinessLayer.VisibilityMode
+  id: VisibilityMode
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.VisibilityMode.Hidden
+  - TradingPlatform.BusinessLayer.VisibilityMode.Visible
+  langs:
+  - csharp
+  - vb
+  name: VisibilityMode
+  nameWithType: VisibilityMode
+  fullName: TradingPlatform.BusinessLayer.VisibilityMode
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: VisibilityMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSettingItem state\n"
+  example: []
+  syntax:
+    content: public enum VisibilityMode
+    content.vb: Public Enum VisibilityMode
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.VisibilityMode.Visible
+  commentId: F:TradingPlatform.BusinessLayer.VisibilityMode.Visible
+  id: Visible
+  parent: TradingPlatform.BusinessLayer.VisibilityMode
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: VisibilityMode.Visible
+  fullName: TradingPlatform.BusinessLayer.VisibilityMode.Visible
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Visible
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Visible = 0
+    return:
+      type: TradingPlatform.BusinessLayer.VisibilityMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.VisibilityMode.Hidden
+  commentId: F:TradingPlatform.BusinessLayer.VisibilityMode.Hidden
+  id: Hidden
+  parent: TradingPlatform.BusinessLayer.VisibilityMode
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: VisibilityMode.Hidden
+  fullName: TradingPlatform.BusinessLayer.VisibilityMode.Hidden
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Hidden
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Hidden = 1
+    return:
+      type: TradingPlatform.BusinessLayer.VisibilityMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.VisibilityMode
+  commentId: T:TradingPlatform.BusinessLayer.VisibilityMode
+  parent: TradingPlatform.BusinessLayer
+  name: VisibilityMode
+  nameWithType: VisibilityMode
+  fullName: TradingPlatform.BusinessLayer.VisibilityMode

@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ValidateResult
+  commentId: T:TradingPlatform.BusinessLayer.ValidateResult
+  id: ValidateResult
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ValidateResult.NotValid(System.String)
+  - TradingPlatform.BusinessLayer.ValidateResult.Reason
+  - TradingPlatform.BusinessLayer.ValidateResult.State
+  - TradingPlatform.BusinessLayer.ValidateResult.Valid
+  langs:
+  - csharp
+  - vb
+  name: ValidateResult
+  nameWithType: ValidateResult
+  fullName: TradingPlatform.BusinessLayer.ValidateResult
+  type: Struct
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    id: ValidateResult
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public struct ValidateResult
+    content.vb: Public Structure ValidateResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: TradingPlatform.BusinessLayer.ValidateResult.State
+  commentId: P:TradingPlatform.BusinessLayer.ValidateResult.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.ValidateResult
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ValidateResult.State
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ValidateState State { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ValidateState
+    content.vb: Public Property State As ValidateState
+  overload: TradingPlatform.BusinessLayer.ValidateResult.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.ValidateResult.Reason
+  commentId: P:TradingPlatform.BusinessLayer.ValidateResult.Reason
+  id: Reason
+  parent: TradingPlatform.BusinessLayer.ValidateResult
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: ValidateResult.Reason
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.Reason
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    id: Reason
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Reason As String
+  overload: TradingPlatform.BusinessLayer.ValidateResult.Reason*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.ValidateResult.Valid
+  commentId: P:TradingPlatform.BusinessLayer.ValidateResult.Valid
+  id: Valid
+  parent: TradingPlatform.BusinessLayer.ValidateResult
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: ValidateResult.Valid
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.Valid
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    id: Valid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static ValidateResult Valid { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ValidateResult
+    content.vb: Public Shared ReadOnly Property Valid As ValidateResult
+  overload: TradingPlatform.BusinessLayer.ValidateResult.Valid*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ValidateResult.NotValid(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.ValidateResult.NotValid(System.String)
+  id: NotValid(System.String)
+  parent: TradingPlatform.BusinessLayer.ValidateResult
+  langs:
+  - csharp
+  - vb
+  name: NotValid(String)
+  nameWithType: ValidateResult.NotValid(String)
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.NotValid(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    id: NotValid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/ValidateResult.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static ValidateResult NotValid(string reason)
+    parameters:
+    - id: reason
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.ValidateResult
+    content.vb: Public Shared Function NotValid(reason As String) As ValidateResult
+  overload: TradingPlatform.BusinessLayer.ValidateResult.NotValid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.ValidateResult.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.ValidateResult.State
+  name: State
+  nameWithType: ValidateResult.State
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.State
+- uid: TradingPlatform.BusinessLayer.ValidateState
+  commentId: T:TradingPlatform.BusinessLayer.ValidateState
+  parent: TradingPlatform.BusinessLayer
+  name: ValidateState
+  nameWithType: ValidateState
+  fullName: TradingPlatform.BusinessLayer.ValidateState
+- uid: TradingPlatform.BusinessLayer.ValidateResult.Reason*
+  commentId: Overload:TradingPlatform.BusinessLayer.ValidateResult.Reason
+  name: Reason
+  nameWithType: ValidateResult.Reason
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.Reason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.ValidateResult.Valid*
+  commentId: Overload:TradingPlatform.BusinessLayer.ValidateResult.Valid
+  name: Valid
+  nameWithType: ValidateResult.Valid
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.Valid
+- uid: TradingPlatform.BusinessLayer.ValidateResult
+  commentId: T:TradingPlatform.BusinessLayer.ValidateResult
+  parent: TradingPlatform.BusinessLayer
+  name: ValidateResult
+  nameWithType: ValidateResult
+  fullName: TradingPlatform.BusinessLayer.ValidateResult
+- uid: TradingPlatform.BusinessLayer.ValidateResult.NotValid*
+  commentId: Overload:TradingPlatform.BusinessLayer.ValidateResult.NotValid
+  name: NotValid
+  nameWithType: ValidateResult.NotValid
+  fullName: TradingPlatform.BusinessLayer.ValidateResult.NotValid

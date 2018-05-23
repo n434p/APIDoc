@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.CreationMode
+  commentId: T:TradingPlatform.BusinessLayer.Chart.CreationMode
+  id: CreationMode
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.CreationMode.Manually
+  - TradingPlatform.BusinessLayer.Chart.CreationMode.Programmatically
+  langs:
+  - csharp
+  - vb
+  name: CreationMode
+  nameWithType: CreationMode
+  fullName: TradingPlatform.BusinessLayer.Chart.CreationMode
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: CreationMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public enum CreationMode
+    content.vb: Public Enum CreationMode
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Chart.CreationMode.Manually
+  commentId: F:TradingPlatform.BusinessLayer.Chart.CreationMode.Manually
+  id: Manually
+  parent: TradingPlatform.BusinessLayer.Chart.CreationMode
+  langs:
+  - csharp
+  - vb
+  name: Manually
+  nameWithType: CreationMode.Manually
+  fullName: TradingPlatform.BusinessLayer.Chart.CreationMode.Manually
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: Manually
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Manually = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.CreationMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Chart.CreationMode.Programmatically
+  commentId: F:TradingPlatform.BusinessLayer.Chart.CreationMode.Programmatically
+  id: Programmatically
+  parent: TradingPlatform.BusinessLayer.Chart.CreationMode
+  langs:
+  - csharp
+  - vb
+  name: Programmatically
+  nameWithType: CreationMode.Programmatically
+  fullName: TradingPlatform.BusinessLayer.Chart.CreationMode.Programmatically
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: Programmatically
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Programmatically = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.CreationMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Chart.CreationMode
+  commentId: T:TradingPlatform.BusinessLayer.Chart.CreationMode
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: CreationMode
+  nameWithType: CreationMode
+  fullName: TradingPlatform.BusinessLayer.Chart.CreationMode

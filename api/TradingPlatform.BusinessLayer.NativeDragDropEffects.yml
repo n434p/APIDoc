@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  commentId: T:TradingPlatform.BusinessLayer.NativeDragDropEffects
+  id: NativeDragDropEffects
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NativeDragDropEffects.All
+  - TradingPlatform.BusinessLayer.NativeDragDropEffects.Copy
+  - TradingPlatform.BusinessLayer.NativeDragDropEffects.Link
+  - TradingPlatform.BusinessLayer.NativeDragDropEffects.Move
+  - TradingPlatform.BusinessLayer.NativeDragDropEffects.None
+  - TradingPlatform.BusinessLayer.NativeDragDropEffects.Scroll
+  langs:
+  - csharp
+  - vb
+  name: NativeDragDropEffects
+  nameWithType: NativeDragDropEffects
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NativeDragDropEffects
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1021
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum NativeDragDropEffects
+    content.vb: Public Enum NativeDragDropEffects
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects.Scroll
+  commentId: F:TradingPlatform.BusinessLayer.NativeDragDropEffects.Scroll
+  id: Scroll
+  parent: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  langs:
+  - csharp
+  - vb
+  name: Scroll
+  nameWithType: NativeDragDropEffects.Scroll
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects.Scroll
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Scroll
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1027
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Scroll = -2147483648
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects.All
+  commentId: F:TradingPlatform.BusinessLayer.NativeDragDropEffects.All
+  id: All
+  parent: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: NativeDragDropEffects.All
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects.All
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: All
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1031
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: All = -2147483645
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects.None
+  commentId: F:TradingPlatform.BusinessLayer.NativeDragDropEffects.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NativeDragDropEffects.None
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1035
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects.Copy
+  commentId: F:TradingPlatform.BusinessLayer.NativeDragDropEffects.Copy
+  id: Copy
+  parent: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  langs:
+  - csharp
+  - vb
+  name: Copy
+  nameWithType: NativeDragDropEffects.Copy
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects.Copy
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Copy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1039
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Copy = 1
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects.Move
+  commentId: F:TradingPlatform.BusinessLayer.NativeDragDropEffects.Move
+  id: Move
+  parent: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: NativeDragDropEffects.Move
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects.Move
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Move
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1043
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Move = 2
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects.Link
+  commentId: F:TradingPlatform.BusinessLayer.NativeDragDropEffects.Link
+  id: Link
+  parent: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: NativeDragDropEffects.Link
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects.Link
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Link
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1047
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Link = 4
+    return:
+      type: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.NativeDragDropEffects
+  commentId: T:TradingPlatform.BusinessLayer.NativeDragDropEffects
+  parent: TradingPlatform.BusinessLayer
+  name: NativeDragDropEffects
+  nameWithType: NativeDragDropEffects
+  fullName: TradingPlatform.BusinessLayer.NativeDragDropEffects

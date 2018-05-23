@@ -1,0 +1,412 @@
+### YamlMime:ManagedReference
+items:
+- uid: MySimpleLogger.MySimpleLogger
+  commentId: T:MySimpleLogger.MySimpleLogger
+  id: MySimpleLogger
+  parent: MySimpleLogger
+  children:
+  - MySimpleLogger.MySimpleLogger.#ctor
+  - MySimpleLogger.MySimpleLogger.GetHistory(DateTime,DateTime)
+  - MySimpleLogger.MySimpleLogger.Log(Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  - MySimpleLogger.MySimpleLogger.Log(System.String,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  - MySimpleLogger.MySimpleLogger.Log(System.String,Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  - MySimpleLogger.MySimpleLogger.Log(TradingPlatform.BusinessLayer.ILoggable,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  langs:
+  - csharp
+  - vb
+  name: MySimpleLogger
+  nameWithType: MySimpleLogger
+  fullName: MySimpleLogger.MySimpleLogger
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: MySimpleLogger
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 9
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: 'public class MySimpleLogger : object, ILogger'
+    content.vb: >-
+      Public Class MySimpleLogger
+          Inherits Object
+          Implements ILogger
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.ILogger
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MySimpleLogger.MySimpleLogger.#ctor
+  commentId: M:MySimpleLogger.MySimpleLogger.#ctor
+  id: '#ctor'
+  parent: MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: MySimpleLogger()
+  nameWithType: MySimpleLogger.MySimpleLogger()
+  fullName: MySimpleLogger.MySimpleLogger.MySimpleLogger()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: .ctor
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 14
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: public MySimpleLogger()
+    content.vb: Public Sub New
+  overload: MySimpleLogger.MySimpleLogger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MySimpleLogger.MySimpleLogger.GetHistory(DateTime,DateTime)
+  commentId: M:MySimpleLogger.MySimpleLogger.GetHistory(DateTime,DateTime)
+  id: GetHistory(DateTime,DateTime)
+  parent: MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(DateTime, DateTime)
+  nameWithType: MySimpleLogger.GetHistory(DateTime, DateTime)
+  fullName: MySimpleLogger.MySimpleLogger.GetHistory(DateTime, DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: GetHistory
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 39
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: public List<LoggerEvent> GetHistory(DateTime from, DateTime to)
+    parameters:
+    - id: from
+      type: DateTime
+    - id: to
+      type: DateTime
+    return:
+      type: List{TradingPlatform.BusinessLayer.LoggerEvent}
+    content.vb: Public Function GetHistory(from As DateTime, to As DateTime) As List(Of LoggerEvent)
+  overload: MySimpleLogger.MySimpleLogger.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MySimpleLogger.MySimpleLogger.Log(System.String,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:MySimpleLogger.MySimpleLogger.Log(System.String,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(System.String,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: Log(String, DateTime, LoggingLevel, String)
+  nameWithType: MySimpleLogger.Log(String, DateTime, LoggingLevel, String)
+  fullName: MySimpleLogger.MySimpleLogger.Log(System.String, DateTime, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: Log
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 44
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: public void Log(string message, DateTime date, LoggingLevel loggingEvent = LoggingLevel.System, string connection = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: date
+      type: DateTime
+    - id: loggingEvent
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connection
+      type: System.String
+    content.vb: Public Sub Log(message As String, date As DateTime, loggingEvent As LoggingLevel = LoggingLevel.System, connection As String = Nothing)
+  overload: MySimpleLogger.MySimpleLogger.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MySimpleLogger.MySimpleLogger.Log(System.String,Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:MySimpleLogger.MySimpleLogger.Log(System.String,Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(System.String,Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: Log(String, Exception, DateTime, LoggingLevel, String)
+  nameWithType: MySimpleLogger.Log(String, Exception, DateTime, LoggingLevel, String)
+  fullName: MySimpleLogger.MySimpleLogger.Log(System.String, Exception, DateTime, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: Log
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 49
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: public void Log(string message, Exception exception, DateTime date, LoggingLevel loggingEvent = LoggingLevel.Error, string connection = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: exception
+      type: Exception
+    - id: date
+      type: DateTime
+    - id: loggingEvent
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connection
+      type: System.String
+    content.vb: Public Sub Log(message As String, exception As Exception, date As DateTime, loggingEvent As LoggingLevel = LoggingLevel.Error, connection As String = Nothing)
+  overload: MySimpleLogger.MySimpleLogger.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MySimpleLogger.MySimpleLogger.Log(Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:MySimpleLogger.MySimpleLogger.Log(Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(Exception,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: Log(Exception, DateTime, LoggingLevel, String)
+  nameWithType: MySimpleLogger.Log(Exception, DateTime, LoggingLevel, String)
+  fullName: MySimpleLogger.MySimpleLogger.Log(Exception, DateTime, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: Log
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 54
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: public void Log(Exception exception, DateTime date, LoggingLevel loggingEvent = LoggingLevel.Error, string connection = null)
+    parameters:
+    - id: exception
+      type: Exception
+    - id: date
+      type: DateTime
+    - id: loggingEvent
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connection
+      type: System.String
+    content.vb: Public Sub Log(exception As Exception, date As DateTime, loggingEvent As LoggingLevel = LoggingLevel.Error, connection As String = Nothing)
+  overload: MySimpleLogger.MySimpleLogger.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MySimpleLogger.MySimpleLogger.Log(TradingPlatform.BusinessLayer.ILoggable,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:MySimpleLogger.MySimpleLogger.Log(TradingPlatform.BusinessLayer.ILoggable,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(TradingPlatform.BusinessLayer.ILoggable,DateTime,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: Log(ILoggable, DateTime, LoggingLevel, String)
+  nameWithType: MySimpleLogger.Log(ILoggable, DateTime, LoggingLevel, String)
+  fullName: MySimpleLogger.MySimpleLogger.Log(TradingPlatform.BusinessLayer.ILoggable, DateTime, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    id: Log
+    path: ../BusinessLayer/Modules/Loggers/MySimpleLogger/MySimpleLogger.cs
+    startLine: 59
+  assemblies:
+  - MySimpleLogger
+  namespace: MySimpleLogger
+  syntax:
+    content: public void Log(ILoggable loggable, DateTime date, LoggingLevel loggingEvent = LoggingLevel.Error, string connection = null)
+    parameters:
+    - id: loggable
+      type: TradingPlatform.BusinessLayer.ILoggable
+    - id: date
+      type: DateTime
+    - id: loggingEvent
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connection
+      type: System.String
+    content.vb: Public Sub Log(loggable As ILoggable, date As DateTime, loggingEvent As LoggingLevel = LoggingLevel.Error, connection As String = Nothing)
+  overload: MySimpleLogger.MySimpleLogger.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MySimpleLogger
+  commentId: N:MySimpleLogger
+  name: MySimpleLogger
+  nameWithType: MySimpleLogger
+  fullName: MySimpleLogger
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ILogger
+  commentId: T:TradingPlatform.BusinessLayer.ILogger
+  parent: TradingPlatform.BusinessLayer
+  name: ILogger
+  nameWithType: ILogger
+  fullName: TradingPlatform.BusinessLayer.ILogger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: MySimpleLogger.MySimpleLogger.#ctor*
+  commentId: Overload:MySimpleLogger.MySimpleLogger.#ctor
+  name: MySimpleLogger
+  nameWithType: MySimpleLogger.MySimpleLogger
+  fullName: MySimpleLogger.MySimpleLogger.MySimpleLogger
+- uid: MySimpleLogger.MySimpleLogger.GetHistory*
+  commentId: Overload:MySimpleLogger.MySimpleLogger.GetHistory
+  name: GetHistory
+  nameWithType: MySimpleLogger.GetHistory
+  fullName: MySimpleLogger.MySimpleLogger.GetHistory
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: List{TradingPlatform.BusinessLayer.LoggerEvent}
+  commentId: '!:List{TradingPlatform.BusinessLayer.LoggerEvent}'
+  definition: List`1
+  name: List<LoggerEvent>
+  nameWithType: List<LoggerEvent>
+  fullName: List<TradingPlatform.BusinessLayer.LoggerEvent>
+  nameWithType.vb: List(Of LoggerEvent)
+  fullName.vb: List(Of TradingPlatform.BusinessLayer.LoggerEvent)
+  name.vb: List(Of LoggerEvent)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+    nameWithType: LoggerEvent
+    fullName: TradingPlatform.BusinessLayer.LoggerEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+    nameWithType: LoggerEvent
+    fullName: TradingPlatform.BusinessLayer.LoggerEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  commentId: '!:List`1'
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MySimpleLogger.MySimpleLogger.Log*
+  commentId: Overload:MySimpleLogger.MySimpleLogger.Log
+  name: Log
+  nameWithType: MySimpleLogger.Log
+  fullName: MySimpleLogger.MySimpleLogger.Log
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.LoggingLevel
+  commentId: T:TradingPlatform.BusinessLayer.LoggingLevel
+  parent: TradingPlatform.BusinessLayer
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: TradingPlatform.BusinessLayer.ILoggable
+  commentId: T:TradingPlatform.BusinessLayer.ILoggable
+  parent: TradingPlatform.BusinessLayer
+  name: ILoggable
+  nameWithType: ILoggable
+  fullName: TradingPlatform.BusinessLayer.ILoggable

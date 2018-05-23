@@ -1,0 +1,994 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationTick
+  id: HistoryAggregationTick
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.#ctor(System.Int32)
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime(System.DateTime)
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.SETTINGS_AGGREGATION_TICKS_COUNT
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount
+  - TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString
+  langs:
+  - csharp
+  - vb
+  name: HistoryAggregationTick
+  nameWithType: HistoryAggregationTick
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: HistoryAggregationTick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public sealed class HistoryAggregationTick : HistoryAggregation, ICustomizable, ICloneable, IComparable'
+    content.vb: >-
+      Public NotInheritable Class HistoryAggregationTick
+          Inherits HistoryAggregation
+          Implements ICustomizable, ICloneable, IComparable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.HistoryAggregation
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable
+  - System.ICloneable
+  - System.IComparable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.HistoryAggregation.Name
+  - TradingPlatform.BusinessLayer.HistoryAggregation.TimeScaleType
+  - TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+  - TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+  - TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+  - TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+  - TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+  - TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  - TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  - TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  - TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount
+  id: TicksCount
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: TicksCount
+  nameWithType: HistoryAggregationTick.TicksCount
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: TicksCount
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int TicksCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TicksCount As Integer
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.SETTINGS_AGGREGATION_TICKS_COUNT
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationTick.SETTINGS_AGGREGATION_TICKS_COUNT
+  id: SETTINGS_AGGREGATION_TICKS_COUNT
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_TICKS_COUNT
+  nameWithType: HistoryAggregationTick.SETTINGS_AGGREGATION_TICKS_COUNT
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.SETTINGS_AGGREGATION_TICKS_COUNT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: SETTINGS_AGGREGATION_TICKS_COUNT
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_TICKS_COUNT = "Ticks count"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_TICKS_COUNT As String = "Ticks count"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: HistoryAggregationTick.Settings
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overrides Property Settings As IList(Of SettingItem)
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregation.Settings
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.#ctor(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationTick.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: HistoryAggregationTick(Int32)
+  nameWithType: HistoryAggregationTick.HistoryAggregationTick(Int32)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.HistoryAggregationTick(System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryAggregationTick(int ticksCount)
+    parameters:
+    - id: ticksCount
+      type: System.Int32
+    content.vb: Public Sub New(ticksCount As Integer)
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: HistoryAggregationTick.ToString()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone
+  id: Clone
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: HistoryAggregationTick.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: Clone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 58
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Clone As Object
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime(System.DateTime)
+  id: FormatTime(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: FormatTime(DateTime)
+  nameWithType: HistoryAggregationTick.FormatTime(DateTime)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: FormatTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 61
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string FormatTime(DateTime dt)
+    parameters:
+    - id: dt
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: Public Overrides Function FormatTime(dt As Date) As String
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime(System.DateTime)
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange
+  id: DefaultRange
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTick
+  langs:
+  - csharp
+  - vb
+  name: DefaultRange
+  nameWithType: HistoryAggregationTick.DefaultRange
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    id: DefaultRange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationTick.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override Period DefaultRange { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Overrides ReadOnly Property DefaultRange As Period
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregation.DefaultRange
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregation
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregation
+  nameWithType: HistoryAggregation
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.Name
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.Name
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: Name
+  nameWithType: HistoryAggregation.Name
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.Name
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.TimeScaleType
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.TimeScaleType
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: TimeScaleType
+  nameWithType: HistoryAggregation.TimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.TimeScaleType
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: TICK
+  nameWithType: HistoryAggregation.TICK
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: TIME
+  nameWithType: HistoryAggregation.TIME
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: RENKO
+  nameWithType: HistoryAggregation.RENKO
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: HEIKEN_ASHI
+  nameWithType: HistoryAggregation.HEIKEN_ASHI
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: RANGE_BARS
+  nameWithType: HistoryAggregation.RANGE_BARS
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: SETTINGS_AGGREGATION_PERIOD
+  nameWithType: HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: SETTINGS_AGGREGATION_INSTRUMENT
+  nameWithType: HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: SETTINGS_AGGREGATION_HISTORY_TYPE
+  nameWithType: HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: HistoryAggregation.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: HistoryAggregation.CompareTo
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: HistoryAggregation.CompareTo
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: FullDescription
+  nameWithType: HistoryAggregation.FullDescription
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount
+  name: TicksCount
+  nameWithType: HistoryAggregationTick.TicksCount
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.TicksCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.Settings
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.Settings
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: Settings
+  nameWithType: HistoryAggregation.Settings
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.Settings
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings
+  name: Settings
+  nameWithType: HistoryAggregationTick.Settings
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.#ctor
+  name: HistoryAggregationTick
+  nameWithType: HistoryAggregationTick.HistoryAggregationTick
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.HistoryAggregationTick
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: ToString()
+  nameWithType: HistoryAggregation.ToString()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+    name: ToString
+    nameWithType: HistoryAggregation.ToString
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+    name: ToString
+    nameWithType: HistoryAggregation.ToString
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString
+  name: ToString
+  nameWithType: HistoryAggregationTick.ToString
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.ToString
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: Clone()
+  nameWithType: HistoryAggregation.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.Clone()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+    name: Clone
+    nameWithType: HistoryAggregation.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+    name: Clone
+    nameWithType: HistoryAggregation.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone
+  name: Clone
+  nameWithType: HistoryAggregationTick.Clone
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.Clone
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  isExternal: true
+  name: FormatTime(DateTime)
+  nameWithType: HistoryAggregation.FormatTime(DateTime)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime(System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime(System.DateTime)
+    name: FormatTime
+    nameWithType: HistoryAggregation.FormatTime
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime(System.DateTime)
+    name: FormatTime
+    nameWithType: HistoryAggregation.FormatTime
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.FormatTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime
+  name: FormatTime
+  nameWithType: HistoryAggregationTick.FormatTime
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.FormatTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.DefaultRange
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.DefaultRange
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: DefaultRange
+  nameWithType: HistoryAggregation.DefaultRange
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.DefaultRange
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange
+  name: DefaultRange
+  nameWithType: HistoryAggregationTick.DefaultRange
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTick.DefaultRange
+- uid: TradingPlatform.BusinessLayer.Period
+  commentId: T:TradingPlatform.BusinessLayer.Period
+  parent: TradingPlatform.BusinessLayer
+  name: Period
+  nameWithType: Period
+  fullName: TradingPlatform.BusinessLayer.Period

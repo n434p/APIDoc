@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IconDisplayType
+  commentId: T:TradingPlatform.BusinessLayer.IconDisplayType
+  id: IconDisplayType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IconDisplayType.Visible
+  - TradingPlatform.BusinessLayer.IconDisplayType.VisibleOnHover
+  langs:
+  - csharp
+  - vb
+  name: IconDisplayType
+  nameWithType: IconDisplayType
+  fullName: TradingPlatform.BusinessLayer.IconDisplayType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/GroupActionInfo.cs
+    id: IconDisplayType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/GroupActionInfo.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum IconDisplayType
+    content.vb: Public Enum IconDisplayType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.IconDisplayType.Visible
+  commentId: F:TradingPlatform.BusinessLayer.IconDisplayType.Visible
+  id: Visible
+  parent: TradingPlatform.BusinessLayer.IconDisplayType
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: IconDisplayType.Visible
+  fullName: TradingPlatform.BusinessLayer.IconDisplayType.Visible
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/GroupActionInfo.cs
+    id: Visible
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/GroupActionInfo.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Visible = 0
+    return:
+      type: TradingPlatform.BusinessLayer.IconDisplayType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.IconDisplayType.VisibleOnHover
+  commentId: F:TradingPlatform.BusinessLayer.IconDisplayType.VisibleOnHover
+  id: VisibleOnHover
+  parent: TradingPlatform.BusinessLayer.IconDisplayType
+  langs:
+  - csharp
+  - vb
+  name: VisibleOnHover
+  nameWithType: IconDisplayType.VisibleOnHover
+  fullName: TradingPlatform.BusinessLayer.IconDisplayType.VisibleOnHover
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/GroupActionInfo.cs
+    id: VisibleOnHover
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/GroupActionInfo.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: VisibleOnHover = 1
+    return:
+      type: TradingPlatform.BusinessLayer.IconDisplayType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.IconDisplayType
+  commentId: T:TradingPlatform.BusinessLayer.IconDisplayType
+  parent: TradingPlatform.BusinessLayer
+  name: IconDisplayType
+  nameWithType: IconDisplayType
+  fullName: TradingPlatform.BusinessLayer.IconDisplayType

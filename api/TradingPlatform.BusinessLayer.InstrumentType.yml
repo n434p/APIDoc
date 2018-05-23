@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.InstrumentType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentType
+  id: InstrumentType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.InstrumentType.CFD
+  - TradingPlatform.BusinessLayer.InstrumentType.Crypto
+  - TradingPlatform.BusinessLayer.InstrumentType.Equity
+  - TradingPlatform.BusinessLayer.InstrumentType.ETF
+  - TradingPlatform.BusinessLayer.InstrumentType.Forex
+  - TradingPlatform.BusinessLayer.InstrumentType.Future
+  - TradingPlatform.BusinessLayer.InstrumentType.Index
+  - TradingPlatform.BusinessLayer.InstrumentType.Option
+  - TradingPlatform.BusinessLayer.InstrumentType.Synthetic
+  - TradingPlatform.BusinessLayer.InstrumentType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: InstrumentType
+  nameWithType: InstrumentType
+  fullName: TradingPlatform.BusinessLayer.InstrumentType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: InstrumentType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "InstrumentType", Namespace = "TradingPlatform")]
+
+      public enum InstrumentType
+    content.vb: >-
+      <DataContract(Name:="InstrumentType", Namespace:="TradingPlatform")>
+
+      Public Enum InstrumentType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentType
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Unknown
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Unknown
+  id: Unknown
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: InstrumentType.Unknown
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Unknown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Unknown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Forex
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Forex
+  id: Forex
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Forex
+  nameWithType: InstrumentType.Forex
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Forex
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Forex
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Forex = 1
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Forex = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Equity
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Equity
+  id: Equity
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Equity
+  nameWithType: InstrumentType.Equity
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Equity
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Equity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Equity = 2
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Equity = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.CFD
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.CFD
+  id: CFD
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: CFD
+  nameWithType: InstrumentType.CFD
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.CFD
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: CFD
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      CFD = 3
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      CFD = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Index
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Index
+  id: Index
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: InstrumentType.Index
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Index
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Index
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Index = 4
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Index = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Future
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Future
+  id: Future
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Future
+  nameWithType: InstrumentType.Future
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Future
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Future
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Future = 5
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Future = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Option
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Option
+  id: Option
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Option
+  nameWithType: InstrumentType.Option
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Option
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Option
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Option = 6
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Option = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.ETF
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.ETF
+  id: ETF
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: ETF
+  nameWithType: InstrumentType.ETF
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.ETF
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: ETF
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ETF = 7
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      ETF = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Crypto
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Crypto
+  id: Crypto
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Crypto
+  nameWithType: InstrumentType.Crypto
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Crypto
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Crypto
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Crypto = 8
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Crypto = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentType.Synthetic
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentType.Synthetic
+  id: Synthetic
+  parent: TradingPlatform.BusinessLayer.InstrumentType
+  langs:
+  - csharp
+  - vb
+  name: Synthetic
+  nameWithType: InstrumentType.Synthetic
+  fullName: TradingPlatform.BusinessLayer.InstrumentType.Synthetic
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Synthetic
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Synthetic = 9
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <EnumMember>
+
+      Synthetic = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.InstrumentType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentType
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentType
+  nameWithType: InstrumentType
+  fullName: TradingPlatform.BusinessLayer.InstrumentType

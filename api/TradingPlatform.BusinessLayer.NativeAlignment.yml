@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NativeAlignment
+  commentId: T:TradingPlatform.BusinessLayer.NativeAlignment
+  id: NativeAlignment
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NativeAlignment.Center
+  - TradingPlatform.BusinessLayer.NativeAlignment.Left
+  - TradingPlatform.BusinessLayer.NativeAlignment.NotSet
+  - TradingPlatform.BusinessLayer.NativeAlignment.Right
+  langs:
+  - csharp
+  - vb
+  name: NativeAlignment
+  nameWithType: NativeAlignment
+  fullName: TradingPlatform.BusinessLayer.NativeAlignment
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NativeAlignment
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 187
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum NativeAlignment
+    content.vb: Public Enum NativeAlignment
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.NativeAlignment.NotSet
+  commentId: F:TradingPlatform.BusinessLayer.NativeAlignment.NotSet
+  id: NotSet
+  parent: TradingPlatform.BusinessLayer.NativeAlignment
+  langs:
+  - csharp
+  - vb
+  name: NotSet
+  nameWithType: NativeAlignment.NotSet
+  fullName: TradingPlatform.BusinessLayer.NativeAlignment.NotSet
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NotSet
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 189
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NotSet = 0
+    return:
+      type: TradingPlatform.BusinessLayer.NativeAlignment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeAlignment.Left
+  commentId: F:TradingPlatform.BusinessLayer.NativeAlignment.Left
+  id: Left
+  parent: TradingPlatform.BusinessLayer.NativeAlignment
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: NativeAlignment.Left
+  fullName: TradingPlatform.BusinessLayer.NativeAlignment.Left
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Left
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 190
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Left = 1
+    return:
+      type: TradingPlatform.BusinessLayer.NativeAlignment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeAlignment.Center
+  commentId: F:TradingPlatform.BusinessLayer.NativeAlignment.Center
+  id: Center
+  parent: TradingPlatform.BusinessLayer.NativeAlignment
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: NativeAlignment.Center
+  fullName: TradingPlatform.BusinessLayer.NativeAlignment.Center
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Center
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 191
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Center = 2
+    return:
+      type: TradingPlatform.BusinessLayer.NativeAlignment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeAlignment.Right
+  commentId: F:TradingPlatform.BusinessLayer.NativeAlignment.Right
+  id: Right
+  parent: TradingPlatform.BusinessLayer.NativeAlignment
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: NativeAlignment.Right
+  fullName: TradingPlatform.BusinessLayer.NativeAlignment.Right
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Right
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 192
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Right = 3
+    return:
+      type: TradingPlatform.BusinessLayer.NativeAlignment
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.NativeAlignment
+  commentId: T:TradingPlatform.BusinessLayer.NativeAlignment
+  parent: TradingPlatform.BusinessLayer
+  name: NativeAlignment
+  nameWithType: NativeAlignment
+  fullName: TradingPlatform.BusinessLayer.NativeAlignment

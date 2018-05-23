@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Stratum
+  id: _Stratum
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  children:
+  - TradingPlatform.BusinessLayer.TimeSync._Stratum.PrimaryReference
+  - TradingPlatform.BusinessLayer.TimeSync._Stratum.Reserved
+  - TradingPlatform.BusinessLayer.TimeSync._Stratum.SecondaryReference
+  - TradingPlatform.BusinessLayer.TimeSync._Stratum.Unspecified
+  langs:
+  - csharp
+  - vb
+  name: _Stratum
+  nameWithType: _Stratum
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: _Stratum
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public enum _Stratum
+    content.vb: Public Enum _Stratum
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum.Unspecified
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Stratum.Unspecified
+  id: Unspecified
+  parent: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  langs:
+  - csharp
+  - vb
+  name: Unspecified
+  nameWithType: _Stratum.Unspecified
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum.Unspecified
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: Unspecified
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: Unspecified = 0
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum.PrimaryReference
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Stratum.PrimaryReference
+  id: PrimaryReference
+  parent: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  langs:
+  - csharp
+  - vb
+  name: PrimaryReference
+  nameWithType: _Stratum.PrimaryReference
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum.PrimaryReference
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: PrimaryReference
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: PrimaryReference = 1
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum.SecondaryReference
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Stratum.SecondaryReference
+  id: SecondaryReference
+  parent: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  langs:
+  - csharp
+  - vb
+  name: SecondaryReference
+  nameWithType: _Stratum.SecondaryReference
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum.SecondaryReference
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: SecondaryReference
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: SecondaryReference = 2
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum.Reserved
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Stratum.Reserved
+  id: Reserved
+  parent: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  langs:
+  - csharp
+  - vb
+  name: Reserved
+  nameWithType: _Stratum.Reserved
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum.Reserved
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: Reserved
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: Reserved = 3
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.TimeSync
+  commentId: N:TradingPlatform.BusinessLayer.TimeSync
+  name: TradingPlatform.BusinessLayer.TimeSync
+  nameWithType: TradingPlatform.BusinessLayer.TimeSync
+  fullName: TradingPlatform.BusinessLayer.TimeSync
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Stratum
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  name: _Stratum
+  nameWithType: _Stratum
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum

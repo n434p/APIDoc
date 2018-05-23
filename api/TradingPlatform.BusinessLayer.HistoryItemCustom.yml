@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryItemCustom
+  commentId: T:TradingPlatform.BusinessLayer.HistoryItemCustom
+  id: HistoryItemCustom
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryItemCustom.Clone
+  - TradingPlatform.BusinessLayer.HistoryItemCustom.Item(TradingPlatform.BusinessLayer.PriceType)
+  langs:
+  - csharp
+  - vb
+  name: HistoryItemCustom
+  nameWithType: HistoryItemCustom
+  fullName: TradingPlatform.BusinessLayer.HistoryItemCustom
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoryItemCustom.cs
+    id: HistoryItemCustom
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoryItemCustom.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public sealed class HistoryItemCustom : HistoryItem, IHistoryItem, ICloneable'
+    content.vb: >-
+      Public NotInheritable Class HistoryItemCustom
+          Inherits HistoryItem
+          Implements IHistoryItem, ICloneable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.HistoryItem
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoryItem
+  - System.ICloneable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+  - TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryItemCustom.Item(TradingPlatform.BusinessLayer.PriceType)
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItemCustom.Item(TradingPlatform.BusinessLayer.PriceType)
+  id: Item(TradingPlatform.BusinessLayer.PriceType)
+  parent: TradingPlatform.BusinessLayer.HistoryItemCustom
+  langs:
+  - csharp
+  - vb
+  name: Item[PriceType]
+  nameWithType: HistoryItemCustom.Item[PriceType]
+  fullName: TradingPlatform.BusinessLayer.HistoryItemCustom.Item[TradingPlatform.BusinessLayer.PriceType]
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoryItemCustom.cs
+    id: this[]
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoryItemCustom.cs
+    startLine: 37
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override double this[PriceType priceType] { get; }
+    parameters:
+    - id: priceType
+      type: TradingPlatform.BusinessLayer.PriceType
+    return:
+      type: System.Double
+    content.vb: Public Overrides ReadOnly Property Item(priceType As PriceType) As Double
+  overridden: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  overload: TradingPlatform.BusinessLayer.HistoryItemCustom.Item*
+  nameWithType.vb: HistoryItemCustom.Item(PriceType)
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: TradingPlatform.BusinessLayer.HistoryItemCustom.Item(TradingPlatform.BusinessLayer.PriceType)
+  name.vb: Item(PriceType)
+- uid: TradingPlatform.BusinessLayer.HistoryItemCustom.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItemCustom.Clone
+  id: Clone
+  parent: TradingPlatform.BusinessLayer.HistoryItemCustom
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: HistoryItemCustom.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryItemCustom.Clone()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoryItemCustom.cs
+    id: Clone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoryItemCustom.cs
+    startLine: 81
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Clone As Object
+  overridden: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  overload: TradingPlatform.BusinessLayer.HistoryItemCustom.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.HistoryItem
+  commentId: T:TradingPlatform.BusinessLayer.HistoryItem
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: TradingPlatform.BusinessLayer.HistoryItem
+- uid: TradingPlatform.BusinessLayer.IHistoryItem
+  commentId: T:TradingPlatform.BusinessLayer.IHistoryItem
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoryItem
+  nameWithType: IHistoryItem
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: TimeLeft
+  nameWithType: HistoryItem.TimeLeft
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.TimeLeft
+- uid: TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: TicksLeft
+  nameWithType: HistoryItem.TicksLeft
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.TicksLeft
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  commentId: P:TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: Item[PriceType]
+  nameWithType: HistoryItem.Item[PriceType]
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.Item[TradingPlatform.BusinessLayer.PriceType]
+  nameWithType.vb: HistoryItem.Item(PriceType)
+  fullName.vb: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  name.vb: Item(PriceType)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+    name: Item
+    nameWithType: HistoryItem.Item
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+    nameWithType: PriceType
+    fullName: TradingPlatform.BusinessLayer.PriceType
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+    name: Item
+    nameWithType: HistoryItem.Item
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+    nameWithType: PriceType
+    fullName: TradingPlatform.BusinessLayer.PriceType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemCustom.Item*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemCustom.Item
+  name: Item
+  nameWithType: HistoryItemCustom.Item
+  fullName: TradingPlatform.BusinessLayer.HistoryItemCustom.Item
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  parent: TradingPlatform.BusinessLayer
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryItem.Clone
+  parent: TradingPlatform.BusinessLayer.HistoryItem
+  name: Clone()
+  nameWithType: HistoryItem.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryItem.Clone()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Clone
+    name: Clone
+    nameWithType: HistoryItem.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryItem.Clone
+    name: Clone
+    nameWithType: HistoryItem.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryItem.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryItemCustom.Clone*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryItemCustom.Clone
+  name: Clone
+  nameWithType: HistoryItemCustom.Clone
+  fullName: TradingPlatform.BusinessLayer.HistoryItemCustom.Clone

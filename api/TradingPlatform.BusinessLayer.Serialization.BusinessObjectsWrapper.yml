@@ -1,0 +1,964 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  id: BusinessObjectsWrapper
+  parent: TradingPlatform.BusinessLayer.Serialization
+  children:
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Accounts
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Assets
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create(System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument},System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account})
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.dataBasePath
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Exchanges
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.historyMetadata
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Instruments
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Rules
+  langs:
+  - csharp
+  - vb
+  name: BusinessObjectsWrapper
+  nameWithType: BusinessObjectsWrapper
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: BusinessObjectsWrapper
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 319
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataContract(Name = "Data", Namespace = "TradingPlatform")]
+
+      public class BusinessObjectsWrapper
+    content.vb: >-
+      <DataContract(Name:="Data", Namespace:="TradingPlatform")>
+
+      Public Class BusinessObjectsWrapper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Data
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Instruments
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Instruments
+  id: Instruments
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: Instruments
+  nameWithType: BusinessObjectsWrapper.Instruments
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Instruments
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Instruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 323
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public List<Instrument> Instruments
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument}
+    content.vb: >-
+      <DataMember>
+
+      Public Instruments As List(Of Instrument)
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Accounts
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Accounts
+  id: Accounts
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: Accounts
+  nameWithType: BusinessObjectsWrapper.Accounts
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Accounts
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Accounts
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 325
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public List<Account> Accounts
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account}
+    content.vb: >-
+      <DataMember>
+
+      Public Accounts As List(Of Account)
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Assets
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Assets
+  id: Assets
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: Assets
+  nameWithType: BusinessObjectsWrapper.Assets
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Assets
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Assets
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 327
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public List<Asset> Assets
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Asset}
+    content.vb: >-
+      <DataMember>
+
+      Public Assets As List(Of Asset)
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Rules
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Rules
+  id: Rules
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: Rules
+  nameWithType: BusinessObjectsWrapper.Rules
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Rules
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Rules
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 329
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public List<MessageRule> Rules
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Integration.MessageRule}
+    content.vb: >-
+      <DataMember>
+
+      Public Rules As List(Of MessageRule)
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.dataBasePath
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.dataBasePath
+  id: dataBasePath
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: dataBasePath
+  nameWithType: BusinessObjectsWrapper.dataBasePath
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.dataBasePath
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: dataBasePath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 331
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string dataBasePath
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public dataBasePath As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.historyMetadata
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.historyMetadata
+  id: historyMetadata
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: historyMetadata
+  nameWithType: BusinessObjectsWrapper.historyMetadata
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.historyMetadata
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: historyMetadata
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 333
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public HistoryMetadata historyMetadata
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+    content.vb: >-
+      <DataMember>
+
+      Public historyMetadata As HistoryMetadata
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Exchanges
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Exchanges
+  id: Exchanges
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: Exchanges
+  nameWithType: BusinessObjectsWrapper.Exchanges
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Exchanges
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Exchanges
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 335
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: >-
+      [DataMember]
+
+      public List<Exchange> Exchanges
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Exchange}
+    content.vb: >-
+      <DataMember>
+
+      Public Exchanges As List(Of Exchange)
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create(System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument},System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account})
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create(System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument},System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account})
+  id: Create(System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument},System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account})
+  parent: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  langs:
+  - csharp
+  - vb
+  name: Create(List<Instrument>, List<Account>)
+  nameWithType: BusinessObjectsWrapper.Create(List<Instrument>, List<Account>)
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create(System.Collections.Generic.List<TradingPlatform.BusinessLayer.Instrument>, System.Collections.Generic.List<TradingPlatform.BusinessLayer.Account>)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Create
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 342
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  summary: "\nCreate BusinessObjectsWrapper\n"
+  example: []
+  syntax:
+    content: public static BusinessObjectsWrapper Create(List<Instrument> Instruments, List<Account> Accounts)
+    parameters:
+    - id: Instruments
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument}
+    - id: Accounts
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account}
+    return:
+      type: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+    content.vb: Public Shared Function Create(Instruments As List(Of Instrument), Accounts As List(Of Account)) As BusinessObjectsWrapper
+  overload: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create*
+  nameWithType.vb: BusinessObjectsWrapper.Create(List(Of Instrument), List(Of Account))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create(System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Instrument), System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Account))
+  name.vb: Create(List(Of Instrument), List(Of Account))
+references:
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Instrument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Instrument>
+  nameWithType: List<Instrument>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Instrument>
+  nameWithType.vb: List(Of Instrument)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Instrument)
+  name.vb: List(Of Instrument)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Account}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Account>
+  nameWithType: List<Account>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Account>
+  nameWithType.vb: List(Of Account)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Account)
+  name.vb: List(Of Account)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Asset}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Asset}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Asset>
+  nameWithType: List<Asset>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Asset>
+  nameWithType.vb: List(Of Asset)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Asset)
+  name.vb: List(Of Asset)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Asset
+    name: Asset
+    nameWithType: Asset
+    fullName: TradingPlatform.BusinessLayer.Asset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Asset
+    name: Asset
+    nameWithType: Asset
+    fullName: TradingPlatform.BusinessLayer.Asset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Integration.MessageRule}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Integration.MessageRule}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MessageRule>
+  nameWithType: List<MessageRule>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Integration.MessageRule>
+  nameWithType.vb: List(Of MessageRule)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Integration.MessageRule)
+  name.vb: List(Of MessageRule)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+    name: MessageRule
+    nameWithType: MessageRule
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageRule
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+    name: MessageRule
+    nameWithType: MessageRule
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageRule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+  commentId: T:TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: HistoryMetadata
+  nameWithType: HistoryMetadata
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Exchange}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Exchange}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Exchange>
+  nameWithType: List<Exchange>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Exchange>
+  nameWithType.vb: List(Of Exchange)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Exchange)
+  name.vb: List(Of Exchange)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Exchange
+    name: Exchange
+    nameWithType: Exchange
+    fullName: TradingPlatform.BusinessLayer.Exchange
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Exchange
+    name: Exchange
+    nameWithType: Exchange
+    fullName: TradingPlatform.BusinessLayer.Exchange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create
+  name: Create
+  nameWithType: BusinessObjectsWrapper.Create
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper.Create
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: BusinessObjectsWrapper
+  nameWithType: BusinessObjectsWrapper
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper

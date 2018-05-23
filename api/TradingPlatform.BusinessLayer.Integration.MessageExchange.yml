@@ -1,0 +1,822 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageExchange
+  id: MessageExchange
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.Id
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement
+  - TradingPlatform.BusinessLayer.Integration.MessageExchange.Type
+  langs:
+  - csharp
+  - vb
+  name: MessageExchange
+  nameWithType: MessageExchange
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: MessageExchange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataContract(Name = "Exchange", Namespace = "TradingPlatform")]
+
+      public sealed class MessageExchange : Message, IXElementSerialization
+    content.vb: >-
+      <DataContract(Name:="Exchange", Namespace:="TradingPlatform")>
+
+      Public NotInheritable Class MessageExchange
+          Inherits Message
+          Implements IXElementSerialization
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Exchange
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageExchange.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageExchange.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.Id
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageExchange.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MessageExchange.Id
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "ExchangeId")]
+
+      public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember(Name:="ExchangeId")>
+
+      Public Property Id As Integer
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ExchangeId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName
+  id: ExchangeName
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: ExchangeName
+  nameWithType: MessageExchange.ExchangeName
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: ExchangeName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "ExchangeName")]
+
+      public string ExchangeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="ExchangeName")>
+
+      Public Property ExchangeName As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ExchangeName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex
+  id: SortIndex
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: SortIndex
+  nameWithType: MessageExchange.SortIndex
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: SortIndex
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "SortIndex")]
+
+      public int SortIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember(Name:="SortIndex")>
+
+      Public Property SortIndex As Integer
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: SortIndex
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MessageExchange.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: MessageExchange.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: MessageExchange.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageExchange.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.Type
+  name: Type
+  nameWithType: MessageExchange.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.Id
+  name: Id
+  nameWithType: MessageExchange.Id
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName
+  name: ExchangeName
+  nameWithType: MessageExchange.ExchangeName
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.ExchangeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex
+  name: SortIndex
+  nameWithType: MessageExchange.SortIndex
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.SortIndex
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString
+  name: ToString
+  nameWithType: MessageExchange.ToString
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToString
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement
+  name: ToXElement
+  nameWithType: MessageExchange.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement
+  name: FromXElement
+  nameWithType: MessageExchange.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo

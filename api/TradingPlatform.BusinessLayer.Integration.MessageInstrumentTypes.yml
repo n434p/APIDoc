@@ -1,0 +1,544 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  id: MessageInstrumentTypes
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes
+  - TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type
+  langs:
+  - csharp
+  - vb
+  name: MessageInstrumentTypes
+  nameWithType: MessageInstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageInstrumentTypes.cs
+    id: MessageInstrumentTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageInstrumentTypes.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataContract(Name = "InstrumentTypes", Namespace = "TradingPlatform")]
+
+      public sealed class MessageInstrumentTypes : Message
+    content.vb: >-
+      <DataContract(Name:="InstrumentTypes", Namespace:="TradingPlatform")>
+
+      Public NotInheritable Class MessageInstrumentTypes
+          Inherits Message
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentTypes
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageInstrumentTypes.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageInstrumentTypes.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageInstrumentTypes.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes
+  id: InstrumentTypes
+  parent: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  langs:
+  - csharp
+  - vb
+  name: InstrumentTypes
+  nameWithType: MessageInstrumentTypes.InstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageInstrumentTypes.cs
+    id: InstrumentTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageInstrumentTypes.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public IList<InstrumentType> InstrumentTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.InstrumentType}
+    content.vb: Public Property InstrumentTypes As IList(Of InstrumentType)
+  overload: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type
+  name: Type
+  nameWithType: MessageInstrumentTypes.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes
+  name: InstrumentTypes
+  nameWithType: MessageInstrumentTypes.InstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes.InstrumentTypes
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.InstrumentType}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.InstrumentType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<InstrumentType>
+  nameWithType: IList<InstrumentType>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.InstrumentType>
+  nameWithType.vb: IList(Of InstrumentType)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.InstrumentType)
+  name.vb: IList(Of InstrumentType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.InstrumentType
+    name: InstrumentType
+    nameWithType: InstrumentType
+    fullName: TradingPlatform.BusinessLayer.InstrumentType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.InstrumentType
+    name: InstrumentType
+    nameWithType: InstrumentType
+    fullName: TradingPlatform.BusinessLayer.InstrumentType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath
+  commentId: T:TradingPlatform.BusinessLayer.Utils.CoreMath
+  id: CoreMath
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision(System.Decimal)
+  - TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN(System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement(System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: CoreMath
+  nameWithType: CoreMath
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    id: CoreMath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static class CoreMath
+    content.vb: Public Module CoreMath
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision(System.Decimal)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision(System.Decimal)
+  id: GetValuePrecision(System.Decimal)
+  parent: TradingPlatform.BusinessLayer.Utils.CoreMath
+  langs:
+  - csharp
+  - vb
+  name: GetValuePrecision(Decimal)
+  nameWithType: CoreMath.GetValuePrecision(Decimal)
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision(System.Decimal)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    id: GetValuePrecision
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static int GetValuePrecision(decimal value)
+    parameters:
+    - id: value
+      type: System.Decimal
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetValuePrecision(value As Decimal) As Integer
+  overload: TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement(System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement(System.Double,System.Double)
+  id: RoundToIncrement(System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Utils.CoreMath
+  langs:
+  - csharp
+  - vb
+  name: RoundToIncrement(Double, Double)
+  nameWithType: CoreMath.RoundToIncrement(Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    id: RoundToIncrement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  summary: "\nотбрасывание до инкремента\n"
+  example: []
+  syntax:
+    content: public static double RoundToIncrement(double value, double roundToValue)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: roundToValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function RoundToIncrement(value As Double, roundToValue As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN(System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN(System.Double,System.Double)
+  id: ProcessNaN(System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Utils.CoreMath
+  langs:
+  - csharp
+  - vb
+  name: ProcessNaN(Double, Double)
+  nameWithType: CoreMath.ProcessNaN(Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    id: ProcessNaN
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/CoreMath.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static double ProcessNaN(double value, double defaultValue = 0)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: defaultValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function ProcessNaN(value As Double, defaultValue As Double = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision
+  name: GetValuePrecision
+  nameWithType: CoreMath.GetValuePrecision
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath.GetValuePrecision
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement
+  name: RoundToIncrement
+  nameWithType: CoreMath.RoundToIncrement
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath.RoundToIncrement
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN
+  name: ProcessNaN
+  nameWithType: CoreMath.ProcessNaN
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath.ProcessNaN

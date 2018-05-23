@@ -1,0 +1,320 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  commentId: T:TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  id: NativeMouseButtons
+  parent: TradingPlatform.BusinessLayer.Native
+  children:
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Left
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Middle
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons.None
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Right
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton1
+  - TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton2
+  langs:
+  - csharp
+  - vb
+  name: NativeMouseButtons
+  nameWithType: NativeMouseButtons
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: NativeMouseButtons
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum NativeMouseButtons
+    content.vb: >-
+      <Flags>
+
+      Public Enum NativeMouseButtons
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.None
+  commentId: F:TradingPlatform.BusinessLayer.Native.NativeMouseButtons.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NativeMouseButtons.None
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Left
+  commentId: F:TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Left
+  id: Left
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: NativeMouseButtons.Left
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Left
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: Left
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: Left = 1048576
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Right
+  commentId: F:TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Right
+  id: Right
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: NativeMouseButtons.Right
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Right
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: Right
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: Right = 2097152
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Middle
+  commentId: F:TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Middle
+  id: Middle
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  langs:
+  - csharp
+  - vb
+  name: Middle
+  nameWithType: NativeMouseButtons.Middle
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.Middle
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: Middle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: Middle = 4194304
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton1
+  commentId: F:TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton1
+  id: XButton1
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  langs:
+  - csharp
+  - vb
+  name: XButton1
+  nameWithType: NativeMouseButtons.XButton1
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: XButton1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: XButton1 = 8388608
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton2
+  commentId: F:TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton2
+  id: XButton2
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  langs:
+  - csharp
+  - vb
+  name: XButton2
+  nameWithType: NativeMouseButtons.XButton2
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons.XButton2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    id: XButton2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeEnums.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: XButton2 = 16777216
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Native
+  commentId: N:TradingPlatform.BusinessLayer.Native
+  name: TradingPlatform.BusinessLayer.Native
+  nameWithType: TradingPlatform.BusinessLayer.Native
+  fullName: TradingPlatform.BusinessLayer.Native
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  commentId: T:TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  parent: TradingPlatform.BusinessLayer.Native
+  name: NativeMouseButtons
+  nameWithType: NativeMouseButtons
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons

@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.OrderStatus
+  commentId: T:TradingPlatform.BusinessLayer.OrderStatus
+  id: OrderStatus
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.OrderStatus.Canceled
+  - TradingPlatform.BusinessLayer.OrderStatus.Filled
+  - TradingPlatform.BusinessLayer.OrderStatus.Inactive
+  - TradingPlatform.BusinessLayer.OrderStatus.Modified
+  - TradingPlatform.BusinessLayer.OrderStatus.Opened
+  - TradingPlatform.BusinessLayer.OrderStatus.PartiallyFilled
+  - TradingPlatform.BusinessLayer.OrderStatus.Pending
+  - TradingPlatform.BusinessLayer.OrderStatus.Refused
+  - TradingPlatform.BusinessLayer.OrderStatus.Unspecified
+  - TradingPlatform.BusinessLayer.OrderStatus.Working
+  langs:
+  - csharp
+  - vb
+  name: OrderStatus
+  nameWithType: OrderStatus
+  fullName: TradingPlatform.BusinessLayer.OrderStatus
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: OrderStatus
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 64
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum OrderStatus
+    content.vb: Public Enum OrderStatus
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Unspecified
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Unspecified
+  id: Unspecified
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Unspecified
+  nameWithType: OrderStatus.Unspecified
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Unspecified
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Unspecified
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 66
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Unspecified = 0
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Pending
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Pending
+  id: Pending
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Pending
+  nameWithType: OrderStatus.Pending
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Pending
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Pending
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 68
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Pending = 1
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Opened
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Opened
+  id: Opened
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Opened
+  nameWithType: OrderStatus.Opened
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Opened
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Opened
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 70
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Opened = 2
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.PartiallyFilled
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.PartiallyFilled
+  id: PartiallyFilled
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: PartiallyFilled
+  nameWithType: OrderStatus.PartiallyFilled
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.PartiallyFilled
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: PartiallyFilled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 72
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: PartiallyFilled = 3
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Filled
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Filled
+  id: Filled
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Filled
+  nameWithType: OrderStatus.Filled
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Filled
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Filled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 74
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Filled = 4
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Canceled
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Canceled
+  id: Canceled
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Canceled
+  nameWithType: OrderStatus.Canceled
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Canceled
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Canceled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 76
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Canceled = 5
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Refused
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Refused
+  id: Refused
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Refused
+  nameWithType: OrderStatus.Refused
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Refused
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Refused
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 78
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Refused = 6
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Modified
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Modified
+  id: Modified
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Modified
+  nameWithType: OrderStatus.Modified
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Modified
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Modified
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 80
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Modified = 7
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Inactive
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Inactive
+  id: Inactive
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Inactive
+  nameWithType: OrderStatus.Inactive
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Inactive
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Inactive
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 82
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Inactive = 8
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderStatus.Working
+  commentId: F:TradingPlatform.BusinessLayer.OrderStatus.Working
+  id: Working
+  parent: TradingPlatform.BusinessLayer.OrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Working
+  nameWithType: OrderStatus.Working
+  fullName: TradingPlatform.BusinessLayer.OrderStatus.Working
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Working
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 84
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Working = 9
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.OrderStatus
+  commentId: T:TradingPlatform.BusinessLayer.OrderStatus
+  parent: TradingPlatform.BusinessLayer
+  name: OrderStatus
+  nameWithType: OrderStatus
+  fullName: TradingPlatform.BusinessLayer.OrderStatus

@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+  commentId: T:TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+  id: ChartMouseEventHandler
+  parent: TradingPlatform.BusinessLayer.Chart
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ChartMouseEventHandler
+  nameWithType: ChartMouseEventHandler
+  fullName: TradingPlatform.BusinessLayer.Chart.ChartMouseEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartMouseNativeEventArgs.cs
+    id: ChartMouseEventHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartMouseNativeEventArgs.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public delegate void ChartMouseEventHandler(object sender, ChartMouseNativeEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: TradingPlatform.BusinessLayer.Chart.ChartMouseNativeEventArgs
+    content.vb: Public Delegate Sub ChartMouseEventHandler(sender As Object, e As ChartMouseNativeEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Chart.ChartMouseNativeEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.Chart.ChartMouseNativeEventArgs
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: ChartMouseNativeEventArgs
+  nameWithType: ChartMouseNativeEventArgs
+  fullName: TradingPlatform.BusinessLayer.Chart.ChartMouseNativeEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

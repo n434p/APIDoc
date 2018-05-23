@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Mode
+  id: _Mode
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  children:
+  - TradingPlatform.BusinessLayer.TimeSync._Mode.Broadcast
+  - TradingPlatform.BusinessLayer.TimeSync._Mode.Client
+  - TradingPlatform.BusinessLayer.TimeSync._Mode.Server
+  - TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricActive
+  - TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricPassive
+  - TradingPlatform.BusinessLayer.TimeSync._Mode.Unknown
+  langs:
+  - csharp
+  - vb
+  name: _Mode
+  nameWithType: _Mode
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: _Mode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public enum _Mode
+    content.vb: Public Enum _Mode
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricActive
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricActive
+  id: SymmetricActive
+  parent: TradingPlatform.BusinessLayer.TimeSync._Mode
+  langs:
+  - csharp
+  - vb
+  name: SymmetricActive
+  nameWithType: _Mode.SymmetricActive
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricActive
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: SymmetricActive
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: SymmetricActive = 0
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricPassive
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricPassive
+  id: SymmetricPassive
+  parent: TradingPlatform.BusinessLayer.TimeSync._Mode
+  langs:
+  - csharp
+  - vb
+  name: SymmetricPassive
+  nameWithType: _Mode.SymmetricPassive
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode.SymmetricPassive
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: SymmetricPassive
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: SymmetricPassive = 1
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode.Client
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Mode.Client
+  id: Client
+  parent: TradingPlatform.BusinessLayer.TimeSync._Mode
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: _Mode.Client
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode.Client
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: Client
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: Client = 2
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode.Server
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Mode.Server
+  id: Server
+  parent: TradingPlatform.BusinessLayer.TimeSync._Mode
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: _Mode.Server
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode.Server
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: Server
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: Server = 3
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode.Broadcast
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Mode.Broadcast
+  id: Broadcast
+  parent: TradingPlatform.BusinessLayer.TimeSync._Mode
+  langs:
+  - csharp
+  - vb
+  name: Broadcast
+  nameWithType: _Mode.Broadcast
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode.Broadcast
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: Broadcast
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: Broadcast = 4
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode.Unknown
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync._Mode.Unknown
+  id: Unknown
+  parent: TradingPlatform.BusinessLayer.TimeSync._Mode
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: _Mode.Unknown
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode.Unknown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    id: Unknown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/Enums.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: Unknown = 5
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.TimeSync
+  commentId: N:TradingPlatform.BusinessLayer.TimeSync
+  name: TradingPlatform.BusinessLayer.TimeSync
+  nameWithType: TradingPlatform.BusinessLayer.TimeSync
+  fullName: TradingPlatform.BusinessLayer.TimeSync
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Mode
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  name: _Mode
+  nameWithType: _Mode
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode

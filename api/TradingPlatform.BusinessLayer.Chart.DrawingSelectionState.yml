@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  commentId: T:TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  id: DrawingSelectionState
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Hovered
+  - TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.None
+  - TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Selected
+  langs:
+  - csharp
+  - vb
+  name: DrawingSelectionState
+  nameWithType: DrawingSelectionState
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: DrawingSelectionState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public enum DrawingSelectionState
+    content.vb: Public Enum DrawingSelectionState
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.None
+  commentId: F:TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DrawingSelectionState.None
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Hovered
+  commentId: F:TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Hovered
+  id: Hovered
+  parent: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  langs:
+  - csharp
+  - vb
+  name: Hovered
+  nameWithType: DrawingSelectionState.Hovered
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Hovered
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: Hovered
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Hovered = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Selected
+  commentId: F:TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Selected
+  id: Selected
+  parent: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: DrawingSelectionState.Selected
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState.Selected
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    id: Selected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Utils/ChartEnums.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Selected = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  commentId: T:TradingPlatform.BusinessLayer.Chart.DrawingSelectionState
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: DrawingSelectionState
+  nameWithType: DrawingSelectionState
+  fullName: TradingPlatform.BusinessLayer.Chart.DrawingSelectionState

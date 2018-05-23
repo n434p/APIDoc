@@ -1,0 +1,577 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  id: BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    id: BusinessObject
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract]
+
+      [KnownType(typeof(Account))]
+
+      [KnownType(typeof(PnLItem))]
+
+      public abstract class BusinessObject : IConnectionBindedObject, IUniqueID
+    content.vb: >-
+      <DataContract>
+
+      <KnownType(GetType(Account))>
+
+      <KnownType(GetType(PnLItem))>
+
+      Public MustInherit Class BusinessObject
+          Implements IConnectionBindedObject, IUniqueID
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.Account
+  - TradingPlatform.BusinessLayer.Asset
+  - TradingPlatform.BusinessLayer.Exchange
+  - TradingPlatform.BusinessLayer.Instrument
+  - TradingPlatform.BusinessLayer.InstrumentGroup
+  - TradingPlatform.BusinessLayer.OrderType
+  - TradingPlatform.BusinessLayer.PnLItem
+  - TradingPlatform.BusinessLayer.ReportType
+  - TradingPlatform.BusinessLayer.TradingObject
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: TradingPlatform.BusinessLayer.Account
+  - type: System.Runtime.Serialization.KnownTypeAttribute
+    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: TradingPlatform.BusinessLayer.PnLItem
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  id: ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    id: ConnectionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string ConnectionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ConnectionId As String
+  overload: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual BusinessObjectState State { get; protected set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.BusinessObjectState
+    content.vb: Public Overridable Property State As BusinessObjectState
+  overload: TradingPlatform.BusinessLayer.BusinessObject.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  id: UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    id: UniqueId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nUnique ID during active session. Don&apos;t use for serialization\n"
+  example: []
+  syntax:
+    content: public string UniqueId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UniqueId As String
+  overload: TradingPlatform.BusinessLayer.BusinessObject.UniqueId*
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  id: CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  langs:
+  - csharp
+  - vb
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    id: CreateInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObject.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual BusinessObjectInfo CreateInfo()
+    return:
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    content.vb: Public Overridable Function CreateInfo As BusinessObjectInfo
+  overload: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObject.State
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObjectState
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObjectState
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObjectState
+  nameWithType: BusinessObjectState
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectState
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+  parent: TradingPlatform.BusinessLayer.IUniqueID
+  name: UniqueId
+  nameWithType: IUniqueID.UniqueId
+  fullName: TradingPlatform.BusinessLayer.IUniqueID.UniqueId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  name: CreateInfo
+  nameWithType: BusinessObject.CreateInfo
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObjectInfo
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObjectInfo
+  nameWithType: BusinessObjectInfo
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo

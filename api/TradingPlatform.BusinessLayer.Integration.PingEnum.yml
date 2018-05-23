@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.PingEnum
+  commentId: T:TradingPlatform.BusinessLayer.Integration.PingEnum
+  id: PingEnum
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.PingEnum.Connected
+  - TradingPlatform.BusinessLayer.Integration.PingEnum.Disconnected
+  langs:
+  - csharp
+  - vb
+  name: PingEnum
+  nameWithType: PingEnum
+  fullName: TradingPlatform.BusinessLayer.Integration.PingEnum
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Enums.cs
+    id: PingEnum
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Enums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nPing state dictum\n"
+  example: []
+  syntax:
+    content: public enum PingEnum
+    content.vb: Public Enum PingEnum
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Integration.PingEnum.Connected
+  commentId: F:TradingPlatform.BusinessLayer.Integration.PingEnum.Connected
+  id: Connected
+  parent: TradingPlatform.BusinessLayer.Integration.PingEnum
+  langs:
+  - csharp
+  - vb
+  name: Connected
+  nameWithType: PingEnum.Connected
+  fullName: TradingPlatform.BusinessLayer.Integration.PingEnum.Connected
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Enums.cs
+    id: Connected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Enums.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nPing signals connected\n"
+  example: []
+  syntax:
+    content: Connected = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.PingEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.PingEnum.Disconnected
+  commentId: F:TradingPlatform.BusinessLayer.Integration.PingEnum.Disconnected
+  id: Disconnected
+  parent: TradingPlatform.BusinessLayer.Integration.PingEnum
+  langs:
+  - csharp
+  - vb
+  name: Disconnected
+  nameWithType: PingEnum.Disconnected
+  fullName: TradingPlatform.BusinessLayer.Integration.PingEnum.Disconnected
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Enums.cs
+    id: Disconnected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Enums.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nPing signals disconnected\n"
+  example: []
+  syntax:
+    content: Disconnected = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.PingEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.PingEnum
+  commentId: T:TradingPlatform.BusinessLayer.Integration.PingEnum
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: PingEnum
+  nameWithType: PingEnum
+  fullName: TradingPlatform.BusinessLayer.Integration.PingEnum

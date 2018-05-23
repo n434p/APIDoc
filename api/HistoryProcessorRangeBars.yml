@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: HistoryProcessorRangeBars
+  commentId: N:HistoryProcessorRangeBars
+  id: HistoryProcessorRangeBars
+  children:
+  - HistoryProcessorRangeBars.HistoryProcessorRangeBars
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessorRangeBars
+  nameWithType: HistoryProcessorRangeBars
+  fullName: HistoryProcessorRangeBars
+  type: Namespace
+  assemblies:
+  - HistoryProcessorRangeBars
+references:
+- uid: HistoryProcessorRangeBars.HistoryProcessorRangeBars
+  commentId: T:HistoryProcessorRangeBars.HistoryProcessorRangeBars
+  name: HistoryProcessorRangeBars
+  nameWithType: HistoryProcessorRangeBars
+  fullName: HistoryProcessorRangeBars.HistoryProcessorRangeBars

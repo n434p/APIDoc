@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  id: HistoryAggregationTimeScaleType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.Linear
+  - TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.NonLinear
+  langs:
+  - csharp
+  - vb
+  name: HistoryAggregationTimeScaleType
+  nameWithType: HistoryAggregationTimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregation.cs
+    id: HistoryAggregationTimeScaleType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregation.cs
+    startLine: 95
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum HistoryAggregationTimeScaleType
+    content.vb: Public Enum HistoryAggregationTimeScaleType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.Linear
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.Linear
+  id: Linear
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: HistoryAggregationTimeScaleType.Linear
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.Linear
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregation.cs
+    id: Linear
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregation.cs
+    startLine: 95
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Linear = 0
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.NonLinear
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.NonLinear
+  id: NonLinear
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  langs:
+  - csharp
+  - vb
+  name: NonLinear
+  nameWithType: HistoryAggregationTimeScaleType.NonLinear
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType.NonLinear
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregation.cs
+    id: NonLinear
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregation.cs
+    startLine: 95
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NonLinear = 1
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregationTimeScaleType
+  nameWithType: HistoryAggregationTimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType

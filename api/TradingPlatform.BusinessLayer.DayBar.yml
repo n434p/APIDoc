@@ -1,0 +1,1410 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.DayBar
+  commentId: T:TradingPlatform.BusinessLayer.DayBar
+  id: DayBar
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.DayBar.#ctor(System.String,System.DateTime)
+  - TradingPlatform.BusinessLayer.DayBar.Ask
+  - TradingPlatform.BusinessLayer.DayBar.AskSize
+  - TradingPlatform.BusinessLayer.DayBar.Bid
+  - TradingPlatform.BusinessLayer.DayBar.BidSize
+  - TradingPlatform.BusinessLayer.DayBar.Change
+  - TradingPlatform.BusinessLayer.DayBar.ChangePercentage
+  - TradingPlatform.BusinessLayer.DayBar.High
+  - TradingPlatform.BusinessLayer.DayBar.Last
+  - TradingPlatform.BusinessLayer.DayBar.LastSize
+  - TradingPlatform.BusinessLayer.DayBar.Low
+  - TradingPlatform.BusinessLayer.DayBar.Open
+  - TradingPlatform.BusinessLayer.DayBar.PreviousClose
+  - TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice
+  - TradingPlatform.BusinessLayer.DayBar.SettlementPrice
+  - TradingPlatform.BusinessLayer.DayBar.Ticks
+  - TradingPlatform.BusinessLayer.DayBar.Trades
+  - TradingPlatform.BusinessLayer.DayBar.Type
+  - TradingPlatform.BusinessLayer.DayBar.Volume
+  langs:
+  - csharp
+  - vb
+  name: DayBar
+  nameWithType: DayBar
+  fullName: TradingPlatform.BusinessLayer.DayBar
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: DayBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "DayBar", Namespace = "TradingPlatform")]
+
+      public class DayBar : MessageQuote
+    content.vb: >-
+      <DataContract(Name:="DayBar", Namespace:="TradingPlatform")>
+
+      Public Class DayBar
+          Inherits MessageQuote
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  - TradingPlatform.BusinessLayer.MessageQuote
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+  - TradingPlatform.BusinessLayer.MessageQuote.Time
+  - TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: DayBar
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.DayBar.Type
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DayBar.Type
+  fullName: TradingPlatform.BusinessLayer.DayBar.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.DayBar.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.DayBar.High
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.High
+  id: High
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: DayBar.High
+  fullName: TradingPlatform.BusinessLayer.DayBar.High
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: High
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "High")]
+
+      public double High { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="High")>
+
+      Public Property High As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.High*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: High
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Open
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Open
+  id: Open
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: DayBar.Open
+  fullName: TradingPlatform.BusinessLayer.DayBar.Open
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Open
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Open")]
+
+      public double Open { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Open")>
+
+      Public Property Open As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Open*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Open
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Low
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Low
+  id: Low
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: DayBar.Low
+  fullName: TradingPlatform.BusinessLayer.DayBar.Low
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Low
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Low")]
+
+      public double Low { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Low")>
+
+      Public Property Low As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Low*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Low
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.PreviousClose
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.PreviousClose
+  id: PreviousClose
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: PreviousClose
+  nameWithType: DayBar.PreviousClose
+  fullName: TradingPlatform.BusinessLayer.DayBar.PreviousClose
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: PreviousClose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "PreviousClose")]
+
+      public double PreviousClose { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="PreviousClose")>
+
+      Public Property PreviousClose As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.PreviousClose*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PreviousClose
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Ticks
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Ticks
+  id: Ticks
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Ticks
+  nameWithType: DayBar.Ticks
+  fullName: TradingPlatform.BusinessLayer.DayBar.Ticks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Ticks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Ticks")]
+
+      public long Ticks { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <DataMember(Name:="Ticks")>
+
+      Public Property Ticks As Long
+  overload: TradingPlatform.BusinessLayer.DayBar.Ticks*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Ticks
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Volume
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Volume
+  id: Volume
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: DayBar.Volume
+  fullName: TradingPlatform.BusinessLayer.DayBar.Volume
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Volume
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Volume")]
+
+      public double Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Volume")>
+
+      Public Property Volume As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Volume*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Volume
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.SettlementPrice
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.SettlementPrice
+  id: SettlementPrice
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: SettlementPrice
+  nameWithType: DayBar.SettlementPrice
+  fullName: TradingPlatform.BusinessLayer.DayBar.SettlementPrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: SettlementPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "SettlementPrice")]
+
+      public double SettlementPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="SettlementPrice")>
+
+      Public Property SettlementPrice As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.SettlementPrice*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: SettlementPrice
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice
+  id: PrevSettlementPrice
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: PrevSettlementPrice
+  nameWithType: DayBar.PrevSettlementPrice
+  fullName: TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: PrevSettlementPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "PrevSettlementPrice")]
+
+      public double PrevSettlementPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="PrevSettlementPrice")>
+
+      Public Property PrevSettlementPrice As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PrevSettlementPrice
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Bid
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Bid
+  id: Bid
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: DayBar.Bid
+  fullName: TradingPlatform.BusinessLayer.DayBar.Bid
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Bid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Bid")]
+
+      public double Bid { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Bid")>
+
+      Public Property Bid As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Bid*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Bid
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.BidSize
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.BidSize
+  id: BidSize
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: BidSize
+  nameWithType: DayBar.BidSize
+  fullName: TradingPlatform.BusinessLayer.DayBar.BidSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: BidSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "BidSize")]
+
+      public double BidSize { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="BidSize")>
+
+      Public Property BidSize As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.BidSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: BidSize
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Ask
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Ask
+  id: Ask
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: DayBar.Ask
+  fullName: TradingPlatform.BusinessLayer.DayBar.Ask
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Ask
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 45
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Ask")]
+
+      public double Ask { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Ask")>
+
+      Public Property Ask As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Ask*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Ask
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.AskSize
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.AskSize
+  id: AskSize
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: AskSize
+  nameWithType: DayBar.AskSize
+  fullName: TradingPlatform.BusinessLayer.DayBar.AskSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: AskSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 48
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "AskSize")]
+
+      public double AskSize { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="AskSize")>
+
+      Public Property AskSize As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.AskSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AskSize
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Last
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: DayBar.Last
+  fullName: TradingPlatform.BusinessLayer.DayBar.Last
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 51
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Last")]
+
+      public double Last { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Last")>
+
+      Public Property Last As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Last*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Last
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.LastSize
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.LastSize
+  id: LastSize
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: LastSize
+  nameWithType: DayBar.LastSize
+  fullName: TradingPlatform.BusinessLayer.DayBar.LastSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: LastSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "LastSize")]
+
+      public double LastSize { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="LastSize")>
+
+      Public Property LastSize As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.LastSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: LastSize
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Trades
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Trades
+  id: Trades
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Trades
+  nameWithType: DayBar.Trades
+  fullName: TradingPlatform.BusinessLayer.DayBar.Trades
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Trades
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 57
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Trades")]
+
+      public long Trades { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <DataMember(Name:="Trades")>
+
+      Public Property Trades As Long
+  overload: TradingPlatform.BusinessLayer.DayBar.Trades*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Trades
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.Change
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.Change
+  id: Change
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: Change
+  nameWithType: DayBar.Change
+  fullName: TradingPlatform.BusinessLayer.DayBar.Change
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: Change
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 60
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Change")]
+
+      public double Change { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Change")>
+
+      Public Property Change As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.Change*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Change
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.ChangePercentage
+  commentId: P:TradingPlatform.BusinessLayer.DayBar.ChangePercentage
+  id: ChangePercentage
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: ChangePercentage
+  nameWithType: DayBar.ChangePercentage
+  fullName: TradingPlatform.BusinessLayer.DayBar.ChangePercentage
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: ChangePercentage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 63
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "ChangePercentage")]
+
+      public double ChangePercentage { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="ChangePercentage")>
+
+      Public Property ChangePercentage As Double
+  overload: TradingPlatform.BusinessLayer.DayBar.ChangePercentage*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ChangePercentage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.DayBar.#ctor(System.String,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.DayBar.#ctor(System.String,System.DateTime)
+  id: '#ctor(System.String,System.DateTime)'
+  parent: TradingPlatform.BusinessLayer.DayBar
+  langs:
+  - csharp
+  - vb
+  name: DayBar(String, DateTime)
+  nameWithType: DayBar.DayBar(String, DateTime)
+  fullName: TradingPlatform.BusinessLayer.DayBar.DayBar(System.String, System.DateTime)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Quote/DayBar.cs
+    startLine: 66
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DayBar(string instrumentId, DateTime time)
+    parameters:
+    - id: instrumentId
+      type: System.String
+    - id: time
+      type: System.DateTime
+    content.vb: Public Sub New(instrumentId As String, time As Date)
+  overload: TradingPlatform.BusinessLayer.DayBar.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.MessageQuote
+  commentId: T:TradingPlatform.BusinessLayer.MessageQuote
+  parent: TradingPlatform.BusinessLayer
+  name: MessageQuote
+  nameWithType: MessageQuote
+  fullName: TradingPlatform.BusinessLayer.MessageQuote
+- uid: TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+  commentId: P:TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+  parent: TradingPlatform.BusinessLayer.MessageQuote
+  name: InstrumentId
+  nameWithType: MessageQuote.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.MessageQuote.InstrumentId
+- uid: TradingPlatform.BusinessLayer.MessageQuote.Time
+  commentId: P:TradingPlatform.BusinessLayer.MessageQuote.Time
+  parent: TradingPlatform.BusinessLayer.MessageQuote
+  name: Time
+  nameWithType: MessageQuote.Time
+  fullName: TradingPlatform.BusinessLayer.MessageQuote.Time
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.DayBar.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Type
+  name: Type
+  nameWithType: DayBar.Type
+  fullName: TradingPlatform.BusinessLayer.DayBar.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.DayBar.High*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.High
+  name: High
+  nameWithType: DayBar.High
+  fullName: TradingPlatform.BusinessLayer.DayBar.High
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.DayBar.Open*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Open
+  name: Open
+  nameWithType: DayBar.Open
+  fullName: TradingPlatform.BusinessLayer.DayBar.Open
+- uid: TradingPlatform.BusinessLayer.DayBar.Low*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Low
+  name: Low
+  nameWithType: DayBar.Low
+  fullName: TradingPlatform.BusinessLayer.DayBar.Low
+- uid: TradingPlatform.BusinessLayer.DayBar.PreviousClose*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.PreviousClose
+  name: PreviousClose
+  nameWithType: DayBar.PreviousClose
+  fullName: TradingPlatform.BusinessLayer.DayBar.PreviousClose
+- uid: TradingPlatform.BusinessLayer.DayBar.Ticks*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Ticks
+  name: Ticks
+  nameWithType: DayBar.Ticks
+  fullName: TradingPlatform.BusinessLayer.DayBar.Ticks
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TradingPlatform.BusinessLayer.DayBar.Volume*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Volume
+  name: Volume
+  nameWithType: DayBar.Volume
+  fullName: TradingPlatform.BusinessLayer.DayBar.Volume
+- uid: TradingPlatform.BusinessLayer.DayBar.SettlementPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.SettlementPrice
+  name: SettlementPrice
+  nameWithType: DayBar.SettlementPrice
+  fullName: TradingPlatform.BusinessLayer.DayBar.SettlementPrice
+- uid: TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice
+  name: PrevSettlementPrice
+  nameWithType: DayBar.PrevSettlementPrice
+  fullName: TradingPlatform.BusinessLayer.DayBar.PrevSettlementPrice
+- uid: TradingPlatform.BusinessLayer.DayBar.Bid*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Bid
+  name: Bid
+  nameWithType: DayBar.Bid
+  fullName: TradingPlatform.BusinessLayer.DayBar.Bid
+- uid: TradingPlatform.BusinessLayer.DayBar.BidSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.BidSize
+  name: BidSize
+  nameWithType: DayBar.BidSize
+  fullName: TradingPlatform.BusinessLayer.DayBar.BidSize
+- uid: TradingPlatform.BusinessLayer.DayBar.Ask*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Ask
+  name: Ask
+  nameWithType: DayBar.Ask
+  fullName: TradingPlatform.BusinessLayer.DayBar.Ask
+- uid: TradingPlatform.BusinessLayer.DayBar.AskSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.AskSize
+  name: AskSize
+  nameWithType: DayBar.AskSize
+  fullName: TradingPlatform.BusinessLayer.DayBar.AskSize
+- uid: TradingPlatform.BusinessLayer.DayBar.Last*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Last
+  name: Last
+  nameWithType: DayBar.Last
+  fullName: TradingPlatform.BusinessLayer.DayBar.Last
+- uid: TradingPlatform.BusinessLayer.DayBar.LastSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.LastSize
+  name: LastSize
+  nameWithType: DayBar.LastSize
+  fullName: TradingPlatform.BusinessLayer.DayBar.LastSize
+- uid: TradingPlatform.BusinessLayer.DayBar.Trades*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Trades
+  name: Trades
+  nameWithType: DayBar.Trades
+  fullName: TradingPlatform.BusinessLayer.DayBar.Trades
+- uid: TradingPlatform.BusinessLayer.DayBar.Change*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.Change
+  name: Change
+  nameWithType: DayBar.Change
+  fullName: TradingPlatform.BusinessLayer.DayBar.Change
+- uid: TradingPlatform.BusinessLayer.DayBar.ChangePercentage*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.ChangePercentage
+  name: ChangePercentage
+  nameWithType: DayBar.ChangePercentage
+  fullName: TradingPlatform.BusinessLayer.DayBar.ChangePercentage
+- uid: TradingPlatform.BusinessLayer.DayBar.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.DayBar.#ctor
+  name: DayBar
+  nameWithType: DayBar.DayBar
+  fullName: TradingPlatform.BusinessLayer.DayBar.DayBar
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

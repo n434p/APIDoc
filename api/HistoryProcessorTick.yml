@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: HistoryProcessorTick
+  commentId: N:HistoryProcessorTick
+  id: HistoryProcessorTick
+  children:
+  - HistoryProcessorTick.HistoryProcessorTick
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessorTick
+  nameWithType: HistoryProcessorTick
+  fullName: HistoryProcessorTick
+  type: Namespace
+  assemblies:
+  - HistoryProcessorTick
+references:
+- uid: HistoryProcessorTick.HistoryProcessorTick
+  commentId: T:HistoryProcessorTick.HistoryProcessorTick
+  name: HistoryProcessorTick
+  nameWithType: HistoryProcessorTick
+  fullName: HistoryProcessorTick.HistoryProcessorTick

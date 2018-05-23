@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: LocalFileProviderBranding
+  commentId: N:LocalFileProviderBranding
+  id: LocalFileProviderBranding
+  children:
+  - LocalFileProviderBranding.LocalFileBrandingInformation
+  - LocalFileProviderBranding.LocalFileProviderBranding
+  langs:
+  - csharp
+  - vb
+  name: LocalFileProviderBranding
+  nameWithType: LocalFileProviderBranding
+  fullName: LocalFileProviderBranding
+  type: Namespace
+  assemblies:
+  - LocalFileProviderBranding
+references:
+- uid: LocalFileProviderBranding.LocalFileProviderBranding
+  commentId: T:LocalFileProviderBranding.LocalFileProviderBranding
+  name: LocalFileProviderBranding
+  nameWithType: LocalFileProviderBranding
+  fullName: LocalFileProviderBranding.LocalFileProviderBranding
+- uid: LocalFileProviderBranding.LocalFileBrandingInformation
+  commentId: T:LocalFileProviderBranding.LocalFileBrandingInformation
+  name: LocalFileBrandingInformation
+  nameWithType: LocalFileBrandingInformation
+  fullName: LocalFileProviderBranding.LocalFileBrandingInformation

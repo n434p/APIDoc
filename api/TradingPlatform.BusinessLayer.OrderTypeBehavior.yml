@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  commentId: T:TradingPlatform.BusinessLayer.OrderTypeBehavior
+  id: OrderTypeBehavior
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.OrderTypeBehavior.Limit
+  - TradingPlatform.BusinessLayer.OrderTypeBehavior.Market
+  - TradingPlatform.BusinessLayer.OrderTypeBehavior.Stop
+  - TradingPlatform.BusinessLayer.OrderTypeBehavior.StopLimit
+  - TradingPlatform.BusinessLayer.OrderTypeBehavior.TrailingStop
+  - TradingPlatform.BusinessLayer.OrderTypeBehavior.Unspecified
+  langs:
+  - csharp
+  - vb
+  name: OrderTypeBehavior
+  nameWithType: OrderTypeBehavior
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: OrderTypeBehavior
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum OrderTypeBehavior
+    content.vb: Public Enum OrderTypeBehavior
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior.Unspecified
+  commentId: F:TradingPlatform.BusinessLayer.OrderTypeBehavior.Unspecified
+  id: Unspecified
+  parent: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  langs:
+  - csharp
+  - vb
+  name: Unspecified
+  nameWithType: OrderTypeBehavior.Unspecified
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior.Unspecified
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: Unspecified
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Unspecified = 0
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior.Market
+  commentId: F:TradingPlatform.BusinessLayer.OrderTypeBehavior.Market
+  id: Market
+  parent: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  langs:
+  - csharp
+  - vb
+  name: Market
+  nameWithType: OrderTypeBehavior.Market
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior.Market
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: Market
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Market = 1
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior.Limit
+  commentId: F:TradingPlatform.BusinessLayer.OrderTypeBehavior.Limit
+  id: Limit
+  parent: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: OrderTypeBehavior.Limit
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior.Limit
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: Limit
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Limit = 2
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior.Stop
+  commentId: F:TradingPlatform.BusinessLayer.OrderTypeBehavior.Stop
+  id: Stop
+  parent: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: OrderTypeBehavior.Stop
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior.Stop
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: Stop
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Stop = 3
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior.TrailingStop
+  commentId: F:TradingPlatform.BusinessLayer.OrderTypeBehavior.TrailingStop
+  id: TrailingStop
+  parent: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  langs:
+  - csharp
+  - vb
+  name: TrailingStop
+  nameWithType: OrderTypeBehavior.TrailingStop
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior.TrailingStop
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: TrailingStop
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: TrailingStop = 4
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior.StopLimit
+  commentId: F:TradingPlatform.BusinessLayer.OrderTypeBehavior.StopLimit
+  id: StopLimit
+  parent: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  langs:
+  - csharp
+  - vb
+  name: StopLimit
+  nameWithType: OrderTypeBehavior.StopLimit
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior.StopLimit
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    id: StopLimit
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/OrderTypes/Enums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: StopLimit = 5
+    return:
+      type: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.OrderTypeBehavior
+  commentId: T:TradingPlatform.BusinessLayer.OrderTypeBehavior
+  parent: TradingPlatform.BusinessLayer
+  name: OrderTypeBehavior
+  nameWithType: OrderTypeBehavior
+  fullName: TradingPlatform.BusinessLayer.OrderTypeBehavior

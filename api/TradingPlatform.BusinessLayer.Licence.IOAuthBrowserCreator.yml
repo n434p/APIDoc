@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  commentId: T:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  id: IOAuthBrowserCreator
+  parent: TradingPlatform.BusinessLayer.Licence
+  children:
+  - TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser
+  langs:
+  - csharp
+  - vb
+  name: IOAuthBrowserCreator
+  nameWithType: IOAuthBrowserCreator
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    id: IOAuthBrowserCreator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public interface IOAuthBrowserCreator
+    content.vb: Public Interface IOAuthBrowserCreator
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser
+  commentId: M:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser
+  id: CreateBrowser
+  parent: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  langs:
+  - csharp
+  - vb
+  name: CreateBrowser()
+  nameWithType: IOAuthBrowserCreator.CreateBrowser()
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    id: CreateBrowser
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: IOAuthBrowserControl CreateBrowser()
+    return:
+      type: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+    content.vb: Function CreateBrowser As IOAuthBrowserControl
+  overload: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser*
+references:
+- uid: TradingPlatform.BusinessLayer.Licence
+  commentId: N:TradingPlatform.BusinessLayer.Licence
+  name: TradingPlatform.BusinessLayer.Licence
+  nameWithType: TradingPlatform.BusinessLayer.Licence
+  fullName: TradingPlatform.BusinessLayer.Licence
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser
+  name: CreateBrowser
+  nameWithType: IOAuthBrowserCreator.CreateBrowser
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator.CreateBrowser
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  commentId: T:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: IOAuthBrowserControl
+  nameWithType: IOAuthBrowserControl
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl

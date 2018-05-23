@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SettingItemEventHandler
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemEventHandler
+  id: SettingItemEventHandler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SettingItemEventHandler
+  nameWithType: SettingItemEventHandler
+  fullName: TradingPlatform.BusinessLayer.SettingItemEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SettingItemEventArgs.cs
+    id: SettingItemEventHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SettingItemEventArgs.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void SettingItemEventHandler(SettingItem sender, SettingItemEventArgs e);
+    parameters:
+    - id: sender
+      type: TradingPlatform.BusinessLayer.SettingItem
+    - id: e
+      type: TradingPlatform.BusinessLayer.SettingItemEventArgs
+    content.vb: Public Delegate Sub SettingItemEventHandler(sender As SettingItem, e As SettingItemEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.SettingItem
+  commentId: T:TradingPlatform.BusinessLayer.SettingItem
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItem
+  nameWithType: SettingItem
+  fullName: TradingPlatform.BusinessLayer.SettingItem
+- uid: TradingPlatform.BusinessLayer.SettingItemEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemEventArgs
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemEventArgs
+  nameWithType: SettingItemEventArgs
+  fullName: TradingPlatform.BusinessLayer.SettingItemEventArgs

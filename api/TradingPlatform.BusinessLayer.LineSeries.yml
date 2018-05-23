@@ -1,0 +1,929 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.LineSeries
+  commentId: T:TradingPlatform.BusinessLayer.LineSeries
+  id: LineSeries
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.LineSeries.#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  - TradingPlatform.BusinessLayer.LineSeries.Clear
+  - TradingPlatform.BusinessLayer.LineSeries.ClearMarkers
+  - TradingPlatform.BusinessLayer.LineSeries.DrawBegin
+  - TradingPlatform.BusinessLayer.LineSeries.GetMarker(System.Int32)
+  - TradingPlatform.BusinessLayer.LineSeries.RemoveMarker(System.Int32,System.Drawing.Color)
+  - TradingPlatform.BusinessLayer.LineSeries.SetMarker(System.Int32,System.Drawing.Color)
+  - TradingPlatform.BusinessLayer.LineSeries.Settings
+  - TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker
+  - TradingPlatform.BusinessLayer.LineSeries.TimeShift
+  langs:
+  - csharp
+  - vb
+  name: LineSeries
+  nameWithType: LineSeries
+  fullName: TradingPlatform.BusinessLayer.LineSeries
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: LineSeries
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public sealed class LineSeries : Line, ICustomizable'
+    content.vb: >-
+      Public NotInheritable Class LineSeries
+          Inherits Line
+          Implements ICustomizable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Line
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Line.Name
+  - TradingPlatform.BusinessLayer.Line.Color
+  - TradingPlatform.BusinessLayer.Line.Width
+  - TradingPlatform.BusinessLayer.Line.Style
+  - TradingPlatform.BusinessLayer.Line.Visible
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.LineSeries.DrawBegin
+  commentId: P:TradingPlatform.BusinessLayer.LineSeries.DrawBegin
+  id: DrawBegin
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: DrawBegin
+  nameWithType: LineSeries.DrawBegin
+  fullName: TradingPlatform.BusinessLayer.LineSeries.DrawBegin
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: DrawBegin
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSets the bar number (from the data beginning) from which the drawing of the given indicator line must start;\n"
+  example: []
+  syntax:
+    content: public int DrawBegin { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DrawBegin As Integer
+  overload: TradingPlatform.BusinessLayer.LineSeries.DrawBegin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.TimeShift
+  commentId: P:TradingPlatform.BusinessLayer.LineSeries.TimeShift
+  id: TimeShift
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: TimeShift
+  nameWithType: LineSeries.TimeShift
+  fullName: TradingPlatform.BusinessLayer.LineSeries.TimeShift
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: TimeShift
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nTime shift of indicator&apos;s line\n"
+  example: []
+  syntax:
+    content: public int TimeShift { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TimeShift As Integer
+  overload: TradingPlatform.BusinessLayer.LineSeries.TimeShift*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker
+  commentId: P:TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker
+  id: ShowLineMarker
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: ShowLineMarker
+  nameWithType: LineSeries.ShowLineMarker
+  fullName: TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: ShowLineMarker
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public bool ShowLineMarker { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowLineMarker As Boolean
+  overload: TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  commentId: M:TradingPlatform.BusinessLayer.LineSeries.#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  id: '#ctor(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)'
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: LineSeries(String, Color, Int32, LineStyle)
+  nameWithType: LineSeries.LineSeries(String, Color, Int32, LineStyle)
+  fullName: TradingPlatform.BusinessLayer.LineSeries.LineSeries(System.String, System.Drawing.Color, System.Int32, TradingPlatform.BusinessLayer.LineStyle)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public LineSeries(string name, Color color, int width, LineStyle style)
+    parameters:
+    - id: name
+      type: System.String
+    - id: color
+      type: System.Drawing.Color
+    - id: width
+      type: System.Int32
+    - id: style
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Public Sub New(name As String, color As Color, width As Integer, style As LineStyle)
+  overload: TradingPlatform.BusinessLayer.LineSeries.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.Clear
+  commentId: M:TradingPlatform.BusinessLayer.LineSeries.Clear
+  id: Clear
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: LineSeries.Clear()
+  fullName: TradingPlatform.BusinessLayer.LineSeries.Clear()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: Clear
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: TradingPlatform.BusinessLayer.LineSeries.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.Settings
+  commentId: P:TradingPlatform.BusinessLayer.LineSeries.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: LineSeries.Settings
+  fullName: TradingPlatform.BusinessLayer.LineSeries.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overrides Property Settings As IList(Of SettingItem)
+  overridden: TradingPlatform.BusinessLayer.Line.Settings
+  overload: TradingPlatform.BusinessLayer.LineSeries.Settings*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.LineSeries.SetMarker(System.Int32,System.Drawing.Color)
+  commentId: M:TradingPlatform.BusinessLayer.LineSeries.SetMarker(System.Int32,System.Drawing.Color)
+  id: SetMarker(System.Int32,System.Drawing.Color)
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: SetMarker(Int32, Color)
+  nameWithType: LineSeries.SetMarker(Int32, Color)
+  fullName: TradingPlatform.BusinessLayer.LineSeries.SetMarker(System.Int32, System.Drawing.Color)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: SetMarker
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 90
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nRedraws parts of indicator&apos;s line within the interval set by offset\n"
+  example: []
+  syntax:
+    content: public void SetMarker(int offset, Color color)
+    parameters:
+    - id: offset
+      type: System.Int32
+    - id: color
+      type: System.Drawing.Color
+    content.vb: Public Sub SetMarker(offset As Integer, color As Color)
+  overload: TradingPlatform.BusinessLayer.LineSeries.SetMarker*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.RemoveMarker(System.Int32,System.Drawing.Color)
+  commentId: M:TradingPlatform.BusinessLayer.LineSeries.RemoveMarker(System.Int32,System.Drawing.Color)
+  id: RemoveMarker(System.Int32,System.Drawing.Color)
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: RemoveMarker(Int32, Color)
+  nameWithType: LineSeries.RemoveMarker(Int32, Color)
+  fullName: TradingPlatform.BusinessLayer.LineSeries.RemoveMarker(System.Int32, System.Drawing.Color)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: RemoveMarker
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 103
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nRemoves redrawn parts of indicator&apos;s line within the interval set by offset\n"
+  example: []
+  syntax:
+    content: public void RemoveMarker(int offset, Color color)
+    parameters:
+    - id: offset
+      type: System.Int32
+    - id: color
+      type: System.Drawing.Color
+    content.vb: Public Sub RemoveMarker(offset As Integer, color As Color)
+  overload: TradingPlatform.BusinessLayer.LineSeries.RemoveMarker*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.GetMarker(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.LineSeries.GetMarker(System.Int32)
+  id: GetMarker(System.Int32)
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: GetMarker(Int32)
+  nameWithType: LineSeries.GetMarker(Int32)
+  fullName: TradingPlatform.BusinessLayer.LineSeries.GetMarker(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: GetMarker
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 116
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public Color GetMarker(int offset)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Function GetMarker(offset As Integer) As Color
+  overload: TradingPlatform.BusinessLayer.LineSeries.GetMarker*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LineSeries.ClearMarkers
+  commentId: M:TradingPlatform.BusinessLayer.LineSeries.ClearMarkers
+  id: ClearMarkers
+  parent: TradingPlatform.BusinessLayer.LineSeries
+  langs:
+  - csharp
+  - vb
+  name: ClearMarkers()
+  nameWithType: LineSeries.ClearMarkers()
+  fullName: TradingPlatform.BusinessLayer.LineSeries.ClearMarkers()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    id: ClearMarkers
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/LineSeries.cs
+    startLine: 129
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nFully clears markers from line\n"
+  example: []
+  syntax:
+    content: public void ClearMarkers()
+    content.vb: Public Sub ClearMarkers
+  overload: TradingPlatform.BusinessLayer.LineSeries.ClearMarkers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Line
+  commentId: T:TradingPlatform.BusinessLayer.Line
+  parent: TradingPlatform.BusinessLayer
+  name: Line
+  nameWithType: Line
+  fullName: TradingPlatform.BusinessLayer.Line
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: TradingPlatform.BusinessLayer.Line.Name
+  commentId: P:TradingPlatform.BusinessLayer.Line.Name
+  parent: TradingPlatform.BusinessLayer.Line
+  name: Name
+  nameWithType: Line.Name
+  fullName: TradingPlatform.BusinessLayer.Line.Name
+- uid: TradingPlatform.BusinessLayer.Line.Color
+  commentId: P:TradingPlatform.BusinessLayer.Line.Color
+  parent: TradingPlatform.BusinessLayer.Line
+  name: Color
+  nameWithType: Line.Color
+  fullName: TradingPlatform.BusinessLayer.Line.Color
+- uid: TradingPlatform.BusinessLayer.Line.Width
+  commentId: P:TradingPlatform.BusinessLayer.Line.Width
+  parent: TradingPlatform.BusinessLayer.Line
+  name: Width
+  nameWithType: Line.Width
+  fullName: TradingPlatform.BusinessLayer.Line.Width
+- uid: TradingPlatform.BusinessLayer.Line.Style
+  commentId: P:TradingPlatform.BusinessLayer.Line.Style
+  parent: TradingPlatform.BusinessLayer.Line
+  name: Style
+  nameWithType: Line.Style
+  fullName: TradingPlatform.BusinessLayer.Line.Style
+- uid: TradingPlatform.BusinessLayer.Line.Visible
+  commentId: P:TradingPlatform.BusinessLayer.Line.Visible
+  parent: TradingPlatform.BusinessLayer.Line
+  name: Visible
+  nameWithType: Line.Visible
+  fullName: TradingPlatform.BusinessLayer.Line.Visible
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.LineSeries.DrawBegin*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.DrawBegin
+  name: DrawBegin
+  nameWithType: LineSeries.DrawBegin
+  fullName: TradingPlatform.BusinessLayer.LineSeries.DrawBegin
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.LineSeries.TimeShift*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.TimeShift
+  name: TimeShift
+  nameWithType: LineSeries.TimeShift
+  fullName: TradingPlatform.BusinessLayer.LineSeries.TimeShift
+- uid: TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker
+  name: ShowLineMarker
+  nameWithType: LineSeries.ShowLineMarker
+  fullName: TradingPlatform.BusinessLayer.LineSeries.ShowLineMarker
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.LineSeries.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.#ctor
+  name: LineSeries
+  nameWithType: LineSeries.LineSeries
+  fullName: TradingPlatform.BusinessLayer.LineSeries.LineSeries
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.LineSeries.Clear*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.Clear
+  name: Clear
+  nameWithType: LineSeries.Clear
+  fullName: TradingPlatform.BusinessLayer.LineSeries.Clear
+- uid: TradingPlatform.BusinessLayer.Line.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Line.Settings
+  parent: TradingPlatform.BusinessLayer.Line
+  name: Settings
+  nameWithType: Line.Settings
+  fullName: TradingPlatform.BusinessLayer.Line.Settings
+- uid: TradingPlatform.BusinessLayer.LineSeries.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.Settings
+  name: Settings
+  nameWithType: LineSeries.Settings
+  fullName: TradingPlatform.BusinessLayer.LineSeries.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.LineSeries.SetMarker*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.SetMarker
+  name: SetMarker
+  nameWithType: LineSeries.SetMarker
+  fullName: TradingPlatform.BusinessLayer.LineSeries.SetMarker
+- uid: TradingPlatform.BusinessLayer.LineSeries.RemoveMarker*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.RemoveMarker
+  name: RemoveMarker
+  nameWithType: LineSeries.RemoveMarker
+  fullName: TradingPlatform.BusinessLayer.LineSeries.RemoveMarker
+- uid: TradingPlatform.BusinessLayer.LineSeries.GetMarker*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.GetMarker
+  name: GetMarker
+  nameWithType: LineSeries.GetMarker
+  fullName: TradingPlatform.BusinessLayer.LineSeries.GetMarker
+- uid: TradingPlatform.BusinessLayer.LineSeries.ClearMarkers*
+  commentId: Overload:TradingPlatform.BusinessLayer.LineSeries.ClearMarkers
+  name: ClearMarkers
+  nameWithType: LineSeries.ClearMarkers
+  fullName: TradingPlatform.BusinessLayer.LineSeries.ClearMarkers

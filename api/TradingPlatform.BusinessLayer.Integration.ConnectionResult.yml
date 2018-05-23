@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  commentId: T:TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  id: ConnectionResult
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled
+  - TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail(System.String)
+  - TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message
+  - TradingPlatform.BusinessLayer.Integration.ConnectionResult.State
+  langs:
+  - csharp
+  - vb
+  name: ConnectionResult
+  nameWithType: ConnectionResult
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    id: ConnectionResult
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nVendor connection respond bundle\n"
+  example: []
+  syntax:
+    content: public class ConnectionResult
+    content.vb: Public Class ConnectionResult
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.State
+  commentId: P:TradingPlatform.BusinessLayer.Integration.ConnectionResult.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ConnectionResult.State
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nThe connection status\n"
+  example: []
+  syntax:
+    content: public ConnectionState State { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    content.vb: Public Property State As ConnectionState
+  overload: TradingPlatform.BusinessLayer.Integration.ConnectionResult.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message
+  commentId: P:TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message
+  id: Message
+  parent: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ConnectionResult.Message
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    id: Message
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nThe respond message\n"
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled
+  commentId: P:TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled
+  id: Cancelled
+  parent: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: ConnectionResult.Cancelled
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    id: Cancelled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public bool Cancelled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Cancelled As Boolean
+  overload: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail(System.String)
+  id: CreateFail(System.String)
+  parent: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  langs:
+  - csharp
+  - vb
+  name: CreateFail(String)
+  nameWithType: ConnectionResult.CreateFail(String)
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    id: CreateFail
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/ConnectionResult.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public static ConnectionResult CreateFail(string message)
+    parameters:
+    - id: message
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+    content.vb: Public Shared Function CreateFail(message As String) As ConnectionResult
+  overload: TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.ConnectionResult.State
+  name: State
+  nameWithType: ConnectionResult.State
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.State
+- uid: TradingPlatform.BusinessLayer.ConnectionState
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionState
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionState
+  nameWithType: ConnectionState
+  fullName: TradingPlatform.BusinessLayer.ConnectionState
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message
+  name: Message
+  nameWithType: ConnectionResult.Message
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled
+  name: Cancelled
+  nameWithType: ConnectionResult.Cancelled
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.Cancelled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail
+  name: CreateFail
+  nameWithType: ConnectionResult.CreateFail
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult.CreateFail
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  commentId: T:TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: ConnectionResult
+  nameWithType: ConnectionResult
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult

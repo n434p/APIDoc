@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: MySimpleLogger
+  commentId: N:MySimpleLogger
+  id: MySimpleLogger
+  children:
+  - MySimpleLogger.MySimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: MySimpleLogger
+  nameWithType: MySimpleLogger
+  fullName: MySimpleLogger
+  type: Namespace
+  assemblies:
+  - MySimpleLogger
+references:
+- uid: MySimpleLogger.MySimpleLogger
+  commentId: T:MySimpleLogger.MySimpleLogger
+  name: MySimpleLogger
+  nameWithType: MySimpleLogger
+  fullName: MySimpleLogger.MySimpleLogger

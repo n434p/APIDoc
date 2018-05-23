@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestStrategy
+  commentId: N:TestStrategy
+  id: TestStrategy
+  children:
+  - TestStrategy.TestStrategy
+  langs:
+  - csharp
+  - vb
+  name: TestStrategy
+  nameWithType: TestStrategy
+  fullName: TestStrategy
+  type: Namespace
+  assemblies:
+  - Strategies
+references:
+- uid: TestStrategy.TestStrategy
+  commentId: T:TestStrategy.TestStrategy
+  name: TestStrategy
+  nameWithType: TestStrategy
+  fullName: TestStrategy.TestStrategy

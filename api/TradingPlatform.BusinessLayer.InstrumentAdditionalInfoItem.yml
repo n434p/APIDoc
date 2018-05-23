@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+  id: InstrumentAdditionalInfoItem
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: InstrumentAdditionalInfoItem
+  nameWithType: InstrumentAdditionalInfoItem
+  fullName: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/InstrumentAdditionalInfoItem.cs
+    id: InstrumentAdditionalInfoItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/InstrumentAdditionalInfoItem.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "InstrumentAdditionalInfoItem", Namespace = "TradingPlatform")]
+
+      public class InstrumentAdditionalInfoItem : AdditionalInfoItem
+    content.vb: >-
+      <DataContract(Name:="InstrumentAdditionalInfoItem", Namespace:="TradingPlatform")>
+
+      Public Class InstrumentAdditionalInfoItem
+          Inherits AdditionalInfoItem
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentAdditionalInfoItem
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  commentId: T:TradingPlatform.BusinessLayer.AdditionalInfoItem
+  parent: TradingPlatform.BusinessLayer
+  name: AdditionalInfoItem
+  nameWithType: AdditionalInfoItem
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: GroupInfo
+  nameWithType: AdditionalInfoItem.GroupInfo
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: SortIndex
+  nameWithType: AdditionalInfoItem.SortIndex
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: NameKey
+  nameWithType: AdditionalInfoItem.NameKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: ToolTipKey
+  nameWithType: AdditionalInfoItem.ToolTipKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: DataType
+  nameWithType: AdditionalInfoItem.DataType
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: Value
+  nameWithType: AdditionalInfoItem.Value
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: Hidden
+  nameWithType: AdditionalInfoItem.Hidden
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: APIKey
+  nameWithType: AdditionalInfoItem.APIKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: UseColor
+  nameWithType: AdditionalInfoItem.UseColor
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  commentId: M:TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  name: Update(AdditionalInfoItem)
+  nameWithType: AdditionalInfoItem.Update(AdditionalInfoItem)
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+    name: Update
+    nameWithType: AdditionalInfoItem.Update
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    name: AdditionalInfoItem
+    nameWithType: AdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+    name: Update
+    nameWithType: AdditionalInfoItem.Update
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    name: AdditionalInfoItem
+    nameWithType: AdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

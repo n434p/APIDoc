@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.QuoteHandler
+  commentId: T:TradingPlatform.BusinessLayer.QuoteHandler
+  id: QuoteHandler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: QuoteHandler
+  nameWithType: QuoteHandler
+  fullName: TradingPlatform.BusinessLayer.QuoteHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: QuoteHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1270
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void QuoteHandler(Instrument instrument, Quote quote);
+    parameters:
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: quote
+      type: TradingPlatform.BusinessLayer.Quote
+    content.vb: Public Delegate Sub QuoteHandler(instrument As Instrument, quote As Quote)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Quote
+  commentId: T:TradingPlatform.BusinessLayer.Quote
+  parent: TradingPlatform.BusinessLayer
+  name: Quote
+  nameWithType: Quote
+  fullName: TradingPlatform.BusinessLayer.Quote

@@ -1,0 +1,597 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentGroup
+  id: InstrumentGroup
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.InstrumentGroup.GroupName
+  - TradingPlatform.BusinessLayer.InstrumentGroup.Id
+  - TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex
+  langs:
+  - csharp
+  - vb
+  name: InstrumentGroup
+  nameWithType: InstrumentGroup
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    id: InstrumentGroup
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "InstrumentGroup", Namespace = "TradingPlatform")]
+
+      public class InstrumentGroup : BusinessObject, IConnectionBindedObject, IUniqueID
+    content.vb: >-
+      <DataContract(Name:="InstrumentGroup", Namespace:="TradingPlatform")>
+
+      Public Class InstrumentGroup
+          Inherits BusinessObject
+          Implements IConnectionBindedObject, IUniqueID
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentGroup
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup.Id
+  commentId: P:TradingPlatform.BusinessLayer.InstrumentGroup.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.InstrumentGroup
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: InstrumentGroup.Id
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "GroupId")]
+
+      public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="GroupId")>
+
+      Public ReadOnly Property Id As String
+  overload: TradingPlatform.BusinessLayer.InstrumentGroup.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: GroupId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup.GroupName
+  commentId: P:TradingPlatform.BusinessLayer.InstrumentGroup.GroupName
+  id: GroupName
+  parent: TradingPlatform.BusinessLayer.InstrumentGroup
+  langs:
+  - csharp
+  - vb
+  name: GroupName
+  nameWithType: InstrumentGroup.GroupName
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup.GroupName
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    id: GroupName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "GroupName")]
+
+      public string GroupName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="GroupName")>
+
+      Public ReadOnly Property GroupName As String
+  overload: TradingPlatform.BusinessLayer.InstrumentGroup.GroupName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: GroupName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex
+  commentId: P:TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex
+  id: SortIndex
+  parent: TradingPlatform.BusinessLayer.InstrumentGroup
+  langs:
+  - csharp
+  - vb
+  name: SortIndex
+  nameWithType: InstrumentGroup.SortIndex
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    id: SortIndex
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/InstrumentGroup.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "SortIndex")]
+
+      public int SortIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember(Name:="SortIndex")>
+
+      Public ReadOnly Property SortIndex As Integer
+  overload: TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: SortIndex
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentGroup.Id
+  name: Id
+  nameWithType: InstrumentGroup.Id
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup.GroupName*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentGroup.GroupName
+  name: GroupName
+  nameWithType: InstrumentGroup.GroupName
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup.GroupName
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex
+  name: SortIndex
+  nameWithType: InstrumentGroup.SortIndex
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup.SortIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,1303 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemInstrument
+  id: SettingItemInstrument
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor(System.String,TradingPlatform.BusinessLayer.Instrument,System.Int32)
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid(System.Object)
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.op_Implicit(TradingPlatform.BusinessLayer.SettingItemInstrument)~TradingPlatform.BusinessLayer.Instrument
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.Type
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement
+  langs:
+  - csharp
+  - vb
+  name: SettingItemInstrument
+  nameWithType: SettingItemInstrument
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: SettingItemInstrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nTypecasts setting as InstrumentLookup item\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [DataContract]
+
+      public sealed class SettingItemInstrument : SettingItem, IComparable<SettingItem>, IXElementSerialization
+    content.vb: >-
+      <Serializable>
+
+      <DataContract>
+
+      Public NotInheritable Class SettingItemInstrument
+          Inherits SettingItem
+          Implements IComparable(Of SettingItem), IXElementSerialization
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.SettingItem
+  implements:
+  - System.IComparable{TradingPlatform.BusinessLayer.SettingItem}
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.SettingItem.Name
+  - TradingPlatform.BusinessLayer.SettingItem.Text
+  - TradingPlatform.BusinessLayer.SettingItem.text
+  - TradingPlatform.BusinessLayer.SettingItem.Value
+  - TradingPlatform.BusinessLayer.SettingItem.value
+  - TradingPlatform.BusinessLayer.SettingItem.SortIndex
+  - TradingPlatform.BusinessLayer.SettingItem.VisibilityMode
+  - TradingPlatform.BusinessLayer.SettingItem.Description
+  - TradingPlatform.BusinessLayer.SettingItem.Group
+  - TradingPlatform.BusinessLayer.SettingItem.SeparatorGroup
+  - TradingPlatform.BusinessLayer.SettingItem.VisualGroup
+  - TradingPlatform.BusinessLayer.SettingItem.Enabled
+  - TradingPlatform.BusinessLayer.SettingItem.Visible
+  - TradingPlatform.BusinessLayer.SettingItem.EnabilityChanged
+  - TradingPlatform.BusinessLayer.SettingItem.VisibilityChanged
+  - TradingPlatform.BusinessLayer.SettingItem.Updated
+  - TradingPlatform.BusinessLayer.SettingItem.Relation
+  - TradingPlatform.BusinessLayer.SettingItem.Update
+  - TradingPlatform.BusinessLayer.SettingItem.ValidateValue(System.Object)
+  - TradingPlatform.BusinessLayer.SettingItem.CompareTo(TradingPlatform.BusinessLayer.SettingItem)
+  - TradingPlatform.BusinessLayer.SettingItem.ToString
+  - TradingPlatform.BusinessLayer.SettingItem.ToXElement
+  - TradingPlatform.BusinessLayer.SettingItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.Type
+  commentId: P:TradingPlatform.BusinessLayer.SettingItemInstrument.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SettingItemInstrument.Type
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override SettingItemType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+    content.vb: Public Overrides ReadOnly Property Type As SettingItemType
+  overridden: TradingPlatform.BusinessLayer.SettingItem.Type
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor(System.String,TradingPlatform.BusinessLayer.Instrument,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor(System.String,TradingPlatform.BusinessLayer.Instrument,System.Int32)
+  id: '#ctor(System.String,TradingPlatform.BusinessLayer.Instrument,System.Int32)'
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: SettingItemInstrument(String, Instrument, Int32)
+  nameWithType: SettingItemInstrument.SettingItemInstrument(String, Instrument, Int32)
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.SettingItemInstrument(System.String, TradingPlatform.BusinessLayer.Instrument, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SettingItemInstrument(string name, Instrument value = null, int sortIndex = 0)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: sortIndex
+      type: System.Int32
+    content.vb: Public Sub New(name As String, value As Instrument = Nothing, sortIndex As Integer = 0)
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: SettingItemInstrument()
+  nameWithType: SettingItemInstrument.SettingItemInstrument()
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.SettingItemInstrument()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SettingItemInstrument()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.op_Implicit(TradingPlatform.BusinessLayer.SettingItemInstrument)~TradingPlatform.BusinessLayer.Instrument
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.op_Implicit(TradingPlatform.BusinessLayer.SettingItemInstrument)~TradingPlatform.BusinessLayer.Instrument
+  id: op_Implicit(TradingPlatform.BusinessLayer.SettingItemInstrument)~TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SettingItemInstrument to Instrument)
+  nameWithType: SettingItemInstrument.Implicit(SettingItemInstrument to Instrument)
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.Implicit(TradingPlatform.BusinessLayer.SettingItemInstrument to TradingPlatform.BusinessLayer.Instrument)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: op_Implicit
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static implicit operator Instrument(SettingItemInstrument item)
+    parameters:
+    - id: item
+      type: TradingPlatform.BusinessLayer.SettingItemInstrument
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public Shared Widening Operator CType(item As SettingItemInstrument) As Instrument
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.op_Implicit*
+  nameWithType.vb: SettingItemInstrument.Widening(SettingItemInstrument to Instrument)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.SettingItemInstrument.Widening(TradingPlatform.BusinessLayer.SettingItemInstrument to TradingPlatform.BusinessLayer.Instrument)
+  name.vb: Widening(SettingItemInstrument to Instrument)
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy
+  id: GetCopy
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: GetCopy()
+  nameWithType: SettingItemInstrument.GetCopy()
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: GetCopy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override SettingItem GetCopy()
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItem
+    content.vb: Public Overrides Function GetCopy As SettingItem
+  overridden: TradingPlatform.BusinessLayer.SettingItem.GetCopy
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid(System.Object)
+  id: IsValueTypeValid(System.Object)
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: IsValueTypeValid(Object)
+  nameWithType: SettingItemInstrument.IsValueTypeValid(Object)
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: IsValueTypeValid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override bool IsValueTypeValid(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function IsValueTypeValid(value As Object) As Boolean
+  overridden: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid(System.Object)
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: ValueFromXElement(XElement, DeserializationInfo)
+  nameWithType: SettingItemInstrument.ValueFromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: ValueFromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override void ValueFromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Protected Overrides Sub ValueFromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overridden: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement
+  id: ValueToXElement
+  parent: TradingPlatform.BusinessLayer.SettingItemInstrument
+  langs:
+  - csharp
+  - vb
+  name: ValueToXElement()
+  nameWithType: SettingItemInstrument.ValueToXElement()
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    id: ValueToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/SettingItemInstrument.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override XElement ValueToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Protected Overrides Function ValueToXElement As XElement
+  overridden: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+  overload: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.SettingItem
+  commentId: T:TradingPlatform.BusinessLayer.SettingItem
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItem
+  nameWithType: SettingItem
+  fullName: TradingPlatform.BusinessLayer.SettingItem
+- uid: System.IComparable{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.IComparable{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System
+  definition: System.IComparable`1
+  name: IComparable<SettingItem>
+  nameWithType: IComparable<SettingItem>
+  fullName: System.IComparable<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IComparable(Of SettingItem)
+  fullName.vb: System.IComparable(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IComparable(Of SettingItem)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: TradingPlatform.BusinessLayer.SettingItem.Name
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Name
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Name
+  nameWithType: SettingItem.Name
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Name
+- uid: TradingPlatform.BusinessLayer.SettingItem.Text
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Text
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Text
+  nameWithType: SettingItem.Text
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Text
+- uid: TradingPlatform.BusinessLayer.SettingItem.text
+  commentId: F:TradingPlatform.BusinessLayer.SettingItem.text
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: text
+  nameWithType: SettingItem.text
+  fullName: TradingPlatform.BusinessLayer.SettingItem.text
+- uid: TradingPlatform.BusinessLayer.SettingItem.Value
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Value
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Value
+  nameWithType: SettingItem.Value
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Value
+- uid: TradingPlatform.BusinessLayer.SettingItem.value
+  commentId: F:TradingPlatform.BusinessLayer.SettingItem.value
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: value
+  nameWithType: SettingItem.value
+  fullName: TradingPlatform.BusinessLayer.SettingItem.value
+- uid: TradingPlatform.BusinessLayer.SettingItem.SortIndex
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.SortIndex
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: SortIndex
+  nameWithType: SettingItem.SortIndex
+  fullName: TradingPlatform.BusinessLayer.SettingItem.SortIndex
+- uid: TradingPlatform.BusinessLayer.SettingItem.VisibilityMode
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.VisibilityMode
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: VisibilityMode
+  nameWithType: SettingItem.VisibilityMode
+  fullName: TradingPlatform.BusinessLayer.SettingItem.VisibilityMode
+- uid: TradingPlatform.BusinessLayer.SettingItem.Description
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Description
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Description
+  nameWithType: SettingItem.Description
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Description
+- uid: TradingPlatform.BusinessLayer.SettingItem.Group
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Group
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Group
+  nameWithType: SettingItem.Group
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Group
+- uid: TradingPlatform.BusinessLayer.SettingItem.SeparatorGroup
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.SeparatorGroup
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: SeparatorGroup
+  nameWithType: SettingItem.SeparatorGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItem.SeparatorGroup
+- uid: TradingPlatform.BusinessLayer.SettingItem.VisualGroup
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.VisualGroup
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: VisualGroup
+  nameWithType: SettingItem.VisualGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItem.VisualGroup
+- uid: TradingPlatform.BusinessLayer.SettingItem.Enabled
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Enabled
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Enabled
+  nameWithType: SettingItem.Enabled
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Enabled
+- uid: TradingPlatform.BusinessLayer.SettingItem.Visible
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Visible
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Visible
+  nameWithType: SettingItem.Visible
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Visible
+- uid: TradingPlatform.BusinessLayer.SettingItem.EnabilityChanged
+  commentId: E:TradingPlatform.BusinessLayer.SettingItem.EnabilityChanged
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: EnabilityChanged
+  nameWithType: SettingItem.EnabilityChanged
+  fullName: TradingPlatform.BusinessLayer.SettingItem.EnabilityChanged
+- uid: TradingPlatform.BusinessLayer.SettingItem.VisibilityChanged
+  commentId: E:TradingPlatform.BusinessLayer.SettingItem.VisibilityChanged
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: VisibilityChanged
+  nameWithType: SettingItem.VisibilityChanged
+  fullName: TradingPlatform.BusinessLayer.SettingItem.VisibilityChanged
+- uid: TradingPlatform.BusinessLayer.SettingItem.Updated
+  commentId: E:TradingPlatform.BusinessLayer.SettingItem.Updated
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Updated
+  nameWithType: SettingItem.Updated
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Updated
+- uid: TradingPlatform.BusinessLayer.SettingItem.Relation
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Relation
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Relation
+  nameWithType: SettingItem.Relation
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Relation
+- uid: TradingPlatform.BusinessLayer.SettingItem.Update
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.Update
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Update()
+  nameWithType: SettingItem.Update()
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Update()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.Update
+    name: Update
+    nameWithType: SettingItem.Update
+    fullName: TradingPlatform.BusinessLayer.SettingItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.Update
+    name: Update
+    nameWithType: SettingItem.Update
+    fullName: TradingPlatform.BusinessLayer.SettingItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItem.ValidateValue(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.ValidateValue(System.Object)
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  isExternal: true
+  name: ValidateValue(Object)
+  nameWithType: SettingItem.ValidateValue(Object)
+  fullName: TradingPlatform.BusinessLayer.SettingItem.ValidateValue(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ValidateValue(System.Object)
+    name: ValidateValue
+    nameWithType: SettingItem.ValidateValue
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ValidateValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ValidateValue(System.Object)
+    name: ValidateValue
+    nameWithType: SettingItem.ValidateValue
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ValidateValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItem.CompareTo(TradingPlatform.BusinessLayer.SettingItem)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.CompareTo(TradingPlatform.BusinessLayer.SettingItem)
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: CompareTo(SettingItem)
+  nameWithType: SettingItem.CompareTo(SettingItem)
+  fullName: TradingPlatform.BusinessLayer.SettingItem.CompareTo(TradingPlatform.BusinessLayer.SettingItem)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.CompareTo(TradingPlatform.BusinessLayer.SettingItem)
+    name: CompareTo
+    nameWithType: SettingItem.CompareTo
+    fullName: TradingPlatform.BusinessLayer.SettingItem.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.CompareTo(TradingPlatform.BusinessLayer.SettingItem)
+    name: CompareTo
+    nameWithType: SettingItem.CompareTo
+    fullName: TradingPlatform.BusinessLayer.SettingItem.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItem.ToString
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.ToString
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: ToString()
+  nameWithType: SettingItem.ToString()
+  fullName: TradingPlatform.BusinessLayer.SettingItem.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ToString
+    name: ToString
+    nameWithType: SettingItem.ToString
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ToString
+    name: ToString
+    nameWithType: SettingItem.ToString
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItem.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.ToXElement
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: ToXElement()
+  nameWithType: SettingItem.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.SettingItem.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ToXElement
+    name: ToXElement
+    nameWithType: SettingItem.ToXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ToXElement
+    name: ToXElement
+    nameWithType: SettingItem.ToXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: SettingItem.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.SettingItem.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: SettingItem.FromXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: SettingItem.FromXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.SettingItem.Type
+  commentId: P:TradingPlatform.BusinessLayer.SettingItem.Type
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: Type
+  nameWithType: SettingItem.Type
+  fullName: TradingPlatform.BusinessLayer.SettingItem.Type
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.Type
+  name: Type
+  nameWithType: SettingItemInstrument.Type
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.Type
+- uid: TradingPlatform.BusinessLayer.SettingItemType
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemType
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemType
+  nameWithType: SettingItemType
+  fullName: TradingPlatform.BusinessLayer.SettingItemType
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.#ctor
+  name: SettingItemInstrument
+  nameWithType: SettingItemInstrument.SettingItemInstrument
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.SettingItemInstrument
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.op_Implicit*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.op_Implicit
+  name: Implicit
+  nameWithType: SettingItemInstrument.Implicit
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.Implicit
+  nameWithType.vb: SettingItemInstrument.Widening
+  fullName.vb: TradingPlatform.BusinessLayer.SettingItemInstrument.Widening
+  name.vb: Widening
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemInstrument
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemInstrument
+  nameWithType: SettingItemInstrument
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument
+- uid: TradingPlatform.BusinessLayer.SettingItem.GetCopy
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.GetCopy
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: GetCopy()
+  nameWithType: SettingItem.GetCopy()
+  fullName: TradingPlatform.BusinessLayer.SettingItem.GetCopy()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.GetCopy
+    name: GetCopy
+    nameWithType: SettingItem.GetCopy
+    fullName: TradingPlatform.BusinessLayer.SettingItem.GetCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.GetCopy
+    name: GetCopy
+    nameWithType: SettingItem.GetCopy
+    fullName: TradingPlatform.BusinessLayer.SettingItem.GetCopy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy
+  name: GetCopy
+  nameWithType: SettingItemInstrument.GetCopy
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.GetCopy
+- uid: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid(System.Object)
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  isExternal: true
+  name: IsValueTypeValid(Object)
+  nameWithType: SettingItem.IsValueTypeValid(Object)
+  fullName: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid(System.Object)
+    name: IsValueTypeValid
+    nameWithType: SettingItem.IsValueTypeValid
+    fullName: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid(System.Object)
+    name: IsValueTypeValid
+    nameWithType: SettingItem.IsValueTypeValid
+    fullName: TradingPlatform.BusinessLayer.SettingItem.IsValueTypeValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid
+  name: IsValueTypeValid
+  nameWithType: SettingItemInstrument.IsValueTypeValid
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.IsValueTypeValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  isExternal: true
+  name: ValueFromXElement(XElement, DeserializationInfo)
+  nameWithType: SettingItem.ValueFromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: ValueFromXElement
+    nameWithType: SettingItem.ValueFromXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: ValueFromXElement
+    nameWithType: SettingItem.ValueFromXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ValueFromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement
+  name: ValueFromXElement
+  nameWithType: SettingItemInstrument.ValueFromXElement
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueFromXElement
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+  commentId: M:TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+  parent: TradingPlatform.BusinessLayer.SettingItem
+  name: ValueToXElement()
+  nameWithType: SettingItem.ValueToXElement()
+  fullName: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+    name: ValueToXElement
+    nameWithType: SettingItem.ValueToXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+    name: ValueToXElement
+    nameWithType: SettingItem.ValueToXElement
+    fullName: TradingPlatform.BusinessLayer.SettingItem.ValueToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement
+  name: ValueToXElement
+  nameWithType: SettingItemInstrument.ValueToXElement
+  fullName: TradingPlatform.BusinessLayer.SettingItemInstrument.ValueToXElement

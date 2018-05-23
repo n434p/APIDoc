@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.DayBarHandler
+  commentId: T:TradingPlatform.BusinessLayer.DayBarHandler
+  id: DayBarHandler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DayBarHandler
+  nameWithType: DayBarHandler
+  fullName: TradingPlatform.BusinessLayer.DayBarHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: DayBarHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1273
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void DayBarHandler(Instrument instrument, DayBar dayBar);
+    parameters:
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: dayBar
+      type: TradingPlatform.BusinessLayer.DayBar
+    content.vb: Public Delegate Sub DayBarHandler(instrument As Instrument, dayBar As DayBar)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.DayBar
+  commentId: T:TradingPlatform.BusinessLayer.DayBar
+  parent: TradingPlatform.BusinessLayer
+  name: DayBar
+  nameWithType: DayBar
+  fullName: TradingPlatform.BusinessLayer.DayBar

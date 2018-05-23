@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.PaintChartEventArgs
+  id: PaintChartEventArgs
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.PaintChartEventArgs.#ctor(System.IntPtr,System.Drawing.Rectangle,System.Drawing.Point)
+  - TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground
+  - TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc
+  - TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition
+  - TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: PaintChartEventArgs
+  nameWithType: PaintChartEventArgs
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    id: PaintChartEventArgs
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class PaintChartEventArgs
+    content.vb: Public Class PaintChartEventArgs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc
+  commentId: P:TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc
+  id: Hdc
+  parent: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Hdc
+  nameWithType: PaintChartEventArgs.Hdc
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    id: Hdc
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IntPtr Hdc { get; set; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public Property Hdc As IntPtr
+  overload: TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground
+  commentId: P:TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground
+  id: DrawBackground
+  parent: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DrawBackground
+  nameWithType: PaintChartEventArgs.DrawBackground
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    id: DrawBackground
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool DrawBackground { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DrawBackground As Boolean
+  overload: TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle
+  commentId: P:TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle
+  id: Rectangle
+  parent: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: PaintChartEventArgs.Rectangle
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    id: Rectangle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Rectangle Rectangle { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Rectangle
+    content.vb: Public Property Rectangle As Rectangle
+  overload: TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition
+  commentId: P:TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition
+  id: MousePosition
+  parent: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  langs:
+  - csharp
+  - vb
+  name: MousePosition
+  nameWithType: PaintChartEventArgs.MousePosition
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    id: MousePosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Point MousePosition { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Point
+    content.vb: Public Property MousePosition As Point
+  overload: TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.#ctor(System.IntPtr,System.Drawing.Rectangle,System.Drawing.Point)
+  commentId: M:TradingPlatform.BusinessLayer.PaintChartEventArgs.#ctor(System.IntPtr,System.Drawing.Rectangle,System.Drawing.Point)
+  id: '#ctor(System.IntPtr,System.Drawing.Rectangle,System.Drawing.Point)'
+  parent: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  langs:
+  - csharp
+  - vb
+  name: PaintChartEventArgs(IntPtr, Rectangle, Point)
+  nameWithType: PaintChartEventArgs.PaintChartEventArgs(IntPtr, Rectangle, Point)
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.PaintChartEventArgs(System.IntPtr, System.Drawing.Rectangle, System.Drawing.Point)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/PaintChartEventArgs.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public PaintChartEventArgs(IntPtr hdc, Rectangle rectangle, Point mousePosition)
+    parameters:
+    - id: hdc
+      type: System.IntPtr
+    - id: rectangle
+      type: System.Drawing.Rectangle
+    - id: mousePosition
+      type: System.Drawing.Point
+    content.vb: Public Sub New(hdc As IntPtr, rectangle As Rectangle, mousePosition As Point)
+  overload: TradingPlatform.BusinessLayer.PaintChartEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc*
+  commentId: Overload:TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc
+  name: Hdc
+  nameWithType: PaintChartEventArgs.Hdc
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.Hdc
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground*
+  commentId: Overload:TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground
+  name: DrawBackground
+  nameWithType: PaintChartEventArgs.DrawBackground
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.DrawBackground
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle*
+  commentId: Overload:TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle
+  name: Rectangle
+  nameWithType: PaintChartEventArgs.Rectangle
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.Rectangle
+- uid: System.Drawing.Rectangle
+  commentId: T:System.Drawing.Rectangle
+  parent: System.Drawing
+  isExternal: true
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: System.Drawing.Rectangle
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition*
+  commentId: Overload:TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition
+  name: MousePosition
+  nameWithType: PaintChartEventArgs.MousePosition
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.MousePosition
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.PaintChartEventArgs.#ctor
+  name: PaintChartEventArgs
+  nameWithType: PaintChartEventArgs.PaintChartEventArgs
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs.PaintChartEventArgs

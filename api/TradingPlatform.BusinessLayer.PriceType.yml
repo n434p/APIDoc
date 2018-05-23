@@ -1,0 +1,646 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  id: PriceType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.PriceType.AggressorFlag
+  - TradingPlatform.BusinessLayer.PriceType.Ask
+  - TradingPlatform.BusinessLayer.PriceType.AskSize
+  - TradingPlatform.BusinessLayer.PriceType.Bid
+  - TradingPlatform.BusinessLayer.PriceType.BidSize
+  - TradingPlatform.BusinessLayer.PriceType.Close
+  - TradingPlatform.BusinessLayer.PriceType.High
+  - TradingPlatform.BusinessLayer.PriceType.Last
+  - TradingPlatform.BusinessLayer.PriceType.Low
+  - TradingPlatform.BusinessLayer.PriceType.Median
+  - TradingPlatform.BusinessLayer.PriceType.Open
+  - TradingPlatform.BusinessLayer.PriceType.Ticks
+  - TradingPlatform.BusinessLayer.PriceType.TicksLeft
+  - TradingPlatform.BusinessLayer.PriceType.TicksRight
+  - TradingPlatform.BusinessLayer.PriceType.Typical
+  - TradingPlatform.BusinessLayer.PriceType.Volume
+  - TradingPlatform.BusinessLayer.PriceType.Weighted
+  langs:
+  - csharp
+  - vb
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: PriceType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum PriceType
+    content.vb: Public Enum PriceType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.PriceType.Open
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Open
+  id: Open
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: PriceType.Open
+  fullName: TradingPlatform.BusinessLayer.PriceType.Open
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Open
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Open = 0
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.High
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.High
+  id: High
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: PriceType.High
+  fullName: TradingPlatform.BusinessLayer.PriceType.High
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: High
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: High = 1
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Low
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Low
+  id: Low
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: PriceType.Low
+  fullName: TradingPlatform.BusinessLayer.PriceType.Low
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Low
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Low = 2
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Close
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Close
+  id: Close
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: PriceType.Close
+  fullName: TradingPlatform.BusinessLayer.PriceType.Close
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Close
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Close = 3
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Median
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Median
+  id: Median
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Median
+  nameWithType: PriceType.Median
+  fullName: TradingPlatform.BusinessLayer.PriceType.Median
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Median
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Median = 4
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Typical
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Typical
+  id: Typical
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Typical
+  nameWithType: PriceType.Typical
+  fullName: TradingPlatform.BusinessLayer.PriceType.Typical
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Typical
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 43
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Typical = 5
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Weighted
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Weighted
+  id: Weighted
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Weighted
+  nameWithType: PriceType.Weighted
+  fullName: TradingPlatform.BusinessLayer.PriceType.Weighted
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Weighted
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Weighted = 6
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Bid
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Bid
+  id: Bid
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: PriceType.Bid
+  fullName: TradingPlatform.BusinessLayer.PriceType.Bid
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Bid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Bid = 7
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.BidSize
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.BidSize
+  id: BidSize
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: BidSize
+  nameWithType: PriceType.BidSize
+  fullName: TradingPlatform.BusinessLayer.PriceType.BidSize
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: BidSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BidSize = 8
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Ask
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Ask
+  id: Ask
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: PriceType.Ask
+  fullName: TradingPlatform.BusinessLayer.PriceType.Ask
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Ask
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 48
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Ask = 9
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.AskSize
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.AskSize
+  id: AskSize
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: AskSize
+  nameWithType: PriceType.AskSize
+  fullName: TradingPlatform.BusinessLayer.PriceType.AskSize
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: AskSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AskSize = 10
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Last
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: PriceType.Last
+  fullName: TradingPlatform.BusinessLayer.PriceType.Last
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Last = 11
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Volume
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Volume
+  id: Volume
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: PriceType.Volume
+  fullName: TradingPlatform.BusinessLayer.PriceType.Volume
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Volume
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Volume = 12
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.Ticks
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.Ticks
+  id: Ticks
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: Ticks
+  nameWithType: PriceType.Ticks
+  fullName: TradingPlatform.BusinessLayer.PriceType.Ticks
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Ticks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Ticks = 13
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.AggressorFlag
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.AggressorFlag
+  id: AggressorFlag
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: AggressorFlag
+  nameWithType: PriceType.AggressorFlag
+  fullName: TradingPlatform.BusinessLayer.PriceType.AggressorFlag
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: AggressorFlag
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AggressorFlag = 14
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.TicksLeft
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.TicksLeft
+  id: TicksLeft
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: TicksLeft
+  nameWithType: PriceType.TicksLeft
+  fullName: TradingPlatform.BusinessLayer.PriceType.TicksLeft
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: TicksLeft
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 57
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: TicksLeft = 15
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.PriceType.TicksRight
+  commentId: F:TradingPlatform.BusinessLayer.PriceType.TicksRight
+  id: TicksRight
+  parent: TradingPlatform.BusinessLayer.PriceType
+  langs:
+  - csharp
+  - vb
+  name: TicksRight
+  nameWithType: PriceType.TicksRight
+  fullName: TradingPlatform.BusinessLayer.PriceType.TicksRight
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: TicksRight
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 58
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: TicksRight = 16
+    return:
+      type: TradingPlatform.BusinessLayer.PriceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  parent: TradingPlatform.BusinessLayer
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType

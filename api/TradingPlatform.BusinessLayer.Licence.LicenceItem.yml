@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  commentId: T:TradingPlatform.BusinessLayer.Licence.LicenceItem
+  id: LicenceItem
+  parent: TradingPlatform.BusinessLayer.Licence
+  children:
+  - TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate
+  - TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey
+  - TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate
+  - TradingPlatform.BusinessLayer.Licence.LicenceItem.Value
+  langs:
+  - csharp
+  - vb
+  name: LicenceItem
+  nameWithType: LicenceItem
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    id: LicenceItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    startLine: 5
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: >-
+      [DataContract]
+
+      public class LicenceItem
+    content.vb: >-
+      <DataContract>
+
+      Public Class LicenceItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey
+  id: LicenceKey
+  parent: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  langs:
+  - csharp
+  - vb
+  name: LicenceKey
+  nameWithType: LicenceItem.LicenceKey
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    id: LicenceKey
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: >-
+      [DataMember(Name = "LicenceKey")]
+
+      public string LicenceKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="LicenceKey")>
+
+      Public ReadOnly Property LicenceKey As String
+  overload: TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: LicenceKey
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.Value
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicenceItem.Value
+  id: Value
+  parent: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: LicenceItem.Value
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.Value
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    id: Value
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: >-
+      [DataMember(Name = "Value")]
+
+      public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Value")>
+
+      Public ReadOnly Property Value As String
+  overload: TradingPlatform.BusinessLayer.Licence.LicenceItem.Value*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Value
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate
+  id: StartDate
+  parent: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: LicenceItem.StartDate
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    id: StartDate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public DateTime StartDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property StartDate As Date
+  overload: TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate
+  id: EndDate
+  parent: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: LicenceItem.EndDate
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    id: EndDate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicenceItem.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public DateTime EndDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property EndDate As Date
+  overload: TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer.Licence
+  commentId: N:TradingPlatform.BusinessLayer.Licence
+  name: TradingPlatform.BusinessLayer.Licence
+  nameWithType: TradingPlatform.BusinessLayer.Licence
+  fullName: TradingPlatform.BusinessLayer.Licence
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey
+  name: LicenceKey
+  nameWithType: LicenceItem.LicenceKey
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.LicenceKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.Value*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicenceItem.Value
+  name: Value
+  nameWithType: LicenceItem.Value
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.Value
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate
+  name: StartDate
+  nameWithType: LicenceItem.StartDate
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.StartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate
+  name: EndDate
+  nameWithType: LicenceItem.EndDate
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem.EndDate

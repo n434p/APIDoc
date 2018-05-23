@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeSync
+  commentId: N:TradingPlatform.BusinessLayer.TimeSync
+  id: TradingPlatform.BusinessLayer.TimeSync
+  children:
+  - TradingPlatform.BusinessLayer.TimeSync._Mode
+  - TradingPlatform.BusinessLayer.TimeSync._Stratum
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.TimeSync
+  nameWithType: TradingPlatform.BusinessLayer.TimeSync
+  fullName: TradingPlatform.BusinessLayer.TimeSync
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Mode
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  name: _Mode
+  nameWithType: _Mode
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Stratum
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  name: _Stratum
+  nameWithType: _Stratum
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  name: NTPClient
+  nameWithType: NTPClient
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+- uid: TradingPlatform.BusinessLayer.TimeSync
+  commentId: N:TradingPlatform.BusinessLayer.TimeSync
+  name: TradingPlatform.BusinessLayer.TimeSync
+  nameWithType: TradingPlatform.BusinessLayer.TimeSync
+  fullName: TradingPlatform.BusinessLayer.TimeSync

@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ILoggable
+  commentId: T:TradingPlatform.BusinessLayer.ILoggable
+  id: ILoggable
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ILoggable.Event
+  - TradingPlatform.BusinessLayer.ILoggable.Message
+  langs:
+  - csharp
+  - vb
+  name: ILoggable
+  nameWithType: ILoggable
+  fullName: TradingPlatform.BusinessLayer.ILoggable
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/ILoggable.cs
+    id: ILoggable
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/ILoggable.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface ILoggable
+    content.vb: Public Interface ILoggable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.ILoggable.Event
+  commentId: P:TradingPlatform.BusinessLayer.ILoggable.Event
+  id: Event
+  parent: TradingPlatform.BusinessLayer.ILoggable
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: ILoggable.Event
+  fullName: TradingPlatform.BusinessLayer.ILoggable.Event
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/ILoggable.cs
+    id: Event
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/ILoggable.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string Event { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Event As String
+  overload: TradingPlatform.BusinessLayer.ILoggable.Event*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ILoggable.Message
+  commentId: P:TradingPlatform.BusinessLayer.ILoggable.Message
+  id: Message
+  parent: TradingPlatform.BusinessLayer.ILoggable
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ILoggable.Message
+  fullName: TradingPlatform.BusinessLayer.ILoggable.Message
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/ILoggable.cs
+    id: Message
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/ILoggable.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Message As String
+  overload: TradingPlatform.BusinessLayer.ILoggable.Message*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.ILoggable.Event*
+  commentId: Overload:TradingPlatform.BusinessLayer.ILoggable.Event
+  name: Event
+  nameWithType: ILoggable.Event
+  fullName: TradingPlatform.BusinessLayer.ILoggable.Event
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.ILoggable.Message*
+  commentId: Overload:TradingPlatform.BusinessLayer.ILoggable.Message
+  name: Message
+  nameWithType: ILoggable.Message
+  fullName: TradingPlatform.BusinessLayer.ILoggable.Message

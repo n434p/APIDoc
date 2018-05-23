@@ -1,0 +1,565 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IndicatorManager
+  commentId: T:TradingPlatform.BusinessLayer.IndicatorManager
+  id: IndicatorManager
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator(System.String)
+  - TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators
+  - TradingPlatform.BusinessLayer.IndicatorManager.Indicators
+  langs:
+  - csharp
+  - vb
+  name: IndicatorManager
+  nameWithType: IndicatorManager
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    id: IndicatorManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public sealed class IndicatorManager
+    content.vb: Public NotInheritable Class IndicatorManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators
+  commentId: P:TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators
+  id: DefaultIndicators
+  parent: TradingPlatform.BusinessLayer.IndicatorManager
+  langs:
+  - csharp
+  - vb
+  name: DefaultIndicators
+  nameWithType: IndicatorManager.DefaultIndicators
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    id: DefaultIndicators
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DefaultIndicators DefaultIndicators { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.DefaultIndicators
+    content.vb: Public ReadOnly Property DefaultIndicators As DefaultIndicators
+  overload: TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.IndicatorManager.Indicators
+  commentId: P:TradingPlatform.BusinessLayer.IndicatorManager.Indicators
+  id: Indicators
+  parent: TradingPlatform.BusinessLayer.IndicatorManager
+  langs:
+  - csharp
+  - vb
+  name: Indicators
+  nameWithType: IndicatorManager.Indicators
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager.Indicators
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    id: Indicators
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public List<IndicatorInfo> Indicators { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.IndicatorInfo}
+    content.vb: Public ReadOnly Property Indicators As List(Of IndicatorInfo)
+  overload: TradingPlatform.BusinessLayer.IndicatorManager.Indicators*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator(System.String)
+  id: CreateIndicator(System.String)
+  parent: TradingPlatform.BusinessLayer.IndicatorManager
+  langs:
+  - csharp
+  - vb
+  name: CreateIndicator(String)
+  nameWithType: IndicatorManager.CreateIndicator(String)
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    id: CreateIndicator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IndicatorManager.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Indicator CreateIndicator(string indicatorName)
+    parameters:
+    - id: indicatorName
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.Indicator
+    content.vb: Public Function CreateIndicator(indicatorName As String) As Indicator
+  overload: TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators*
+  commentId: Overload:TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators
+  name: DefaultIndicators
+  nameWithType: IndicatorManager.DefaultIndicators
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager.DefaultIndicators
+- uid: TradingPlatform.BusinessLayer.DefaultIndicators
+  commentId: T:TradingPlatform.BusinessLayer.DefaultIndicators
+  parent: TradingPlatform.BusinessLayer
+  name: DefaultIndicators
+  nameWithType: DefaultIndicators
+  fullName: TradingPlatform.BusinessLayer.DefaultIndicators
+- uid: TradingPlatform.BusinessLayer.IndicatorManager.Indicators*
+  commentId: Overload:TradingPlatform.BusinessLayer.IndicatorManager.Indicators
+  name: Indicators
+  nameWithType: IndicatorManager.Indicators
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager.Indicators
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.IndicatorInfo}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.IndicatorInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IndicatorInfo>
+  nameWithType: List<IndicatorInfo>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.IndicatorInfo>
+  nameWithType.vb: List(Of IndicatorInfo)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.IndicatorInfo)
+  name.vb: List(Of IndicatorInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IndicatorInfo
+    name: IndicatorInfo
+    nameWithType: IndicatorInfo
+    fullName: TradingPlatform.BusinessLayer.IndicatorInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IndicatorInfo
+    name: IndicatorInfo
+    nameWithType: IndicatorInfo
+    fullName: TradingPlatform.BusinessLayer.IndicatorInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator*
+  commentId: Overload:TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator
+  name: CreateIndicator
+  nameWithType: IndicatorManager.CreateIndicator
+  fullName: TradingPlatform.BusinessLayer.IndicatorManager.CreateIndicator
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Indicator
+  commentId: T:TradingPlatform.BusinessLayer.Indicator
+  parent: TradingPlatform.BusinessLayer
+  name: Indicator
+  nameWithType: Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator

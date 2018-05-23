@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: AggregatorHeikenAshi
+  commentId: N:AggregatorHeikenAshi
+  id: AggregatorHeikenAshi
+  children:
+  - AggregatorHeikenAshi.HistoryProcessorHeikenAshi
+  langs:
+  - csharp
+  - vb
+  name: AggregatorHeikenAshi
+  nameWithType: AggregatorHeikenAshi
+  fullName: AggregatorHeikenAshi
+  type: Namespace
+  assemblies:
+  - HistoryProcessorHeikenAshi
+references:
+- uid: AggregatorHeikenAshi.HistoryProcessorHeikenAshi
+  commentId: T:AggregatorHeikenAshi.HistoryProcessorHeikenAshi
+  name: HistoryProcessorHeikenAshi
+  nameWithType: HistoryProcessorHeikenAshi
+  fullName: AggregatorHeikenAshi.HistoryProcessorHeikenAshi

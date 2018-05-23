@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TradingOperations
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperations
+  id: TradingOperations
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters})
+  - TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,TradingPlatform.BusinessLayer.TradingOperationParameters)
+  - TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  - TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  - TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  langs:
+  - csharp
+  - vb
+  name: TradingOperations
+  nameWithType: TradingOperations
+  fullName: TradingPlatform.BusinessLayer.TradingOperations
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    id: TradingOperations
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static class TradingOperations
+    content.vb: Public Module TradingOperations
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,TradingPlatform.BusinessLayer.TradingOperationParameters)
+  commentId: M:TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,TradingPlatform.BusinessLayer.TradingOperationParameters)
+  id: IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,TradingPlatform.BusinessLayer.TradingOperationParameters)
+  parent: TradingPlatform.BusinessLayer.TradingOperations
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(TradingOperation, TradingOperationParameters)
+  nameWithType: TradingOperations.IsAllowed(TradingOperation, TradingOperationParameters)
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation, TradingPlatform.BusinessLayer.TradingOperationParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult IsAllowed(TradingOperation operation, TradingOperationParameters parameters)
+    parameters:
+    - id: operation
+      type: TradingPlatform.BusinessLayer.TradingOperation
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.TradingOperationParameters
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function IsAllowed(operation As TradingOperation, parameters As TradingOperationParameters) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters})
+  commentId: M:TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters})
+  id: IsAllowed(TradingPlatform.BusinessLayer.TradingOperation,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters})
+  parent: TradingPlatform.BusinessLayer.TradingOperations
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(TradingOperation, IList<TradingOperationParameters>)
+  nameWithType: TradingOperations.IsAllowed(TradingOperation, IList<TradingOperationParameters>)
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation, System.Collections.Generic.IList<TradingPlatform.BusinessLayer.TradingOperationParameters>)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult IsAllowed(TradingOperation operation, IList<TradingOperationParameters> parametersList)
+    parameters:
+    - id: operation
+      type: TradingPlatform.BusinessLayer.TradingOperation
+    - id: parametersList
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters}
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function IsAllowed(operation As TradingOperation, parametersList As IList(Of TradingOperationParameters)) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed*
+  nameWithType.vb: TradingOperations.IsAllowed(TradingOperation, IList(Of TradingOperationParameters))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed(TradingPlatform.BusinessLayer.TradingOperation, System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.TradingOperationParameters))
+  name.vb: IsAllowed(TradingOperation, IList(Of TradingOperationParameters))
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  commentId: M:TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  id: IsOrderTpAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  parent: TradingPlatform.BusinessLayer.TradingOperations
+  langs:
+  - csharp
+  - vb
+  name: IsOrderTpAllowed(TradingOperationParameters)
+  nameWithType: TradingOperations.IsOrderTpAllowed(TradingOperationParameters)
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    id: IsOrderTpAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    startLine: 51
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult IsOrderTpAllowed(TradingOperationParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.TradingOperationParameters
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function IsOrderTpAllowed(parameters As TradingOperationParameters) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  commentId: M:TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  id: IsOrderSlAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  parent: TradingPlatform.BusinessLayer.TradingOperations
+  langs:
+  - csharp
+  - vb
+  name: IsOrderSlAllowed(TradingOperationParameters)
+  nameWithType: TradingOperations.IsOrderSlAllowed(TradingOperationParameters)
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    id: IsOrderSlAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    startLine: 78
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult IsOrderSlAllowed(TradingOperationParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.TradingOperationParameters
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function IsOrderSlAllowed(parameters As TradingOperationParameters) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  commentId: M:TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  id: IsOrderSLTrailAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  parent: TradingPlatform.BusinessLayer.TradingOperations
+  langs:
+  - csharp
+  - vb
+  name: IsOrderSLTrailAllowed(TradingOperationParameters)
+  nameWithType: TradingOperations.IsOrderSLTrailAllowed(TradingOperationParameters)
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed(TradingPlatform.BusinessLayer.TradingOperationParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    id: IsOrderSLTrailAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/TradingOperations.cs
+    startLine: 105
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult IsOrderSLTrailAllowed(TradingOperationParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.TradingOperationParameters
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function IsOrderSLTrailAllowed(parameters As TradingOperationParameters) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperations.IsAllowed
+  name: IsAllowed
+  nameWithType: TradingOperations.IsAllowed
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsAllowed
+- uid: TradingPlatform.BusinessLayer.TradingOperation
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperation
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperation
+  nameWithType: TradingOperation
+  fullName: TradingPlatform.BusinessLayer.TradingOperation
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationParameters
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperationParameters
+  nameWithType: TradingOperationParameters
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters
+- uid: TradingPlatform.BusinessLayer.AllowedResult
+  commentId: T:TradingPlatform.BusinessLayer.AllowedResult
+  parent: TradingPlatform.BusinessLayer
+  name: AllowedResult
+  nameWithType: AllowedResult
+  fullName: TradingPlatform.BusinessLayer.AllowedResult
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.TradingOperationParameters}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<TradingOperationParameters>
+  nameWithType: IList<TradingOperationParameters>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.TradingOperationParameters>
+  nameWithType.vb: IList(Of TradingOperationParameters)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.TradingOperationParameters)
+  name.vb: IList(Of TradingOperationParameters)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.TradingOperationParameters
+    name: TradingOperationParameters
+    nameWithType: TradingOperationParameters
+    fullName: TradingPlatform.BusinessLayer.TradingOperationParameters
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.TradingOperationParameters
+    name: TradingOperationParameters
+    nameWithType: TradingOperationParameters
+    fullName: TradingPlatform.BusinessLayer.TradingOperationParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed
+  name: IsOrderTpAllowed
+  nameWithType: TradingOperations.IsOrderTpAllowed
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsOrderTpAllowed
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed
+  name: IsOrderSlAllowed
+  nameWithType: TradingOperations.IsOrderSlAllowed
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSlAllowed
+- uid: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed
+  name: IsOrderSLTrailAllowed
+  nameWithType: TradingOperations.IsOrderSLTrailAllowed
+  fullName: TradingPlatform.BusinessLayer.TradingOperations.IsOrderSLTrailAllowed

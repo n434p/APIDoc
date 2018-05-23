@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ICustomizableVisualGroups
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizableVisualGroups
+  id: ICustomizableVisualGroups
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  langs:
+  - csharp
+  - vb
+  name: ICustomizableVisualGroups
+  nameWithType: ICustomizableVisualGroups
+  fullName: TradingPlatform.BusinessLayer.ICustomizableVisualGroups
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    id: ICustomizableVisualGroups
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface ICustomizableVisualGroups
+    content.vb: Public Interface ICustomizableVisualGroups
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  commentId: M:TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  id: ProcessSettingsVisualGroups(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  parent: TradingPlatform.BusinessLayer.ICustomizableVisualGroups
+  langs:
+  - csharp
+  - vb
+  name: ProcessSettingsVisualGroups(IList<SettingItem>)
+  nameWithType: ICustomizableVisualGroups.ProcessSettingsVisualGroups(IList<SettingItem>)
+  fullName: TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    id: ProcessSettingsVisualGroups
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/ICustomizable.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: void ProcessSettingsVisualGroups(IList<SettingItem> settings)
+    parameters:
+    - id: settings
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Sub ProcessSettingsVisualGroups(settings As IList(Of SettingItem))
+  overload: TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups*
+  nameWithType.vb: ICustomizableVisualGroups.ProcessSettingsVisualGroups(IList(Of SettingItem))
+  fullName.vb: TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem))
+  name.vb: ProcessSettingsVisualGroups(IList(Of SettingItem))
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups*
+  commentId: Overload:TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups
+  name: ProcessSettingsVisualGroups
+  nameWithType: ICustomizableVisualGroups.ProcessSettingsVisualGroups
+  fullName: TradingPlatform.BusinessLayer.ICustomizableVisualGroups.ProcessSettingsVisualGroups
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

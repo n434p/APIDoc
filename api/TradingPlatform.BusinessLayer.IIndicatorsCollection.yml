@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  commentId: T:TradingPlatform.BusinessLayer.IIndicatorsCollection
+  id: IIndicatorsCollection
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  langs:
+  - csharp
+  - vb
+  name: IIndicatorsCollection
+  nameWithType: IIndicatorsCollection
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IIndicatorsCollection.cs
+    id: IIndicatorsCollection
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IIndicatorsCollection.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface IIndicatorsCollection
+    content.vb: Public Interface IIndicatorsCollection
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  id: AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  langs:
+  - csharp
+  - vb
+  name: AddIndicator(Indicator)
+  nameWithType: IIndicatorsCollection.AddIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IIndicatorsCollection.cs
+    id: AddIndicator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IIndicatorsCollection.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: void AddIndicator(Indicator indicator)
+    parameters:
+    - id: indicator
+      type: TradingPlatform.BusinessLayer.Indicator
+    content.vb: Sub AddIndicator(indicator As Indicator)
+  overload: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator*
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  id: RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveIndicator(Indicator)
+  nameWithType: IIndicatorsCollection.RemoveIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IIndicatorsCollection.cs
+    id: RemoveIndicator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/IIndicatorsCollection.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: void RemoveIndicator(Indicator indicator)
+    parameters:
+    - id: indicator
+      type: TradingPlatform.BusinessLayer.Indicator
+    content.vb: Sub RemoveIndicator(indicator As Indicator)
+  overload: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator*
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator*
+  commentId: Overload:TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator
+  name: AddIndicator
+  nameWithType: IIndicatorsCollection.AddIndicator
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator
+- uid: TradingPlatform.BusinessLayer.Indicator
+  commentId: T:TradingPlatform.BusinessLayer.Indicator
+  parent: TradingPlatform.BusinessLayer
+  name: Indicator
+  nameWithType: Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator*
+  commentId: Overload:TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator
+  name: RemoveIndicator
+  nameWithType: IIndicatorsCollection.RemoveIndicator
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator

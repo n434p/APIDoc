@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  id: TradingPlatform.BusinessLayer.Serialization
+  children:
+  - TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  - TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  - TradingPlatform.BusinessLayer.Serialization.MessagesWrapper
+  - TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.Serializer
+  name: Serializer
+  nameWithType: Serializer
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: BusinessObjectsWrapper
+  nameWithType: BusinessObjectsWrapper
+  fullName: TradingPlatform.BusinessLayer.Serialization.BusinessObjectsWrapper
+- uid: TradingPlatform.BusinessLayer.Serialization.MessagesWrapper
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.MessagesWrapper
+  name: MessagesWrapper
+  nameWithType: MessagesWrapper
+  fullName: TradingPlatform.BusinessLayer.Serialization.MessagesWrapper
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization

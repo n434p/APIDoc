@@ -1,0 +1,954 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.InstrumentList
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentList
+  id: InstrumentList
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.InstrumentList.#ctor(System.String,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument})
+  - TradingPlatform.BusinessLayer.InstrumentList.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.InstrumentList.Instruments
+  - TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed(System.String,System.String@)
+  - TradingPlatform.BusinessLayer.InstrumentList.Name
+  - TradingPlatform.BusinessLayer.InstrumentList.Settings
+  langs:
+  - csharp
+  - vb
+  name: InstrumentList
+  nameWithType: InstrumentList
+  fullName: TradingPlatform.BusinessLayer.InstrumentList
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: InstrumentList
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class InstrumentList : IComparable, ICustomizable, IRenamable'
+    content.vb: >-
+      Public Class InstrumentList
+          Implements IComparable, ICustomizable, IRenamable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IComparable
+  - TradingPlatform.BusinessLayer.ICustomizable
+  - TradingPlatform.BusinessLayer.IRenamable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.InstrumentList.Name
+  commentId: P:TradingPlatform.BusinessLayer.InstrumentList.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.InstrumentList
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: InstrumentList.Name
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: TradingPlatform.BusinessLayer.InstrumentList.Name*
+  implements:
+  - TradingPlatform.BusinessLayer.IRenamable.Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed(System.String,System.String@)
+  commentId: M:TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed(System.String,System.String@)
+  id: IsNameAllowed(System.String,System.String@)
+  parent: TradingPlatform.BusinessLayer.InstrumentList
+  langs:
+  - csharp
+  - vb
+  name: IsNameAllowed(String, ref String)
+  nameWithType: InstrumentList.IsNameAllowed(String, ref String)
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed(System.String, ref System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: IsNameAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool IsNameAllowed(string s, ref string error)
+    parameters:
+    - id: s
+      type: System.String
+    - id: error
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsNameAllowed(s As String, ByRef error As String) As Boolean
+  overload: TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed*
+  implements:
+  - TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+  nameWithType.vb: InstrumentList.IsNameAllowed(String, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed(System.String, ByRef System.String)
+  name.vb: IsNameAllowed(String, ByRef String)
+- uid: TradingPlatform.BusinessLayer.InstrumentList.Instruments
+  commentId: P:TradingPlatform.BusinessLayer.InstrumentList.Instruments
+  id: Instruments
+  parent: TradingPlatform.BusinessLayer.InstrumentList
+  langs:
+  - csharp
+  - vb
+  name: Instruments
+  nameWithType: InstrumentList.Instruments
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.Instruments
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: Instruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 45
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IEnumerable<Instrument> Instruments { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{TradingPlatform.BusinessLayer.Instrument}
+    content.vb: Public Property Instruments As IEnumerable(Of Instrument)
+  overload: TradingPlatform.BusinessLayer.InstrumentList.Instruments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.InstrumentList.Settings
+  commentId: P:TradingPlatform.BusinessLayer.InstrumentList.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.InstrumentList
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: InstrumentList.Settings
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 63
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Property Settings As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.InstrumentList.Settings*
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable.Settings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.InstrumentList.#ctor(System.String,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument})
+  commentId: M:TradingPlatform.BusinessLayer.InstrumentList.#ctor(System.String,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument})
+  id: '#ctor(System.String,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument})'
+  parent: TradingPlatform.BusinessLayer.InstrumentList
+  langs:
+  - csharp
+  - vb
+  name: InstrumentList(String, IList<Instrument>)
+  nameWithType: InstrumentList.InstrumentList(String, IList<Instrument>)
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.InstrumentList(System.String, System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Instrument>)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 96
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public InstrumentList(string name, IList<Instrument> instruments)
+    parameters:
+    - id: name
+      type: System.String
+    - id: instruments
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument}
+    content.vb: Public Sub New(name As String, instruments As IList(Of Instrument))
+  overload: TradingPlatform.BusinessLayer.InstrumentList.#ctor*
+  nameWithType.vb: InstrumentList.InstrumentList(String, IList(Of Instrument))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.InstrumentList.InstrumentList(System.String, System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Instrument))
+  name.vb: InstrumentList(String, IList(Of Instrument))
+- uid: TradingPlatform.BusinessLayer.InstrumentList.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.InstrumentList.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.InstrumentList
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Object)
+  nameWithType: InstrumentList.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.CompareTo(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    id: CompareTo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/InstrumentList.cs
+    startLine: 106
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int CompareTo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(obj As Object) As Integer
+  overload: TradingPlatform.BusinessLayer.InstrumentList.CompareTo*
+  implements:
+  - System.IComparable.CompareTo(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: TradingPlatform.BusinessLayer.IRenamable
+  commentId: T:TradingPlatform.BusinessLayer.IRenamable
+  parent: TradingPlatform.BusinessLayer
+  name: IRenamable
+  nameWithType: IRenamable
+  fullName: TradingPlatform.BusinessLayer.IRenamable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.InstrumentList.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentList.Name
+  name: Name
+  nameWithType: InstrumentList.Name
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.Name
+- uid: TradingPlatform.BusinessLayer.IRenamable.Name
+  commentId: P:TradingPlatform.BusinessLayer.IRenamable.Name
+  parent: TradingPlatform.BusinessLayer.IRenamable
+  name: Name
+  nameWithType: IRenamable.Name
+  fullName: TradingPlatform.BusinessLayer.IRenamable.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed
+  name: IsNameAllowed
+  nameWithType: InstrumentList.IsNameAllowed
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.IsNameAllowed
+- uid: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+  commentId: M:TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+  parent: TradingPlatform.BusinessLayer.IRenamable
+  isExternal: true
+  name: IsNameAllowed(String, String)
+  nameWithType: IRenamable.IsNameAllowed(String, String)
+  fullName: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String, System.String)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+    name: IsNameAllowed
+    nameWithType: IRenamable.IsNameAllowed
+    fullName: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed(System.String,System.String@)
+    name: IsNameAllowed
+    nameWithType: IRenamable.IsNameAllowed
+    fullName: TradingPlatform.BusinessLayer.IRenamable.IsNameAllowed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.InstrumentList.Instruments*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentList.Instruments
+  name: Instruments
+  nameWithType: InstrumentList.Instruments
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.Instruments
+- uid: System.Collections.Generic.IEnumerable{TradingPlatform.BusinessLayer.Instrument}
+  commentId: T:System.Collections.Generic.IEnumerable{TradingPlatform.BusinessLayer.Instrument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Instrument>
+  nameWithType: IEnumerable<Instrument>
+  fullName: System.Collections.Generic.IEnumerable<TradingPlatform.BusinessLayer.Instrument>
+  nameWithType.vb: IEnumerable(Of Instrument)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TradingPlatform.BusinessLayer.Instrument)
+  name.vb: IEnumerable(Of Instrument)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.InstrumentList.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentList.Settings
+  name: Settings
+  nameWithType: InstrumentList.Settings
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.Settings
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  parent: TradingPlatform.BusinessLayer.ICustomizable
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.InstrumentList.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentList.#ctor
+  name: InstrumentList
+  nameWithType: InstrumentList.InstrumentList
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.InstrumentList
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Instrument>
+  nameWithType: IList<Instrument>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Instrument>
+  nameWithType.vb: IList(Of Instrument)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Instrument)
+  name.vb: IList(Of Instrument)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.InstrumentList.CompareTo*
+  commentId: Overload:TradingPlatform.BusinessLayer.InstrumentList.CompareTo
+  name: CompareTo
+  nameWithType: InstrumentList.CompareTo
+  fullName: TradingPlatform.BusinessLayer.InstrumentList.CompareTo
+- uid: System.IComparable.CompareTo(System.Object)
+  commentId: M:System.IComparable.CompareTo(System.Object)
+  parent: System.IComparable
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: IComparable.CompareTo(Object)
+  fullName: System.IComparable.CompareTo(System.Object)
+  spec.csharp:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

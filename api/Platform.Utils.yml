@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Platform.Utils
+  commentId: N:Platform.Utils
+  id: Platform.Utils
+  children:
+  - Platform.Utils.Encryptor
+  langs:
+  - csharp
+  - vb
+  name: Platform.Utils
+  nameWithType: Platform.Utils
+  fullName: Platform.Utils
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: Platform.Utils.Encryptor
+  commentId: T:Platform.Utils.Encryptor
+  name: Encryptor
+  nameWithType: Encryptor
+  fullName: Platform.Utils.Encryptor

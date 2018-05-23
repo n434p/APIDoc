@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  commentId: T:TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  id: ModellingSchema
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.ModellingSchema.Close
+  - TradingPlatform.BusinessLayer.Integration.ModellingSchema.OHLC
+  - TradingPlatform.BusinessLayer.Integration.ModellingSchema.Open
+  langs:
+  - csharp
+  - vb
+  name: ModellingSchema
+  nameWithType: ModellingSchema
+  fullName: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: ModellingSchema
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public enum ModellingSchema
+    content.vb: Public Enum ModellingSchema
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Integration.ModellingSchema.OHLC
+  commentId: F:TradingPlatform.BusinessLayer.Integration.ModellingSchema.OHLC
+  id: OHLC
+  parent: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  langs:
+  - csharp
+  - vb
+  name: OHLC
+  nameWithType: ModellingSchema.OHLC
+  fullName: TradingPlatform.BusinessLayer.Integration.ModellingSchema.OHLC
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: OHLC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: OHLC = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.ModellingSchema.Close
+  commentId: F:TradingPlatform.BusinessLayer.Integration.ModellingSchema.Close
+  id: Close
+  parent: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: ModellingSchema.Close
+  fullName: TradingPlatform.BusinessLayer.Integration.ModellingSchema.Close
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Close
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Close = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.ModellingSchema.Open
+  commentId: F:TradingPlatform.BusinessLayer.Integration.ModellingSchema.Open
+  id: Open
+  parent: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: ModellingSchema.Open
+  fullName: TradingPlatform.BusinessLayer.Integration.ModellingSchema.Open
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    id: Open
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/CustomMessages.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Open = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  commentId: T:TradingPlatform.BusinessLayer.Integration.ModellingSchema
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: ModellingSchema
+  nameWithType: ModellingSchema
+  fullName: TradingPlatform.BusinessLayer.Integration.ModellingSchema

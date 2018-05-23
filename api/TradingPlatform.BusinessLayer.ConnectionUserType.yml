@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ConnectionUserType
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionUserType
+  id: ConnectionUserType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ConnectionUserType.Demo
+  - TradingPlatform.BusinessLayer.ConnectionUserType.Real
+  - TradingPlatform.BusinessLayer.ConnectionUserType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ConnectionUserType
+  nameWithType: ConnectionUserType
+  fullName: TradingPlatform.BusinessLayer.ConnectionUserType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: ConnectionUserType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum ConnectionUserType
+    content.vb: Public Enum ConnectionUserType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.ConnectionUserType.Unknown
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionUserType.Unknown
+  id: Unknown
+  parent: TradingPlatform.BusinessLayer.ConnectionUserType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ConnectionUserType.Unknown
+  fullName: TradingPlatform.BusinessLayer.ConnectionUserType.Unknown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Unknown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Unknown = 0
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionUserType.Demo
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionUserType.Demo
+  id: Demo
+  parent: TradingPlatform.BusinessLayer.ConnectionUserType
+  langs:
+  - csharp
+  - vb
+  name: Demo
+  nameWithType: ConnectionUserType.Demo
+  fullName: TradingPlatform.BusinessLayer.ConnectionUserType.Demo
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Demo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Demo = 1
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionUserType.Real
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionUserType.Real
+  id: Real
+  parent: TradingPlatform.BusinessLayer.ConnectionUserType
+  langs:
+  - csharp
+  - vb
+  name: Real
+  nameWithType: ConnectionUserType.Real
+  fullName: TradingPlatform.BusinessLayer.ConnectionUserType.Real
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Real
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Real = 2
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionUserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.ConnectionUserType
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionUserType
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionUserType
+  nameWithType: ConnectionUserType
+  fullName: TradingPlatform.BusinessLayer.ConnectionUserType

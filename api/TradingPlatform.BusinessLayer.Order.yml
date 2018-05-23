@@ -1,0 +1,1627 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Order
+  commentId: T:TradingPlatform.BusinessLayer.Order
+  id: Order
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Order.#ctor(System.String)
+  - TradingPlatform.BusinessLayer.Order.Cancel
+  - TradingPlatform.BusinessLayer.Order.ExpirationTime
+  - TradingPlatform.BusinessLayer.Order.FilledQuantity
+  - TradingPlatform.BusinessLayer.Order.FormatOrderType(System.String,System.String,System.String)
+  - TradingPlatform.BusinessLayer.Order.GroupId
+  - TradingPlatform.BusinessLayer.Order.LastUpdateTime
+  - TradingPlatform.BusinessLayer.Order.OrderType
+  - TradingPlatform.BusinessLayer.Order.OrderTypeId
+  - TradingPlatform.BusinessLayer.Order.OriginalStatus
+  - TradingPlatform.BusinessLayer.Order.PositionId
+  - TradingPlatform.BusinessLayer.Order.Price
+  - TradingPlatform.BusinessLayer.Order.RemainingQuantity
+  - TradingPlatform.BusinessLayer.Order.Status
+  - TradingPlatform.BusinessLayer.Order.StopLoss
+  - TradingPlatform.BusinessLayer.Order.TakeProfit
+  - TradingPlatform.BusinessLayer.Order.TimeInForce
+  - TradingPlatform.BusinessLayer.Order.TotalQuantity
+  - TradingPlatform.BusinessLayer.Order.TrailOffset
+  - TradingPlatform.BusinessLayer.Order.TriggerPrice
+  - TradingPlatform.BusinessLayer.Order.UpdateByMessage(TradingPlatform.BusinessLayer.Integration.MessageOpenOrder)
+  - TradingPlatform.BusinessLayer.Order.Updated
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: Order
+  fullName: TradingPlatform.BusinessLayer.Order
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: Order
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "Order", Namespace = "TradingPlatform")]
+
+      public class Order : TradingObject, IConnectionBindedObject, IUniqueID
+    content.vb: >-
+      <DataContract(Name:="Order", Namespace:="TradingPlatform")>
+
+      Public Class Order
+          Inherits TradingObject
+          Implements IConnectionBindedObject, IUniqueID
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  - TradingPlatform.BusinessLayer.TradingObject
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.OrderHistory
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.TradingObject.Id
+  - TradingPlatform.BusinessLayer.TradingObject.Account
+  - TradingPlatform.BusinessLayer.TradingObject.Instrument
+  - TradingPlatform.BusinessLayer.TradingObject.Side
+  - TradingPlatform.BusinessLayer.TradingObject.Comment
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Order
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Order.GroupId
+  commentId: P:TradingPlatform.BusinessLayer.Order.GroupId
+  id: GroupId
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: Order.GroupId
+  fullName: TradingPlatform.BusinessLayer.Order.GroupId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: GroupId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "GroupId")]
+
+      public string GroupId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="GroupId")>
+
+      Public ReadOnly Property GroupId As String
+  overload: TradingPlatform.BusinessLayer.Order.GroupId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: GroupId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.PositionId
+  commentId: P:TradingPlatform.BusinessLayer.Order.PositionId
+  id: PositionId
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: PositionId
+  nameWithType: Order.PositionId
+  fullName: TradingPlatform.BusinessLayer.Order.PositionId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: PositionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "PositionId")]
+
+      public string PositionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="PositionId")>
+
+      Public ReadOnly Property PositionId As String
+  overload: TradingPlatform.BusinessLayer.Order.PositionId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PositionId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.TotalQuantity
+  commentId: P:TradingPlatform.BusinessLayer.Order.TotalQuantity
+  id: TotalQuantity
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: TotalQuantity
+  nameWithType: Order.TotalQuantity
+  fullName: TradingPlatform.BusinessLayer.Order.TotalQuantity
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: TotalQuantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "TotalQuantity")]
+
+      public double TotalQuantity { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="TotalQuantity")>
+
+      Public ReadOnly Property TotalQuantity As Double
+  overload: TradingPlatform.BusinessLayer.Order.TotalQuantity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: TotalQuantity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.FilledQuantity
+  commentId: P:TradingPlatform.BusinessLayer.Order.FilledQuantity
+  id: FilledQuantity
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: FilledQuantity
+  nameWithType: Order.FilledQuantity
+  fullName: TradingPlatform.BusinessLayer.Order.FilledQuantity
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: FilledQuantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "FilledQuantity")]
+
+      public double FilledQuantity { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="FilledQuantity")>
+
+      Public ReadOnly Property FilledQuantity As Double
+  overload: TradingPlatform.BusinessLayer.Order.FilledQuantity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: FilledQuantity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.RemainingQuantity
+  commentId: P:TradingPlatform.BusinessLayer.Order.RemainingQuantity
+  id: RemainingQuantity
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: RemainingQuantity
+  nameWithType: Order.RemainingQuantity
+  fullName: TradingPlatform.BusinessLayer.Order.RemainingQuantity
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: RemainingQuantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double RemainingQuantity { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property RemainingQuantity As Double
+  overload: TradingPlatform.BusinessLayer.Order.RemainingQuantity*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.OrderTypeId
+  commentId: P:TradingPlatform.BusinessLayer.Order.OrderTypeId
+  id: OrderTypeId
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: OrderTypeId
+  nameWithType: Order.OrderTypeId
+  fullName: TradingPlatform.BusinessLayer.Order.OrderTypeId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: OrderTypeId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "OrderTypeId")]
+
+      public string OrderTypeId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="OrderTypeId")>
+
+      Public ReadOnly Property OrderTypeId As String
+  overload: TradingPlatform.BusinessLayer.Order.OrderTypeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OrderTypeId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.OrderType
+  commentId: P:TradingPlatform.BusinessLayer.Order.OrderType
+  id: OrderType
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: OrderType
+  nameWithType: Order.OrderType
+  fullName: TradingPlatform.BusinessLayer.Order.OrderType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: OrderType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public OrderType OrderType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OrderType
+    content.vb: Public ReadOnly Property OrderType As OrderType
+  overload: TradingPlatform.BusinessLayer.Order.OrderType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.Price
+  commentId: P:TradingPlatform.BusinessLayer.Order.Price
+  id: Price
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: Order.Price
+  fullName: TradingPlatform.BusinessLayer.Order.Price
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: Price
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Price")]
+
+      public double Price { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Price")>
+
+      Public ReadOnly Property Price As Double
+  overload: TradingPlatform.BusinessLayer.Order.Price*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Price
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.TriggerPrice
+  commentId: P:TradingPlatform.BusinessLayer.Order.TriggerPrice
+  id: TriggerPrice
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: TriggerPrice
+  nameWithType: Order.TriggerPrice
+  fullName: TradingPlatform.BusinessLayer.Order.TriggerPrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: TriggerPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "TriggerPrice")]
+
+      public double TriggerPrice { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="TriggerPrice")>
+
+      Public ReadOnly Property TriggerPrice As Double
+  overload: TradingPlatform.BusinessLayer.Order.TriggerPrice*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: TriggerPrice
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.TrailOffset
+  commentId: P:TradingPlatform.BusinessLayer.Order.TrailOffset
+  id: TrailOffset
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: TrailOffset
+  nameWithType: Order.TrailOffset
+  fullName: TradingPlatform.BusinessLayer.Order.TrailOffset
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: TrailOffset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "TrailOffset")]
+
+      public double TrailOffset { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="TrailOffset")>
+
+      Public ReadOnly Property TrailOffset As Double
+  overload: TradingPlatform.BusinessLayer.Order.TrailOffset*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: TrailOffset
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.Status
+  commentId: P:TradingPlatform.BusinessLayer.Order.Status
+  id: Status
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Order.Status
+  fullName: TradingPlatform.BusinessLayer.Order.Status
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: Status
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Status")]
+
+      public OrderStatus Status { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OrderStatus
+    content.vb: >-
+      <DataMember(Name:="Status")>
+
+      Public ReadOnly Property Status As OrderStatus
+  overload: TradingPlatform.BusinessLayer.Order.Status*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Status
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.OriginalStatus
+  commentId: P:TradingPlatform.BusinessLayer.Order.OriginalStatus
+  id: OriginalStatus
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: OriginalStatus
+  nameWithType: Order.OriginalStatus
+  fullName: TradingPlatform.BusinessLayer.Order.OriginalStatus
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: OriginalStatus
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "OriginalStatus")]
+
+      public string OriginalStatus { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="OriginalStatus")>
+
+      Public ReadOnly Property OriginalStatus As String
+  overload: TradingPlatform.BusinessLayer.Order.OriginalStatus*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OriginalStatus
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.TimeInForce
+  commentId: P:TradingPlatform.BusinessLayer.Order.TimeInForce
+  id: TimeInForce
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: TimeInForce
+  nameWithType: Order.TimeInForce
+  fullName: TradingPlatform.BusinessLayer.Order.TimeInForce
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: TimeInForce
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Tif")]
+
+      public TimeInForce TimeInForce { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+    content.vb: >-
+      <DataMember(Name:="Tif")>
+
+      Public ReadOnly Property TimeInForce As TimeInForce
+  overload: TradingPlatform.BusinessLayer.Order.TimeInForce*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Tif
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.ExpirationTime
+  commentId: P:TradingPlatform.BusinessLayer.Order.ExpirationTime
+  id: ExpirationTime
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: ExpirationTime
+  nameWithType: Order.ExpirationTime
+  fullName: TradingPlatform.BusinessLayer.Order.ExpirationTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: ExpirationTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "ExpirationTime")]
+
+      public DateTime ExpirationTime { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember(Name:="ExpirationTime")>
+
+      Public ReadOnly Property ExpirationTime As Date
+  overload: TradingPlatform.BusinessLayer.Order.ExpirationTime*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ExpirationTime
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.LastUpdateTime
+  commentId: P:TradingPlatform.BusinessLayer.Order.LastUpdateTime
+  id: LastUpdateTime
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: LastUpdateTime
+  nameWithType: Order.LastUpdateTime
+  fullName: TradingPlatform.BusinessLayer.Order.LastUpdateTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: LastUpdateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 56
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime LastUpdateTime { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property LastUpdateTime As Date
+  overload: TradingPlatform.BusinessLayer.Order.LastUpdateTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.StopLoss
+  commentId: P:TradingPlatform.BusinessLayer.Order.StopLoss
+  id: StopLoss
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: StopLoss
+  nameWithType: Order.StopLoss
+  fullName: TradingPlatform.BusinessLayer.Order.StopLoss
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: StopLoss
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SlTpHolder StopLoss { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.SlTpHolder
+    content.vb: Public ReadOnly Property StopLoss As SlTpHolder
+  overload: TradingPlatform.BusinessLayer.Order.StopLoss*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.TakeProfit
+  commentId: P:TradingPlatform.BusinessLayer.Order.TakeProfit
+  id: TakeProfit
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: TakeProfit
+  nameWithType: Order.TakeProfit
+  fullName: TradingPlatform.BusinessLayer.Order.TakeProfit
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: TakeProfit
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 62
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SlTpHolder TakeProfit { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.SlTpHolder
+    content.vb: Public ReadOnly Property TakeProfit As SlTpHolder
+  overload: TradingPlatform.BusinessLayer.Order.TakeProfit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Order.Updated
+  commentId: E:TradingPlatform.BusinessLayer.Order.Updated
+  id: Updated
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Order.Updated
+  fullName: TradingPlatform.BusinessLayer.Order.Updated
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: Updated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event Action<Order> Updated
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.Order}
+    content.vb: Public Event Updated As Action(Of Order)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Order.#ctor(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Order.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: Order(String)
+  nameWithType: Order.Order(String)
+  fullName: TradingPlatform.BusinessLayer.Order.Order(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 71
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Order(string connectionId)
+    parameters:
+    - id: connectionId
+      type: System.String
+    content.vb: Public Sub New(connectionId As String)
+  overload: TradingPlatform.BusinessLayer.Order.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Order.UpdateByMessage(TradingPlatform.BusinessLayer.Integration.MessageOpenOrder)
+  commentId: M:TradingPlatform.BusinessLayer.Order.UpdateByMessage(TradingPlatform.BusinessLayer.Integration.MessageOpenOrder)
+  id: UpdateByMessage(TradingPlatform.BusinessLayer.Integration.MessageOpenOrder)
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: UpdateByMessage(MessageOpenOrder)
+  nameWithType: Order.UpdateByMessage(MessageOpenOrder)
+  fullName: TradingPlatform.BusinessLayer.Order.UpdateByMessage(TradingPlatform.BusinessLayer.Integration.MessageOpenOrder)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: UpdateByMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 75
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void UpdateByMessage(MessageOpenOrder message)
+    parameters:
+    - id: message
+      type: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+    content.vb: Public Sub UpdateByMessage(message As MessageOpenOrder)
+  overload: TradingPlatform.BusinessLayer.Order.UpdateByMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Order.Cancel
+  commentId: M:TradingPlatform.BusinessLayer.Order.Cancel
+  id: Cancel
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: Cancel()
+  nameWithType: Order.Cancel()
+  fullName: TradingPlatform.BusinessLayer.Order.Cancel()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: Cancel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 120
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TradingOperationResult Cancel()
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationResult
+    content.vb: Public Function Cancel As TradingOperationResult
+  overload: TradingPlatform.BusinessLayer.Order.Cancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Order.FormatOrderType(System.String,System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Order.FormatOrderType(System.String,System.String,System.String)
+  id: FormatOrderType(System.String,System.String,System.String)
+  parent: TradingPlatform.BusinessLayer.Order
+  langs:
+  - csharp
+  - vb
+  name: FormatOrderType(String, String, String)
+  nameWithType: Order.FormatOrderType(String, String, String)
+  fullName: TradingPlatform.BusinessLayer.Order.FormatOrderType(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    id: FormatOrderType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Order.cs
+    startLine: 122
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string FormatOrderType(string positionId, string orderTypeId, string connectionId)
+    parameters:
+    - id: positionId
+      type: System.String
+    - id: orderTypeId
+      type: System.String
+    - id: connectionId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatOrderType(positionId As String, orderTypeId As String, connectionId As String) As String
+  overload: TradingPlatform.BusinessLayer.Order.FormatOrderType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.TradingObject
+  commentId: T:TradingPlatform.BusinessLayer.TradingObject
+  parent: TradingPlatform.BusinessLayer
+  name: TradingObject
+  nameWithType: TradingObject
+  fullName: TradingPlatform.BusinessLayer.TradingObject
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: TradingPlatform.BusinessLayer.TradingObject.Id
+  commentId: P:TradingPlatform.BusinessLayer.TradingObject.Id
+  parent: TradingPlatform.BusinessLayer.TradingObject
+  name: Id
+  nameWithType: TradingObject.Id
+  fullName: TradingPlatform.BusinessLayer.TradingObject.Id
+- uid: TradingPlatform.BusinessLayer.TradingObject.Account
+  commentId: P:TradingPlatform.BusinessLayer.TradingObject.Account
+  parent: TradingPlatform.BusinessLayer.TradingObject
+  name: Account
+  nameWithType: TradingObject.Account
+  fullName: TradingPlatform.BusinessLayer.TradingObject.Account
+- uid: TradingPlatform.BusinessLayer.TradingObject.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.TradingObject.Instrument
+  parent: TradingPlatform.BusinessLayer.TradingObject
+  name: Instrument
+  nameWithType: TradingObject.Instrument
+  fullName: TradingPlatform.BusinessLayer.TradingObject.Instrument
+- uid: TradingPlatform.BusinessLayer.TradingObject.Side
+  commentId: P:TradingPlatform.BusinessLayer.TradingObject.Side
+  parent: TradingPlatform.BusinessLayer.TradingObject
+  name: Side
+  nameWithType: TradingObject.Side
+  fullName: TradingPlatform.BusinessLayer.TradingObject.Side
+- uid: TradingPlatform.BusinessLayer.TradingObject.Comment
+  commentId: P:TradingPlatform.BusinessLayer.TradingObject.Comment
+  parent: TradingPlatform.BusinessLayer.TradingObject
+  name: Comment
+  nameWithType: TradingObject.Comment
+  fullName: TradingPlatform.BusinessLayer.TradingObject.Comment
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Order.GroupId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.GroupId
+  name: GroupId
+  nameWithType: Order.GroupId
+  fullName: TradingPlatform.BusinessLayer.Order.GroupId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Order.PositionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.PositionId
+  name: PositionId
+  nameWithType: Order.PositionId
+  fullName: TradingPlatform.BusinessLayer.Order.PositionId
+- uid: TradingPlatform.BusinessLayer.Order.TotalQuantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.TotalQuantity
+  name: TotalQuantity
+  nameWithType: Order.TotalQuantity
+  fullName: TradingPlatform.BusinessLayer.Order.TotalQuantity
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Order.FilledQuantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.FilledQuantity
+  name: FilledQuantity
+  nameWithType: Order.FilledQuantity
+  fullName: TradingPlatform.BusinessLayer.Order.FilledQuantity
+- uid: TradingPlatform.BusinessLayer.Order.RemainingQuantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.RemainingQuantity
+  name: RemainingQuantity
+  nameWithType: Order.RemainingQuantity
+  fullName: TradingPlatform.BusinessLayer.Order.RemainingQuantity
+- uid: TradingPlatform.BusinessLayer.Order.OrderTypeId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.OrderTypeId
+  name: OrderTypeId
+  nameWithType: Order.OrderTypeId
+  fullName: TradingPlatform.BusinessLayer.Order.OrderTypeId
+- uid: TradingPlatform.BusinessLayer.Order.OrderType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.OrderType
+  name: OrderType
+  nameWithType: Order.OrderType
+  fullName: TradingPlatform.BusinessLayer.Order.OrderType
+- uid: TradingPlatform.BusinessLayer.OrderType
+  commentId: T:TradingPlatform.BusinessLayer.OrderType
+  parent: TradingPlatform.BusinessLayer
+  name: OrderType
+  nameWithType: OrderType
+  fullName: TradingPlatform.BusinessLayer.OrderType
+- uid: TradingPlatform.BusinessLayer.Order.Price*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.Price
+  name: Price
+  nameWithType: Order.Price
+  fullName: TradingPlatform.BusinessLayer.Order.Price
+- uid: TradingPlatform.BusinessLayer.Order.TriggerPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.TriggerPrice
+  name: TriggerPrice
+  nameWithType: Order.TriggerPrice
+  fullName: TradingPlatform.BusinessLayer.Order.TriggerPrice
+- uid: TradingPlatform.BusinessLayer.Order.TrailOffset*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.TrailOffset
+  name: TrailOffset
+  nameWithType: Order.TrailOffset
+  fullName: TradingPlatform.BusinessLayer.Order.TrailOffset
+- uid: TradingPlatform.BusinessLayer.Order.Status*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.Status
+  name: Status
+  nameWithType: Order.Status
+  fullName: TradingPlatform.BusinessLayer.Order.Status
+- uid: TradingPlatform.BusinessLayer.OrderStatus
+  commentId: T:TradingPlatform.BusinessLayer.OrderStatus
+  parent: TradingPlatform.BusinessLayer
+  name: OrderStatus
+  nameWithType: OrderStatus
+  fullName: TradingPlatform.BusinessLayer.OrderStatus
+- uid: TradingPlatform.BusinessLayer.Order.OriginalStatus*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.OriginalStatus
+  name: OriginalStatus
+  nameWithType: Order.OriginalStatus
+  fullName: TradingPlatform.BusinessLayer.Order.OriginalStatus
+- uid: TradingPlatform.BusinessLayer.Order.TimeInForce*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.TimeInForce
+  name: TimeInForce
+  nameWithType: Order.TimeInForce
+  fullName: TradingPlatform.BusinessLayer.Order.TimeInForce
+- uid: TradingPlatform.BusinessLayer.TimeInForce
+  commentId: T:TradingPlatform.BusinessLayer.TimeInForce
+  parent: TradingPlatform.BusinessLayer
+  name: TimeInForce
+  nameWithType: TimeInForce
+  fullName: TradingPlatform.BusinessLayer.TimeInForce
+- uid: TradingPlatform.BusinessLayer.Order.ExpirationTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.ExpirationTime
+  name: ExpirationTime
+  nameWithType: Order.ExpirationTime
+  fullName: TradingPlatform.BusinessLayer.Order.ExpirationTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Order.LastUpdateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.LastUpdateTime
+  name: LastUpdateTime
+  nameWithType: Order.LastUpdateTime
+  fullName: TradingPlatform.BusinessLayer.Order.LastUpdateTime
+- uid: TradingPlatform.BusinessLayer.Order.StopLoss*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.StopLoss
+  name: StopLoss
+  nameWithType: Order.StopLoss
+  fullName: TradingPlatform.BusinessLayer.Order.StopLoss
+- uid: TradingPlatform.BusinessLayer.SlTpHolder
+  commentId: T:TradingPlatform.BusinessLayer.SlTpHolder
+  parent: TradingPlatform.BusinessLayer
+  name: SlTpHolder
+  nameWithType: SlTpHolder
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder
+- uid: TradingPlatform.BusinessLayer.Order.TakeProfit*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.TakeProfit
+  name: TakeProfit
+  nameWithType: Order.TakeProfit
+  fullName: TradingPlatform.BusinessLayer.Order.TakeProfit
+- uid: System.Action{TradingPlatform.BusinessLayer.Order}
+  commentId: T:System.Action{TradingPlatform.BusinessLayer.Order}
+  parent: System
+  definition: System.Action`1
+  name: Action<Order>
+  nameWithType: Action<Order>
+  fullName: System.Action<TradingPlatform.BusinessLayer.Order>
+  nameWithType.vb: Action(Of Order)
+  fullName.vb: System.Action(Of TradingPlatform.BusinessLayer.Order)
+  name.vb: Action(Of Order)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Order
+    name: Order
+    nameWithType: Order
+    fullName: TradingPlatform.BusinessLayer.Order
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Order
+    name: Order
+    nameWithType: Order
+    fullName: TradingPlatform.BusinessLayer.Order
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Order.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.#ctor
+  name: Order
+  nameWithType: Order.Order
+  fullName: TradingPlatform.BusinessLayer.Order.Order
+- uid: TradingPlatform.BusinessLayer.Order.UpdateByMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.UpdateByMessage
+  name: UpdateByMessage
+  nameWithType: Order.UpdateByMessage
+  fullName: TradingPlatform.BusinessLayer.Order.UpdateByMessage
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageOpenOrder
+  nameWithType: MessageOpenOrder
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: TradingPlatform.BusinessLayer.Order.Cancel*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.Cancel
+  name: Cancel
+  nameWithType: Order.Cancel
+  fullName: TradingPlatform.BusinessLayer.Order.Cancel
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationResult
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperationResult
+  nameWithType: TradingOperationResult
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult
+- uid: TradingPlatform.BusinessLayer.Order.FormatOrderType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Order.FormatOrderType
+  name: FormatOrderType
+  nameWithType: Order.FormatOrderType
+  fullName: TradingPlatform.BusinessLayer.Order.FormatOrderType

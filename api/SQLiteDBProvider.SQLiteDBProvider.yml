@@ -1,0 +1,1138 @@
+### YamlMime:ManagedReference
+items:
+- uid: SQLiteDBProvider.SQLiteDBProvider
+  commentId: T:SQLiteDBProvider.SQLiteDBProvider
+  id: SQLiteDBProvider
+  parent: SQLiteDBProvider
+  children:
+  - SQLiteDBProvider.SQLiteDBProvider.Connect(System.String)
+  - SQLiteDBProvider.SQLiteDBProvider.Disconnect
+  - SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  - SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  - SQLiteDBProvider.SQLiteDBProvider.Initialize(System.String)
+  - SQLiteDBProvider.SQLiteDBProvider.IsConnected
+  - SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  - SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  langs:
+  - csharp
+  - vb
+  name: SQLiteDBProvider
+  nameWithType: SQLiteDBProvider
+  fullName: SQLiteDBProvider.SQLiteDBProvider
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: SQLiteDBProvider
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 12
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: 'public class SQLiteDBProvider : IDBProvider'
+    content.vb: >-
+      Public Class SQLiteDBProvider
+          Implements IDBProvider
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SQLiteDBProvider.SQLiteDBProvider.IsConnected
+  commentId: P:SQLiteDBProvider.SQLiteDBProvider.IsConnected
+  id: IsConnected
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: IsConnected
+  nameWithType: SQLiteDBProvider.IsConnected
+  fullName: SQLiteDBProvider.SQLiteDBProvider.IsConnected
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: IsConnected
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 27
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public bool IsConnected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsConnected As Boolean
+  overload: SQLiteDBProvider.SQLiteDBProvider.IsConnected*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SQLiteDBProvider.SQLiteDBProvider.Connect(System.String)
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.Connect(System.String)
+  id: Connect(System.String)
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: Connect(String)
+  nameWithType: SQLiteDBProvider.Connect(String)
+  fullName: SQLiteDBProvider.SQLiteDBProvider.Connect(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: Connect
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 29
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public void Connect(string fullName)
+    parameters:
+    - id: fullName
+      type: System.String
+    content.vb: Public Sub Connect(fullName As String)
+  overload: SQLiteDBProvider.SQLiteDBProvider.Connect*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SQLiteDBProvider.SQLiteDBProvider.Disconnect
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.Disconnect
+  id: Disconnect
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: SQLiteDBProvider.Disconnect()
+  fullName: SQLiteDBProvider.SQLiteDBProvider.Disconnect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: Disconnect
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 45
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public void Disconnect()
+    content.vb: Public Sub Disconnect
+  overload: SQLiteDBProvider.SQLiteDBProvider.Disconnect*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  id: ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: ReceiveHistoryFromDatabase(ReceiveHistoryRequest)
+  nameWithType: SQLiteDBProvider.ReceiveHistoryFromDatabase(ReceiveHistoryRequest)
+  fullName: SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: ReceiveHistoryFromDatabase
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 57
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public IList<IHistoryItem> ReceiveHistoryFromDatabase(ReceiveHistoryRequest receiveHistoryRequest)
+    parameters:
+    - id: receiveHistoryRequest
+      type: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+    content.vb: Public Function ReceiveHistoryFromDatabase(receiveHistoryRequest As ReceiveHistoryRequest) As IList(Of IHistoryItem)
+  overload: SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  id: GetDataRequestsByDescriptionId(System.Int32)
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDataRequestsByDescriptionId(Int32)
+  nameWithType: SQLiteDBProvider.GetDataRequestsByDescriptionId(Int32)
+  fullName: SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: GetDataRequestsByDescriptionId
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 172
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public List<DateHistoryInterval> GetDataRequestsByDescriptionId(int descriptionId)
+    parameters:
+    - id: descriptionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval}
+    content.vb: Public Function GetDataRequestsByDescriptionId(descriptionId As Integer) As List(Of DateHistoryInterval)
+  overload: SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  id: GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDescriptionId(HistoryDescription)
+  nameWithType: SQLiteDBProvider.GetDescriptionId(HistoryDescription)
+  fullName: SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: GetDescriptionId
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 187
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public int GetDescriptionId(HistoryDescription descriptionParams)
+    parameters:
+    - id: descriptionParams
+      type: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+    return:
+      type: System.Int32
+    content.vb: Public Function GetDescriptionId(descriptionParams As HistoryDescription) As Integer
+  overload: SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SQLiteDBProvider.SQLiteDBProvider.Initialize(System.String)
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: Initialize(String)
+  nameWithType: SQLiteDBProvider.Initialize(String)
+  fullName: SQLiteDBProvider.SQLiteDBProvider.Initialize(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: Initialize
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 218
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public void Initialize(string fullName)
+    parameters:
+    - id: fullName
+      type: System.String
+    content.vb: Public Sub Initialize(fullName As String)
+  overload: SQLiteDBProvider.SQLiteDBProvider.Initialize*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  commentId: M:SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  id: RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  parent: SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: RecordHistoryToDatabase(RecordHistoryRequest)
+  nameWithType: SQLiteDBProvider.RecordHistoryToDatabase(RecordHistoryRequest)
+  fullName: SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    id: RecordHistoryToDatabase
+    path: ../BusinessLayer/Modules/DBProviders/SQLiteDBProvider/SQLiteDBProvider.cs
+    startLine: 300
+  assemblies:
+  - SQLiteDBProvider
+  namespace: SQLiteDBProvider
+  syntax:
+    content: public void RecordHistoryToDatabase(RecordHistoryRequest recordHistoryRequest)
+    parameters:
+    - id: recordHistoryRequest
+      type: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+    content.vb: Public Sub RecordHistoryToDatabase(recordHistoryRequest As RecordHistoryRequest)
+  overload: SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase*
+  implements:
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SQLiteDBProvider
+  commentId: N:SQLiteDBProvider
+  name: SQLiteDBProvider
+  nameWithType: SQLiteDBProvider
+  fullName: SQLiteDBProvider
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: IDBProvider
+  nameWithType: IDBProvider
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.History.DB
+  commentId: N:TradingPlatform.BusinessLayer.History.DB
+  name: TradingPlatform.BusinessLayer.History.DB
+  nameWithType: TradingPlatform.BusinessLayer.History.DB
+  fullName: TradingPlatform.BusinessLayer.History.DB
+- uid: SQLiteDBProvider.SQLiteDBProvider.IsConnected*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.IsConnected
+  name: IsConnected
+  nameWithType: SQLiteDBProvider.IsConnected
+  fullName: SQLiteDBProvider.SQLiteDBProvider.IsConnected
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  commentId: P:TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  name: IsConnected
+  nameWithType: IDBProvider.IsConnected
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.IsConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SQLiteDBProvider.SQLiteDBProvider.Connect*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.Connect
+  name: Connect
+  nameWithType: SQLiteDBProvider.Connect
+  fullName: SQLiteDBProvider.SQLiteDBProvider.Connect
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  isExternal: true
+  name: Connect(String)
+  nameWithType: IDBProvider.Connect(String)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+    name: Connect
+    nameWithType: IDBProvider.Connect
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect(System.String)
+    name: Connect
+    nameWithType: IDBProvider.Connect
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Connect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SQLiteDBProvider.SQLiteDBProvider.Disconnect*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.Disconnect
+  name: Disconnect
+  nameWithType: SQLiteDBProvider.Disconnect
+  fullName: SQLiteDBProvider.SQLiteDBProvider.Disconnect
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  name: Disconnect()
+  nameWithType: IDBProvider.Disconnect()
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+    name: Disconnect
+    nameWithType: IDBProvider.Disconnect
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+    name: Disconnect
+    nameWithType: IDBProvider.Disconnect
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Disconnect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase
+  name: ReceiveHistoryFromDatabase
+  nameWithType: SQLiteDBProvider.ReceiveHistoryFromDatabase
+  fullName: SQLiteDBProvider.SQLiteDBProvider.ReceiveHistoryFromDatabase
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  name: ReceiveHistoryFromDatabase(ReceiveHistoryRequest)
+  nameWithType: IDBProvider.ReceiveHistoryFromDatabase(ReceiveHistoryRequest)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+    name: ReceiveHistoryFromDatabase
+    nameWithType: IDBProvider.ReceiveHistoryFromDatabase
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+    name: ReceiveHistoryRequest
+    nameWithType: ReceiveHistoryRequest
+    fullName: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase(TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest)
+    name: ReceiveHistoryFromDatabase
+    nameWithType: IDBProvider.ReceiveHistoryFromDatabase
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.ReceiveHistoryFromDatabase
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+    name: ReceiveHistoryRequest
+    nameWithType: ReceiveHistoryRequest
+    fullName: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: ReceiveHistoryRequest
+  nameWithType: ReceiveHistoryRequest
+  fullName: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IHistoryItem>
+  nameWithType: IList<IHistoryItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.IHistoryItem>
+  nameWithType.vb: IList(Of IHistoryItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.IHistoryItem)
+  name.vb: IList(Of IHistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId
+  name: GetDataRequestsByDescriptionId
+  nameWithType: SQLiteDBProvider.GetDataRequestsByDescriptionId
+  fullName: SQLiteDBProvider.SQLiteDBProvider.GetDataRequestsByDescriptionId
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  isExternal: true
+  name: GetDataRequestsByDescriptionId(Int32)
+  nameWithType: IDBProvider.GetDataRequestsByDescriptionId(Int32)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+    name: GetDataRequestsByDescriptionId
+    nameWithType: IDBProvider.GetDataRequestsByDescriptionId
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId(System.Int32)
+    name: GetDataRequestsByDescriptionId
+    nameWithType: IDBProvider.GetDataRequestsByDescriptionId
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDataRequestsByDescriptionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DateHistoryInterval>
+  nameWithType: List<DateHistoryInterval>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval>
+  nameWithType.vb: List(Of DateHistoryInterval)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval)
+  name.vb: List(Of DateHistoryInterval)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+    name: DateHistoryInterval
+    nameWithType: DateHistoryInterval
+    fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+    name: DateHistoryInterval
+    nameWithType: DateHistoryInterval
+    fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId
+  name: GetDescriptionId
+  nameWithType: SQLiteDBProvider.GetDescriptionId
+  fullName: SQLiteDBProvider.SQLiteDBProvider.GetDescriptionId
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  name: GetDescriptionId(HistoryDescription)
+  nameWithType: IDBProvider.GetDescriptionId(HistoryDescription)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+    name: GetDescriptionId
+    nameWithType: IDBProvider.GetDescriptionId
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+    name: HistoryDescription
+    nameWithType: HistoryDescription
+    fullName: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId(TradingPlatform.BusinessLayer.History.DB.HistoryDescription)
+    name: GetDescriptionId
+    nameWithType: IDBProvider.GetDescriptionId
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.GetDescriptionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+    name: HistoryDescription
+    nameWithType: HistoryDescription
+    fullName: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: HistoryDescription
+  nameWithType: HistoryDescription
+  fullName: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+- uid: SQLiteDBProvider.SQLiteDBProvider.Initialize*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.Initialize
+  name: Initialize
+  nameWithType: SQLiteDBProvider.Initialize
+  fullName: SQLiteDBProvider.SQLiteDBProvider.Initialize
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  isExternal: true
+  name: Initialize(String)
+  nameWithType: IDBProvider.Initialize(String)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+    name: Initialize
+    nameWithType: IDBProvider.Initialize
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize(System.String)
+    name: Initialize
+    nameWithType: IDBProvider.Initialize
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase*
+  commentId: Overload:SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase
+  name: RecordHistoryToDatabase
+  nameWithType: SQLiteDBProvider.RecordHistoryToDatabase
+  fullName: SQLiteDBProvider.SQLiteDBProvider.RecordHistoryToDatabase
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  commentId: M:TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  parent: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  name: RecordHistoryToDatabase(RecordHistoryRequest)
+  nameWithType: IDBProvider.RecordHistoryToDatabase(RecordHistoryRequest)
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+    name: RecordHistoryToDatabase
+    nameWithType: IDBProvider.RecordHistoryToDatabase
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+    name: RecordHistoryRequest
+    nameWithType: RecordHistoryRequest
+    fullName: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase(TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest)
+    name: RecordHistoryToDatabase
+    nameWithType: IDBProvider.RecordHistoryToDatabase
+    fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider.RecordHistoryToDatabase
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+    name: RecordHistoryRequest
+    nameWithType: RecordHistoryRequest
+    fullName: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: RecordHistoryRequest
+  nameWithType: RecordHistoryRequest
+  fullName: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest

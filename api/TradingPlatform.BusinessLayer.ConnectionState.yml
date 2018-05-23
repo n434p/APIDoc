@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ConnectionState
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionState
+  id: ConnectionState
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ConnectionState.Connected
+  - TradingPlatform.BusinessLayer.ConnectionState.Connecting
+  - TradingPlatform.BusinessLayer.ConnectionState.ConnectionLost
+  - TradingPlatform.BusinessLayer.ConnectionState.Disconnected
+  - TradingPlatform.BusinessLayer.ConnectionState.Disconnecting
+  - TradingPlatform.BusinessLayer.ConnectionState.Fail
+  langs:
+  - csharp
+  - vb
+  name: ConnectionState
+  nameWithType: ConnectionState
+  fullName: TradingPlatform.BusinessLayer.ConnectionState
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: ConnectionState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nServer connection status\n"
+  example: []
+  syntax:
+    content: public enum ConnectionState
+    content.vb: Public Enum ConnectionState
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.ConnectionState.Connected
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionState.Connected
+  id: Connected
+  parent: TradingPlatform.BusinessLayer.ConnectionState
+  langs:
+  - csharp
+  - vb
+  name: Connected
+  nameWithType: ConnectionState.Connected
+  fullName: TradingPlatform.BusinessLayer.ConnectionState.Connected
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Connected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Connected = 0
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionState.Connecting
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionState.Connecting
+  id: Connecting
+  parent: TradingPlatform.BusinessLayer.ConnectionState
+  langs:
+  - csharp
+  - vb
+  name: Connecting
+  nameWithType: ConnectionState.Connecting
+  fullName: TradingPlatform.BusinessLayer.ConnectionState.Connecting
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Connecting
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Connecting = 1
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionState.Disconnected
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionState.Disconnected
+  id: Disconnected
+  parent: TradingPlatform.BusinessLayer.ConnectionState
+  langs:
+  - csharp
+  - vb
+  name: Disconnected
+  nameWithType: ConnectionState.Disconnected
+  fullName: TradingPlatform.BusinessLayer.ConnectionState.Disconnected
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Disconnected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Disconnected = 2
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionState.Disconnecting
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionState.Disconnecting
+  id: Disconnecting
+  parent: TradingPlatform.BusinessLayer.ConnectionState
+  langs:
+  - csharp
+  - vb
+  name: Disconnecting
+  nameWithType: ConnectionState.Disconnecting
+  fullName: TradingPlatform.BusinessLayer.ConnectionState.Disconnecting
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Disconnecting
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Disconnecting = 3
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionState.ConnectionLost
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionState.ConnectionLost
+  id: ConnectionLost
+  parent: TradingPlatform.BusinessLayer.ConnectionState
+  langs:
+  - csharp
+  - vb
+  name: ConnectionLost
+  nameWithType: ConnectionState.ConnectionLost
+  fullName: TradingPlatform.BusinessLayer.ConnectionState.ConnectionLost
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: ConnectionLost
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ConnectionLost = 4
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.ConnectionState.Fail
+  commentId: F:TradingPlatform.BusinessLayer.ConnectionState.Fail
+  id: Fail
+  parent: TradingPlatform.BusinessLayer.ConnectionState
+  langs:
+  - csharp
+  - vb
+  name: Fail
+  nameWithType: ConnectionState.Fail
+  fullName: TradingPlatform.BusinessLayer.ConnectionState.Fail
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    id: Fail
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionEnums.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Fail = 5
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.ConnectionState
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionState
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionState
+  nameWithType: ConnectionState
+  fullName: TradingPlatform.BusinessLayer.ConnectionState

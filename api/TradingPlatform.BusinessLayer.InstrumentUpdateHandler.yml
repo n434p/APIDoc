@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+  id: InstrumentUpdateHandler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: InstrumentUpdateHandler
+  nameWithType: InstrumentUpdateHandler
+  fullName: TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: InstrumentUpdateHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1274
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void InstrumentUpdateHandler(Instrument instrument);
+    parameters:
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public Delegate Sub InstrumentUpdateHandler(instrument As Instrument)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument

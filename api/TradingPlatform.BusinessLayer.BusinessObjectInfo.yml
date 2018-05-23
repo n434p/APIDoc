@@ -1,0 +1,942 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObjectInfo
+  id: BusinessObjectInfo
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.Id
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.Name
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Equality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Inequality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  - TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement
+  langs:
+  - csharp
+  - vb
+  name: BusinessObjectInfo
+  nameWithType: BusinessObjectInfo
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: BusinessObjectInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [Serializable]
+
+      [DataContract]
+
+      public class BusinessObjectInfo : IXElementSerialization
+    content.vb: >-
+      <Serializable>
+
+      <DataContract>
+
+      Public Class BusinessObjectInfo
+          Implements IXElementSerialization
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Id
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObjectInfo.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: BusinessObjectInfo.Id
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Id")]
+
+      public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Id")>
+
+      Public ReadOnly Property Id As String
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Id
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId
+  id: ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: BusinessObjectInfo.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: ConnectionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "ConnectionId")]
+
+      public string ConnectionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="ConnectionId")>
+
+      Public ReadOnly Property ConnectionId As String
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ConnectionId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Name
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObjectInfo.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: BusinessObjectInfo.Name
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Name")]
+
+      public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Name")>
+
+      Public ReadOnly Property Name As String
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty
+  id: Empty
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: BusinessObjectInfo.Empty
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: Empty
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static BusinessObjectInfo Empty { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    content.vb: Public Shared ReadOnly Property Empty As BusinessObjectInfo
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: BusinessObjectInfo.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: BusinessObjectInfo.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Equality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Equality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  id: op_Equality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Equality(BusinessObjectInfo, BusinessObjectInfo)
+  nameWithType: BusinessObjectInfo.Equality(BusinessObjectInfo, BusinessObjectInfo)
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equality(TradingPlatform.BusinessLayer.BusinessObjectInfo, TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: op_Equality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 45
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator ==(BusinessObjectInfo info1, BusinessObjectInfo info2)
+    parameters:
+    - id: info1
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    - id: info2
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(info1 As BusinessObjectInfo, info2 As BusinessObjectInfo) As Boolean
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Inequality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Inequality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  id: op_Inequality(TradingPlatform.BusinessLayer.BusinessObjectInfo,TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Inequality(BusinessObjectInfo, BusinessObjectInfo)
+  nameWithType: BusinessObjectInfo.Inequality(BusinessObjectInfo, BusinessObjectInfo)
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Inequality(TradingPlatform.BusinessLayer.BusinessObjectInfo, TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: op_Inequality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator !=(BusinessObjectInfo info1, BusinessObjectInfo info2)
+    parameters:
+    - id: info1
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    - id: info2
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(info1 As BusinessObjectInfo, info2 As BusinessObjectInfo) As Boolean
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: BusinessObjectInfo.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: BusinessObjectInfo.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/BusinessObjectInfo.cs
+    startLine: 66
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.Id
+  name: Id
+  nameWithType: BusinessObjectInfo.Id
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId
+  name: ConnectionId
+  nameWithType: BusinessObjectInfo.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.Name
+  name: Name
+  nameWithType: BusinessObjectInfo.Name
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Name
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty
+  name: Empty
+  nameWithType: BusinessObjectInfo.Empty
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Empty
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObjectInfo
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObjectInfo
+  nameWithType: BusinessObjectInfo
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement
+  name: ToXElement
+  nameWithType: BusinessObjectInfo.ToXElement
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement
+  name: FromXElement
+  nameWithType: BusinessObjectInfo.FromXElement
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Equality*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Equality
+  name: Equality
+  nameWithType: BusinessObjectInfo.Equality
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equality
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Inequality*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.op_Inequality
+  name: Inequality
+  nameWithType: BusinessObjectInfo.Inequality
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Inequality
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals
+  name: Equals
+  nameWithType: BusinessObjectInfo.Equals
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode
+  name: GetHashCode
+  nameWithType: BusinessObjectInfo.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

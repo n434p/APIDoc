@@ -1,0 +1,1140 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  commentId: T:TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  id: HotKeyInformation
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys,System.String,System.String)
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement
+  langs:
+  - csharp
+  - vb
+  name: HotKeyInformation
+  nameWithType: HotKeyInformation
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: HotKeyInformation
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: >-
+      [Serializable]
+
+      [DataContract]
+
+      public class HotKeyInformation : IEquatable<HotKeyInformation>, IXElementSerialization
+    content.vb: >-
+      <Serializable>
+
+      <DataContract>
+
+      Public Class HotKeyInformation
+          Implements IEquatable(Of HotKeyInformation), IXElementSerialization
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id
+  commentId: P:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: HotKeyInformation.Id
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: >-
+      [DataMember(Name = "Id")]
+
+      public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Id")>
+
+      Public Property Id As String
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key
+  commentId: P:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key
+  id: Key
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: HotKeyInformation.Key
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: Key
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: >-
+      [DataMember(Name = "Key")]
+
+      public NativeKey Key { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+    content.vb: >-
+      <DataMember(Name:="Key")>
+
+      Public Property Key As NativeKey
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Key
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers
+  commentId: P:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers
+  id: Modifiers
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: Modifiers
+  nameWithType: HotKeyInformation.Modifiers
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: Modifiers
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: >-
+      [DataMember(Name = "Modifiers")]
+
+      public NativeModifierKeys Modifiers { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+    content.vb: >-
+      <DataMember(Name:="Modifiers")>
+
+      Public Property Modifiers As NativeModifierKeys
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Modifiers
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name
+  commentId: P:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: HotKeyInformation.Name
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys,System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys,System.String,System.String)
+  id: '#ctor(TradingPlatform.BusinessLayer.NativeKey,TradingPlatform.BusinessLayer.NativeModifierKeys,System.String,System.String)'
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: HotKeyInformation(NativeKey, NativeModifierKeys, String, String)
+  nameWithType: HotKeyInformation.HotKeyInformation(NativeKey, NativeModifierKeys, String, String)
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.HotKeyInformation(TradingPlatform.BusinessLayer.NativeKey, TradingPlatform.BusinessLayer.NativeModifierKeys, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public HotKeyInformation(NativeKey key, NativeModifierKeys modifiers, string name, string id)
+    parameters:
+    - id: key
+      type: TradingPlatform.BusinessLayer.NativeKey
+    - id: modifiers
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+    - id: name
+      type: System.String
+    - id: id
+      type: System.String
+    content.vb: Public Sub New(key As NativeKey, modifiers As NativeModifierKeys, name As String, id As String)
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: HotKeyInformation()
+  nameWithType: HotKeyInformation.HotKeyInformation()
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.HotKeyInformation()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public HotKeyInformation()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  id: Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: Equals(HotKeyInformation)
+  nameWithType: HotKeyInformation.Equals(HotKeyInformation)
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public bool Equals(HotKeyInformation other)
+    parameters:
+    - id: other
+      type: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As HotKeyInformation) As Boolean
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals*
+  implements:
+  - System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: HotKeyInformation.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: HotKeyInformation.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: HotKeyInformation.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 72
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: HotKeyInformation.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/HotKeyInformation.cs
+    startLine: 83
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}
+  commentId: T:System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<HotKeyInformation>
+  nameWithType: IEquatable<HotKeyInformation>
+  fullName: System.IEquatable<TradingPlatform.BusinessLayer.Utils.HotKeyInformation>
+  nameWithType.vb: IEquatable(Of HotKeyInformation)
+  fullName.vb: System.IEquatable(Of TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  name.vb: IEquatable(Of HotKeyInformation)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+    name: HotKeyInformation
+    nameWithType: HotKeyInformation
+    fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+    name: HotKeyInformation
+    nameWithType: HotKeyInformation
+    fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id
+  name: Id
+  nameWithType: HotKeyInformation.Id
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key
+  name: Key
+  nameWithType: HotKeyInformation.Key
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Key
+- uid: TradingPlatform.BusinessLayer.NativeKey
+  commentId: T:TradingPlatform.BusinessLayer.NativeKey
+  parent: TradingPlatform.BusinessLayer
+  name: NativeKey
+  nameWithType: NativeKey
+  fullName: TradingPlatform.BusinessLayer.NativeKey
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers
+  name: Modifiers
+  nameWithType: HotKeyInformation.Modifiers
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Modifiers
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys
+  commentId: T:TradingPlatform.BusinessLayer.NativeModifierKeys
+  parent: TradingPlatform.BusinessLayer
+  name: NativeModifierKeys
+  nameWithType: NativeModifierKeys
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name
+  name: Name
+  nameWithType: HotKeyInformation.Name
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Name
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.#ctor
+  name: HotKeyInformation
+  nameWithType: HotKeyInformation.HotKeyInformation
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.HotKeyInformation
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals
+  name: Equals
+  nameWithType: HotKeyInformation.Equals
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.Equals
+- uid: System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  commentId: M:System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  parent: System.IEquatable{TradingPlatform.BusinessLayer.Utils.HotKeyInformation}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(HotKeyInformation)
+  nameWithType: IEquatable<HotKeyInformation>.Equals(HotKeyInformation)
+  fullName: System.IEquatable<TradingPlatform.BusinessLayer.Utils.HotKeyInformation>.Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  nameWithType.vb: IEquatable(Of HotKeyInformation).Equals(HotKeyInformation)
+  fullName.vb: System.IEquatable(Of TradingPlatform.BusinessLayer.Utils.HotKeyInformation).Equals(TradingPlatform.BusinessLayer.Utils.HotKeyInformation)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<HotKeyInformation>.Equals
+    fullName: System.IEquatable<TradingPlatform.BusinessLayer.Utils.HotKeyInformation>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+    name: HotKeyInformation
+    nameWithType: HotKeyInformation
+    fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of HotKeyInformation).Equals
+    fullName: System.IEquatable(Of TradingPlatform.BusinessLayer.Utils.HotKeyInformation).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+    name: HotKeyInformation
+    nameWithType: HotKeyInformation
+    fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  commentId: T:TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: HotKeyInformation
+  nameWithType: HotKeyInformation
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode
+  name: GetHashCode
+  nameWithType: HotKeyInformation.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement
+  name: ToXElement
+  nameWithType: HotKeyInformation.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement
+  name: FromXElement
+  nameWithType: HotKeyInformation.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo

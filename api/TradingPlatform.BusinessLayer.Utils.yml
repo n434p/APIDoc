@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  id: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  - TradingPlatform.BusinessLayer.Utils.ActionWrapper
+  - TradingPlatform.BusinessLayer.Utils.AlertData
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+  - TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers`2
+  - TradingPlatform.BusinessLayer.Utils.ColumnBaseInformation
+  - TradingPlatform.BusinessLayer.Utils.ConditionGroup
+  - TradingPlatform.BusinessLayer.Utils.ConditionItem
+  - TradingPlatform.BusinessLayer.Utils.Const
+  - TradingPlatform.BusinessLayer.Utils.CoreMath
+  - TradingPlatform.BusinessLayer.Utils.FormatSettings
+  - TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  - TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  - TradingPlatform.BusinessLayer.Utils.LineOptions
+  - TradingPlatform.BusinessLayer.Utils.Rss
+  - TradingPlatform.BusinessLayer.Utils.RssItem
+  - TradingPlatform.BusinessLayer.Utils.TableBaseType
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  commentId: T:TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+  name: ActionBufferedProcessor
+  nameWithType: ActionBufferedProcessor
+  fullName: TradingPlatform.BusinessLayer.Utils.ActionBufferedProcessor
+- uid: TradingPlatform.BusinessLayer.Utils.ActionWrapper
+  commentId: T:TradingPlatform.BusinessLayer.Utils.ActionWrapper
+  name: ActionWrapper
+  nameWithType: ActionWrapper
+  fullName: TradingPlatform.BusinessLayer.Utils.ActionWrapper
+- uid: TradingPlatform.BusinessLayer.Utils.AlertData
+  commentId: T:TradingPlatform.BusinessLayer.Utils.AlertData
+  name: AlertData
+  nameWithType: AlertData
+  fullName: TradingPlatform.BusinessLayer.Utils.AlertData
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+  commentId: T:TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+  name: BufferedProcessor<T>
+  nameWithType: BufferedProcessor<T>
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor<T>
+  nameWithType.vb: BufferedProcessor(Of T)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessor(Of T)
+  name.vb: BufferedProcessor(Of T)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor
+    nameWithType: BufferedProcessor
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessor`1
+    name: BufferedProcessor
+    nameWithType: BufferedProcessor
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers`2
+  commentId: T:TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers`2
+  name: BufferedProcessorWithSubscribers<TKey, TValue>
+  nameWithType: BufferedProcessorWithSubscribers<TKey, TValue>
+  fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers<TKey, TValue>
+  nameWithType.vb: BufferedProcessorWithSubscribers(Of TKey, TValue)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers(Of TKey, TValue)
+  name.vb: BufferedProcessorWithSubscribers(Of TKey, TValue)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers`2
+    name: BufferedProcessorWithSubscribers
+    nameWithType: BufferedProcessorWithSubscribers
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers`2
+    name: BufferedProcessorWithSubscribers
+    nameWithType: BufferedProcessorWithSubscribers
+    fullName: TradingPlatform.BusinessLayer.Utils.BufferedProcessorWithSubscribers
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  commentId: T:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  name: IBufferedProcessorValue<TKey>
+  nameWithType: IBufferedProcessorValue<TKey>
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<TKey>
+  nameWithType.vb: IBufferedProcessorValue(Of TKey)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of TKey)
+  name.vb: IBufferedProcessorValue(Of TKey)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue
+    nameWithType: IBufferedProcessorValue
+    fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue
+    nameWithType: IBufferedProcessorValue
+    fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils.ColumnBaseInformation
+  commentId: T:TradingPlatform.BusinessLayer.Utils.ColumnBaseInformation
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: ColumnBaseInformation
+  nameWithType: ColumnBaseInformation
+  fullName: TradingPlatform.BusinessLayer.Utils.ColumnBaseInformation
+- uid: TradingPlatform.BusinessLayer.Utils.ConditionGroup
+  commentId: T:TradingPlatform.BusinessLayer.Utils.ConditionGroup
+  name: ConditionGroup
+  nameWithType: ConditionGroup
+  fullName: TradingPlatform.BusinessLayer.Utils.ConditionGroup
+- uid: TradingPlatform.BusinessLayer.Utils.ConditionItem
+  commentId: T:TradingPlatform.BusinessLayer.Utils.ConditionItem
+  name: ConditionItem
+  nameWithType: ConditionItem
+  fullName: TradingPlatform.BusinessLayer.Utils.ConditionItem
+- uid: TradingPlatform.BusinessLayer.Utils.Const
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Const
+  name: Const
+  nameWithType: Const
+  fullName: TradingPlatform.BusinessLayer.Utils.Const
+- uid: TradingPlatform.BusinessLayer.Utils.CoreMath
+  commentId: T:TradingPlatform.BusinessLayer.Utils.CoreMath
+  name: CoreMath
+  nameWithType: CoreMath
+  fullName: TradingPlatform.BusinessLayer.Utils.CoreMath
+- uid: TradingPlatform.BusinessLayer.Utils.FormatSettings
+  commentId: T:TradingPlatform.BusinessLayer.Utils.FormatSettings
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: FormatSettings
+  nameWithType: FormatSettings
+  fullName: TradingPlatform.BusinessLayer.Utils.FormatSettings
+- uid: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  commentId: T:TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: HotKeyInformation
+  nameWithType: HotKeyInformation
+  fullName: TradingPlatform.BusinessLayer.Utils.HotKeyInformation
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions
+  commentId: T:TradingPlatform.BusinessLayer.Utils.LineOptions
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: LineOptions
+  nameWithType: LineOptions
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions
+- uid: TradingPlatform.BusinessLayer.Utils.Rss
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Rss
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: Rss
+  nameWithType: Rss
+  fullName: TradingPlatform.BusinessLayer.Utils.Rss
+- uid: TradingPlatform.BusinessLayer.Utils.RssItem
+  commentId: T:TradingPlatform.BusinessLayer.Utils.RssItem
+  name: RssItem
+  nameWithType: RssItem
+  fullName: TradingPlatform.BusinessLayer.Utils.RssItem
+- uid: TradingPlatform.BusinessLayer.Utils.TableBaseType
+  commentId: T:TradingPlatform.BusinessLayer.Utils.TableBaseType
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: TableBaseType
+  nameWithType: TableBaseType
+  fullName: TradingPlatform.BusinessLayer.Utils.TableBaseType
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  commentId: T:TradingPlatform.BusinessLayer.Utils.TableConditionType
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: TableConditionType
+  nameWithType: TableConditionType
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils

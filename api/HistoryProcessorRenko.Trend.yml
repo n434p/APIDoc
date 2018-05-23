@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: HistoryProcessorRenko.Trend
+  commentId: T:HistoryProcessorRenko.Trend
+  id: Trend
+  parent: HistoryProcessorRenko
+  children:
+  - HistoryProcessorRenko.Trend.Down
+  - HistoryProcessorRenko.Trend.Unknown
+  - HistoryProcessorRenko.Trend.Up
+  langs:
+  - csharp
+  - vb
+  name: Trend
+  nameWithType: Trend
+  fullName: HistoryProcessorRenko.Trend
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    id: Trend
+    path: ../BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    startLine: 4
+  assemblies:
+  - HistoryProcessorRenko
+  namespace: HistoryProcessorRenko
+  syntax:
+    content: public enum Trend
+    content.vb: Public Enum Trend
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: HistoryProcessorRenko.Trend.Unknown
+  commentId: F:HistoryProcessorRenko.Trend.Unknown
+  id: Unknown
+  parent: HistoryProcessorRenko.Trend
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Trend.Unknown
+  fullName: HistoryProcessorRenko.Trend.Unknown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    id: Unknown
+    path: ../BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    startLine: 6
+  assemblies:
+  - HistoryProcessorRenko
+  namespace: HistoryProcessorRenko
+  syntax:
+    content: Unknown = 0
+    return:
+      type: HistoryProcessorRenko.Trend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: HistoryProcessorRenko.Trend.Up
+  commentId: F:HistoryProcessorRenko.Trend.Up
+  id: Up
+  parent: HistoryProcessorRenko.Trend
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: Trend.Up
+  fullName: HistoryProcessorRenko.Trend.Up
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    id: Up
+    path: ../BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    startLine: 7
+  assemblies:
+  - HistoryProcessorRenko
+  namespace: HistoryProcessorRenko
+  syntax:
+    content: Up = 1
+    return:
+      type: HistoryProcessorRenko.Trend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: HistoryProcessorRenko.Trend.Down
+  commentId: F:HistoryProcessorRenko.Trend.Down
+  id: Down
+  parent: HistoryProcessorRenko.Trend
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: Trend.Down
+  fullName: HistoryProcessorRenko.Trend.Down
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    id: Down
+    path: ../BusinessLayer/Modules/Aggregators/AggregatorRenko/Enums.cs
+    startLine: 8
+  assemblies:
+  - HistoryProcessorRenko
+  namespace: HistoryProcessorRenko
+  syntax:
+    content: Down = 2
+    return:
+      type: HistoryProcessorRenko.Trend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: HistoryProcessorRenko
+  commentId: N:HistoryProcessorRenko
+  name: HistoryProcessorRenko
+  nameWithType: HistoryProcessorRenko
+  fullName: HistoryProcessorRenko
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: HistoryProcessorRenko.Trend
+  commentId: T:HistoryProcessorRenko.Trend
+  parent: HistoryProcessorRenko
+  name: Trend
+  nameWithType: Trend
+  fullName: HistoryProcessorRenko.Trend

@@ -1,0 +1,860 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  id: MessageDealTicket
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.#ctor(System.String,System.String,TradingPlatform.BusinessLayer.DealTicketType,TradingPlatform.BusinessLayer.DealTicketTradingType,TradingPlatform.BusinessLayer.DealTicketPriority)
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine(System.String,System.String)
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType
+  - TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type
+  langs:
+  - csharp
+  - vb
+  name: MessageDealTicket
+  nameWithType: MessageDealTicket
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: MessageDealTicket
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataContract(Name = "DealTicket", Namespace = "TradingPlatform")]
+
+      public sealed class MessageDealTicket : Message
+    content.vb: >-
+      <DataContract(Name:="DealTicket", Namespace:="TradingPlatform")>
+
+      Public NotInheritable Class MessageDealTicket
+          Inherits Message
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: DealTicket
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageDealTicket.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header
+  id: Header
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: MessageDealTicket.Header
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: Header
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Header")]
+
+      public string Header { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Header")>
+
+      Public ReadOnly Property Header As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Header
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description
+  id: Description
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MessageDealTicket.Description
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: Description
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Description")]
+
+      public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Description")>
+
+      Public ReadOnly Property Description As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Description
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType
+  id: DealTicketType
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: DealTicketType
+  nameWithType: MessageDealTicket.DealTicketType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: DealTicketType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "DealTicketType")]
+
+      public DealTicketType DealTicketType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicketType
+    content.vb: >-
+      <DataMember(Name:="DealTicketType")>
+
+      Public ReadOnly Property DealTicketType As DealTicketType
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: DealTicketType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority
+  id: DealTicketPriority
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: DealTicketPriority
+  nameWithType: MessageDealTicket.DealTicketPriority
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: DealTicketPriority
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "DealTicketPriority")]
+
+      public DealTicketPriority DealTicketPriority { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicketPriority
+    content.vb: >-
+      <DataMember(Name:="DealTicketPriority")>
+
+      Public ReadOnly Property DealTicketPriority As DealTicketPriority
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: DealTicketPriority
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items
+  id: Items
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: MessageDealTicket.Items
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: Items
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Items")]
+
+      public DealTicketItem[] Items { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicketItem[]
+    content.vb: >-
+      <DataMember(Name:="Items")>
+
+      Public ReadOnly Property Items As DealTicketItem()
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Items
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType
+  id: TradingType
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: TradingType
+  nameWithType: MessageDealTicket.TradingType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: TradingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public DealTicketTradingType TradingType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicketTradingType
+    content.vb: Public ReadOnly Property TradingType As DealTicketTradingType
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.#ctor(System.String,System.String,TradingPlatform.BusinessLayer.DealTicketType,TradingPlatform.BusinessLayer.DealTicketTradingType,TradingPlatform.BusinessLayer.DealTicketPriority)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.#ctor(System.String,System.String,TradingPlatform.BusinessLayer.DealTicketType,TradingPlatform.BusinessLayer.DealTicketTradingType,TradingPlatform.BusinessLayer.DealTicketPriority)
+  id: '#ctor(System.String,System.String,TradingPlatform.BusinessLayer.DealTicketType,TradingPlatform.BusinessLayer.DealTicketTradingType,TradingPlatform.BusinessLayer.DealTicketPriority)'
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: MessageDealTicket(String, String, DealTicketType, DealTicketTradingType, DealTicketPriority)
+  nameWithType: MessageDealTicket.MessageDealTicket(String, String, DealTicketType, DealTicketTradingType, DealTicketPriority)
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.MessageDealTicket(System.String, System.String, TradingPlatform.BusinessLayer.DealTicketType, TradingPlatform.BusinessLayer.DealTicketTradingType, TradingPlatform.BusinessLayer.DealTicketPriority)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public MessageDealTicket(string header, string description = "", DealTicketType dealTicketType = DealTicketType.Trading, DealTicketTradingType tradingType = DealTicketTradingType.Info, DealTicketPriority dealTicketPriority = DealTicketPriority.Low)
+    parameters:
+    - id: header
+      type: System.String
+    - id: description
+      type: System.String
+    - id: dealTicketType
+      type: TradingPlatform.BusinessLayer.DealTicketType
+    - id: tradingType
+      type: TradingPlatform.BusinessLayer.DealTicketTradingType
+    - id: dealTicketPriority
+      type: TradingPlatform.BusinessLayer.DealTicketPriority
+    content.vb: Public Sub New(header As String, description As String = "", dealTicketType As DealTicketType = DealTicketType.Trading, tradingType As DealTicketTradingType = DealTicketTradingType.Info, dealTicketPriority As DealTicketPriority = DealTicketPriority.Low)
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine(System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine(System.String,System.String)
+  id: AddLine(System.String,System.String)
+  parent: TradingPlatform.BusinessLayer.Integration.MessageDealTicket
+  langs:
+  - csharp
+  - vb
+  name: AddLine(String, String)
+  nameWithType: MessageDealTicket.AddLine(String, String)
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    id: AddLine
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageDealTicket.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void AddLine(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub AddLine(key As String, value As String)
+  overload: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type
+  name: Type
+  nameWithType: MessageDealTicket.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header
+  name: Header
+  nameWithType: MessageDealTicket.Header
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Header
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description
+  name: Description
+  nameWithType: MessageDealTicket.Description
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Description
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType
+  name: DealTicketType
+  nameWithType: MessageDealTicket.DealTicketType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketType
+- uid: TradingPlatform.BusinessLayer.DealTicketType
+  commentId: T:TradingPlatform.BusinessLayer.DealTicketType
+  parent: TradingPlatform.BusinessLayer
+  name: DealTicketType
+  nameWithType: DealTicketType
+  fullName: TradingPlatform.BusinessLayer.DealTicketType
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority
+  name: DealTicketPriority
+  nameWithType: MessageDealTicket.DealTicketPriority
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.DealTicketPriority
+- uid: TradingPlatform.BusinessLayer.DealTicketPriority
+  commentId: T:TradingPlatform.BusinessLayer.DealTicketPriority
+  parent: TradingPlatform.BusinessLayer
+  name: DealTicketPriority
+  nameWithType: DealTicketPriority
+  fullName: TradingPlatform.BusinessLayer.DealTicketPriority
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items
+  name: Items
+  nameWithType: MessageDealTicket.Items
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.Items
+- uid: TradingPlatform.BusinessLayer.DealTicketItem[]
+  isExternal: true
+  name: DealTicketItem[]
+  nameWithType: DealTicketItem[]
+  fullName: TradingPlatform.BusinessLayer.DealTicketItem[]
+  nameWithType.vb: DealTicketItem()
+  fullName.vb: TradingPlatform.BusinessLayer.DealTicketItem()
+  name.vb: DealTicketItem()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.DealTicketItem
+    name: DealTicketItem
+    nameWithType: DealTicketItem
+    fullName: TradingPlatform.BusinessLayer.DealTicketItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.DealTicketItem
+    name: DealTicketItem
+    nameWithType: DealTicketItem
+    fullName: TradingPlatform.BusinessLayer.DealTicketItem
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType
+  name: TradingType
+  nameWithType: MessageDealTicket.TradingType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.TradingType
+- uid: TradingPlatform.BusinessLayer.DealTicketTradingType
+  commentId: T:TradingPlatform.BusinessLayer.DealTicketTradingType
+  parent: TradingPlatform.BusinessLayer
+  name: DealTicketTradingType
+  nameWithType: DealTicketTradingType
+  fullName: TradingPlatform.BusinessLayer.DealTicketTradingType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.#ctor
+  name: MessageDealTicket
+  nameWithType: MessageDealTicket.MessageDealTicket
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.MessageDealTicket
+- uid: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine
+  name: AddLine
+  nameWithType: MessageDealTicket.AddLine
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageDealTicket.AddLine

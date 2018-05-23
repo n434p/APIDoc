@@ -1,0 +1,790 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.PnLItem
+  commentId: T:TradingPlatform.BusinessLayer.PnLItem
+  id: PnLItem
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.PnLItem.#ctor
+  - TradingPlatform.BusinessLayer.PnLItem.Asset
+  - TradingPlatform.BusinessLayer.PnLItem.AssetID
+  - TradingPlatform.BusinessLayer.PnLItem.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.PnLItem.Format
+  - TradingPlatform.BusinessLayer.PnLItem.GetHashCode
+  - TradingPlatform.BusinessLayer.PnLItem.ToString
+  - TradingPlatform.BusinessLayer.PnLItem.Value
+  langs:
+  - csharp
+  - vb
+  name: PnLItem
+  nameWithType: PnLItem
+  fullName: TradingPlatform.BusinessLayer.PnLItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: PnLItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "PnLItem", Namespace = "TradingPlatform")]
+
+      public class PnLItem : BusinessObject, IConnectionBindedObject, IUniqueID
+    content.vb: >-
+      <DataContract(Name:="PnLItem", Namespace:="TradingPlatform")>
+
+      Public Class PnLItem
+          Inherits BusinessObject
+          Implements IConnectionBindedObject, IUniqueID
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PnLItem
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.PnLItem.Value
+  commentId: P:TradingPlatform.BusinessLayer.PnLItem.Value
+  id: Value
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: PnLItem.Value
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Value
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: Value
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Value")]
+
+      public double Value { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Value")>
+
+      Public Property Value As Double
+  overload: TradingPlatform.BusinessLayer.PnLItem.Value*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Value
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLItem.AssetID
+  commentId: P:TradingPlatform.BusinessLayer.PnLItem.AssetID
+  id: AssetID
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: AssetID
+  nameWithType: PnLItem.AssetID
+  fullName: TradingPlatform.BusinessLayer.PnLItem.AssetID
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: AssetID
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "AssetID")]
+
+      public string AssetID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="AssetID")>
+
+      Public Property AssetID As String
+  overload: TradingPlatform.BusinessLayer.PnLItem.AssetID*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AssetID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLItem.Asset
+  commentId: P:TradingPlatform.BusinessLayer.PnLItem.Asset
+  id: Asset
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: Asset
+  nameWithType: PnLItem.Asset
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Asset
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: Asset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Asset Asset { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Asset
+    content.vb: Public ReadOnly Property Asset As Asset
+  overload: TradingPlatform.BusinessLayer.PnLItem.Asset*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.PnLItem.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.PnLItem.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: PnLItem()
+  nameWithType: PnLItem.PnLItem()
+  fullName: TradingPlatform.BusinessLayer.PnLItem.PnLItem()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public PnLItem()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.PnLItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLItem.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.PnLItem.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: PnLItem.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 48
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.PnLItem.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.PnLItem.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.PnLItem.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PnLItem.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.PnLItem.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 64
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: TradingPlatform.BusinessLayer.PnLItem.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.PnLItem.Format
+  commentId: M:TradingPlatform.BusinessLayer.PnLItem.Format
+  id: Format
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: Format()
+  nameWithType: PnLItem.Format()
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Format()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: Format
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 74
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Format()
+    return:
+      type: System.String
+    content.vb: Public Function Format As String
+  overload: TradingPlatform.BusinessLayer.PnLItem.Format*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLItem.ToString
+  commentId: M:TradingPlatform.BusinessLayer.PnLItem.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.PnLItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PnLItem.ToString()
+  fullName: TradingPlatform.BusinessLayer.PnLItem.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/PnLItem.cs
+    startLine: 76
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.PnLItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.PnLItem.Value*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.Value
+  name: Value
+  nameWithType: PnLItem.Value
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Value
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.PnLItem.AssetID*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.AssetID
+  name: AssetID
+  nameWithType: PnLItem.AssetID
+  fullName: TradingPlatform.BusinessLayer.PnLItem.AssetID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.PnLItem.Asset*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.Asset
+  name: Asset
+  nameWithType: PnLItem.Asset
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Asset
+- uid: TradingPlatform.BusinessLayer.Asset
+  commentId: T:TradingPlatform.BusinessLayer.Asset
+  parent: TradingPlatform.BusinessLayer
+  name: Asset
+  nameWithType: Asset
+  fullName: TradingPlatform.BusinessLayer.Asset
+- uid: TradingPlatform.BusinessLayer.PnLItem.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.#ctor
+  name: PnLItem
+  nameWithType: PnLItem.PnLItem
+  fullName: TradingPlatform.BusinessLayer.PnLItem.PnLItem
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.PnLItem.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.Equals
+  name: Equals
+  nameWithType: PnLItem.Equals
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.PnLItem.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.GetHashCode
+  name: GetHashCode
+  nameWithType: PnLItem.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.PnLItem.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.PnLItem.Format*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.Format
+  name: Format
+  nameWithType: PnLItem.Format
+  fullName: TradingPlatform.BusinessLayer.PnLItem.Format
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.PnLItem.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLItem.ToString
+  name: ToString
+  nameWithType: PnLItem.ToString
+  fullName: TradingPlatform.BusinessLayer.PnLItem.ToString

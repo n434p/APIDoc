@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  commentId: T:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  id: ISyntheticSynhroniserItem
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData
+  - TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime
+  - TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position
+  - TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem
+  langs:
+  - csharp
+  - vb
+  name: ISyntheticSynhroniserItem
+  nameWithType: ISyntheticSynhroniserItem
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    id: ISyntheticSynhroniserItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    startLine: 51
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface ISyntheticSynhroniserItem
+    content.vb: Public Interface ISyntheticSynhroniserItem
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem
+  commentId: P:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem
+  id: SyntheticItem
+  parent: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  langs:
+  - csharp
+  - vb
+  name: SyntheticItem
+  nameWithType: ISyntheticSynhroniserItem.SyntheticItem
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    id: SyntheticItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: SyntheticItem SyntheticItem { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.SyntheticItem
+    content.vb: Property SyntheticItem As SyntheticItem
+  overload: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData
+  commentId: P:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData
+  id: HistoricalData
+  parent: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  langs:
+  - csharp
+  - vb
+  name: HistoricalData
+  nameWithType: ISyntheticSynhroniserItem.HistoricalData
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    id: HistoricalData
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: HistoricalData HistoricalData { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.HistoricalData
+    content.vb: Property HistoricalData As HistoricalData
+  overload: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position
+  commentId: P:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position
+  id: Position
+  parent: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ISyntheticSynhroniserItem.Position
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    id: Position
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: int Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Position As Integer
+  overload: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime
+  commentId: P:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime
+  id: NextPositionTime
+  parent: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem
+  langs:
+  - csharp
+  - vb
+  name: NextPositionTime
+  nameWithType: ISyntheticSynhroniserItem.NextPositionTime
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    id: NextPositionTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/SyntheticHistorySynhroniser.cs
+    startLine: 56
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: long NextPositionTime { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: ReadOnly Property NextPositionTime As Long
+  overload: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem
+  name: SyntheticItem
+  nameWithType: ISyntheticSynhroniserItem.SyntheticItem
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.SyntheticItem
+- uid: TradingPlatform.BusinessLayer.SyntheticItem
+  commentId: T:TradingPlatform.BusinessLayer.SyntheticItem
+  parent: TradingPlatform.BusinessLayer
+  name: SyntheticItem
+  nameWithType: SyntheticItem
+  fullName: TradingPlatform.BusinessLayer.SyntheticItem
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData
+  name: HistoricalData
+  nameWithType: ISyntheticSynhroniserItem.HistoricalData
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.HistoricalData
+- uid: TradingPlatform.BusinessLayer.HistoricalData
+  commentId: T:TradingPlatform.BusinessLayer.HistoricalData
+  parent: TradingPlatform.BusinessLayer
+  name: HistoricalData
+  nameWithType: HistoricalData
+  fullName: TradingPlatform.BusinessLayer.HistoricalData
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position
+  name: Position
+  nameWithType: ISyntheticSynhroniserItem.Position
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.Position
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime
+  name: NextPositionTime
+  nameWithType: ISyntheticSynhroniserItem.NextPositionTime
+  fullName: TradingPlatform.BusinessLayer.ISyntheticSynhroniserItem.NextPositionTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

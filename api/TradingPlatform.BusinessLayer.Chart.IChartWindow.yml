@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChartWindow
+  id: IChartWindow
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle
+  - TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter
+  - TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow
+  - TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber
+  langs:
+  - csharp
+  - vb
+  name: IChartWindow
+  nameWithType: IChartWindow
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    id: IChartWindow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: public interface IChartWindow
+    content.vb: Public Interface IChartWindow
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle
+  id: ClientRectangle
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  langs:
+  - csharp
+  - vb
+  name: ClientRectangle
+  nameWithType: IChartWindow.ClientRectangle
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    id: ClientRectangle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Rectangle ClientRectangle { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Rectangle
+    content.vb: ReadOnly Property ClientRectangle As Rectangle
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow
+  id: IsMainWindow
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  langs:
+  - csharp
+  - vb
+  name: IsMainWindow
+  nameWithType: IChartWindow.IsMainWindow
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    id: IsMainWindow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: bool IsMainWindow { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsMainWindow As Boolean
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber
+  id: WindowNumber
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  langs:
+  - csharp
+  - vb
+  name: WindowNumber
+  nameWithType: IChartWindow.WindowNumber
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    id: WindowNumber
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: int WindowNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property WindowNumber As Integer
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter
+  id: CoordinatesConverter
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindow
+  langs:
+  - csharp
+  - vb
+  name: CoordinatesConverter
+  nameWithType: IChartWindow.CoordinatesConverter
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    id: CoordinatesConverter
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindow.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: IChartWindowCoordinatesConverter CoordinatesConverter { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+    content.vb: ReadOnly Property CoordinatesConverter As IChartWindowCoordinatesConverter
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle
+  name: ClientRectangle
+  nameWithType: IChartWindow.ClientRectangle
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.ClientRectangle
+- uid: System.Drawing.Rectangle
+  commentId: T:System.Drawing.Rectangle
+  parent: System.Drawing
+  isExternal: true
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: System.Drawing.Rectangle
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow
+  name: IsMainWindow
+  nameWithType: IChartWindow.IsMainWindow
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.IsMainWindow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber
+  name: WindowNumber
+  nameWithType: IChartWindow.WindowNumber
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.WindowNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter
+  name: CoordinatesConverter
+  nameWithType: IChartWindow.CoordinatesConverter
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindow.CoordinatesConverter
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: IChartWindowCoordinatesConverter
+  nameWithType: IChartWindowCoordinatesConverter
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter

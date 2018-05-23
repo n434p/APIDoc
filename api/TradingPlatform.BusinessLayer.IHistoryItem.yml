@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IHistoryItem
+  commentId: T:TradingPlatform.BusinessLayer.IHistoryItem
+  id: IHistoryItem
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IHistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  - TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft
+  - TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft
+  langs:
+  - csharp
+  - vb
+  name: IHistoryItem
+  nameWithType: IHistoryItem
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    id: IHistoryItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public interface IHistoryItem : ICloneable'
+    content.vb: >-
+      Public Interface IHistoryItem
+          Inherits ICloneable
+  inheritedMembers:
+  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft
+  commentId: P:TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft
+  id: TimeLeft
+  parent: TradingPlatform.BusinessLayer.IHistoryItem
+  langs:
+  - csharp
+  - vb
+  name: TimeLeft
+  nameWithType: IHistoryItem.TimeLeft
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    id: TimeLeft
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DateTime TimeLeft { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: ReadOnly Property TimeLeft As Date
+  overload: TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft
+  commentId: P:TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft
+  id: TicksLeft
+  parent: TradingPlatform.BusinessLayer.IHistoryItem
+  langs:
+  - csharp
+  - vb
+  name: TicksLeft
+  nameWithType: IHistoryItem.TicksLeft
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    id: TicksLeft
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: long TicksLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property TicksLeft As Long
+  overload: TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.IHistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  commentId: P:TradingPlatform.BusinessLayer.IHistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  id: Item(TradingPlatform.BusinessLayer.PriceType)
+  parent: TradingPlatform.BusinessLayer.IHistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Item[PriceType]
+  nameWithType: IHistoryItem.Item[PriceType]
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem.Item[TradingPlatform.BusinessLayer.PriceType]
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    id: this[]
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/IHistoryItem.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: double this[PriceType priceType] { get; }
+    parameters:
+    - id: priceType
+      type: TradingPlatform.BusinessLayer.PriceType
+    return:
+      type: System.Double
+    content.vb: ReadOnly Property Item(priceType As PriceType) As Double
+  overload: TradingPlatform.BusinessLayer.IHistoryItem.Item*
+  nameWithType.vb: IHistoryItem.Item(PriceType)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: TradingPlatform.BusinessLayer.IHistoryItem.Item(TradingPlatform.BusinessLayer.PriceType)
+  name.vb: Item(PriceType)
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft*
+  commentId: Overload:TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft
+  name: TimeLeft
+  nameWithType: IHistoryItem.TimeLeft
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem.TimeLeft
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft*
+  commentId: Overload:TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft
+  name: TicksLeft
+  nameWithType: IHistoryItem.TicksLeft
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem.TicksLeft
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TradingPlatform.BusinessLayer.IHistoryItem.Item*
+  commentId: Overload:TradingPlatform.BusinessLayer.IHistoryItem.Item
+  name: Item
+  nameWithType: IHistoryItem.Item
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem.Item
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  parent: TradingPlatform.BusinessLayer
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

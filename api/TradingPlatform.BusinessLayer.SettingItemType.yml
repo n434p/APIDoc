@@ -1,0 +1,1020 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SettingItemType
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemType
+  id: SettingItemType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SettingItemType.Account
+  - TradingPlatform.BusinessLayer.SettingItemType.Action
+  - TradingPlatform.BusinessLayer.SettingItemType.Alignment
+  - TradingPlatform.BusinessLayer.SettingItemType.Boolean
+  - TradingPlatform.BusinessLayer.SettingItemType.BooleanSwitcher
+  - TradingPlatform.BusinessLayer.SettingItemType.Color
+  - TradingPlatform.BusinessLayer.SettingItemType.ConditionSet
+  - TradingPlatform.BusinessLayer.SettingItemType.DateTime
+  - TradingPlatform.BusinessLayer.SettingItemType.Double
+  - TradingPlatform.BusinessLayer.SettingItemType.File
+  - TradingPlatform.BusinessLayer.SettingItemType.Font
+  - TradingPlatform.BusinessLayer.SettingItemType.Group
+  - TradingPlatform.BusinessLayer.SettingItemType.Hotkey
+  - TradingPlatform.BusinessLayer.SettingItemType.Instrument
+  - TradingPlatform.BusinessLayer.SettingItemType.Integer
+  - TradingPlatform.BusinessLayer.SettingItemType.LineOptions
+  - TradingPlatform.BusinessLayer.SettingItemType.Object
+  - TradingPlatform.BusinessLayer.SettingItemType.PairColor
+  - TradingPlatform.BusinessLayer.SettingItemType.Password
+  - TradingPlatform.BusinessLayer.SettingItemType.Period
+  - TradingPlatform.BusinessLayer.SettingItemType.RadioLocalized
+  - TradingPlatform.BusinessLayer.SettingItemType.Rss
+  - TradingPlatform.BusinessLayer.SettingItemType.Selector
+  - TradingPlatform.BusinessLayer.SettingItemType.SelectorLocalized
+  - TradingPlatform.BusinessLayer.SettingItemType.Sound
+  - TradingPlatform.BusinessLayer.SettingItemType.String
+  - TradingPlatform.BusinessLayer.SettingItemType.TimeZone
+  - TradingPlatform.BusinessLayer.SettingItemType.TimeZoneManager
+  - TradingPlatform.BusinessLayer.SettingItemType.Undefined
+  langs:
+  - csharp
+  - vb
+  name: SettingItemType
+  nameWithType: SettingItemType
+  fullName: TradingPlatform.BusinessLayer.SettingItemType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: SettingItemType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSettingItem cast type \n"
+  example: []
+  syntax:
+    content: public enum SettingItemType
+    content.vb: Public Enum SettingItemType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Undefined
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Undefined
+  id: Undefined
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: SettingItemType.Undefined
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Undefined
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Undefined
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Undefined = 0
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.String
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.String
+  id: String
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: SettingItemType.String
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.String
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: String
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: String = 1
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Boolean
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Boolean
+  id: Boolean
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: SettingItemType.Boolean
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Boolean
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Boolean
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Boolean = 2
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.BooleanSwitcher
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.BooleanSwitcher
+  id: BooleanSwitcher
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: BooleanSwitcher
+  nameWithType: SettingItemType.BooleanSwitcher
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.BooleanSwitcher
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: BooleanSwitcher
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BooleanSwitcher = 3
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Integer
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Integer
+  id: Integer
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: SettingItemType.Integer
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Integer
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Integer
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Integer = 4
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Double
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Double
+  id: Double
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: SettingItemType.Double
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Double
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Double
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Double = 5
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Selector
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Selector
+  id: Selector
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Selector
+  nameWithType: SettingItemType.Selector
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Selector
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Selector
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Selector = 6
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.SelectorLocalized
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.SelectorLocalized
+  id: SelectorLocalized
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: SelectorLocalized
+  nameWithType: SettingItemType.SelectorLocalized
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.SelectorLocalized
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: SelectorLocalized
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: SelectorLocalized = 7
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.DateTime
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.DateTime
+  id: DateTime
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: SettingItemType.DateTime
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.DateTime
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: DateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DateTime = 8
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Account
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Account
+  id: Account
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: SettingItemType.Account
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Account
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Account
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Account = 9
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Instrument
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: SettingItemType.Instrument
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Instrument
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Instrument = 10
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Password
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Password
+  id: Password
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: SettingItemType.Password
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Password
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Password
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Password = 11
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Period
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Period
+  id: Period
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Period
+  nameWithType: SettingItemType.Period
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Period
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Period
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Period = 12
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.File
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.File
+  id: File
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: SettingItemType.File
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.File
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: File
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: File = 13
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Group
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Group
+  id: Group
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: SettingItemType.Group
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Group
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Group
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Group = 14
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.RadioLocalized
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.RadioLocalized
+  id: RadioLocalized
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: RadioLocalized
+  nameWithType: SettingItemType.RadioLocalized
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.RadioLocalized
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: RadioLocalized
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: RadioLocalized = 15
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Action
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Action
+  id: Action
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: SettingItemType.Action
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Action
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Action
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Action = 16
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Font
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Font
+  id: Font
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: SettingItemType.Font
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Font
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Font
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Font = 17
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.TimeZone
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.TimeZone
+  id: TimeZone
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: SettingItemType.TimeZone
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.TimeZone
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: TimeZone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: TimeZone = 18
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Rss
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Rss
+  id: Rss
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Rss
+  nameWithType: SettingItemType.Rss
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Rss
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Rss
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Rss = 19
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Hotkey
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Hotkey
+  id: Hotkey
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Hotkey
+  nameWithType: SettingItemType.Hotkey
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Hotkey
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Hotkey
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Hotkey = 20
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Object
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Object
+  id: Object
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Object
+  nameWithType: SettingItemType.Object
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Object
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Object
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Object = 21
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.ConditionSet
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.ConditionSet
+  id: ConditionSet
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: ConditionSet
+  nameWithType: SettingItemType.ConditionSet
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.ConditionSet
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: ConditionSet
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ConditionSet = 22
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Alignment
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Alignment
+  id: Alignment
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Alignment
+  nameWithType: SettingItemType.Alignment
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Alignment
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Alignment
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Alignment = 23
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.PairColor
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.PairColor
+  id: PairColor
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: PairColor
+  nameWithType: SettingItemType.PairColor
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.PairColor
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: PairColor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: PairColor = 24
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Color
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Color
+  id: Color
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: SettingItemType.Color
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Color
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Color
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Color = 25
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.Sound
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.Sound
+  id: Sound
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: SettingItemType.Sound
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.Sound
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: Sound
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Sound = 26
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.LineOptions
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.LineOptions
+  id: LineOptions
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: LineOptions
+  nameWithType: SettingItemType.LineOptions
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.LineOptions
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: LineOptions
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 37
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LineOptions = 27
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SettingItemType.TimeZoneManager
+  commentId: F:TradingPlatform.BusinessLayer.SettingItemType.TimeZoneManager
+  id: TimeZoneManager
+  parent: TradingPlatform.BusinessLayer.SettingItemType
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneManager
+  nameWithType: SettingItemType.TimeZoneManager
+  fullName: TradingPlatform.BusinessLayer.SettingItemType.TimeZoneManager
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    id: TimeZoneManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Enums.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: TimeZoneManager = 28
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.SettingItemType
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemType
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemType
+  nameWithType: SettingItemType
+  fullName: TradingPlatform.BusinessLayer.SettingItemType

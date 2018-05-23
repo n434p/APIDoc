@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Settings
+  commentId: N:TradingPlatform.BusinessLayer.Settings
+  id: TradingPlatform.BusinessLayer.Settings
+  children:
+  - TradingPlatform.BusinessLayer.Settings.SettingItemAlert
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Settings
+  nameWithType: TradingPlatform.BusinessLayer.Settings
+  fullName: TradingPlatform.BusinessLayer.Settings
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Settings.SettingItemAlert
+  commentId: T:TradingPlatform.BusinessLayer.Settings.SettingItemAlert
+  parent: TradingPlatform.BusinessLayer.Settings
+  name: SettingItemAlert
+  nameWithType: SettingItemAlert
+  fullName: TradingPlatform.BusinessLayer.Settings.SettingItemAlert
+- uid: TradingPlatform.BusinessLayer.Settings
+  commentId: N:TradingPlatform.BusinessLayer.Settings
+  name: TradingPlatform.BusinessLayer.Settings
+  nameWithType: TradingPlatform.BusinessLayer.Settings
+  fullName: TradingPlatform.BusinessLayer.Settings

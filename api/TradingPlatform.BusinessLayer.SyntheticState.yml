@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SyntheticState
+  commentId: T:TradingPlatform.BusinessLayer.SyntheticState
+  id: SyntheticState
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SyntheticState.Initialized
+  - TradingPlatform.BusinessLayer.SyntheticState.InstrumentsNotRestored
+  - TradingPlatform.BusinessLayer.SyntheticState.NotInitialized
+  langs:
+  - csharp
+  - vb
+  name: SyntheticState
+  nameWithType: SyntheticState
+  fullName: TradingPlatform.BusinessLayer.SyntheticState
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    id: SyntheticState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    startLine: 636
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum SyntheticState
+    content.vb: Public Enum SyntheticState
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.SyntheticState.Initialized
+  commentId: F:TradingPlatform.BusinessLayer.SyntheticState.Initialized
+  id: Initialized
+  parent: TradingPlatform.BusinessLayer.SyntheticState
+  langs:
+  - csharp
+  - vb
+  name: Initialized
+  nameWithType: SyntheticState.Initialized
+  fullName: TradingPlatform.BusinessLayer.SyntheticState.Initialized
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    id: Initialized
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    startLine: 636
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Initialized = 0
+    return:
+      type: TradingPlatform.BusinessLayer.SyntheticState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SyntheticState.InstrumentsNotRestored
+  commentId: F:TradingPlatform.BusinessLayer.SyntheticState.InstrumentsNotRestored
+  id: InstrumentsNotRestored
+  parent: TradingPlatform.BusinessLayer.SyntheticState
+  langs:
+  - csharp
+  - vb
+  name: InstrumentsNotRestored
+  nameWithType: SyntheticState.InstrumentsNotRestored
+  fullName: TradingPlatform.BusinessLayer.SyntheticState.InstrumentsNotRestored
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    id: InstrumentsNotRestored
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    startLine: 636
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: InstrumentsNotRestored = 1
+    return:
+      type: TradingPlatform.BusinessLayer.SyntheticState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SyntheticState.NotInitialized
+  commentId: F:TradingPlatform.BusinessLayer.SyntheticState.NotInitialized
+  id: NotInitialized
+  parent: TradingPlatform.BusinessLayer.SyntheticState
+  langs:
+  - csharp
+  - vb
+  name: NotInitialized
+  nameWithType: SyntheticState.NotInitialized
+  fullName: TradingPlatform.BusinessLayer.SyntheticState.NotInitialized
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    id: NotInitialized
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/Synthetics/Synthetic.cs
+    startLine: 636
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NotInitialized = 2
+    return:
+      type: TradingPlatform.BusinessLayer.SyntheticState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.SyntheticState
+  commentId: T:TradingPlatform.BusinessLayer.SyntheticState
+  parent: TradingPlatform.BusinessLayer
+  name: SyntheticState
+  nameWithType: SyntheticState
+  fullName: TradingPlatform.BusinessLayer.SyntheticState

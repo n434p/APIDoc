@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup
+  commentId: T:TradingPlatform.BusinessLayer.ISettingsGroup
+  id: ISettingsGroup
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo
+  - TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups
+  - TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup
+  - TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex
+  - TradingPlatform.BusinessLayer.ISettingsGroup.Text
+  langs:
+  - csharp
+  - vb
+  name: ISettingsGroup
+  nameWithType: ISettingsGroup
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    id: ISettingsGroup
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public interface ISettingsGroup
+    content.vb: Public Interface ISettingsGroup
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.Text
+  commentId: P:TradingPlatform.BusinessLayer.ISettingsGroup.Text
+  id: Text
+  parent: TradingPlatform.BusinessLayer.ISettingsGroup
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ISettingsGroup.Text
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.Text
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    id: Text
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string Text { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Text As String
+  overload: TradingPlatform.BusinessLayer.ISettingsGroup.Text*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex
+  commentId: P:TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex
+  id: SortIndex
+  parent: TradingPlatform.BusinessLayer.ISettingsGroup
+  langs:
+  - csharp
+  - vb
+  name: SortIndex
+  nameWithType: ISettingsGroup.SortIndex
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    id: SortIndex
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: int SortIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SortIndex As Integer
+  overload: TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup
+  commentId: P:TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup
+  id: ParentGroup
+  parent: TradingPlatform.BusinessLayer.ISettingsGroup
+  langs:
+  - csharp
+  - vb
+  name: ParentGroup
+  nameWithType: ISettingsGroup.ParentGroup
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    id: ParentGroup
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ISettingsGroup ParentGroup { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ISettingsGroup
+    content.vb: ReadOnly Property ParentGroup As ISettingsGroup
+  overload: TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups
+  commentId: P:TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups
+  id: ChildGroups
+  parent: TradingPlatform.BusinessLayer.ISettingsGroup
+  langs:
+  - csharp
+  - vb
+  name: ChildGroups
+  nameWithType: ISettingsGroup.ChildGroups
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    id: ChildGroups
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: IList<ISettingsGroup> ChildGroups { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.ISettingsGroup}
+    content.vb: ReadOnly Property ChildGroups As IList(Of ISettingsGroup)
+  overload: TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo
+  commentId: P:TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo
+  id: ActionInfo
+  parent: TradingPlatform.BusinessLayer.ISettingsGroup
+  langs:
+  - csharp
+  - vb
+  name: ActionInfo
+  nameWithType: ISettingsGroup.ActionInfo
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    id: ActionInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/ISettingsGroup.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: GroupActionInfo ActionInfo { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.GroupActionInfo
+    content.vb: ReadOnly Property ActionInfo As GroupActionInfo
+  overload: TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.Text*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISettingsGroup.Text
+  name: Text
+  nameWithType: ISettingsGroup.Text
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex
+  name: SortIndex
+  nameWithType: ISettingsGroup.SortIndex
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.SortIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup
+  name: ParentGroup
+  nameWithType: ISettingsGroup.ParentGroup
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.ParentGroup
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup
+  commentId: T:TradingPlatform.BusinessLayer.ISettingsGroup
+  parent: TradingPlatform.BusinessLayer
+  name: ISettingsGroup
+  nameWithType: ISettingsGroup
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups
+  name: ChildGroups
+  nameWithType: ISettingsGroup.ChildGroups
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.ChildGroups
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.ISettingsGroup}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.ISettingsGroup}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<ISettingsGroup>
+  nameWithType: IList<ISettingsGroup>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.ISettingsGroup>
+  nameWithType.vb: IList(Of ISettingsGroup)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.ISettingsGroup)
+  name.vb: IList(Of ISettingsGroup)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.ISettingsGroup
+    name: ISettingsGroup
+    nameWithType: ISettingsGroup
+    fullName: TradingPlatform.BusinessLayer.ISettingsGroup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.ISettingsGroup
+    name: ISettingsGroup
+    nameWithType: ISettingsGroup
+    fullName: TradingPlatform.BusinessLayer.ISettingsGroup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo
+  name: ActionInfo
+  nameWithType: ISettingsGroup.ActionInfo
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup.ActionInfo
+- uid: TradingPlatform.BusinessLayer.GroupActionInfo
+  commentId: T:TradingPlatform.BusinessLayer.GroupActionInfo
+  parent: TradingPlatform.BusinessLayer
+  name: GroupActionInfo
+  nameWithType: GroupActionInfo
+  fullName: TradingPlatform.BusinessLayer.GroupActionInfo

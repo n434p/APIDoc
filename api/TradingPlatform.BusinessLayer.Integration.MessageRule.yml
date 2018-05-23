@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageRule
+  id: MessageRule
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.#ctor
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.Name
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.ToString
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.Type
+  - TradingPlatform.BusinessLayer.Integration.MessageRule.Value
+  langs:
+  - csharp
+  - vb
+  name: MessageRule
+  nameWithType: MessageRule
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: MessageRule
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataContract(Name = "Rule", Namespace = "TradingPlatform")]
+
+      public sealed class MessageRule : Message
+    content.vb: >-
+      <DataContract(Name:="Rule", Namespace:="TradingPlatform")>
+
+      Public NotInheritable Class MessageRule
+          Inherits Message
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Rule
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageRule.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageRule.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.Name
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageRule.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MessageRule.Name
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Name")]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Name")>
+
+      Public Property Name As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId
+  id: AccountId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: AccountId
+  nameWithType: MessageRule.AccountId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: AccountId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "AccountId")]
+
+      public string AccountId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="AccountId")>
+
+      Public Property AccountId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AccountId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId
+  id: InstrumentId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: InstrumentId
+  nameWithType: MessageRule.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: InstrumentId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "InstrumentId")]
+
+      public string InstrumentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="InstrumentId")>
+
+      Public Property InstrumentId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId
+  id: OrderTypeId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: OrderTypeId
+  nameWithType: MessageRule.OrderTypeId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: OrderTypeId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "OrderTypeId")]
+
+      public string OrderTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="OrderTypeId")>
+
+      Public Property OrderTypeId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OrderTypeId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.Value
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageRule.Value
+  id: Value
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MessageRule.Value
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.Value
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: Value
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Value")]
+
+      public object Value { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: >-
+      <DataMember(Name:="Value")>
+
+      Public Property Value As Object
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.Value*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Value
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageRule.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: MessageRule()
+  nameWithType: MessageRule.MessageRule()
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.MessageRule()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public MessageRule()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageRule.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.Integration.MessageRule
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MessageRule.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageRule.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  overload: TradingPlatform.BusinessLayer.Integration.MessageRule.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.Type
+  name: Type
+  nameWithType: MessageRule.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.Name
+  name: Name
+  nameWithType: MessageRule.Name
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId
+  name: AccountId
+  nameWithType: MessageRule.AccountId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.AccountId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId
+  name: InstrumentId
+  nameWithType: MessageRule.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.InstrumentId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId
+  name: OrderTypeId
+  nameWithType: MessageRule.OrderTypeId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.OrderTypeId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.Value*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.Value
+  name: Value
+  nameWithType: MessageRule.Value
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.Value
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.#ctor
+  name: MessageRule
+  nameWithType: MessageRule.MessageRule
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.MessageRule
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageRule.ToString
+  name: ToString
+  nameWithType: MessageRule.ToString
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule.ToString

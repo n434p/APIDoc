@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AllowedResult
+  commentId: T:TradingPlatform.BusinessLayer.AllowedResult
+  id: AllowedResult
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult
+  - TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult(System.String)
+  - TradingPlatform.BusinessLayer.AllowedResult.Reason
+  - TradingPlatform.BusinessLayer.AllowedResult.Status
+  langs:
+  - csharp
+  - vb
+  name: AllowedResult
+  nameWithType: AllowedResult
+  fullName: TradingPlatform.BusinessLayer.AllowedResult
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    id: AllowedResult
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class AllowedResult
+    content.vb: Public Class AllowedResult
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.AllowedResult.Status
+  commentId: P:TradingPlatform.BusinessLayer.AllowedResult.Status
+  id: Status
+  parent: TradingPlatform.BusinessLayer.AllowedResult
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: AllowedResult.Status
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.Status
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    id: Status
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TradingOperationStatus Status { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationStatus
+    content.vb: Public ReadOnly Property Status As TradingOperationStatus
+  overload: TradingPlatform.BusinessLayer.AllowedResult.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.AllowedResult.Reason
+  commentId: P:TradingPlatform.BusinessLayer.AllowedResult.Reason
+  id: Reason
+  parent: TradingPlatform.BusinessLayer.AllowedResult
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: AllowedResult.Reason
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.Reason
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    id: Reason
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Reason { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Reason As String
+  overload: TradingPlatform.BusinessLayer.AllowedResult.Reason*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult
+  commentId: M:TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult
+  id: GetAllowedResult
+  parent: TradingPlatform.BusinessLayer.AllowedResult
+  langs:
+  - csharp
+  - vb
+  name: GetAllowedResult()
+  nameWithType: AllowedResult.GetAllowedResult()
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    id: GetAllowedResult
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult GetAllowedResult()
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function GetAllowedResult As AllowedResult
+  overload: TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult(System.String)
+  id: GetNotAllowedResult(System.String)
+  parent: TradingPlatform.BusinessLayer.AllowedResult
+  langs:
+  - csharp
+  - vb
+  name: GetNotAllowedResult(String)
+  nameWithType: AllowedResult.GetNotAllowedResult(String)
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    id: GetNotAllowedResult
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/TradingOperations/AllowedResult.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static AllowedResult GetNotAllowedResult(string reason = "")
+    parameters:
+    - id: reason
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Shared Function GetNotAllowedResult(reason As String = "") As AllowedResult
+  overload: TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.AllowedResult.Status*
+  commentId: Overload:TradingPlatform.BusinessLayer.AllowedResult.Status
+  name: Status
+  nameWithType: AllowedResult.Status
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.Status
+- uid: TradingPlatform.BusinessLayer.TradingOperationStatus
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationStatus
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperationStatus
+  nameWithType: TradingOperationStatus
+  fullName: TradingPlatform.BusinessLayer.TradingOperationStatus
+- uid: TradingPlatform.BusinessLayer.AllowedResult.Reason*
+  commentId: Overload:TradingPlatform.BusinessLayer.AllowedResult.Reason
+  name: Reason
+  nameWithType: AllowedResult.Reason
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.Reason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult*
+  commentId: Overload:TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult
+  name: GetAllowedResult
+  nameWithType: AllowedResult.GetAllowedResult
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.GetAllowedResult
+- uid: TradingPlatform.BusinessLayer.AllowedResult
+  commentId: T:TradingPlatform.BusinessLayer.AllowedResult
+  parent: TradingPlatform.BusinessLayer
+  name: AllowedResult
+  nameWithType: AllowedResult
+  fullName: TradingPlatform.BusinessLayer.AllowedResult
+- uid: TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult*
+  commentId: Overload:TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult
+  name: GetNotAllowedResult
+  nameWithType: AllowedResult.GetNotAllowedResult
+  fullName: TradingPlatform.BusinessLayer.AllowedResult.GetNotAllowedResult

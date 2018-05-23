@@ -1,0 +1,481 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  id: ConnectionStateChangedEventArgs
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.#ctor(TradingPlatform.BusinessLayer.ConnectionState,TradingPlatform.BusinessLayer.ConnectionState)
+  - TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState
+  - TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState
+  langs:
+  - csharp
+  - vb
+  name: ConnectionStateChangedEventArgs
+  nameWithType: ConnectionStateChangedEventArgs
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    id: ConnectionStateChangedEventArgs
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class ConnectionStateChangedEventArgs : EventArgs'
+    content.vb: >-
+      Public Class ConnectionStateChangedEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState
+  commentId: P:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState
+  id: PreviousState
+  parent: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: PreviousState
+  nameWithType: ConnectionStateChangedEventArgs.PreviousState
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    id: PreviousState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionState PreviousState { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    content.vb: Public ReadOnly Property PreviousState As ConnectionState
+  overload: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState
+  commentId: P:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState
+  id: NewState
+  parent: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NewState
+  nameWithType: ConnectionStateChangedEventArgs.NewState
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    id: NewState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionState NewState { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    content.vb: Public ReadOnly Property NewState As ConnectionState
+  overload: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.#ctor(TradingPlatform.BusinessLayer.ConnectionState,TradingPlatform.BusinessLayer.ConnectionState)
+  commentId: M:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.#ctor(TradingPlatform.BusinessLayer.ConnectionState,TradingPlatform.BusinessLayer.ConnectionState)
+  id: '#ctor(TradingPlatform.BusinessLayer.ConnectionState,TradingPlatform.BusinessLayer.ConnectionState)'
+  parent: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ConnectionStateChangedEventArgs(ConnectionState, ConnectionState)
+  nameWithType: ConnectionStateChangedEventArgs.ConnectionStateChangedEventArgs(ConnectionState, ConnectionState)
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.ConnectionStateChangedEventArgs(TradingPlatform.BusinessLayer.ConnectionState, TradingPlatform.BusinessLayer.ConnectionState)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/ConnectionStateChangedEventArgs.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionStateChangedEventArgs(ConnectionState previousState, ConnectionState newState)
+    parameters:
+    - id: previousState
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    - id: newState
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    content.vb: Public Sub New(previousState As ConnectionState, newState As ConnectionState)
+  overload: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState*
+  commentId: Overload:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState
+  name: PreviousState
+  nameWithType: ConnectionStateChangedEventArgs.PreviousState
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.PreviousState
+- uid: TradingPlatform.BusinessLayer.ConnectionState
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionState
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionState
+  nameWithType: ConnectionState
+  fullName: TradingPlatform.BusinessLayer.ConnectionState
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState*
+  commentId: Overload:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState
+  name: NewState
+  nameWithType: ConnectionStateChangedEventArgs.NewState
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.NewState
+- uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.#ctor
+  name: ConnectionStateChangedEventArgs
+  nameWithType: ConnectionStateChangedEventArgs.ConnectionStateChangedEventArgs
+  fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs.ConnectionStateChangedEventArgs

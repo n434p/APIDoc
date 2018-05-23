@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentQuotingType
+  id: InstrumentQuotingType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.InstrumentQuotingType.LotSize
+  - TradingPlatform.BusinessLayer.InstrumentQuotingType.TickSizeTickCost
+  - TradingPlatform.BusinessLayer.InstrumentQuotingType.Undefined
+  langs:
+  - csharp
+  - vb
+  name: InstrumentQuotingType
+  nameWithType: InstrumentQuotingType
+  fullName: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: InstrumentQuotingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "InstrumentQuotingType", Namespace = "TradingPlatform")]
+
+      public enum InstrumentQuotingType
+    content.vb: >-
+      <DataContract(Name:="InstrumentQuotingType", Namespace:="TradingPlatform")>
+
+      Public Enum InstrumentQuotingType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentQuotingType
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.InstrumentQuotingType.LotSize
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentQuotingType.LotSize
+  id: LotSize
+  parent: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  langs:
+  - csharp
+  - vb
+  name: LotSize
+  nameWithType: InstrumentQuotingType.LotSize
+  fullName: TradingPlatform.BusinessLayer.InstrumentQuotingType.LotSize
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: LotSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      LotSize = 0
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentQuotingType
+    content.vb: >-
+      <EnumMember>
+
+      LotSize = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentQuotingType.TickSizeTickCost
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentQuotingType.TickSizeTickCost
+  id: TickSizeTickCost
+  parent: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  langs:
+  - csharp
+  - vb
+  name: TickSizeTickCost
+  nameWithType: InstrumentQuotingType.TickSizeTickCost
+  fullName: TradingPlatform.BusinessLayer.InstrumentQuotingType.TickSizeTickCost
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: TickSizeTickCost
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      TickSizeTickCost = 1
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentQuotingType
+    content.vb: >-
+      <EnumMember>
+
+      TickSizeTickCost = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.InstrumentQuotingType.Undefined
+  commentId: F:TradingPlatform.BusinessLayer.InstrumentQuotingType.Undefined
+  id: Undefined
+  parent: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: InstrumentQuotingType.Undefined
+  fullName: TradingPlatform.BusinessLayer.InstrumentQuotingType.Undefined
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Undefined
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 51
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Undefined = 2
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentQuotingType
+    content.vb: >-
+      <EnumMember>
+
+      Undefined = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentQuotingType
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentQuotingType
+  nameWithType: InstrumentQuotingType
+  fullName: TradingPlatform.BusinessLayer.InstrumentQuotingType

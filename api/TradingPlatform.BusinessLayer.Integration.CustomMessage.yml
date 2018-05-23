@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage
+  commentId: T:TradingPlatform.BusinessLayer.Integration.CustomMessage
+  id: CustomMessage
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId
+  - TradingPlatform.BusinessLayer.Integration.CustomMessage.Key
+  - TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId
+  - TradingPlatform.BusinessLayer.Integration.CustomMessage.Type
+  langs:
+  - csharp
+  - vb
+  name: CustomMessage
+  nameWithType: CustomMessage
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    id: CustomMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    startLine: 5
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: 'public abstract class CustomMessage : Message, IBufferedProcessorValue<int>, IConnectionBindedObject'
+    content.vb: >-
+      Public MustInherit Class CustomMessage
+          Inherits Message
+          Implements IBufferedProcessorValue(Of Integer), IConnectionBindedObject
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.Integration.CustomMessageEmulatorProgress
+  - TradingPlatform.BusinessLayer.Integration.CustomMessageEmulatorReachTheEnd
+  implements:
+  - TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId
+  id: ConnectionId
+  parent: TradingPlatform.BusinessLayer.Integration.CustomMessage
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: CustomMessage.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    id: ConnectionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public string ConnectionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ConnectionId As String
+  overload: TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId
+  id: MessageId
+  parent: TradingPlatform.BusinessLayer.Integration.CustomMessage
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: CustomMessage.MessageId
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    id: MessageId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public abstract int MessageId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property MessageId As Integer
+  overload: TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.CustomMessage.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.CustomMessage
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: CustomMessage.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.CustomMessage.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.Key
+  commentId: P:TradingPlatform.BusinessLayer.Integration.CustomMessage.Key
+  id: Key
+  parent: TradingPlatform.BusinessLayer.Integration.CustomMessage
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: CustomMessage.Key
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.Key
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    id: Key
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/CustomMessage.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public int Key { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Key As Integer
+  overload: TradingPlatform.BusinessLayer.Integration.CustomMessage.Key*
+  implements:
+  - TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}.Key
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}
+  commentId: T:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}
+  parent: TradingPlatform.BusinessLayer.Utils
+  definition: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  name: IBufferedProcessorValue<Int32>
+  nameWithType: IBufferedProcessorValue<Int32>
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<System.Int32>
+  nameWithType.vb: IBufferedProcessorValue(Of Int32)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of System.Int32)
+  name.vb: IBufferedProcessorValue(Of Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue
+    nameWithType: IBufferedProcessorValue
+    fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue
+    nameWithType: IBufferedProcessorValue
+    fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  commentId: T:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+  name: IBufferedProcessorValue<TKey>
+  nameWithType: IBufferedProcessorValue<TKey>
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<TKey>
+  nameWithType.vb: IBufferedProcessorValue(Of TKey)
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of TKey)
+  name.vb: IBufferedProcessorValue(Of TKey)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue
+    nameWithType: IBufferedProcessorValue
+    fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1
+    name: IBufferedProcessorValue
+    nameWithType: IBufferedProcessorValue
+    fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId
+  name: ConnectionId
+  nameWithType: CustomMessage.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.ConnectionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId
+  name: MessageId
+  nameWithType: CustomMessage.MessageId
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.MessageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.CustomMessage.Type
+  name: Type
+  nameWithType: CustomMessage.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.CustomMessage.Key*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.CustomMessage.Key
+  name: Key
+  nameWithType: CustomMessage.Key
+  fullName: TradingPlatform.BusinessLayer.Integration.CustomMessage.Key
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}.Key
+  commentId: P:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}.Key
+  parent: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue{System.Int32}
+  definition: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  name: Key
+  nameWithType: IBufferedProcessorValue<Int32>.Key
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<System.Int32>.Key
+  nameWithType.vb: IBufferedProcessorValue(Of Int32).Key
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of System.Int32).Key
+- uid: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  commentId: P:TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue`1.Key
+  name: Key
+  nameWithType: IBufferedProcessorValue<TKey>.Key
+  fullName: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue<TKey>.Key
+  nameWithType.vb: IBufferedProcessorValue(Of TKey).Key
+  fullName.vb: TradingPlatform.BusinessLayer.Utils.IBufferedProcessorValue(Of TKey).Key

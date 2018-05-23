@@ -1,0 +1,775 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  id: MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Account
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Asset
+  - TradingPlatform.BusinessLayer.Integration.MessageType.CloseOrder
+  - TradingPlatform.BusinessLayer.Integration.MessageType.ClosePosition
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Custom
+  - TradingPlatform.BusinessLayer.Integration.MessageType.DayBar
+  - TradingPlatform.BusinessLayer.Integration.MessageType.DealTicket
+  - TradingPlatform.BusinessLayer.Integration.MessageType.DOM
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Exchange
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Instrument
+  - TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentGroup
+  - TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentTypes
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Last
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Level2
+  - TradingPlatform.BusinessLayer.Integration.MessageType.OpenOrder
+  - TradingPlatform.BusinessLayer.Integration.MessageType.OpenPosition
+  - TradingPlatform.BusinessLayer.Integration.MessageType.OrderHistory
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Quote
+  - TradingPlatform.BusinessLayer.Integration.MessageType.ReportMetadata
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Rule
+  - TradingPlatform.BusinessLayer.Integration.MessageType.Trade
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: MessageType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public enum MessageType
+    content.vb: Public Enum MessageType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Account
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Account
+  id: Account
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: MessageType.Account
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Account
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Account
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Account = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Instrument
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: MessageType.Instrument
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Instrument
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Instrument = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.OpenOrder
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.OpenOrder
+  id: OpenOrder
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: OpenOrder
+  nameWithType: MessageType.OpenOrder
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.OpenOrder
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: OpenOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: OpenOrder = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.CloseOrder
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.CloseOrder
+  id: CloseOrder
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: CloseOrder
+  nameWithType: MessageType.CloseOrder
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.CloseOrder
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: CloseOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: CloseOrder = 3
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.OpenPosition
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.OpenPosition
+  id: OpenPosition
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: OpenPosition
+  nameWithType: MessageType.OpenPosition
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.OpenPosition
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: OpenPosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: OpenPosition = 4
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.ClosePosition
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.ClosePosition
+  id: ClosePosition
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: ClosePosition
+  nameWithType: MessageType.ClosePosition
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.ClosePosition
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: ClosePosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: ClosePosition = 5
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Trade
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Trade
+  id: Trade
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Trade
+  nameWithType: MessageType.Trade
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Trade
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Trade
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Trade = 6
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Quote
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Quote
+  id: Quote
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: MessageType.Quote
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Quote
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Quote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Quote = 7
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Level2
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Level2
+  id: Level2
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Level2
+  nameWithType: MessageType.Level2
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Level2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Level2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Level2 = 8
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Last
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: MessageType.Last
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Last
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Last = 9
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.DayBar
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.DayBar
+  id: DayBar
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: DayBar
+  nameWithType: MessageType.DayBar
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.DayBar
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: DayBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: DayBar = 10
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Asset
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Asset
+  id: Asset
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Asset
+  nameWithType: MessageType.Asset
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Asset
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Asset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Asset = 11
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Custom
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Custom
+  id: Custom
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: MessageType.Custom
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Custom
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Custom
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Custom = 12
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.DOM
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.DOM
+  id: DOM
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: DOM
+  nameWithType: MessageType.DOM
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.DOM
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: DOM
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: DOM = 13
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Exchange
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Exchange
+  id: Exchange
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Exchange
+  nameWithType: MessageType.Exchange
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Exchange
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Exchange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Exchange = 14
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.ReportMetadata
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.ReportMetadata
+  id: ReportMetadata
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: ReportMetadata
+  nameWithType: MessageType.ReportMetadata
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.ReportMetadata
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: ReportMetadata
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: ReportMetadata = 15
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentTypes
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentTypes
+  id: InstrumentTypes
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: InstrumentTypes
+  nameWithType: MessageType.InstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentTypes
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: InstrumentTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: InstrumentTypes = 16
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.OrderHistory
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.OrderHistory
+  id: OrderHistory
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: OrderHistory
+  nameWithType: MessageType.OrderHistory
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.OrderHistory
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: OrderHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: OrderHistory = 17
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.Rule
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.Rule
+  id: Rule
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: MessageType.Rule
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.Rule
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: Rule
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Rule = 18
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.DealTicket
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.DealTicket
+  id: DealTicket
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: DealTicket
+  nameWithType: MessageType.DealTicket
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.DealTicket
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: DealTicket
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: DealTicket = 19
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentGroup
+  commentId: F:TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentGroup
+  id: InstrumentGroup
+  parent: TradingPlatform.BusinessLayer.Integration.MessageType
+  langs:
+  - csharp
+  - vb
+  name: InstrumentGroup
+  nameWithType: MessageType.InstrumentGroup
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType.InstrumentGroup
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    id: InstrumentGroup
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Enums.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: InstrumentGroup = 20
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType

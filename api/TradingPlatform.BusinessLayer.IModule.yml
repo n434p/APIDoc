@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.IModule
+  commentId: T:TradingPlatform.BusinessLayer.IModule
+  id: IModule
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.IModule.Description
+  - TradingPlatform.BusinessLayer.IModule.Name
+  langs:
+  - csharp
+  - vb
+  name: IModule
+  nameWithType: IModule
+  fullName: TradingPlatform.BusinessLayer.IModule
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/IModule.cs
+    id: IModule
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/IModule.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public interface IModule : IDisposable, ICustomizable'
+    content.vb: >-
+      Public Interface IModule
+          Inherits IDisposable, ICustomizable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  - TradingPlatform.BusinessLayer.ICustomizable.Settings
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.IModule.Name
+  commentId: P:TradingPlatform.BusinessLayer.IModule.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.IModule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IModule.Name
+  fullName: TradingPlatform.BusinessLayer.IModule.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/IModule.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/IModule.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: TradingPlatform.BusinessLayer.IModule.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.IModule.Description
+  commentId: P:TradingPlatform.BusinessLayer.IModule.Description
+  id: Description
+  parent: TradingPlatform.BusinessLayer.IModule
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: IModule.Description
+  fullName: TradingPlatform.BusinessLayer.IModule.Description
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/IModule.cs
+    id: Description
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/IModule.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Description As String
+  overload: TradingPlatform.BusinessLayer.IModule.Description*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  parent: TradingPlatform.BusinessLayer.ICustomizable
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.IModule.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.IModule.Name
+  name: Name
+  nameWithType: IModule.Name
+  fullName: TradingPlatform.BusinessLayer.IModule.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.IModule.Description*
+  commentId: Overload:TradingPlatform.BusinessLayer.IModule.Description
+  name: Description
+  nameWithType: IModule.Description
+  fullName: TradingPlatform.BusinessLayer.IModule.Description

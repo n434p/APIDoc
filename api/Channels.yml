@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Channels
+  commentId: N:Channels
+  id: Channels
+  children:
+  - Channels.BB
+  - Channels.BBF
+  - Channels.Channel
+  - Channels.Keltner
+  - Channels.MAE
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: Channels
+  fullName: Channels
+  type: Namespace
+  assemblies:
+  - Indicators
+references:
+- uid: Channels.BB
+  commentId: T:Channels.BB
+  name: BB
+  nameWithType: BB
+  fullName: Channels.BB
+- uid: Channels.BBF
+  commentId: T:Channels.BBF
+  name: BBF
+  nameWithType: BBF
+  fullName: Channels.BBF
+- uid: Channels.Channel
+  commentId: T:Channels.Channel
+  name: Channel
+  nameWithType: Channel
+  fullName: Channels.Channel
+- uid: Channels.Keltner
+  commentId: T:Channels.Keltner
+  name: Keltner
+  nameWithType: Keltner
+  fullName: Channels.Keltner
+- uid: Channels.MAE
+  commentId: T:Channels.MAE
+  name: MAE
+  nameWithType: MAE
+  fullName: Channels.MAE

@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemSeparatorGroup
+  id: SettingItemSeparatorGroup
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SettingItemSeparatorGroup
+  nameWithType: SettingItemSeparatorGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/SettingItemSeparatorGroup.cs
+    id: SettingItemSeparatorGroup
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/SettingItemSeparatorGroup.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public sealed class SettingItemSeparatorGroup : SettingItemVisualGroup, ISettingsGroup'
+    content.vb: >-
+      Public NotInheritable Class SettingItemSeparatorGroup
+          Inherits SettingItemVisualGroup
+          Implements ISettingsGroup
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  implements:
+  - TradingPlatform.BusinessLayer.ISettingsGroup
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.Text
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.SortIndex
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.ParentGroup
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.ActionInfo
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.ChildGroups
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+  - TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.#ctor(System.String,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup
+  langs:
+  - csharp
+  - vb
+  name: SettingItemSeparatorGroup(String, Int32)
+  nameWithType: SettingItemSeparatorGroup.SettingItemSeparatorGroup(String, Int32)
+  fullName: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.SettingItemSeparatorGroup(System.String, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/SettingItemSeparatorGroup.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Groups/SettingItemSeparatorGroup.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SettingItemSeparatorGroup(string text, int sortIndex = 0)
+    parameters:
+    - id: text
+      type: System.String
+    - id: sortIndex
+      type: System.Int32
+    content.vb: Public Sub New(text As String, sortIndex As Integer = 0)
+  overload: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemVisualGroup
+  nameWithType: SettingItemVisualGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+- uid: TradingPlatform.BusinessLayer.ISettingsGroup
+  commentId: T:TradingPlatform.BusinessLayer.ISettingsGroup
+  parent: TradingPlatform.BusinessLayer
+  name: ISettingsGroup
+  nameWithType: ISettingsGroup
+  fullName: TradingPlatform.BusinessLayer.ISettingsGroup
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Text
+  commentId: P:TradingPlatform.BusinessLayer.SettingItemVisualGroup.Text
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: Text
+  nameWithType: SettingItemVisualGroup.Text
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Text
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.SortIndex
+  commentId: P:TradingPlatform.BusinessLayer.SettingItemVisualGroup.SortIndex
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: SortIndex
+  nameWithType: SettingItemVisualGroup.SortIndex
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.SortIndex
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ParentGroup
+  commentId: P:TradingPlatform.BusinessLayer.SettingItemVisualGroup.ParentGroup
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: ParentGroup
+  nameWithType: SettingItemVisualGroup.ParentGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ParentGroup
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ActionInfo
+  commentId: P:TradingPlatform.BusinessLayer.SettingItemVisualGroup.ActionInfo
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: ActionInfo
+  nameWithType: SettingItemVisualGroup.ActionInfo
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ActionInfo
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ChildGroups
+  commentId: P:TradingPlatform.BusinessLayer.SettingItemVisualGroup.ChildGroups
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: ChildGroups
+  nameWithType: SettingItemVisualGroup.ChildGroups
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ChildGroups
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: SettingItemVisualGroup.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals(System.Object)
+    name: Equals
+    nameWithType: SettingItemVisualGroup.Equals
+    fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals(System.Object)
+    name: Equals
+    nameWithType: SettingItemVisualGroup.Equals
+    fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: GetHashCode()
+  nameWithType: SettingItemVisualGroup.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+    name: GetHashCode
+    nameWithType: SettingItemVisualGroup.GetHashCode
+    fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+    name: GetHashCode
+    nameWithType: SettingItemVisualGroup.GetHashCode
+    fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+  commentId: M:TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+  parent: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  name: ToString()
+  nameWithType: SettingItemVisualGroup.ToString()
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+    name: ToString
+    nameWithType: SettingItemVisualGroup.ToString
+    fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+    name: ToString
+    nameWithType: SettingItemVisualGroup.ToString
+    fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.#ctor
+  name: SettingItemSeparatorGroup
+  nameWithType: SettingItemSeparatorGroup.SettingItemSeparatorGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItemSeparatorGroup.SettingItemSeparatorGroup
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,748 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SlTpHolder
+  commentId: T:TradingPlatform.BusinessLayer.SlTpHolder
+  id: SlTpHolder
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SlTpHolder.Clone
+  - TradingPlatform.BusinessLayer.SlTpHolder.CreateSL(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement,System.Boolean)
+  - TradingPlatform.BusinessLayer.SlTpHolder.CreateTP(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement)
+  - TradingPlatform.BusinessLayer.SlTpHolder.Format(TradingPlatform.BusinessLayer.Instrument)
+  - TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing
+  - TradingPlatform.BusinessLayer.SlTpHolder.Price
+  - TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement
+  - TradingPlatform.BusinessLayer.SlTpHolder.Type
+  langs:
+  - csharp
+  - vb
+  name: SlTpHolder
+  nameWithType: SlTpHolder
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: SlTpHolder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class SlTpHolder : ICloneable'
+    content.vb: >-
+      Public Class SlTpHolder
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Type
+  commentId: P:TradingPlatform.BusinessLayer.SlTpHolder.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SlTpHolder.Type
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public CloseOrderType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.CloseOrderType
+    content.vb: Public ReadOnly Property Type As CloseOrderType
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Price
+  commentId: P:TradingPlatform.BusinessLayer.SlTpHolder.Price
+  id: Price
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: SlTpHolder.Price
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Price
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: Price
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Price { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Price As Double
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.Price*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement
+  commentId: P:TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement
+  id: PriceMeasurement
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: PriceMeasurement
+  nameWithType: SlTpHolder.PriceMeasurement
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: PriceMeasurement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public PriceMeasurement PriceMeasurement { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.PriceMeasurement
+    content.vb: Public ReadOnly Property PriceMeasurement As PriceMeasurement
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing
+  commentId: P:TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing
+  id: IsTrailing
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: IsTrailing
+  nameWithType: SlTpHolder.IsTrailing
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: IsTrailing
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool IsTrailing { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsTrailing As Boolean
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.CreateSL(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement,System.Boolean)
+  commentId: M:TradingPlatform.BusinessLayer.SlTpHolder.CreateSL(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement,System.Boolean)
+  id: CreateSL(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement,System.Boolean)
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: CreateSL(Double, PriceMeasurement, Boolean)
+  nameWithType: SlTpHolder.CreateSL(Double, PriceMeasurement, Boolean)
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.CreateSL(System.Double, TradingPlatform.BusinessLayer.PriceMeasurement, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: CreateSL
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SlTpHolder CreateSL(double price, PriceMeasurement priceMeasurement = PriceMeasurement.Absolute, bool isTrailing = false)
+    parameters:
+    - id: price
+      type: System.Double
+    - id: priceMeasurement
+      type: TradingPlatform.BusinessLayer.PriceMeasurement
+    - id: isTrailing
+      type: System.Boolean
+    return:
+      type: TradingPlatform.BusinessLayer.SlTpHolder
+    content.vb: Public Shared Function CreateSL(price As Double, priceMeasurement As PriceMeasurement = PriceMeasurement.Absolute, isTrailing As Boolean = False) As SlTpHolder
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.CreateSL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.CreateTP(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement)
+  commentId: M:TradingPlatform.BusinessLayer.SlTpHolder.CreateTP(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement)
+  id: CreateTP(System.Double,TradingPlatform.BusinessLayer.PriceMeasurement)
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: CreateTP(Double, PriceMeasurement)
+  nameWithType: SlTpHolder.CreateTP(Double, PriceMeasurement)
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.CreateTP(System.Double, TradingPlatform.BusinessLayer.PriceMeasurement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: CreateTP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SlTpHolder CreateTP(double price, PriceMeasurement priceMeasurement = PriceMeasurement.Absolute)
+    parameters:
+    - id: price
+      type: System.Double
+    - id: priceMeasurement
+      type: TradingPlatform.BusinessLayer.PriceMeasurement
+    return:
+      type: TradingPlatform.BusinessLayer.SlTpHolder
+    content.vb: Public Shared Function CreateTP(price As Double, priceMeasurement As PriceMeasurement = PriceMeasurement.Absolute) As SlTpHolder
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.CreateTP*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Format(TradingPlatform.BusinessLayer.Instrument)
+  commentId: M:TradingPlatform.BusinessLayer.SlTpHolder.Format(TradingPlatform.BusinessLayer.Instrument)
+  id: Format(TradingPlatform.BusinessLayer.Instrument)
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: Format(Instrument)
+  nameWithType: SlTpHolder.Format(Instrument)
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Format(TradingPlatform.BusinessLayer.Instrument)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: Format
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Format(Instrument instrument)
+    parameters:
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    return:
+      type: System.String
+    content.vb: Public Function Format(instrument As Instrument) As String
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.Format*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Clone
+  commentId: M:TradingPlatform.BusinessLayer.SlTpHolder.Clone
+  id: Clone
+  parent: TradingPlatform.BusinessLayer.SlTpHolder
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SlTpHolder.Clone()
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Clone()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    id: Clone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/SlTpHolder.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Function Clone As Object
+  overload: TradingPlatform.BusinessLayer.SlTpHolder.Clone*
+  implements:
+  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.Type
+  name: Type
+  nameWithType: SlTpHolder.Type
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Type
+- uid: TradingPlatform.BusinessLayer.CloseOrderType
+  commentId: T:TradingPlatform.BusinessLayer.CloseOrderType
+  parent: TradingPlatform.BusinessLayer
+  name: CloseOrderType
+  nameWithType: CloseOrderType
+  fullName: TradingPlatform.BusinessLayer.CloseOrderType
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Price*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.Price
+  name: Price
+  nameWithType: SlTpHolder.Price
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Price
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement
+  name: PriceMeasurement
+  nameWithType: SlTpHolder.PriceMeasurement
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.PriceMeasurement
+- uid: TradingPlatform.BusinessLayer.PriceMeasurement
+  commentId: T:TradingPlatform.BusinessLayer.PriceMeasurement
+  parent: TradingPlatform.BusinessLayer
+  name: PriceMeasurement
+  nameWithType: PriceMeasurement
+  fullName: TradingPlatform.BusinessLayer.PriceMeasurement
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing
+  name: IsTrailing
+  nameWithType: SlTpHolder.IsTrailing
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.IsTrailing
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.CreateSL*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.CreateSL
+  name: CreateSL
+  nameWithType: SlTpHolder.CreateSL
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.CreateSL
+- uid: TradingPlatform.BusinessLayer.SlTpHolder
+  commentId: T:TradingPlatform.BusinessLayer.SlTpHolder
+  parent: TradingPlatform.BusinessLayer
+  name: SlTpHolder
+  nameWithType: SlTpHolder
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.CreateTP*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.CreateTP
+  name: CreateTP
+  nameWithType: SlTpHolder.CreateTP
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.CreateTP
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Format*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.Format
+  name: Format
+  nameWithType: SlTpHolder.Format
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Format
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.SlTpHolder.Clone*
+  commentId: Overload:TradingPlatform.BusinessLayer.SlTpHolder.Clone
+  name: Clone
+  nameWithType: SlTpHolder.Clone
+  fullName: TradingPlatform.BusinessLayer.SlTpHolder.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

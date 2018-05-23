@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SendMailCallbackDelegate
+  commentId: T:TradingPlatform.BusinessLayer.SendMailCallbackDelegate
+  id: SendMailCallbackDelegate
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SendMailCallbackDelegate
+  nameWithType: SendMailCallbackDelegate
+  fullName: TradingPlatform.BusinessLayer.SendMailCallbackDelegate
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailParameters.cs
+    id: SendMailCallbackDelegate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailParameters.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void SendMailCallbackDelegate(EmailSendCompletedResult result);
+    parameters:
+    - id: result
+      type: TradingPlatform.BusinessLayer.EmailSendCompletedResult
+    content.vb: Public Delegate Sub SendMailCallbackDelegate(result As EmailSendCompletedResult)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.EmailSendCompletedResult
+  commentId: T:TradingPlatform.BusinessLayer.EmailSendCompletedResult
+  parent: TradingPlatform.BusinessLayer
+  name: EmailSendCompletedResult
+  nameWithType: EmailSendCompletedResult
+  fullName: TradingPlatform.BusinessLayer.EmailSendCompletedResult

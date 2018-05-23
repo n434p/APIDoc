@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  commentId: T:TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  id: ILineDrawing
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color
+  - TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style
+  - TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width
+  langs:
+  - csharp
+  - vb
+  name: ILineDrawing
+  nameWithType: ILineDrawing
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    id: ILineDrawing
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: 'public interface ILineDrawing : IDrawing'
+    content.vb: >-
+      Public Interface ILineDrawing
+          Inherits IDrawing
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  - TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color
+  commentId: P:TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color
+  id: Color
+  parent: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ILineDrawing.Color
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    id: Color
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: Color Color { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Property Color As Color
+  overload: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style
+  commentId: P:TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style
+  id: Style
+  parent: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: ILineDrawing.Style
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    id: Style
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: LineStyle Style { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Property Style As LineStyle
+  overload: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style*
+  modifiers.csharp:
+  - get
+  - set
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width
+  commentId: P:TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width
+  id: Width
+  parent: TradingPlatform.BusinessLayer.Chart.ILineDrawing
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: ILineDrawing.Width
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    id: Width
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/Drawings/ILineDrawing.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Width As Integer
+  overload: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  name: CreationMode
+  nameWithType: IDrawing.CreationMode
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.CreationMode
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  name: ID
+  nameWithType: IDrawing.ID
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.ID
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  name: MoveToBackground
+  nameWithType: IDrawing.MoveToBackground
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.MoveToBackground
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  commentId: P:TradingPlatform.BusinessLayer.Chart.IDrawing.State
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  name: State
+  nameWithType: IDrawing.State
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.State
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  isExternal: true
+  name: GetPoint(Int32)
+  nameWithType: IDrawing.GetPoint(Int32)
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+    name: GetPoint
+    nameWithType: IDrawing.GetPoint
+    fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint(System.Int32)
+    name: GetPoint
+    nameWithType: IDrawing.GetPoint
+    fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.GetPoint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+  parent: TradingPlatform.BusinessLayer.Chart.IDrawing
+  isExternal: true
+  name: SetPoint(Int32, DateTime, Double)
+  nameWithType: IDrawing.SetPoint(Int32, DateTime, Double)
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32, System.DateTime, System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+    name: SetPoint
+    nameWithType: IDrawing.SetPoint
+    fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint(System.Int32,System.DateTime,System.Double)
+    name: SetPoint
+    nameWithType: IDrawing.SetPoint
+    fullName: TradingPlatform.BusinessLayer.Chart.IDrawing.SetPoint
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Chart.IDrawing
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IDrawing
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: IDrawing
+  nameWithType: IDrawing
+  fullName: TradingPlatform.BusinessLayer.Chart.IDrawing
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color
+  name: Color
+  nameWithType: ILineDrawing.Color
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Color
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style
+  name: Style
+  nameWithType: ILineDrawing.Style
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Style
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width
+  name: Width
+  nameWithType: ILineDrawing.Width
+  fullName: TradingPlatform.BusinessLayer.Chart.ILineDrawing.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

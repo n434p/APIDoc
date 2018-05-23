@@ -1,0 +1,847 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  id: ModifyOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor(TradingPlatform.BusinessLayer.Order)
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId
+  - TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type
+  langs:
+  - csharp
+  - vb
+  name: ModifyOrderRequestParameters
+  nameWithType: ModifyOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: ModifyOrderRequestParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class ModifyOrderRequestParameters : OrderRequestParameters, IConnectionBindedObject, ILoggable, ICloneable'
+    content.vb: >-
+      Public Class ModifyOrderRequestParameters
+          Inherits OrderRequestParameters
+          Implements IConnectionBindedObject, ILoggable, ICloneable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.RequestParameters
+  - TradingPlatform.BusinessLayer.TradingRequestParameters
+  - TradingPlatform.BusinessLayer.OrderRequestParameters
+  implements:
+  - TradingPlatform.BusinessLayer.ILoggable
+  - System.ICloneable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Instrument
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Account
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Side
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Quantity
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.OrderType
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Price
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.TriggerPrice
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.TrailOffset
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.TimeInForce
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.ExpirationTime
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Slippage
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.PositionId
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.StopLoss
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.TakeProfit
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.GroupId
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Comment
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.AdditionalParameters
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.ConnectionId
+  - TradingPlatform.BusinessLayer.OrderRequestParameters.Message
+  - TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type
+  commentId: P:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ModifyOrderRequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override RequestType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.RequestType
+    content.vb: Public Overrides ReadOnly Property Type As RequestType
+  overridden: TradingPlatform.BusinessLayer.RequestParameters.Type
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event
+  commentId: P:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event
+  id: Event
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: ModifyOrderRequestParameters.Event
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: Event
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string Event { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Event As String
+  overridden: TradingPlatform.BusinessLayer.TradingRequestParameters.Event
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId
+  commentId: P:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId
+  id: OrderId
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: OrderId
+  nameWithType: ModifyOrderRequestParameters.OrderId
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: OrderId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nId of the order\n"
+  example: []
+  syntax:
+    content: public string OrderId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderId As String
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ModifyOrderRequestParameters()
+  nameWithType: ModifyOrderRequestParameters.ModifyOrderRequestParameters()
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.ModifyOrderRequestParameters()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ModifyOrderRequestParameters()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor(TradingPlatform.BusinessLayer.Order)
+  commentId: M:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor(TradingPlatform.BusinessLayer.Order)
+  id: '#ctor(TradingPlatform.BusinessLayer.Order)'
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ModifyOrderRequestParameters(Order)
+  nameWithType: ModifyOrderRequestParameters.ModifyOrderRequestParameters(Order)
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.ModifyOrderRequestParameters(TradingPlatform.BusinessLayer.Order)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ModifyOrderRequestParameters(Order order)
+    parameters:
+    - id: order
+      type: TradingPlatform.BusinessLayer.Order
+    content.vb: Public Sub New(order As Order)
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  id: '#ctor(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)'
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ModifyOrderRequestParameters(ModifyOrderRequestParameters)
+  nameWithType: ModifyOrderRequestParameters.ModifyOrderRequestParameters(ModifyOrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.ModifyOrderRequestParameters(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ModifyOrderRequestParameters(ModifyOrderRequestParameters original)
+    parameters:
+    - id: original
+      type: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+    content.vb: Public Sub New(original As ModifyOrderRequestParameters)
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone
+  commentId: M:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone
+  id: Clone
+  parent: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ModifyOrderRequestParameters.Clone()
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    id: Clone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/ModifyOrderRequestParameters.cs
+    startLine: 45
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Clone As Object
+  overridden: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+  overload: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.RequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.RequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: RequestParameters
+  nameWithType: RequestParameters
+  fullName: TradingPlatform.BusinessLayer.RequestParameters
+- uid: TradingPlatform.BusinessLayer.TradingRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.TradingRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: TradingRequestParameters
+  nameWithType: TradingRequestParameters
+  fullName: TradingPlatform.BusinessLayer.TradingRequestParameters
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.OrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: OrderRequestParameters
+  nameWithType: OrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.ILoggable
+  commentId: T:TradingPlatform.BusinessLayer.ILoggable
+  parent: TradingPlatform.BusinessLayer
+  name: ILoggable
+  nameWithType: ILoggable
+  fullName: TradingPlatform.BusinessLayer.ILoggable
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Instrument
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Instrument
+  nameWithType: OrderRequestParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Instrument
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Account
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Account
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Account
+  nameWithType: OrderRequestParameters.Account
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Account
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Side
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Side
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Side
+  nameWithType: OrderRequestParameters.Side
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Side
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Quantity
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Quantity
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Quantity
+  nameWithType: OrderRequestParameters.Quantity
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Quantity
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.OrderType
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.OrderType
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: OrderType
+  nameWithType: OrderRequestParameters.OrderType
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.OrderType
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Price
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Price
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Price
+  nameWithType: OrderRequestParameters.Price
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Price
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.TriggerPrice
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.TriggerPrice
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: TriggerPrice
+  nameWithType: OrderRequestParameters.TriggerPrice
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.TriggerPrice
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.TrailOffset
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.TrailOffset
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: TrailOffset
+  nameWithType: OrderRequestParameters.TrailOffset
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.TrailOffset
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.TimeInForce
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.TimeInForce
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: TimeInForce
+  nameWithType: OrderRequestParameters.TimeInForce
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.TimeInForce
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.ExpirationTime
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.ExpirationTime
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: ExpirationTime
+  nameWithType: OrderRequestParameters.ExpirationTime
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.ExpirationTime
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Slippage
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Slippage
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Slippage
+  nameWithType: OrderRequestParameters.Slippage
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Slippage
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.PositionId
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.PositionId
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: PositionId
+  nameWithType: OrderRequestParameters.PositionId
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.PositionId
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.StopLoss
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.StopLoss
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: StopLoss
+  nameWithType: OrderRequestParameters.StopLoss
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.StopLoss
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.TakeProfit
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.TakeProfit
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: TakeProfit
+  nameWithType: OrderRequestParameters.TakeProfit
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.TakeProfit
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.GroupId
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.GroupId
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: GroupId
+  nameWithType: OrderRequestParameters.GroupId
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.GroupId
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Comment
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Comment
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Comment
+  nameWithType: OrderRequestParameters.Comment
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Comment
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.AdditionalParameters
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.AdditionalParameters
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: AdditionalParameters
+  nameWithType: OrderRequestParameters.AdditionalParameters
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.AdditionalParameters
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.ConnectionId
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: ConnectionId
+  nameWithType: OrderRequestParameters.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.ConnectionId
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Message
+  commentId: P:TradingPlatform.BusinessLayer.OrderRequestParameters.Message
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Message
+  nameWithType: OrderRequestParameters.Message
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Message
+- uid: TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  commentId: P:TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  parent: TradingPlatform.BusinessLayer.RequestParameters
+  name: CancellationToken
+  nameWithType: RequestParameters.CancellationToken
+  fullName: TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.RequestParameters.Type
+  commentId: P:TradingPlatform.BusinessLayer.RequestParameters.Type
+  parent: TradingPlatform.BusinessLayer.RequestParameters
+  name: Type
+  nameWithType: RequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.RequestParameters.Type
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type
+  name: Type
+  nameWithType: ModifyOrderRequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Type
+- uid: TradingPlatform.BusinessLayer.RequestType
+  commentId: T:TradingPlatform.BusinessLayer.RequestType
+  parent: TradingPlatform.BusinessLayer
+  name: RequestType
+  nameWithType: RequestType
+  fullName: TradingPlatform.BusinessLayer.RequestType
+- uid: TradingPlatform.BusinessLayer.TradingRequestParameters.Event
+  commentId: P:TradingPlatform.BusinessLayer.TradingRequestParameters.Event
+  parent: TradingPlatform.BusinessLayer.TradingRequestParameters
+  name: Event
+  nameWithType: TradingRequestParameters.Event
+  fullName: TradingPlatform.BusinessLayer.TradingRequestParameters.Event
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event*
+  commentId: Overload:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event
+  name: Event
+  nameWithType: ModifyOrderRequestParameters.Event
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Event
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId*
+  commentId: Overload:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId
+  name: OrderId
+  nameWithType: ModifyOrderRequestParameters.OrderId
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.OrderId
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.#ctor
+  name: ModifyOrderRequestParameters
+  nameWithType: ModifyOrderRequestParameters.ModifyOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.ModifyOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.Order
+  commentId: T:TradingPlatform.BusinessLayer.Order
+  parent: TradingPlatform.BusinessLayer
+  name: Order
+  nameWithType: Order
+  fullName: TradingPlatform.BusinessLayer.Order
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: ModifyOrderRequestParameters
+  nameWithType: ModifyOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+  commentId: M:TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+  parent: TradingPlatform.BusinessLayer.OrderRequestParameters
+  name: Clone()
+  nameWithType: OrderRequestParameters.Clone()
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+    name: Clone
+    nameWithType: OrderRequestParameters.Clone
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+    name: Clone
+    nameWithType: OrderRequestParameters.Clone
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone*
+  commentId: Overload:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone
+  name: Clone
+  nameWithType: ModifyOrderRequestParameters.Clone
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters.Clone

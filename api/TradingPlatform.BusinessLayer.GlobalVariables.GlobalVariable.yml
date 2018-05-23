@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  id: GlobalVariable
+  parent: TradingPlatform.BusinessLayer.GlobalVariables
+  children:
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.#ctor(System.String,System.Object)
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value
+  langs:
+  - csharp
+  - vb
+  name: GlobalVariable
+  nameWithType: GlobalVariable
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    id: GlobalVariable
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nGlobal variable entry\n"
+  example: []
+  syntax:
+    content: public class GlobalVariable
+    content.vb: Public Class GlobalVariable
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name
+  commentId: P:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GlobalVariable.Name
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nVariable name\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        List&lt;GlobalVariable> global_List=new List&lt;GlobalVariable>();\n\n        public override void Init()\n        {             \n             if(GlobalVariablesManager.Count()>0)\n             {\n                global_List=GlobalVariablesManager.GetGlobalVariablesList();\n                foreach (var el in global_List)\n                {\n                Print(el.Name);\n                Print(el.Value);\n                }\n             }\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value
+  commentId: P:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value
+  id: Value
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: GlobalVariable.Value
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    id: Value
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    startLine: 78
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nVariable value\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        List&lt;GlobalVariable> global_List=new List&lt;GlobalVariable>();\n        public override void Init()\n        {             \n             if(GlobalVariablesManager.Count()>0)\n             {\n                global_List=GlobalVariablesManager.GetGlobalVariablesList();\n                foreach (var el in global_List)\n                {\n                Print(el.Name);\n                Print(el.Value);\n                }\n             }\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public object Value { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Value As Object
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.#ctor(System.String,System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.#ctor(System.String,System.Object)
+  id: '#ctor(System.String,System.Object)'
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: GlobalVariable(String, Object)
+  nameWithType: GlobalVariable.GlobalVariable(String, Object)
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.GlobalVariable(System.String, System.Object)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    startLine: 117
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nInitializes new variable\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        List&lt;GlobalVariable> global_List=new List&lt;GlobalVariable>();\n        public override void Init()\n        {             \n             if(GlobalVariablesManager.Count()>0)\n            {\n                global_List=GlobalVariablesManager.GetGlobalVariablesList();\n                foreach (var el in global_List)\n                {\n                   //Simplified way to retrieve global variable value\n                   el.GlobalVariable(&quot;new_global_variable_period&quot;, period)\n\n                   //However, to obtain certain variable, which belongs to indicator/strategy and to avoid unexpected erasing of data the best practice is to provide to a key holder multiple details such as name, params, hashed password etc. Follow SetValue() example.\n                }\n            }\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public GlobalVariable(string name, object value)
+    parameters:
+    - id: name
+      type: System.String
+      description: Variable name
+    - id: value
+      type: System.Object
+      description: Variable value
+    content.vb: Public Sub New(name As String, value As Object)
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: GlobalVariable.ToString()
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariable.cs
+    startLine: 123
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables
+  commentId: N:TradingPlatform.BusinessLayer.GlobalVariables
+  name: TradingPlatform.BusinessLayer.GlobalVariables
+  nameWithType: TradingPlatform.BusinessLayer.GlobalVariables
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name
+  name: Name
+  nameWithType: GlobalVariable.Name
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value
+  name: Value
+  nameWithType: GlobalVariable.Value
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.Value
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.#ctor
+  name: GlobalVariable
+  nameWithType: GlobalVariable.GlobalVariable
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.GlobalVariable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString
+  name: ToString
+  nameWithType: GlobalVariable.ToString
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable.ToString

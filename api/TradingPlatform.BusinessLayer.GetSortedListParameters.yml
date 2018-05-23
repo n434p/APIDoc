@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetSortedListParameters
+  id: GetSortedListParameters
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.Filter
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.op_Equality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  - TradingPlatform.BusinessLayer.GetSortedListParameters.op_Inequality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  langs:
+  - csharp
+  - vb
+  name: GetSortedListParameters
+  nameWithType: GetSortedListParameters
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: GetSortedListParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 263
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class GetSortedListParameters
+    content.vb: Public Class GetSortedListParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType
+  commentId: P:TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType
+  id: CompateType
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: CompateType
+  nameWithType: GetSortedListParameters.CompateType
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: CompateType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 265
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public CompareType CompateType { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.CompareType
+    content.vb: Public Property CompateType As CompareType
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting
+  commentId: P:TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting
+  id: ForceSorting
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: ForceSorting
+  nameWithType: GetSortedListParameters.ForceSorting
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: ForceSorting
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 267
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool? ForceSorting { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property ForceSorting As Boolean?
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.Filter
+  commentId: P:TradingPlatform.BusinessLayer.GetSortedListParameters.Filter
+  id: Filter
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: GetSortedListParameters.Filter
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Filter
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Filter
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 269
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Level2ItemComparer.Filter Filter { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+    content.vb: Public Property Filter As Level2ItemComparer.Filter
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.op_Equality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  commentId: M:TradingPlatform.BusinessLayer.GetSortedListParameters.op_Equality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  id: op_Equality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: Equality(GetSortedListParameters, GetSortedListParameters)
+  nameWithType: GetSortedListParameters.Equality(GetSortedListParameters, GetSortedListParameters)
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Equality(TradingPlatform.BusinessLayer.GetSortedListParameters, TradingPlatform.BusinessLayer.GetSortedListParameters)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: op_Equality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 271
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator ==(GetSortedListParameters p1, GetSortedListParameters p2)
+    parameters:
+    - id: p1
+      type: TradingPlatform.BusinessLayer.GetSortedListParameters
+    - id: p2
+      type: TradingPlatform.BusinessLayer.GetSortedListParameters
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(p1 As GetSortedListParameters, p2 As GetSortedListParameters) As Boolean
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.op_Inequality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  commentId: M:TradingPlatform.BusinessLayer.GetSortedListParameters.op_Inequality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  id: op_Inequality(TradingPlatform.BusinessLayer.GetSortedListParameters,TradingPlatform.BusinessLayer.GetSortedListParameters)
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: Inequality(GetSortedListParameters, GetSortedListParameters)
+  nameWithType: GetSortedListParameters.Inequality(GetSortedListParameters, GetSortedListParameters)
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Inequality(TradingPlatform.BusinessLayer.GetSortedListParameters, TradingPlatform.BusinessLayer.GetSortedListParameters)
+  type: Operator
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: op_Inequality
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 282
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool operator !=(GetSortedListParameters p1, GetSortedListParameters p2)
+    parameters:
+    - id: p1
+      type: TradingPlatform.BusinessLayer.GetSortedListParameters
+    - id: p2
+      type: TradingPlatform.BusinessLayer.GetSortedListParameters
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(p1 As GetSortedListParameters, p2 As GetSortedListParameters) As Boolean
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.GetSortedListParameters.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: GetSortedListParameters.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 294
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.GetSortedListParameters
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: GetSortedListParameters.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 314
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType
+  name: CompateType
+  nameWithType: GetSortedListParameters.CompateType
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.CompateType
+- uid: TradingPlatform.BusinessLayer.CompareType
+  commentId: T:TradingPlatform.BusinessLayer.CompareType
+  parent: TradingPlatform.BusinessLayer
+  name: CompareType
+  nameWithType: CompareType
+  fullName: TradingPlatform.BusinessLayer.CompareType
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting
+  name: ForceSorting
+  nameWithType: GetSortedListParameters.ForceSorting
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.ForceSorting
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.Filter*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.Filter
+  name: Filter
+  nameWithType: GetSortedListParameters.Filter
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Filter
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  commentId: T:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  parent: TradingPlatform.BusinessLayer
+  name: Level2ItemComparer.Filter
+  nameWithType: Level2ItemComparer.Filter
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.op_Equality*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.op_Equality
+  name: Equality
+  nameWithType: GetSortedListParameters.Equality
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Equality
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetSortedListParameters
+  parent: TradingPlatform.BusinessLayer
+  name: GetSortedListParameters
+  nameWithType: GetSortedListParameters
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.op_Inequality*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.op_Inequality
+  name: Inequality
+  nameWithType: GetSortedListParameters.Inequality
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Inequality
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.Equals
+  name: Equals
+  nameWithType: GetSortedListParameters.Equals
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode
+  name: GetHashCode
+  nameWithType: GetSortedListParameters.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.GetSortedListParameters.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

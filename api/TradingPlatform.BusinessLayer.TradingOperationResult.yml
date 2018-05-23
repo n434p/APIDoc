@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationResult
+  id: TradingOperationResult
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TradingOperationResult.Message
+  - TradingPlatform.BusinessLayer.TradingOperationResult.OrderId
+  - TradingPlatform.BusinessLayer.TradingOperationResult.SetError(System.String)
+  - TradingPlatform.BusinessLayer.TradingOperationResult.Status
+  langs:
+  - csharp
+  - vb
+  name: TradingOperationResult
+  nameWithType: TradingOperationResult
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    id: TradingOperationResult
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nDefines a trading operation respond bundle\n"
+  example: []
+  syntax:
+    content: public class TradingOperationResult
+    content.vb: Public Class TradingOperationResult
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.Status
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationResult.Status
+  id: Status
+  parent: TradingPlatform.BusinessLayer.TradingOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TradingOperationResult.Status
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.Status
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    id: Status
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nRespond operation state\n"
+  example: []
+  syntax:
+    content: public TradingOperationResultStatus Status { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationResultStatus
+    content.vb: Public Property Status As TradingOperationResultStatus
+  overload: TradingPlatform.BusinessLayer.TradingOperationResult.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.Message
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationResult.Message
+  id: Message
+  parent: TradingPlatform.BusinessLayer.TradingOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TradingOperationResult.Message
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.Message
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    id: Message
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nRespond message\n"
+  example: []
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: TradingPlatform.BusinessLayer.TradingOperationResult.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.OrderId
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationResult.OrderId
+  id: OrderId
+  parent: TradingPlatform.BusinessLayer.TradingOperationResult
+  langs:
+  - csharp
+  - vb
+  name: OrderId
+  nameWithType: TradingOperationResult.OrderId
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.OrderId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    id: OrderId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nRespond order id\n"
+  example: []
+  syntax:
+    content: public string OrderId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderId As String
+  overload: TradingPlatform.BusinessLayer.TradingOperationResult.OrderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.SetError(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.TradingOperationResult.SetError(System.String)
+  id: SetError(System.String)
+  parent: TradingPlatform.BusinessLayer.TradingOperationResult
+  langs:
+  - csharp
+  - vb
+  name: SetError(String)
+  nameWithType: TradingOperationResult.SetError(String)
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.SetError(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    id: SetError
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TradingOperationResult.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void SetError(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub SetError(message As String)
+  overload: TradingPlatform.BusinessLayer.TradingOperationResult.SetError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.Status*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationResult.Status
+  name: Status
+  nameWithType: TradingOperationResult.Status
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.Status
+- uid: TradingPlatform.BusinessLayer.TradingOperationResultStatus
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationResultStatus
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperationResultStatus
+  nameWithType: TradingOperationResultStatus
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResultStatus
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.Message*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationResult.Message
+  name: Message
+  nameWithType: TradingOperationResult.Message
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.OrderId*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationResult.OrderId
+  name: OrderId
+  nameWithType: TradingOperationResult.OrderId
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.OrderId
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult.SetError*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationResult.SetError
+  name: SetError
+  nameWithType: TradingOperationResult.SetError
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult.SetError

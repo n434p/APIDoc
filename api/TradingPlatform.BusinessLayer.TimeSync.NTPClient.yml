@@ -1,0 +1,1041 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  id: NTPClient
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  children:
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.#ctor(System.String)
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceptionTimestamp
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp
+  - TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber
+  langs:
+  - csharp
+  - vb
+  name: NTPClient
+  nameWithType: NTPClient
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: NTPClient
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 110
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  summary: "\nfrom:\nhttp://www.codeguru.com/csharp/csharp/cs_date_time/timeroutines/article.php/c4207/C-SNTP-Client.htm\n+++ добавлен диспозе, подправлен ToString(), убран лишний метод.\n+++ ReceiveTimeoutбSendTimeout\n\nNTPClient is a C# class designed to connect to time servers on the Internet.\nThe implementation of the protocol is based on the RFC 2030.\n\nPublic class members:\n\nLeapIndicator - Warns of an impending leap second to be inserted/deleted in the last\nminute of the current day. (See the _LeapIndicator enum)\n\nVersionNumber - Version number of the protocol (3 or 4).\n\nMode - Returns mode. (See the _Mode enum)\n\nStratum - Stratum of the clock. (See the _Stratum enum)\n\nPollInterval - Maximum interval between successive messages.\n\nPrecision - Precision of the clock.\n\nRootDelay - Round trip time to the primary reference source.\n\nRootDispersion - Nominal error relative to the primary reference source.\n\nReferenceTimestamp - The time at which the clock was last set or corrected.\n\nOriginateTimestamp - The time at which the request departed the client for the server.\n\nReceiveTimestamp - The time at which the request arrived at the server.\n\nTransmit Timestamp - The time at which the reply departed the server for client.\n\nRoundTripDelay - The time between the departure of request and arrival of reply.\n\nLocalClockOffset - The offset of the local clock relative to the primary reference\nsource.\n\nInitialize - Sets up data structure and prepares for connection.\n\nConnect - Connects to the time server and populates the data structure.\n\nIsResponseValid - Returns true if received data is valid and if comes from\na NTP-compliant time server.\n\nToString - Returns a string representation of the object.\n\n-----------------------------------------------------------------------------\nStructure of the standard NTP header (as described in RFC 2030)\n                 1                   2                   3\n0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|LI | VN  |Mode |    Stratum    |     Poll      |   Precision   |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                          Root Delay                           |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                       Root Dispersion                         |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                     Reference Identifier                      |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                                                               |\n|                   Reference Timestamp (64)                    |\n|                                                               |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                                                               |\n|                   Originate Timestamp (64)                    |\n|                                                               |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                                                               |\n|                    Receive Timestamp (64)                     |\n|                                                               |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                                                               |\n|                    Transmit Timestamp (64)                    |\n|                                                               |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                 Key Identifier (optional) (32)                |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                                                               |\n|                                                               |\n|                 Message Digest (optional) (128)               |\n|                                                               |\n|                                                               |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\n-----------------------------------------------------------------------------\n\nNTP Timestamp Format (as described in RFC 2030)\n                   1                   2                   3\n0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                           Seconds                             |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n|                  Seconds Fraction (0-padded)                  |\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\n"
+  example: []
+  syntax:
+    content: 'public class NTPClient : IDisposable'
+    content.vb: >-
+      Public Class NTPClient
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber
+  id: VersionNumber
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: VersionNumber
+  nameWithType: NTPClient.VersionNumber
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: VersionNumber
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 125
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public byte VersionNumber { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property VersionNumber As Byte
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode
+  id: Mode
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: NTPClient.Mode
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: Mode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 136
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public _Mode Mode { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Mode
+    content.vb: Public ReadOnly Property Mode As _Mode
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum
+  id: Stratum
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: Stratum
+  nameWithType: NTPClient.Stratum
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: Stratum
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 164
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public _Stratum Stratum { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.TimeSync._Stratum
+    content.vb: Public ReadOnly Property Stratum As _Stratum
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision
+  id: Precision
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: Precision
+  nameWithType: NTPClient.Precision
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: Precision
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 180
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public double Precision { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Precision As Double
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp
+  id: ReferenceTimestamp
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: ReferenceTimestamp
+  nameWithType: NTPClient.ReferenceTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: ReferenceTimestamp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 189
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public DateTime ReferenceTimestamp { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property ReferenceTimestamp As Date
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp
+  id: OriginateTimestamp
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: OriginateTimestamp
+  nameWithType: NTPClient.OriginateTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: OriginateTimestamp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 201
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public DateTime OriginateTimestamp { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property OriginateTimestamp As Date
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp
+  id: ReceiveTimestamp
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: ReceiveTimestamp
+  nameWithType: NTPClient.ReceiveTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: ReceiveTimestamp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 210
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public DateTime ReceiveTimestamp { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property ReceiveTimestamp As Date
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp
+  id: TransmitTimestamp
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: TransmitTimestamp
+  nameWithType: NTPClient.TransmitTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: TransmitTimestamp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 223
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public DateTime TransmitTimestamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property TransmitTimestamp As Date
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceptionTimestamp
+  commentId: F:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceptionTimestamp
+  id: ReceptionTimestamp
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: ReceptionTimestamp
+  nameWithType: NTPClient.ReceptionTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceptionTimestamp
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: ReceptionTimestamp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 240
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public DateTime ReceptionTimestamp
+    return:
+      type: System.DateTime
+    content.vb: Public ReceptionTimestamp As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay
+  id: RoundTripDelay
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: RoundTripDelay
+  nameWithType: NTPClient.RoundTripDelay
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: RoundTripDelay
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 243
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public int RoundTripDelay { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RoundTripDelay As Integer
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset
+  commentId: P:TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset
+  id: LocalClockOffset
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: LocalClockOffset
+  nameWithType: NTPClient.LocalClockOffset
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: LocalClockOffset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 253
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public int LocalClockOffset { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property LocalClockOffset As Integer
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.#ctor(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.TimeSync.NTPClient.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: NTPClient(String)
+  nameWithType: NTPClient.NTPClient(String)
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.NTPClient(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 327
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public NTPClient(string host)
+    parameters:
+    - id: host
+      type: System.String
+    content.vb: Public Sub New(host As String)
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect
+  commentId: M:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect
+  id: Connect
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: Connect()
+  nameWithType: NTPClient.Connect()
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: Connect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 337
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  summary: "\nConnect to the time server\n"
+  example: []
+  syntax:
+    content: public void Connect()
+    content.vb: Public Sub Connect
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid
+  commentId: M:TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid
+  id: IsResponseValid
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: IsResponseValid()
+  nameWithType: NTPClient.IsResponseValid()
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: IsResponseValid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 370
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public bool IsResponseValid()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsResponseValid As Boolean
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString
+  commentId: M:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NTPClient.ToString()
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 383
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.TimeSync.NTPClient
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NTPClient.Dispose()
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TimeSync/NTPClient.cs
+    startLine: 419
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.TimeSync
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.TimeSync
+  commentId: N:TradingPlatform.BusinessLayer.TimeSync
+  name: TradingPlatform.BusinessLayer.TimeSync
+  nameWithType: TradingPlatform.BusinessLayer.TimeSync
+  fullName: TradingPlatform.BusinessLayer.TimeSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber
+  name: VersionNumber
+  nameWithType: NTPClient.VersionNumber
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.VersionNumber
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode
+  name: Mode
+  nameWithType: NTPClient.Mode
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Mode
+- uid: TradingPlatform.BusinessLayer.TimeSync._Mode
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Mode
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  name: _Mode
+  nameWithType: _Mode
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Mode
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum
+  name: Stratum
+  nameWithType: NTPClient.Stratum
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Stratum
+- uid: TradingPlatform.BusinessLayer.TimeSync._Stratum
+  commentId: T:TradingPlatform.BusinessLayer.TimeSync._Stratum
+  parent: TradingPlatform.BusinessLayer.TimeSync
+  name: _Stratum
+  nameWithType: _Stratum
+  fullName: TradingPlatform.BusinessLayer.TimeSync._Stratum
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision
+  name: Precision
+  nameWithType: NTPClient.Precision
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Precision
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp
+  name: ReferenceTimestamp
+  nameWithType: NTPClient.ReferenceTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReferenceTimestamp
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp
+  name: OriginateTimestamp
+  nameWithType: NTPClient.OriginateTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.OriginateTimestamp
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp
+  name: ReceiveTimestamp
+  nameWithType: NTPClient.ReceiveTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ReceiveTimestamp
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp
+  name: TransmitTimestamp
+  nameWithType: NTPClient.TransmitTimestamp
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.TransmitTimestamp
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay
+  name: RoundTripDelay
+  nameWithType: NTPClient.RoundTripDelay
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.RoundTripDelay
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset
+  name: LocalClockOffset
+  nameWithType: NTPClient.LocalClockOffset
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.LocalClockOffset
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.#ctor
+  name: NTPClient
+  nameWithType: NTPClient.NTPClient
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.NTPClient
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect
+  name: Connect
+  nameWithType: NTPClient.Connect
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Connect
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid
+  name: IsResponseValid
+  nameWithType: NTPClient.IsResponseValid
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.IsResponseValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString
+  name: ToString
+  nameWithType: NTPClient.ToString
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.ToString
+- uid: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose
+  name: Dispose
+  nameWithType: NTPClient.Dispose
+  fullName: TradingPlatform.BusinessLayer.TimeSync.NTPClient.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

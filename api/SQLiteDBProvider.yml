@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: SQLiteDBProvider
+  commentId: N:SQLiteDBProvider
+  id: SQLiteDBProvider
+  children:
+  - SQLiteDBProvider.SQLiteDBProvider
+  langs:
+  - csharp
+  - vb
+  name: SQLiteDBProvider
+  nameWithType: SQLiteDBProvider
+  fullName: SQLiteDBProvider
+  type: Namespace
+  assemblies:
+  - SQLiteDBProvider
+references:
+- uid: SQLiteDBProvider.SQLiteDBProvider
+  commentId: T:SQLiteDBProvider.SQLiteDBProvider
+  name: SQLiteDBProvider
+  nameWithType: SQLiteDBProvider
+  fullName: SQLiteDBProvider.SQLiteDBProvider

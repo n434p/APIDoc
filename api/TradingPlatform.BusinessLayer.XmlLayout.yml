@@ -1,0 +1,918 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.XmlLayout
+  commentId: T:TradingPlatform.BusinessLayer.XmlLayout
+  id: XmlLayout
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.XmlLayout.CONNECTION_NAME
+  - TradingPlatform.BusinessLayer.XmlLayout.DATE_TIME_FORMAT
+  - TradingPlatform.BusinessLayer.XmlLayout.FIELD_DATE
+  - TradingPlatform.BusinessLayer.XmlLayout.FIELD_EVENT
+  - TradingPlatform.BusinessLayer.XmlLayout.FIELD_MESSAGE
+  - TradingPlatform.BusinessLayer.XmlLayout.FIELD_TYPE
+  - TradingPlatform.BusinessLayer.XmlLayout.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  - TradingPlatform.BusinessLayer.XmlLayout.LOGGER_EVENT
+  langs:
+  - csharp
+  - vb
+  name: XmlLayout
+  nameWithType: XmlLayout
+  fullName: TradingPlatform.BusinessLayer.XmlLayout
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: XmlLayout
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 203
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class XmlLayout : XmlLayoutBase, ILayout, IOptionHandler'
+    content.vb: >-
+      Public Class XmlLayout
+          Inherits XmlLayoutBase
+          Implements ILayout, IOptionHandler
+  inheritance:
+  - System.Object
+  - log4net.Layout.LayoutSkeleton
+  - log4net.Layout.XmlLayoutBase
+  implements:
+  - log4net.Layout.ILayout
+  - log4net.Core.IOptionHandler
+  inheritedMembers:
+  - log4net.Layout.XmlLayoutBase.ActivateOptions
+  - log4net.Layout.XmlLayoutBase.Format(System.IO.TextWriter,log4net.Core.LoggingEvent)
+  - log4net.Layout.XmlLayoutBase.LocationInfo
+  - log4net.Layout.XmlLayoutBase.InvalidCharReplacement
+  - log4net.Layout.XmlLayoutBase.ContentType
+  - log4net.Layout.LayoutSkeleton.Format(log4net.Core.LoggingEvent)
+  - log4net.Layout.LayoutSkeleton.Header
+  - log4net.Layout.LayoutSkeleton.Footer
+  - log4net.Layout.LayoutSkeleton.IgnoresException
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.XmlLayout.LOGGER_EVENT
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.LOGGER_EVENT
+  id: LOGGER_EVENT
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: LOGGER_EVENT
+  nameWithType: XmlLayout.LOGGER_EVENT
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.LOGGER_EVENT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: LOGGER_EVENT
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 205
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string LOGGER_EVENT = "LoggerEvent"
+    return:
+      type: System.String
+    content.vb: Public Const LOGGER_EVENT As String = "LoggerEvent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.FIELD_DATE
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.FIELD_DATE
+  id: FIELD_DATE
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: FIELD_DATE
+  nameWithType: XmlLayout.FIELD_DATE
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.FIELD_DATE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: FIELD_DATE
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 206
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string FIELD_DATE = "Date"
+    return:
+      type: System.String
+    content.vb: Public Const FIELD_DATE As String = "Date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.FIELD_TYPE
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.FIELD_TYPE
+  id: FIELD_TYPE
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: FIELD_TYPE
+  nameWithType: XmlLayout.FIELD_TYPE
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.FIELD_TYPE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: FIELD_TYPE
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 207
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string FIELD_TYPE = "Type"
+    return:
+      type: System.String
+    content.vb: Public Const FIELD_TYPE As String = "Type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.FIELD_EVENT
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.FIELD_EVENT
+  id: FIELD_EVENT
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: FIELD_EVENT
+  nameWithType: XmlLayout.FIELD_EVENT
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.FIELD_EVENT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: FIELD_EVENT
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 208
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string FIELD_EVENT = "Event"
+    return:
+      type: System.String
+    content.vb: Public Const FIELD_EVENT As String = "Event"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.FIELD_MESSAGE
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.FIELD_MESSAGE
+  id: FIELD_MESSAGE
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: FIELD_MESSAGE
+  nameWithType: XmlLayout.FIELD_MESSAGE
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.FIELD_MESSAGE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: FIELD_MESSAGE
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 209
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string FIELD_MESSAGE = "Message"
+    return:
+      type: System.String
+    content.vb: Public Const FIELD_MESSAGE As String = "Message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.CONNECTION_NAME
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.CONNECTION_NAME
+  id: CONNECTION_NAME
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: CONNECTION_NAME
+  nameWithType: XmlLayout.CONNECTION_NAME
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.CONNECTION_NAME
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: CONNECTION_NAME
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 210
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string CONNECTION_NAME = "Connection"
+    return:
+      type: System.String
+    content.vb: Public Const CONNECTION_NAME As String = "Connection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.DATE_TIME_FORMAT
+  commentId: F:TradingPlatform.BusinessLayer.XmlLayout.DATE_TIME_FORMAT
+  id: DATE_TIME_FORMAT
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: DATE_TIME_FORMAT
+  nameWithType: XmlLayout.DATE_TIME_FORMAT
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.DATE_TIME_FORMAT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: DATE_TIME_FORMAT
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 211
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string DATE_TIME_FORMAT = "dd.MM.yyyy HH:mm:ss.fff"
+    return:
+      type: System.String
+    content.vb: Public Const DATE_TIME_FORMAT As String = "dd.MM.yyyy HH:mm:ss.fff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.XmlLayout.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  commentId: M:TradingPlatform.BusinessLayer.XmlLayout.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  id: FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  parent: TradingPlatform.BusinessLayer.XmlLayout
+  langs:
+  - csharp
+  - vb
+  name: FormatXml(XmlWriter, LoggingEvent)
+  nameWithType: XmlLayout.FormatXml(XmlWriter, LoggingEvent)
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.FormatXml(System.Xml.XmlWriter, log4net.Core.LoggingEvent)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    id: FormatXml
+    path: ../BusinessLayer/Modules/Loggers/Log4NetLogger/Log4NetLogger.cs
+    startLine: 214
+  assemblies:
+  - Log4NetLogger
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override void FormatXml(XmlWriter writer, LoggingEvent loggingEvent)
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    - id: loggingEvent
+      type: log4net.Core.LoggingEvent
+    content.vb: Protected Overrides Sub FormatXml(writer As XmlWriter, loggingEvent As LoggingEvent)
+  overridden: log4net.Layout.XmlLayoutBase.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  overload: TradingPlatform.BusinessLayer.XmlLayout.FormatXml*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: log4net.Layout.LayoutSkeleton
+  commentId: T:log4net.Layout.LayoutSkeleton
+  parent: log4net.Layout
+  isExternal: true
+  name: LayoutSkeleton
+  nameWithType: LayoutSkeleton
+  fullName: log4net.Layout.LayoutSkeleton
+- uid: log4net.Layout.XmlLayoutBase
+  commentId: T:log4net.Layout.XmlLayoutBase
+  parent: log4net.Layout
+  isExternal: true
+  name: XmlLayoutBase
+  nameWithType: XmlLayoutBase
+  fullName: log4net.Layout.XmlLayoutBase
+- uid: log4net.Layout.ILayout
+  commentId: T:log4net.Layout.ILayout
+  parent: log4net.Layout
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: log4net.Layout.ILayout
+- uid: log4net.Core.IOptionHandler
+  commentId: T:log4net.Core.IOptionHandler
+  parent: log4net.Core
+  isExternal: true
+  name: IOptionHandler
+  nameWithType: IOptionHandler
+  fullName: log4net.Core.IOptionHandler
+- uid: log4net.Layout.XmlLayoutBase.ActivateOptions
+  commentId: M:log4net.Layout.XmlLayoutBase.ActivateOptions
+  parent: log4net.Layout.XmlLayoutBase
+  isExternal: true
+  name: ActivateOptions()
+  nameWithType: XmlLayoutBase.ActivateOptions()
+  fullName: log4net.Layout.XmlLayoutBase.ActivateOptions()
+  spec.csharp:
+  - uid: log4net.Layout.XmlLayoutBase.ActivateOptions
+    name: ActivateOptions
+    nameWithType: XmlLayoutBase.ActivateOptions
+    fullName: log4net.Layout.XmlLayoutBase.ActivateOptions
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: log4net.Layout.XmlLayoutBase.ActivateOptions
+    name: ActivateOptions
+    nameWithType: XmlLayoutBase.ActivateOptions
+    fullName: log4net.Layout.XmlLayoutBase.ActivateOptions
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: log4net.Layout.XmlLayoutBase.Format(System.IO.TextWriter,log4net.Core.LoggingEvent)
+  commentId: M:log4net.Layout.XmlLayoutBase.Format(System.IO.TextWriter,log4net.Core.LoggingEvent)
+  parent: log4net.Layout.XmlLayoutBase
+  isExternal: true
+  name: Format(TextWriter, LoggingEvent)
+  nameWithType: XmlLayoutBase.Format(TextWriter, LoggingEvent)
+  fullName: log4net.Layout.XmlLayoutBase.Format(System.IO.TextWriter, log4net.Core.LoggingEvent)
+  spec.csharp:
+  - uid: log4net.Layout.XmlLayoutBase.Format(System.IO.TextWriter,log4net.Core.LoggingEvent)
+    name: Format
+    nameWithType: XmlLayoutBase.Format
+    fullName: log4net.Layout.XmlLayoutBase.Format
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    nameWithType: TextWriter
+    fullName: System.IO.TextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: log4net.Core.LoggingEvent
+    name: LoggingEvent
+    nameWithType: LoggingEvent
+    fullName: log4net.Core.LoggingEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: log4net.Layout.XmlLayoutBase.Format(System.IO.TextWriter,log4net.Core.LoggingEvent)
+    name: Format
+    nameWithType: XmlLayoutBase.Format
+    fullName: log4net.Layout.XmlLayoutBase.Format
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    nameWithType: TextWriter
+    fullName: System.IO.TextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: log4net.Core.LoggingEvent
+    name: LoggingEvent
+    nameWithType: LoggingEvent
+    fullName: log4net.Core.LoggingEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: log4net.Layout.XmlLayoutBase.LocationInfo
+  commentId: P:log4net.Layout.XmlLayoutBase.LocationInfo
+  parent: log4net.Layout.XmlLayoutBase
+  isExternal: true
+  name: LocationInfo
+  nameWithType: XmlLayoutBase.LocationInfo
+  fullName: log4net.Layout.XmlLayoutBase.LocationInfo
+- uid: log4net.Layout.XmlLayoutBase.InvalidCharReplacement
+  commentId: P:log4net.Layout.XmlLayoutBase.InvalidCharReplacement
+  parent: log4net.Layout.XmlLayoutBase
+  isExternal: true
+  name: InvalidCharReplacement
+  nameWithType: XmlLayoutBase.InvalidCharReplacement
+  fullName: log4net.Layout.XmlLayoutBase.InvalidCharReplacement
+- uid: log4net.Layout.XmlLayoutBase.ContentType
+  commentId: P:log4net.Layout.XmlLayoutBase.ContentType
+  parent: log4net.Layout.XmlLayoutBase
+  isExternal: true
+  name: ContentType
+  nameWithType: XmlLayoutBase.ContentType
+  fullName: log4net.Layout.XmlLayoutBase.ContentType
+- uid: log4net.Layout.LayoutSkeleton.Format(log4net.Core.LoggingEvent)
+  commentId: M:log4net.Layout.LayoutSkeleton.Format(log4net.Core.LoggingEvent)
+  parent: log4net.Layout.LayoutSkeleton
+  isExternal: true
+  name: Format(LoggingEvent)
+  nameWithType: LayoutSkeleton.Format(LoggingEvent)
+  fullName: log4net.Layout.LayoutSkeleton.Format(log4net.Core.LoggingEvent)
+  spec.csharp:
+  - uid: log4net.Layout.LayoutSkeleton.Format(log4net.Core.LoggingEvent)
+    name: Format
+    nameWithType: LayoutSkeleton.Format
+    fullName: log4net.Layout.LayoutSkeleton.Format
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: log4net.Core.LoggingEvent
+    name: LoggingEvent
+    nameWithType: LoggingEvent
+    fullName: log4net.Core.LoggingEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: log4net.Layout.LayoutSkeleton.Format(log4net.Core.LoggingEvent)
+    name: Format
+    nameWithType: LayoutSkeleton.Format
+    fullName: log4net.Layout.LayoutSkeleton.Format
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: log4net.Core.LoggingEvent
+    name: LoggingEvent
+    nameWithType: LoggingEvent
+    fullName: log4net.Core.LoggingEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: log4net.Layout.LayoutSkeleton.Header
+  commentId: P:log4net.Layout.LayoutSkeleton.Header
+  parent: log4net.Layout.LayoutSkeleton
+  isExternal: true
+  name: Header
+  nameWithType: LayoutSkeleton.Header
+  fullName: log4net.Layout.LayoutSkeleton.Header
+- uid: log4net.Layout.LayoutSkeleton.Footer
+  commentId: P:log4net.Layout.LayoutSkeleton.Footer
+  parent: log4net.Layout.LayoutSkeleton
+  isExternal: true
+  name: Footer
+  nameWithType: LayoutSkeleton.Footer
+  fullName: log4net.Layout.LayoutSkeleton.Footer
+- uid: log4net.Layout.LayoutSkeleton.IgnoresException
+  commentId: P:log4net.Layout.LayoutSkeleton.IgnoresException
+  parent: log4net.Layout.LayoutSkeleton
+  isExternal: true
+  name: IgnoresException
+  nameWithType: LayoutSkeleton.IgnoresException
+  fullName: log4net.Layout.LayoutSkeleton.IgnoresException
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: log4net.Layout
+  commentId: N:log4net.Layout
+  isExternal: true
+  name: log4net.Layout
+  nameWithType: log4net.Layout
+  fullName: log4net.Layout
+- uid: log4net.Core
+  commentId: N:log4net.Core
+  isExternal: true
+  name: log4net.Core
+  nameWithType: log4net.Core
+  fullName: log4net.Core
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: log4net.Layout.XmlLayoutBase.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  commentId: M:log4net.Layout.XmlLayoutBase.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+  parent: log4net.Layout.XmlLayoutBase
+  isExternal: true
+  name: FormatXml(XmlWriter, LoggingEvent)
+  nameWithType: XmlLayoutBase.FormatXml(XmlWriter, LoggingEvent)
+  fullName: log4net.Layout.XmlLayoutBase.FormatXml(System.Xml.XmlWriter, log4net.Core.LoggingEvent)
+  spec.csharp:
+  - uid: log4net.Layout.XmlLayoutBase.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+    name: FormatXml
+    nameWithType: XmlLayoutBase.FormatXml
+    fullName: log4net.Layout.XmlLayoutBase.FormatXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: log4net.Core.LoggingEvent
+    name: LoggingEvent
+    nameWithType: LoggingEvent
+    fullName: log4net.Core.LoggingEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: log4net.Layout.XmlLayoutBase.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)
+    name: FormatXml
+    nameWithType: XmlLayoutBase.FormatXml
+    fullName: log4net.Layout.XmlLayoutBase.FormatXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: log4net.Core.LoggingEvent
+    name: LoggingEvent
+    nameWithType: LoggingEvent
+    fullName: log4net.Core.LoggingEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.XmlLayout.FormatXml*
+  commentId: Overload:TradingPlatform.BusinessLayer.XmlLayout.FormatXml
+  name: FormatXml
+  nameWithType: XmlLayout.FormatXml
+  fullName: TradingPlatform.BusinessLayer.XmlLayout.FormatXml
+- uid: System.Xml.XmlWriter
+  commentId: T:System.Xml.XmlWriter
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriter
+  nameWithType: XmlWriter
+  fullName: System.Xml.XmlWriter
+- uid: log4net.Core.LoggingEvent
+  commentId: T:log4net.Core.LoggingEvent
+  parent: log4net.Core
+  isExternal: true
+  name: LoggingEvent
+  nameWithType: LoggingEvent
+  fullName: log4net.Core.LoggingEvent
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml

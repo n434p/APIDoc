@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  id: LineStyle
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.LineStyle.Dash
+  - TradingPlatform.BusinessLayer.LineStyle.DashDot
+  - TradingPlatform.BusinessLayer.LineStyle.Dot
+  - TradingPlatform.BusinessLayer.LineStyle.Histogramm
+  - TradingPlatform.BusinessLayer.LineStyle.Solid
+  langs:
+  - csharp
+  - vb
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: LineStyle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSpecifies the style of indicator line.\n"
+  example: []
+  syntax:
+    content: public enum LineStyle
+    content.vb: Public Enum LineStyle
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.LineStyle.Solid
+  commentId: F:TradingPlatform.BusinessLayer.LineStyle.Solid
+  id: Solid
+  parent: TradingPlatform.BusinessLayer.LineStyle
+  langs:
+  - csharp
+  - vb
+  name: Solid
+  nameWithType: LineStyle.Solid
+  fullName: TradingPlatform.BusinessLayer.LineStyle.Solid
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Solid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Solid = 0
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LineStyle.Dash
+  commentId: F:TradingPlatform.BusinessLayer.LineStyle.Dash
+  id: Dash
+  parent: TradingPlatform.BusinessLayer.LineStyle
+  langs:
+  - csharp
+  - vb
+  name: Dash
+  nameWithType: LineStyle.Dash
+  fullName: TradingPlatform.BusinessLayer.LineStyle.Dash
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Dash
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Dash = 1
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LineStyle.Dot
+  commentId: F:TradingPlatform.BusinessLayer.LineStyle.Dot
+  id: Dot
+  parent: TradingPlatform.BusinessLayer.LineStyle
+  langs:
+  - csharp
+  - vb
+  name: Dot
+  nameWithType: LineStyle.Dot
+  fullName: TradingPlatform.BusinessLayer.LineStyle.Dot
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Dot
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Dot = 2
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LineStyle.DashDot
+  commentId: F:TradingPlatform.BusinessLayer.LineStyle.DashDot
+  id: DashDot
+  parent: TradingPlatform.BusinessLayer.LineStyle
+  langs:
+  - csharp
+  - vb
+  name: DashDot
+  nameWithType: LineStyle.DashDot
+  fullName: TradingPlatform.BusinessLayer.LineStyle.DashDot
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: DashDot
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DashDot = 3
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.LineStyle.Histogramm
+  commentId: F:TradingPlatform.BusinessLayer.LineStyle.Histogramm
+  id: Histogramm
+  parent: TradingPlatform.BusinessLayer.LineStyle
+  langs:
+  - csharp
+  - vb
+  name: Histogramm
+  nameWithType: LineStyle.Histogramm
+  fullName: TradingPlatform.BusinessLayer.LineStyle.Histogramm
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Histogramm
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Histogramm = 4
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle

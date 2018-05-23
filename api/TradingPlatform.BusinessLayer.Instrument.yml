@@ -1,0 +1,5305 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Instrument.#ctor(System.String)
+  - TradingPlatform.BusinessLayer.Instrument.#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  - TradingPlatform.BusinessLayer.Instrument.Ask
+  - TradingPlatform.BusinessLayer.Instrument.Asks
+  - TradingPlatform.BusinessLayer.Instrument.AskSize
+  - TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  - TradingPlatform.BusinessLayer.Instrument.Bid
+  - TradingPlatform.BusinessLayer.Instrument.Bids
+  - TradingPlatform.BusinessLayer.Instrument.BidSize
+  - TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.Change
+  - TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  - TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  - TradingPlatform.BusinessLayer.Instrument.Description
+  - TradingPlatform.BusinessLayer.Instrument.Exchange
+  - TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  - TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  - TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  - TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  - TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Instrument.GetMessage
+  - TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  - TradingPlatform.BusinessLayer.Instrument.Group
+  - TradingPlatform.BusinessLayer.Instrument.High
+  - TradingPlatform.BusinessLayer.Instrument.HistoryType
+  - TradingPlatform.BusinessLayer.Instrument.Id
+  - TradingPlatform.BusinessLayer.Instrument.InitialState
+  - TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  - TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  - TradingPlatform.BusinessLayer.Instrument.Last
+  - TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  - TradingPlatform.BusinessLayer.Instrument.LastSize
+  - TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  - TradingPlatform.BusinessLayer.Instrument.LotSize
+  - TradingPlatform.BusinessLayer.Instrument.LotStep
+  - TradingPlatform.BusinessLayer.Instrument.Low
+  - TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  - TradingPlatform.BusinessLayer.Instrument.MaxLot
+  - TradingPlatform.BusinessLayer.Instrument.MinLot
+  - TradingPlatform.BusinessLayer.Instrument.NettingType
+  - TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  - TradingPlatform.BusinessLayer.Instrument.NewLast
+  - TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  - TradingPlatform.BusinessLayer.Instrument.NewQuote
+  - TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  - TradingPlatform.BusinessLayer.Instrument.Open
+  - TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  - TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  - TradingPlatform.BusinessLayer.Instrument.OptionType
+  - TradingPlatform.BusinessLayer.Instrument.PrevClose
+  - TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  - TradingPlatform.BusinessLayer.Instrument.Product
+  - TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  - TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  - TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  - TradingPlatform.BusinessLayer.Instrument.QuotingType
+  - TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.Spread
+  - TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  - TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  - TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.Symbol
+  - TradingPlatform.BusinessLayer.Instrument.Ticks
+  - TradingPlatform.BusinessLayer.Instrument.TickSize
+  - TradingPlatform.BusinessLayer.Instrument.ToString
+  - TradingPlatform.BusinessLayer.Instrument.ToXElement
+  - TradingPlatform.BusinessLayer.Instrument.Trades
+  - TradingPlatform.BusinessLayer.Instrument.Underlier
+  - TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  - TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.Updated
+  - TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  - TradingPlatform.BusinessLayer.Instrument.Volume
+  - TradingPlatform.BusinessLayer.Instrument.VolumeType
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "Instrument", Namespace = "TradingPlatform")]
+
+      public class Instrument : BusinessObject, IConnectionBindedObject, IUniqueID, IComparable, IRulesContainer, IXElementSerialization
+    content.vb: >-
+      <DataContract(Name:="Instrument", Namespace:="TradingPlatform")>
+
+      Public Class Instrument
+          Inherits BusinessObject
+          Implements IConnectionBindedObject, IUniqueID, IComparable, IRulesContainer, IXElementSerialization
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.CustomInstrument
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  - System.IComparable
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Instrument
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Instrument.Id
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Instrument.Id
+  fullName: TradingPlatform.BusinessLayer.Instrument.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "id")]
+
+      public string Id { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="id")>
+
+      Public Property Id As String
+  overload: TradingPlatform.BusinessLayer.Instrument.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: id
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: TradingPlatform.BusinessLayer.Instrument.Symbol
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Symbol
+  id: Symbol
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: Instrument.Symbol
+  fullName: TradingPlatform.BusinessLayer.Instrument.Symbol
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Symbol
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "name")]
+
+      public string Symbol { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="name")>
+
+      Public Property Symbol As String
+  overload: TradingPlatform.BusinessLayer.Instrument.Symbol*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: name
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: TradingPlatform.BusinessLayer.Instrument.Description
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Description
+  id: Description
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Instrument.Description
+  fullName: TradingPlatform.BusinessLayer.Instrument.Description
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Description
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "description")]
+
+      public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="description")>
+
+      Public ReadOnly Property Description As String
+  overload: TradingPlatform.BusinessLayer.Instrument.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: description
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  id: InstrumentType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: InstrumentType
+  nameWithType: Instrument.InstrumentType
+  fullName: TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: InstrumentType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "type")]
+
+      public InstrumentType InstrumentType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType
+    content.vb: >-
+      <DataMember(Name:="type")>
+
+      Public ReadOnly Property InstrumentType As InstrumentType
+  overload: TradingPlatform.BusinessLayer.Instrument.InstrumentType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: type
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Product
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Product
+  id: Product
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Instrument.Product
+  fullName: TradingPlatform.BusinessLayer.Instrument.Product
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Product
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "product")]
+
+      public Asset Product { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Asset
+    content.vb: >-
+      <DataMember(Name:="product")>
+
+      Public ReadOnly Property Product As Asset
+  overload: TradingPlatform.BusinessLayer.Instrument.Product*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: product
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  id: QuotingCurrency
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: QuotingCurrency
+  nameWithType: Instrument.QuotingCurrency
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: QuotingCurrency
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "quotingCurrency")]
+
+      public Asset QuotingCurrency { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Asset
+    content.vb: >-
+      <DataMember(Name:="quotingCurrency")>
+
+      Public ReadOnly Property QuotingCurrency As Asset
+  overload: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: quotingCurrency
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Exchange
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Exchange
+  id: Exchange
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Exchange
+  nameWithType: Instrument.Exchange
+  fullName: TradingPlatform.BusinessLayer.Instrument.Exchange
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Exchange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Exchange Exchange { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Exchange
+    content.vb: Public ReadOnly Property Exchange As Exchange
+  overload: TradingPlatform.BusinessLayer.Instrument.Exchange*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  id: QuoteDelay
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: QuoteDelay
+  nameWithType: Instrument.QuoteDelay
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: QuoteDelay
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 52
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "quoteDelay")]
+
+      public TimeSpan QuoteDelay { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: >-
+      <DataMember(Name:="quoteDelay")>
+
+      Public ReadOnly Property QuoteDelay As TimeSpan
+  overload: TradingPlatform.BusinessLayer.Instrument.QuoteDelay*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: quoteDelay
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  id: InstrumentAdditionalInfo
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: InstrumentAdditionalInfo
+  nameWithType: Instrument.InstrumentAdditionalInfo
+  fullName: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: InstrumentAdditionalInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "instrumentAdditionalInfo")]
+
+      public Dictionary<string, InstrumentAdditionalInfoItem> InstrumentAdditionalInfo { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem}
+    content.vb: >-
+      <DataMember(Name:="instrumentAdditionalInfo")>
+
+      Public ReadOnly Property InstrumentAdditionalInfo As Dictionary(Of String, InstrumentAdditionalInfoItem)
+  overload: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: instrumentAdditionalInfo
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.MaxLot
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.MaxLot
+  id: MaxLot
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: MaxLot
+  nameWithType: Instrument.MaxLot
+  fullName: TradingPlatform.BusinessLayer.Instrument.MaxLot
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: MaxLot
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 58
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "maxLot")]
+
+      public double MaxLot { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="maxLot")>
+
+      Public ReadOnly Property MaxLot As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.MaxLot*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: maxLot
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.MinLot
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.MinLot
+  id: MinLot
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: MinLot
+  nameWithType: Instrument.MinLot
+  fullName: TradingPlatform.BusinessLayer.Instrument.MinLot
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: MinLot
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 61
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "minLot")]
+
+      public double MinLot { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="minLot")>
+
+      Public ReadOnly Property MinLot As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.MinLot*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: minLot
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.NettingType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.NettingType
+  id: NettingType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: NettingType
+  nameWithType: Instrument.NettingType
+  fullName: TradingPlatform.BusinessLayer.Instrument.NettingType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: NettingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "nettingType")]
+
+      public NettingType NettingType { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.NettingType
+    content.vb: >-
+      <DataMember(Name:="nettingType")>
+
+      Public Property NettingType As NettingType
+  overload: TradingPlatform.BusinessLayer.Instrument.NettingType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: nettingType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.Group
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Group
+  id: Group
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: Instrument.Group
+  fullName: TradingPlatform.BusinessLayer.Instrument.Group
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Group
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 68
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public InstrumentGroup Group { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentGroup
+    content.vb: Public ReadOnly Property Group As InstrumentGroup
+  overload: TradingPlatform.BusinessLayer.Instrument.Group*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.QuotingType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuotingType
+  id: QuotingType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: QuotingType
+  nameWithType: Instrument.QuotingType
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuotingType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: QuotingType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 74
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "quotingType")]
+
+      public InstrumentQuotingType QuotingType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentQuotingType
+    content.vb: >-
+      <DataMember(Name:="quotingType")>
+
+      Public ReadOnly Property QuotingType As InstrumentQuotingType
+  overload: TradingPlatform.BusinessLayer.Instrument.QuotingType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: quotingType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.LotSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LotSize
+  id: LotSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: LotSize
+  nameWithType: Instrument.LotSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.LotSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: LotSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 77
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "lotSize")]
+
+      public double LotSize { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="lotSize")>
+
+      Public ReadOnly Property LotSize As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.LotSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: lotSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  id: VariableTickList
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: VariableTickList
+  nameWithType: Instrument.VariableTickList
+  fullName: TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: VariableTickList
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 80
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "variableTickList")]
+
+      public List<VariableTick> VariableTickList { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.VariableTick}
+    content.vb: >-
+      <DataMember(Name:="variableTickList")>
+
+      Public ReadOnly Property VariableTickList As List(Of VariableTick)
+  overload: TradingPlatform.BusinessLayer.Instrument.VariableTickList*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: variableTickList
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.LotStep
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LotStep
+  id: LotStep
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: LotStep
+  nameWithType: Instrument.LotStep
+  fullName: TradingPlatform.BusinessLayer.Instrument.LotStep
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: LotStep
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 83
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "lotStep")]
+
+      public double LotStep { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="lotStep")>
+
+      Public ReadOnly Property LotStep As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.LotStep*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: lotStep
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  id: ExpirationDate
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: ExpirationDate
+  nameWithType: Instrument.ExpirationDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: ExpirationDate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 90
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "expirationDate")]
+
+      public DateTime ExpirationDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember(Name:="expirationDate")>
+
+      Public ReadOnly Property ExpirationDate As Date
+  overload: TradingPlatform.BusinessLayer.Instrument.ExpirationDate*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: expirationDate
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  id: LastTradingDate
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: LastTradingDate
+  nameWithType: Instrument.LastTradingDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: LastTradingDate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 93
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "lastTradingDate")]
+
+      public DateTime LastTradingDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember(Name:="lastTradingDate")>
+
+      Public ReadOnly Property LastTradingDate As Date
+  overload: TradingPlatform.BusinessLayer.Instrument.LastTradingDate*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: lastTradingDate
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  id: MaturityDate
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: MaturityDate
+  nameWithType: Instrument.MaturityDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: MaturityDate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 96
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "maturityDate")]
+
+      public DateTime MaturityDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember(Name:="maturityDate")>
+
+      Public ReadOnly Property MaturityDate As Date
+  overload: TradingPlatform.BusinessLayer.Instrument.MaturityDate*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: maturityDate
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  id: StrikePrice
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: StrikePrice
+  nameWithType: Instrument.StrikePrice
+  fullName: TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: StrikePrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 99
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "strikePrice")]
+
+      public double StrikePrice { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="strikePrice")>
+
+      Public ReadOnly Property StrikePrice As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.StrikePrice*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: strikePrice
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  id: OptionStyle
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: OptionStyle
+  nameWithType: Instrument.OptionStyle
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: OptionStyle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 102
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "optionStyle")]
+
+      public OptionCodingStyle OptionStyle { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OptionCodingStyle
+    content.vb: >-
+      <DataMember(Name:="optionStyle")>
+
+      Public ReadOnly Property OptionStyle As OptionCodingStyle
+  overload: TradingPlatform.BusinessLayer.Instrument.OptionStyle*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: optionStyle
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.OptionType
+  id: OptionType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: OptionType
+  nameWithType: Instrument.OptionType
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: OptionType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 105
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "optionType")]
+
+      public OptionType OptionType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OptionType
+    content.vb: >-
+      <DataMember(Name:="optionType")>
+
+      Public ReadOnly Property OptionType As OptionType
+  overload: TradingPlatform.BusinessLayer.Instrument.OptionType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: optionType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  id: OptionSerie
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: OptionSerie
+  nameWithType: Instrument.OptionSerie
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: OptionSerie
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 109
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "optionSerie")]
+
+      public string OptionSerie { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="optionSerie")>
+
+      Public ReadOnly Property OptionSerie As String
+  overload: TradingPlatform.BusinessLayer.Instrument.OptionSerie*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: optionSerie
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  id: UnderlierName
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: UnderlierName
+  nameWithType: Instrument.UnderlierName
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: UnderlierName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 112
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "underlierName")]
+
+      public string UnderlierName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="underlierName")>
+
+      Public ReadOnly Property UnderlierName As String
+  overload: TradingPlatform.BusinessLayer.Instrument.UnderlierName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: underlierName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Underlier
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Underlier
+  id: Underlier
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Underlier
+  nameWithType: Instrument.Underlier
+  fullName: TradingPlatform.BusinessLayer.Instrument.Underlier
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Underlier
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 115
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [IgnoreDataMember]
+
+      public Instrument Underlier { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: >-
+      <IgnoreDataMember>
+
+      Public ReadOnly Property Underlier As Instrument
+  overload: TradingPlatform.BusinessLayer.Instrument.Underlier*
+  attributes:
+  - type: System.Runtime.Serialization.IgnoreDataMemberAttribute
+    ctor: System.Runtime.Serialization.IgnoreDataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Ask
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Ask
+  id: Ask
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: Instrument.Ask
+  fullName: TradingPlatform.BusinessLayer.Instrument.Ask
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Ask
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 138
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "askPrice")]
+
+      public double Ask { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="askPrice")>
+
+      Public ReadOnly Property Ask As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Ask*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: askPrice
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.AskSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AskSize
+  id: AskSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: AskSize
+  nameWithType: Instrument.AskSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.AskSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: AskSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 141
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "askSize")]
+
+      public double AskSize { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="askSize")>
+
+      Public ReadOnly Property AskSize As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.AskSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: askSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Bid
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Bid
+  id: Bid
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: Instrument.Bid
+  fullName: TradingPlatform.BusinessLayer.Instrument.Bid
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Bid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 144
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "bidPrice")]
+
+      public double Bid { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="bidPrice")>
+
+      Public ReadOnly Property Bid As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Bid*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: bidPrice
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.BidSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.BidSize
+  id: BidSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: BidSize
+  nameWithType: Instrument.BidSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.BidSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: BidSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 147
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "bidSize")]
+
+      public double BidSize { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="bidSize")>
+
+      Public ReadOnly Property BidSize As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.BidSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: bidSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  id: QuoteDateTime
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: QuoteDateTime
+  nameWithType: Instrument.QuoteDateTime
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: QuoteDateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 150
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime QuoteDateTime { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property QuoteDateTime As Date
+  overload: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Last
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: Instrument.Last
+  fullName: TradingPlatform.BusinessLayer.Instrument.Last
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 152
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "lastPrice")]
+
+      public double Last { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="lastPrice")>
+
+      Public ReadOnly Property Last As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Last*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: lastPrice
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.LastSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LastSize
+  id: LastSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: LastSize
+  nameWithType: Instrument.LastSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: LastSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 155
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "lastSize")]
+
+      public double LastSize { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="lastSize")>
+
+      Public ReadOnly Property LastSize As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.LastSize*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: lastSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  id: LastDateTime
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: LastDateTime
+  nameWithType: Instrument.LastDateTime
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: LastDateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 158
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime LastDateTime { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property LastDateTime As Date
+  overload: TradingPlatform.BusinessLayer.Instrument.LastDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Open
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Open
+  id: Open
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: Instrument.Open
+  fullName: TradingPlatform.BusinessLayer.Instrument.Open
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Open
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 160
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Open")]
+
+      public double Open { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Open")>
+
+      Public ReadOnly Property Open As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Open*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Open
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.PrevClose
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.PrevClose
+  id: PrevClose
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: PrevClose
+  nameWithType: Instrument.PrevClose
+  fullName: TradingPlatform.BusinessLayer.Instrument.PrevClose
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: PrevClose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 163
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "PrevClose")]
+
+      public double PrevClose { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="PrevClose")>
+
+      Public ReadOnly Property PrevClose As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.PrevClose*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PrevClose
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.High
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.High
+  id: High
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: Instrument.High
+  fullName: TradingPlatform.BusinessLayer.Instrument.High
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: High
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 166
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "High")]
+
+      public double High { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="High")>
+
+      Public ReadOnly Property High As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.High*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: High
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Low
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Low
+  id: Low
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: Instrument.Low
+  fullName: TradingPlatform.BusinessLayer.Instrument.Low
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Low
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 169
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Low")]
+
+      public double Low { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Low")>
+
+      Public ReadOnly Property Low As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Low*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Low
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Volume
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Volume
+  id: Volume
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: Instrument.Volume
+  fullName: TradingPlatform.BusinessLayer.Instrument.Volume
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Volume
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 172
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Volume")]
+
+      public double Volume { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Volume")>
+
+      Public ReadOnly Property Volume As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Volume*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Volume
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  id: PrevSettlement
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: PrevSettlement
+  nameWithType: Instrument.PrevSettlement
+  fullName: TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: PrevSettlement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 175
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "PrevSettlement")]
+
+      public double PrevSettlement { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="PrevSettlement")>
+
+      Public ReadOnly Property PrevSettlement As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.PrevSettlement*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PrevSettlement
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Ticks
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Ticks
+  id: Ticks
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Ticks
+  nameWithType: Instrument.Ticks
+  fullName: TradingPlatform.BusinessLayer.Instrument.Ticks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Ticks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 178
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Ticks")]
+
+      public double Ticks { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Ticks")>
+
+      Public ReadOnly Property Ticks As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Ticks*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Ticks
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Trades
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Trades
+  id: Trades
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Trades
+  nameWithType: Instrument.Trades
+  fullName: TradingPlatform.BusinessLayer.Instrument.Trades
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Trades
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 181
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "Trades")]
+
+      public double Trades { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Trades")>
+
+      Public ReadOnly Property Trades As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Trades*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Trades
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Asks
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Asks
+  id: Asks
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Asks
+  nameWithType: Instrument.Asks
+  fullName: TradingPlatform.BusinessLayer.Instrument.Asks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Asks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 186
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Level2Collection Asks { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Level2Collection
+    content.vb: Public ReadOnly Property Asks As Level2Collection
+  overload: TradingPlatform.BusinessLayer.Instrument.Asks*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Bids
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Bids
+  id: Bids
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Bids
+  nameWithType: Instrument.Bids
+  fullName: TradingPlatform.BusinessLayer.Instrument.Bids
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Bids
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 187
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Level2Collection Bids { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Level2Collection
+    content.vb: Public ReadOnly Property Bids As Level2Collection
+  overload: TradingPlatform.BusinessLayer.Instrument.Bids*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Spread
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Spread
+  id: Spread
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Spread
+  nameWithType: Instrument.Spread
+  fullName: TradingPlatform.BusinessLayer.Instrument.Spread
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Spread
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 189
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Spread { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Spread As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Spread*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  id: SpreadPercentage
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: SpreadPercentage
+  nameWithType: Instrument.SpreadPercentage
+  fullName: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: SpreadPercentage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 200
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double SpreadPercentage { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property SpreadPercentage As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.Change
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Change
+  id: Change
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Change
+  nameWithType: Instrument.Change
+  fullName: TradingPlatform.BusinessLayer.Instrument.Change
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Change
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 214
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Change { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Change As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.Change*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  id: ChangePercentage
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: ChangePercentage
+  nameWithType: Instrument.ChangePercentage
+  fullName: TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: ChangePercentage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 232
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double ChangePercentage { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property ChangePercentage As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.ChangePercentage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.HistoryType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.HistoryType
+  id: HistoryType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: HistoryType
+  nameWithType: Instrument.HistoryType
+  fullName: TradingPlatform.BusinessLayer.Instrument.HistoryType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: HistoryType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 261
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "HistoryType")]
+
+      public HistoryType HistoryType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryType
+    content.vb: >-
+      <DataMember(Name:="HistoryType")>
+
+      Public ReadOnly Property HistoryType As HistoryType
+  overload: TradingPlatform.BusinessLayer.Instrument.HistoryType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: HistoryType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  id: AvailableHistoryTypes
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: AvailableHistoryTypes
+  nameWithType: Instrument.AvailableHistoryTypes
+  fullName: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: AvailableHistoryTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 270
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nList of all available history types\n"
+  example: []
+  syntax:
+    content: public virtual List<HistoryType> AvailableHistoryTypes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.HistoryType}
+    content.vb: Public Overridable ReadOnly Property AvailableHistoryTypes As List(Of HistoryType)
+  overload: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.VolumeType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.VolumeType
+  id: VolumeType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: VolumeType
+  nameWithType: Instrument.VolumeType
+  fullName: TradingPlatform.BusinessLayer.Instrument.VolumeType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: VolumeType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 279
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "VolumeType")]
+
+      public InstrumentVolumeType VolumeType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentVolumeType
+    content.vb: >-
+      <DataMember(Name:="VolumeType")>
+
+      Public ReadOnly Property VolumeType As InstrumentVolumeType
+  overload: TradingPlatform.BusinessLayer.Instrument.VolumeType*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: VolumeType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.NewQuote
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewQuote
+  id: NewQuote
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: NewQuote
+  nameWithType: Instrument.NewQuote
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewQuote
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: NewQuote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 285
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event QuoteHandler NewQuote
+    return:
+      type: TradingPlatform.BusinessLayer.QuoteHandler
+    content.vb: Public Event NewQuote As QuoteHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  id: NewLevel2
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: NewLevel2
+  nameWithType: Instrument.NewLevel2
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: NewLevel2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 300
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event Level2Handler NewLevel2
+    return:
+      type: TradingPlatform.BusinessLayer.Level2Handler
+    content.vb: Public Event NewLevel2 As Level2Handler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.NewLast
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewLast
+  id: NewLast
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: NewLast
+  nameWithType: Instrument.NewLast
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewLast
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: NewLast
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 315
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event LastHandler NewLast
+    return:
+      type: TradingPlatform.BusinessLayer.LastHandler
+    content.vb: Public Event NewLast As LastHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  id: NewDayBar
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: NewDayBar
+  nameWithType: Instrument.NewDayBar
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: NewDayBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 331
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event DayBarHandler NewDayBar
+    return:
+      type: TradingPlatform.BusinessLayer.DayBarHandler
+    content.vb: Public Event NewDayBar As DayBarHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.Updated
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.Updated
+  id: Updated
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Instrument.Updated
+  fullName: TradingPlatform.BusinessLayer.Instrument.Updated
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Updated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 333
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event InstrumentUpdateHandler Updated
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+    content.vb: Public Event Updated As InstrumentUpdateHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  id: AllowCalculateRealtimeTicks
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: AllowCalculateRealtimeTicks
+  nameWithType: Instrument.AllowCalculateRealtimeTicks
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: AllowCalculateRealtimeTicks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 344
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "allowCalculateRealtimeTicks")]
+
+      public bool AllowCalculateRealtimeTicks { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember(Name:="allowCalculateRealtimeTicks")>
+
+      Public ReadOnly Property AllowCalculateRealtimeTicks As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: allowCalculateRealtimeTicks
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  id: AllowCalculateRealtimeTrades
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: AllowCalculateRealtimeTrades
+  nameWithType: Instrument.AllowCalculateRealtimeTrades
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: AllowCalculateRealtimeTrades
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 347
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "allowCalculateRealtimeTrades")]
+
+      public bool AllowCalculateRealtimeTrades { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember(Name:="allowCalculateRealtimeTrades")>
+
+      Public ReadOnly Property AllowCalculateRealtimeTrades As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: allowCalculateRealtimeTrades
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  id: AllowCalculateRealtimeVolume
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: AllowCalculateRealtimeVolume
+  nameWithType: Instrument.AllowCalculateRealtimeVolume
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: AllowCalculateRealtimeVolume
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 350
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "allowCalculateRealtimeVolume")]
+
+      public bool AllowCalculateRealtimeVolume { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember(Name:="allowCalculateRealtimeVolume")>
+
+      Public ReadOnly Property AllowCalculateRealtimeVolume As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: allowCalculateRealtimeVolume
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  id: AllowCalculateRealtimeChange
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: AllowCalculateRealtimeChange
+  nameWithType: Instrument.AllowCalculateRealtimeChange
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: AllowCalculateRealtimeChange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 353
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember(Name = "allowCalculateRealtimeChange")]
+
+      public bool AllowCalculateRealtimeChange { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember(Name:="allowCalculateRealtimeChange")>
+
+      Public ReadOnly Property AllowCalculateRealtimeChange As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: allowCalculateRealtimeChange
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.#ctor(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Instrument(String)
+  nameWithType: Instrument.Instrument(String)
+  fullName: TradingPlatform.BusinessLayer.Instrument.Instrument(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 357
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Instrument(string connectionId)
+    parameters:
+    - id: connectionId
+      type: System.String
+    content.vb: Protected Sub New(connectionId As String)
+  overload: TradingPlatform.BusinessLayer.Instrument.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Instrument.InitialState
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.InitialState
+  id: InitialState
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: InitialState()
+  nameWithType: Instrument.InitialState()
+  fullName: TradingPlatform.BusinessLayer.Instrument.InitialState()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: InitialState
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 378
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected void InitialState()
+    content.vb: Protected Sub InitialState
+  overload: TradingPlatform.BusinessLayer.Instrument.InitialState*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Instrument.#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  id: '#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)'
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Instrument(BusinessObjectInfo)
+  nameWithType: Instrument.Instrument(BusinessObjectInfo)
+  fullName: TradingPlatform.BusinessLayer.Instrument.Instrument(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 407
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Instrument(BusinessObjectInfo instrumentInfo)
+    parameters:
+    - id: instrumentInfo
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    content.vb: Protected Sub New(instrumentInfo As BusinessObjectInfo)
+  overload: TradingPlatform.BusinessLayer.Instrument.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Instrument.GetMessage
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetMessage
+  id: GetMessage
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetMessage()
+  nameWithType: Instrument.GetMessage()
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetMessage()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 501
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public MessageInstrument GetMessage()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+    content.vb: Public Function GetMessage As MessageInstrument
+  overload: TradingPlatform.BusinessLayer.Instrument.GetMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  id: Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(SubscribeQuoteType)
+  nameWithType: Instrument.Subscribe(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: Subscribe
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 536
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool Subscribe(SubscribeQuoteType type)
+    parameters:
+    - id: type
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    return:
+      type: System.Boolean
+    content.vb: Public Function Subscribe(type As SubscribeQuoteType) As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.Subscribe*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  id: SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: SubscribeAction(SubscribeQuoteType)
+  nameWithType: Instrument.SubscribeAction(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: SubscribeAction
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 553
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected virtual bool SubscribeAction(SubscribeQuoteType type)
+    parameters:
+    - id: type
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function SubscribeAction(type As SubscribeQuoteType) As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.SubscribeAction*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  id: UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: UnSubscribe(SubscribeQuoteType)
+  nameWithType: Instrument.UnSubscribe(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: UnSubscribe
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 558
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool UnSubscribe(SubscribeQuoteType type)
+    parameters:
+    - id: type
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    return:
+      type: System.Boolean
+    content.vb: Public Function UnSubscribe(type As SubscribeQuoteType) As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.UnSubscribe*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  id: UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: UnSubscribeAction(SubscribeQuoteType)
+  nameWithType: Instrument.UnSubscribeAction(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: UnSubscribeAction
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 575
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected virtual bool UnSubscribeAction(SubscribeQuoteType type)
+    parameters:
+    - id: type
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function UnSubscribeAction(type As SubscribeQuoteType) As Boolean
+  overload: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  id: GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(Period, HistoryType, DateTime, DateTime)
+  nameWithType: Instrument.GetHistory(Period, HistoryType, DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.HistoryType, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 693
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IHistoricalData GetHistory(Period period, HistoryType historyType, DateTime fromTime, DateTime toTime = default(DateTime))
+    parameters:
+    - id: period
+      type: TradingPlatform.BusinessLayer.Period
+    - id: historyType
+      type: TradingPlatform.BusinessLayer.HistoryType
+    - id: fromTime
+      type: System.DateTime
+    - id: toTime
+      type: System.DateTime
+    return:
+      type: TradingPlatform.BusinessLayer.IHistoricalData
+    content.vb: Public Function GetHistory(period As Period, historyType As HistoryType, fromTime As Date, toTime As Date = Nothing) As IHistoricalData
+  overload: TradingPlatform.BusinessLayer.Instrument.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  id: GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(HistoryAggregation, HistoryType, DateTime, DateTime)
+  nameWithType: Instrument.GetHistory(HistoryAggregation, HistoryType, DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation, TradingPlatform.BusinessLayer.HistoryType, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 716
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IHistoricalData GetHistory(HistoryAggregation aggregation, HistoryType historyType, DateTime fromTime, DateTime toTime = default(DateTime))
+    parameters:
+    - id: aggregation
+      type: TradingPlatform.BusinessLayer.HistoryAggregation
+    - id: historyType
+      type: TradingPlatform.BusinessLayer.HistoryType
+    - id: fromTime
+      type: System.DateTime
+    - id: toTime
+      type: System.DateTime
+    return:
+      type: TradingPlatform.BusinessLayer.IHistoricalData
+    content.vb: Public Function GetHistory(aggregation As HistoryAggregation, historyType As HistoryType, fromTime As Date, toTime As Date = Nothing) As IHistoricalData
+  overload: TradingPlatform.BusinessLayer.Instrument.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  id: GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(HistoryRequestParameters)
+  nameWithType: Instrument.GetHistory(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 731
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IHistoricalData GetHistory(HistoryRequestParameters historyRequestParameters)
+    parameters:
+    - id: historyRequestParameters
+      type: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.IHistoricalData
+    content.vb: Public Function GetHistory(historyRequestParameters As HistoryRequestParameters) As IHistoricalData
+  overload: TradingPlatform.BusinessLayer.Instrument.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  id: CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: CreateHistoricalData(HistoryRequestParameters)
+  nameWithType: Instrument.CreateHistoricalData(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: CreateHistoricalData
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 743
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected virtual HistoricalData CreateHistoricalData(HistoryRequestParameters historyRequestParameters)
+    parameters:
+    - id: historyRequestParameters
+      type: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.HistoricalData
+    content.vb: Protected Overridable Function CreateHistoricalData(historyRequestParameters As HistoryRequestParameters) As HistoricalData
+  overload: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  id: GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetTickHistory(HistoryType, DateTime, DateTime)
+  nameWithType: Instrument.GetTickHistory(HistoryType, DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetTickHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 748
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IHistoricalData GetTickHistory(HistoryType historyType, DateTime fromTime, DateTime toTime = default(DateTime))
+    parameters:
+    - id: historyType
+      type: TradingPlatform.BusinessLayer.HistoryType
+    - id: fromTime
+      type: System.DateTime
+    - id: toTime
+      type: System.DateTime
+    return:
+      type: TradingPlatform.BusinessLayer.IHistoricalData
+    content.vb: Public Function GetTickHistory(historyType As HistoryType, fromTime As Date, toTime As Date = Nothing) As IHistoricalData
+  overload: TradingPlatform.BusinessLayer.Instrument.GetTickHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  id: RoundPriceToTickSize(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: RoundPriceToTickSize(Double)
+  nameWithType: Instrument.RoundPriceToTickSize(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: RoundPriceToTickSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 767
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public double RoundPriceToTickSize(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function RoundPriceToTickSize(price As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+  id: CalculatePrice(System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: CalculatePrice(Double, Double)
+  nameWithType: Instrument.CalculatePrice(Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: CalculatePrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 777
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double CalculatePrice(double price, double ticks)
+    parameters:
+    - id: price
+      type: System.Double
+    - id: ticks
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function CalculatePrice(price As Double, ticks As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.CalculatePrice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+  id: CalculateTicks(System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: CalculateTicks(Double, Double)
+  nameWithType: Instrument.CalculateTicks(Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: CalculateTicks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 788
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double CalculateTicks(double price1, double price2)
+    parameters:
+    - id: price1
+      type: System.Double
+    - id: price2
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function CalculateTicks(price1 As Double, price2 As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.CalculateTicks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  id: GetTickSize(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetTickSize(Double)
+  nameWithType: Instrument.GetTickSize(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetTickSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 802
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double GetTickSize(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function GetTickSize(price As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.GetTickSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  id: GetTickCost(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetTickCost(Double)
+  nameWithType: Instrument.GetTickCost(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetTickCost
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 809
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double GetTickCost(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function GetTickCost(price As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.GetTickCost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  id: FindVariableTick(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: FindVariableTick(Double)
+  nameWithType: Instrument.FindVariableTick(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: FindVariableTick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 816
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public VariableTick FindVariableTick(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: TradingPlatform.BusinessLayer.VariableTick
+    content.vb: Public Function FindVariableTick(price As Double) As VariableTick
+  overload: TradingPlatform.BusinessLayer.Instrument.FindVariableTick*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.TickSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.TickSize
+  id: TickSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: TickSize
+  nameWithType: Instrument.TickSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.TickSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: TickSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 831
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double TickSize { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property TickSize As Double
+  overload: TradingPlatform.BusinessLayer.Instrument.TickSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  id: GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetVWAPForOrderRequest(OrderRequestParameters)
+  nameWithType: Instrument.GetVWAPForOrderRequest(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetVWAPForOrderRequest
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 846
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public VWAP GetVWAPForOrderRequest(OrderRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.OrderRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.VWAP
+    content.vb: Public Function GetVWAPForOrderRequest(requestParameters As OrderRequestParameters) As VWAP
+  overload: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  id: OnUpdated
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: OnUpdated()
+  nameWithType: Instrument.OnUpdated()
+  fullName: TradingPlatform.BusinessLayer.Instrument.OnUpdated()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: OnUpdated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 949
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected void OnUpdated()
+    content.vb: Protected Sub OnUpdated
+  overload: TradingPlatform.BusinessLayer.Instrument.OnUpdated*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Instrument.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Instrument.ToString()
+  fullName: TradingPlatform.BusinessLayer.Instrument.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 951
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.Instrument.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  id: CreateInfo
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: CreateInfo()
+  nameWithType: Instrument.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.Instrument.CreateInfo()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: CreateInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 953
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override BusinessObjectInfo CreateInfo()
+    return:
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    content.vb: Public Overrides Function CreateInfo As BusinessObjectInfo
+  overridden: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  overload: TradingPlatform.BusinessLayer.Instrument.CreateInfo*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  id: FormatPrice(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: FormatPrice(Double)
+  nameWithType: Instrument.FormatPrice(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: FormatPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 963
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string FormatPrice(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Function FormatPrice(price As Double) As String
+  overload: TradingPlatform.BusinessLayer.Instrument.FormatPrice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  id: FormatPriceWithMaxPrecision(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: FormatPriceWithMaxPrecision(Double)
+  nameWithType: Instrument.FormatPriceWithMaxPrecision(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: FormatPriceWithMaxPrecision
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 970
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string FormatPriceWithMaxPrecision(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Function FormatPriceWithMaxPrecision(price As Double) As String
+  overload: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  id: FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: FormatQuantity(Double, Boolean, Boolean)
+  nameWithType: Instrument.FormatQuantity(Double, Boolean, Boolean)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: FormatQuantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 978
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual string FormatQuantity(double quantity, bool inLots = true, bool abbreviate = false)
+    parameters:
+    - id: quantity
+      type: System.Double
+    - id: inLots
+      type: System.Boolean
+    - id: abbreviate
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Overridable Function FormatQuantity(quantity As Double, inLots As Boolean = True, abbreviate As Boolean = False) As String
+  overload: TradingPlatform.BusinessLayer.Instrument.FormatQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  id: FormatOffset(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: FormatOffset(Double)
+  nameWithType: Instrument.FormatOffset(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: FormatOffset
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 989
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string FormatOffset(double offset)
+    parameters:
+    - id: offset
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Function FormatOffset(offset As Double) As String
+  overload: TradingPlatform.BusinessLayer.Instrument.FormatOffset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  id: CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Object)
+  nameWithType: Instrument.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: CompareTo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 996
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int CompareTo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(obj As Object) As Integer
+  overload: TradingPlatform.BusinessLayer.Instrument.CompareTo*
+  implements:
+  - System.IComparable.CompareTo(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: Instrument.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Instrument.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1008
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Instrument.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: Instrument.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1067
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Instrument.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  id: GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetAlowedOrderTypes(OrderTypeUsage)
+  nameWithType: Instrument.GetAlowedOrderTypes(OrderTypeUsage)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetAlowedOrderTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1226
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual List<OrderType> GetAlowedOrderTypes(OrderTypeUsage usage)
+    parameters:
+    - id: usage
+      type: TradingPlatform.BusinessLayer.OrderTypeUsage
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.OrderType}
+    content.vb: Public Overridable Function GetAlowedOrderTypes(usage As OrderTypeUsage) As List(Of OrderType)
+  overload: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  id: GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultAccount(Account)
+  nameWithType: Instrument.GetDefaultAccount(Account)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: GetDefaultAccount
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1258
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nИнструмент, может определять требуемый аккаунт\n"
+  example: []
+  syntax:
+    content: public virtual Account GetDefaultAccount(Account currentValue = null)
+    parameters:
+    - id: currentValue
+      type: TradingPlatform.BusinessLayer.Account
+    return:
+      type: TradingPlatform.BusinessLayer.Account
+    content.vb: Public Overridable Function GetDefaultAccount(currentValue As Account = Nothing) As Account
+  overload: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.Instrument.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Id
+  name: Id
+  nameWithType: Instrument.Id
+  fullName: TradingPlatform.BusinessLayer.Instrument.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Instrument.Symbol*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Symbol
+  name: Symbol
+  nameWithType: Instrument.Symbol
+  fullName: TradingPlatform.BusinessLayer.Instrument.Symbol
+- uid: TradingPlatform.BusinessLayer.Instrument.Description*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Description
+  name: Description
+  nameWithType: Instrument.Description
+  fullName: TradingPlatform.BusinessLayer.Instrument.Description
+- uid: TradingPlatform.BusinessLayer.Instrument.InstrumentType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  name: InstrumentType
+  nameWithType: Instrument.InstrumentType
+  fullName: TradingPlatform.BusinessLayer.Instrument.InstrumentType
+- uid: TradingPlatform.BusinessLayer.InstrumentType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentType
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentType
+  nameWithType: InstrumentType
+  fullName: TradingPlatform.BusinessLayer.InstrumentType
+- uid: TradingPlatform.BusinessLayer.Instrument.Product*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Product
+  name: Product
+  nameWithType: Instrument.Product
+  fullName: TradingPlatform.BusinessLayer.Instrument.Product
+- uid: TradingPlatform.BusinessLayer.Asset
+  commentId: T:TradingPlatform.BusinessLayer.Asset
+  parent: TradingPlatform.BusinessLayer
+  name: Asset
+  nameWithType: Asset
+  fullName: TradingPlatform.BusinessLayer.Asset
+- uid: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  name: QuotingCurrency
+  nameWithType: Instrument.QuotingCurrency
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+- uid: TradingPlatform.BusinessLayer.Instrument.Exchange*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Exchange
+  name: Exchange
+  nameWithType: Instrument.Exchange
+  fullName: TradingPlatform.BusinessLayer.Instrument.Exchange
+- uid: TradingPlatform.BusinessLayer.Exchange
+  commentId: T:TradingPlatform.BusinessLayer.Exchange
+  parent: TradingPlatform.BusinessLayer
+  name: Exchange
+  nameWithType: Exchange
+  fullName: TradingPlatform.BusinessLayer.Exchange
+- uid: TradingPlatform.BusinessLayer.Instrument.QuoteDelay*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  name: QuoteDelay
+  nameWithType: Instrument.QuoteDelay
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  name: InstrumentAdditionalInfo
+  nameWithType: Instrument.InstrumentAdditionalInfo
+  fullName: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+- uid: System.Collections.Generic.Dictionary{System.String,TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, InstrumentAdditionalInfoItem>
+  nameWithType: Dictionary<String, InstrumentAdditionalInfoItem>
+  fullName: System.Collections.Generic.Dictionary<System.String, TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem>
+  nameWithType.vb: Dictionary(Of String, InstrumentAdditionalInfoItem)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem)
+  name.vb: Dictionary(Of String, InstrumentAdditionalInfoItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+    name: InstrumentAdditionalInfoItem
+    nameWithType: InstrumentAdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+    name: InstrumentAdditionalInfoItem
+    nameWithType: InstrumentAdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Instrument.MaxLot*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.MaxLot
+  name: MaxLot
+  nameWithType: Instrument.MaxLot
+  fullName: TradingPlatform.BusinessLayer.Instrument.MaxLot
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Instrument.MinLot*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.MinLot
+  name: MinLot
+  nameWithType: Instrument.MinLot
+  fullName: TradingPlatform.BusinessLayer.Instrument.MinLot
+- uid: TradingPlatform.BusinessLayer.Instrument.NettingType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.NettingType
+  name: NettingType
+  nameWithType: Instrument.NettingType
+  fullName: TradingPlatform.BusinessLayer.Instrument.NettingType
+- uid: TradingPlatform.BusinessLayer.NettingType
+  commentId: T:TradingPlatform.BusinessLayer.NettingType
+  parent: TradingPlatform.BusinessLayer
+  name: NettingType
+  nameWithType: NettingType
+  fullName: TradingPlatform.BusinessLayer.NettingType
+- uid: TradingPlatform.BusinessLayer.Instrument.Group*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Group
+  name: Group
+  nameWithType: Instrument.Group
+  fullName: TradingPlatform.BusinessLayer.Instrument.Group
+- uid: TradingPlatform.BusinessLayer.InstrumentGroup
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentGroup
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentGroup
+  nameWithType: InstrumentGroup
+  fullName: TradingPlatform.BusinessLayer.InstrumentGroup
+- uid: TradingPlatform.BusinessLayer.Instrument.QuotingType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.QuotingType
+  name: QuotingType
+  nameWithType: Instrument.QuotingType
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuotingType
+- uid: TradingPlatform.BusinessLayer.InstrumentQuotingType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentQuotingType
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentQuotingType
+  nameWithType: InstrumentQuotingType
+  fullName: TradingPlatform.BusinessLayer.InstrumentQuotingType
+- uid: TradingPlatform.BusinessLayer.Instrument.LotSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.LotSize
+  name: LotSize
+  nameWithType: Instrument.LotSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.LotSize
+- uid: TradingPlatform.BusinessLayer.Instrument.VariableTickList*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  name: VariableTickList
+  nameWithType: Instrument.VariableTickList
+  fullName: TradingPlatform.BusinessLayer.Instrument.VariableTickList
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.VariableTick}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.VariableTick}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<VariableTick>
+  nameWithType: List<VariableTick>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.VariableTick>
+  nameWithType.vb: List(Of VariableTick)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.VariableTick)
+  name.vb: List(Of VariableTick)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.VariableTick
+    name: VariableTick
+    nameWithType: VariableTick
+    fullName: TradingPlatform.BusinessLayer.VariableTick
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.VariableTick
+    name: VariableTick
+    nameWithType: VariableTick
+    fullName: TradingPlatform.BusinessLayer.VariableTick
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.LotStep*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.LotStep
+  name: LotStep
+  nameWithType: Instrument.LotStep
+  fullName: TradingPlatform.BusinessLayer.Instrument.LotStep
+- uid: TradingPlatform.BusinessLayer.Instrument.ExpirationDate*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  name: ExpirationDate
+  nameWithType: Instrument.ExpirationDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Instrument.LastTradingDate*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  name: LastTradingDate
+  nameWithType: Instrument.LastTradingDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+- uid: TradingPlatform.BusinessLayer.Instrument.MaturityDate*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  name: MaturityDate
+  nameWithType: Instrument.MaturityDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.MaturityDate
+- uid: TradingPlatform.BusinessLayer.Instrument.StrikePrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  name: StrikePrice
+  nameWithType: Instrument.StrikePrice
+  fullName: TradingPlatform.BusinessLayer.Instrument.StrikePrice
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionStyle*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  name: OptionStyle
+  nameWithType: Instrument.OptionStyle
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionStyle
+- uid: TradingPlatform.BusinessLayer.OptionCodingStyle
+  commentId: T:TradingPlatform.BusinessLayer.OptionCodingStyle
+  parent: TradingPlatform.BusinessLayer
+  name: OptionCodingStyle
+  nameWithType: OptionCodingStyle
+  fullName: TradingPlatform.BusinessLayer.OptionCodingStyle
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.OptionType
+  name: OptionType
+  nameWithType: Instrument.OptionType
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionType
+- uid: TradingPlatform.BusinessLayer.OptionType
+  commentId: T:TradingPlatform.BusinessLayer.OptionType
+  parent: TradingPlatform.BusinessLayer
+  name: OptionType
+  nameWithType: OptionType
+  fullName: TradingPlatform.BusinessLayer.OptionType
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionSerie*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  name: OptionSerie
+  nameWithType: Instrument.OptionSerie
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionSerie
+- uid: TradingPlatform.BusinessLayer.Instrument.UnderlierName*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  name: UnderlierName
+  nameWithType: Instrument.UnderlierName
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnderlierName
+- uid: TradingPlatform.BusinessLayer.Instrument.Underlier*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Underlier
+  name: Underlier
+  nameWithType: Instrument.Underlier
+  fullName: TradingPlatform.BusinessLayer.Instrument.Underlier
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument.Ask*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Ask
+  name: Ask
+  nameWithType: Instrument.Ask
+  fullName: TradingPlatform.BusinessLayer.Instrument.Ask
+- uid: TradingPlatform.BusinessLayer.Instrument.AskSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.AskSize
+  name: AskSize
+  nameWithType: Instrument.AskSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.AskSize
+- uid: TradingPlatform.BusinessLayer.Instrument.Bid*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Bid
+  name: Bid
+  nameWithType: Instrument.Bid
+  fullName: TradingPlatform.BusinessLayer.Instrument.Bid
+- uid: TradingPlatform.BusinessLayer.Instrument.BidSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.BidSize
+  name: BidSize
+  nameWithType: Instrument.BidSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.BidSize
+- uid: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  name: QuoteDateTime
+  nameWithType: Instrument.QuoteDateTime
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+- uid: TradingPlatform.BusinessLayer.Instrument.Last*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Last
+  name: Last
+  nameWithType: Instrument.Last
+  fullName: TradingPlatform.BusinessLayer.Instrument.Last
+- uid: TradingPlatform.BusinessLayer.Instrument.LastSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.LastSize
+  name: LastSize
+  nameWithType: Instrument.LastSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastSize
+- uid: TradingPlatform.BusinessLayer.Instrument.LastDateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  name: LastDateTime
+  nameWithType: Instrument.LastDateTime
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastDateTime
+- uid: TradingPlatform.BusinessLayer.Instrument.Open*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Open
+  name: Open
+  nameWithType: Instrument.Open
+  fullName: TradingPlatform.BusinessLayer.Instrument.Open
+- uid: TradingPlatform.BusinessLayer.Instrument.PrevClose*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.PrevClose
+  name: PrevClose
+  nameWithType: Instrument.PrevClose
+  fullName: TradingPlatform.BusinessLayer.Instrument.PrevClose
+- uid: TradingPlatform.BusinessLayer.Instrument.High*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.High
+  name: High
+  nameWithType: Instrument.High
+  fullName: TradingPlatform.BusinessLayer.Instrument.High
+- uid: TradingPlatform.BusinessLayer.Instrument.Low*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Low
+  name: Low
+  nameWithType: Instrument.Low
+  fullName: TradingPlatform.BusinessLayer.Instrument.Low
+- uid: TradingPlatform.BusinessLayer.Instrument.Volume*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Volume
+  name: Volume
+  nameWithType: Instrument.Volume
+  fullName: TradingPlatform.BusinessLayer.Instrument.Volume
+- uid: TradingPlatform.BusinessLayer.Instrument.PrevSettlement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  name: PrevSettlement
+  nameWithType: Instrument.PrevSettlement
+  fullName: TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+- uid: TradingPlatform.BusinessLayer.Instrument.Ticks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Ticks
+  name: Ticks
+  nameWithType: Instrument.Ticks
+  fullName: TradingPlatform.BusinessLayer.Instrument.Ticks
+- uid: TradingPlatform.BusinessLayer.Instrument.Trades*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Trades
+  name: Trades
+  nameWithType: Instrument.Trades
+  fullName: TradingPlatform.BusinessLayer.Instrument.Trades
+- uid: TradingPlatform.BusinessLayer.Instrument.Asks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Asks
+  name: Asks
+  nameWithType: Instrument.Asks
+  fullName: TradingPlatform.BusinessLayer.Instrument.Asks
+- uid: TradingPlatform.BusinessLayer.Level2Collection
+  commentId: T:TradingPlatform.BusinessLayer.Level2Collection
+  parent: TradingPlatform.BusinessLayer
+  name: Level2Collection
+  nameWithType: Level2Collection
+  fullName: TradingPlatform.BusinessLayer.Level2Collection
+- uid: TradingPlatform.BusinessLayer.Instrument.Bids*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Bids
+  name: Bids
+  nameWithType: Instrument.Bids
+  fullName: TradingPlatform.BusinessLayer.Instrument.Bids
+- uid: TradingPlatform.BusinessLayer.Instrument.Spread*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Spread
+  name: Spread
+  nameWithType: Instrument.Spread
+  fullName: TradingPlatform.BusinessLayer.Instrument.Spread
+- uid: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  name: SpreadPercentage
+  nameWithType: Instrument.SpreadPercentage
+  fullName: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+- uid: TradingPlatform.BusinessLayer.Instrument.Change*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Change
+  name: Change
+  nameWithType: Instrument.Change
+  fullName: TradingPlatform.BusinessLayer.Instrument.Change
+- uid: TradingPlatform.BusinessLayer.Instrument.ChangePercentage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  name: ChangePercentage
+  nameWithType: Instrument.ChangePercentage
+  fullName: TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+- uid: TradingPlatform.BusinessLayer.Instrument.HistoryType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.HistoryType
+  name: HistoryType
+  nameWithType: Instrument.HistoryType
+  fullName: TradingPlatform.BusinessLayer.Instrument.HistoryType
+- uid: TradingPlatform.BusinessLayer.HistoryType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryType
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryType
+  nameWithType: HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoryType
+- uid: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  name: AvailableHistoryTypes
+  nameWithType: Instrument.AvailableHistoryTypes
+  fullName: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.HistoryType}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.HistoryType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<HistoryType>
+  nameWithType: List<HistoryType>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.HistoryType>
+  nameWithType.vb: List(Of HistoryType)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.HistoryType)
+  name.vb: List(Of HistoryType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.VolumeType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.VolumeType
+  name: VolumeType
+  nameWithType: Instrument.VolumeType
+  fullName: TradingPlatform.BusinessLayer.Instrument.VolumeType
+- uid: TradingPlatform.BusinessLayer.InstrumentVolumeType
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentVolumeType
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentVolumeType
+  nameWithType: InstrumentVolumeType
+  fullName: TradingPlatform.BusinessLayer.InstrumentVolumeType
+- uid: TradingPlatform.BusinessLayer.QuoteHandler
+  commentId: T:TradingPlatform.BusinessLayer.QuoteHandler
+  parent: TradingPlatform.BusinessLayer
+  name: QuoteHandler
+  nameWithType: QuoteHandler
+  fullName: TradingPlatform.BusinessLayer.QuoteHandler
+- uid: TradingPlatform.BusinessLayer.Level2Handler
+  commentId: T:TradingPlatform.BusinessLayer.Level2Handler
+  parent: TradingPlatform.BusinessLayer
+  name: Level2Handler
+  nameWithType: Level2Handler
+  fullName: TradingPlatform.BusinessLayer.Level2Handler
+- uid: TradingPlatform.BusinessLayer.LastHandler
+  commentId: T:TradingPlatform.BusinessLayer.LastHandler
+  parent: TradingPlatform.BusinessLayer
+  name: LastHandler
+  nameWithType: LastHandler
+  fullName: TradingPlatform.BusinessLayer.LastHandler
+- uid: TradingPlatform.BusinessLayer.DayBarHandler
+  commentId: T:TradingPlatform.BusinessLayer.DayBarHandler
+  parent: TradingPlatform.BusinessLayer
+  name: DayBarHandler
+  nameWithType: DayBarHandler
+  fullName: TradingPlatform.BusinessLayer.DayBarHandler
+- uid: TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+  commentId: T:TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+  parent: TradingPlatform.BusinessLayer
+  name: InstrumentUpdateHandler
+  nameWithType: InstrumentUpdateHandler
+  fullName: TradingPlatform.BusinessLayer.InstrumentUpdateHandler
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  name: AllowCalculateRealtimeTicks
+  nameWithType: Instrument.AllowCalculateRealtimeTicks
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  name: AllowCalculateRealtimeTrades
+  nameWithType: Instrument.AllowCalculateRealtimeTrades
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  name: AllowCalculateRealtimeVolume
+  nameWithType: Instrument.AllowCalculateRealtimeVolume
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  name: AllowCalculateRealtimeChange
+  nameWithType: Instrument.AllowCalculateRealtimeChange
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+- uid: TradingPlatform.BusinessLayer.Instrument.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.#ctor
+  name: Instrument
+  nameWithType: Instrument.Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument.InitialState*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.InitialState
+  name: InitialState
+  nameWithType: Instrument.InitialState
+  fullName: TradingPlatform.BusinessLayer.Instrument.InitialState
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObjectInfo
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObjectInfo
+  nameWithType: BusinessObjectInfo
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo
+- uid: TradingPlatform.BusinessLayer.Instrument.GetMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetMessage
+  name: GetMessage
+  nameWithType: Instrument.GetMessage
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetMessage
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageInstrument
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageInstrument
+  nameWithType: MessageInstrument
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: TradingPlatform.BusinessLayer.Instrument.Subscribe*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.Subscribe
+  name: Subscribe
+  nameWithType: Instrument.Subscribe
+  fullName: TradingPlatform.BusinessLayer.Instrument.Subscribe
+- uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  commentId: T:TradingPlatform.BusinessLayer.SubscribeQuoteType
+  parent: TradingPlatform.BusinessLayer
+  name: SubscribeQuoteType
+  nameWithType: SubscribeQuoteType
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+- uid: TradingPlatform.BusinessLayer.Instrument.SubscribeAction*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.SubscribeAction
+  name: SubscribeAction
+  nameWithType: Instrument.SubscribeAction
+  fullName: TradingPlatform.BusinessLayer.Instrument.SubscribeAction
+- uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribe*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.UnSubscribe
+  name: UnSubscribe
+  nameWithType: Instrument.UnSubscribe
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribe
+- uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction
+  name: UnSubscribeAction
+  nameWithType: Instrument.UnSubscribeAction
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetHistory
+  name: GetHistory
+  nameWithType: Instrument.GetHistory
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+- uid: TradingPlatform.BusinessLayer.Period
+  commentId: T:TradingPlatform.BusinessLayer.Period
+  parent: TradingPlatform.BusinessLayer
+  name: Period
+  nameWithType: Period
+  fullName: TradingPlatform.BusinessLayer.Period
+- uid: TradingPlatform.BusinessLayer.IHistoricalData
+  commentId: T:TradingPlatform.BusinessLayer.IHistoricalData
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoricalData
+  nameWithType: IHistoricalData
+  fullName: TradingPlatform.BusinessLayer.IHistoricalData
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregation
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregation
+  nameWithType: HistoryAggregation
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.HistoryRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryRequestParameters
+  nameWithType: HistoryRequestParameters
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+- uid: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData
+  name: CreateHistoricalData
+  nameWithType: Instrument.CreateHistoricalData
+  fullName: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData
+- uid: TradingPlatform.BusinessLayer.HistoricalData
+  commentId: T:TradingPlatform.BusinessLayer.HistoricalData
+  parent: TradingPlatform.BusinessLayer
+  name: HistoricalData
+  nameWithType: HistoricalData
+  fullName: TradingPlatform.BusinessLayer.HistoricalData
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetTickHistory
+  name: GetTickHistory
+  nameWithType: Instrument.GetTickHistory
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickHistory
+- uid: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize
+  name: RoundPriceToTickSize
+  nameWithType: Instrument.RoundPriceToTickSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize
+- uid: TradingPlatform.BusinessLayer.Instrument.CalculatePrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.CalculatePrice
+  name: CalculatePrice
+  nameWithType: Instrument.CalculatePrice
+  fullName: TradingPlatform.BusinessLayer.Instrument.CalculatePrice
+- uid: TradingPlatform.BusinessLayer.Instrument.CalculateTicks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.CalculateTicks
+  name: CalculateTicks
+  nameWithType: Instrument.CalculateTicks
+  fullName: TradingPlatform.BusinessLayer.Instrument.CalculateTicks
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetTickSize
+  name: GetTickSize
+  nameWithType: Instrument.GetTickSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickSize
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickCost*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetTickCost
+  name: GetTickCost
+  nameWithType: Instrument.GetTickCost
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickCost
+- uid: TradingPlatform.BusinessLayer.Instrument.FindVariableTick*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.FindVariableTick
+  name: FindVariableTick
+  nameWithType: Instrument.FindVariableTick
+  fullName: TradingPlatform.BusinessLayer.Instrument.FindVariableTick
+- uid: TradingPlatform.BusinessLayer.VariableTick
+  commentId: T:TradingPlatform.BusinessLayer.VariableTick
+  parent: TradingPlatform.BusinessLayer
+  name: VariableTick
+  nameWithType: VariableTick
+  fullName: TradingPlatform.BusinessLayer.VariableTick
+- uid: TradingPlatform.BusinessLayer.Instrument.TickSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.TickSize
+  name: TickSize
+  nameWithType: Instrument.TickSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.TickSize
+- uid: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest
+  name: GetVWAPForOrderRequest
+  nameWithType: Instrument.GetVWAPForOrderRequest
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest
+- uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.OrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: OrderRequestParameters
+  nameWithType: OrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.VWAP
+  commentId: T:TradingPlatform.BusinessLayer.VWAP
+  parent: TradingPlatform.BusinessLayer
+  name: VWAP
+  nameWithType: VWAP
+  fullName: TradingPlatform.BusinessLayer.VWAP
+- uid: TradingPlatform.BusinessLayer.Instrument.OnUpdated*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  name: OnUpdated
+  nameWithType: Instrument.OnUpdated
+  fullName: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.ToString
+  name: ToString
+  nameWithType: Instrument.ToString
+  fullName: TradingPlatform.BusinessLayer.Instrument.ToString
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.CreateInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  name: CreateInfo
+  nameWithType: Instrument.CreateInfo
+  fullName: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.FormatPrice
+  name: FormatPrice
+  nameWithType: Instrument.FormatPrice
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatPrice
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision
+  name: FormatPriceWithMaxPrecision
+  nameWithType: Instrument.FormatPriceWithMaxPrecision
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatQuantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.FormatQuantity
+  name: FormatQuantity
+  nameWithType: Instrument.FormatQuantity
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatQuantity
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatOffset*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.FormatOffset
+  name: FormatOffset
+  nameWithType: Instrument.FormatOffset
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatOffset
+- uid: TradingPlatform.BusinessLayer.Instrument.CompareTo*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.CompareTo
+  name: CompareTo
+  nameWithType: Instrument.CompareTo
+  fullName: TradingPlatform.BusinessLayer.Instrument.CompareTo
+- uid: System.IComparable.CompareTo(System.Object)
+  commentId: M:System.IComparable.CompareTo(System.Object)
+  parent: System.IComparable
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: IComparable.CompareTo(Object)
+  fullName: System.IComparable.CompareTo(System.Object)
+  spec.csharp:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Instrument.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.ToXElement
+  name: ToXElement
+  nameWithType: Instrument.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Instrument.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Instrument.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.FromXElement
+  name: FromXElement
+  nameWithType: Instrument.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Instrument.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+- uid: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes
+  name: GetAlowedOrderTypes
+  nameWithType: Instrument.GetAlowedOrderTypes
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes
+- uid: TradingPlatform.BusinessLayer.OrderTypeUsage
+  commentId: T:TradingPlatform.BusinessLayer.OrderTypeUsage
+  parent: TradingPlatform.BusinessLayer
+  name: OrderTypeUsage
+  nameWithType: OrderTypeUsage
+  fullName: TradingPlatform.BusinessLayer.OrderTypeUsage
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.OrderType}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.OrderType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<OrderType>
+  nameWithType: List<OrderType>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.OrderType>
+  nameWithType.vb: List(Of OrderType)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.OrderType)
+  name.vb: List(Of OrderType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+    nameWithType: OrderType
+    fullName: TradingPlatform.BusinessLayer.OrderType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+    nameWithType: OrderType
+    fullName: TradingPlatform.BusinessLayer.OrderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount*
+  commentId: Overload:TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount
+  name: GetDefaultAccount
+  nameWithType: Instrument.GetDefaultAccount
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount
+- uid: TradingPlatform.BusinessLayer.Account
+  commentId: T:TradingPlatform.BusinessLayer.Account
+  parent: TradingPlatform.BusinessLayer
+  name: Account
+  nameWithType: Account
+  fullName: TradingPlatform.BusinessLayer.Account

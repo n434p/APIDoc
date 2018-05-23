@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Report
+  commentId: T:TradingPlatform.BusinessLayer.Report
+  id: Report
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Report.#ctor
+  - TradingPlatform.BusinessLayer.Report.AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType)
+  - TradingPlatform.BusinessLayer.Report.AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType,TradingPlatform.BusinessLayer.ColouringModes)
+  - TradingPlatform.BusinessLayer.Report.Columns
+  - TradingPlatform.BusinessLayer.Report.Rows
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: Report
+  fullName: TradingPlatform.BusinessLayer.Report
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    id: Report
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nDefines report entity\n"
+  example: []
+  syntax:
+    content: public class Report
+    content.vb: Public Class Report
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Report.Columns
+  commentId: F:TradingPlatform.BusinessLayer.Report.Columns
+  id: Columns
+  parent: TradingPlatform.BusinessLayer.Report
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: Report.Columns
+  fullName: TradingPlatform.BusinessLayer.Report.Columns
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    id: Columns
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nColumns collection \n"
+  example: []
+  syntax:
+    content: public List<ReportColumn> Columns
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.ReportColumn}
+    content.vb: Public Columns As List(Of ReportColumn)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Report.Rows
+  commentId: F:TradingPlatform.BusinessLayer.Report.Rows
+  id: Rows
+  parent: TradingPlatform.BusinessLayer.Report
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: Report.Rows
+  fullName: TradingPlatform.BusinessLayer.Report.Rows
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    id: Rows
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nRows collection \n"
+  example: []
+  syntax:
+    content: public List<ReportRow> Rows
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.ReportRow}
+    content.vb: Public Rows As List(Of ReportRow)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Report.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Report.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Report
+  langs:
+  - csharp
+  - vb
+  name: Report()
+  nameWithType: Report.Report()
+  fullName: TradingPlatform.BusinessLayer.Report.Report()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nInitializes report grid\n"
+  example: []
+  syntax:
+    content: public Report()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.Report.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Report.AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType,TradingPlatform.BusinessLayer.ColouringModes)
+  commentId: M:TradingPlatform.BusinessLayer.Report.AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType,TradingPlatform.BusinessLayer.ColouringModes)
+  id: AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType,TradingPlatform.BusinessLayer.ColouringModes)
+  parent: TradingPlatform.BusinessLayer.Report
+  langs:
+  - csharp
+  - vb
+  name: AddColumn(String, ComparingType, ColouringModes)
+  nameWithType: Report.AddColumn(String, ComparingType, ColouringModes)
+  fullName: TradingPlatform.BusinessLayer.Report.AddColumn(System.String, TradingPlatform.BusinessLayer.ComparingType, TradingPlatform.BusinessLayer.ColouringModes)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    id: AddColumn
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nAdds column to the report\n"
+  example: []
+  syntax:
+    content: public void AddColumn(string header, ComparingType valueType, ColouringModes coloringModes)
+    parameters:
+    - id: header
+      type: System.String
+    - id: valueType
+      type: TradingPlatform.BusinessLayer.ComparingType
+    - id: coloringModes
+      type: TradingPlatform.BusinessLayer.ColouringModes
+    content.vb: Public Sub AddColumn(header As String, valueType As ComparingType, coloringModes As ColouringModes)
+  overload: TradingPlatform.BusinessLayer.Report.AddColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Report.AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType)
+  commentId: M:TradingPlatform.BusinessLayer.Report.AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType)
+  id: AddColumn(System.String,TradingPlatform.BusinessLayer.ComparingType)
+  parent: TradingPlatform.BusinessLayer.Report
+  langs:
+  - csharp
+  - vb
+  name: AddColumn(String, ComparingType)
+  nameWithType: Report.AddColumn(String, ComparingType)
+  fullName: TradingPlatform.BusinessLayer.Report.AddColumn(System.String, TradingPlatform.BusinessLayer.ComparingType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    id: AddColumn
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Reports/Report.cs
+    startLine: 37
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddColumn(string header, ComparingType valueType)
+    parameters:
+    - id: header
+      type: System.String
+    - id: valueType
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: Public Sub AddColumn(header As String, valueType As ComparingType)
+  overload: TradingPlatform.BusinessLayer.Report.AddColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.ReportColumn}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.ReportColumn}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ReportColumn>
+  nameWithType: List<ReportColumn>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.ReportColumn>
+  nameWithType.vb: List(Of ReportColumn)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.ReportColumn)
+  name.vb: List(Of ReportColumn)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.ReportColumn
+    name: ReportColumn
+    nameWithType: ReportColumn
+    fullName: TradingPlatform.BusinessLayer.ReportColumn
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.ReportColumn
+    name: ReportColumn
+    nameWithType: ReportColumn
+    fullName: TradingPlatform.BusinessLayer.ReportColumn
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.ReportRow}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.ReportRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ReportRow>
+  nameWithType: List<ReportRow>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.ReportRow>
+  nameWithType.vb: List(Of ReportRow)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.ReportRow)
+  name.vb: List(Of ReportRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.ReportRow
+    name: ReportRow
+    nameWithType: ReportRow
+    fullName: TradingPlatform.BusinessLayer.ReportRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.ReportRow
+    name: ReportRow
+    nameWithType: ReportRow
+    fullName: TradingPlatform.BusinessLayer.ReportRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Report.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Report.#ctor
+  name: Report
+  nameWithType: Report.Report
+  fullName: TradingPlatform.BusinessLayer.Report.Report
+- uid: TradingPlatform.BusinessLayer.Report.AddColumn*
+  commentId: Overload:TradingPlatform.BusinessLayer.Report.AddColumn
+  name: AddColumn
+  nameWithType: Report.AddColumn
+  fullName: TradingPlatform.BusinessLayer.Report.AddColumn
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.ComparingType
+  commentId: T:TradingPlatform.BusinessLayer.ComparingType
+  parent: TradingPlatform.BusinessLayer
+  name: ComparingType
+  nameWithType: ComparingType
+  fullName: TradingPlatform.BusinessLayer.ComparingType
+- uid: TradingPlatform.BusinessLayer.ColouringModes
+  commentId: T:TradingPlatform.BusinessLayer.ColouringModes
+  parent: TradingPlatform.BusinessLayer
+  name: ColouringModes
+  nameWithType: ColouringModes
+  fullName: TradingPlatform.BusinessLayer.ColouringModes

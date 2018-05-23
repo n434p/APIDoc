@@ -1,0 +1,4334 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Indicator
+  commentId: T:TradingPlatform.BusinessLayer.Indicator
+  id: Indicator
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Indicator.#ctor
+  - TradingPlatform.BusinessLayer.Indicator.AC
+  - TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  - TradingPlatform.BusinessLayer.Indicator.ADX
+  - TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  - TradingPlatform.BusinessLayer.Indicator.Alligator
+  - TradingPlatform.BusinessLayer.Indicator.AO
+  - TradingPlatform.BusinessLayer.Indicator.AROON
+  - TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.ATR
+  - TradingPlatform.BusinessLayer.Indicator.BB
+  - TradingPlatform.BusinessLayer.Indicator.BBF
+  - TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.CCI
+  - TradingPlatform.BusinessLayer.Indicator.Channel
+  - TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.CMO
+  - TradingPlatform.BusinessLayer.Indicator.Count
+  - TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  - TradingPlatform.BusinessLayer.Indicator.Digits
+  - TradingPlatform.BusinessLayer.Indicator.Dispose
+  - TradingPlatform.BusinessLayer.Indicator.DMI
+  - TradingPlatform.BusinessLayer.Indicator.EMA
+  - TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  - TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  - TradingPlatform.BusinessLayer.Indicator.Group
+  - TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  - TradingPlatform.BusinessLayer.Indicator.HV
+  - TradingPlatform.BusinessLayer.Indicator.ICH
+  - TradingPlatform.BusinessLayer.Indicator.Instrument
+  - TradingPlatform.BusinessLayer.Indicator.KAMA
+  - TradingPlatform.BusinessLayer.Indicator.Keltner
+  - TradingPlatform.BusinessLayer.Indicator.KRI
+  - TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  - TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  - TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.LWMA
+  - TradingPlatform.BusinessLayer.Indicator.MACD
+  - TradingPlatform.BusinessLayer.Indicator.MAE
+  - TradingPlatform.BusinessLayer.Indicator.MAS3
+  - TradingPlatform.BusinessLayer.Indicator.MD
+  - TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.MFI
+  - TradingPlatform.BusinessLayer.Indicator.MMA
+  - TradingPlatform.BusinessLayer.Indicator.Momentum
+  - TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.OBV
+  - TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  - TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  - TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.OsMA
+  - TradingPlatform.BusinessLayer.Indicator.PO
+  - TradingPlatform.BusinessLayer.Indicator.PPMA
+  - TradingPlatform.BusinessLayer.Indicator.PPO
+  - TradingPlatform.BusinessLayer.Indicator.PVI
+  - TradingPlatform.BusinessLayer.Indicator.Qstick
+  - TradingPlatform.BusinessLayer.Indicator.Refresh
+  - TradingPlatform.BusinessLayer.Indicator.Regression
+  - TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.Indicator.RLW
+  - TradingPlatform.BusinessLayer.Indicator.ROC
+  - TradingPlatform.BusinessLayer.Indicator.RSI
+  - TradingPlatform.BusinessLayer.Indicator.SAR
+  - TradingPlatform.BusinessLayer.Indicator.SD
+  - TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  - TradingPlatform.BusinessLayer.Indicator.Settings
+  - TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.ShortName
+  - TradingPlatform.BusinessLayer.Indicator.SI
+  - TradingPlatform.BusinessLayer.Indicator.SMA
+  - TradingPlatform.BusinessLayer.Indicator.SMMA
+  - TradingPlatform.BusinessLayer.Indicator.Stochastic
+  - TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  - TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.TSI
+  - TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.VOLUME
+  - TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.ZZ
+  langs:
+  - csharp
+  - vb
+  name: Indicator
+  nameWithType: Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Indicator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class Indicator : ExecutionEntity, IModule, IDisposable, ICustomizable, IIndicatorsCollection'
+    content.vb: >-
+      Public Class Indicator
+          Inherits ExecutionEntity
+          Implements IModule, IDisposable, ICustomizable, IIndicatorsCollection
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.ExecutionEntity
+  derivedClasses:
+  - Channels.BB
+  - Channels.BBF
+  - Channels.Channel
+  - Channels.Keltner
+  - Channels.MAE
+  - Indicators.Template
+  - Indicators.TestingIndicator
+  - MovingAverages.AFIRMA
+  - MovingAverages.EMA
+  - MovingAverages.KAMA
+  - MovingAverages.LWMA
+  - MovingAverages.MAS3
+  - MovingAverages.MD
+  - MovingAverages.MMA
+  - MovingAverages.PPMA
+  - MovingAverages.Regression
+  - MovingAverages.SMA
+  - MovingAverages.SMMA
+  - MovingAverages.TestColor
+  - Oscillators.AC
+  - Oscillators.AO
+  - Oscillators.AROON
+  - Oscillators.CCI
+  - Oscillators.KRI
+  - Oscillators.MACD
+  - Oscillators.Momentum
+  - Oscillators.OsMA
+  - Oscillators.PO
+  - Oscillators.PPO
+  - Oscillators.Qstick
+  - Oscillators.RLW
+  - Oscillators.ROC
+  - Oscillators.RSI
+  - Oscillators.Stochastic
+  - Oscillators.StochasticRSI
+  - Oscillators.TSI
+  - TestIndicator.TestIndicator
+  - Trend.ADX
+  - Trend.Alligator
+  - Trend.DMI
+  - Trend.ICH
+  - Trend.SAR
+  - Trend.SI
+  - Trend.ZZ
+  - Volatility.ATR
+  - Volatility.CMO
+  - Volatility.HV
+  - Volatility.SD
+  - Volume.MFI
+  - Volume.OBV
+  - Volume.PVI
+  - Volume.Volume
+  implements:
+  - TradingPlatform.BusinessLayer.IModule
+  - System.IDisposable
+  - TradingPlatform.BusinessLayer.ICustomizable
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Indicator.EMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.EMA
+  id: EMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: EMA
+  nameWithType: Indicator.EMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.EMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: EMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string EMA = "Exponential Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const EMA As String = "Exponential Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.LWMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.LWMA
+  id: LWMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: LWMA
+  nameWithType: Indicator.LWMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.LWMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: LWMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string LWMA = "Linearly Weighted Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const LWMA As String = "Linearly Weighted Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.SMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SMA
+  id: SMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SMA
+  nameWithType: Indicator.SMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.SMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SMA = "Simple Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const SMA As String = "Simple Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.SMMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SMMA
+  id: SMMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SMMA
+  nameWithType: Indicator.SMMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.SMMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SMMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SMMA = "Smoothed Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const SMMA As String = "Smoothed Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.PPMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PPMA
+  id: PPMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: PPMA
+  nameWithType: Indicator.PPMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.PPMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: PPMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string PPMA = "Pivot Point Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const PPMA As String = "Pivot Point Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.CCI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.CCI
+  id: CCI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: CCI
+  nameWithType: Indicator.CCI
+  fullName: TradingPlatform.BusinessLayer.Indicator.CCI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: CCI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string CCI = "Commodity Channel Index"
+    return:
+      type: System.String
+    content.vb: Public Const CCI As String = "Commodity Channel Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MAS3
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MAS3
+  id: MAS3
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MAS3
+  nameWithType: Indicator.MAS3
+  fullName: TradingPlatform.BusinessLayer.Indicator.MAS3
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MAS3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MAS3 = "3MASignal"
+    return:
+      type: System.String
+    content.vb: Public Const MAS3 As String = "3MASignal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MMA
+  id: MMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MMA
+  nameWithType: Indicator.MMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.MMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MMA = "Modified Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const MMA As String = "Modified Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Regression
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Regression
+  id: Regression
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Regression
+  nameWithType: Indicator.Regression
+  fullName: TradingPlatform.BusinessLayer.Indicator.Regression
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Regression
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Regression = "Regression Line"
+    return:
+      type: System.String
+    content.vb: Public Const Regression As String = "Regression Line"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.BB
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.BB
+  id: BB
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: BB
+  nameWithType: Indicator.BB
+  fullName: TradingPlatform.BusinessLayer.Indicator.BB
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: BB
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string BB = "Bollinger Bands"
+    return:
+      type: System.String
+    content.vb: Public Const BB As String = "Bollinger Bands"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Channel
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Channel
+  id: Channel
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: Indicator.Channel
+  fullName: TradingPlatform.BusinessLayer.Indicator.Channel
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Channel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Channel = "Price Channel"
+    return:
+      type: System.String
+    content.vb: Public Const Channel As String = "Price Channel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  id: AFIRMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AFIRMA
+  nameWithType: Indicator.AFIRMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AFIRMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string AFIRMA = "Autoregressive Finite Impulse Response Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const AFIRMA As String = "Autoregressive Finite Impulse Response Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.RSI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.RSI
+  id: RSI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: RSI
+  nameWithType: Indicator.RSI
+  fullName: TradingPlatform.BusinessLayer.Indicator.RSI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: RSI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string RSI = "Relative Strength Index"
+    return:
+      type: System.String
+    content.vb: Public Const RSI As String = "Relative Strength Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MD
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MD
+  id: MD
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MD
+  nameWithType: Indicator.MD
+  fullName: TradingPlatform.BusinessLayer.Indicator.MD
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MD
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MD = "McGinley Dynamic"
+    return:
+      type: System.String
+    content.vb: Public Const MD As String = "McGinley Dynamic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MAE
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MAE
+  id: MAE
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MAE
+  nameWithType: Indicator.MAE
+  fullName: TradingPlatform.BusinessLayer.Indicator.MAE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MAE
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MAE = "Moving Average Envelope"
+    return:
+      type: System.String
+    content.vb: Public Const MAE As String = "Moving Average Envelope"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.SAR
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SAR
+  id: SAR
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SAR
+  nameWithType: Indicator.SAR
+  fullName: TradingPlatform.BusinessLayer.Indicator.SAR
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SAR
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SAR = "Parabolic Time/Price System"
+    return:
+      type: System.String
+    content.vb: Public Const SAR As String = "Parabolic Time/Price System"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.AO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AO
+  id: AO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AO
+  nameWithType: Indicator.AO
+  fullName: TradingPlatform.BusinessLayer.Indicator.AO
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AO
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string AO = "Awesome Oscillator"
+    return:
+      type: System.String
+    content.vb: Public Const AO As String = "Awesome Oscillator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.CMO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.CMO
+  id: CMO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: CMO
+  nameWithType: Indicator.CMO
+  fullName: TradingPlatform.BusinessLayer.Indicator.CMO
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: CMO
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string CMO = "Chande Momentum Oscillator"
+    return:
+      type: System.String
+    content.vb: Public Const CMO As String = "Chande Momentum Oscillator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.ZZ
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ZZ
+  id: ZZ
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ZZ
+  nameWithType: Indicator.ZZ
+  fullName: TradingPlatform.BusinessLayer.Indicator.ZZ
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: ZZ
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ZZ = "ZigZag"
+    return:
+      type: System.String
+    content.vb: Public Const ZZ As String = "ZigZag"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.AROON
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AROON
+  id: AROON
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AROON
+  nameWithType: Indicator.AROON
+  fullName: TradingPlatform.BusinessLayer.Indicator.AROON
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AROON
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string AROON = "Aroon"
+    return:
+      type: System.String
+    content.vb: Public Const AROON As String = "Aroon"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MACD
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MACD
+  id: MACD
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MACD
+  nameWithType: Indicator.MACD
+  fullName: TradingPlatform.BusinessLayer.Indicator.MACD
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MACD
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MACD = "Moving Average Convergence/Divergence"
+    return:
+      type: System.String
+    content.vb: Public Const MACD As String = "Moving Average Convergence/Divergence"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.SD
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SD
+  id: SD
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SD
+  nameWithType: Indicator.SD
+  fullName: TradingPlatform.BusinessLayer.Indicator.SD
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SD
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SD = "Standard Deviation"
+    return:
+      type: System.String
+    content.vb: Public Const SD As String = "Standard Deviation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.KRI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.KRI
+  id: KRI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: KRI
+  nameWithType: Indicator.KRI
+  fullName: TradingPlatform.BusinessLayer.Indicator.KRI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: KRI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string KRI = "Kairi Relative Index"
+    return:
+      type: System.String
+    content.vb: Public Const KRI As String = "Kairi Relative Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.BBF
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.BBF
+  id: BBF
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: BBF
+  nameWithType: Indicator.BBF
+  fullName: TradingPlatform.BusinessLayer.Indicator.BBF
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: BBF
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 37
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string BBF = "Bollinger Bands Flat"
+    return:
+      type: System.String
+    content.vb: Public Const BBF As String = "Bollinger Bands Flat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.ROC
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ROC
+  id: ROC
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ROC
+  nameWithType: Indicator.ROC
+  fullName: TradingPlatform.BusinessLayer.Indicator.ROC
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: ROC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ROC = "Rate of Change"
+    return:
+      type: System.String
+    content.vb: Public Const ROC As String = "Rate of Change"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Momentum
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Momentum
+  id: Momentum
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Momentum
+  nameWithType: Indicator.Momentum
+  fullName: TradingPlatform.BusinessLayer.Indicator.Momentum
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Momentum
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Momentum = "Momentum"
+    return:
+      type: System.String
+    content.vb: Public Const Momentum As String = "Momentum"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.RLW
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.RLW
+  id: RLW
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: RLW
+  nameWithType: Indicator.RLW
+  fullName: TradingPlatform.BusinessLayer.Indicator.RLW
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: RLW
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string RLW = "%R Larry Williams"
+    return:
+      type: System.String
+    content.vb: Public Const RLW As String = "%R Larry Williams"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.PO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PO
+  id: PO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: PO
+  nameWithType: Indicator.PO
+  fullName: TradingPlatform.BusinessLayer.Indicator.PO
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: PO
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string PO = "Price Oscillator"
+    return:
+      type: System.String
+    content.vb: Public Const PO As String = "Price Oscillator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.OBV
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.OBV
+  id: OBV
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: OBV
+  nameWithType: Indicator.OBV
+  fullName: TradingPlatform.BusinessLayer.Indicator.OBV
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: OBV
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string OBV = "On Balance Volume"
+    return:
+      type: System.String
+    content.vb: Public Const OBV As String = "On Balance Volume"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.OsMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.OsMA
+  id: OsMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: OsMA
+  nameWithType: Indicator.OsMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.OsMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: OsMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 43
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string OsMA = "Moving Average of Oscillator"
+    return:
+      type: System.String
+    content.vb: Public Const OsMA As String = "Moving Average of Oscillator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.PVI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PVI
+  id: PVI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: PVI
+  nameWithType: Indicator.PVI
+  fullName: TradingPlatform.BusinessLayer.Indicator.PVI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: PVI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string PVI = "Positive Volume Index"
+    return:
+      type: System.String
+    content.vb: Public Const PVI As String = "Positive Volume Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.VOLUME
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.VOLUME
+  id: VOLUME
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: VOLUME
+  nameWithType: Indicator.VOLUME
+  fullName: TradingPlatform.BusinessLayer.Indicator.VOLUME
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: VOLUME
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 45
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string VOLUME = "Volume"
+    return:
+      type: System.String
+    content.vb: Public Const VOLUME As String = "Volume"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MFI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MFI
+  id: MFI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MFI
+  nameWithType: Indicator.MFI
+  fullName: TradingPlatform.BusinessLayer.Indicator.MFI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MFI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MFI = "Money Flow Index"
+    return:
+      type: System.String
+    content.vb: Public Const MFI As String = "Money Flow Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.AC
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AC
+  id: AC
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AC
+  nameWithType: Indicator.AC
+  fullName: TradingPlatform.BusinessLayer.Indicator.AC
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string AC = "Acceleration Oscillator"
+    return:
+      type: System.String
+    content.vb: Public Const AC As String = "Acceleration Oscillator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.ATR
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ATR
+  id: ATR
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ATR
+  nameWithType: Indicator.ATR
+  fullName: TradingPlatform.BusinessLayer.Indicator.ATR
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: ATR
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 48
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ATR = "Average True Range"
+    return:
+      type: System.String
+    content.vb: Public Const ATR As String = "Average True Range"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.KAMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.KAMA
+  id: KAMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: KAMA
+  nameWithType: Indicator.KAMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.KAMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: KAMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string KAMA = "Kaufman Adaptive Moving Average"
+    return:
+      type: System.String
+    content.vb: Public Const KAMA As String = "Kaufman Adaptive Moving Average"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Stochastic
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Stochastic
+  id: Stochastic
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Stochastic
+  nameWithType: Indicator.Stochastic
+  fullName: TradingPlatform.BusinessLayer.Indicator.Stochastic
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Stochastic
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Stochastic = "Stochastic Slow"
+    return:
+      type: System.String
+    content.vb: Public Const Stochastic As String = "Stochastic Slow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  id: StochasticxRSI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: StochasticxRSI
+  nameWithType: Indicator.StochasticxRSI
+  fullName: TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: StochasticxRSI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 51
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string StochasticxRSI = "Stochastic x Relative Strength Index"
+    return:
+      type: System.String
+    content.vb: Public Const StochasticxRSI As String = "Stochastic x Relative Strength Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Qstick
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Qstick
+  id: Qstick
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Qstick
+  nameWithType: Indicator.Qstick
+  fullName: TradingPlatform.BusinessLayer.Indicator.Qstick
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Qstick
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 52
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Qstick = "Qstick"
+    return:
+      type: System.String
+    content.vb: Public Const Qstick As String = "Qstick"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.SI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SI
+  id: SI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SI
+  nameWithType: Indicator.SI
+  fullName: TradingPlatform.BusinessLayer.Indicator.SI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 53
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SI = "Swing Index"
+    return:
+      type: System.String
+    content.vb: Public Const SI As String = "Swing Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.ADX
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ADX
+  id: ADX
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ADX
+  nameWithType: Indicator.ADX
+  fullName: TradingPlatform.BusinessLayer.Indicator.ADX
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: ADX
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 54
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ADX = "Average Directional Index"
+    return:
+      type: System.String
+    content.vb: Public Const ADX As String = "Average Directional Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Keltner
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Keltner
+  id: Keltner
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Keltner
+  nameWithType: Indicator.Keltner
+  fullName: TradingPlatform.BusinessLayer.Indicator.Keltner
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Keltner
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Keltner = "Keltner Channel"
+    return:
+      type: System.String
+    content.vb: Public Const Keltner As String = "Keltner Channel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.PPO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PPO
+  id: PPO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: PPO
+  nameWithType: Indicator.PPO
+  fullName: TradingPlatform.BusinessLayer.Indicator.PPO
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: PPO
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 56
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string PPO = "Percentage Price Oscillator"
+    return:
+      type: System.String
+    content.vb: Public Const PPO As String = "Percentage Price Oscillator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.TSI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.TSI
+  id: TSI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: TSI
+  nameWithType: Indicator.TSI
+  fullName: TradingPlatform.BusinessLayer.Indicator.TSI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: TSI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 57
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string TSI = "True Strength Index"
+    return:
+      type: System.String
+    content.vb: Public Const TSI As String = "True Strength Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.DMI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.DMI
+  id: DMI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: DMI
+  nameWithType: Indicator.DMI
+  fullName: TradingPlatform.BusinessLayer.Indicator.DMI
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: DMI
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 58
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string DMI = "Directional Movement Index"
+    return:
+      type: System.String
+    content.vb: Public Const DMI As String = "Directional Movement Index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.ICH
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ICH
+  id: ICH
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ICH
+  nameWithType: Indicator.ICH
+  fullName: TradingPlatform.BusinessLayer.Indicator.ICH
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: ICH
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ICH = "Ichimoku"
+    return:
+      type: System.String
+    content.vb: Public Const ICH As String = "Ichimoku"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.Alligator
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Alligator
+  id: Alligator
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Alligator
+  nameWithType: Indicator.Alligator
+  fullName: TradingPlatform.BusinessLayer.Indicator.Alligator
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Alligator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 60
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string Alligator = "Alligator"
+    return:
+      type: System.String
+    content.vb: Public Const Alligator As String = "Alligator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.HV
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.HV
+  id: HV
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: HV
+  nameWithType: Indicator.HV
+  fullName: TradingPlatform.BusinessLayer.Indicator.HV
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: HV
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 61
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string HV = "Historical Volatility"
+    return:
+      type: System.String
+    content.vb: Public Const HV As String = "Historical Volatility"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  id: OSCILLATOR_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: OSCILLATOR_GROUP
+  nameWithType: Indicator.OSCILLATOR_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: OSCILLATOR_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 63
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string OSCILLATOR_GROUP = "Oscillators"
+    return:
+      type: System.String
+    content.vb: Public Const OSCILLATOR_GROUP As String = "Oscillators"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  id: MOVING_AVERAGE_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: MOVING_AVERAGE_GROUP
+  nameWithType: Indicator.MOVING_AVERAGE_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: MOVING_AVERAGE_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 64
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string MOVING_AVERAGE_GROUP = "Moving averages"
+    return:
+      type: System.String
+    content.vb: Public Const MOVING_AVERAGE_GROUP As String = "Moving averages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  id: TREND_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: TREND_GROUP
+  nameWithType: Indicator.TREND_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: TREND_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string TREND_GROUP = "Trend"
+    return:
+      type: System.String
+    content.vb: Public Const TREND_GROUP As String = "Trend"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  id: VOLATILITY_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: VOLATILITY_GROUP
+  nameWithType: Indicator.VOLATILITY_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: VOLATILITY_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 66
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string VOLATILITY_GROUP = "Volatility"
+    return:
+      type: System.String
+    content.vb: Public Const VOLATILITY_GROUP As String = "Volatility"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  id: CHANNEL_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: CHANNEL_GROUP
+  nameWithType: Indicator.CHANNEL_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: CHANNEL_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string CHANNEL_GROUP = "Channels"
+    return:
+      type: System.String
+    content.vb: Public Const CHANNEL_GROUP As String = "Channels"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  id: VOLUME_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: VOLUME_GROUP
+  nameWithType: Indicator.VOLUME_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: VOLUME_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 68
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string VOLUME_GROUP = "Volume"
+    return:
+      type: System.String
+    content.vb: Public Const VOLUME_GROUP As String = "Volume"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  id: HIDDEN_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: HIDDEN_GROUP
+  nameWithType: Indicator.HIDDEN_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: HIDDEN_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string HIDDEN_GROUP = "Hidden"
+    return:
+      type: System.String
+    content.vb: Public Const HIDDEN_GROUP As String = "Hidden"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Indicator.ShortName
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.ShortName
+  id: ShortName
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: Indicator.ShortName
+  fullName: TradingPlatform.BusinessLayer.Indicator.ShortName
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: ShortName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 73
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string ShortName { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortName As String
+  overload: TradingPlatform.BusinessLayer.Indicator.ShortName*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: TradingPlatform.BusinessLayer.Indicator.Group
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Group
+  id: Group
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: Indicator.Group
+  fullName: TradingPlatform.BusinessLayer.Indicator.Group
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Group
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 75
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Group { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Group As String
+  overload: TradingPlatform.BusinessLayer.Indicator.Group*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: TradingPlatform.BusinessLayer.Indicator.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: Indicator.Instrument
+  fullName: TradingPlatform.BusinessLayer.Indicator.Instrument
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 77
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument Instrument { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public ReadOnly Property Instrument As Instrument
+  overload: TradingPlatform.BusinessLayer.Indicator.Instrument*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Indicator.Count
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Count
+  id: Count
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Indicator.Count
+  fullName: TradingPlatform.BusinessLayer.Indicator.Count
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Count
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 79
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: TradingPlatform.BusinessLayer.Indicator.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  id: HistoricalData
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: HistoricalData
+  nameWithType: Indicator.HistoricalData
+  fullName: TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: HistoricalData
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 81
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IHistoricalData HistoricalData { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.IHistoricalData
+    content.vb: Public ReadOnly Property HistoricalData As IHistoricalData
+  overload: TradingPlatform.BusinessLayer.Indicator.HistoricalData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  id: LinesSeries
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: LinesSeries
+  nameWithType: Indicator.LinesSeries
+  fullName: TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: LinesSeries
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 83
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public LineSeries[] LinesSeries { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.LineSeries[]
+    content.vb: Public ReadOnly Property LinesSeries As LineSeries()
+  overload: TradingPlatform.BusinessLayer.Indicator.LinesSeries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  id: LinesLevels
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: LinesLevels
+  nameWithType: Indicator.LinesLevels
+  fullName: TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: LinesLevels
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 85
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public LineLevel[] LinesLevels { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.LineLevel[]
+    content.vb: Public ReadOnly Property LinesLevels As LineLevel()
+  overload: TradingPlatform.BusinessLayer.Indicator.LinesLevels*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  id: SeparateWindow
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SeparateWindow
+  nameWithType: Indicator.SeparateWindow
+  fullName: TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SeparateWindow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 87
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool SeparateWindow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SeparateWindow As Boolean
+  overload: TradingPlatform.BusinessLayer.Indicator.SeparateWindow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.Digits
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Digits
+  id: Digits
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Digits
+  nameWithType: Indicator.Digits
+  fullName: TradingPlatform.BusinessLayer.Indicator.Digits
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Digits
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 93
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nУстановка формата точности (количество знаков после десятичной точки) для визуализации значений индикатора\n-1 означает точность цены финансового инструмента, к графику которого присоединен индикатор\n"
+  example: []
+  syntax:
+    content: public int Digits { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Digits As Integer
+  overload: TradingPlatform.BusinessLayer.Indicator.Digits*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Indicator.Settings
+  fullName: TradingPlatform.BusinessLayer.Indicator.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 97
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overrides Property Settings As IList(Of SettingItem)
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+  overload: TradingPlatform.BusinessLayer.Indicator.Settings*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  id: CurrentChart
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: CurrentChart
+  nameWithType: Indicator.CurrentChart
+  fullName: TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: CurrentChart
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 150
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IChart CurrentChart { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Chart.IChart
+    content.vb: Public Property CurrentChart As IChart
+  overload: TradingPlatform.BusinessLayer.Indicator.CurrentChart*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  id: AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AddLineSeries(String, Color, Int32, LineStyle)
+  nameWithType: Indicator.AddLineSeries(String, Color, Int32, LineStyle)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String, System.Drawing.Color, System.Int32, TradingPlatform.BusinessLayer.LineStyle)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AddLineSeries
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 155
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddLineSeries(string lineName = "", Color lineColor = default(Color), int lineWidth = 1, LineStyle lineStyle = LineStyle.Solid)
+    parameters:
+    - id: lineName
+      type: System.String
+    - id: lineColor
+      type: System.Drawing.Color
+    - id: lineWidth
+      type: System.Int32
+    - id: lineStyle
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Public Sub AddLineSeries(lineName As String = "", lineColor As Color = Nothing, lineWidth As Integer = 1, lineStyle As LineStyle = LineStyle.Solid)
+  overload: TradingPlatform.BusinessLayer.Indicator.AddLineSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  id: AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AddLineSeries(LineSeries)
+  nameWithType: Indicator.AddLineSeries(LineSeries)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AddLineSeries
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 168
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddLineSeries(LineSeries lineSeries)
+    parameters:
+    - id: lineSeries
+      type: TradingPlatform.BusinessLayer.LineSeries
+    content.vb: Public Sub AddLineSeries(lineSeries As LineSeries)
+  overload: TradingPlatform.BusinessLayer.Indicator.AddLineSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  id: AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AddLineLevel(Double, String, Color, Int32, LineStyle)
+  nameWithType: Indicator.AddLineLevel(Double, String, Color, Int32, LineStyle)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double, System.String, System.Drawing.Color, System.Int32, TradingPlatform.BusinessLayer.LineStyle)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AddLineLevel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 177
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddLineLevel(double level, string lineName = "", Color lineColor = default(Color), int lineWidth = 1, LineStyle lineStyle = LineStyle.Solid)
+    parameters:
+    - id: level
+      type: System.Double
+    - id: lineName
+      type: System.String
+    - id: lineColor
+      type: System.Drawing.Color
+    - id: lineWidth
+      type: System.Int32
+    - id: lineStyle
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Public Sub AddLineLevel(level As Double, lineName As String = "", lineColor As Color = Nothing, lineWidth As Integer = 1, lineStyle As LineStyle = LineStyle.Solid)
+  overload: TradingPlatform.BusinessLayer.Indicator.AddLineLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  id: AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AddLineLevel(LineLevel)
+  nameWithType: Indicator.AddLineLevel(LineLevel)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AddLineLevel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 190
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddLineLevel(LineLevel lineLevel)
+    parameters:
+    - id: lineLevel
+      type: TradingPlatform.BusinessLayer.LineLevel
+    content.vb: Public Sub AddLineLevel(lineLevel As LineLevel)
+  overload: TradingPlatform.BusinessLayer.Indicator.AddLineLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.Refresh
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Refresh
+  id: Refresh
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: Indicator.Refresh()
+  fullName: TradingPlatform.BusinessLayer.Indicator.Refresh()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Refresh
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 198
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: TradingPlatform.BusinessLayer.Indicator.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  id: AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: AddIndicator(Indicator)
+  nameWithType: Indicator.AddIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: AddIndicator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 206
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddIndicator(Indicator indicator)
+    parameters:
+    - id: indicator
+      type: TradingPlatform.BusinessLayer.Indicator
+    content.vb: Public Sub AddIndicator(indicator As Indicator)
+  overload: TradingPlatform.BusinessLayer.Indicator.AddIndicator*
+  implements:
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  id: RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: RemoveIndicator(Indicator)
+  nameWithType: Indicator.RemoveIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: RemoveIndicator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 227
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void RemoveIndicator(Indicator indicator)
+    parameters:
+    - id: indicator
+      type: TradingPlatform.BusinessLayer.Indicator
+    content.vb: Public Sub RemoveIndicator(indicator As Indicator)
+  overload: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator*
+  implements:
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+  id: SetValue(System.Double,System.Int32,System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: SetValue(Double, Int32, Int32)
+  nameWithType: Indicator.SetValue(Double, Int32, Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: SetValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 239
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void SetValue(double value, int lineIndex = 0, int offset = 0)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: lineIndex
+      type: System.Int32
+    - id: offset
+      type: System.Int32
+    content.vb: Public Sub SetValue(value As Double, lineIndex As Integer = 0, offset As Integer = 0)
+  overload: TradingPlatform.BusinessLayer.Indicator.SetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  id: GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: GetValue(Int32, Int32, SeekOriginHistory)
+  nameWithType: Indicator.GetValue(Int32, Int32, SeekOriginHistory)
+  fullName: TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32, System.Int32, TradingPlatform.BusinessLayer.SeekOriginHistory)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: GetValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 245
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double GetValue(int offset = 0, int lineIndex = 0, SeekOriginHistory origin = SeekOriginHistory.End)
+    parameters:
+    - id: offset
+      type: System.Int32
+    - id: lineIndex
+      type: System.Int32
+    - id: origin
+      type: TradingPlatform.BusinessLayer.SeekOriginHistory
+    return:
+      type: System.Double
+    content.vb: Public Function GetValue(offset As Integer = 0, lineIndex As Integer = 0, origin As SeekOriginHistory = SeekOriginHistory.End) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.GetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  id: GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: GetPrice(PriceType, Int32)
+  nameWithType: Indicator.GetPrice(PriceType, Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: GetPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 266
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double GetPrice(PriceType priceType, int offset = 0)
+    parameters:
+    - id: priceType
+      type: TradingPlatform.BusinessLayer.PriceType
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function GetPrice(priceType As PriceType, offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.GetPrice*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  id: Bid(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Bid(Int32)
+  nameWithType: Indicator.Bid(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Bid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 268
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Bid(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Bid(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Bid*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  id: Ask(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Ask(Int32)
+  nameWithType: Indicator.Ask(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Ask
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 270
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Ask(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Ask(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Ask*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  id: Last(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Last(Int32)
+  nameWithType: Indicator.Last(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 272
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Last(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Last(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Last*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  id: Open(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Open(Int32)
+  nameWithType: Indicator.Open(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Open
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 274
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Open(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Open(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Open*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  id: High(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: High(Int32)
+  nameWithType: Indicator.High(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: High
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 276
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double High(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function High(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.High*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  id: Low(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Low(Int32)
+  nameWithType: Indicator.Low(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Low
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 278
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Low(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Low(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Low*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  id: Close(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Close(Int32)
+  nameWithType: Indicator.Close(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Close
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 280
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Close(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Close(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Close*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  id: Median(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Median(Int32)
+  nameWithType: Indicator.Median(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Median
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 282
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Median(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Median(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Median*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  id: Typical(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Typical(Int32)
+  nameWithType: Indicator.Typical(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Typical
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 284
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Typical(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Typical(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Typical*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  id: Weighted(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Weighted(Int32)
+  nameWithType: Indicator.Weighted(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Weighted
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 286
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Weighted(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Weighted(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Weighted*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  id: Volume(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Volume(Int32)
+  nameWithType: Indicator.Volume(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Volume
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 288
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Volume(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Volume(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Volume*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  id: Ticks(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Ticks(Int32)
+  nameWithType: Indicator.Ticks(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Ticks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 290
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected double Ticks(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Protected Function Ticks(offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.Indicator.Ticks*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  id: Time(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Time(Int32)
+  nameWithType: Indicator.Time(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Time
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 292
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected DateTime Time(int offset = 0)
+    parameters:
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.DateTime
+    content.vb: Protected Function Time(offset As Integer = 0) As Date
+  overload: TradingPlatform.BusinessLayer.Indicator.Time*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  id: FormatPrice(System.Double)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: FormatPrice(Double)
+  nameWithType: Indicator.FormatPrice(Double)
+  fullName: TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: FormatPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 294
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string FormatPrice(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Function FormatPrice(price As Double) As String
+  overload: TradingPlatform.BusinessLayer.Indicator.FormatPrice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Indicator.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Indicator.Dispose()
+  fullName: TradingPlatform.BusinessLayer.Indicator.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 302
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  overload: TradingPlatform.BusinessLayer.Indicator.Dispose*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  id: OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: OnPaintChart(PaintChartEventArgs)
+  nameWithType: Indicator.OnPaintChart(PaintChartEventArgs)
+  fullName: TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: OnPaintChart
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 304
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void OnPaintChart(PaintChartEventArgs args)
+    parameters:
+    - id: args
+      type: TradingPlatform.BusinessLayer.PaintChartEventArgs
+    content.vb: Public Overridable Sub OnPaintChart(args As PaintChartEventArgs)
+  overload: TradingPlatform.BusinessLayer.Indicator.OnPaintChart*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Indicator.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Indicator()
+  nameWithType: Indicator.Indicator()
+  fullName: TradingPlatform.BusinessLayer.Indicator.Indicator()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 326
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Indicator()
+    content.vb: Protected Sub New
+  overload: TradingPlatform.BusinessLayer.Indicator.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  id: OnSettingsUpdated
+  parent: TradingPlatform.BusinessLayer.Indicator
+  langs:
+  - csharp
+  - vb
+  name: OnSettingsUpdated()
+  nameWithType: Indicator.OnSettingsUpdated()
+  fullName: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    id: OnSettingsUpdated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Indicators/Indicator.cs
+    startLine: 471
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override void OnSettingsUpdated()
+    content.vb: Protected Overrides Sub OnSettingsUpdated
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  overload: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity
+  commentId: T:TradingPlatform.BusinessLayer.ExecutionEntity
+  parent: TradingPlatform.BusinessLayer
+  name: ExecutionEntity
+  nameWithType: ExecutionEntity
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity
+- uid: TradingPlatform.BusinessLayer.IModule
+  commentId: T:TradingPlatform.BusinessLayer.IModule
+  parent: TradingPlatform.BusinessLayer
+  name: IModule
+  nameWithType: IModule
+  fullName: TradingPlatform.BusinessLayer.IModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  commentId: T:TradingPlatform.BusinessLayer.IIndicatorsCollection
+  parent: TradingPlatform.BusinessLayer
+  name: IIndicatorsCollection
+  nameWithType: IIndicatorsCollection
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Name
+  nameWithType: ExecutionEntity.Name
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Description
+  nameWithType: ExecutionEntity.Description
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Init()
+  nameWithType: ExecutionEntity.Init()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnUpdate(UpdateArgs)
+  nameWithType: ExecutionEntity.OnUpdate(UpdateArgs)
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Clear()
+  nameWithType: ExecutionEntity.Clear()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Print(String, Object[])
+  nameWithType: ExecutionEntity.Print(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Print(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object())
+  name.vb: Print(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Alert(String, Object[])
+  nameWithType: ExecutionEntity.Alert(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Alert(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object())
+  name.vb: Alert(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Indicator.ShortName*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.ShortName
+  name: ShortName
+  nameWithType: Indicator.ShortName
+  fullName: TradingPlatform.BusinessLayer.Indicator.ShortName
+- uid: TradingPlatform.BusinessLayer.Indicator.Group*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Group
+  name: Group
+  nameWithType: Indicator.Group
+  fullName: TradingPlatform.BusinessLayer.Indicator.Group
+- uid: TradingPlatform.BusinessLayer.Indicator.Instrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Instrument
+  name: Instrument
+  nameWithType: Indicator.Instrument
+  fullName: TradingPlatform.BusinessLayer.Indicator.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Indicator.Count*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Count
+  name: Count
+  nameWithType: Indicator.Count
+  fullName: TradingPlatform.BusinessLayer.Indicator.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Indicator.HistoricalData*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  name: HistoricalData
+  nameWithType: Indicator.HistoricalData
+  fullName: TradingPlatform.BusinessLayer.Indicator.HistoricalData
+- uid: TradingPlatform.BusinessLayer.IHistoricalData
+  commentId: T:TradingPlatform.BusinessLayer.IHistoricalData
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoricalData
+  nameWithType: IHistoricalData
+  fullName: TradingPlatform.BusinessLayer.IHistoricalData
+- uid: TradingPlatform.BusinessLayer.Indicator.LinesSeries*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  name: LinesSeries
+  nameWithType: Indicator.LinesSeries
+  fullName: TradingPlatform.BusinessLayer.Indicator.LinesSeries
+- uid: TradingPlatform.BusinessLayer.LineSeries[]
+  isExternal: true
+  name: LineSeries[]
+  nameWithType: LineSeries[]
+  fullName: TradingPlatform.BusinessLayer.LineSeries[]
+  nameWithType.vb: LineSeries()
+  fullName.vb: TradingPlatform.BusinessLayer.LineSeries()
+  name.vb: LineSeries()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.LineSeries
+    name: LineSeries
+    nameWithType: LineSeries
+    fullName: TradingPlatform.BusinessLayer.LineSeries
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.LineSeries
+    name: LineSeries
+    nameWithType: LineSeries
+    fullName: TradingPlatform.BusinessLayer.LineSeries
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Indicator.LinesLevels*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  name: LinesLevels
+  nameWithType: Indicator.LinesLevels
+  fullName: TradingPlatform.BusinessLayer.Indicator.LinesLevels
+- uid: TradingPlatform.BusinessLayer.LineLevel[]
+  isExternal: true
+  name: LineLevel[]
+  nameWithType: LineLevel[]
+  fullName: TradingPlatform.BusinessLayer.LineLevel[]
+  nameWithType.vb: LineLevel()
+  fullName.vb: TradingPlatform.BusinessLayer.LineLevel()
+  name.vb: LineLevel()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.LineLevel
+    name: LineLevel
+    nameWithType: LineLevel
+    fullName: TradingPlatform.BusinessLayer.LineLevel
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.LineLevel
+    name: LineLevel
+    nameWithType: LineLevel
+    fullName: TradingPlatform.BusinessLayer.LineLevel
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Indicator.SeparateWindow*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  name: SeparateWindow
+  nameWithType: Indicator.SeparateWindow
+  fullName: TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Indicator.Digits*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Digits
+  name: Digits
+  nameWithType: Indicator.Digits
+  fullName: TradingPlatform.BusinessLayer.Indicator.Digits
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Settings
+  nameWithType: ExecutionEntity.Settings
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+- uid: TradingPlatform.BusinessLayer.Indicator.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Settings
+  name: Settings
+  nameWithType: Indicator.Settings
+  fullName: TradingPlatform.BusinessLayer.Indicator.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Indicator.CurrentChart*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  name: CurrentChart
+  nameWithType: Indicator.CurrentChart
+  fullName: TradingPlatform.BusinessLayer.Indicator.CurrentChart
+- uid: TradingPlatform.BusinessLayer.Chart.IChart
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChart
+  parent: TradingPlatform.BusinessLayer.Chart
+  name: IChart
+  nameWithType: IChart
+  fullName: TradingPlatform.BusinessLayer.Chart.IChart
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.AddLineSeries
+  name: AddLineSeries
+  nameWithType: Indicator.AddLineSeries
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.LineSeries
+  commentId: T:TradingPlatform.BusinessLayer.LineSeries
+  parent: TradingPlatform.BusinessLayer
+  name: LineSeries
+  nameWithType: LineSeries
+  fullName: TradingPlatform.BusinessLayer.LineSeries
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.AddLineLevel
+  name: AddLineLevel
+  nameWithType: Indicator.AddLineLevel
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.LineLevel
+  commentId: T:TradingPlatform.BusinessLayer.LineLevel
+  parent: TradingPlatform.BusinessLayer
+  name: LineLevel
+  nameWithType: LineLevel
+  fullName: TradingPlatform.BusinessLayer.LineLevel
+- uid: TradingPlatform.BusinessLayer.Indicator.Refresh*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Refresh
+  name: Refresh
+  nameWithType: Indicator.Refresh
+  fullName: TradingPlatform.BusinessLayer.Indicator.Refresh
+- uid: TradingPlatform.BusinessLayer.Indicator.AddIndicator*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.AddIndicator
+  name: AddIndicator
+  nameWithType: Indicator.AddIndicator
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddIndicator
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  name: AddIndicator(Indicator)
+  nameWithType: IIndicatorsCollection.AddIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: AddIndicator
+    nameWithType: IIndicatorsCollection.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: AddIndicator
+    nameWithType: IIndicatorsCollection.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator
+  commentId: T:TradingPlatform.BusinessLayer.Indicator
+  parent: TradingPlatform.BusinessLayer
+  name: Indicator
+  nameWithType: Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator
+- uid: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.RemoveIndicator
+  name: RemoveIndicator
+  nameWithType: Indicator.RemoveIndicator
+  fullName: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  name: RemoveIndicator(Indicator)
+  nameWithType: IIndicatorsCollection.RemoveIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: RemoveIndicator
+    nameWithType: IIndicatorsCollection.RemoveIndicator
+    fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: RemoveIndicator
+    nameWithType: IIndicatorsCollection.RemoveIndicator
+    fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection.RemoveIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.SetValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.SetValue
+  name: SetValue
+  nameWithType: Indicator.SetValue
+  fullName: TradingPlatform.BusinessLayer.Indicator.SetValue
+- uid: TradingPlatform.BusinessLayer.Indicator.GetValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.GetValue
+  name: GetValue
+  nameWithType: Indicator.GetValue
+  fullName: TradingPlatform.BusinessLayer.Indicator.GetValue
+- uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+  commentId: T:TradingPlatform.BusinessLayer.SeekOriginHistory
+  parent: TradingPlatform.BusinessLayer
+  name: SeekOriginHistory
+  nameWithType: SeekOriginHistory
+  fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+- uid: TradingPlatform.BusinessLayer.Indicator.GetPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.GetPrice
+  name: GetPrice
+  nameWithType: Indicator.GetPrice
+  fullName: TradingPlatform.BusinessLayer.Indicator.GetPrice
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  parent: TradingPlatform.BusinessLayer
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType
+- uid: TradingPlatform.BusinessLayer.Indicator.Bid*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Bid
+  name: Bid
+  nameWithType: Indicator.Bid
+  fullName: TradingPlatform.BusinessLayer.Indicator.Bid
+- uid: TradingPlatform.BusinessLayer.Indicator.Ask*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Ask
+  name: Ask
+  nameWithType: Indicator.Ask
+  fullName: TradingPlatform.BusinessLayer.Indicator.Ask
+- uid: TradingPlatform.BusinessLayer.Indicator.Last*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Last
+  name: Last
+  nameWithType: Indicator.Last
+  fullName: TradingPlatform.BusinessLayer.Indicator.Last
+- uid: TradingPlatform.BusinessLayer.Indicator.Open*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Open
+  name: Open
+  nameWithType: Indicator.Open
+  fullName: TradingPlatform.BusinessLayer.Indicator.Open
+- uid: TradingPlatform.BusinessLayer.Indicator.High*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.High
+  name: High
+  nameWithType: Indicator.High
+  fullName: TradingPlatform.BusinessLayer.Indicator.High
+- uid: TradingPlatform.BusinessLayer.Indicator.Low*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Low
+  name: Low
+  nameWithType: Indicator.Low
+  fullName: TradingPlatform.BusinessLayer.Indicator.Low
+- uid: TradingPlatform.BusinessLayer.Indicator.Close*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Close
+  name: Close
+  nameWithType: Indicator.Close
+  fullName: TradingPlatform.BusinessLayer.Indicator.Close
+- uid: TradingPlatform.BusinessLayer.Indicator.Median*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Median
+  name: Median
+  nameWithType: Indicator.Median
+  fullName: TradingPlatform.BusinessLayer.Indicator.Median
+- uid: TradingPlatform.BusinessLayer.Indicator.Typical*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Typical
+  name: Typical
+  nameWithType: Indicator.Typical
+  fullName: TradingPlatform.BusinessLayer.Indicator.Typical
+- uid: TradingPlatform.BusinessLayer.Indicator.Weighted*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Weighted
+  name: Weighted
+  nameWithType: Indicator.Weighted
+  fullName: TradingPlatform.BusinessLayer.Indicator.Weighted
+- uid: TradingPlatform.BusinessLayer.Indicator.Volume*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Volume
+  name: Volume
+  nameWithType: Indicator.Volume
+  fullName: TradingPlatform.BusinessLayer.Indicator.Volume
+- uid: TradingPlatform.BusinessLayer.Indicator.Ticks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Ticks
+  name: Ticks
+  nameWithType: Indicator.Ticks
+  fullName: TradingPlatform.BusinessLayer.Indicator.Ticks
+- uid: TradingPlatform.BusinessLayer.Indicator.Time*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Time
+  name: Time
+  nameWithType: Indicator.Time
+  fullName: TradingPlatform.BusinessLayer.Indicator.Time
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Indicator.FormatPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.FormatPrice
+  name: FormatPrice
+  nameWithType: Indicator.FormatPrice
+  fullName: TradingPlatform.BusinessLayer.Indicator.FormatPrice
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Dispose()
+  nameWithType: ExecutionEntity.Dispose()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+    name: Dispose
+    nameWithType: ExecutionEntity.Dispose
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+    name: Dispose
+    nameWithType: ExecutionEntity.Dispose
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.Dispose
+  name: Dispose
+  nameWithType: Indicator.Dispose
+  fullName: TradingPlatform.BusinessLayer.Indicator.Dispose
+- uid: TradingPlatform.BusinessLayer.Indicator.OnPaintChart*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.OnPaintChart
+  name: OnPaintChart
+  nameWithType: Indicator.OnPaintChart
+  fullName: TradingPlatform.BusinessLayer.Indicator.OnPaintChart
+- uid: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.PaintChartEventArgs
+  parent: TradingPlatform.BusinessLayer
+  name: PaintChartEventArgs
+  nameWithType: PaintChartEventArgs
+  fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs
+- uid: TradingPlatform.BusinessLayer.Indicator.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.#ctor
+  name: Indicator
+  nameWithType: Indicator.Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator.Indicator
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnSettingsUpdated()
+  nameWithType: ExecutionEntity.OnSettingsUpdated()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: ExecutionEntity.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: ExecutionEntity.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated*
+  commentId: Overload:TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  name: OnSettingsUpdated
+  nameWithType: Indicator.OnSettingsUpdated
+  fullName: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated

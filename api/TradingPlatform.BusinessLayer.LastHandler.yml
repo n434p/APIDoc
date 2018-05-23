@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.LastHandler
+  commentId: T:TradingPlatform.BusinessLayer.LastHandler
+  id: LastHandler
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LastHandler
+  nameWithType: LastHandler
+  fullName: TradingPlatform.BusinessLayer.LastHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    id: LastHandler
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Instrument.cs
+    startLine: 1272
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate void LastHandler(Instrument instrument, Last last);
+    parameters:
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: last
+      type: TradingPlatform.BusinessLayer.Last
+    content.vb: Public Delegate Sub LastHandler(instrument As Instrument, last As Last)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Last
+  commentId: T:TradingPlatform.BusinessLayer.Last
+  parent: TradingPlatform.BusinessLayer
+  name: Last
+  nameWithType: Last
+  fullName: TradingPlatform.BusinessLayer.Last

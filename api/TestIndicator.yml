@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestIndicator
+  commentId: N:TestIndicator
+  id: TestIndicator
+  children:
+  - TestIndicator.TestIndicator
+  langs:
+  - csharp
+  - vb
+  name: TestIndicator
+  nameWithType: TestIndicator
+  fullName: TestIndicator
+  type: Namespace
+  assemblies:
+  - Indicators
+references:
+- uid: TestIndicator.TestIndicator
+  commentId: T:TestIndicator.TestIndicator
+  name: TestIndicator
+  nameWithType: TestIndicator
+  fullName: TestIndicator.TestIndicator

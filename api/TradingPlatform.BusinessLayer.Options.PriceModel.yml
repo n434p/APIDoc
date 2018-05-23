@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModel
+  id: PriceModel
+  parent: TradingPlatform.BusinessLayer.Options
+  children:
+  - TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel(TradingPlatform.BusinessLayer.Options.PriceModels)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.Delta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.Gamma(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.IV(TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.Options.OptionPriceType,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.NormDist(System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.Rho(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.Theta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Options.PriceModel.Type
+  - TradingPlatform.BusinessLayer.Options.PriceModel.Vega(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: PriceModel
+  nameWithType: PriceModel
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: PriceModel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract class PriceModel
+    content.vb: Public MustInherit Class PriceModel
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.Options.BlackScholesPriceModel
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Type
+  commentId: P:TradingPlatform.BusinessLayer.Options.PriceModel.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PriceModel.Type
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract PriceModels Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Options.PriceModels
+    content.vb: Public MustOverride ReadOnly Property Type As PriceModels
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.Type*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel(TradingPlatform.BusinessLayer.Options.PriceModels)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel(TradingPlatform.BusinessLayer.Options.PriceModels)
+  id: CreateModel(TradingPlatform.BusinessLayer.Options.PriceModels)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: CreateModel(PriceModels)
+  nameWithType: PriceModel.CreateModel(PriceModels)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel(TradingPlatform.BusinessLayer.Options.PriceModels)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: CreateModel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public static PriceModel CreateModel(PriceModels type)
+    parameters:
+    - id: type
+      type: TradingPlatform.BusinessLayer.Options.PriceModels
+    return:
+      type: TradingPlatform.BusinessLayer.Options.PriceModel
+    content.vb: Public Shared Function CreateModel(type As PriceModels) As PriceModel
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.NormDist(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.NormDist(System.Double)
+  id: NormDist(System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: NormDist(Double)
+  nameWithType: PriceModel.NormDist(Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.NormDist(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: NormDist
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double NormDist(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function NormDist(x As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.NormDist*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.IV(TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.Options.OptionPriceType,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.IV(TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.Options.OptionPriceType,System.Double,System.Double)
+  id: IV(TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.Options.OptionPriceType,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: IV(Instrument, OptionPriceType, Double, Double)
+  nameWithType: PriceModel.IV(Instrument, OptionPriceType, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.IV(TradingPlatform.BusinessLayer.Instrument, TradingPlatform.BusinessLayer.Options.OptionPriceType, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: IV
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double IV(Instrument option, OptionPriceType priceType, double Int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: priceType
+      type: TradingPlatform.BusinessLayer.Options.OptionPriceType
+    - id: Int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function IV(option As Instrument, priceType As OptionPriceType, Int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.IV*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  id: TheorPrice(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: TheorPrice(Instrument, Double, Double, Double)
+  nameWithType: PriceModel.TheorPrice(Instrument, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice(TradingPlatform.BusinessLayer.Instrument, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: TheorPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double TheorPrice(Instrument option, double IV, double Int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: IV
+      type: System.Double
+    - id: Int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function TheorPrice(option As Instrument, IV As Double, Int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Delta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.Delta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  id: Delta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: Delta(Instrument, Double, Double, Double)
+  nameWithType: PriceModel.Delta(Instrument, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Delta(TradingPlatform.BusinessLayer.Instrument, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: Delta
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double Delta(Instrument option, double IV, double Int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: IV
+      type: System.Double
+    - id: Int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function Delta(option As Instrument, IV As Double, Int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.Delta*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Vega(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.Vega(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  id: Vega(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: Vega(Instrument, Double, Double, Double)
+  nameWithType: PriceModel.Vega(Instrument, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Vega(TradingPlatform.BusinessLayer.Instrument, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: Vega
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double Vega(Instrument option, double IV, double int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: IV
+      type: System.Double
+    - id: int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function Vega(option As Instrument, IV As Double, int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.Vega*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Gamma(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.Gamma(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  id: Gamma(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: Gamma(Instrument, Double, Double, Double)
+  nameWithType: PriceModel.Gamma(Instrument, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Gamma(TradingPlatform.BusinessLayer.Instrument, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: Gamma
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double Gamma(Instrument option, double IV, double int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: IV
+      type: System.Double
+    - id: int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function Gamma(option As Instrument, IV As Double, int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.Gamma*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Theta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.Theta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  id: Theta(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: Theta(Instrument, Double, Double, Double)
+  nameWithType: PriceModel.Theta(Instrument, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Theta(TradingPlatform.BusinessLayer.Instrument, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: Theta
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double Theta(Instrument option, double IV, double int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: IV
+      type: System.Double
+    - id: int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function Theta(option As Instrument, IV As Double, int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.Theta*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Rho(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Options.PriceModel.Rho(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  id: Rho(TradingPlatform.BusinessLayer.Instrument,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Options.PriceModel
+  langs:
+  - csharp
+  - vb
+  name: Rho(Instrument, Double, Double, Double)
+  nameWithType: PriceModel.Rho(Instrument, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Rho(TradingPlatform.BusinessLayer.Instrument, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    id: Rho
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/PriceModel.cs
+    startLine: 37
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public abstract double Rho(Instrument option, double IV, double int_Rate, double shift)
+    parameters:
+    - id: option
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: IV
+      type: System.Double
+    - id: int_Rate
+      type: System.Double
+    - id: shift
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public MustOverride Function Rho(option As Instrument, IV As Double, int_Rate As Double, shift As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Options.PriceModel.Rho*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: TradingPlatform.BusinessLayer.Options
+  commentId: N:TradingPlatform.BusinessLayer.Options
+  name: TradingPlatform.BusinessLayer.Options
+  nameWithType: TradingPlatform.BusinessLayer.Options
+  fullName: TradingPlatform.BusinessLayer.Options
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.Type
+  name: Type
+  nameWithType: PriceModel.Type
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Type
+- uid: TradingPlatform.BusinessLayer.Options.PriceModels
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModels
+  parent: TradingPlatform.BusinessLayer.Options
+  name: PriceModels
+  nameWithType: PriceModels
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModels
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel
+  name: CreateModel
+  nameWithType: PriceModel.CreateModel
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.CreateModel
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModel
+  parent: TradingPlatform.BusinessLayer.Options
+  name: PriceModel
+  nameWithType: PriceModel
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.NormDist*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.NormDist
+  name: NormDist
+  nameWithType: PriceModel.NormDist
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.NormDist
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.IV*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.IV
+  name: IV
+  nameWithType: PriceModel.IV
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.IV
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Options.OptionPriceType
+  commentId: T:TradingPlatform.BusinessLayer.Options.OptionPriceType
+  parent: TradingPlatform.BusinessLayer.Options
+  name: OptionPriceType
+  nameWithType: OptionPriceType
+  fullName: TradingPlatform.BusinessLayer.Options.OptionPriceType
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice
+  name: TheorPrice
+  nameWithType: PriceModel.TheorPrice
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.TheorPrice
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Delta*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.Delta
+  name: Delta
+  nameWithType: PriceModel.Delta
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Delta
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Vega*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.Vega
+  name: Vega
+  nameWithType: PriceModel.Vega
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Vega
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Gamma*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.Gamma
+  name: Gamma
+  nameWithType: PriceModel.Gamma
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Gamma
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Theta*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.Theta
+  name: Theta
+  nameWithType: PriceModel.Theta
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Theta
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel.Rho*
+  commentId: Overload:TradingPlatform.BusinessLayer.Options.PriceModel.Rho
+  name: Rho
+  nameWithType: PriceModel.Rho
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel.Rho

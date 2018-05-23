@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.MaMode
+  commentId: T:TradingPlatform.BusinessLayer.MaMode
+  id: MaMode
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.MaMode.EMA
+  - TradingPlatform.BusinessLayer.MaMode.LWMA
+  - TradingPlatform.BusinessLayer.MaMode.SMA
+  - TradingPlatform.BusinessLayer.MaMode.SMMA
+  langs:
+  - csharp
+  - vb
+  name: MaMode
+  nameWithType: MaMode
+  fullName: TradingPlatform.BusinessLayer.MaMode
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: MaMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nMoving average mode\n"
+  example: []
+  syntax:
+    content: public enum MaMode
+    content.vb: Public Enum MaMode
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.MaMode.SMA
+  commentId: F:TradingPlatform.BusinessLayer.MaMode.SMA
+  id: SMA
+  parent: TradingPlatform.BusinessLayer.MaMode
+  langs:
+  - csharp
+  - vb
+  name: SMA
+  nameWithType: MaMode.SMA
+  fullName: TradingPlatform.BusinessLayer.MaMode.SMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: SMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 51
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSimple Moving Average\n"
+  example: []
+  syntax:
+    content: SMA = 0
+    return:
+      type: TradingPlatform.BusinessLayer.MaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.MaMode.EMA
+  commentId: F:TradingPlatform.BusinessLayer.MaMode.EMA
+  id: EMA
+  parent: TradingPlatform.BusinessLayer.MaMode
+  langs:
+  - csharp
+  - vb
+  name: EMA
+  nameWithType: MaMode.EMA
+  fullName: TradingPlatform.BusinessLayer.MaMode.EMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: EMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nExponential Moving Average\n"
+  example: []
+  syntax:
+    content: EMA = 1
+    return:
+      type: TradingPlatform.BusinessLayer.MaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.MaMode.SMMA
+  commentId: F:TradingPlatform.BusinessLayer.MaMode.SMMA
+  id: SMMA
+  parent: TradingPlatform.BusinessLayer.MaMode
+  langs:
+  - csharp
+  - vb
+  name: SMMA
+  nameWithType: MaMode.SMMA
+  fullName: TradingPlatform.BusinessLayer.MaMode.SMMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: SMMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSmoothed Moving Average\n"
+  example: []
+  syntax:
+    content: SMMA = 2
+    return:
+      type: TradingPlatform.BusinessLayer.MaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.MaMode.LWMA
+  commentId: F:TradingPlatform.BusinessLayer.MaMode.LWMA
+  id: LWMA
+  parent: TradingPlatform.BusinessLayer.MaMode
+  langs:
+  - csharp
+  - vb
+  name: LWMA
+  nameWithType: MaMode.LWMA
+  fullName: TradingPlatform.BusinessLayer.MaMode.LWMA
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: LWMA
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 63
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nLinearly Weighted Moving Average\n"
+  example: []
+  syntax:
+    content: LWMA = 3
+    return:
+      type: TradingPlatform.BusinessLayer.MaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.MaMode
+  commentId: T:TradingPlatform.BusinessLayer.MaMode
+  parent: TradingPlatform.BusinessLayer
+  name: MaMode
+  nameWithType: MaMode
+  fullName: TradingPlatform.BusinessLayer.MaMode

@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer
+  commentId: T:TradingPlatform.BusinessLayer.Level2ItemComparer
+  id: Level2ItemComparer
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Level2ItemComparer.#ctor(System.Boolean,TradingPlatform.BusinessLayer.CompareType,TradingPlatform.BusinessLayer.Level2ItemComparer.Filter)
+  - TradingPlatform.BusinessLayer.Level2ItemComparer.Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  langs:
+  - csharp
+  - vb
+  name: Level2ItemComparer
+  nameWithType: Level2ItemComparer
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Level2ItemComparer
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 320
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class Level2ItemComparer : IComparer<Level2Item>'
+    content.vb: >-
+      Public Class Level2ItemComparer
+          Implements IComparer(Of Level2Item)
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.#ctor(System.Boolean,TradingPlatform.BusinessLayer.CompareType,TradingPlatform.BusinessLayer.Level2ItemComparer.Filter)
+  commentId: M:TradingPlatform.BusinessLayer.Level2ItemComparer.#ctor(System.Boolean,TradingPlatform.BusinessLayer.CompareType,TradingPlatform.BusinessLayer.Level2ItemComparer.Filter)
+  id: '#ctor(System.Boolean,TradingPlatform.BusinessLayer.CompareType,TradingPlatform.BusinessLayer.Level2ItemComparer.Filter)'
+  parent: TradingPlatform.BusinessLayer.Level2ItemComparer
+  langs:
+  - csharp
+  - vb
+  name: Level2ItemComparer(Boolean, CompareType, Level2ItemComparer.Filter)
+  nameWithType: Level2ItemComparer.Level2ItemComparer(Boolean, CompareType, Level2ItemComparer.Filter)
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Level2ItemComparer(System.Boolean, TradingPlatform.BusinessLayer.CompareType, TradingPlatform.BusinessLayer.Level2ItemComparer.Filter)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 325
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public Level2ItemComparer(bool reverse, CompareType CompateType = CompareType.Price, Level2ItemComparer.Filter filter = Level2ItemComparer.Filter.None)
+    parameters:
+    - id: reverse
+      type: System.Boolean
+    - id: CompateType
+      type: TradingPlatform.BusinessLayer.CompareType
+    - id: filter
+      type: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+    content.vb: Public Sub New(reverse As Boolean, CompateType As CompareType = CompareType.Price, filter As Level2ItemComparer.Filter = Level2ItemComparer.Filter.None)
+  overload: TradingPlatform.BusinessLayer.Level2ItemComparer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  commentId: M:TradingPlatform.BusinessLayer.Level2ItemComparer.Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  id: Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  parent: TradingPlatform.BusinessLayer.Level2ItemComparer
+  langs:
+  - csharp
+  - vb
+  name: Compare(Level2Item, Level2Item)
+  nameWithType: Level2ItemComparer.Compare(Level2Item, Level2Item)
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Compare(TradingPlatform.BusinessLayer.Level2Item, TradingPlatform.BusinessLayer.Level2Item)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    id: Compare
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Utils/Level2Collection.cs
+    startLine: 346
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int Compare(Level2Item x, Level2Item y)
+    parameters:
+    - id: x
+      type: TradingPlatform.BusinessLayer.Level2Item
+    - id: y
+      type: TradingPlatform.BusinessLayer.Level2Item
+    return:
+      type: System.Int32
+    content.vb: Public Function Compare(x As Level2Item, y As Level2Item) As Integer
+  overload: TradingPlatform.BusinessLayer.Level2ItemComparer.Compare*
+  implements:
+  - System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}.Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}
+  commentId: T:System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IComparer`1
+  name: IComparer<Level2Item>
+  nameWithType: IComparer<Level2Item>
+  fullName: System.Collections.Generic.IComparer<TradingPlatform.BusinessLayer.Level2Item>
+  nameWithType.vb: IComparer(Of Level2Item)
+  fullName.vb: System.Collections.Generic.IComparer(Of TradingPlatform.BusinessLayer.Level2Item)
+  name.vb: IComparer(Of Level2Item)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+    nameWithType: Level2Item
+    fullName: TradingPlatform.BusinessLayer.Level2Item
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+    nameWithType: Level2Item
+    fullName: TradingPlatform.BusinessLayer.Level2Item
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IComparer`1
+  commentId: T:System.Collections.Generic.IComparer`1
+  isExternal: true
+  name: IComparer<T>
+  nameWithType: IComparer<T>
+  fullName: System.Collections.Generic.IComparer<T>
+  nameWithType.vb: IComparer(Of T)
+  fullName.vb: System.Collections.Generic.IComparer(Of T)
+  name.vb: IComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1
+    name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.Generic.IComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Level2ItemComparer.#ctor
+  name: Level2ItemComparer
+  nameWithType: Level2ItemComparer.Level2ItemComparer
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Level2ItemComparer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.CompareType
+  commentId: T:TradingPlatform.BusinessLayer.CompareType
+  parent: TradingPlatform.BusinessLayer
+  name: CompareType
+  nameWithType: CompareType
+  fullName: TradingPlatform.BusinessLayer.CompareType
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  commentId: T:TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+  parent: TradingPlatform.BusinessLayer
+  name: Level2ItemComparer.Filter
+  nameWithType: Level2ItemComparer.Filter
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Filter
+- uid: TradingPlatform.BusinessLayer.Level2ItemComparer.Compare*
+  commentId: Overload:TradingPlatform.BusinessLayer.Level2ItemComparer.Compare
+  name: Compare
+  nameWithType: Level2ItemComparer.Compare
+  fullName: TradingPlatform.BusinessLayer.Level2ItemComparer.Compare
+- uid: System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}.Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  commentId: M:System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}.Compare(TradingPlatform.BusinessLayer.Level2Item,TradingPlatform.BusinessLayer.Level2Item)
+  parent: System.Collections.Generic.IComparer{TradingPlatform.BusinessLayer.Level2Item}
+  definition: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+  name: Compare(Level2Item, Level2Item)
+  nameWithType: IComparer<Level2Item>.Compare(Level2Item, Level2Item)
+  fullName: System.Collections.Generic.IComparer<TradingPlatform.BusinessLayer.Level2Item>.Compare(TradingPlatform.BusinessLayer.Level2Item, TradingPlatform.BusinessLayer.Level2Item)
+  nameWithType.vb: IComparer(Of Level2Item).Compare(Level2Item, Level2Item)
+  fullName.vb: System.Collections.Generic.IComparer(Of TradingPlatform.BusinessLayer.Level2Item).Compare(TradingPlatform.BusinessLayer.Level2Item, TradingPlatform.BusinessLayer.Level2Item)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+    name: Compare
+    nameWithType: IComparer<Level2Item>.Compare
+    fullName: System.Collections.Generic.IComparer<TradingPlatform.BusinessLayer.Level2Item>.Compare
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+    nameWithType: Level2Item
+    fullName: TradingPlatform.BusinessLayer.Level2Item
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+    nameWithType: Level2Item
+    fullName: TradingPlatform.BusinessLayer.Level2Item
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+    name: Compare
+    nameWithType: IComparer(Of Level2Item).Compare
+    fullName: System.Collections.Generic.IComparer(Of TradingPlatform.BusinessLayer.Level2Item).Compare
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+    nameWithType: Level2Item
+    fullName: TradingPlatform.BusinessLayer.Level2Item
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Level2Item
+    name: Level2Item
+    nameWithType: Level2Item
+    fullName: TradingPlatform.BusinessLayer.Level2Item
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Level2Item
+  commentId: T:TradingPlatform.BusinessLayer.Level2Item
+  parent: TradingPlatform.BusinessLayer
+  name: Level2Item
+  nameWithType: Level2Item
+  fullName: TradingPlatform.BusinessLayer.Level2Item
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+  commentId: M:System.Collections.Generic.IComparer`1.Compare(`0,`0)
+  isExternal: true
+  name: Compare(T, T)
+  nameWithType: IComparer<T>.Compare(T, T)
+  fullName: System.Collections.Generic.IComparer<T>.Compare(T, T)
+  nameWithType.vb: IComparer(Of T).Compare(T, T)
+  fullName.vb: System.Collections.Generic.IComparer(Of T).Compare(T, T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+    name: Compare
+    nameWithType: IComparer<T>.Compare
+    fullName: System.Collections.Generic.IComparer<T>.Compare
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
+    name: Compare
+    nameWithType: IComparer(Of T).Compare
+    fullName: System.Collections.Generic.IComparer(Of T).Compare
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

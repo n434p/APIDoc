@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.Const
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Const
+  id: Const
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.Const.DOUBLE_UNDEFINED
+  - TradingPlatform.BusinessLayer.Utils.Const.EXECUTING_FOLDER
+  - TradingPlatform.BusinessLayer.Utils.Const.HISTORY_PATH
+  - TradingPlatform.BusinessLayer.Utils.Const.NOT_AVAILABLE_STRING
+  - TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER
+  - TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER_NAME
+  - TradingPlatform.BusinessLayer.Utils.Const.UNIX_START_TIME_TICKS
+  langs:
+  - csharp
+  - vb
+  name: Const
+  nameWithType: Const
+  fullName: TradingPlatform.BusinessLayer.Utils.Const
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: Const
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static class Const
+    content.vb: Public Module Const
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TradingPlatform.BusinessLayer.Utils.Const.DOUBLE_UNDEFINED
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.DOUBLE_UNDEFINED
+  id: DOUBLE_UNDEFINED
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: DOUBLE_UNDEFINED
+  nameWithType: Const.DOUBLE_UNDEFINED
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.DOUBLE_UNDEFINED
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: DOUBLE_UNDEFINED
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public const double DOUBLE_UNDEFINED = NaN
+    return:
+      type: System.Double
+    content.vb: Public Const DOUBLE_UNDEFINED As Double = NaN
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.Const.UNIX_START_TIME_TICKS
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.UNIX_START_TIME_TICKS
+  id: UNIX_START_TIME_TICKS
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: UNIX_START_TIME_TICKS
+  nameWithType: Const.UNIX_START_TIME_TICKS
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.UNIX_START_TIME_TICKS
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: UNIX_START_TIME_TICKS
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public const long UNIX_START_TIME_TICKS = 621355968000000000L
+    return:
+      type: System.Int64
+    content.vb: Public Const UNIX_START_TIME_TICKS As Long = 621355968000000000L
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.Const.EXECUTING_FOLDER
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.EXECUTING_FOLDER
+  id: EXECUTING_FOLDER
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: EXECUTING_FOLDER
+  nameWithType: Const.EXECUTING_FOLDER
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.EXECUTING_FOLDER
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: EXECUTING_FOLDER
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static readonly string EXECUTING_FOLDER
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly EXECUTING_FOLDER As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER
+  id: PLUGINS_FOLDER
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: PLUGINS_FOLDER
+  nameWithType: Const.PLUGINS_FOLDER
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: PLUGINS_FOLDER
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static readonly string PLUGINS_FOLDER
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PLUGINS_FOLDER As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Utils.Const.HISTORY_PATH
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.HISTORY_PATH
+  id: HISTORY_PATH
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: HISTORY_PATH
+  nameWithType: Const.HISTORY_PATH
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.HISTORY_PATH
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: HISTORY_PATH
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public static readonly string HISTORY_PATH
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly HISTORY_PATH As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER_NAME
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER_NAME
+  id: PLUGINS_FOLDER_NAME
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: PLUGINS_FOLDER_NAME
+  nameWithType: Const.PLUGINS_FOLDER_NAME
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.PLUGINS_FOLDER_NAME
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: PLUGINS_FOLDER_NAME
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public const string PLUGINS_FOLDER_NAME = "plug-ins"
+    return:
+      type: System.String
+    content.vb: Public Const PLUGINS_FOLDER_NAME As String = "plug-ins"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.Const.NOT_AVAILABLE_STRING
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Const.NOT_AVAILABLE_STRING
+  id: NOT_AVAILABLE_STRING
+  parent: TradingPlatform.BusinessLayer.Utils.Const
+  langs:
+  - csharp
+  - vb
+  name: NOT_AVAILABLE_STRING
+  nameWithType: Const.NOT_AVAILABLE_STRING
+  fullName: TradingPlatform.BusinessLayer.Utils.Const.NOT_AVAILABLE_STRING
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    id: NOT_AVAILABLE_STRING
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Const.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public const string NOT_AVAILABLE_STRING = "N/A"
+    return:
+      type: System.String
+    content.vb: Public Const NOT_AVAILABLE_STRING As String = "N/A"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

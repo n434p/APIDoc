@@ -1,0 +1,1323 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Account
+  commentId: T:TradingPlatform.BusinessLayer.Account
+  id: Account
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Account.#ctor(System.String)
+  - TradingPlatform.BusinessLayer.Account.#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  - TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo
+  - TradingPlatform.BusinessLayer.Account.AccountCurrency
+  - TradingPlatform.BusinessLayer.Account.Balance
+  - TradingPlatform.BusinessLayer.Account.CreateInfo
+  - TradingPlatform.BusinessLayer.Account.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Account.GetMessage
+  - TradingPlatform.BusinessLayer.Account.Id
+  - TradingPlatform.BusinessLayer.Account.Name
+  - TradingPlatform.BusinessLayer.Account.ToString
+  - TradingPlatform.BusinessLayer.Account.ToXElement
+  - TradingPlatform.BusinessLayer.Account.Updated
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: Account
+  fullName: TradingPlatform.BusinessLayer.Account
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: Account
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "Account", Namespace = "TradingPlatform")]
+
+      public class Account : BusinessObject, IConnectionBindedObject, IUniqueID, IRulesContainer, IXElementSerialization
+    content.vb: >-
+      <DataContract(Name:="Account", Namespace:="TradingPlatform")>
+
+      Public Class Account
+          Inherits BusinessObject
+          Implements IConnectionBindedObject, IUniqueID, IRulesContainer, IXElementSerialization
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Account
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Account.Id
+  commentId: P:TradingPlatform.BusinessLayer.Account.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Account.Id
+  fullName: TradingPlatform.BusinessLayer.Account.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nGets account unique code.\n"
+  example: []
+  syntax:
+    content: >-
+      [DataMember(Name = "ID")]
+
+      public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="ID")>
+
+      Public ReadOnly Property Id As String
+  overload: TradingPlatform.BusinessLayer.Account.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: ID
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Account.Name
+  commentId: P:TradingPlatform.BusinessLayer.Account.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Account.Name
+  fullName: TradingPlatform.BusinessLayer.Account.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nObtaining account name.\n"
+  example: []
+  syntax:
+    content: >-
+      [DataMember(Name = "Name")]
+
+      public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Name")>
+
+      Public ReadOnly Property Name As String
+  overload: TradingPlatform.BusinessLayer.Account.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Account.AccountCurrency
+  commentId: P:TradingPlatform.BusinessLayer.Account.AccountCurrency
+  id: AccountCurrency
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: AccountCurrency
+  nameWithType: Account.AccountCurrency
+  fullName: TradingPlatform.BusinessLayer.Account.AccountCurrency
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: AccountCurrency
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nGets base currency of account. Account CCY is always equal to the server CCY in AlgoStudio\n"
+  example: []
+  syntax:
+    content: >-
+      [DataMember(Name = "AccountAsset")]
+
+      public Asset AccountCurrency { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Asset
+    content.vb: >-
+      <DataMember(Name:="AccountAsset")>
+
+      Public ReadOnly Property AccountCurrency As Asset
+  overload: TradingPlatform.BusinessLayer.Account.AccountCurrency*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AccountAsset
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Account.Balance
+  commentId: P:TradingPlatform.BusinessLayer.Account.Balance
+  id: Balance
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: Balance
+  nameWithType: Account.Balance
+  fullName: TradingPlatform.BusinessLayer.Account.Balance
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: Balance
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nGets current balance of the account. \n"
+  example: []
+  syntax:
+    content: >-
+      [DataMember(Name = "Balance")]
+
+      public double Balance { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Balance")>
+
+      Public ReadOnly Property Balance As Double
+  overload: TradingPlatform.BusinessLayer.Account.Balance*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Balance
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo
+  commentId: P:TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo
+  id: AccountAdditionalInfo
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: AccountAdditionalInfo
+  nameWithType: Account.AccountAdditionalInfo
+  fullName: TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: AccountAdditionalInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nGets additional account information\n"
+  example: []
+  syntax:
+    content: public Dictionary<string, AccountAdditionalInfoItem> AccountAdditionalInfo { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,TradingPlatform.BusinessLayer.AccountAdditionalInfoItem}
+    content.vb: Public ReadOnly Property AccountAdditionalInfo As Dictionary(Of String, AccountAdditionalInfoItem)
+  overload: TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Account.Updated
+  commentId: E:TradingPlatform.BusinessLayer.Account.Updated
+  id: Updated
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Account.Updated
+  fullName: TradingPlatform.BusinessLayer.Account.Updated
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: Updated
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 57
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event Action<Account> Updated
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.Account}
+    content.vb: Public Event Updated As Action(Of Account)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Account.#ctor(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Account.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: Account(String)
+  nameWithType: Account.Account(String)
+  fullName: TradingPlatform.BusinessLayer.Account.Account(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Account(string connectionId)
+    parameters:
+    - id: connectionId
+      type: System.String
+    content.vb: Protected Sub New(connectionId As String)
+  overload: TradingPlatform.BusinessLayer.Account.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Account.#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Account.#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  id: '#ctor(TradingPlatform.BusinessLayer.BusinessObjectInfo)'
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: Account(BusinessObjectInfo)
+  nameWithType: Account.Account(BusinessObjectInfo)
+  fullName: TradingPlatform.BusinessLayer.Account.Account(TradingPlatform.BusinessLayer.BusinessObjectInfo)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 66
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Account(BusinessObjectInfo accountInfo)
+    parameters:
+    - id: accountInfo
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    content.vb: Protected Sub New(accountInfo As BusinessObjectInfo)
+  overload: TradingPlatform.BusinessLayer.Account.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TradingPlatform.BusinessLayer.Account.GetMessage
+  commentId: M:TradingPlatform.BusinessLayer.Account.GetMessage
+  id: GetMessage
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: GetMessage()
+  nameWithType: Account.GetMessage()
+  fullName: TradingPlatform.BusinessLayer.Account.GetMessage()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: GetMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 116
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nsome summary \n"
+  example: []
+  syntax:
+    content: public MessageAccount GetMessage()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageAccount
+      description: some result
+    content.vb: Public Function GetMessage As MessageAccount
+  overload: TradingPlatform.BusinessLayer.Account.GetMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Account.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Account.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Account.ToString()
+  fullName: TradingPlatform.BusinessLayer.Account.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 128
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.Account.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Account.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.Account.CreateInfo
+  id: CreateInfo
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: CreateInfo()
+  nameWithType: Account.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.Account.CreateInfo()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: CreateInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 130
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override BusinessObjectInfo CreateInfo()
+    return:
+      type: TradingPlatform.BusinessLayer.BusinessObjectInfo
+    content.vb: Public Overrides Function CreateInfo As BusinessObjectInfo
+  overridden: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  overload: TradingPlatform.BusinessLayer.Account.CreateInfo*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Account.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Account.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: Account.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Account.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 141
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Account.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Account.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Account.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Account
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: Account.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Account.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Account.cs
+    startLine: 150
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Account.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.Account.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.Id
+  name: Id
+  nameWithType: Account.Id
+  fullName: TradingPlatform.BusinessLayer.Account.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Account.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.Name
+  name: Name
+  nameWithType: Account.Name
+  fullName: TradingPlatform.BusinessLayer.Account.Name
+- uid: TradingPlatform.BusinessLayer.Account.AccountCurrency*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.AccountCurrency
+  name: AccountCurrency
+  nameWithType: Account.AccountCurrency
+  fullName: TradingPlatform.BusinessLayer.Account.AccountCurrency
+- uid: TradingPlatform.BusinessLayer.Asset
+  commentId: T:TradingPlatform.BusinessLayer.Asset
+  parent: TradingPlatform.BusinessLayer
+  name: Asset
+  nameWithType: Asset
+  fullName: TradingPlatform.BusinessLayer.Asset
+- uid: TradingPlatform.BusinessLayer.Account.Balance*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.Balance
+  name: Balance
+  nameWithType: Account.Balance
+  fullName: TradingPlatform.BusinessLayer.Account.Balance
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo
+  name: AccountAdditionalInfo
+  nameWithType: Account.AccountAdditionalInfo
+  fullName: TradingPlatform.BusinessLayer.Account.AccountAdditionalInfo
+- uid: System.Collections.Generic.Dictionary{System.String,TradingPlatform.BusinessLayer.AccountAdditionalInfoItem}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,TradingPlatform.BusinessLayer.AccountAdditionalInfoItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, AccountAdditionalInfoItem>
+  nameWithType: Dictionary<String, AccountAdditionalInfoItem>
+  fullName: System.Collections.Generic.Dictionary<System.String, TradingPlatform.BusinessLayer.AccountAdditionalInfoItem>
+  nameWithType.vb: Dictionary(Of String, AccountAdditionalInfoItem)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, TradingPlatform.BusinessLayer.AccountAdditionalInfoItem)
+  name.vb: Dictionary(Of String, AccountAdditionalInfoItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+    name: AccountAdditionalInfoItem
+    nameWithType: AccountAdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+    name: AccountAdditionalInfoItem
+    nameWithType: AccountAdditionalInfoItem
+    fullName: TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Action{TradingPlatform.BusinessLayer.Account}
+  commentId: T:System.Action{TradingPlatform.BusinessLayer.Account}
+  parent: System
+  definition: System.Action`1
+  name: Action<Account>
+  nameWithType: Action<Account>
+  fullName: System.Action<TradingPlatform.BusinessLayer.Account>
+  nameWithType.vb: Action(Of Account)
+  fullName.vb: System.Action(Of TradingPlatform.BusinessLayer.Account)
+  name.vb: Action(Of Account)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Account.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.#ctor
+  name: Account
+  nameWithType: Account.Account
+  fullName: TradingPlatform.BusinessLayer.Account.Account
+- uid: TradingPlatform.BusinessLayer.BusinessObjectInfo
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObjectInfo
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObjectInfo
+  nameWithType: BusinessObjectInfo
+  fullName: TradingPlatform.BusinessLayer.BusinessObjectInfo
+- uid: TradingPlatform.BusinessLayer.Account.GetMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.GetMessage
+  name: GetMessage
+  nameWithType: Account.GetMessage
+  fullName: TradingPlatform.BusinessLayer.Account.GetMessage
+- uid: TradingPlatform.BusinessLayer.Integration.MessageAccount
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageAccount
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageAccount
+  nameWithType: MessageAccount
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageAccount
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Account.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.ToString
+  name: ToString
+  nameWithType: Account.ToString
+  fullName: TradingPlatform.BusinessLayer.Account.ToString
+- uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: CreateInfo()
+  nameWithType: BusinessObject.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+    name: CreateInfo
+    nameWithType: BusinessObject.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.BusinessObject.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Account.CreateInfo*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.CreateInfo
+  name: CreateInfo
+  nameWithType: Account.CreateInfo
+  fullName: TradingPlatform.BusinessLayer.Account.CreateInfo
+- uid: TradingPlatform.BusinessLayer.Account.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.ToXElement
+  name: ToXElement
+  nameWithType: Account.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Account.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Account.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Account.FromXElement
+  name: FromXElement
+  nameWithType: Account.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Account.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo

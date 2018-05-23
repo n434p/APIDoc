@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SelectItem
+  commentId: T:TradingPlatform.BusinessLayer.SelectItem
+  id: SelectItem
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.IComparable)
+  - TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.Int32)
+  - TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.String)
+  - TradingPlatform.BusinessLayer.SelectItem.Equals(System.Object)
+  - TradingPlatform.BusinessLayer.SelectItem.GetHashCode
+  - TradingPlatform.BusinessLayer.SelectItem.Text
+  - TradingPlatform.BusinessLayer.SelectItem.ToString
+  - TradingPlatform.BusinessLayer.SelectItem.Value
+  langs:
+  - csharp
+  - vb
+  name: SelectItem
+  nameWithType: SelectItem
+  fullName: TradingPlatform.BusinessLayer.SelectItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: SelectItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SelectItem
+    content.vb: >-
+      <Serializable>
+
+      Public Class SelectItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.SelectItem.Text
+  commentId: F:TradingPlatform.BusinessLayer.SelectItem.Text
+  id: Text
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: SelectItem.Text
+  fullName: TradingPlatform.BusinessLayer.SelectItem.Text
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: Text
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Text
+    return:
+      type: System.String
+    content.vb: Public Text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SelectItem.Value
+  commentId: F:TradingPlatform.BusinessLayer.SelectItem.Value
+  id: Value
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SelectItem.Value
+  fullName: TradingPlatform.BusinessLayer.SelectItem.Value
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: Value
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IComparable Value
+    return:
+      type: System.IComparable
+    content.vb: Public Value As IComparable
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.IComparable)
+  commentId: M:TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.IComparable)
+  id: '#ctor(System.String,System.IComparable)'
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: SelectItem(String, IComparable)
+  nameWithType: SelectItem.SelectItem(String, IComparable)
+  fullName: TradingPlatform.BusinessLayer.SelectItem.SelectItem(System.String, System.IComparable)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SelectItem(string text, IComparable value = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: value
+      type: System.IComparable
+    content.vb: Public Sub New(text As String, value As IComparable = Nothing)
+  overload: TradingPlatform.BusinessLayer.SelectItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: SelectItem(String, Int32)
+  nameWithType: SelectItem.SelectItem(String, Int32)
+  fullName: TradingPlatform.BusinessLayer.SelectItem.SelectItem(System.String, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SelectItem(string text, int value)
+    parameters:
+    - id: text
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub New(text As String, value As Integer)
+  overload: TradingPlatform.BusinessLayer.SelectItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.SelectItem.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: SelectItem(String, String)
+  nameWithType: SelectItem.SelectItem(String, String)
+  fullName: TradingPlatform.BusinessLayer.SelectItem.SelectItem(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public SelectItem(string text, string value)
+    parameters:
+    - id: text
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(text As String, value As String)
+  overload: TradingPlatform.BusinessLayer.SelectItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.SelectItem.ToString
+  commentId: M:TradingPlatform.BusinessLayer.SelectItem.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SelectItem.ToString()
+  fullName: TradingPlatform.BusinessLayer.SelectItem.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: TradingPlatform.BusinessLayer.SelectItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.SelectItem.Equals(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.SelectItem.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SelectItem.Equals(Object)
+  fullName: TradingPlatform.BusinessLayer.SelectItem.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: Equals
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: TradingPlatform.BusinessLayer.SelectItem.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.SelectItem.GetHashCode
+  commentId: M:TradingPlatform.BusinessLayer.SelectItem.GetHashCode
+  id: GetHashCode
+  parent: TradingPlatform.BusinessLayer.SelectItem
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SelectItem.GetHashCode()
+  fullName: TradingPlatform.BusinessLayer.SelectItem.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    id: GetHashCode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Utils/SelectItem.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: TradingPlatform.BusinessLayer.SelectItem.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.SelectItem.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.SelectItem.#ctor
+  name: SelectItem
+  nameWithType: SelectItem.SelectItem
+  fullName: TradingPlatform.BusinessLayer.SelectItem.SelectItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SelectItem.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.SelectItem.ToString
+  name: ToString
+  nameWithType: SelectItem.ToString
+  fullName: TradingPlatform.BusinessLayer.SelectItem.ToString
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SelectItem.Equals*
+  commentId: Overload:TradingPlatform.BusinessLayer.SelectItem.Equals
+  name: Equals
+  nameWithType: SelectItem.Equals
+  fullName: TradingPlatform.BusinessLayer.SelectItem.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.SelectItem.GetHashCode*
+  commentId: Overload:TradingPlatform.BusinessLayer.SelectItem.GetHashCode
+  name: GetHashCode
+  nameWithType: SelectItem.GetHashCode
+  fullName: TradingPlatform.BusinessLayer.SelectItem.GetHashCode

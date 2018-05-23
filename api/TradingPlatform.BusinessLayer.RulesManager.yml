@@ -1,0 +1,879 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.RulesManager
+  commentId: T:TradingPlatform.BusinessLayer.RulesManager
+  id: RulesManager
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,System.String)
+  - TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account)
+  - TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  - TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  - TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,System.String)
+  - TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account)
+  - TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  - TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  - TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,System.String)
+  - TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account)
+  - TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  - TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  - TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Instrument)
+  langs:
+  - csharp
+  - vb
+  name: RulesManager
+  nameWithType: RulesManager
+  fullName: TradingPlatform.BusinessLayer.RulesManager
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: RulesManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class RulesManager
+    content.vb: Public Class RulesManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,System.String)
+  id: IsAllowed(System.String,System.String)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(String, String)
+  nameWithType: RulesManager.IsAllowed(String, String)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AllowedResult IsAllowed(string ruleName, string connectionId)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: connectionId
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Function IsAllowed(ruleName As String, connectionId As String) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.RulesManager.IsAllowed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account)
+  id: IsAllowed(System.String,TradingPlatform.BusinessLayer.Account)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(String, Account)
+  nameWithType: RulesManager.IsAllowed(String, Account)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String, TradingPlatform.BusinessLayer.Account)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 35
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AllowedResult IsAllowed(string ruleName, Account account)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Function IsAllowed(ruleName As String, account As Account) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.RulesManager.IsAllowed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Instrument)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Instrument)
+  id: IsAllowed(System.String,TradingPlatform.BusinessLayer.Instrument)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(String, Instrument)
+  nameWithType: RulesManager.IsAllowed(String, Instrument)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String, TradingPlatform.BusinessLayer.Instrument)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AllowedResult IsAllowed(string ruleName, Instrument instrument)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Function IsAllowed(ruleName As String, instrument As Instrument) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.RulesManager.IsAllowed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  id: IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(String, Account, Instrument)
+  nameWithType: RulesManager.IsAllowed(String, Account, Instrument)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String, TradingPlatform.BusinessLayer.Account, TradingPlatform.BusinessLayer.Instrument)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 49
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AllowedResult IsAllowed(string ruleName, Account account, Instrument instrument)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Function IsAllowed(ruleName As String, account As Account, instrument As Instrument) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.RulesManager.IsAllowed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  id: IsAllowed(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: IsAllowed(String, Account, Instrument, OrderType)
+  nameWithType: RulesManager.IsAllowed(String, Account, Instrument, OrderType)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.IsAllowed(System.String, TradingPlatform.BusinessLayer.Account, TradingPlatform.BusinessLayer.Instrument, TradingPlatform.BusinessLayer.OrderType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: IsAllowed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 56
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public AllowedResult IsAllowed(string ruleName, Account account, Instrument instrument, OrderType orderType)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: orderType
+      type: TradingPlatform.BusinessLayer.OrderType
+    return:
+      type: TradingPlatform.BusinessLayer.AllowedResult
+    content.vb: Public Function IsAllowed(ruleName As String, account As Account, instrument As Instrument, orderType As OrderType) As AllowedResult
+  overload: TradingPlatform.BusinessLayer.RulesManager.IsAllowed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,System.String)
+  id: GetIntValue(System.String,System.String)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetIntValue(String, String)
+  nameWithType: RulesManager.GetIntValue(String, String)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetIntValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 64
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int GetIntValue(string ruleName, string connectionId)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: connectionId
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetIntValue(ruleName As String, connectionId As String) As Integer
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetIntValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account)
+  id: GetIntValue(System.String,TradingPlatform.BusinessLayer.Account)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetIntValue(String, Account)
+  nameWithType: RulesManager.GetIntValue(String, Account)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String, TradingPlatform.BusinessLayer.Account)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetIntValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 71
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int GetIntValue(string ruleName, Account account)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    return:
+      type: System.Int32
+    content.vb: Public Function GetIntValue(ruleName As String, account As Account) As Integer
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetIntValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  id: GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetIntValue(String, Account, Instrument)
+  nameWithType: RulesManager.GetIntValue(String, Account, Instrument)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String, TradingPlatform.BusinessLayer.Account, TradingPlatform.BusinessLayer.Instrument)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetIntValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 78
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int GetIntValue(string ruleName, Account account, Instrument instrument)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    return:
+      type: System.Int32
+    content.vb: Public Function GetIntValue(ruleName As String, account As Account, instrument As Instrument) As Integer
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetIntValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  id: GetIntValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetIntValue(String, Account, Instrument, OrderType)
+  nameWithType: RulesManager.GetIntValue(String, Account, Instrument, OrderType)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetIntValue(System.String, TradingPlatform.BusinessLayer.Account, TradingPlatform.BusinessLayer.Instrument, TradingPlatform.BusinessLayer.OrderType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetIntValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 85
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int GetIntValue(string ruleName, Account account, Instrument instrument, OrderType orderType)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: orderType
+      type: TradingPlatform.BusinessLayer.OrderType
+    return:
+      type: System.Int32
+    content.vb: Public Function GetIntValue(ruleName As String, account As Account, instrument As Instrument, orderType As OrderType) As Integer
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetIntValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,System.String)
+  id: GetStringValue(System.String,System.String)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetStringValue(String, String)
+  nameWithType: RulesManager.GetStringValue(String, String)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetStringValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 93
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string GetStringValue(string ruleName, string connectionId)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: connectionId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetStringValue(ruleName As String, connectionId As String) As String
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetStringValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account)
+  id: GetStringValue(System.String,TradingPlatform.BusinessLayer.Account)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetStringValue(String, Account)
+  nameWithType: RulesManager.GetStringValue(String, Account)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String, TradingPlatform.BusinessLayer.Account)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetStringValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 100
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string GetStringValue(string ruleName, Account account)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    return:
+      type: System.String
+    content.vb: Public Function GetStringValue(ruleName As String, account As Account) As String
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetStringValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  id: GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetStringValue(String, Account, Instrument)
+  nameWithType: RulesManager.GetStringValue(String, Account, Instrument)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String, TradingPlatform.BusinessLayer.Account, TradingPlatform.BusinessLayer.Instrument)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetStringValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 107
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string GetStringValue(string ruleName, Account account, Instrument instrument)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    return:
+      type: System.String
+    content.vb: Public Function GetStringValue(ruleName As String, account As Account, instrument As Instrument) As String
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetStringValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  commentId: M:TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  id: GetStringValue(System.String,TradingPlatform.BusinessLayer.Account,TradingPlatform.BusinessLayer.Instrument,TradingPlatform.BusinessLayer.OrderType)
+  parent: TradingPlatform.BusinessLayer.RulesManager
+  langs:
+  - csharp
+  - vb
+  name: GetStringValue(String, Account, Instrument, OrderType)
+  nameWithType: RulesManager.GetStringValue(String, Account, Instrument, OrderType)
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetStringValue(System.String, TradingPlatform.BusinessLayer.Account, TradingPlatform.BusinessLayer.Instrument, TradingPlatform.BusinessLayer.OrderType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    id: GetStringValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/RulesManager.cs
+    startLine: 114
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string GetStringValue(string ruleName, Account account, Instrument instrument, OrderType orderType)
+    parameters:
+    - id: ruleName
+      type: System.String
+    - id: account
+      type: TradingPlatform.BusinessLayer.Account
+    - id: instrument
+      type: TradingPlatform.BusinessLayer.Instrument
+    - id: orderType
+      type: TradingPlatform.BusinessLayer.OrderType
+    return:
+      type: System.String
+    content.vb: Public Function GetStringValue(ruleName As String, account As Account, instrument As Instrument, orderType As OrderType) As String
+  overload: TradingPlatform.BusinessLayer.RulesManager.GetStringValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.RulesManager.IsAllowed*
+  commentId: Overload:TradingPlatform.BusinessLayer.RulesManager.IsAllowed
+  name: IsAllowed
+  nameWithType: RulesManager.IsAllowed
+  fullName: TradingPlatform.BusinessLayer.RulesManager.IsAllowed
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.AllowedResult
+  commentId: T:TradingPlatform.BusinessLayer.AllowedResult
+  parent: TradingPlatform.BusinessLayer
+  name: AllowedResult
+  nameWithType: AllowedResult
+  fullName: TradingPlatform.BusinessLayer.AllowedResult
+- uid: TradingPlatform.BusinessLayer.Account
+  commentId: T:TradingPlatform.BusinessLayer.Account
+  parent: TradingPlatform.BusinessLayer
+  name: Account
+  nameWithType: Account
+  fullName: TradingPlatform.BusinessLayer.Account
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.OrderType
+  commentId: T:TradingPlatform.BusinessLayer.OrderType
+  parent: TradingPlatform.BusinessLayer
+  name: OrderType
+  nameWithType: OrderType
+  fullName: TradingPlatform.BusinessLayer.OrderType
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetIntValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.RulesManager.GetIntValue
+  name: GetIntValue
+  nameWithType: RulesManager.GetIntValue
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetIntValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.RulesManager.GetStringValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.RulesManager.GetStringValue
+  name: GetStringValue
+  nameWithType: RulesManager.GetStringValue
+  fullName: TradingPlatform.BusinessLayer.RulesManager.GetStringValue

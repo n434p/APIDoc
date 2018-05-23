@@ -1,0 +1,2433 @@
+### YamlMime:ManagedReference
+items:
+- uid: Volume.Volume
+  commentId: T:Volume.Volume
+  id: Volume
+  parent: Volume
+  children:
+  - Volume.Volume.#ctor
+  - Volume.Volume.Init
+  - Volume.Volume.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: Volume
+  fullName: Volume.Volume
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    id: Volume
+    path: ../BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    startLine: 10
+  assemblies:
+  - Indicators
+  namespace: Volume
+  summary: "\nVolume allows to confirm the strength of a trend or to suggest about it&apos;s weakness.\n"
+  example: []
+  syntax:
+    content: 'public class Volume : Indicator, IModule, IDisposable, ICustomizable, IIndicatorsCollection'
+    content.vb: >-
+      Public Class Volume
+          Inherits Indicator
+          Implements IModule, IDisposable, ICustomizable, IIndicatorsCollection
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.ExecutionEntity
+  - TradingPlatform.BusinessLayer.Indicator
+  implements:
+  - TradingPlatform.BusinessLayer.IModule
+  - System.IDisposable
+  - TradingPlatform.BusinessLayer.ICustomizable
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Indicator.EMA
+  - TradingPlatform.BusinessLayer.Indicator.LWMA
+  - TradingPlatform.BusinessLayer.Indicator.SMA
+  - TradingPlatform.BusinessLayer.Indicator.SMMA
+  - TradingPlatform.BusinessLayer.Indicator.PPMA
+  - TradingPlatform.BusinessLayer.Indicator.CCI
+  - TradingPlatform.BusinessLayer.Indicator.MAS3
+  - TradingPlatform.BusinessLayer.Indicator.MMA
+  - TradingPlatform.BusinessLayer.Indicator.Regression
+  - TradingPlatform.BusinessLayer.Indicator.BB
+  - TradingPlatform.BusinessLayer.Indicator.Channel
+  - TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  - TradingPlatform.BusinessLayer.Indicator.RSI
+  - TradingPlatform.BusinessLayer.Indicator.MD
+  - TradingPlatform.BusinessLayer.Indicator.MAE
+  - TradingPlatform.BusinessLayer.Indicator.SAR
+  - TradingPlatform.BusinessLayer.Indicator.AO
+  - TradingPlatform.BusinessLayer.Indicator.CMO
+  - TradingPlatform.BusinessLayer.Indicator.ZZ
+  - TradingPlatform.BusinessLayer.Indicator.AROON
+  - TradingPlatform.BusinessLayer.Indicator.MACD
+  - TradingPlatform.BusinessLayer.Indicator.SD
+  - TradingPlatform.BusinessLayer.Indicator.KRI
+  - TradingPlatform.BusinessLayer.Indicator.BBF
+  - TradingPlatform.BusinessLayer.Indicator.ROC
+  - TradingPlatform.BusinessLayer.Indicator.Momentum
+  - TradingPlatform.BusinessLayer.Indicator.RLW
+  - TradingPlatform.BusinessLayer.Indicator.PO
+  - TradingPlatform.BusinessLayer.Indicator.OBV
+  - TradingPlatform.BusinessLayer.Indicator.OsMA
+  - TradingPlatform.BusinessLayer.Indicator.PVI
+  - TradingPlatform.BusinessLayer.Indicator.VOLUME
+  - TradingPlatform.BusinessLayer.Indicator.MFI
+  - TradingPlatform.BusinessLayer.Indicator.AC
+  - TradingPlatform.BusinessLayer.Indicator.ATR
+  - TradingPlatform.BusinessLayer.Indicator.KAMA
+  - TradingPlatform.BusinessLayer.Indicator.Stochastic
+  - TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  - TradingPlatform.BusinessLayer.Indicator.Qstick
+  - TradingPlatform.BusinessLayer.Indicator.SI
+  - TradingPlatform.BusinessLayer.Indicator.ADX
+  - TradingPlatform.BusinessLayer.Indicator.Keltner
+  - TradingPlatform.BusinessLayer.Indicator.PPO
+  - TradingPlatform.BusinessLayer.Indicator.TSI
+  - TradingPlatform.BusinessLayer.Indicator.DMI
+  - TradingPlatform.BusinessLayer.Indicator.ICH
+  - TradingPlatform.BusinessLayer.Indicator.Alligator
+  - TradingPlatform.BusinessLayer.Indicator.HV
+  - TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  - TradingPlatform.BusinessLayer.Indicator.ShortName
+  - TradingPlatform.BusinessLayer.Indicator.Group
+  - TradingPlatform.BusinessLayer.Indicator.Instrument
+  - TradingPlatform.BusinessLayer.Indicator.Count
+  - TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  - TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  - TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  - TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  - TradingPlatform.BusinessLayer.Indicator.Digits
+  - TradingPlatform.BusinessLayer.Indicator.Settings
+  - TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  - TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  - TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  - TradingPlatform.BusinessLayer.Indicator.Refresh
+  - TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  - TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  - TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  - TradingPlatform.BusinessLayer.Indicator.Dispose
+  - TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  - TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Volume.Volume.#ctor
+  commentId: M:Volume.Volume.#ctor
+  id: '#ctor'
+  parent: Volume.Volume
+  langs:
+  - csharp
+  - vb
+  name: Volume()
+  nameWithType: Volume.Volume()
+  fullName: Volume.Volume.Volume()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    id: .ctor
+    path: ../BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    startLine: 15
+  assemblies:
+  - Indicators
+  namespace: Volume
+  summary: "\nIndicator&apos;s constructor. Contains general information: name, description, LineSeries etc. \n"
+  example: []
+  syntax:
+    content: public Volume()
+    content.vb: Public Sub New
+  overload: Volume.Volume.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Volume.Volume.Init
+  commentId: M:Volume.Volume.Init
+  id: Init
+  parent: Volume.Volume
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Volume.Init()
+  fullName: Volume.Volume.Init()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    id: Init
+    path: ../BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    startLine: 31
+  assemblies:
+  - Indicators
+  namespace: Volume
+  summary: "\nThis function will be called after creating an indicator as well as after its input params reset or chart (instrument or timeframe) updates.\n"
+  example: []
+  syntax:
+    content: public override void Init()
+    content.vb: Public Overrides Sub Init
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  overload: Volume.Volume.Init*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Volume.Volume.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:Volume.Volume.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  id: OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: Volume.Volume
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate(UpdateArgs)
+  nameWithType: Volume.OnUpdate(UpdateArgs)
+  fullName: Volume.Volume.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    id: OnUpdate
+    path: ../BusinessLayer/Modules/Scripts/Indicators/Volume.cs
+    startLine: 44
+  assemblies:
+  - Indicators
+  namespace: Volume
+  summary: "\nCalculation entry point. This function is called when a price data updates. \nWill be runing under the HistoricalBar mode during history loading. \nUnder NewTick during realtime. \nUnder NewBar if start of the new bar is required.\n"
+  example: []
+  syntax:
+    content: public override void OnUpdate(UpdateArgs args)
+    parameters:
+    - id: args
+      type: TradingPlatform.BusinessLayer.UpdateArgs
+      description: Provides data of updating reason and incoming price.
+    content.vb: Public Overrides Sub OnUpdate(args As UpdateArgs)
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  overload: Volume.Volume.OnUpdate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Volume
+  commentId: N:Volume
+  name: Volume
+  nameWithType: Volume
+  fullName: Volume
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity
+  commentId: T:TradingPlatform.BusinessLayer.ExecutionEntity
+  parent: TradingPlatform.BusinessLayer
+  name: ExecutionEntity
+  nameWithType: ExecutionEntity
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity
+- uid: TradingPlatform.BusinessLayer.Indicator
+  commentId: T:TradingPlatform.BusinessLayer.Indicator
+  parent: TradingPlatform.BusinessLayer
+  name: Indicator
+  nameWithType: Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator
+- uid: TradingPlatform.BusinessLayer.IModule
+  commentId: T:TradingPlatform.BusinessLayer.IModule
+  parent: TradingPlatform.BusinessLayer
+  name: IModule
+  nameWithType: IModule
+  fullName: TradingPlatform.BusinessLayer.IModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  commentId: T:TradingPlatform.BusinessLayer.IIndicatorsCollection
+  parent: TradingPlatform.BusinessLayer
+  name: IIndicatorsCollection
+  nameWithType: IIndicatorsCollection
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection
+- uid: TradingPlatform.BusinessLayer.Indicator.EMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.EMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: EMA
+  nameWithType: Indicator.EMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.EMA
+- uid: TradingPlatform.BusinessLayer.Indicator.LWMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.LWMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: LWMA
+  nameWithType: Indicator.LWMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.LWMA
+- uid: TradingPlatform.BusinessLayer.Indicator.SMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: SMA
+  nameWithType: Indicator.SMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.SMA
+- uid: TradingPlatform.BusinessLayer.Indicator.SMMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SMMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: SMMA
+  nameWithType: Indicator.SMMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.SMMA
+- uid: TradingPlatform.BusinessLayer.Indicator.PPMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PPMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: PPMA
+  nameWithType: Indicator.PPMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.PPMA
+- uid: TradingPlatform.BusinessLayer.Indicator.CCI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.CCI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: CCI
+  nameWithType: Indicator.CCI
+  fullName: TradingPlatform.BusinessLayer.Indicator.CCI
+- uid: TradingPlatform.BusinessLayer.Indicator.MAS3
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MAS3
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MAS3
+  nameWithType: Indicator.MAS3
+  fullName: TradingPlatform.BusinessLayer.Indicator.MAS3
+- uid: TradingPlatform.BusinessLayer.Indicator.MMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MMA
+  nameWithType: Indicator.MMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.MMA
+- uid: TradingPlatform.BusinessLayer.Indicator.Regression
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Regression
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Regression
+  nameWithType: Indicator.Regression
+  fullName: TradingPlatform.BusinessLayer.Indicator.Regression
+- uid: TradingPlatform.BusinessLayer.Indicator.BB
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.BB
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: BB
+  nameWithType: Indicator.BB
+  fullName: TradingPlatform.BusinessLayer.Indicator.BB
+- uid: TradingPlatform.BusinessLayer.Indicator.Channel
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Channel
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Channel
+  nameWithType: Indicator.Channel
+  fullName: TradingPlatform.BusinessLayer.Indicator.Channel
+- uid: TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AFIRMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AFIRMA
+  nameWithType: Indicator.AFIRMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.AFIRMA
+- uid: TradingPlatform.BusinessLayer.Indicator.RSI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.RSI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: RSI
+  nameWithType: Indicator.RSI
+  fullName: TradingPlatform.BusinessLayer.Indicator.RSI
+- uid: TradingPlatform.BusinessLayer.Indicator.MD
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MD
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MD
+  nameWithType: Indicator.MD
+  fullName: TradingPlatform.BusinessLayer.Indicator.MD
+- uid: TradingPlatform.BusinessLayer.Indicator.MAE
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MAE
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MAE
+  nameWithType: Indicator.MAE
+  fullName: TradingPlatform.BusinessLayer.Indicator.MAE
+- uid: TradingPlatform.BusinessLayer.Indicator.SAR
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SAR
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: SAR
+  nameWithType: Indicator.SAR
+  fullName: TradingPlatform.BusinessLayer.Indicator.SAR
+- uid: TradingPlatform.BusinessLayer.Indicator.AO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AO
+  nameWithType: Indicator.AO
+  fullName: TradingPlatform.BusinessLayer.Indicator.AO
+- uid: TradingPlatform.BusinessLayer.Indicator.CMO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.CMO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: CMO
+  nameWithType: Indicator.CMO
+  fullName: TradingPlatform.BusinessLayer.Indicator.CMO
+- uid: TradingPlatform.BusinessLayer.Indicator.ZZ
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ZZ
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: ZZ
+  nameWithType: Indicator.ZZ
+  fullName: TradingPlatform.BusinessLayer.Indicator.ZZ
+- uid: TradingPlatform.BusinessLayer.Indicator.AROON
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AROON
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AROON
+  nameWithType: Indicator.AROON
+  fullName: TradingPlatform.BusinessLayer.Indicator.AROON
+- uid: TradingPlatform.BusinessLayer.Indicator.MACD
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MACD
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MACD
+  nameWithType: Indicator.MACD
+  fullName: TradingPlatform.BusinessLayer.Indicator.MACD
+- uid: TradingPlatform.BusinessLayer.Indicator.SD
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SD
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: SD
+  nameWithType: Indicator.SD
+  fullName: TradingPlatform.BusinessLayer.Indicator.SD
+- uid: TradingPlatform.BusinessLayer.Indicator.KRI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.KRI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: KRI
+  nameWithType: Indicator.KRI
+  fullName: TradingPlatform.BusinessLayer.Indicator.KRI
+- uid: TradingPlatform.BusinessLayer.Indicator.BBF
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.BBF
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: BBF
+  nameWithType: Indicator.BBF
+  fullName: TradingPlatform.BusinessLayer.Indicator.BBF
+- uid: TradingPlatform.BusinessLayer.Indicator.ROC
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ROC
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: ROC
+  nameWithType: Indicator.ROC
+  fullName: TradingPlatform.BusinessLayer.Indicator.ROC
+- uid: TradingPlatform.BusinessLayer.Indicator.Momentum
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Momentum
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Momentum
+  nameWithType: Indicator.Momentum
+  fullName: TradingPlatform.BusinessLayer.Indicator.Momentum
+- uid: TradingPlatform.BusinessLayer.Indicator.RLW
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.RLW
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: RLW
+  nameWithType: Indicator.RLW
+  fullName: TradingPlatform.BusinessLayer.Indicator.RLW
+- uid: TradingPlatform.BusinessLayer.Indicator.PO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: PO
+  nameWithType: Indicator.PO
+  fullName: TradingPlatform.BusinessLayer.Indicator.PO
+- uid: TradingPlatform.BusinessLayer.Indicator.OBV
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.OBV
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: OBV
+  nameWithType: Indicator.OBV
+  fullName: TradingPlatform.BusinessLayer.Indicator.OBV
+- uid: TradingPlatform.BusinessLayer.Indicator.OsMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.OsMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: OsMA
+  nameWithType: Indicator.OsMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.OsMA
+- uid: TradingPlatform.BusinessLayer.Indicator.PVI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PVI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: PVI
+  nameWithType: Indicator.PVI
+  fullName: TradingPlatform.BusinessLayer.Indicator.PVI
+- uid: TradingPlatform.BusinessLayer.Indicator.VOLUME
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.VOLUME
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: VOLUME
+  nameWithType: Indicator.VOLUME
+  fullName: TradingPlatform.BusinessLayer.Indicator.VOLUME
+- uid: TradingPlatform.BusinessLayer.Indicator.MFI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MFI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MFI
+  nameWithType: Indicator.MFI
+  fullName: TradingPlatform.BusinessLayer.Indicator.MFI
+- uid: TradingPlatform.BusinessLayer.Indicator.AC
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.AC
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AC
+  nameWithType: Indicator.AC
+  fullName: TradingPlatform.BusinessLayer.Indicator.AC
+- uid: TradingPlatform.BusinessLayer.Indicator.ATR
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ATR
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: ATR
+  nameWithType: Indicator.ATR
+  fullName: TradingPlatform.BusinessLayer.Indicator.ATR
+- uid: TradingPlatform.BusinessLayer.Indicator.KAMA
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.KAMA
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: KAMA
+  nameWithType: Indicator.KAMA
+  fullName: TradingPlatform.BusinessLayer.Indicator.KAMA
+- uid: TradingPlatform.BusinessLayer.Indicator.Stochastic
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Stochastic
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Stochastic
+  nameWithType: Indicator.Stochastic
+  fullName: TradingPlatform.BusinessLayer.Indicator.Stochastic
+- uid: TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: StochasticxRSI
+  nameWithType: Indicator.StochasticxRSI
+  fullName: TradingPlatform.BusinessLayer.Indicator.StochasticxRSI
+- uid: TradingPlatform.BusinessLayer.Indicator.Qstick
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Qstick
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Qstick
+  nameWithType: Indicator.Qstick
+  fullName: TradingPlatform.BusinessLayer.Indicator.Qstick
+- uid: TradingPlatform.BusinessLayer.Indicator.SI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.SI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: SI
+  nameWithType: Indicator.SI
+  fullName: TradingPlatform.BusinessLayer.Indicator.SI
+- uid: TradingPlatform.BusinessLayer.Indicator.ADX
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ADX
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: ADX
+  nameWithType: Indicator.ADX
+  fullName: TradingPlatform.BusinessLayer.Indicator.ADX
+- uid: TradingPlatform.BusinessLayer.Indicator.Keltner
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Keltner
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Keltner
+  nameWithType: Indicator.Keltner
+  fullName: TradingPlatform.BusinessLayer.Indicator.Keltner
+- uid: TradingPlatform.BusinessLayer.Indicator.PPO
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.PPO
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: PPO
+  nameWithType: Indicator.PPO
+  fullName: TradingPlatform.BusinessLayer.Indicator.PPO
+- uid: TradingPlatform.BusinessLayer.Indicator.TSI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.TSI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: TSI
+  nameWithType: Indicator.TSI
+  fullName: TradingPlatform.BusinessLayer.Indicator.TSI
+- uid: TradingPlatform.BusinessLayer.Indicator.DMI
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.DMI
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: DMI
+  nameWithType: Indicator.DMI
+  fullName: TradingPlatform.BusinessLayer.Indicator.DMI
+- uid: TradingPlatform.BusinessLayer.Indicator.ICH
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.ICH
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: ICH
+  nameWithType: Indicator.ICH
+  fullName: TradingPlatform.BusinessLayer.Indicator.ICH
+- uid: TradingPlatform.BusinessLayer.Indicator.Alligator
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.Alligator
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Alligator
+  nameWithType: Indicator.Alligator
+  fullName: TradingPlatform.BusinessLayer.Indicator.Alligator
+- uid: TradingPlatform.BusinessLayer.Indicator.HV
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.HV
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: HV
+  nameWithType: Indicator.HV
+  fullName: TradingPlatform.BusinessLayer.Indicator.HV
+- uid: TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: OSCILLATOR_GROUP
+  nameWithType: Indicator.OSCILLATOR_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.OSCILLATOR_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: MOVING_AVERAGE_GROUP
+  nameWithType: Indicator.MOVING_AVERAGE_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.MOVING_AVERAGE_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: TREND_GROUP
+  nameWithType: Indicator.TREND_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.TREND_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: VOLATILITY_GROUP
+  nameWithType: Indicator.VOLATILITY_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.VOLATILITY_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: CHANNEL_GROUP
+  nameWithType: Indicator.CHANNEL_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.CHANNEL_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: VOLUME_GROUP
+  nameWithType: Indicator.VOLUME_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.VOLUME_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: HIDDEN_GROUP
+  nameWithType: Indicator.HIDDEN_GROUP
+  fullName: TradingPlatform.BusinessLayer.Indicator.HIDDEN_GROUP
+- uid: TradingPlatform.BusinessLayer.Indicator.ShortName
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.ShortName
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: ShortName
+  nameWithType: Indicator.ShortName
+  fullName: TradingPlatform.BusinessLayer.Indicator.ShortName
+- uid: TradingPlatform.BusinessLayer.Indicator.Group
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Group
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Group
+  nameWithType: Indicator.Group
+  fullName: TradingPlatform.BusinessLayer.Indicator.Group
+- uid: TradingPlatform.BusinessLayer.Indicator.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Instrument
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Instrument
+  nameWithType: Indicator.Instrument
+  fullName: TradingPlatform.BusinessLayer.Indicator.Instrument
+- uid: TradingPlatform.BusinessLayer.Indicator.Count
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Count
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Count
+  nameWithType: Indicator.Count
+  fullName: TradingPlatform.BusinessLayer.Indicator.Count
+- uid: TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.HistoricalData
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: HistoricalData
+  nameWithType: Indicator.HistoricalData
+  fullName: TradingPlatform.BusinessLayer.Indicator.HistoricalData
+- uid: TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.LinesSeries
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: LinesSeries
+  nameWithType: Indicator.LinesSeries
+  fullName: TradingPlatform.BusinessLayer.Indicator.LinesSeries
+- uid: TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.LinesLevels
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: LinesLevels
+  nameWithType: Indicator.LinesLevels
+  fullName: TradingPlatform.BusinessLayer.Indicator.LinesLevels
+- uid: TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: SeparateWindow
+  nameWithType: Indicator.SeparateWindow
+  fullName: TradingPlatform.BusinessLayer.Indicator.SeparateWindow
+- uid: TradingPlatform.BusinessLayer.Indicator.Digits
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Digits
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Digits
+  nameWithType: Indicator.Digits
+  fullName: TradingPlatform.BusinessLayer.Indicator.Digits
+- uid: TradingPlatform.BusinessLayer.Indicator.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.Settings
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Settings
+  nameWithType: Indicator.Settings
+  fullName: TradingPlatform.BusinessLayer.Indicator.Settings
+- uid: TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  commentId: P:TradingPlatform.BusinessLayer.Indicator.CurrentChart
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: CurrentChart
+  nameWithType: Indicator.CurrentChart
+  fullName: TradingPlatform.BusinessLayer.Indicator.CurrentChart
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: AddLineSeries(String, Color, Int32, LineStyle)
+  nameWithType: Indicator.AddLineSeries(String, Color, Int32, LineStyle)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String, System.Drawing.Color, System.Int32, TradingPlatform.BusinessLayer.LineStyle)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+    name: AddLineSeries
+    nameWithType: Indicator.AddLineSeries
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.LineStyle
+    name: LineStyle
+    nameWithType: LineStyle
+    fullName: TradingPlatform.BusinessLayer.LineStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+    name: AddLineSeries
+    nameWithType: Indicator.AddLineSeries
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.LineStyle
+    name: LineStyle
+    nameWithType: LineStyle
+    fullName: TradingPlatform.BusinessLayer.LineStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AddLineSeries(LineSeries)
+  nameWithType: Indicator.AddLineSeries(LineSeries)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+    name: AddLineSeries
+    nameWithType: Indicator.AddLineSeries
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.LineSeries
+    name: LineSeries
+    nameWithType: LineSeries
+    fullName: TradingPlatform.BusinessLayer.LineSeries
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineSeries(TradingPlatform.BusinessLayer.LineSeries)
+    name: AddLineSeries
+    nameWithType: Indicator.AddLineSeries
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineSeries
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.LineSeries
+    name: LineSeries
+    nameWithType: LineSeries
+    fullName: TradingPlatform.BusinessLayer.LineSeries
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: AddLineLevel(Double, String, Color, Int32, LineStyle)
+  nameWithType: Indicator.AddLineLevel(Double, String, Color, Int32, LineStyle)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double, System.String, System.Drawing.Color, System.Int32, TradingPlatform.BusinessLayer.LineStyle)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+    name: AddLineLevel
+    nameWithType: Indicator.AddLineLevel
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.LineStyle
+    name: LineStyle
+    nameWithType: LineStyle
+    fullName: TradingPlatform.BusinessLayer.LineStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(System.Double,System.String,System.Drawing.Color,System.Int32,TradingPlatform.BusinessLayer.LineStyle)
+    name: AddLineLevel
+    nameWithType: Indicator.AddLineLevel
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.LineStyle
+    name: LineStyle
+    nameWithType: LineStyle
+    fullName: TradingPlatform.BusinessLayer.LineStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AddLineLevel(LineLevel)
+  nameWithType: Indicator.AddLineLevel(LineLevel)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+    name: AddLineLevel
+    nameWithType: Indicator.AddLineLevel
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.LineLevel
+    name: LineLevel
+    nameWithType: LineLevel
+    fullName: TradingPlatform.BusinessLayer.LineLevel
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddLineLevel(TradingPlatform.BusinessLayer.LineLevel)
+    name: AddLineLevel
+    nameWithType: Indicator.AddLineLevel
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddLineLevel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.LineLevel
+    name: LineLevel
+    nameWithType: LineLevel
+    fullName: TradingPlatform.BusinessLayer.LineLevel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Refresh
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Refresh
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Refresh()
+  nameWithType: Indicator.Refresh()
+  fullName: TradingPlatform.BusinessLayer.Indicator.Refresh()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Refresh
+    name: Refresh
+    nameWithType: Indicator.Refresh
+    fullName: TradingPlatform.BusinessLayer.Indicator.Refresh
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Refresh
+    name: Refresh
+    nameWithType: Indicator.Refresh
+    fullName: TradingPlatform.BusinessLayer.Indicator.Refresh
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: AddIndicator(Indicator)
+  nameWithType: Indicator.AddIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: AddIndicator
+    nameWithType: Indicator.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: AddIndicator
+    nameWithType: Indicator.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.Indicator.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: RemoveIndicator(Indicator)
+  nameWithType: Indicator.RemoveIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: RemoveIndicator
+    nameWithType: Indicator.RemoveIndicator
+    fullName: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: RemoveIndicator
+    nameWithType: Indicator.RemoveIndicator
+    fullName: TradingPlatform.BusinessLayer.Indicator.RemoveIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: SetValue(Double, Int32, Int32)
+  nameWithType: Indicator.SetValue(Double, Int32, Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+    name: SetValue
+    nameWithType: Indicator.SetValue
+    fullName: TradingPlatform.BusinessLayer.Indicator.SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.SetValue(System.Double,System.Int32,System.Int32)
+    name: SetValue
+    nameWithType: Indicator.SetValue
+    fullName: TradingPlatform.BusinessLayer.Indicator.SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: GetValue(Int32, Int32, SeekOriginHistory)
+  nameWithType: Indicator.GetValue(Int32, Int32, SeekOriginHistory)
+  fullName: TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32, System.Int32, TradingPlatform.BusinessLayer.SeekOriginHistory)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+    name: GetValue
+    nameWithType: Indicator.GetValue
+    fullName: TradingPlatform.BusinessLayer.Indicator.GetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+    nameWithType: SeekOriginHistory
+    fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.GetValue(System.Int32,System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+    name: GetValue
+    nameWithType: Indicator.GetValue
+    fullName: TradingPlatform.BusinessLayer.Indicator.GetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+    nameWithType: SeekOriginHistory
+    fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: GetPrice(PriceType, Int32)
+  nameWithType: Indicator.GetPrice(PriceType, Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType, System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+    name: GetPrice
+    nameWithType: Indicator.GetPrice
+    fullName: TradingPlatform.BusinessLayer.Indicator.GetPrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+    nameWithType: PriceType
+    fullName: TradingPlatform.BusinessLayer.PriceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.GetPrice(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+    name: GetPrice
+    nameWithType: Indicator.GetPrice
+    fullName: TradingPlatform.BusinessLayer.Indicator.GetPrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PriceType
+    name: PriceType
+    nameWithType: PriceType
+    fullName: TradingPlatform.BusinessLayer.PriceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Bid(Int32)
+  nameWithType: Indicator.Bid(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+    name: Bid
+    nameWithType: Indicator.Bid
+    fullName: TradingPlatform.BusinessLayer.Indicator.Bid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Bid(System.Int32)
+    name: Bid
+    nameWithType: Indicator.Bid
+    fullName: TradingPlatform.BusinessLayer.Indicator.Bid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Ask(Int32)
+  nameWithType: Indicator.Ask(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+    name: Ask
+    nameWithType: Indicator.Ask
+    fullName: TradingPlatform.BusinessLayer.Indicator.Ask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Ask(System.Int32)
+    name: Ask
+    nameWithType: Indicator.Ask
+    fullName: TradingPlatform.BusinessLayer.Indicator.Ask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Last(Int32)
+  nameWithType: Indicator.Last(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+    name: Last
+    nameWithType: Indicator.Last
+    fullName: TradingPlatform.BusinessLayer.Indicator.Last
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Last(System.Int32)
+    name: Last
+    nameWithType: Indicator.Last
+    fullName: TradingPlatform.BusinessLayer.Indicator.Last
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Open(Int32)
+  nameWithType: Indicator.Open(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+    name: Open
+    nameWithType: Indicator.Open
+    fullName: TradingPlatform.BusinessLayer.Indicator.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Open(System.Int32)
+    name: Open
+    nameWithType: Indicator.Open
+    fullName: TradingPlatform.BusinessLayer.Indicator.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: High(Int32)
+  nameWithType: Indicator.High(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+    name: High
+    nameWithType: Indicator.High
+    fullName: TradingPlatform.BusinessLayer.Indicator.High
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.High(System.Int32)
+    name: High
+    nameWithType: Indicator.High
+    fullName: TradingPlatform.BusinessLayer.Indicator.High
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Low(Int32)
+  nameWithType: Indicator.Low(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+    name: Low
+    nameWithType: Indicator.Low
+    fullName: TradingPlatform.BusinessLayer.Indicator.Low
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Low(System.Int32)
+    name: Low
+    nameWithType: Indicator.Low
+    fullName: TradingPlatform.BusinessLayer.Indicator.Low
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Close(Int32)
+  nameWithType: Indicator.Close(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+    name: Close
+    nameWithType: Indicator.Close
+    fullName: TradingPlatform.BusinessLayer.Indicator.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Close(System.Int32)
+    name: Close
+    nameWithType: Indicator.Close
+    fullName: TradingPlatform.BusinessLayer.Indicator.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Median(Int32)
+  nameWithType: Indicator.Median(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+    name: Median
+    nameWithType: Indicator.Median
+    fullName: TradingPlatform.BusinessLayer.Indicator.Median
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Median(System.Int32)
+    name: Median
+    nameWithType: Indicator.Median
+    fullName: TradingPlatform.BusinessLayer.Indicator.Median
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Typical(Int32)
+  nameWithType: Indicator.Typical(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+    name: Typical
+    nameWithType: Indicator.Typical
+    fullName: TradingPlatform.BusinessLayer.Indicator.Typical
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Typical(System.Int32)
+    name: Typical
+    nameWithType: Indicator.Typical
+    fullName: TradingPlatform.BusinessLayer.Indicator.Typical
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Weighted(Int32)
+  nameWithType: Indicator.Weighted(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+    name: Weighted
+    nameWithType: Indicator.Weighted
+    fullName: TradingPlatform.BusinessLayer.Indicator.Weighted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Weighted(System.Int32)
+    name: Weighted
+    nameWithType: Indicator.Weighted
+    fullName: TradingPlatform.BusinessLayer.Indicator.Weighted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Volume(Int32)
+  nameWithType: Indicator.Volume(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+    name: Volume
+    nameWithType: Indicator.Volume
+    fullName: TradingPlatform.BusinessLayer.Indicator.Volume
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Volume(System.Int32)
+    name: Volume
+    nameWithType: Indicator.Volume
+    fullName: TradingPlatform.BusinessLayer.Indicator.Volume
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Ticks(Int32)
+  nameWithType: Indicator.Ticks(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+    name: Ticks
+    nameWithType: Indicator.Ticks
+    fullName: TradingPlatform.BusinessLayer.Indicator.Ticks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Ticks(System.Int32)
+    name: Ticks
+    nameWithType: Indicator.Ticks
+    fullName: TradingPlatform.BusinessLayer.Indicator.Ticks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: Time(Int32)
+  nameWithType: Indicator.Time(Int32)
+  fullName: TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+    name: Time
+    nameWithType: Indicator.Time
+    fullName: TradingPlatform.BusinessLayer.Indicator.Time
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Time(System.Int32)
+    name: Time
+    nameWithType: Indicator.Time
+    fullName: TradingPlatform.BusinessLayer.Indicator.Time
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  isExternal: true
+  name: FormatPrice(Double)
+  nameWithType: Indicator.FormatPrice(Double)
+  fullName: TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+    name: FormatPrice
+    nameWithType: Indicator.FormatPrice
+    fullName: TradingPlatform.BusinessLayer.Indicator.FormatPrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.FormatPrice(System.Double)
+    name: FormatPrice
+    nameWithType: Indicator.FormatPrice
+    fullName: TradingPlatform.BusinessLayer.Indicator.FormatPrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.Dispose
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: Dispose()
+  nameWithType: Indicator.Dispose()
+  fullName: TradingPlatform.BusinessLayer.Indicator.Dispose()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Dispose
+    name: Dispose
+    nameWithType: Indicator.Dispose
+    fullName: TradingPlatform.BusinessLayer.Indicator.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.Dispose
+    name: Dispose
+    nameWithType: Indicator.Dispose
+    fullName: TradingPlatform.BusinessLayer.Indicator.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: OnPaintChart(PaintChartEventArgs)
+  nameWithType: Indicator.OnPaintChart(PaintChartEventArgs)
+  fullName: TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+    name: OnPaintChart
+    nameWithType: Indicator.OnPaintChart
+    fullName: TradingPlatform.BusinessLayer.Indicator.OnPaintChart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PaintChartEventArgs
+    name: PaintChartEventArgs
+    nameWithType: PaintChartEventArgs
+    fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.OnPaintChart(TradingPlatform.BusinessLayer.PaintChartEventArgs)
+    name: OnPaintChart
+    nameWithType: Indicator.OnPaintChart
+    fullName: TradingPlatform.BusinessLayer.Indicator.OnPaintChart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.PaintChartEventArgs
+    name: PaintChartEventArgs
+    nameWithType: PaintChartEventArgs
+    fullName: TradingPlatform.BusinessLayer.PaintChartEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  commentId: M:TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  parent: TradingPlatform.BusinessLayer.Indicator
+  name: OnSettingsUpdated()
+  nameWithType: Indicator.OnSettingsUpdated()
+  fullName: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: Indicator.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: Indicator.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.Indicator.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Name
+  nameWithType: ExecutionEntity.Name
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Description
+  nameWithType: ExecutionEntity.Description
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Clear()
+  nameWithType: ExecutionEntity.Clear()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Print(String, Object[])
+  nameWithType: ExecutionEntity.Print(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Print(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object())
+  name.vb: Print(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Alert(String, Object[])
+  nameWithType: ExecutionEntity.Alert(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Alert(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object())
+  name.vb: Alert(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: Volume.Volume.#ctor*
+  commentId: Overload:Volume.Volume.#ctor
+  name: Volume
+  nameWithType: Volume.Volume
+  fullName: Volume.Volume.Volume
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Init()
+  nameWithType: ExecutionEntity.Init()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Volume.Volume.Init*
+  commentId: Overload:Volume.Volume.Init
+  name: Init
+  nameWithType: Volume.Init
+  fullName: Volume.Volume.Init
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnUpdate(UpdateArgs)
+  nameWithType: ExecutionEntity.OnUpdate(UpdateArgs)
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Volume.Volume.OnUpdate*
+  commentId: Overload:Volume.Volume.OnUpdate
+  name: OnUpdate
+  nameWithType: Volume.OnUpdate
+  fullName: Volume.Volume.OnUpdate
+- uid: TradingPlatform.BusinessLayer.UpdateArgs
+  commentId: T:TradingPlatform.BusinessLayer.UpdateArgs
+  parent: TradingPlatform.BusinessLayer
+  name: UpdateArgs
+  nameWithType: UpdateArgs
+  fullName: TradingPlatform.BusinessLayer.UpdateArgs

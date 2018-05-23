@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: HistoryProcessorTime
+  commentId: N:HistoryProcessorTime
+  id: HistoryProcessorTime
+  children:
+  - HistoryProcessorTime.HistoryProcessorTime
+  langs:
+  - csharp
+  - vb
+  name: HistoryProcessorTime
+  nameWithType: HistoryProcessorTime
+  fullName: HistoryProcessorTime
+  type: Namespace
+  assemblies:
+  - HistoryProcessorTime
+references:
+- uid: HistoryProcessorTime.HistoryProcessorTime
+  commentId: T:HistoryProcessorTime.HistoryProcessorTime
+  name: HistoryProcessorTime
+  nameWithType: HistoryProcessorTime
+  fullName: HistoryProcessorTime.HistoryProcessorTime

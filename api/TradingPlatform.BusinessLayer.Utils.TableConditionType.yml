@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  commentId: T:TradingPlatform.BusinessLayer.Utils.TableConditionType
+  id: TableConditionType
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.Equal
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.Less
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.LessEqual
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.More
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.MoreEqual
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.NonEqual
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.NotPresent
+  - TradingPlatform.BusinessLayer.Utils.TableConditionType.Present
+  langs:
+  - csharp
+  - vb
+  name: TableConditionType
+  nameWithType: TableConditionType
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: TableConditionType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 4
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public enum TableConditionType
+    content.vb: Public Enum TableConditionType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.Equal
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.Equal
+  id: Equal
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: Equal
+  nameWithType: TableConditionType.Equal
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.Equal
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: Equal
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: Equal = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.NonEqual
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.NonEqual
+  id: NonEqual
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: NonEqual
+  nameWithType: TableConditionType.NonEqual
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.NonEqual
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: NonEqual
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: NonEqual = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.Present
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.Present
+  id: Present
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: Present
+  nameWithType: TableConditionType.Present
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.Present
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: Present
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: Present = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.NotPresent
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.NotPresent
+  id: NotPresent
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: NotPresent
+  nameWithType: TableConditionType.NotPresent
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.NotPresent
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: NotPresent
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: NotPresent = 3
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.More
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.More
+  id: More
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: More
+  nameWithType: TableConditionType.More
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.More
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: More
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: More = 4
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.MoreEqual
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.MoreEqual
+  id: MoreEqual
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: MoreEqual
+  nameWithType: TableConditionType.MoreEqual
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.MoreEqual
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: MoreEqual
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: MoreEqual = 5
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.Less
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.Less
+  id: Less
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: Less
+  nameWithType: TableConditionType.Less
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.Less
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: Less
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: Less = 6
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType.LessEqual
+  commentId: F:TradingPlatform.BusinessLayer.Utils.TableConditionType.LessEqual
+  id: LessEqual
+  parent: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  langs:
+  - csharp
+  - vb
+  name: LessEqual
+  nameWithType: TableConditionType.LessEqual
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType.LessEqual
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    id: LessEqual
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/TableConditionType.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: LessEqual = 7
+    return:
+      type: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Utils.TableConditionType
+  commentId: T:TradingPlatform.BusinessLayer.Utils.TableConditionType
+  parent: TradingPlatform.BusinessLayer.Utils
+  name: TableConditionType
+  nameWithType: TableConditionType
+  fullName: TradingPlatform.BusinessLayer.Utils.TableConditionType

@@ -1,0 +1,1533 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  commentId: T:TradingPlatform.BusinessLayer.HistoricalDataCustom
+  id: HistoricalDataCustom
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.#ctor(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue(System.Double,System.Double,System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.Item(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue(System.Double,System.Double,System.Double,System.Double,System.Int32)
+  - TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: HistoricalDataCustom
+  nameWithType: HistoricalDataCustom
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: HistoricalDataCustom
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public sealed class HistoricalDataCustom : HistoricalData, IHistoricalData, IIndicatorsCollection, IDisposable, IIndicatorRefresher'
+    content.vb: >-
+      Public NotInheritable Class HistoricalDataCustom
+          Inherits HistoricalData
+          Implements IHistoricalData, IIndicatorsCollection, IDisposable, IIndicatorRefresher
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.HistoricalData
+  implements:
+  - TradingPlatform.BusinessLayer.IHistoricalData
+  - TradingPlatform.BusinessLayer.IIndicatorsCollection
+  - System.IDisposable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.HistoricalData.Instrument
+  - TradingPlatform.BusinessLayer.HistoricalData.Period
+  - TradingPlatform.BusinessLayer.HistoricalData.Aggregation
+  - TradingPlatform.BusinessLayer.HistoricalData.HistoryType
+  - TradingPlatform.BusinessLayer.HistoricalData.FromTime
+  - TradingPlatform.BusinessLayer.HistoricalData.ToTime
+  - TradingPlatform.BusinessLayer.HistoricalData.Count
+  - TradingPlatform.BusinessLayer.HistoricalData.Item(System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  - TradingPlatform.BusinessLayer.HistoricalData.NewHistoryItem
+  - TradingPlatform.BusinessLayer.HistoricalData.HistoryItemUpdated
+  - TradingPlatform.BusinessLayer.HistoricalData.items
+  - TradingPlatform.BusinessLayer.HistoricalData.itemsLocker
+  - TradingPlatform.BusinessLayer.HistoricalData.parameters
+  - TradingPlatform.BusinessLayer.HistoricalData.historyProcessor
+  - TradingPlatform.BusinessLayer.HistoricalData.DefaultIndicators
+  - TradingPlatform.BusinessLayer.HistoricalData.Reload
+  - TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.HistoricalData.Clear
+  - TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime(System.Int64,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  - TradingPlatform.BusinessLayer.HistoricalData.indicatorsCache
+  - TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String,TradingPlatform.BusinessLayer.SettingItem[])
+  - TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  - TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  - TradingPlatform.BusinessLayer.HistoricalData.AddNewItem(TradingPlatform.BusinessLayer.IHistoryItem,System.Boolean,TradingPlatform.BusinessLayer.HistoryEventArgs)
+  - TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  - TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem})
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.Item(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalDataCustom.Item(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  id: Item(TradingPlatform.BusinessLayer.PriceType,System.Int32)
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: Item[PriceType, Int32]
+  nameWithType: HistoricalDataCustom.Item[PriceType, Int32]
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.Item[TradingPlatform.BusinessLayer.PriceType, System.Int32]
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: this[]
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double this[PriceType priceType, int offset = 0] { get; set; }
+    parameters:
+    - id: priceType
+      type: TradingPlatform.BusinessLayer.PriceType
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Property Item(priceType As PriceType, offset As Integer = 0) As Double
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.Item*
+  nameWithType.vb: HistoricalDataCustom.Item(PriceType, Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.HistoricalDataCustom.Item(TradingPlatform.BusinessLayer.PriceType, System.Int32)
+  name.vb: Item(PriceType, Int32)
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.#ctor(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.#ctor(TradingPlatform.BusinessLayer.Indicator)
+  id: '#ctor(TradingPlatform.BusinessLayer.Indicator)'
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: HistoricalDataCustom(Indicator)
+  nameWithType: HistoricalDataCustom.HistoricalDataCustom(Indicator)
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.HistoricalDataCustom(TradingPlatform.BusinessLayer.Indicator)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 55
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoricalDataCustom(Indicator indicator = null)
+    parameters:
+    - id: indicator
+      type: TradingPlatform.BusinessLayer.Indicator
+    content.vb: Public Sub New(indicator As Indicator = Nothing)
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue(System.Double,System.Double,System.Double,System.Double)
+  id: AddValue(System.Double,System.Double,System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Double, Double, Double, Double)
+  nameWithType: HistoricalDataCustom.AddValue(Double, Double, Double, Double)
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue(System.Double, System.Double, System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: AddValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 79
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void AddValue(double open, double high, double low, double close)
+    parameters:
+    - id: open
+      type: System.Double
+    - id: high
+      type: System.Double
+    - id: low
+      type: System.Double
+    - id: close
+      type: System.Double
+    content.vb: Public Sub AddValue(open As Double, high As Double, low As Double, close As Double)
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue(System.Double,System.Double,System.Double,System.Double,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue(System.Double,System.Double,System.Double,System.Double,System.Int32)
+  id: SetValue(System.Double,System.Double,System.Double,System.Double,System.Int32)
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: SetValue(Double, Double, Double, Double, Int32)
+  nameWithType: HistoricalDataCustom.SetValue(Double, Double, Double, Double, Int32)
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue(System.Double, System.Double, System.Double, System.Double, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: SetValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 88
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void SetValue(double open, double high, double low, double close, int offset = 0)
+    parameters:
+    - id: open
+      type: System.Double
+    - id: high
+      type: System.Double
+    - id: low
+      type: System.Double
+    - id: close
+      type: System.Double
+    - id: offset
+      type: System.Int32
+    content.vb: Public Sub SetValue(open As Double, high As Double, low As Double, close As Double, offset As Integer = 0)
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  id: OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: OnNewHistoryItem(IHistoryItem)
+  nameWithType: HistoricalDataCustom.OnNewHistoryItem(IHistoryItem)
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: OnNewHistoryItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 119
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override void OnNewHistoryItem(IHistoryItem item)
+    parameters:
+    - id: item
+      type: TradingPlatform.BusinessLayer.IHistoryItem
+    content.vb: Protected Overrides Sub OnNewHistoryItem(item As IHistoryItem)
+  overridden: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  id: UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: UpdateIndicatorsOnNewItem(HistoryEventArgs)
+  nameWithType: HistoricalDataCustom.UpdateIndicatorsOnNewItem(HistoryEventArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: UpdateIndicatorsOnNewItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 127
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override void UpdateIndicatorsOnNewItem(HistoryEventArgs e = null)
+    parameters:
+    - id: e
+      type: TradingPlatform.BusinessLayer.HistoryEventArgs
+    content.vb: Protected Overrides Sub UpdateIndicatorsOnNewItem(e As HistoryEventArgs = Nothing)
+  overridden: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: HistoricalDataCustom.Dispose()
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 135
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose
+  overridden: TradingPlatform.BusinessLayer.HistoricalData.Dispose
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor
+  id: InitializeHistoryProcessor
+  parent: TradingPlatform.BusinessLayer.HistoricalDataCustom
+  langs:
+  - csharp
+  - vb
+  name: InitializeHistoryProcessor()
+  nameWithType: HistoricalDataCustom.InitializeHistoryProcessor()
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    id: InitializeHistoryProcessor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Custom/HistoricalDataCustom.cs
+    startLine: 148
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected override void InitializeHistoryProcessor()
+    content.vb: Protected Overrides Sub InitializeHistoryProcessor
+  overridden: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+  overload: TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.HistoricalData
+  commentId: T:TradingPlatform.BusinessLayer.HistoricalData
+  parent: TradingPlatform.BusinessLayer
+  name: HistoricalData
+  nameWithType: HistoricalData
+  fullName: TradingPlatform.BusinessLayer.HistoricalData
+- uid: TradingPlatform.BusinessLayer.IHistoricalData
+  commentId: T:TradingPlatform.BusinessLayer.IHistoricalData
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoricalData
+  nameWithType: IHistoricalData
+  fullName: TradingPlatform.BusinessLayer.IHistoricalData
+- uid: TradingPlatform.BusinessLayer.IIndicatorsCollection
+  commentId: T:TradingPlatform.BusinessLayer.IIndicatorsCollection
+  parent: TradingPlatform.BusinessLayer
+  name: IIndicatorsCollection
+  nameWithType: IIndicatorsCollection
+  fullName: TradingPlatform.BusinessLayer.IIndicatorsCollection
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.Instrument
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Instrument
+  nameWithType: HistoricalData.Instrument
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Instrument
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Period
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.Period
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Period
+  nameWithType: HistoricalData.Period
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Period
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Aggregation
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.Aggregation
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Aggregation
+  nameWithType: HistoricalData.Aggregation
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Aggregation
+- uid: TradingPlatform.BusinessLayer.HistoricalData.HistoryType
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.HistoryType
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: HistoryType
+  nameWithType: HistoricalData.HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.HistoryType
+- uid: TradingPlatform.BusinessLayer.HistoricalData.FromTime
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.FromTime
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: FromTime
+  nameWithType: HistoricalData.FromTime
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.FromTime
+- uid: TradingPlatform.BusinessLayer.HistoricalData.ToTime
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.ToTime
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: ToTime
+  nameWithType: HistoricalData.ToTime
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.ToTime
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Count
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.Count
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Count
+  nameWithType: HistoricalData.Count
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Count
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Item(System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.Item(System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  isExternal: true
+  name: Item[Int32, SeekOriginHistory]
+  nameWithType: HistoricalData.Item[Int32, SeekOriginHistory]
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Item[System.Int32, TradingPlatform.BusinessLayer.SeekOriginHistory]
+  nameWithType.vb: HistoricalData.Item(Int32, SeekOriginHistory)
+  fullName.vb: TradingPlatform.BusinessLayer.HistoricalData.Item(System.Int32, TradingPlatform.BusinessLayer.SeekOriginHistory)
+  name.vb: Item(Int32, SeekOriginHistory)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Item(System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+    name: Item
+    nameWithType: HistoricalData.Item
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+    nameWithType: SeekOriginHistory
+    fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Item(System.Int32,TradingPlatform.BusinessLayer.SeekOriginHistory)
+    name: Item
+    nameWithType: HistoricalData.Item
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+    nameWithType: SeekOriginHistory
+    fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.NewHistoryItem
+  commentId: E:TradingPlatform.BusinessLayer.HistoricalData.NewHistoryItem
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: NewHistoryItem
+  nameWithType: HistoricalData.NewHistoryItem
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.NewHistoryItem
+- uid: TradingPlatform.BusinessLayer.HistoricalData.HistoryItemUpdated
+  commentId: E:TradingPlatform.BusinessLayer.HistoricalData.HistoryItemUpdated
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: HistoryItemUpdated
+  nameWithType: HistoricalData.HistoryItemUpdated
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.HistoryItemUpdated
+- uid: TradingPlatform.BusinessLayer.HistoricalData.items
+  commentId: F:TradingPlatform.BusinessLayer.HistoricalData.items
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: items
+  nameWithType: HistoricalData.items
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.items
+- uid: TradingPlatform.BusinessLayer.HistoricalData.itemsLocker
+  commentId: F:TradingPlatform.BusinessLayer.HistoricalData.itemsLocker
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: itemsLocker
+  nameWithType: HistoricalData.itemsLocker
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.itemsLocker
+- uid: TradingPlatform.BusinessLayer.HistoricalData.parameters
+  commentId: F:TradingPlatform.BusinessLayer.HistoricalData.parameters
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: parameters
+  nameWithType: HistoricalData.parameters
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.parameters
+- uid: TradingPlatform.BusinessLayer.HistoricalData.historyProcessor
+  commentId: F:TradingPlatform.BusinessLayer.HistoricalData.historyProcessor
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: historyProcessor
+  nameWithType: HistoricalData.historyProcessor
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.historyProcessor
+- uid: TradingPlatform.BusinessLayer.HistoricalData.DefaultIndicators
+  commentId: P:TradingPlatform.BusinessLayer.HistoricalData.DefaultIndicators
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: DefaultIndicators
+  nameWithType: HistoricalData.DefaultIndicators
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.DefaultIndicators
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Reload
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.Reload
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Reload()
+  nameWithType: HistoricalData.Reload()
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Reload()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Reload
+    name: Reload
+    nameWithType: HistoricalData.Reload
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Reload
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Reload
+    name: Reload
+    nameWithType: HistoricalData.Reload
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Reload
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: GetHistoryFromVendor(HistoryRequestParameters)
+  nameWithType: HistoricalData.GetHistoryFromVendor(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: GetHistoryFromVendor
+    nameWithType: HistoricalData.GetHistoryFromVendor
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: GetHistoryFromVendor
+    nameWithType: HistoricalData.GetHistoryFromVendor
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.GetHistoryFromVendor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Clear
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.Clear
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Clear()
+  nameWithType: HistoricalData.Clear()
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Clear
+    name: Clear
+    nameWithType: HistoricalData.Clear
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Clear
+    name: Clear
+    nameWithType: HistoricalData.Clear
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime(System.Int64,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime(System.Int64,TradingPlatform.BusinessLayer.SeekOriginHistory)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  isExternal: true
+  name: GetIndexByTime(Int64, SeekOriginHistory)
+  nameWithType: HistoricalData.GetIndexByTime(Int64, SeekOriginHistory)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime(System.Int64, TradingPlatform.BusinessLayer.SeekOriginHistory)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime(System.Int64,TradingPlatform.BusinessLayer.SeekOriginHistory)
+    name: GetIndexByTime
+    nameWithType: HistoricalData.GetIndexByTime
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+    nameWithType: SeekOriginHistory
+    fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime(System.Int64,TradingPlatform.BusinessLayer.SeekOriginHistory)
+    name: GetIndexByTime
+    nameWithType: HistoricalData.GetIndexByTime
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.GetIndexByTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+    name: SeekOriginHistory
+    nameWithType: SeekOriginHistory
+    fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.indicatorsCache
+  commentId: F:TradingPlatform.BusinessLayer.HistoricalData.indicatorsCache
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: indicatorsCache
+  nameWithType: HistoricalData.indicatorsCache
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.indicatorsCache
+- uid: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String,TradingPlatform.BusinessLayer.SettingItem[])
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String,TradingPlatform.BusinessLayer.SettingItem[])
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  isExternal: true
+  name: AddIndicator(String, SettingItem[])
+  nameWithType: HistoricalData.AddIndicator(String, SettingItem[])
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String, TradingPlatform.BusinessLayer.SettingItem[])
+  nameWithType.vb: HistoricalData.AddIndicator(String, SettingItem())
+  fullName.vb: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String, TradingPlatform.BusinessLayer.SettingItem())
+  name.vb: AddIndicator(String, SettingItem())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String,TradingPlatform.BusinessLayer.SettingItem[])
+    name: AddIndicator
+    nameWithType: HistoricalData.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(System.String,TradingPlatform.BusinessLayer.SettingItem[])
+    name: AddIndicator
+    nameWithType: HistoricalData.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: AddIndicator(Indicator)
+  nameWithType: HistoricalData.AddIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: AddIndicator
+    nameWithType: HistoricalData.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: AddIndicator
+    nameWithType: HistoricalData.AddIndicator
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.AddIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: RemoveIndicator(Indicator)
+  nameWithType: HistoricalData.RemoveIndicator(Indicator)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: RemoveIndicator
+    nameWithType: HistoricalData.RemoveIndicator
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator(TradingPlatform.BusinessLayer.Indicator)
+    name: RemoveIndicator
+    nameWithType: HistoricalData.RemoveIndicator
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.RemoveIndicator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Indicator
+    name: Indicator
+    nameWithType: Indicator
+    fullName: TradingPlatform.BusinessLayer.Indicator
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: CallIndicatorsOnUpdate(UpdateArgs)
+  nameWithType: HistoricalData.CallIndicatorsOnUpdate(UpdateArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: CallIndicatorsOnUpdate
+    nameWithType: HistoricalData.CallIndicatorsOnUpdate
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: CallIndicatorsOnUpdate
+    nameWithType: HistoricalData.CallIndicatorsOnUpdate
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.CallIndicatorsOnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.AddNewItem(TradingPlatform.BusinessLayer.IHistoryItem,System.Boolean,TradingPlatform.BusinessLayer.HistoryEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.AddNewItem(TradingPlatform.BusinessLayer.IHistoryItem,System.Boolean,TradingPlatform.BusinessLayer.HistoryEventArgs)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  isExternal: true
+  name: AddNewItem(IHistoryItem, Boolean, HistoryEventArgs)
+  nameWithType: HistoricalData.AddNewItem(IHistoryItem, Boolean, HistoryEventArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.AddNewItem(TradingPlatform.BusinessLayer.IHistoryItem, System.Boolean, TradingPlatform.BusinessLayer.HistoryEventArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.AddNewItem(TradingPlatform.BusinessLayer.IHistoryItem,System.Boolean,TradingPlatform.BusinessLayer.HistoryEventArgs)
+    name: AddNewItem
+    nameWithType: HistoricalData.AddNewItem
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.AddNewItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+    nameWithType: HistoryEventArgs
+    fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.AddNewItem(TradingPlatform.BusinessLayer.IHistoryItem,System.Boolean,TradingPlatform.BusinessLayer.HistoryEventArgs)
+    name: AddNewItem
+    nameWithType: HistoricalData.AddNewItem
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.AddNewItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+    nameWithType: HistoryEventArgs
+    fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: OnHistoryItemUpdated(HistoryEventArgs)
+  nameWithType: HistoricalData.OnHistoryItemUpdated(HistoryEventArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+    name: OnHistoryItemUpdated
+    nameWithType: HistoricalData.OnHistoryItemUpdated
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+    nameWithType: HistoryEventArgs
+    fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated(TradingPlatform.BusinessLayer.HistoryEventArgs)
+    name: OnHistoryItemUpdated
+    nameWithType: HistoricalData.OnHistoryItemUpdated
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.OnHistoryItemUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+    nameWithType: HistoryEventArgs
+    fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem})
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem})
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  isExternal: true
+  name: FilterHistoryByRequestParameters(HistoryRequestParameters, IList<IHistoryItem>)
+  nameWithType: HistoricalData.FilterHistoryByRequestParameters(HistoryRequestParameters, IList<IHistoryItem>)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters, System.Collections.Generic.IList<TradingPlatform.BusinessLayer.IHistoryItem>)
+  nameWithType.vb: HistoricalData.FilterHistoryByRequestParameters(HistoryRequestParameters, IList(Of IHistoryItem))
+  fullName.vb: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters, System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.IHistoryItem))
+  name.vb: FilterHistoryByRequestParameters(HistoryRequestParameters, IList(Of IHistoryItem))
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem})
+    name: FilterHistoryByRequestParameters
+    nameWithType: HistoricalData.FilterHistoryByRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters(TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem})
+    name: FilterHistoryByRequestParameters
+    nameWithType: HistoricalData.FilterHistoryByRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.FilterHistoryByRequestParameters
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.Item*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.Item
+  name: Item
+  nameWithType: HistoricalDataCustom.Item
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.Item
+- uid: TradingPlatform.BusinessLayer.PriceType
+  commentId: T:TradingPlatform.BusinessLayer.PriceType
+  parent: TradingPlatform.BusinessLayer
+  name: PriceType
+  nameWithType: PriceType
+  fullName: TradingPlatform.BusinessLayer.PriceType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.#ctor
+  name: HistoricalDataCustom
+  nameWithType: HistoricalDataCustom.HistoricalDataCustom
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.HistoricalDataCustom
+- uid: TradingPlatform.BusinessLayer.Indicator
+  commentId: T:TradingPlatform.BusinessLayer.Indicator
+  parent: TradingPlatform.BusinessLayer
+  name: Indicator
+  nameWithType: Indicator
+  fullName: TradingPlatform.BusinessLayer.Indicator
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue
+  name: AddValue
+  nameWithType: HistoricalDataCustom.AddValue
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.AddValue
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue
+  name: SetValue
+  nameWithType: HistoricalDataCustom.SetValue
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.SetValue
+- uid: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: OnNewHistoryItem(IHistoryItem)
+  nameWithType: HistoricalData.OnNewHistoryItem(IHistoryItem)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+    name: OnNewHistoryItem
+    nameWithType: HistoricalData.OnNewHistoryItem
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem(TradingPlatform.BusinessLayer.IHistoryItem)
+    name: OnNewHistoryItem
+    nameWithType: HistoricalData.OnNewHistoryItem
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.OnNewHistoryItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem
+  name: OnNewHistoryItem
+  nameWithType: HistoricalDataCustom.OnNewHistoryItem
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.OnNewHistoryItem
+- uid: TradingPlatform.BusinessLayer.IHistoryItem
+  commentId: T:TradingPlatform.BusinessLayer.IHistoryItem
+  parent: TradingPlatform.BusinessLayer
+  name: IHistoryItem
+  nameWithType: IHistoryItem
+  fullName: TradingPlatform.BusinessLayer.IHistoryItem
+- uid: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: UpdateIndicatorsOnNewItem(HistoryEventArgs)
+  nameWithType: HistoricalData.UpdateIndicatorsOnNewItem(HistoryEventArgs)
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+    name: UpdateIndicatorsOnNewItem
+    nameWithType: HistoricalData.UpdateIndicatorsOnNewItem
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+    nameWithType: HistoryEventArgs
+    fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem(TradingPlatform.BusinessLayer.HistoryEventArgs)
+    name: UpdateIndicatorsOnNewItem
+    nameWithType: HistoricalData.UpdateIndicatorsOnNewItem
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.UpdateIndicatorsOnNewItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+    name: HistoryEventArgs
+    nameWithType: HistoryEventArgs
+    fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem
+  name: UpdateIndicatorsOnNewItem
+  nameWithType: HistoricalDataCustom.UpdateIndicatorsOnNewItem
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.UpdateIndicatorsOnNewItem
+- uid: TradingPlatform.BusinessLayer.HistoryEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.HistoryEventArgs
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryEventArgs
+  nameWithType: HistoryEventArgs
+  fullName: TradingPlatform.BusinessLayer.HistoryEventArgs
+- uid: TradingPlatform.BusinessLayer.HistoricalData.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.Dispose
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: Dispose()
+  nameWithType: HistoricalData.Dispose()
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.Dispose()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Dispose
+    name: Dispose
+    nameWithType: HistoricalData.Dispose
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.Dispose
+    name: Dispose
+    nameWithType: HistoricalData.Dispose
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose
+  name: Dispose
+  nameWithType: HistoricalDataCustom.Dispose
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.Dispose
+- uid: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+  commentId: M:TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+  parent: TradingPlatform.BusinessLayer.HistoricalData
+  name: InitializeHistoryProcessor()
+  nameWithType: HistoricalData.InitializeHistoryProcessor()
+  fullName: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+    name: InitializeHistoryProcessor
+    nameWithType: HistoricalData.InitializeHistoryProcessor
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+    name: InitializeHistoryProcessor
+    nameWithType: HistoricalData.InitializeHistoryProcessor
+    fullName: TradingPlatform.BusinessLayer.HistoricalData.InitializeHistoryProcessor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor
+  name: InitializeHistoryProcessor
+  nameWithType: HistoricalDataCustom.InitializeHistoryProcessor
+  fullName: TradingPlatform.BusinessLayer.HistoricalDataCustom.InitializeHistoryProcessor

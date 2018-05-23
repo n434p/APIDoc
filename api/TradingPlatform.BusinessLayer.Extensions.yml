@@ -1,0 +1,1911 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  id: Extensions
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Extensions.AddRange(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  - TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},TradingPlatform.BusinessLayer.SettingItemVisualGroup,System.String[])
+  - TradingPlatform.BusinessLayer.Extensions.Contains(System.String,System.String,System.StringComparison)
+  - TradingPlatform.BusinessLayer.Extensions.Format(System.Double,System.Int32,System.Boolean)
+  - TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  - TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double)
+  - TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double,System.Int32)
+  - TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  - TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  - TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  - TradingPlatform.BusinessLayer.Extensions.GetItemByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  - TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.Int32)
+  - TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.String)
+  - TradingPlatform.BusinessLayer.Extensions.GetItemsByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  - TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault(System.Double)
+  - TradingPlatform.BusinessLayer.Extensions.ToBool(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToColor(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToDateTime(System.Xml.Linq.XElement,System.Boolean)
+  - TradingPlatform.BusinessLayer.Extensions.ToDecimal(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToDouble(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToFont(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToInt(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToTimeSpan(System.Xml.Linq.XElement)
+  - TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Color,System.String)
+  - TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Font,System.String)
+  - TradingPlatform.BusinessLayer.Extensions.UpdateItemValue(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: Extensions
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static class Extensions
+    content.vb: Public Module Extensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  id: GetItemByName(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetItemByName(List<SettingItem>, String)
+  nameWithType: Extensions.GetItemByName(List<SettingItem>, String)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.List<TradingPlatform.BusinessLayer.SettingItem>, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetItemByName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SettingItem GetItemByName(this List<SettingItem> list, string name)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem}
+    - id: name
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItem
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetItemByName(list As List(Of SettingItem), name As String) As SettingItem
+  overload: TradingPlatform.BusinessLayer.Extensions.GetItemByName*
+  nameWithType.vb: Extensions.GetItemByName(List(Of SettingItem), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.SettingItem), System.String)
+  name.vb: GetItemByName(List(Of SettingItem), String)
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  id: GetItemByName(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetItemByName(IList<SettingItem>, String)
+  nameWithType: Extensions.GetItemByName(IList<SettingItem>, String)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetItemByName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SettingItem GetItemByName(this IList<SettingItem> list, string name)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: name
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItem
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetItemByName(list As IList(Of SettingItem), name As String) As SettingItem
+  overload: TradingPlatform.BusinessLayer.Extensions.GetItemByName*
+  nameWithType.vb: Extensions.GetItemByName(IList(Of SettingItem), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.GetItemByName(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), System.String)
+  name.vb: GetItemByName(IList(Of SettingItem), String)
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetItemByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  id: GetItemByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetItemByPath(IList<SettingItem>, String[])
+  nameWithType: Extensions.GetItemByPath(IList<SettingItem>, String[])
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByPath(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, System.String[])
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetItemByPath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SettingItem GetItemByPath(this IList<SettingItem> list, params string[] pathLevels)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: pathLevels
+      type: System.String[]
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItem
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetItemByPath(list As IList(Of SettingItem), ParamArray pathLevels As String()) As SettingItem
+  overload: TradingPlatform.BusinessLayer.Extensions.GetItemByPath*
+  nameWithType.vb: Extensions.GetItemByPath(IList(Of SettingItem), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.GetItemByPath(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), System.String())
+  name.vb: GetItemByPath(IList(Of SettingItem), String())
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemsByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetItemsByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  id: GetItemsByPath(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String[])
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetItemsByPath(IList<SettingItem>, String[])
+  nameWithType: Extensions.GetItemsByPath(IList<SettingItem>, String[])
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemsByPath(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, System.String[])
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetItemsByPath
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 61
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nGet all settings or particular setings by provided hierarchy path\n"
+  example: []
+  syntax:
+    content: public static IList<SettingItem> GetItemsByPath(this IList<SettingItem> list, params string[] pathLevels)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: pathLevels
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetItemsByPath(list As IList(Of SettingItem), ParamArray pathLevels As String()) As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.Extensions.GetItemsByPath*
+  nameWithType.vb: Extensions.GetItemsByPath(IList(Of SettingItem), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.GetItemsByPath(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), System.String())
+  name.vb: GetItemsByPath(IList(Of SettingItem), String())
+- uid: TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},TradingPlatform.BusinessLayer.SettingItemVisualGroup,System.String[])
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},TradingPlatform.BusinessLayer.SettingItemVisualGroup,System.String[])
+  id: ApplyVisualGroup(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},TradingPlatform.BusinessLayer.SettingItemVisualGroup,System.String[])
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyVisualGroup(IList<SettingItem>, SettingItemVisualGroup, String[])
+  nameWithType: Extensions.ApplyVisualGroup(IList<SettingItem>, SettingItemVisualGroup, String[])
+  fullName: TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, TradingPlatform.BusinessLayer.SettingItemVisualGroup, System.String[])
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ApplyVisualGroup
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 86
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static void ApplyVisualGroup(this IList<SettingItem> list, SettingItemVisualGroup visualGroup, params string[] pathLevels)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: visualGroup
+      type: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+    - id: pathLevels
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ApplyVisualGroup(list As IList(Of SettingItem), visualGroup As SettingItemVisualGroup, ParamArray pathLevels As String())
+  overload: TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup*
+  nameWithType.vb: Extensions.ApplyVisualGroup(IList(Of SettingItem), SettingItemVisualGroup, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), TradingPlatform.BusinessLayer.SettingItemVisualGroup, System.String())
+  name.vb: ApplyVisualGroup(IList(Of SettingItem), SettingItemVisualGroup, String())
+- uid: TradingPlatform.BusinessLayer.Extensions.UpdateItemValue(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String,System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.UpdateItemValue(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String,System.Object)
+  id: UpdateItemValue(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.String,System.Object)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: UpdateItemValue(IList<SettingItem>, String, Object)
+  nameWithType: Extensions.UpdateItemValue(IList<SettingItem>, String, Object)
+  fullName: TradingPlatform.BusinessLayer.Extensions.UpdateItemValue(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: UpdateItemValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 100
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SettingItem UpdateItemValue(this IList<SettingItem> list, string name, object newValue)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: name
+      type: System.String
+    - id: newValue
+      type: System.Object
+    return:
+      type: TradingPlatform.BusinessLayer.SettingItem
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateItemValue(list As IList(Of SettingItem), name As String, newValue As Object) As SettingItem
+  overload: TradingPlatform.BusinessLayer.Extensions.UpdateItemValue*
+  nameWithType.vb: Extensions.UpdateItemValue(IList(Of SettingItem), String, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.UpdateItemValue(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), System.String, System.Object)
+  name.vb: UpdateItemValue(IList(Of SettingItem), String, Object)
+- uid: TradingPlatform.BusinessLayer.Extensions.AddRange(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.AddRange(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  id: AddRange(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem})
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: AddRange(IList<SettingItem>, IList<SettingItem>)
+  nameWithType: Extensions.AddRange(IList<SettingItem>, IList<SettingItem>)
+  fullName: TradingPlatform.BusinessLayer.Extensions.AddRange(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: AddRange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 120
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static void AddRange(this IList<SettingItem> list, IList<SettingItem> items)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: items
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddRange(list As IList(Of SettingItem), items As IList(Of SettingItem))
+  overload: TradingPlatform.BusinessLayer.Extensions.AddRange*
+  nameWithType.vb: Extensions.AddRange(IList(Of SettingItem), IList(Of SettingItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.AddRange(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem))
+  name.vb: AddRange(IList(Of SettingItem), IList(Of SettingItem))
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.Int32)
+  id: GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.Int32)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetItemByValue(List<SelectItem>, Int32)
+  nameWithType: Extensions.GetItemByValue(List<SelectItem>, Int32)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List<TradingPlatform.BusinessLayer.SelectItem>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetItemByValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 132
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SelectItem GetItemByValue(this List<SelectItem> list, int value)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem}
+    - id: value
+      type: System.Int32
+    return:
+      type: TradingPlatform.BusinessLayer.SelectItem
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetItemByValue(list As List(Of SelectItem), value As Integer) As SelectItem
+  overload: TradingPlatform.BusinessLayer.Extensions.GetItemByValue*
+  nameWithType.vb: Extensions.GetItemByValue(List(Of SelectItem), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.SelectItem), System.Int32)
+  name.vb: GetItemByValue(List(Of SelectItem), Int32)
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.String)
+  id: GetItemByValue(System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem},System.String)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetItemByValue(List<SelectItem>, String)
+  nameWithType: Extensions.GetItemByValue(List<SelectItem>, String)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List<TradingPlatform.BusinessLayer.SelectItem>, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetItemByValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 136
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static SelectItem GetItemByValue(this List<SelectItem> list, string value)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem}
+    - id: value
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.SelectItem
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetItemByValue(list As List(Of SelectItem), value As String) As SelectItem
+  overload: TradingPlatform.BusinessLayer.Extensions.GetItemByValue*
+  nameWithType.vb: Extensions.GetItemByValue(List(Of SelectItem), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.Extensions.GetItemByValue(System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.SelectItem), System.String)
+  name.vb: GetItemByValue(List(Of SelectItem), String)
+- uid: TradingPlatform.BusinessLayer.Extensions.Contains(System.String,System.String,System.StringComparison)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.Contains(System.String,System.String,System.StringComparison)
+  id: Contains(System.String,System.String,System.StringComparison)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: Contains(String, String, StringComparison)
+  nameWithType: Extensions.Contains(String, String, StringComparison)
+  fullName: TradingPlatform.BusinessLayer.Extensions.Contains(System.String, System.String, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: Contains
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 144
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool Contains(this string str1, string str2, StringComparison stringComparison)
+    parameters:
+    - id: str1
+      type: System.String
+    - id: str2
+      type: System.String
+    - id: stringComparison
+      type: System.StringComparison
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Contains(str1 As String, str2 As String, stringComparison As StringComparison) As Boolean
+  overload: TradingPlatform.BusinessLayer.Extensions.Contains*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.Format(System.Double,System.Int32,System.Boolean)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.Format(System.Double,System.Int32,System.Boolean)
+  id: Format(System.Double,System.Int32,System.Boolean)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: Format(Double, Int32, Boolean)
+  nameWithType: Extensions.Format(Double, Int32, Boolean)
+  fullName: TradingPlatform.BusinessLayer.Extensions.Format(System.Double, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: Format
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 152
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string Format(this double value, int precision = 2, bool abbreviate = false)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: precision
+      type: System.Int32
+    - id: abbreviate
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Format(value As Double, precision As Integer = 2, abbreviate As Boolean = False) As String
+  overload: TradingPlatform.BusinessLayer.Extensions.Format*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault(System.Double)
+  id: IsNanOrDefault(System.Double)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: IsNanOrDefault(Double)
+  nameWithType: Extensions.IsNanOrDefault(Double)
+  fullName: TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: IsNanOrDefault
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 205
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nПроверяет явлиется ли значение НАН или нулем! \n"
+  example: []
+  syntax:
+    content: public static bool IsNanOrDefault(this double value)
+    parameters:
+    - id: value
+      type: System.Double
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNanOrDefault(value As Double) As Boolean
+  overload: TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double)
+  id: FormatPriceWithMaxPrecision(System.Double)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FormatPriceWithMaxPrecision(Double)
+  nameWithType: Extensions.FormatPriceWithMaxPrecision(Double)
+  fullName: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: FormatPriceWithMaxPrecision
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 210
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string FormatPriceWithMaxPrecision(this double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FormatPriceWithMaxPrecision(price As Double) As String
+  overload: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double,System.Int32)
+  id: FormatPriceWithMaxPrecision(System.Double,System.Int32)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FormatPriceWithMaxPrecision(Double, Int32)
+  nameWithType: Extensions.FormatPriceWithMaxPrecision(Double, Int32)
+  fullName: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision(System.Double, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: FormatPriceWithMaxPrecision
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 219
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string FormatPriceWithMaxPrecision(this double price, int precision)
+    parameters:
+    - id: price
+      type: System.Double
+    - id: precision
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FormatPriceWithMaxPrecision(price As Double, precision As Integer) As String
+  overload: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  id: Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: Format(TimeInForce, DateTime)
+  nameWithType: Extensions.Format(TimeInForce, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: Format
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 243
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string Format(this TimeInForce value, DateTime expiration = default(DateTime))
+    parameters:
+    - id: value
+      type: TradingPlatform.BusinessLayer.TimeInForce
+    - id: expiration
+      type: System.DateTime
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Format(value As TimeInForce, expiration As Date = Nothing) As String
+  overload: TradingPlatform.BusinessLayer.Extensions.Format*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  id: GetDescription(System.Enum)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: GetDescription
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 254
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static string GetDescription(this Enum value)
+    parameters:
+    - id: value
+      type: System.Enum
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDescription(value As  Enum) As String
+  overload: TradingPlatform.BusinessLayer.Extensions.GetDescription*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToBool(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToBool(System.Xml.Linq.XElement)
+  id: ToBool(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToBool(XElement)
+  nameWithType: Extensions.ToBool(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToBool(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToBool
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 274
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static bool ToBool(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToBool(element As XElement) As Boolean
+  overload: TradingPlatform.BusinessLayer.Extensions.ToBool*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToInt(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToInt(System.Xml.Linq.XElement)
+  id: ToInt(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToInt(XElement)
+  nameWithType: Extensions.ToInt(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToInt(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToInt
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 283
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static int ToInt(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInt(element As XElement) As Integer
+  overload: TradingPlatform.BusinessLayer.Extensions.ToInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToDouble(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToDouble(System.Xml.Linq.XElement)
+  id: ToDouble(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(XElement)
+  nameWithType: Extensions.ToDouble(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToDouble(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToDouble
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 292
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static double ToDouble(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.Double
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDouble(element As XElement) As Double
+  overload: TradingPlatform.BusinessLayer.Extensions.ToDouble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToDecimal(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToDecimal(System.Xml.Linq.XElement)
+  id: ToDecimal(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToDecimal(XElement)
+  nameWithType: Extensions.ToDecimal(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToDecimal(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToDecimal
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 301
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static decimal ToDecimal(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.Decimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDecimal(element As XElement) As Decimal
+  overload: TradingPlatform.BusinessLayer.Extensions.ToDecimal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToDateTime(System.Xml.Linq.XElement,System.Boolean)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToDateTime(System.Xml.Linq.XElement,System.Boolean)
+  id: ToDateTime(System.Xml.Linq.XElement,System.Boolean)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(XElement, Boolean)
+  nameWithType: Extensions.ToDateTime(XElement, Boolean)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToDateTime(System.Xml.Linq.XElement, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToDateTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 309
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static DateTime ToDateTime(this XElement element, bool toUTC = false)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: toUTC
+      type: System.Boolean
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTime(element As XElement, toUTC As Boolean = False) As Date
+  overload: TradingPlatform.BusinessLayer.Extensions.ToDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToTimeSpan(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToTimeSpan(System.Xml.Linq.XElement)
+  id: ToTimeSpan(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToTimeSpan(XElement)
+  nameWithType: Extensions.ToTimeSpan(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToTimeSpan(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToTimeSpan
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 322
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static TimeSpan ToTimeSpan(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.TimeSpan
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTimeSpan(element As XElement) As TimeSpan
+  overload: TradingPlatform.BusinessLayer.Extensions.ToTimeSpan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToColor(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToColor(System.Xml.Linq.XElement)
+  id: ToColor(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToColor(XElement)
+  nameWithType: Extensions.ToColor(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToColor(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToColor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 330
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Color ToColor(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.Drawing.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToColor(element As XElement) As Color
+  overload: TradingPlatform.BusinessLayer.Extensions.ToColor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Color,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Color,System.String)
+  id: ToXElement(System.Drawing.Color,System.String)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToXElement(Color, String)
+  nameWithType: Extensions.ToXElement(Color, String)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Color, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 350
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static XElement ToXElement(this Color color, string nodeName = "Color")
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+    - id: nodeName
+      type: System.String
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToXElement(color As Color, nodeName As String = "Color") As XElement
+  overload: TradingPlatform.BusinessLayer.Extensions.ToXElement*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToFont(System.Xml.Linq.XElement)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToFont(System.Xml.Linq.XElement)
+  id: ToFont(System.Xml.Linq.XElement)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToFont(XElement)
+  nameWithType: Extensions.ToFont(XElement)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToFont(System.Xml.Linq.XElement)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToFont
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 355
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static Font ToFont(this XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    return:
+      type: System.Drawing.Font
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToFont(element As XElement) As Font
+  overload: TradingPlatform.BusinessLayer.Extensions.ToFont*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Font,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Font,System.String)
+  id: ToXElement(System.Drawing.Font,System.String)
+  isExtensionMethod: true
+  parent: TradingPlatform.BusinessLayer.Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToXElement(Font, String)
+  nameWithType: Extensions.ToXElement(Font, String)
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToXElement(System.Drawing.Font, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Extensions.cs
+    startLine: 376
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public static XElement ToXElement(this Font font, string nodeName = "Font")
+    parameters:
+    - id: font
+      type: System.Drawing.Font
+    - id: nodeName
+      type: System.String
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToXElement(font As Font, nodeName As String = "Font") As XElement
+  overload: TradingPlatform.BusinessLayer.Extensions.ToXElement*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByName*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.GetItemByName
+  name: GetItemByName
+  nameWithType: Extensions.GetItemByName
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByName
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SettingItem>
+  nameWithType: List<SettingItem>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: List(Of SettingItem)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: List(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.SettingItem
+  commentId: T:TradingPlatform.BusinessLayer.SettingItem
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItem
+  nameWithType: SettingItem
+  fullName: TradingPlatform.BusinessLayer.SettingItem
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByPath*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.GetItemByPath
+  name: GetItemByPath
+  nameWithType: Extensions.GetItemByPath
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByPath
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemsByPath*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.GetItemsByPath
+  name: GetItemsByPath
+  nameWithType: Extensions.GetItemsByPath
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemsByPath
+- uid: TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup
+  name: ApplyVisualGroup
+  nameWithType: Extensions.ApplyVisualGroup
+  fullName: TradingPlatform.BusinessLayer.Extensions.ApplyVisualGroup
+- uid: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemVisualGroup
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemVisualGroup
+  nameWithType: SettingItemVisualGroup
+  fullName: TradingPlatform.BusinessLayer.SettingItemVisualGroup
+- uid: TradingPlatform.BusinessLayer.Extensions.UpdateItemValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.UpdateItemValue
+  name: UpdateItemValue
+  nameWithType: Extensions.UpdateItemValue
+  fullName: TradingPlatform.BusinessLayer.Extensions.UpdateItemValue
+- uid: TradingPlatform.BusinessLayer.Extensions.AddRange*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.AddRange
+  name: AddRange
+  nameWithType: Extensions.AddRange
+  fullName: TradingPlatform.BusinessLayer.Extensions.AddRange
+- uid: TradingPlatform.BusinessLayer.Extensions.GetItemByValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.GetItemByValue
+  name: GetItemByValue
+  nameWithType: Extensions.GetItemByValue
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetItemByValue
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.SelectItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SelectItem>
+  nameWithType: List<SelectItem>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.SelectItem>
+  nameWithType.vb: List(Of SelectItem)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.SelectItem)
+  name.vb: List(Of SelectItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SelectItem
+    name: SelectItem
+    nameWithType: SelectItem
+    fullName: TradingPlatform.BusinessLayer.SelectItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SelectItem
+    name: SelectItem
+    nameWithType: SelectItem
+    fullName: TradingPlatform.BusinessLayer.SelectItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.SelectItem
+  commentId: T:TradingPlatform.BusinessLayer.SelectItem
+  parent: TradingPlatform.BusinessLayer
+  name: SelectItem
+  nameWithType: SelectItem
+  fullName: TradingPlatform.BusinessLayer.SelectItem
+- uid: TradingPlatform.BusinessLayer.Extensions.Contains*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.Contains
+  name: Contains
+  nameWithType: Extensions.Contains
+  fullName: TradingPlatform.BusinessLayer.Extensions.Contains
+- uid: System.StringComparison
+  commentId: T:System.StringComparison
+  parent: System
+  isExternal: true
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: System.StringComparison
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Extensions.Format*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.Format
+  name: Format
+  nameWithType: Extensions.Format
+  fullName: TradingPlatform.BusinessLayer.Extensions.Format
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault
+  name: IsNanOrDefault
+  nameWithType: Extensions.IsNanOrDefault
+  fullName: TradingPlatform.BusinessLayer.Extensions.IsNanOrDefault
+- uid: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision
+  name: FormatPriceWithMaxPrecision
+  nameWithType: Extensions.FormatPriceWithMaxPrecision
+  fullName: TradingPlatform.BusinessLayer.Extensions.FormatPriceWithMaxPrecision
+- uid: TradingPlatform.BusinessLayer.TimeInForce
+  commentId: T:TradingPlatform.BusinessLayer.TimeInForce
+  parent: TradingPlatform.BusinessLayer
+  name: TimeInForce
+  nameWithType: TimeInForce
+  fullName: TradingPlatform.BusinessLayer.TimeInForce
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.GetDescription
+  name: GetDescription
+  nameWithType: Extensions.GetDescription
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: TradingPlatform.BusinessLayer.Extensions.ToBool*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToBool
+  name: ToBool
+  nameWithType: Extensions.ToBool
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToBool
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Extensions.ToInt*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToInt
+  name: ToInt
+  nameWithType: Extensions.ToInt
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToInt
+- uid: TradingPlatform.BusinessLayer.Extensions.ToDouble*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToDouble
+  name: ToDouble
+  nameWithType: Extensions.ToDouble
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToDouble
+- uid: TradingPlatform.BusinessLayer.Extensions.ToDecimal*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToDecimal
+  name: ToDecimal
+  nameWithType: Extensions.ToDecimal
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToDecimal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: TradingPlatform.BusinessLayer.Extensions.ToDateTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToDateTime
+  name: ToDateTime
+  nameWithType: Extensions.ToDateTime
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToDateTime
+- uid: TradingPlatform.BusinessLayer.Extensions.ToTimeSpan*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToTimeSpan
+  name: ToTimeSpan
+  nameWithType: Extensions.ToTimeSpan
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToTimeSpan
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: TradingPlatform.BusinessLayer.Extensions.ToColor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToColor
+  name: ToColor
+  nameWithType: Extensions.ToColor
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToColor
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.Extensions.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToXElement
+  name: ToXElement
+  nameWithType: Extensions.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToXElement
+- uid: TradingPlatform.BusinessLayer.Extensions.ToFont*
+  commentId: Overload:TradingPlatform.BusinessLayer.Extensions.ToFont
+  name: ToFont
+  nameWithType: Extensions.ToFont
+  fullName: TradingPlatform.BusinessLayer.Extensions.ToFont
+- uid: System.Drawing.Font
+  commentId: T:System.Drawing.Font
+  parent: System.Drawing
+  isExternal: true
+  name: Font
+  nameWithType: Font
+  fullName: System.Drawing.Font

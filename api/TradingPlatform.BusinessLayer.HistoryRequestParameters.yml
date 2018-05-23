@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.HistoryRequestParameters
+  id: HistoryRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.#ctor
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.Period
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime
+  - TradingPlatform.BusinessLayer.HistoryRequestParameters.Type
+  langs:
+  - csharp
+  - vb
+  name: HistoryRequestParameters
+  nameWithType: HistoryRequestParameters
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: HistoryRequestParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nResolves a history request parameters per instrument\n"
+  example: []
+  syntax:
+    content: 'public class HistoryRequestParameters : RequestParameters'
+    content.vb: >-
+      Public Class HistoryRequestParameters
+          Inherits RequestParameters
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.RequestParameters
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Type
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: HistoryRequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override RequestType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.RequestType
+    content.vb: Public Overrides ReadOnly Property Type As RequestType
+  overridden: TradingPlatform.BusinessLayer.RequestParameters.Type
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId
+  id: InstrumentId
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: InstrumentId
+  nameWithType: HistoryRequestParameters.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: InstrumentId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string InstrumentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InstrumentId As String
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: HistoryRequestParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument Instrument { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public Property Instrument As Instrument
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Period
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.Period
+  id: Period
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Period
+  nameWithType: HistoryRequestParameters.Period
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Period
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: Period
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Period Period { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Period
+    content.vb: Public Property Period As Period
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.Period*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation
+  id: Aggregation
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Aggregation
+  nameWithType: HistoryRequestParameters.Aggregation
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: Aggregation
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryAggregation Aggregation { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryAggregation
+    content.vb: Public Property Aggregation As HistoryAggregation
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType
+  id: HistoryType
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: HistoryType
+  nameWithType: HistoryRequestParameters.HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: HistoryType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryType HistoryType { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryType
+    content.vb: Public Property HistoryType As HistoryType
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime
+  id: FromTime
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: FromTime
+  nameWithType: HistoryRequestParameters.FromTime
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: FromTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime FromTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FromTime As Date
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime
+  id: ToTime
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ToTime
+  nameWithType: HistoryRequestParameters.ToTime
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: ToTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DateTime ToTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ToTime As Date
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession
+  id: OnlyMainSession
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: OnlyMainSession
+  nameWithType: HistoryRequestParameters.OnlyMainSession
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: OnlyMainSession
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool OnlyMainSession { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyMainSession As Boolean
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload
+  id: ForceReload
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ForceReload
+  nameWithType: HistoryRequestParameters.ForceReload
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: ForceReload
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool ForceReload { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForceReload As Boolean
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.HistoryRequestParameters.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: HistoryRequestParameters()
+  nameWithType: HistoryRequestParameters.HistoryRequestParameters()
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryRequestParameters()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 27
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryRequestParameters()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy
+  commentId: P:TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy
+  id: Copy
+  parent: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Copy
+  nameWithType: HistoryRequestParameters.Copy
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    id: Copy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryRequestParameters.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryRequestParameters Copy { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    content.vb: Public ReadOnly Property Copy As HistoryRequestParameters
+  overload: TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.RequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.RequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: RequestParameters
+  nameWithType: RequestParameters
+  fullName: TradingPlatform.BusinessLayer.RequestParameters
+- uid: TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  commentId: P:TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  parent: TradingPlatform.BusinessLayer.RequestParameters
+  name: CancellationToken
+  nameWithType: RequestParameters.CancellationToken
+  fullName: TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.RequestParameters.Type
+  commentId: P:TradingPlatform.BusinessLayer.RequestParameters.Type
+  parent: TradingPlatform.BusinessLayer.RequestParameters
+  name: Type
+  nameWithType: RequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.RequestParameters.Type
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.Type
+  name: Type
+  nameWithType: HistoryRequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Type
+- uid: TradingPlatform.BusinessLayer.RequestType
+  commentId: T:TradingPlatform.BusinessLayer.RequestType
+  parent: TradingPlatform.BusinessLayer
+  name: RequestType
+  nameWithType: RequestType
+  fullName: TradingPlatform.BusinessLayer.RequestType
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId
+  name: InstrumentId
+  nameWithType: HistoryRequestParameters.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.InstrumentId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument
+  name: Instrument
+  nameWithType: HistoryRequestParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Period*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.Period
+  name: Period
+  nameWithType: HistoryRequestParameters.Period
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Period
+- uid: TradingPlatform.BusinessLayer.Period
+  commentId: T:TradingPlatform.BusinessLayer.Period
+  parent: TradingPlatform.BusinessLayer
+  name: Period
+  nameWithType: Period
+  fullName: TradingPlatform.BusinessLayer.Period
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation
+  name: Aggregation
+  nameWithType: HistoryRequestParameters.Aggregation
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Aggregation
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregation
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregation
+  nameWithType: HistoryAggregation
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType
+  name: HistoryType
+  nameWithType: HistoryRequestParameters.HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryType
+- uid: TradingPlatform.BusinessLayer.HistoryType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryType
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryType
+  nameWithType: HistoryType
+  fullName: TradingPlatform.BusinessLayer.HistoryType
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime
+  name: FromTime
+  nameWithType: HistoryRequestParameters.FromTime
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.FromTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime
+  name: ToTime
+  nameWithType: HistoryRequestParameters.ToTime
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.ToTime
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession
+  name: OnlyMainSession
+  nameWithType: HistoryRequestParameters.OnlyMainSession
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.OnlyMainSession
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload
+  name: ForceReload
+  nameWithType: HistoryRequestParameters.ForceReload
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.ForceReload
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.#ctor
+  name: HistoryRequestParameters
+  nameWithType: HistoryRequestParameters.HistoryRequestParameters
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.HistoryRequestParameters
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy
+  name: Copy
+  nameWithType: HistoryRequestParameters.Copy
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters.Copy
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.HistoryRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryRequestParameters
+  nameWithType: HistoryRequestParameters
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters

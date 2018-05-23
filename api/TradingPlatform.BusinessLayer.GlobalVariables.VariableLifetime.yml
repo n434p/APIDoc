@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  id: VariableLifetime
+  parent: TradingPlatform.BusinessLayer.GlobalVariables
+  children:
+  - TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveFile
+  - TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveSession
+  langs:
+  - csharp
+  - vb
+  name: VariableLifetime
+  nameWithType: VariableLifetime
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/Enums.cs
+    id: VariableLifetime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/Enums.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nVariable lifetime\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(ApplyToMembers = true, Exclude = true)]
+
+      public enum VariableLifetime
+    content.vb: >-
+      <Obfuscation(ApplyToMembers:=True, Exclude:=True)>
+
+      Public Enum VariableLifetime
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+    - name: Exclude
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveSession
+  commentId: F:TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveSession
+  id: SaveSession
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  langs:
+  - csharp
+  - vb
+  name: SaveSession
+  nameWithType: VariableLifetime.SaveSession
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveSession
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/Enums.cs
+    id: SaveSession
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/Enums.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nThe variable will be removed on exit\n"
+  example: []
+  syntax:
+    content: SaveSession = 0
+    return:
+      type: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveFile
+  commentId: F:TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveFile
+  id: SaveFile
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  langs:
+  - csharp
+  - vb
+  name: SaveFile
+  nameWithType: VariableLifetime.SaveFile
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime.SaveFile
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/Enums.cs
+    id: SaveFile
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/Enums.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nThe variable will be written to file\n"
+  example: []
+  syntax:
+    content: SaveFile = 1
+    return:
+      type: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables
+  commentId: N:TradingPlatform.BusinessLayer.GlobalVariables
+  name: TradingPlatform.BusinessLayer.GlobalVariables
+  nameWithType: TradingPlatform.BusinessLayer.GlobalVariables
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  parent: TradingPlatform.BusinessLayer.GlobalVariables
+  name: VariableLifetime
+  nameWithType: VariableLifetime
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime

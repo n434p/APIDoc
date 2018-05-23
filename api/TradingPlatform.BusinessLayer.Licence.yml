@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Licence
+  commentId: N:TradingPlatform.BusinessLayer.Licence
+  id: TradingPlatform.BusinessLayer.Licence
+  children:
+  - TradingPlatform.BusinessLayer.Licence.CoreLicenceKeys
+  - TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  - TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  - TradingPlatform.BusinessLayer.Licence.LicenceItem
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager
+  - TradingPlatform.BusinessLayer.Licence.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Licence
+  nameWithType: TradingPlatform.BusinessLayer.Licence
+  fullName: TradingPlatform.BusinessLayer.Licence
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Licence.CoreLicenceKeys
+  commentId: T:TradingPlatform.BusinessLayer.Licence.CoreLicenceKeys
+  name: CoreLicenceKeys
+  nameWithType: CoreLicenceKeys
+  fullName: TradingPlatform.BusinessLayer.Licence.CoreLicenceKeys
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  commentId: T:TradingPlatform.BusinessLayer.Licence.LicenceItem
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: LicenceItem
+  nameWithType: LicenceItem
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  commentId: T:TradingPlatform.BusinessLayer.Licence.LicencesManager
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: LicencesManager
+  nameWithType: LicencesManager
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  commentId: T:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: IOAuthBrowserControl
+  nameWithType: IOAuthBrowserControl
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  commentId: T:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: IOAuthBrowserCreator
+  nameWithType: IOAuthBrowserCreator
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+- uid: TradingPlatform.BusinessLayer.Licence.UserInfo
+  commentId: T:TradingPlatform.BusinessLayer.Licence.UserInfo
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: TradingPlatform.BusinessLayer.Licence.UserInfo
+- uid: TradingPlatform.BusinessLayer.Licence
+  commentId: N:TradingPlatform.BusinessLayer.Licence
+  name: TradingPlatform.BusinessLayer.Licence
+  nameWithType: TradingPlatform.BusinessLayer.Licence
+  fullName: TradingPlatform.BusinessLayer.Licence

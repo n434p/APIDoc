@@ -1,0 +1,3028 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Vendor
+  id: Vendor
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.Vendor.ADDITIONAL_PARAMETER_GROUP
+  - TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList
+  - TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL(TradingPlatform.BusinessLayer.PnLRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder(TradingPlatform.BusinessLayer.CancelOrderRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition(TradingPlatform.BusinessLayer.ClosePositionRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.Connect(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Threading.CancellationToken)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION
+  - TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_DEMO
+  - TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_REAL
+  - TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription(System.String)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts(TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries(TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetRules
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes(TradingPlatform.BusinessLayer.GetStrikesRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory(System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData
+  - TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_GROUP
+  - TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_PASSWORD
+  - TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_USER
+  - TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected(System.Threading.CancellationToken)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.Ping
+  - TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage(TradingPlatform.BusinessLayer.Integration.Message)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_ACCOUNT
+  - TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_FROM
+  - TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_TO
+  - TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_INSTRUMENT
+  - TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest(TradingPlatform.BusinessLayer.RequestParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  - TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  langs:
+  - csharp
+  - vb
+  name: Vendor
+  nameWithType: Vendor
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: Vendor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public abstract class Vendor
+    content.vb: Public MustInherit Class Vendor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_USER
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_USER
+  id: LOGIN_PARAMETER_USER
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: LOGIN_PARAMETER_USER
+  nameWithType: Vendor.LOGIN_PARAMETER_USER
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_USER
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: LOGIN_PARAMETER_USER
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string LOGIN_PARAMETER_USER = "User"
+    return:
+      type: System.String
+    content.vb: Public Const LOGIN_PARAMETER_USER As String = "User"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_PASSWORD
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_PASSWORD
+  id: LOGIN_PARAMETER_PASSWORD
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: LOGIN_PARAMETER_PASSWORD
+  nameWithType: Vendor.LOGIN_PARAMETER_PASSWORD
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_PASSWORD
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: LOGIN_PARAMETER_PASSWORD
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string LOGIN_PARAMETER_PASSWORD = "Password"
+    return:
+      type: System.String
+    content.vb: Public Const LOGIN_PARAMETER_PASSWORD As String = "Password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_GROUP
+  id: LOGIN_PARAMETER_GROUP
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: LOGIN_PARAMETER_GROUP
+  nameWithType: Vendor.LOGIN_PARAMETER_GROUP
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.LOGIN_PARAMETER_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: LOGIN_PARAMETER_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string LOGIN_PARAMETER_GROUP = "ConnectionGroup"
+    return:
+      type: System.String
+    content.vb: Public Const LOGIN_PARAMETER_GROUP As String = "ConnectionGroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.ADDITIONAL_PARAMETER_GROUP
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.ADDITIONAL_PARAMETER_GROUP
+  id: ADDITIONAL_PARAMETER_GROUP
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: ADDITIONAL_PARAMETER_GROUP
+  nameWithType: Vendor.ADDITIONAL_PARAMETER_GROUP
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.ADDITIONAL_PARAMETER_GROUP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: ADDITIONAL_PARAMETER_GROUP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string ADDITIONAL_PARAMETER_GROUP = "AdditionalParametersGroup"
+    return:
+      type: System.String
+    content.vb: Public Const ADDITIONAL_PARAMETER_GROUP As String = "AdditionalParametersGroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_ACCOUNT
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_ACCOUNT
+  id: REPORT_TYPE_PARAMETER_ACCOUNT
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: REPORT_TYPE_PARAMETER_ACCOUNT
+  nameWithType: Vendor.REPORT_TYPE_PARAMETER_ACCOUNT
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_ACCOUNT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: REPORT_TYPE_PARAMETER_ACCOUNT
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string REPORT_TYPE_PARAMETER_ACCOUNT = "Account"
+    return:
+      type: System.String
+    content.vb: Public Const REPORT_TYPE_PARAMETER_ACCOUNT As String = "Account"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_INSTRUMENT
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_INSTRUMENT
+  id: REPORT_TYPE_PARAMETER_INSTRUMENT
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: REPORT_TYPE_PARAMETER_INSTRUMENT
+  nameWithType: Vendor.REPORT_TYPE_PARAMETER_INSTRUMENT
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_INSTRUMENT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: REPORT_TYPE_PARAMETER_INSTRUMENT
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string REPORT_TYPE_PARAMETER_INSTRUMENT = "Instrument"
+    return:
+      type: System.String
+    content.vb: Public Const REPORT_TYPE_PARAMETER_INSTRUMENT As String = "Instrument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_FROM
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_FROM
+  id: REPORT_TYPE_PARAMETER_DATETIME_FROM
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: REPORT_TYPE_PARAMETER_DATETIME_FROM
+  nameWithType: Vendor.REPORT_TYPE_PARAMETER_DATETIME_FROM
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_FROM
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: REPORT_TYPE_PARAMETER_DATETIME_FROM
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string REPORT_TYPE_PARAMETER_DATETIME_FROM = "From"
+    return:
+      type: System.String
+    content.vb: Public Const REPORT_TYPE_PARAMETER_DATETIME_FROM As String = "From"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_TO
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_TO
+  id: REPORT_TYPE_PARAMETER_DATETIME_TO
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: REPORT_TYPE_PARAMETER_DATETIME_TO
+  nameWithType: Vendor.REPORT_TYPE_PARAMETER_DATETIME_TO
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.REPORT_TYPE_PARAMETER_DATETIME_TO
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: REPORT_TYPE_PARAMETER_DATETIME_TO
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public const string REPORT_TYPE_PARAMETER_DATETIME_TO = "To"
+    return:
+      type: System.String
+    content.vb: Public Const REPORT_TYPE_PARAMETER_DATETIME_TO As String = "To"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION
+  id: CONNECTION
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: CONNECTION
+  nameWithType: Vendor.CONNECTION
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: CONNECTION
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: protected const string CONNECTION = "Connection"
+    return:
+      type: System.String
+    content.vb: Protected Const CONNECTION As String = "Connection"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_DEMO
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_DEMO
+  id: CONNECTION_DEMO
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: CONNECTION_DEMO
+  nameWithType: Vendor.CONNECTION_DEMO
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_DEMO
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: CONNECTION_DEMO
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: protected const string CONNECTION_DEMO = "Demo"
+    return:
+      type: System.String
+    content.vb: Protected Const CONNECTION_DEMO As String = "Demo"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_REAL
+  commentId: F:TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_REAL
+  id: CONNECTION_REAL
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: CONNECTION_REAL
+  nameWithType: Vendor.CONNECTION_REAL
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CONNECTION_REAL
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: CONNECTION_REAL
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: protected const string CONNECTION_REAL = "Real"
+    return:
+      type: System.String
+    content.vb: Protected Const CONNECTION_REAL As String = "Real"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData
+  id: GetVendorMetaData
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetVendorMetaData()
+  nameWithType: Vendor.GetVendorMetaData()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetVendorMetaData
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 38
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nProvides an additional information about vendor: name, registration link, etc.\n"
+  example: []
+  syntax:
+    content: public virtual VendorMetaData GetVendorMetaData()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.VendorMetaData
+    content.vb: Public Overridable Function GetVendorMetaData As VendorMetaData
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters
+  id: GetConnectionParameters
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionParameters()
+  nameWithType: Vendor.GetConnectionParameters()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetConnectionParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 58
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nGets a settings list from a vendor selection of the setup window\n"
+  example: []
+  syntax:
+    content: public virtual IList<SettingItem> GetConnectionParameters()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overridable Function GetConnectionParameters As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.Connect(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Threading.CancellationToken)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.Connect(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Threading.CancellationToken)
+  id: Connect(System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem},System.Threading.CancellationToken)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: Connect(IList<SettingItem>, CancellationToken)
+  nameWithType: Vendor.Connect(IList<SettingItem>, CancellationToken)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.Connect(System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: Connect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nPerforms a binding with broker or data provider\n"
+  example: []
+  syntax:
+    content: public virtual ConnectionResult Connect(IList<SettingItem> parameters, CancellationToken token)
+    parameters:
+    - id: parameters
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+    content.vb: Public Overridable Function Connect(parameters As IList(Of SettingItem), token As CancellationToken) As ConnectionResult
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.Connect*
+  nameWithType.vb: Vendor.Connect(IList(Of SettingItem), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TradingPlatform.BusinessLayer.Integration.Vendor.Connect(System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem), System.Threading.CancellationToken)
+  name.vb: Connect(IList(Of SettingItem), CancellationToken)
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect
+  id: Disconnect
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: Vendor.Disconnect()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: Disconnect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 75
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nSpecifies any operation before breaking a connection with broker or data provider \n"
+  example: []
+  syntax:
+    content: public virtual void Disconnect()
+    content.vb: Public Overridable Sub Disconnect
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected(System.Threading.CancellationToken)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected(System.Threading.CancellationToken)
+  id: OnConnected(System.Threading.CancellationToken)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: OnConnected(CancellationToken)
+  nameWithType: Vendor.OnConnected(CancellationToken)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: OnConnected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 83
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nCalled when platform finished retreiving all required informations from vendor during connecting \n"
+  example: []
+  syntax:
+    content: public virtual void OnConnected(CancellationToken token)
+    parameters:
+    - id: token
+      type: System.Threading.CancellationToken
+    content.vb: Public Overridable Sub OnConnected(token As CancellationToken)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.Ping
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.Ping
+  id: Ping
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: Ping()
+  nameWithType: Vendor.Ping()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.Ping()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: Ping
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nPing processing before its visualization in the terminal \n"
+  example: []
+  syntax:
+    content: public virtual PingResult Ping()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.PingResult
+    content.vb: Public Overridable Function Ping As PingResult
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.Ping*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts
+  id: GetAccounts
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetAccounts()
+  nameWithType: Vendor.GetAccounts()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetAccounts
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 103
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves an information about available accounts. Yon need to specify at least one account\n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageAccount> GetAccounts()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageAccount}
+    content.vb: Public Overridable Function GetAccounts As IList(Of MessageAccount)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetRules
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetRules
+  id: GetRules
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetRules()
+  nameWithType: Vendor.GetRules()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetRules()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetRules
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 111
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual IList<MessageRule> GetRules()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageRule}
+    content.vb: Public Overridable Function GetRules As IList(Of MessageRule)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetRules*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges
+  id: GetExchanges
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetExchanges()
+  nameWithType: Vendor.GetExchanges()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetExchanges
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 123
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves a collection of available exchange markets from vendor\n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageExchange> GetExchanges()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageExchange}
+    content.vb: Public Overridable Function GetExchanges As IList(Of MessageExchange)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets
+  id: GetAssets
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetAssets()
+  nameWithType: Vendor.GetAssets()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetAssets
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 140
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves information about available assets. \n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageAsset> GetAssets()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageAsset}
+    content.vb: Public Overridable Function GetAssets As IList(Of MessageAsset)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments
+  id: GetInstruments
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetInstruments()
+  nameWithType: Vendor.GetInstruments()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetInstruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 148
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves information about available instruments. \n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageInstrument> GetInstruments()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrument}
+    content.vb: Public Overridable Function GetInstruments As IList(Of MessageInstrument)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes
+  id: GetInstrumentTypes
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetInstrumentTypes()
+  nameWithType: Vendor.GetInstrumentTypes()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetInstrumentTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 156
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nGets an available instrument types from vendor\n"
+  example: []
+  syntax:
+    content: public virtual MessageInstrumentTypes GetInstrumentTypes()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+    content.vb: Public Overridable Function GetInstrumentTypes As MessageInstrumentTypes
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups
+  id: GetInstrumentGroups
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetInstrumentGroups()
+  nameWithType: Vendor.GetInstrumentGroups()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetInstrumentGroups
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 164
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual IList<MessageInstrumentGroup> GetInstrumentGroups()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup}
+    content.vb: Public Overridable Function GetInstrumentGroups As IList(Of MessageInstrumentGroup)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters)
+  id: GetNonFixedInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetNonFixedInstrument(GetInstrumentRequestParameters)
+  nameWithType: Vendor.GetNonFixedInstrument(GetInstrumentRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetNonFixedInstrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 172
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nDerives a non fixed instrument from vendor\n"
+  example: []
+  syntax:
+    content: public virtual MessageInstrument GetNonFixedInstrument(GetInstrumentRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+    content.vb: Public Overridable Function GetNonFixedInstrument(requestParameters As GetInstrumentRequestParameters) As MessageInstrument
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  id: SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: SearchInstruments(SearchInstrumentsRequestParameters)
+  nameWithType: Vendor.SearchInstruments(SearchInstrumentsRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: SearchInstruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 180
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nDerives a non-fixed list of instruments from vendor\n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageInstrument> SearchInstruments(SearchInstrumentsRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrument}
+    content.vb: Public Overridable Function SearchInstruments(requestParameters As SearchInstrumentsRequestParameters) As IList(Of MessageInstrument)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts(TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts(TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters)
+  id: GetFutureContracts(TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetFutureContracts(GetFutureContractsRequestParameters)
+  nameWithType: Vendor.GetFutureContracts(GetFutureContractsRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts(TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetFutureContracts
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 185
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual IList<MessageInstrument> GetFutureContracts(GetFutureContractsRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrument}
+    content.vb: Public Overridable Function GetFutureContracts(requestParameters As GetFutureContractsRequestParameters) As IList(Of MessageInstrument)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries(TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries(TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters)
+  id: GetOptionSeries(TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetOptionSeries(GetOptionSeriesRequestParameters)
+  nameWithType: Vendor.GetOptionSeries(GetOptionSeriesRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries(TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetOptionSeries
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 190
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual IList<OptionSerie> GetOptionSeries(GetOptionSeriesRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.OptionSerie}
+    content.vb: Public Overridable Function GetOptionSeries(requestParameters As GetOptionSeriesRequestParameters) As IList(Of OptionSerie)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes(TradingPlatform.BusinessLayer.GetStrikesRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes(TradingPlatform.BusinessLayer.GetStrikesRequestParameters)
+  id: GetStrikes(TradingPlatform.BusinessLayer.GetStrikesRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetStrikes(GetStrikesRequestParameters)
+  nameWithType: Vendor.GetStrikes(GetStrikesRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes(TradingPlatform.BusinessLayer.GetStrikesRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetStrikes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 195
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual IList<MessageInstrument> GetStrikes(GetStrikesRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.GetStrikesRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrument}
+    content.vb: Public Overridable Function GetStrikes(requestParameters As GetStrikesRequestParameters) As IList(Of MessageInstrument)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders
+  id: GetPendingOrders
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetPendingOrders()
+  nameWithType: Vendor.GetPendingOrders()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetPendingOrders
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 207
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves an information about opened orders at the time of connection. \n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageOpenOrder> GetPendingOrders()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageOpenOrder}
+    content.vb: Public Overridable Function GetPendingOrders As IList(Of MessageOpenOrder)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions
+  id: GetPositions
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetPositions()
+  nameWithType: Vendor.GetPositions()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetPositions
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 215
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves an information about positions at the time of connection\n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageOpenPosition> GetPositions()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageOpenPosition}
+    content.vb: Public Overridable Function GetPositions As IList(Of MessageOpenPosition)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory(System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory(System.DateTime,System.DateTime)
+  id: GetTradesHistory(System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetTradesHistory(DateTime, DateTime)
+  nameWithType: Vendor.GetTradesHistory(DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetTradesHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 231
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nGets trades history from server for requested time range\n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageTrade> GetTradesHistory(DateTime from, DateTime to)
+    parameters:
+    - id: from
+      type: System.DateTime
+    - id: to
+      type: System.DateTime
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageTrade}
+    content.vb: Public Overridable Function GetTradesHistory(from As Date, to As Date) As IList(Of MessageTrade)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  id: SubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: SubscribeSymbol(SubscribeQuotesParameters)
+  nameWithType: Vendor.SubscribeSymbol(SubscribeQuotesParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: SubscribeSymbol
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 242
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nSubscribing to quote data: Level1/Level2/Trade\n"
+  example: []
+  syntax:
+    content: public virtual bool SubscribeSymbol(SubscribeQuotesParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.SubscribeQuotesParameters
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function SubscribeSymbol(parameters As SubscribeQuotesParameters) As Boolean
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  id: UnSubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: UnSubscribeSymbol(SubscribeQuotesParameters)
+  nameWithType: Vendor.UnSubscribeSymbol(SubscribeQuotesParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol(TradingPlatform.BusinessLayer.SubscribeQuotesParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: UnSubscribeSymbol
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 249
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nUnsubscribing from quote data: Level1/Level2/Trade\n"
+  example: []
+  syntax:
+    content: public virtual bool UnSubscribeSymbol(SubscribeQuotesParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.SubscribeQuotesParameters
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function UnSubscribeSymbol(parameters As SubscribeQuotesParameters) As Boolean
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  id: LoadHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: LoadHistory(HistoryRequestParameters)
+  nameWithType: Vendor.LoadHistory(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: LoadHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 257
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual IList<IHistoryItem> LoadHistory(HistoryRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+    content.vb: Public Overridable Function LoadHistory(requestParameters As HistoryRequestParameters) As IList(Of IHistoryItem)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata
+  id: GetHistoryMetadata
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryMetadata()
+  nameWithType: Vendor.GetHistoryMetadata()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetHistoryMetadata
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 265
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nGets a list of supported historical intervals and data types by vendor\n"
+  example: []
+  syntax:
+    content: public virtual HistoryMetadata GetHistoryMetadata()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+    content.vb: Public Overridable Function GetHistoryMetadata As HistoryMetadata
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters)
+  id: PlaceOrder(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: PlaceOrder(PlaceOrderRequestParameters)
+  nameWithType: Vendor.PlaceOrder(PlaceOrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder(TradingPlatform.BusinessLayer.PlaceOrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: PlaceOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 289
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nPrepare and sending order placing request to broker \n"
+  example: []
+  syntax:
+    content: public virtual TradingOperationResult PlaceOrder(PlaceOrderRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationResult
+    content.vb: Public Overridable Function PlaceOrder(parameters As PlaceOrderRequestParameters) As TradingOperationResult
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  id: ModifyOrder(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: ModifyOrder(ModifyOrderRequestParameters)
+  nameWithType: Vendor.ModifyOrder(ModifyOrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder(TradingPlatform.BusinessLayer.ModifyOrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: ModifyOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 297
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nSending order modification request to broker\n"
+  example: []
+  syntax:
+    content: public virtual TradingOperationResult ModifyOrder(ModifyOrderRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationResult
+    content.vb: Public Overridable Function ModifyOrder(parameters As ModifyOrderRequestParameters) As TradingOperationResult
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder(TradingPlatform.BusinessLayer.CancelOrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder(TradingPlatform.BusinessLayer.CancelOrderRequestParameters)
+  id: CancelOrder(TradingPlatform.BusinessLayer.CancelOrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: CancelOrder(CancelOrderRequestParameters)
+  nameWithType: Vendor.CancelOrder(CancelOrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder(TradingPlatform.BusinessLayer.CancelOrderRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: CancelOrder
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 305
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nSending order cancellation request to broker\n"
+  example: []
+  syntax:
+    content: public virtual TradingOperationResult CancelOrder(CancelOrderRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationResult
+    content.vb: Public Overridable Function CancelOrder(parameters As CancelOrderRequestParameters) As TradingOperationResult
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition(TradingPlatform.BusinessLayer.ClosePositionRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition(TradingPlatform.BusinessLayer.ClosePositionRequestParameters)
+  id: ClosePosition(TradingPlatform.BusinessLayer.ClosePositionRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: ClosePosition(ClosePositionRequestParameters)
+  nameWithType: Vendor.ClosePosition(ClosePositionRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition(TradingPlatform.BusinessLayer.ClosePositionRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: ClosePosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 313
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nSending position closing request to broker\n"
+  example: []
+  syntax:
+    content: public virtual TradingOperationResult ClosePosition(ClosePositionRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.ClosePositionRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.TradingOperationResult
+    content.vb: Public Overridable Function ClosePosition(parameters As ClosePositionRequestParameters) As TradingOperationResult
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData
+  id: GetReportsMetaData
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetReportsMetaData()
+  nameWithType: Vendor.GetReportsMetaData()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetReportsMetaData
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 324
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nGets information about available reports from vendor\n"
+  example: []
+  syntax:
+    content: public virtual IList<MessageReportType> GetReportsMetaData()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageReportType}
+    content.vb: Public Overridable Function GetReportsMetaData As IList(Of MessageReportType)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  id: GenerateReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GenerateReport(ReportRequestParameters)
+  nameWithType: Vendor.GenerateReport(ReportRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GenerateReport
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 332
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nCalled when platform need to generate particular report\n"
+  example: []
+  syntax:
+    content: public virtual Report GenerateReport(ReportRequestParameters reportRequestParameters)
+    parameters:
+    - id: reportRequestParameters
+      type: TradingPlatform.BusinessLayer.ReportRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.Report
+    content.vb: Public Overridable Function GenerateReport(reportRequestParameters As ReportRequestParameters) As Report
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes
+  id: GetAllowedOrderTypes
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetAllowedOrderTypes()
+  nameWithType: Vendor.GetAllowedOrderTypes()
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetAllowedOrderTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 353
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nRetrieves allowed/supported order types\n"
+  example: []
+  syntax:
+    content: public virtual IList<OrderType> GetAllowedOrderTypes()
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.OrderType}
+    content.vb: Public Overridable Function GetAllowedOrderTypes As IList(Of OrderType)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList
+  id: AllowNonFixedList
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: AllowNonFixedList
+  nameWithType: Vendor.AllowNonFixedList
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: AllowNonFixedList
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 361
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  summary: "\nConfirms allowed nonfixed list by vendor\n"
+  example: []
+  syntax:
+    content: public virtual bool AllowNonFixedList { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property AllowNonFixedList As Boolean
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage(TradingPlatform.BusinessLayer.Integration.Message)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage(TradingPlatform.BusinessLayer.Integration.Message)
+  id: PushMessage(TradingPlatform.BusinessLayer.Integration.Message)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: PushMessage(Message)
+  nameWithType: Vendor.PushMessage(Message)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage(TradingPlatform.BusinessLayer.Integration.Message)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: PushMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 377
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void PushMessage(Message msg)
+    parameters:
+    - id: msg
+      type: TradingPlatform.BusinessLayer.Integration.Message
+    content.vb: Public Sub PushMessage(msg As Message)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL(TradingPlatform.BusinessLayer.PnLRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL(TradingPlatform.BusinessLayer.PnLRequestParameters)
+  id: CalculatePnL(TradingPlatform.BusinessLayer.PnLRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: CalculatePnL(PnLRequestParameters)
+  nameWithType: Vendor.CalculatePnL(PnLRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL(TradingPlatform.BusinessLayer.PnLRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: CalculatePnL
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 382
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual PnL CalculatePnL(PnLRequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.PnLRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.PnL
+    content.vb: Public Overridable Function CalculatePnL(parameters As PnLRequestParameters) As PnL
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest(TradingPlatform.BusinessLayer.RequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest(TradingPlatform.BusinessLayer.RequestParameters)
+  id: SendCustomRequest(TradingPlatform.BusinessLayer.RequestParameters)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: SendCustomRequest(RequestParameters)
+  nameWithType: Vendor.SendCustomRequest(RequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest(TradingPlatform.BusinessLayer.RequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: SendCustomRequest
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 387
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public virtual void SendCustomRequest(RequestParameters parameters)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.RequestParameters
+    content.vb: Public Overridable Sub SendCustomRequest(parameters As RequestParameters)
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription(System.String)
+  id: GetDefaultDescription(System.String)
+  parent: TradingPlatform.BusinessLayer.Integration.Vendor
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultDescription(String)
+  nameWithType: Vendor.GetDefaultDescription(String)
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    id: GetDefaultDescription
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Vendor.cs
+    startLine: 391
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: protected string GetDefaultDescription(string instrumentName)
+    parameters:
+    - id: instrumentName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Function GetDefaultDescription(instrumentName As String) As String
+  overload: TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData
+  name: GetVendorMetaData
+  nameWithType: Vendor.GetVendorMetaData
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetVendorMetaData
+- uid: TradingPlatform.BusinessLayer.Integration.VendorMetaData
+  commentId: T:TradingPlatform.BusinessLayer.Integration.VendorMetaData
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: VendorMetaData
+  nameWithType: VendorMetaData
+  fullName: TradingPlatform.BusinessLayer.Integration.VendorMetaData
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters
+  name: GetConnectionParameters
+  nameWithType: Vendor.GetConnectionParameters
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetConnectionParameters
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.Connect*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.Connect
+  name: Connect
+  nameWithType: Vendor.Connect
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.Connect
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  commentId: T:TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: ConnectionResult
+  nameWithType: ConnectionResult
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect
+  name: Disconnect
+  nameWithType: Vendor.Disconnect
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.Disconnect
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected
+  name: OnConnected
+  nameWithType: Vendor.OnConnected
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.OnConnected
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.Ping*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.Ping
+  name: Ping
+  nameWithType: Vendor.Ping
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.Ping
+- uid: TradingPlatform.BusinessLayer.Integration.PingResult
+  commentId: T:TradingPlatform.BusinessLayer.Integration.PingResult
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: PingResult
+  nameWithType: PingResult
+  fullName: TradingPlatform.BusinessLayer.Integration.PingResult
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts
+  name: GetAccounts
+  nameWithType: Vendor.GetAccounts
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetAccounts
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageAccount}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageAccount}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageAccount>
+  nameWithType: IList<MessageAccount>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageAccount>
+  nameWithType.vb: IList(Of MessageAccount)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageAccount)
+  name.vb: IList(Of MessageAccount)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageAccount
+    name: MessageAccount
+    nameWithType: MessageAccount
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageAccount
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageAccount
+    name: MessageAccount
+    nameWithType: MessageAccount
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageAccount
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetRules*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetRules
+  name: GetRules
+  nameWithType: Vendor.GetRules
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetRules
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageRule}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageRule}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageRule>
+  nameWithType: IList<MessageRule>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageRule>
+  nameWithType.vb: IList(Of MessageRule)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageRule)
+  name.vb: IList(Of MessageRule)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+    name: MessageRule
+    nameWithType: MessageRule
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageRule
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+    name: MessageRule
+    nameWithType: MessageRule
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageRule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges
+  name: GetExchanges
+  nameWithType: Vendor.GetExchanges
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetExchanges
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageExchange}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageExchange}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageExchange>
+  nameWithType: IList<MessageExchange>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageExchange>
+  nameWithType.vb: IList(Of MessageExchange)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageExchange)
+  name.vb: IList(Of MessageExchange)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageExchange
+    name: MessageExchange
+    nameWithType: MessageExchange
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageExchange
+    name: MessageExchange
+    nameWithType: MessageExchange
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageExchange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets
+  name: GetAssets
+  nameWithType: Vendor.GetAssets
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetAssets
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageAsset}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageAsset}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageAsset>
+  nameWithType: IList<MessageAsset>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageAsset>
+  nameWithType.vb: IList(Of MessageAsset)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageAsset)
+  name.vb: IList(Of MessageAsset)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageAsset
+    name: MessageAsset
+    nameWithType: MessageAsset
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageAsset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageAsset
+    name: MessageAsset
+    nameWithType: MessageAsset
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageAsset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments
+  name: GetInstruments
+  nameWithType: Vendor.GetInstruments
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstruments
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrument}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageInstrument>
+  nameWithType: IList<MessageInstrument>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageInstrument>
+  nameWithType.vb: IList(Of MessageInstrument)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageInstrument)
+  name.vb: IList(Of MessageInstrument)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+    name: MessageInstrument
+    nameWithType: MessageInstrument
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+    name: MessageInstrument
+    nameWithType: MessageInstrument
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes
+  name: GetInstrumentTypes
+  nameWithType: Vendor.GetInstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentTypes
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageInstrumentTypes
+  nameWithType: MessageInstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentTypes
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups
+  name: GetInstrumentGroups
+  nameWithType: Vendor.GetInstrumentGroups
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetInstrumentGroups
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageInstrumentGroup>
+  nameWithType: IList<MessageInstrumentGroup>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup>
+  nameWithType.vb: IList(Of MessageInstrumentGroup)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup)
+  name.vb: IList(Of MessageInstrumentGroup)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup
+    name: MessageInstrumentGroup
+    nameWithType: MessageInstrumentGroup
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup
+    name: MessageInstrumentGroup
+    nameWithType: MessageInstrumentGroup
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrumentGroup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument
+  name: GetNonFixedInstrument
+  nameWithType: Vendor.GetNonFixedInstrument
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetNonFixedInstrument
+- uid: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: GetInstrumentRequestParameters
+  nameWithType: GetInstrumentRequestParameters
+  fullName: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageInstrument
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageInstrument
+  nameWithType: MessageInstrument
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageInstrument
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments
+  name: SearchInstruments
+  nameWithType: Vendor.SearchInstruments
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.SearchInstruments
+- uid: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: SearchInstrumentsRequestParameters
+  nameWithType: SearchInstrumentsRequestParameters
+  fullName: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts
+  name: GetFutureContracts
+  nameWithType: Vendor.GetFutureContracts
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetFutureContracts
+- uid: TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: GetFutureContractsRequestParameters
+  nameWithType: GetFutureContractsRequestParameters
+  fullName: TradingPlatform.BusinessLayer.GetFutureContractsRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries
+  name: GetOptionSeries
+  nameWithType: Vendor.GetOptionSeries
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetOptionSeries
+- uid: TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: GetOptionSeriesRequestParameters
+  nameWithType: GetOptionSeriesRequestParameters
+  fullName: TradingPlatform.BusinessLayer.GetOptionSeriesRequestParameters
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.OptionSerie}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.OptionSerie}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<OptionSerie>
+  nameWithType: IList<OptionSerie>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.OptionSerie>
+  nameWithType.vb: IList(Of OptionSerie)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.OptionSerie)
+  name.vb: IList(Of OptionSerie)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.OptionSerie
+    name: OptionSerie
+    nameWithType: OptionSerie
+    fullName: TradingPlatform.BusinessLayer.OptionSerie
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.OptionSerie
+    name: OptionSerie
+    nameWithType: OptionSerie
+    fullName: TradingPlatform.BusinessLayer.OptionSerie
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes
+  name: GetStrikes
+  nameWithType: Vendor.GetStrikes
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetStrikes
+- uid: TradingPlatform.BusinessLayer.GetStrikesRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetStrikesRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: GetStrikesRequestParameters
+  nameWithType: GetStrikesRequestParameters
+  fullName: TradingPlatform.BusinessLayer.GetStrikesRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders
+  name: GetPendingOrders
+  nameWithType: Vendor.GetPendingOrders
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetPendingOrders
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageOpenOrder}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageOpenOrder}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageOpenOrder>
+  nameWithType: IList<MessageOpenOrder>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageOpenOrder>
+  nameWithType.vb: IList(Of MessageOpenOrder)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageOpenOrder)
+  name.vb: IList(Of MessageOpenOrder)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+    name: MessageOpenOrder
+    nameWithType: MessageOpenOrder
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+    name: MessageOpenOrder
+    nameWithType: MessageOpenOrder
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenOrder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions
+  name: GetPositions
+  nameWithType: Vendor.GetPositions
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetPositions
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageOpenPosition}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageOpenPosition}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageOpenPosition>
+  nameWithType: IList<MessageOpenPosition>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageOpenPosition>
+  nameWithType.vb: IList(Of MessageOpenPosition)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageOpenPosition)
+  name.vb: IList(Of MessageOpenPosition)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+    name: MessageOpenPosition
+    nameWithType: MessageOpenPosition
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+    name: MessageOpenPosition
+    nameWithType: MessageOpenPosition
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory
+  name: GetTradesHistory
+  nameWithType: Vendor.GetTradesHistory
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetTradesHistory
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageTrade}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageTrade}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageTrade>
+  nameWithType: IList<MessageTrade>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageTrade>
+  nameWithType.vb: IList(Of MessageTrade)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageTrade)
+  name.vb: IList(Of MessageTrade)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageTrade
+    name: MessageTrade
+    nameWithType: MessageTrade
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageTrade
+    name: MessageTrade
+    nameWithType: MessageTrade
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageTrade
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol
+  name: SubscribeSymbol
+  nameWithType: Vendor.SubscribeSymbol
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.SubscribeSymbol
+- uid: TradingPlatform.BusinessLayer.SubscribeQuotesParameters
+  commentId: T:TradingPlatform.BusinessLayer.SubscribeQuotesParameters
+  parent: TradingPlatform.BusinessLayer
+  name: SubscribeQuotesParameters
+  nameWithType: SubscribeQuotesParameters
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuotesParameters
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol
+  name: UnSubscribeSymbol
+  nameWithType: Vendor.UnSubscribeSymbol
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.UnSubscribeSymbol
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory
+  name: LoadHistory
+  nameWithType: Vendor.LoadHistory
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.LoadHistory
+- uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.HistoryRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryRequestParameters
+  nameWithType: HistoryRequestParameters
+  fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IHistoryItem>
+  nameWithType: IList<IHistoryItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.IHistoryItem>
+  nameWithType.vb: IList(Of IHistoryItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.IHistoryItem)
+  name.vb: IList(Of IHistoryItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata
+  name: GetHistoryMetadata
+  nameWithType: Vendor.GetHistoryMetadata
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetHistoryMetadata
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+  commentId: T:TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: HistoryMetadata
+  nameWithType: HistoryMetadata
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder
+  name: PlaceOrder
+  nameWithType: Vendor.PlaceOrder
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.PlaceOrder
+- uid: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: PlaceOrderRequestParameters
+  nameWithType: PlaceOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.PlaceOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.TradingOperationResult
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationResult
+  parent: TradingPlatform.BusinessLayer
+  name: TradingOperationResult
+  nameWithType: TradingOperationResult
+  fullName: TradingPlatform.BusinessLayer.TradingOperationResult
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder
+  name: ModifyOrder
+  nameWithType: Vendor.ModifyOrder
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.ModifyOrder
+- uid: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: ModifyOrderRequestParameters
+  nameWithType: ModifyOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ModifyOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder
+  name: CancelOrder
+  nameWithType: Vendor.CancelOrder
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CancelOrder
+- uid: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: CancelOrderRequestParameters
+  nameWithType: CancelOrderRequestParameters
+  fullName: TradingPlatform.BusinessLayer.CancelOrderRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition
+  name: ClosePosition
+  nameWithType: Vendor.ClosePosition
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.ClosePosition
+- uid: TradingPlatform.BusinessLayer.ClosePositionRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ClosePositionRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: ClosePositionRequestParameters
+  nameWithType: ClosePositionRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ClosePositionRequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData
+  name: GetReportsMetaData
+  nameWithType: Vendor.GetReportsMetaData
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetReportsMetaData
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageReportType}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Integration.MessageReportType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<MessageReportType>
+  nameWithType: IList<MessageReportType>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Integration.MessageReportType>
+  nameWithType.vb: IList(Of MessageReportType)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Integration.MessageReportType)
+  name.vb: IList(Of MessageReportType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageReportType
+    name: MessageReportType
+    nameWithType: MessageReportType
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageReportType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Integration.MessageReportType
+    name: MessageReportType
+    nameWithType: MessageReportType
+    fullName: TradingPlatform.BusinessLayer.Integration.MessageReportType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport
+  name: GenerateReport
+  nameWithType: Vendor.GenerateReport
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GenerateReport
+- uid: TradingPlatform.BusinessLayer.ReportRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ReportRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: ReportRequestParameters
+  nameWithType: ReportRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ReportRequestParameters
+- uid: TradingPlatform.BusinessLayer.Report
+  commentId: T:TradingPlatform.BusinessLayer.Report
+  parent: TradingPlatform.BusinessLayer
+  name: Report
+  nameWithType: Report
+  fullName: TradingPlatform.BusinessLayer.Report
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes
+  name: GetAllowedOrderTypes
+  nameWithType: Vendor.GetAllowedOrderTypes
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetAllowedOrderTypes
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.OrderType}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.OrderType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<OrderType>
+  nameWithType: IList<OrderType>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.OrderType>
+  nameWithType.vb: IList(Of OrderType)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.OrderType)
+  name.vb: IList(Of OrderType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+    nameWithType: OrderType
+    fullName: TradingPlatform.BusinessLayer.OrderType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+    nameWithType: OrderType
+    fullName: TradingPlatform.BusinessLayer.OrderType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList
+  name: AllowNonFixedList
+  nameWithType: Vendor.AllowNonFixedList
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.AllowNonFixedList
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage
+  name: PushMessage
+  nameWithType: Vendor.PushMessage
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.PushMessage
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL
+  name: CalculatePnL
+  nameWithType: Vendor.CalculatePnL
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.CalculatePnL
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.PnLRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: PnLRequestParameters
+  nameWithType: PnLRequestParameters
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters
+- uid: TradingPlatform.BusinessLayer.PnL
+  commentId: T:TradingPlatform.BusinessLayer.PnL
+  parent: TradingPlatform.BusinessLayer
+  name: PnL
+  nameWithType: PnL
+  fullName: TradingPlatform.BusinessLayer.PnL
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest
+  name: SendCustomRequest
+  nameWithType: Vendor.SendCustomRequest
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.SendCustomRequest
+- uid: TradingPlatform.BusinessLayer.RequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.RequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: RequestParameters
+  nameWithType: RequestParameters
+  fullName: TradingPlatform.BusinessLayer.RequestParameters
+- uid: TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription
+  name: GetDefaultDescription
+  nameWithType: Vendor.GetDefaultDescription
+  fullName: TradingPlatform.BusinessLayer.Integration.Vendor.GetDefaultDescription

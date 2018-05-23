@@ -1,0 +1,900 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions
+  commentId: T:TradingPlatform.BusinessLayer.Utils.LineOptions
+  id: LineOptions
+  parent: TradingPlatform.BusinessLayer.Utils
+  children:
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.Color
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.Font
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.Width
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor
+  - TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric
+  langs:
+  - csharp
+  - vb
+  name: LineOptions
+  nameWithType: LineOptions
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: LineOptions
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LineOptions : IXElementSerialization
+    content.vb: >-
+      <Serializable>
+
+      Public Class LineOptions
+          Implements IXElementSerialization
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled
+  id: Enabled
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: LineOptions.Enabled
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: Enabled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox
+  id: WithCheckBox
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: WithCheckBox
+  nameWithType: LineOptions.WithCheckBox
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: WithCheckBox
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public bool WithCheckBox { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WithCheckBox As Boolean
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric
+  id: WithNumeric
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: WithNumeric
+  nameWithType: LineOptions.WithNumeric
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: WithNumeric
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public bool WithNumeric { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WithNumeric As Boolean
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor
+  id: WithColor
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: WithColor
+  nameWithType: LineOptions.WithColor
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: WithColor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public bool WithColor { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WithColor As Boolean
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Font
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.Font
+  id: Font
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: LineOptions.Font
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Font
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: Font
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public Font Font { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Font
+    content.vb: Public Property Font As Font
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.Font*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Width
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.Width
+  id: Width
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: LineOptions.Width
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Width
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: Width
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Color
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.Color
+  id: Color
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: LineOptions.Color
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Color
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: Color
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public Color Color { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property Color As Color
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.Color*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle
+  commentId: P:TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle
+  id: LineStyle
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: LineStyle
+  nameWithType: LineOptions.LineStyle
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: LineStyle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public LineStyle LineStyle { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.LineStyle
+    content.vb: Public Property LineStyle As LineStyle
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement
+  id: ToXElement
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: ToXElement()
+  nameWithType: LineOptions.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: ToXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public XElement ToXElement()
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Function ToXElement As XElement
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  id: FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Utils.LineOptions
+  langs:
+  - csharp
+  - vb
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: LineOptions.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    id: FromXElement
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/LineOptions.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils
+  syntax:
+    content: public void FromXElement(XElement element, DeserializationInfo deserializationInfo)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    - id: deserializationInfo
+      type: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    content.vb: Public Sub FromXElement(element As XElement, deserializationInfo As DeserializationInfo)
+  overload: TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement*
+  implements:
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Utils
+  commentId: N:TradingPlatform.BusinessLayer.Utils
+  name: TradingPlatform.BusinessLayer.Utils
+  nameWithType: TradingPlatform.BusinessLayer.Utils
+  fullName: TradingPlatform.BusinessLayer.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled
+  name: Enabled
+  nameWithType: LineOptions.Enabled
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox
+  name: WithCheckBox
+  nameWithType: LineOptions.WithCheckBox
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.WithCheckBox
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric
+  name: WithNumeric
+  nameWithType: LineOptions.WithNumeric
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.WithNumeric
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor
+  name: WithColor
+  nameWithType: LineOptions.WithColor
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.WithColor
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Font*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.Font
+  name: Font
+  nameWithType: LineOptions.Font
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Font
+- uid: System.Drawing.Font
+  commentId: T:System.Drawing.Font
+  parent: System.Drawing
+  isExternal: true
+  name: Font
+  nameWithType: Font
+  fullName: System.Drawing.Font
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Width*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.Width
+  name: Width
+  nameWithType: LineOptions.Width
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.Color*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.Color
+  name: Color
+  nameWithType: LineOptions.Color
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.Color
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle
+  name: LineStyle
+  nameWithType: LineOptions.LineStyle
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.LineStyle
+- uid: TradingPlatform.BusinessLayer.LineStyle
+  commentId: T:TradingPlatform.BusinessLayer.LineStyle
+  parent: TradingPlatform.BusinessLayer
+  name: LineStyle
+  nameWithType: LineStyle
+  fullName: TradingPlatform.BusinessLayer.LineStyle
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement
+  name: ToXElement
+  nameWithType: LineOptions.ToXElement
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.ToXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  name: ToXElement()
+  nameWithType: IXElementSerialization.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+    name: ToXElement
+    nameWithType: IXElementSerialization.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement*
+  commentId: Overload:TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement
+  name: FromXElement
+  nameWithType: LineOptions.FromXElement
+  fullName: TradingPlatform.BusinessLayer.Utils.LineOptions.FromXElement
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: IXElementSerialization.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: IXElementSerialization.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: DeserializationInfo
+  nameWithType: DeserializationInfo
+  fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo

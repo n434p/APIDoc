@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Volatility
+  commentId: N:Volatility
+  id: Volatility
+  children:
+  - Volatility.ATR
+  - Volatility.CMO
+  - Volatility.HV
+  - Volatility.SD
+  langs:
+  - csharp
+  - vb
+  name: Volatility
+  nameWithType: Volatility
+  fullName: Volatility
+  type: Namespace
+  assemblies:
+  - Indicators
+references:
+- uid: Volatility.ATR
+  commentId: T:Volatility.ATR
+  name: ATR
+  nameWithType: ATR
+  fullName: Volatility.ATR
+- uid: Volatility.CMO
+  commentId: T:Volatility.CMO
+  name: CMO
+  nameWithType: CMO
+  fullName: Volatility.CMO
+- uid: Volatility.HV
+  commentId: T:Volatility.HV
+  name: HV
+  nameWithType: HV
+  fullName: Volatility.HV
+- uid: Volatility.SD
+  commentId: T:Volatility.SD
+  name: SD
+  nameWithType: SD
+  fullName: Volatility.SD

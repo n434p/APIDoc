@@ -1,0 +1,868 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  commentId: T:TradingPlatform.BusinessLayer.Licence.LicencesManager
+  id: LicencesManager
+  parent: TradingPlatform.BusinessLayer.Licence
+  children:
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.#ctor
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem(System.String)
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator(TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator)
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings
+  - TradingPlatform.BusinessLayer.Licence.LicencesManager.State
+  langs:
+  - csharp
+  - vb
+  name: LicencesManager
+  nameWithType: LicencesManager
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: LicencesManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: 'public class LicencesManager : IDisposable, ICustomizable'
+    content.vb: >-
+      Public Class LicencesManager
+          Implements IDisposable, ICustomizable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  - TradingPlatform.BusinessLayer.ICustomizable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.State
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicencesManager.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: LicencesManager.State
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 29
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public ConnectionState State { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    content.vb: Public ReadOnly Property State As ConnectionState
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.State*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser
+  id: CurrentUser
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: CurrentUser
+  nameWithType: LicencesManager.CurrentUser
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: CurrentUser
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public UserInfo CurrentUser { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Licence.UserInfo
+    content.vb: Public ReadOnly Property CurrentUser As UserInfo
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Licence.LicencesManager.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: LicencesManager()
+  nameWithType: LicencesManager.LicencesManager()
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.LicencesManager()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 41
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public LicencesManager()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer
+  commentId: M:TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer
+  id: ConnectToAuthServer
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: ConnectToAuthServer()
+  nameWithType: LicencesManager.ConnectToAuthServer()
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: ConnectToAuthServer
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 82
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public Task ConnectToAuthServer()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ConnectToAuthServer As Task
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect
+  commentId: M:TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect
+  id: Disconnect
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: LicencesManager.Disconnect()
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: Disconnect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 191
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public Task Disconnect()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function Disconnect As Task
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator(TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator)
+  commentId: M:TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator(TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator)
+  id: SetBrowserCreator(TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator)
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: SetBrowserCreator(IOAuthBrowserCreator)
+  nameWithType: LicencesManager.SetBrowserCreator(IOAuthBrowserCreator)
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator(TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: SetBrowserCreator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 217
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public void SetBrowserCreator(IOAuthBrowserCreator newBrowserCreator)
+    parameters:
+    - id: newBrowserCreator
+      type: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+    content.vb: Public Sub SetBrowserCreator(newBrowserCreator As IOAuthBrowserCreator)
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem(System.String)
+  id: GetLicenceRuleItem(System.String)
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: GetLicenceRuleItem(String)
+  nameWithType: LicencesManager.GetLicenceRuleItem(String)
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: GetLicenceRuleItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 225
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public LicenceItem GetLicenceRuleItem(string itemKey)
+    parameters:
+    - id: itemKey
+      type: System.String
+    return:
+      type: TradingPlatform.BusinessLayer.Licence.LicenceItem
+    content.vb: Public Function GetLicenceRuleItem(itemKey As String) As LicenceItem
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: LicencesManager.Dispose()
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 334
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.Licence.LicencesManager
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: LicencesManager.Settings
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/LicencesManager.cs
+    startLine: 360
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Property Settings As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings*
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable.Settings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Licence
+  commentId: N:TradingPlatform.BusinessLayer.Licence
+  name: TradingPlatform.BusinessLayer.Licence
+  nameWithType: TradingPlatform.BusinessLayer.Licence
+  fullName: TradingPlatform.BusinessLayer.Licence
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.State
+  name: State
+  nameWithType: LicencesManager.State
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.State
+- uid: TradingPlatform.BusinessLayer.ConnectionState
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionState
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionState
+  nameWithType: ConnectionState
+  fullName: TradingPlatform.BusinessLayer.ConnectionState
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser
+  name: CurrentUser
+  nameWithType: LicencesManager.CurrentUser
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.CurrentUser
+- uid: TradingPlatform.BusinessLayer.Licence.UserInfo
+  commentId: T:TradingPlatform.BusinessLayer.Licence.UserInfo
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: TradingPlatform.BusinessLayer.Licence.UserInfo
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.#ctor
+  name: LicencesManager
+  nameWithType: LicencesManager.LicencesManager
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.LicencesManager
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer
+  name: ConnectToAuthServer
+  nameWithType: LicencesManager.ConnectToAuthServer
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.ConnectToAuthServer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect
+  name: Disconnect
+  nameWithType: LicencesManager.Disconnect
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.Disconnect
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator
+  name: SetBrowserCreator
+  nameWithType: LicencesManager.SetBrowserCreator
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.SetBrowserCreator
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  commentId: T:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: IOAuthBrowserCreator
+  nameWithType: IOAuthBrowserCreator
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserCreator
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem
+  name: GetLicenceRuleItem
+  nameWithType: LicencesManager.GetLicenceRuleItem
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.GetLicenceRuleItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Licence.LicenceItem
+  commentId: T:TradingPlatform.BusinessLayer.Licence.LicenceItem
+  parent: TradingPlatform.BusinessLayer.Licence
+  name: LicenceItem
+  nameWithType: LicenceItem
+  fullName: TradingPlatform.BusinessLayer.Licence.LicenceItem
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose
+  name: Dispose
+  nameWithType: LicencesManager.Dispose
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings
+  name: Settings
+  nameWithType: LicencesManager.Settings
+  fullName: TradingPlatform.BusinessLayer.Licence.LicencesManager.Settings
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  parent: TradingPlatform.BusinessLayer.ICustomizable
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

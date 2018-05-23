@@ -1,0 +1,6381 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NativeKey
+  commentId: T:TradingPlatform.BusinessLayer.NativeKey
+  id: NativeKey
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NativeKey.A
+  - TradingPlatform.BusinessLayer.NativeKey.AbntC1
+  - TradingPlatform.BusinessLayer.NativeKey.AbntC2
+  - TradingPlatform.BusinessLayer.NativeKey.Add
+  - TradingPlatform.BusinessLayer.NativeKey.Apps
+  - TradingPlatform.BusinessLayer.NativeKey.Attn
+  - TradingPlatform.BusinessLayer.NativeKey.B
+  - TradingPlatform.BusinessLayer.NativeKey.Back
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserBack
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserFavorites
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserForward
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserHome
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserRefresh
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserSearch
+  - TradingPlatform.BusinessLayer.NativeKey.BrowserStop
+  - TradingPlatform.BusinessLayer.NativeKey.C
+  - TradingPlatform.BusinessLayer.NativeKey.Cancel
+  - TradingPlatform.BusinessLayer.NativeKey.Capital
+  - TradingPlatform.BusinessLayer.NativeKey.CapsLock
+  - TradingPlatform.BusinessLayer.NativeKey.Clear
+  - TradingPlatform.BusinessLayer.NativeKey.CrSel
+  - TradingPlatform.BusinessLayer.NativeKey.D
+  - TradingPlatform.BusinessLayer.NativeKey.D0
+  - TradingPlatform.BusinessLayer.NativeKey.D1
+  - TradingPlatform.BusinessLayer.NativeKey.D2
+  - TradingPlatform.BusinessLayer.NativeKey.D3
+  - TradingPlatform.BusinessLayer.NativeKey.D4
+  - TradingPlatform.BusinessLayer.NativeKey.D5
+  - TradingPlatform.BusinessLayer.NativeKey.D6
+  - TradingPlatform.BusinessLayer.NativeKey.D7
+  - TradingPlatform.BusinessLayer.NativeKey.D8
+  - TradingPlatform.BusinessLayer.NativeKey.D9
+  - TradingPlatform.BusinessLayer.NativeKey.DbeAlphanumeric
+  - TradingPlatform.BusinessLayer.NativeKey.DbeCodeInput
+  - TradingPlatform.BusinessLayer.NativeKey.DbeDbcsChar
+  - TradingPlatform.BusinessLayer.NativeKey.DbeDetermineString
+  - TradingPlatform.BusinessLayer.NativeKey.DbeEnterDialogConversionMode
+  - TradingPlatform.BusinessLayer.NativeKey.DbeEnterImeConfigureMode
+  - TradingPlatform.BusinessLayer.NativeKey.DbeEnterWordRegisterMode
+  - TradingPlatform.BusinessLayer.NativeKey.DbeFlushString
+  - TradingPlatform.BusinessLayer.NativeKey.DbeHiragana
+  - TradingPlatform.BusinessLayer.NativeKey.DbeKatakana
+  - TradingPlatform.BusinessLayer.NativeKey.DbeNoCodeInput
+  - TradingPlatform.BusinessLayer.NativeKey.DbeNoRoman
+  - TradingPlatform.BusinessLayer.NativeKey.DbeRoman
+  - TradingPlatform.BusinessLayer.NativeKey.DbeSbcsChar
+  - TradingPlatform.BusinessLayer.NativeKey.DeadCharProcessed
+  - TradingPlatform.BusinessLayer.NativeKey.Decimal
+  - TradingPlatform.BusinessLayer.NativeKey.Delete
+  - TradingPlatform.BusinessLayer.NativeKey.Divide
+  - TradingPlatform.BusinessLayer.NativeKey.Down
+  - TradingPlatform.BusinessLayer.NativeKey.E
+  - TradingPlatform.BusinessLayer.NativeKey.End
+  - TradingPlatform.BusinessLayer.NativeKey.Enter
+  - TradingPlatform.BusinessLayer.NativeKey.EraseEof
+  - TradingPlatform.BusinessLayer.NativeKey.Escape
+  - TradingPlatform.BusinessLayer.NativeKey.Execute
+  - TradingPlatform.BusinessLayer.NativeKey.ExSel
+  - TradingPlatform.BusinessLayer.NativeKey.F
+  - TradingPlatform.BusinessLayer.NativeKey.F1
+  - TradingPlatform.BusinessLayer.NativeKey.F10
+  - TradingPlatform.BusinessLayer.NativeKey.F11
+  - TradingPlatform.BusinessLayer.NativeKey.F12
+  - TradingPlatform.BusinessLayer.NativeKey.F13
+  - TradingPlatform.BusinessLayer.NativeKey.F14
+  - TradingPlatform.BusinessLayer.NativeKey.F15
+  - TradingPlatform.BusinessLayer.NativeKey.F16
+  - TradingPlatform.BusinessLayer.NativeKey.F17
+  - TradingPlatform.BusinessLayer.NativeKey.F18
+  - TradingPlatform.BusinessLayer.NativeKey.F19
+  - TradingPlatform.BusinessLayer.NativeKey.F2
+  - TradingPlatform.BusinessLayer.NativeKey.F20
+  - TradingPlatform.BusinessLayer.NativeKey.F21
+  - TradingPlatform.BusinessLayer.NativeKey.F22
+  - TradingPlatform.BusinessLayer.NativeKey.F23
+  - TradingPlatform.BusinessLayer.NativeKey.F24
+  - TradingPlatform.BusinessLayer.NativeKey.F3
+  - TradingPlatform.BusinessLayer.NativeKey.F4
+  - TradingPlatform.BusinessLayer.NativeKey.F5
+  - TradingPlatform.BusinessLayer.NativeKey.F6
+  - TradingPlatform.BusinessLayer.NativeKey.F7
+  - TradingPlatform.BusinessLayer.NativeKey.F8
+  - TradingPlatform.BusinessLayer.NativeKey.F9
+  - TradingPlatform.BusinessLayer.NativeKey.FinalMode
+  - TradingPlatform.BusinessLayer.NativeKey.G
+  - TradingPlatform.BusinessLayer.NativeKey.H
+  - TradingPlatform.BusinessLayer.NativeKey.HangulMode
+  - TradingPlatform.BusinessLayer.NativeKey.HanjaMode
+  - TradingPlatform.BusinessLayer.NativeKey.Help
+  - TradingPlatform.BusinessLayer.NativeKey.Home
+  - TradingPlatform.BusinessLayer.NativeKey.I
+  - TradingPlatform.BusinessLayer.NativeKey.ImeAccept
+  - TradingPlatform.BusinessLayer.NativeKey.ImeConvert
+  - TradingPlatform.BusinessLayer.NativeKey.ImeModeChange
+  - TradingPlatform.BusinessLayer.NativeKey.ImeNonConvert
+  - TradingPlatform.BusinessLayer.NativeKey.ImeProcessed
+  - TradingPlatform.BusinessLayer.NativeKey.Insert
+  - TradingPlatform.BusinessLayer.NativeKey.J
+  - TradingPlatform.BusinessLayer.NativeKey.JunjaMode
+  - TradingPlatform.BusinessLayer.NativeKey.K
+  - TradingPlatform.BusinessLayer.NativeKey.KanaMode
+  - TradingPlatform.BusinessLayer.NativeKey.KanjiMode
+  - TradingPlatform.BusinessLayer.NativeKey.L
+  - TradingPlatform.BusinessLayer.NativeKey.LaunchApplication1
+  - TradingPlatform.BusinessLayer.NativeKey.LaunchApplication2
+  - TradingPlatform.BusinessLayer.NativeKey.LaunchMail
+  - TradingPlatform.BusinessLayer.NativeKey.Left
+  - TradingPlatform.BusinessLayer.NativeKey.LeftAlt
+  - TradingPlatform.BusinessLayer.NativeKey.LeftCtrl
+  - TradingPlatform.BusinessLayer.NativeKey.LeftShift
+  - TradingPlatform.BusinessLayer.NativeKey.LineFeed
+  - TradingPlatform.BusinessLayer.NativeKey.LWin
+  - TradingPlatform.BusinessLayer.NativeKey.M
+  - TradingPlatform.BusinessLayer.NativeKey.MediaNextTrack
+  - TradingPlatform.BusinessLayer.NativeKey.MediaPlayPause
+  - TradingPlatform.BusinessLayer.NativeKey.MediaPreviousTrack
+  - TradingPlatform.BusinessLayer.NativeKey.MediaStop
+  - TradingPlatform.BusinessLayer.NativeKey.Multiply
+  - TradingPlatform.BusinessLayer.NativeKey.N
+  - TradingPlatform.BusinessLayer.NativeKey.Next
+  - TradingPlatform.BusinessLayer.NativeKey.NoName
+  - TradingPlatform.BusinessLayer.NativeKey.None
+  - TradingPlatform.BusinessLayer.NativeKey.NumLock
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad0
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad1
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad2
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad3
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad4
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad5
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad6
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad7
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad8
+  - TradingPlatform.BusinessLayer.NativeKey.NumPad9
+  - TradingPlatform.BusinessLayer.NativeKey.O
+  - TradingPlatform.BusinessLayer.NativeKey.Oem1
+  - TradingPlatform.BusinessLayer.NativeKey.Oem102
+  - TradingPlatform.BusinessLayer.NativeKey.Oem2
+  - TradingPlatform.BusinessLayer.NativeKey.Oem3
+  - TradingPlatform.BusinessLayer.NativeKey.Oem4
+  - TradingPlatform.BusinessLayer.NativeKey.Oem5
+  - TradingPlatform.BusinessLayer.NativeKey.Oem6
+  - TradingPlatform.BusinessLayer.NativeKey.Oem7
+  - TradingPlatform.BusinessLayer.NativeKey.Oem8
+  - TradingPlatform.BusinessLayer.NativeKey.OemAttn
+  - TradingPlatform.BusinessLayer.NativeKey.OemAuto
+  - TradingPlatform.BusinessLayer.NativeKey.OemBackslash
+  - TradingPlatform.BusinessLayer.NativeKey.OemBackTab
+  - TradingPlatform.BusinessLayer.NativeKey.OemClear
+  - TradingPlatform.BusinessLayer.NativeKey.OemCloseBrackets
+  - TradingPlatform.BusinessLayer.NativeKey.OemComma
+  - TradingPlatform.BusinessLayer.NativeKey.OemCopy
+  - TradingPlatform.BusinessLayer.NativeKey.OemEnlw
+  - TradingPlatform.BusinessLayer.NativeKey.OemFinish
+  - TradingPlatform.BusinessLayer.NativeKey.OemMinus
+  - TradingPlatform.BusinessLayer.NativeKey.OemOpenBrackets
+  - TradingPlatform.BusinessLayer.NativeKey.OemPeriod
+  - TradingPlatform.BusinessLayer.NativeKey.OemPipe
+  - TradingPlatform.BusinessLayer.NativeKey.OemPlus
+  - TradingPlatform.BusinessLayer.NativeKey.OemQuestion
+  - TradingPlatform.BusinessLayer.NativeKey.OemQuotes
+  - TradingPlatform.BusinessLayer.NativeKey.OemSemicolon
+  - TradingPlatform.BusinessLayer.NativeKey.OemTilde
+  - TradingPlatform.BusinessLayer.NativeKey.P
+  - TradingPlatform.BusinessLayer.NativeKey.Pa1
+  - TradingPlatform.BusinessLayer.NativeKey.PageDown
+  - TradingPlatform.BusinessLayer.NativeKey.PageUp
+  - TradingPlatform.BusinessLayer.NativeKey.Pause
+  - TradingPlatform.BusinessLayer.NativeKey.Play
+  - TradingPlatform.BusinessLayer.NativeKey.Print
+  - TradingPlatform.BusinessLayer.NativeKey.PrintScreen
+  - TradingPlatform.BusinessLayer.NativeKey.Prior
+  - TradingPlatform.BusinessLayer.NativeKey.Q
+  - TradingPlatform.BusinessLayer.NativeKey.R
+  - TradingPlatform.BusinessLayer.NativeKey.Return
+  - TradingPlatform.BusinessLayer.NativeKey.Right
+  - TradingPlatform.BusinessLayer.NativeKey.RightAlt
+  - TradingPlatform.BusinessLayer.NativeKey.RightCtrl
+  - TradingPlatform.BusinessLayer.NativeKey.RightShift
+  - TradingPlatform.BusinessLayer.NativeKey.RWin
+  - TradingPlatform.BusinessLayer.NativeKey.S
+  - TradingPlatform.BusinessLayer.NativeKey.Scroll
+  - TradingPlatform.BusinessLayer.NativeKey.Select
+  - TradingPlatform.BusinessLayer.NativeKey.SelectMedia
+  - TradingPlatform.BusinessLayer.NativeKey.Separator
+  - TradingPlatform.BusinessLayer.NativeKey.Sleep
+  - TradingPlatform.BusinessLayer.NativeKey.Snapshot
+  - TradingPlatform.BusinessLayer.NativeKey.Space
+  - TradingPlatform.BusinessLayer.NativeKey.Subtract
+  - TradingPlatform.BusinessLayer.NativeKey.System
+  - TradingPlatform.BusinessLayer.NativeKey.T
+  - TradingPlatform.BusinessLayer.NativeKey.Tab
+  - TradingPlatform.BusinessLayer.NativeKey.U
+  - TradingPlatform.BusinessLayer.NativeKey.Up
+  - TradingPlatform.BusinessLayer.NativeKey.V
+  - TradingPlatform.BusinessLayer.NativeKey.VolumeDown
+  - TradingPlatform.BusinessLayer.NativeKey.VolumeMute
+  - TradingPlatform.BusinessLayer.NativeKey.VolumeUp
+  - TradingPlatform.BusinessLayer.NativeKey.W
+  - TradingPlatform.BusinessLayer.NativeKey.X
+  - TradingPlatform.BusinessLayer.NativeKey.Y
+  - TradingPlatform.BusinessLayer.NativeKey.Z
+  - TradingPlatform.BusinessLayer.NativeKey.Zoom
+  langs:
+  - csharp
+  - vb
+  name: NativeKey
+  nameWithType: NativeKey
+  fullName: TradingPlatform.BusinessLayer.NativeKey
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NativeKey
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 195
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum NativeKey
+    content.vb: Public Enum NativeKey
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.NativeKey.None
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NativeKey.None
+  fullName: TradingPlatform.BusinessLayer.NativeKey.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 200
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Cancel
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Cancel
+  id: Cancel
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: NativeKey.Cancel
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Cancel
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Cancel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 204
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Cancel = 1
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Back
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Back
+  id: Back
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: NativeKey.Back
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Back
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Back
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 208
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Back = 2
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Tab
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Tab
+  id: Tab
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Tab
+  nameWithType: NativeKey.Tab
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Tab
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Tab
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 212
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Tab = 3
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LineFeed
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LineFeed
+  id: LineFeed
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LineFeed
+  nameWithType: NativeKey.LineFeed
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LineFeed
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LineFeed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 216
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LineFeed = 4
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Clear
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Clear
+  id: Clear
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Clear
+  nameWithType: NativeKey.Clear
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Clear
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Clear
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 220
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Clear = 5
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Return
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Return
+  id: Return
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Return
+  nameWithType: NativeKey.Return
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Return
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Return
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 224
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Return = 6
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Enter
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Enter
+  id: Enter
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Enter
+  nameWithType: NativeKey.Enter
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Enter
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Enter
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 228
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Enter = 6
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Pause
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Pause
+  id: Pause
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: NativeKey.Pause
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Pause
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Pause
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 232
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Pause = 7
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Capital
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Capital
+  id: Capital
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Capital
+  nameWithType: NativeKey.Capital
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Capital
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Capital
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 236
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Capital = 8
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.CapsLock
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.CapsLock
+  id: CapsLock
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: CapsLock
+  nameWithType: NativeKey.CapsLock
+  fullName: TradingPlatform.BusinessLayer.NativeKey.CapsLock
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: CapsLock
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 240
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: CapsLock = 8
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.KanaMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.KanaMode
+  id: KanaMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: KanaMode
+  nameWithType: NativeKey.KanaMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.KanaMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: KanaMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 244
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: KanaMode = 9
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.HangulMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.HangulMode
+  id: HangulMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: HangulMode
+  nameWithType: NativeKey.HangulMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.HangulMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: HangulMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 248
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: HangulMode = 9
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.JunjaMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.JunjaMode
+  id: JunjaMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: JunjaMode
+  nameWithType: NativeKey.JunjaMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.JunjaMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: JunjaMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 252
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: JunjaMode = 10
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.FinalMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.FinalMode
+  id: FinalMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: FinalMode
+  nameWithType: NativeKey.FinalMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.FinalMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: FinalMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 256
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: FinalMode = 11
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.HanjaMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.HanjaMode
+  id: HanjaMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: HanjaMode
+  nameWithType: NativeKey.HanjaMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.HanjaMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: HanjaMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 260
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: HanjaMode = 12
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.KanjiMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.KanjiMode
+  id: KanjiMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: KanjiMode
+  nameWithType: NativeKey.KanjiMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.KanjiMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: KanjiMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 264
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: KanjiMode = 12
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Escape
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Escape
+  id: Escape
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Escape
+  nameWithType: NativeKey.Escape
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Escape
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Escape
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 268
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Escape = 13
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.ImeConvert
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.ImeConvert
+  id: ImeConvert
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: ImeConvert
+  nameWithType: NativeKey.ImeConvert
+  fullName: TradingPlatform.BusinessLayer.NativeKey.ImeConvert
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ImeConvert
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 272
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ImeConvert = 14
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.ImeNonConvert
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.ImeNonConvert
+  id: ImeNonConvert
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: ImeNonConvert
+  nameWithType: NativeKey.ImeNonConvert
+  fullName: TradingPlatform.BusinessLayer.NativeKey.ImeNonConvert
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ImeNonConvert
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 276
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ImeNonConvert = 15
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.ImeAccept
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.ImeAccept
+  id: ImeAccept
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: ImeAccept
+  nameWithType: NativeKey.ImeAccept
+  fullName: TradingPlatform.BusinessLayer.NativeKey.ImeAccept
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ImeAccept
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 280
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ImeAccept = 16
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.ImeModeChange
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.ImeModeChange
+  id: ImeModeChange
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: ImeModeChange
+  nameWithType: NativeKey.ImeModeChange
+  fullName: TradingPlatform.BusinessLayer.NativeKey.ImeModeChange
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ImeModeChange
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 284
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ImeModeChange = 17
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Space
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Space
+  id: Space
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Space
+  nameWithType: NativeKey.Space
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Space
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Space
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 288
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Space = 18
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Prior
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Prior
+  id: Prior
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Prior
+  nameWithType: NativeKey.Prior
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Prior
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Prior
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 292
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Prior = 19
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.PageUp
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.PageUp
+  id: PageUp
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: PageUp
+  nameWithType: NativeKey.PageUp
+  fullName: TradingPlatform.BusinessLayer.NativeKey.PageUp
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: PageUp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 296
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: PageUp = 19
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Next
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Next
+  id: Next
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Next
+  nameWithType: NativeKey.Next
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Next
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Next
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 300
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Next = 20
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.PageDown
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.PageDown
+  id: PageDown
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: PageDown
+  nameWithType: NativeKey.PageDown
+  fullName: TradingPlatform.BusinessLayer.NativeKey.PageDown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: PageDown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 304
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: PageDown = 20
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.End
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.End
+  id: End
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: NativeKey.End
+  fullName: TradingPlatform.BusinessLayer.NativeKey.End
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: End
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 308
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: End = 21
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Home
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Home
+  id: Home
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Home
+  nameWithType: NativeKey.Home
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Home
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Home
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 312
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Home = 22
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Left
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Left
+  id: Left
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: NativeKey.Left
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Left
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Left
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 316
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Left = 23
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Up
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Up
+  id: Up
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: NativeKey.Up
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Up
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Up
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 320
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Up = 24
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Right
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Right
+  id: Right
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: NativeKey.Right
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Right
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Right
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 324
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Right = 25
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Down
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Down
+  id: Down
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: NativeKey.Down
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Down
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Down
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 328
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Down = 26
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Select
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Select
+  id: Select
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: NativeKey.Select
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Select
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Select
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 332
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Select = 27
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Print
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Print
+  id: Print
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Print
+  nameWithType: NativeKey.Print
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Print
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Print
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 336
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Print = 28
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Execute
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Execute
+  id: Execute
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Execute
+  nameWithType: NativeKey.Execute
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Execute
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Execute
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 340
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Execute = 29
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Snapshot
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Snapshot
+  id: Snapshot
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Snapshot
+  nameWithType: NativeKey.Snapshot
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Snapshot
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Snapshot
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 344
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Snapshot = 30
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.PrintScreen
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.PrintScreen
+  id: PrintScreen
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: PrintScreen
+  nameWithType: NativeKey.PrintScreen
+  fullName: TradingPlatform.BusinessLayer.NativeKey.PrintScreen
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: PrintScreen
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 348
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: PrintScreen = 30
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Insert
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Insert
+  id: Insert
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Insert
+  nameWithType: NativeKey.Insert
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Insert
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Insert
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 352
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Insert = 31
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Delete
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Delete
+  id: Delete
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: NativeKey.Delete
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Delete
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Delete
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 356
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Delete = 32
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Help
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Help
+  id: Help
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Help
+  nameWithType: NativeKey.Help
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Help
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Help
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 360
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Help = 33
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D0
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D0
+  id: D0
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D0
+  nameWithType: NativeKey.D0
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D0
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D0
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 364
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D0 = 34
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D1
+  id: D1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D1
+  nameWithType: NativeKey.D1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 368
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D1 = 35
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D2
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D2
+  id: D2
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D2
+  nameWithType: NativeKey.D2
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 372
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D2 = 36
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D3
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D3
+  id: D3
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D3
+  nameWithType: NativeKey.D3
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D3
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 376
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D3 = 37
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D4
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D4
+  id: D4
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D4
+  nameWithType: NativeKey.D4
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D4
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 380
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D4 = 38
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D5
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D5
+  id: D5
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D5
+  nameWithType: NativeKey.D5
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D5
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D5
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 384
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D5 = 39
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D6
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D6
+  id: D6
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D6
+  nameWithType: NativeKey.D6
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D6
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D6
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 388
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D6 = 40
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D7
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D7
+  id: D7
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D7
+  nameWithType: NativeKey.D7
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D7
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D7
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 392
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D7 = 41
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D8
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D8
+  id: D8
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D8
+  nameWithType: NativeKey.D8
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D8
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D8
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 396
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D8 = 42
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D9
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D9
+  id: D9
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D9
+  nameWithType: NativeKey.D9
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D9
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D9
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 400
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D9 = 43
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.A
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.A
+  id: A
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: NativeKey.A
+  fullName: TradingPlatform.BusinessLayer.NativeKey.A
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: A
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 404
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: A = 44
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.B
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.B
+  id: B
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: NativeKey.B
+  fullName: TradingPlatform.BusinessLayer.NativeKey.B
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: B
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 408
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: B = 45
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.C
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.C
+  id: C
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: NativeKey.C
+  fullName: TradingPlatform.BusinessLayer.NativeKey.C
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: C
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 412
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: C = 46
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.D
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.D
+  id: D
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: NativeKey.D
+  fullName: TradingPlatform.BusinessLayer.NativeKey.D
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: D
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 416
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: D = 47
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.E
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.E
+  id: E
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: NativeKey.E
+  fullName: TradingPlatform.BusinessLayer.NativeKey.E
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: E
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 420
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: E = 48
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F
+  id: F
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F
+  nameWithType: NativeKey.F
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 424
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F = 49
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.G
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.G
+  id: G
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: NativeKey.G
+  fullName: TradingPlatform.BusinessLayer.NativeKey.G
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: G
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 428
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: G = 50
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.H
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.H
+  id: H
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: NativeKey.H
+  fullName: TradingPlatform.BusinessLayer.NativeKey.H
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: H
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 432
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: H = 51
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.I
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.I
+  id: I
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: I
+  nameWithType: NativeKey.I
+  fullName: TradingPlatform.BusinessLayer.NativeKey.I
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: I
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 436
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: I = 52
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.J
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.J
+  id: J
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: J
+  nameWithType: NativeKey.J
+  fullName: TradingPlatform.BusinessLayer.NativeKey.J
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: J
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 440
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: J = 53
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.K
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.K
+  id: K
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: K
+  nameWithType: NativeKey.K
+  fullName: TradingPlatform.BusinessLayer.NativeKey.K
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: K
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 444
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: K = 54
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.L
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.L
+  id: L
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: L
+  nameWithType: NativeKey.L
+  fullName: TradingPlatform.BusinessLayer.NativeKey.L
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: L
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 448
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: L = 55
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.M
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.M
+  id: M
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: M
+  nameWithType: NativeKey.M
+  fullName: TradingPlatform.BusinessLayer.NativeKey.M
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: M
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 452
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: M = 56
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.N
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.N
+  id: N
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: N
+  nameWithType: NativeKey.N
+  fullName: TradingPlatform.BusinessLayer.NativeKey.N
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: N
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 456
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: N = 57
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.O
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.O
+  id: O
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: O
+  nameWithType: NativeKey.O
+  fullName: TradingPlatform.BusinessLayer.NativeKey.O
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: O
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 460
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: O = 58
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.P
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.P
+  id: P
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: P
+  nameWithType: NativeKey.P
+  fullName: TradingPlatform.BusinessLayer.NativeKey.P
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: P
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 464
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: P = 59
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Q
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Q
+  id: Q
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: NativeKey.Q
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Q
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Q
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 468
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Q = 60
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.R
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.R
+  id: R
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: NativeKey.R
+  fullName: TradingPlatform.BusinessLayer.NativeKey.R
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: R
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 472
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: R = 61
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.S
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.S
+  id: S
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: S
+  nameWithType: NativeKey.S
+  fullName: TradingPlatform.BusinessLayer.NativeKey.S
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: S
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 476
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: S = 62
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.T
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.T
+  id: T
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: T
+  nameWithType: NativeKey.T
+  fullName: TradingPlatform.BusinessLayer.NativeKey.T
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: T
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 480
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: T = 63
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.U
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.U
+  id: U
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: U
+  nameWithType: NativeKey.U
+  fullName: TradingPlatform.BusinessLayer.NativeKey.U
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: U
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 484
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: U = 64
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.V
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.V
+  id: V
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: V
+  nameWithType: NativeKey.V
+  fullName: TradingPlatform.BusinessLayer.NativeKey.V
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: V
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 488
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: V = 65
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.W
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.W
+  id: W
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: NativeKey.W
+  fullName: TradingPlatform.BusinessLayer.NativeKey.W
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: W
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 492
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: W = 66
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.X
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.X
+  id: X
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: NativeKey.X
+  fullName: TradingPlatform.BusinessLayer.NativeKey.X
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: X
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 496
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: X = 67
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Y
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Y
+  id: Y
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: NativeKey.Y
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Y
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Y
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 500
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Y = 68
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Z
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Z
+  id: Z
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: NativeKey.Z
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Z
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Z
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 504
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Z = 69
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LWin
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LWin
+  id: LWin
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LWin
+  nameWithType: NativeKey.LWin
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LWin
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LWin
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 508
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LWin = 70
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.RWin
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.RWin
+  id: RWin
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: RWin
+  nameWithType: NativeKey.RWin
+  fullName: TradingPlatform.BusinessLayer.NativeKey.RWin
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: RWin
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 512
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: RWin = 71
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Apps
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Apps
+  id: Apps
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Apps
+  nameWithType: NativeKey.Apps
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Apps
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Apps
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 516
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Apps = 72
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Sleep
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Sleep
+  id: Sleep
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Sleep
+  nameWithType: NativeKey.Sleep
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Sleep
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Sleep
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 520
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Sleep = 73
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad0
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad0
+  id: NumPad0
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad0
+  nameWithType: NativeKey.NumPad0
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad0
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad0
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 524
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad0 = 74
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad1
+  id: NumPad1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad1
+  nameWithType: NativeKey.NumPad1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 528
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad1 = 75
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad2
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad2
+  id: NumPad2
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad2
+  nameWithType: NativeKey.NumPad2
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 532
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad2 = 76
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad3
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad3
+  id: NumPad3
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad3
+  nameWithType: NativeKey.NumPad3
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad3
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 536
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad3 = 77
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad4
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad4
+  id: NumPad4
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad4
+  nameWithType: NativeKey.NumPad4
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad4
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 540
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad4 = 78
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad5
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad5
+  id: NumPad5
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad5
+  nameWithType: NativeKey.NumPad5
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad5
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad5
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 544
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad5 = 79
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad6
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad6
+  id: NumPad6
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad6
+  nameWithType: NativeKey.NumPad6
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad6
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad6
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 548
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad6 = 80
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad7
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad7
+  id: NumPad7
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad7
+  nameWithType: NativeKey.NumPad7
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad7
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad7
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 552
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad7 = 81
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad8
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad8
+  id: NumPad8
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad8
+  nameWithType: NativeKey.NumPad8
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad8
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad8
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 556
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad8 = 82
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumPad9
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumPad9
+  id: NumPad9
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumPad9
+  nameWithType: NativeKey.NumPad9
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumPad9
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumPad9
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 560
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumPad9 = 83
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Multiply
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Multiply
+  id: Multiply
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Multiply
+  nameWithType: NativeKey.Multiply
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Multiply
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Multiply
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 564
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Multiply = 84
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Add
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Add
+  id: Add
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Add
+  nameWithType: NativeKey.Add
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Add
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Add
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 568
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Add = 85
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Separator
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Separator
+  id: Separator
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Separator
+  nameWithType: NativeKey.Separator
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Separator
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Separator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 572
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Separator = 86
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Subtract
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Subtract
+  id: Subtract
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Subtract
+  nameWithType: NativeKey.Subtract
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Subtract
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Subtract
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 576
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Subtract = 87
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Decimal
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Decimal
+  id: Decimal
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: NativeKey.Decimal
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Decimal
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Decimal
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 580
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Decimal = 88
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Divide
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Divide
+  id: Divide
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Divide
+  nameWithType: NativeKey.Divide
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Divide
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Divide
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 584
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Divide = 89
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F1
+  id: F1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F1
+  nameWithType: NativeKey.F1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 588
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F1 = 90
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F2
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F2
+  id: F2
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F2
+  nameWithType: NativeKey.F2
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 592
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F2 = 91
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F3
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F3
+  id: F3
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F3
+  nameWithType: NativeKey.F3
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F3
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 596
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F3 = 92
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F4
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F4
+  id: F4
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F4
+  nameWithType: NativeKey.F4
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F4
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 600
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F4 = 93
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F5
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F5
+  id: F5
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F5
+  nameWithType: NativeKey.F5
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F5
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F5
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 604
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F5 = 94
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F6
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F6
+  id: F6
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F6
+  nameWithType: NativeKey.F6
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F6
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F6
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 608
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F6 = 95
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F7
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F7
+  id: F7
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F7
+  nameWithType: NativeKey.F7
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F7
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F7
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 612
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F7 = 96
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F8
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F8
+  id: F8
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F8
+  nameWithType: NativeKey.F8
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F8
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F8
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 616
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F8 = 97
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F9
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F9
+  id: F9
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F9
+  nameWithType: NativeKey.F9
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F9
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F9
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 620
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F9 = 98
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F10
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F10
+  id: F10
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F10
+  nameWithType: NativeKey.F10
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F10
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F10
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 624
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F10 = 99
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F11
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F11
+  id: F11
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F11
+  nameWithType: NativeKey.F11
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F11
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F11
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 628
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F11 = 100
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F12
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F12
+  id: F12
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F12
+  nameWithType: NativeKey.F12
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F12
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F12
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 632
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F12 = 101
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F13
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F13
+  id: F13
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F13
+  nameWithType: NativeKey.F13
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F13
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F13
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 636
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F13 = 102
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F14
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F14
+  id: F14
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F14
+  nameWithType: NativeKey.F14
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F14
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F14
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 640
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F14 = 103
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F15
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F15
+  id: F15
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F15
+  nameWithType: NativeKey.F15
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F15
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F15
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 644
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F15 = 104
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F16
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F16
+  id: F16
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F16
+  nameWithType: NativeKey.F16
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F16
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F16
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 648
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F16 = 105
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F17
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F17
+  id: F17
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F17
+  nameWithType: NativeKey.F17
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F17
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F17
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 652
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F17 = 106
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F18
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F18
+  id: F18
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F18
+  nameWithType: NativeKey.F18
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F18
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F18
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 656
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F18 = 107
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F19
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F19
+  id: F19
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F19
+  nameWithType: NativeKey.F19
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F19
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F19
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 660
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F19 = 108
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F20
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F20
+  id: F20
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F20
+  nameWithType: NativeKey.F20
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F20
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F20
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 664
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F20 = 109
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F21
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F21
+  id: F21
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F21
+  nameWithType: NativeKey.F21
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F21
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F21
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 668
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F21 = 110
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F22
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F22
+  id: F22
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F22
+  nameWithType: NativeKey.F22
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F22
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F22
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 672
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F22 = 111
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F23
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F23
+  id: F23
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F23
+  nameWithType: NativeKey.F23
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F23
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F23
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 676
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F23 = 112
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.F24
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.F24
+  id: F24
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: F24
+  nameWithType: NativeKey.F24
+  fullName: TradingPlatform.BusinessLayer.NativeKey.F24
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: F24
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 680
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: F24 = 113
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NumLock
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NumLock
+  id: NumLock
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NumLock
+  nameWithType: NativeKey.NumLock
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NumLock
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NumLock
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 684
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NumLock = 114
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Scroll
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Scroll
+  id: Scroll
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Scroll
+  nameWithType: NativeKey.Scroll
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Scroll
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Scroll
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 688
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Scroll = 115
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LeftShift
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LeftShift
+  id: LeftShift
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LeftShift
+  nameWithType: NativeKey.LeftShift
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LeftShift
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LeftShift
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 692
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LeftShift = 116
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.RightShift
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.RightShift
+  id: RightShift
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: RightShift
+  nameWithType: NativeKey.RightShift
+  fullName: TradingPlatform.BusinessLayer.NativeKey.RightShift
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: RightShift
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 696
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: RightShift = 117
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LeftCtrl
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LeftCtrl
+  id: LeftCtrl
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LeftCtrl
+  nameWithType: NativeKey.LeftCtrl
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LeftCtrl
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LeftCtrl
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 700
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LeftCtrl = 118
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.RightCtrl
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.RightCtrl
+  id: RightCtrl
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: RightCtrl
+  nameWithType: NativeKey.RightCtrl
+  fullName: TradingPlatform.BusinessLayer.NativeKey.RightCtrl
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: RightCtrl
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 704
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: RightCtrl = 119
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LeftAlt
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LeftAlt
+  id: LeftAlt
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LeftAlt
+  nameWithType: NativeKey.LeftAlt
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LeftAlt
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LeftAlt
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 708
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LeftAlt = 120
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.RightAlt
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.RightAlt
+  id: RightAlt
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: RightAlt
+  nameWithType: NativeKey.RightAlt
+  fullName: TradingPlatform.BusinessLayer.NativeKey.RightAlt
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: RightAlt
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 712
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: RightAlt = 121
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserBack
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserBack
+  id: BrowserBack
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserBack
+  nameWithType: NativeKey.BrowserBack
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserBack
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserBack
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 716
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserBack = 122
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserForward
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserForward
+  id: BrowserForward
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserForward
+  nameWithType: NativeKey.BrowserForward
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserForward
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserForward
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 720
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserForward = 123
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserRefresh
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserRefresh
+  id: BrowserRefresh
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserRefresh
+  nameWithType: NativeKey.BrowserRefresh
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserRefresh
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserRefresh
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 724
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserRefresh = 124
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserStop
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserStop
+  id: BrowserStop
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserStop
+  nameWithType: NativeKey.BrowserStop
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserStop
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserStop
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 728
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserStop = 125
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserSearch
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserSearch
+  id: BrowserSearch
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserSearch
+  nameWithType: NativeKey.BrowserSearch
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserSearch
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserSearch
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 732
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserSearch = 126
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserFavorites
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserFavorites
+  id: BrowserFavorites
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserFavorites
+  nameWithType: NativeKey.BrowserFavorites
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserFavorites
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserFavorites
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 736
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserFavorites = 127
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.BrowserHome
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.BrowserHome
+  id: BrowserHome
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: BrowserHome
+  nameWithType: NativeKey.BrowserHome
+  fullName: TradingPlatform.BusinessLayer.NativeKey.BrowserHome
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: BrowserHome
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 740
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BrowserHome = 128
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.VolumeMute
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.VolumeMute
+  id: VolumeMute
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: VolumeMute
+  nameWithType: NativeKey.VolumeMute
+  fullName: TradingPlatform.BusinessLayer.NativeKey.VolumeMute
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: VolumeMute
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 744
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: VolumeMute = 129
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.VolumeDown
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.VolumeDown
+  id: VolumeDown
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: VolumeDown
+  nameWithType: NativeKey.VolumeDown
+  fullName: TradingPlatform.BusinessLayer.NativeKey.VolumeDown
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: VolumeDown
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 748
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: VolumeDown = 130
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.VolumeUp
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.VolumeUp
+  id: VolumeUp
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: VolumeUp
+  nameWithType: NativeKey.VolumeUp
+  fullName: TradingPlatform.BusinessLayer.NativeKey.VolumeUp
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: VolumeUp
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 752
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: VolumeUp = 131
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.MediaNextTrack
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.MediaNextTrack
+  id: MediaNextTrack
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: MediaNextTrack
+  nameWithType: NativeKey.MediaNextTrack
+  fullName: TradingPlatform.BusinessLayer.NativeKey.MediaNextTrack
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: MediaNextTrack
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 756
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: MediaNextTrack = 132
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.MediaPreviousTrack
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.MediaPreviousTrack
+  id: MediaPreviousTrack
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: MediaPreviousTrack
+  nameWithType: NativeKey.MediaPreviousTrack
+  fullName: TradingPlatform.BusinessLayer.NativeKey.MediaPreviousTrack
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: MediaPreviousTrack
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 760
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: MediaPreviousTrack = 133
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.MediaStop
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.MediaStop
+  id: MediaStop
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: MediaStop
+  nameWithType: NativeKey.MediaStop
+  fullName: TradingPlatform.BusinessLayer.NativeKey.MediaStop
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: MediaStop
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 764
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: MediaStop = 134
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.MediaPlayPause
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.MediaPlayPause
+  id: MediaPlayPause
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayPause
+  nameWithType: NativeKey.MediaPlayPause
+  fullName: TradingPlatform.BusinessLayer.NativeKey.MediaPlayPause
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: MediaPlayPause
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 768
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: MediaPlayPause = 135
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LaunchMail
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LaunchMail
+  id: LaunchMail
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LaunchMail
+  nameWithType: NativeKey.LaunchMail
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LaunchMail
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LaunchMail
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 772
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LaunchMail = 136
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.SelectMedia
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.SelectMedia
+  id: SelectMedia
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: SelectMedia
+  nameWithType: NativeKey.SelectMedia
+  fullName: TradingPlatform.BusinessLayer.NativeKey.SelectMedia
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: SelectMedia
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 776
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: SelectMedia = 137
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LaunchApplication1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LaunchApplication1
+  id: LaunchApplication1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LaunchApplication1
+  nameWithType: NativeKey.LaunchApplication1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LaunchApplication1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LaunchApplication1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 780
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LaunchApplication1 = 138
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.LaunchApplication2
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.LaunchApplication2
+  id: LaunchApplication2
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: LaunchApplication2
+  nameWithType: NativeKey.LaunchApplication2
+  fullName: TradingPlatform.BusinessLayer.NativeKey.LaunchApplication2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: LaunchApplication2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 784
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: LaunchApplication2 = 139
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem1
+  id: Oem1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem1
+  nameWithType: NativeKey.Oem1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 788
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem1 = 140
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemSemicolon
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemSemicolon
+  id: OemSemicolon
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemSemicolon
+  nameWithType: NativeKey.OemSemicolon
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemSemicolon
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemSemicolon
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 792
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemSemicolon = 140
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemPlus
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemPlus
+  id: OemPlus
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemPlus
+  nameWithType: NativeKey.OemPlus
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemPlus
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemPlus
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 796
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemPlus = 141
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemComma
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemComma
+  id: OemComma
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemComma
+  nameWithType: NativeKey.OemComma
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemComma
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemComma
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 800
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemComma = 142
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemMinus
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemMinus
+  id: OemMinus
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemMinus
+  nameWithType: NativeKey.OemMinus
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemMinus
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemMinus
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 804
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemMinus = 143
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemPeriod
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemPeriod
+  id: OemPeriod
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemPeriod
+  nameWithType: NativeKey.OemPeriod
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemPeriod
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemPeriod
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 808
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemPeriod = 144
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem2
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem2
+  id: Oem2
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem2
+  nameWithType: NativeKey.Oem2
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 812
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem2 = 145
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemQuestion
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemQuestion
+  id: OemQuestion
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemQuestion
+  nameWithType: NativeKey.OemQuestion
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemQuestion
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemQuestion
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 816
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemQuestion = 145
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem3
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem3
+  id: Oem3
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem3
+  nameWithType: NativeKey.Oem3
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem3
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem3
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 820
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem3 = 146
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemTilde
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemTilde
+  id: OemTilde
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemTilde
+  nameWithType: NativeKey.OemTilde
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemTilde
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemTilde
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 824
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemTilde = 146
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.AbntC1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.AbntC1
+  id: AbntC1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: AbntC1
+  nameWithType: NativeKey.AbntC1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.AbntC1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: AbntC1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 828
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AbntC1 = 147
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.AbntC2
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.AbntC2
+  id: AbntC2
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: AbntC2
+  nameWithType: NativeKey.AbntC2
+  fullName: TradingPlatform.BusinessLayer.NativeKey.AbntC2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: AbntC2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 832
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AbntC2 = 148
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem4
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem4
+  id: Oem4
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem4
+  nameWithType: NativeKey.Oem4
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem4
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem4
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 836
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem4 = 149
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemOpenBrackets
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemOpenBrackets
+  id: OemOpenBrackets
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemOpenBrackets
+  nameWithType: NativeKey.OemOpenBrackets
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemOpenBrackets
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemOpenBrackets
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 840
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemOpenBrackets = 149
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem5
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem5
+  id: Oem5
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem5
+  nameWithType: NativeKey.Oem5
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem5
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem5
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 844
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem5 = 150
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemPipe
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemPipe
+  id: OemPipe
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemPipe
+  nameWithType: NativeKey.OemPipe
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemPipe
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemPipe
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 848
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemPipe = 150
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem6
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem6
+  id: Oem6
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem6
+  nameWithType: NativeKey.Oem6
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem6
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem6
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 852
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem6 = 151
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemCloseBrackets
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemCloseBrackets
+  id: OemCloseBrackets
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemCloseBrackets
+  nameWithType: NativeKey.OemCloseBrackets
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemCloseBrackets
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemCloseBrackets
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 856
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemCloseBrackets = 151
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem7
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem7
+  id: Oem7
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem7
+  nameWithType: NativeKey.Oem7
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem7
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem7
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 860
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem7 = 152
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemQuotes
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemQuotes
+  id: OemQuotes
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemQuotes
+  nameWithType: NativeKey.OemQuotes
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemQuotes
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemQuotes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 864
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemQuotes = 152
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem8
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem8
+  id: Oem8
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem8
+  nameWithType: NativeKey.Oem8
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem8
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem8
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 868
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem8 = 153
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Oem102
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Oem102
+  id: Oem102
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Oem102
+  nameWithType: NativeKey.Oem102
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Oem102
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Oem102
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 872
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Oem102 = 154
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemBackslash
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemBackslash
+  id: OemBackslash
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemBackslash
+  nameWithType: NativeKey.OemBackslash
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemBackslash
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemBackslash
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 876
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemBackslash = 154
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.ImeProcessed
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.ImeProcessed
+  id: ImeProcessed
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: ImeProcessed
+  nameWithType: NativeKey.ImeProcessed
+  fullName: TradingPlatform.BusinessLayer.NativeKey.ImeProcessed
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ImeProcessed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 880
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ImeProcessed = 155
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.System
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.System
+  id: System
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: NativeKey.System
+  fullName: TradingPlatform.BusinessLayer.NativeKey.System
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: System
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 884
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: System = 156
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemAttn
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemAttn
+  id: OemAttn
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemAttn
+  nameWithType: NativeKey.OemAttn
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemAttn
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemAttn
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 888
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemAttn = 157
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeAlphanumeric
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeAlphanumeric
+  id: DbeAlphanumeric
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeAlphanumeric
+  nameWithType: NativeKey.DbeAlphanumeric
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeAlphanumeric
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeAlphanumeric
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 892
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeAlphanumeric = 157
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemFinish
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemFinish
+  id: OemFinish
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemFinish
+  nameWithType: NativeKey.OemFinish
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemFinish
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemFinish
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 896
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemFinish = 158
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeKatakana
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeKatakana
+  id: DbeKatakana
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeKatakana
+  nameWithType: NativeKey.DbeKatakana
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeKatakana
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeKatakana
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 900
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeKatakana = 158
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemCopy
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemCopy
+  id: OemCopy
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemCopy
+  nameWithType: NativeKey.OemCopy
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemCopy
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemCopy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 904
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemCopy = 159
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeHiragana
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeHiragana
+  id: DbeHiragana
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeHiragana
+  nameWithType: NativeKey.DbeHiragana
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeHiragana
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeHiragana
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 908
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeHiragana = 159
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemAuto
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemAuto
+  id: OemAuto
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemAuto
+  nameWithType: NativeKey.OemAuto
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemAuto
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemAuto
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 912
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemAuto = 160
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeSbcsChar
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeSbcsChar
+  id: DbeSbcsChar
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeSbcsChar
+  nameWithType: NativeKey.DbeSbcsChar
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeSbcsChar
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeSbcsChar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 916
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeSbcsChar = 160
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemEnlw
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemEnlw
+  id: OemEnlw
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemEnlw
+  nameWithType: NativeKey.OemEnlw
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemEnlw
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemEnlw
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 920
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemEnlw = 161
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeDbcsChar
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeDbcsChar
+  id: DbeDbcsChar
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeDbcsChar
+  nameWithType: NativeKey.DbeDbcsChar
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeDbcsChar
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeDbcsChar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 924
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeDbcsChar = 161
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemBackTab
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemBackTab
+  id: OemBackTab
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemBackTab
+  nameWithType: NativeKey.OemBackTab
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemBackTab
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemBackTab
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 928
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemBackTab = 162
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeRoman
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeRoman
+  id: DbeRoman
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeRoman
+  nameWithType: NativeKey.DbeRoman
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeRoman
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeRoman
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 932
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeRoman = 162
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Attn
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Attn
+  id: Attn
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Attn
+  nameWithType: NativeKey.Attn
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Attn
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Attn
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 936
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Attn = 163
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeNoRoman
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeNoRoman
+  id: DbeNoRoman
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeNoRoman
+  nameWithType: NativeKey.DbeNoRoman
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeNoRoman
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeNoRoman
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 940
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeNoRoman = 163
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.CrSel
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.CrSel
+  id: CrSel
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: CrSel
+  nameWithType: NativeKey.CrSel
+  fullName: TradingPlatform.BusinessLayer.NativeKey.CrSel
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: CrSel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 944
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: CrSel = 164
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeEnterWordRegisterMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeEnterWordRegisterMode
+  id: DbeEnterWordRegisterMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeEnterWordRegisterMode
+  nameWithType: NativeKey.DbeEnterWordRegisterMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeEnterWordRegisterMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeEnterWordRegisterMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 948
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeEnterWordRegisterMode = 164
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.ExSel
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.ExSel
+  id: ExSel
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: ExSel
+  nameWithType: NativeKey.ExSel
+  fullName: TradingPlatform.BusinessLayer.NativeKey.ExSel
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: ExSel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 952
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: ExSel = 165
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeEnterImeConfigureMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeEnterImeConfigureMode
+  id: DbeEnterImeConfigureMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeEnterImeConfigureMode
+  nameWithType: NativeKey.DbeEnterImeConfigureMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeEnterImeConfigureMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeEnterImeConfigureMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 956
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeEnterImeConfigureMode = 165
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.EraseEof
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.EraseEof
+  id: EraseEof
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: EraseEof
+  nameWithType: NativeKey.EraseEof
+  fullName: TradingPlatform.BusinessLayer.NativeKey.EraseEof
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: EraseEof
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 960
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: EraseEof = 166
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeFlushString
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeFlushString
+  id: DbeFlushString
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeFlushString
+  nameWithType: NativeKey.DbeFlushString
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeFlushString
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeFlushString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 964
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeFlushString = 166
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Play
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Play
+  id: Play
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Play
+  nameWithType: NativeKey.Play
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Play
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Play
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 968
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Play = 167
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeCodeInput
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeCodeInput
+  id: DbeCodeInput
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeCodeInput
+  nameWithType: NativeKey.DbeCodeInput
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeCodeInput
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeCodeInput
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 972
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeCodeInput = 167
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Zoom
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Zoom
+  id: Zoom
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Zoom
+  nameWithType: NativeKey.Zoom
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Zoom
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Zoom
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 976
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Zoom = 168
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeNoCodeInput
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeNoCodeInput
+  id: DbeNoCodeInput
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeNoCodeInput
+  nameWithType: NativeKey.DbeNoCodeInput
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeNoCodeInput
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeNoCodeInput
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 980
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeNoCodeInput = 168
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.NoName
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.NoName
+  id: NoName
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: NoName
+  nameWithType: NativeKey.NoName
+  fullName: TradingPlatform.BusinessLayer.NativeKey.NoName
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NoName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 984
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: NoName = 169
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeDetermineString
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeDetermineString
+  id: DbeDetermineString
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeDetermineString
+  nameWithType: NativeKey.DbeDetermineString
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeDetermineString
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeDetermineString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 988
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeDetermineString = 169
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.Pa1
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.Pa1
+  id: Pa1
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: Pa1
+  nameWithType: NativeKey.Pa1
+  fullName: TradingPlatform.BusinessLayer.NativeKey.Pa1
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Pa1
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 992
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Pa1 = 170
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DbeEnterDialogConversionMode
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DbeEnterDialogConversionMode
+  id: DbeEnterDialogConversionMode
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DbeEnterDialogConversionMode
+  nameWithType: NativeKey.DbeEnterDialogConversionMode
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DbeEnterDialogConversionMode
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DbeEnterDialogConversionMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 996
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DbeEnterDialogConversionMode = 170
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.OemClear
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.OemClear
+  id: OemClear
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: OemClear
+  nameWithType: NativeKey.OemClear
+  fullName: TradingPlatform.BusinessLayer.NativeKey.OemClear
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: OemClear
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1000
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: OemClear = 171
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeKey.DeadCharProcessed
+  commentId: F:TradingPlatform.BusinessLayer.NativeKey.DeadCharProcessed
+  id: DeadCharProcessed
+  parent: TradingPlatform.BusinessLayer.NativeKey
+  langs:
+  - csharp
+  - vb
+  name: DeadCharProcessed
+  nameWithType: NativeKey.DeadCharProcessed
+  fullName: TradingPlatform.BusinessLayer.NativeKey.DeadCharProcessed
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: DeadCharProcessed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 1004
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: DeadCharProcessed = 172
+    return:
+      type: TradingPlatform.BusinessLayer.NativeKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.NativeKey
+  commentId: T:TradingPlatform.BusinessLayer.NativeKey
+  parent: TradingPlatform.BusinessLayer
+  name: NativeKey
+  nameWithType: NativeKey
+  fullName: TradingPlatform.BusinessLayer.NativeKey

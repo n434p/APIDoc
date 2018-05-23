@@ -1,0 +1,1002 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  id: MessageOpenPosition
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.#ctor(System.String)
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString
+  - TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type
+  langs:
+  - csharp
+  - vb
+  name: MessageOpenPosition
+  nameWithType: MessageOpenPosition
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: MessageOpenPosition
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataContract(Name = "OpenPosition", Namespace = "TradingPlatform")]
+
+      public sealed class MessageOpenPosition : Message
+    content.vb: >-
+      <DataContract(Name:="OpenPosition", Namespace:="TradingPlatform")>
+
+      Public NotInheritable Class MessageOpenPosition
+          Inherits Message
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.Integration.Message
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OpenPosition
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.#ctor(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: MessageOpenPosition(String)
+  nameWithType: MessageOpenPosition.MessageOpenPosition(String)
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.MessageOpenPosition(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public MessageOpenPosition(string instrumentId)
+    parameters:
+    - id: instrumentId
+      type: System.String
+    content.vb: Public Sub New(instrumentId As String)
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MessageOpenPosition.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override MessageType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageType
+    content.vb: Public Overrides ReadOnly Property Type As MessageType
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.Type
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId
+  id: PositionId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: PositionId
+  nameWithType: MessageOpenPosition.PositionId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: PositionId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "PositionId")]
+
+      public string PositionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="PositionId")>
+
+      Public Property PositionId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: PositionId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice
+  id: OpenPrice
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: OpenPrice
+  nameWithType: MessageOpenPosition.OpenPrice
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: OpenPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "OpenPrice")]
+
+      public double OpenPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="OpenPrice")>
+
+      Public Property OpenPrice As Double
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OpenPrice
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime
+  id: OpenTime
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: OpenTime
+  nameWithType: MessageOpenPosition.OpenTime
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: OpenTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "OpenTime")]
+
+      public DateTime OpenTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember(Name:="OpenTime")>
+
+      Public Property OpenTime As Date
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OpenTime
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity
+  id: Quantity
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: MessageOpenPosition.Quantity
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: Quantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Quantity")]
+
+      public double Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember(Name:="Quantity")>
+
+      Public Property Quantity As Double
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Quantity
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side
+  id: Side
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: Side
+  nameWithType: MessageOpenPosition.Side
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: Side
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Side")]
+
+      public Side Side { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Side
+    content.vb: >-
+      <DataMember(Name:="Side")>
+
+      Public Property Side As Side
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Side
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment
+  id: Comment
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: MessageOpenPosition.Comment
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: Comment
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "Comment")]
+
+      public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="Comment")>
+
+      Public Property Comment As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Comment
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId
+  id: AccountId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: AccountId
+  nameWithType: MessageOpenPosition.AccountId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: AccountId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "AccountId")]
+
+      public string AccountId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="AccountId")>
+
+      Public Property AccountId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AccountId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId
+  id: InstrumentId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: InstrumentId
+  nameWithType: MessageOpenPosition.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: InstrumentId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "InstrumentSymbol")]
+
+      public string InstrumentId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="InstrumentSymbol")>
+
+      Public ReadOnly Property InstrumentId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: InstrumentSymbol
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId
+  commentId: P:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId
+  id: OpenOrderId
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: OpenOrderId
+  nameWithType: MessageOpenPosition.OpenOrderId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: OpenOrderId
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: >-
+      [DataMember(Name = "OpenOrderId")]
+
+      public string OpenOrderId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember(Name:="OpenOrderId")>
+
+      Public Property OpenOrderId As String
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: OpenOrderId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MessageOpenPosition.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/MessageOpenPosition.cs
+    startLine: 39
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  overload: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.Integration.Message
+  commentId: T:TradingPlatform.BusinessLayer.Integration.Message
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: Message
+  nameWithType: Message
+  fullName: TradingPlatform.BusinessLayer.Integration.Message
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.#ctor
+  name: MessageOpenPosition
+  nameWithType: MessageOpenPosition.MessageOpenPosition
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.MessageOpenPosition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.Message.Type
+  commentId: P:TradingPlatform.BusinessLayer.Integration.Message.Type
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: Type
+  nameWithType: Message.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type
+  name: Type
+  nameWithType: MessageOpenPosition.Type
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Type
+- uid: TradingPlatform.BusinessLayer.Integration.MessageType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageType
+  nameWithType: MessageType
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageType
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId
+  name: PositionId
+  nameWithType: MessageOpenPosition.PositionId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.PositionId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice
+  name: OpenPrice
+  nameWithType: MessageOpenPosition.OpenPrice
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenPrice
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime
+  name: OpenTime
+  nameWithType: MessageOpenPosition.OpenTime
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity
+  name: Quantity
+  nameWithType: MessageOpenPosition.Quantity
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Quantity
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side
+  name: Side
+  nameWithType: MessageOpenPosition.Side
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Side
+- uid: TradingPlatform.BusinessLayer.Side
+  commentId: T:TradingPlatform.BusinessLayer.Side
+  parent: TradingPlatform.BusinessLayer
+  name: Side
+  nameWithType: Side
+  fullName: TradingPlatform.BusinessLayer.Side
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment
+  name: Comment
+  nameWithType: MessageOpenPosition.Comment
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.Comment
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId
+  name: AccountId
+  nameWithType: MessageOpenPosition.AccountId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.AccountId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId
+  name: InstrumentId
+  nameWithType: MessageOpenPosition.InstrumentId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.InstrumentId
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId
+  name: OpenOrderId
+  nameWithType: MessageOpenPosition.OpenOrderId
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.OpenOrderId
+- uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Integration.Message.ToString
+  parent: TradingPlatform.BusinessLayer.Integration.Message
+  name: ToString()
+  nameWithType: Message.ToString()
+  fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Integration.Message.ToString
+    name: ToString
+    nameWithType: Message.ToString
+    fullName: TradingPlatform.BusinessLayer.Integration.Message.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString
+  name: ToString
+  nameWithType: MessageOpenPosition.ToString
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageOpenPosition.ToString

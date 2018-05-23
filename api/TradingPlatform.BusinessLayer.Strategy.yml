@@ -1,0 +1,1206 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Strategy
+  commentId: T:TradingPlatform.BusinessLayer.Strategy
+  id: Strategy
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Strategy.#ctor
+  - TradingPlatform.BusinessLayer.Strategy.Account
+  - TradingPlatform.BusinessLayer.Strategy.Accounts
+  - TradingPlatform.BusinessLayer.Strategy.Dispose
+  - TradingPlatform.BusinessLayer.Strategy.Instrument
+  - TradingPlatform.BusinessLayer.Strategy.Instruments
+  - TradingPlatform.BusinessLayer.Strategy.Run
+  - TradingPlatform.BusinessLayer.Strategy.Settings
+  - TradingPlatform.BusinessLayer.Strategy.State
+  - TradingPlatform.BusinessLayer.Strategy.Stop
+  langs:
+  - csharp
+  - vb
+  name: Strategy
+  nameWithType: Strategy
+  fullName: TradingPlatform.BusinessLayer.Strategy
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Strategy
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class Strategy : ExecutionEntity, IModule, IDisposable, ICustomizable'
+    content.vb: >-
+      Public Class Strategy
+          Inherits ExecutionEntity
+          Implements IModule, IDisposable, ICustomizable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.ExecutionEntity
+  derivedClasses:
+  - TestStrategy.TestStrategy
+  implements:
+  - TradingPlatform.BusinessLayer.IModule
+  - System.IDisposable
+  - TradingPlatform.BusinessLayer.ICustomizable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  - TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Strategy.State
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Strategy.State
+  fullName: TradingPlatform.BusinessLayer.Strategy.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public StrategyState State { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.StrategyState
+    content.vb: Public ReadOnly Property State As StrategyState
+  overload: TradingPlatform.BusinessLayer.Strategy.State*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Strategy.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: Strategy.Instrument
+  fullName: TradingPlatform.BusinessLayer.Strategy.Instrument
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument Instrument { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public ReadOnly Property Instrument As Instrument
+  overload: TradingPlatform.BusinessLayer.Strategy.Instrument*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Strategy.Instruments
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Instruments
+  id: Instruments
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Instruments
+  nameWithType: Strategy.Instruments
+  fullName: TradingPlatform.BusinessLayer.Strategy.Instruments
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Instruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument[] Instruments { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument[]
+    content.vb: Public ReadOnly Property Instruments As Instrument()
+  overload: TradingPlatform.BusinessLayer.Strategy.Instruments*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Strategy.Account
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Account
+  id: Account
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: Strategy.Account
+  fullName: TradingPlatform.BusinessLayer.Strategy.Account
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Account
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Account Account { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Account
+    content.vb: Public ReadOnly Property Account As Account
+  overload: TradingPlatform.BusinessLayer.Strategy.Account*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Strategy.Accounts
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Accounts
+  id: Accounts
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Accounts
+  nameWithType: Strategy.Accounts
+  fullName: TradingPlatform.BusinessLayer.Strategy.Accounts
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Accounts
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Account[] Accounts { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Account[]
+    content.vb: Public ReadOnly Property Accounts As Account()
+  overload: TradingPlatform.BusinessLayer.Strategy.Accounts*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Strategy.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Strategy.Settings
+  fullName: TradingPlatform.BusinessLayer.Strategy.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overrides Property Settings As IList(Of SettingItem)
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+  overload: TradingPlatform.BusinessLayer.Strategy.Settings*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Strategy.Run
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.Run
+  id: Run
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: Strategy.Run()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Run()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Run
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void Run()
+    content.vb: Public Sub Run
+  overload: TradingPlatform.BusinessLayer.Strategy.Run*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Strategy.Stop
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.Stop
+  id: Stop
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: Strategy.Stop()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Stop()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Stop
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 79
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: TradingPlatform.BusinessLayer.Strategy.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Strategy.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Strategy.Dispose()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  overload: TradingPlatform.BusinessLayer.Strategy.Dispose*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.Strategy.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Strategy
+  langs:
+  - csharp
+  - vb
+  name: Strategy()
+  nameWithType: Strategy.Strategy()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Strategy()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Strategies/Strategy.cs
+    startLine: 104
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: protected Strategy()
+    content.vb: Protected Sub New
+  overload: TradingPlatform.BusinessLayer.Strategy.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity
+  commentId: T:TradingPlatform.BusinessLayer.ExecutionEntity
+  parent: TradingPlatform.BusinessLayer
+  name: ExecutionEntity
+  nameWithType: ExecutionEntity
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity
+- uid: TradingPlatform.BusinessLayer.IModule
+  commentId: T:TradingPlatform.BusinessLayer.IModule
+  parent: TradingPlatform.BusinessLayer
+  name: IModule
+  nameWithType: IModule
+  fullName: TradingPlatform.BusinessLayer.IModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Name
+  nameWithType: ExecutionEntity.Name
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Description
+  nameWithType: ExecutionEntity.Description
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Init()
+  nameWithType: ExecutionEntity.Init()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnUpdate(UpdateArgs)
+  nameWithType: ExecutionEntity.OnUpdate(UpdateArgs)
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Clear()
+  nameWithType: ExecutionEntity.Clear()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Print(String, Object[])
+  nameWithType: ExecutionEntity.Print(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Print(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object())
+  name.vb: Print(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Alert(String, Object[])
+  nameWithType: ExecutionEntity.Alert(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Alert(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object())
+  name.vb: Alert(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnSettingsUpdated()
+  nameWithType: ExecutionEntity.OnSettingsUpdated()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: ExecutionEntity.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: ExecutionEntity.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Strategy.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.State
+  name: State
+  nameWithType: Strategy.State
+  fullName: TradingPlatform.BusinessLayer.Strategy.State
+- uid: TradingPlatform.BusinessLayer.StrategyState
+  commentId: T:TradingPlatform.BusinessLayer.StrategyState
+  parent: TradingPlatform.BusinessLayer
+  name: StrategyState
+  nameWithType: StrategyState
+  fullName: TradingPlatform.BusinessLayer.StrategyState
+- uid: TradingPlatform.BusinessLayer.Strategy.Instrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Instrument
+  name: Instrument
+  nameWithType: Strategy.Instrument
+  fullName: TradingPlatform.BusinessLayer.Strategy.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Strategy.Instruments*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Instruments
+  name: Instruments
+  nameWithType: Strategy.Instruments
+  fullName: TradingPlatform.BusinessLayer.Strategy.Instruments
+- uid: TradingPlatform.BusinessLayer.Instrument[]
+  isExternal: true
+  name: Instrument[]
+  nameWithType: Instrument[]
+  fullName: TradingPlatform.BusinessLayer.Instrument[]
+  nameWithType.vb: Instrument()
+  fullName.vb: TradingPlatform.BusinessLayer.Instrument()
+  name.vb: Instrument()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Strategy.Account*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Account
+  name: Account
+  nameWithType: Strategy.Account
+  fullName: TradingPlatform.BusinessLayer.Strategy.Account
+- uid: TradingPlatform.BusinessLayer.Account
+  commentId: T:TradingPlatform.BusinessLayer.Account
+  parent: TradingPlatform.BusinessLayer
+  name: Account
+  nameWithType: Account
+  fullName: TradingPlatform.BusinessLayer.Account
+- uid: TradingPlatform.BusinessLayer.Strategy.Accounts*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Accounts
+  name: Accounts
+  nameWithType: Strategy.Accounts
+  fullName: TradingPlatform.BusinessLayer.Strategy.Accounts
+- uid: TradingPlatform.BusinessLayer.Account[]
+  isExternal: true
+  name: Account[]
+  nameWithType: Account[]
+  fullName: TradingPlatform.BusinessLayer.Account[]
+  nameWithType.vb: Account()
+  fullName.vb: TradingPlatform.BusinessLayer.Account()
+  name.vb: Account()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Settings
+  nameWithType: ExecutionEntity.Settings
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Settings
+- uid: TradingPlatform.BusinessLayer.Strategy.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Settings
+  name: Settings
+  nameWithType: Strategy.Settings
+  fullName: TradingPlatform.BusinessLayer.Strategy.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Strategy.Run*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Run
+  name: Run
+  nameWithType: Strategy.Run
+  fullName: TradingPlatform.BusinessLayer.Strategy.Run
+- uid: TradingPlatform.BusinessLayer.Strategy.Stop*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Stop
+  name: Stop
+  nameWithType: Strategy.Stop
+  fullName: TradingPlatform.BusinessLayer.Strategy.Stop
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Dispose()
+  nameWithType: ExecutionEntity.Dispose()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+    name: Dispose
+    nameWithType: ExecutionEntity.Dispose
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+    name: Dispose
+    nameWithType: ExecutionEntity.Dispose
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Strategy.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.Dispose
+  name: Dispose
+  nameWithType: Strategy.Dispose
+  fullName: TradingPlatform.BusinessLayer.Strategy.Dispose
+- uid: TradingPlatform.BusinessLayer.Strategy.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Strategy.#ctor
+  name: Strategy
+  nameWithType: Strategy.Strategy
+  fullName: TradingPlatform.BusinessLayer.Strategy.Strategy

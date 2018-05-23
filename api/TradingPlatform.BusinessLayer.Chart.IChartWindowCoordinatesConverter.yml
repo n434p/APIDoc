@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  commentId: T:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  id: IChartWindowCoordinatesConverter
+  parent: TradingPlatform.BusinessLayer.Chart
+  children:
+  - TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex(System.DateTime)
+  - TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX(System.DateTime)
+  - TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY(System.Double)
+  - TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice(System.Double)
+  - TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: IChartWindowCoordinatesConverter
+  nameWithType: IChartWindowCoordinatesConverter
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    id: IChartWindowCoordinatesConverter
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  summary: "\nПреобразование экранных координат в абсолютные (чартонезависмиую систему) и наоборот\n"
+  example: []
+  syntax:
+    content: public interface IChartWindowCoordinatesConverter
+    content.vb: Public Interface IChartWindowCoordinatesConverter
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime(System.Double)
+  id: GetTime(System.Double)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  langs:
+  - csharp
+  - vb
+  name: GetTime(Double)
+  nameWithType: IChartWindowCoordinatesConverter.GetTime(Double)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    id: GetTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: DateTime GetTime(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.DateTime
+    content.vb: Function GetTime(x As Double) As Date
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice(System.Double)
+  id: GetPrice(System.Double)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  langs:
+  - csharp
+  - vb
+  name: GetPrice(Double)
+  nameWithType: IChartWindowCoordinatesConverter.GetPrice(Double)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    id: GetPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: double GetPrice(double y)
+    parameters:
+    - id: y
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Function GetPrice(y As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX(System.DateTime)
+  id: GetChartX(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  langs:
+  - csharp
+  - vb
+  name: GetChartX(DateTime)
+  nameWithType: IChartWindowCoordinatesConverter.GetChartX(DateTime)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    id: GetChartX
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: double GetChartX(DateTime dt)
+    parameters:
+    - id: dt
+      type: System.DateTime
+    return:
+      type: System.Double
+    content.vb: Function GetChartX(dt As Date) As Double
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY(System.Double)
+  id: GetChartY(System.Double)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  langs:
+  - csharp
+  - vb
+  name: GetChartY(Double)
+  nameWithType: IChartWindowCoordinatesConverter.GetChartY(Double)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    id: GetChartY
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: double GetChartY(double price)
+    parameters:
+    - id: price
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Function GetChartY(price As Double) As Double
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY*
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex(System.DateTime)
+  id: GetBarIndex(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter
+  langs:
+  - csharp
+  - vb
+  name: GetBarIndex(DateTime)
+  nameWithType: IChartWindowCoordinatesConverter.GetBarIndex(DateTime)
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    id: GetBarIndex
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Chart/IChartWindowCoordinatesConverter.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Chart
+  syntax:
+    content: double GetBarIndex(DateTime dt)
+    parameters:
+    - id: dt
+      type: System.DateTime
+    return:
+      type: System.Double
+    content.vb: Function GetBarIndex(dt As Date) As Double
+  overload: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex*
+references:
+- uid: TradingPlatform.BusinessLayer.Chart
+  commentId: N:TradingPlatform.BusinessLayer.Chart
+  name: TradingPlatform.BusinessLayer.Chart
+  nameWithType: TradingPlatform.BusinessLayer.Chart
+  fullName: TradingPlatform.BusinessLayer.Chart
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime
+  name: GetTime
+  nameWithType: IChartWindowCoordinatesConverter.GetTime
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice
+  name: GetPrice
+  nameWithType: IChartWindowCoordinatesConverter.GetPrice
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetPrice
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX
+  name: GetChartX
+  nameWithType: IChartWindowCoordinatesConverter.GetChartX
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartX
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY
+  name: GetChartY
+  nameWithType: IChartWindowCoordinatesConverter.GetChartY
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetChartY
+- uid: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex*
+  commentId: Overload:TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex
+  name: GetBarIndex
+  nameWithType: IChartWindowCoordinatesConverter.GetBarIndex
+  fullName: TradingPlatform.BusinessLayer.Chart.IChartWindowCoordinatesConverter.GetBarIndex

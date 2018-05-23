@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.History.DB
+  commentId: N:TradingPlatform.BusinessLayer.History.DB
+  id: TradingPlatform.BusinessLayer.History.DB
+  children:
+  - TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  - TradingPlatform.BusinessLayer.History.DB.DBLayer
+  - TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  - TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  - TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  - TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.History.DB
+  nameWithType: TradingPlatform.BusinessLayer.History.DB
+  fullName: TradingPlatform.BusinessLayer.History.DB
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.History.DB.DBLayer
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.DBLayer
+  name: DBLayer
+  nameWithType: DBLayer
+  fullName: TradingPlatform.BusinessLayer.History.DB.DBLayer
+- uid: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: DateHistoryInterval
+  nameWithType: DateHistoryInterval
+  fullName: TradingPlatform.BusinessLayer.History.DB.DateHistoryInterval
+- uid: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: HistoryDescription
+  nameWithType: HistoryDescription
+  fullName: TradingPlatform.BusinessLayer.History.DB.HistoryDescription
+- uid: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.IDBProvider
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: IDBProvider
+  nameWithType: IDBProvider
+  fullName: TradingPlatform.BusinessLayer.History.DB.IDBProvider
+- uid: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: ReceiveHistoryRequest
+  nameWithType: ReceiveHistoryRequest
+  fullName: TradingPlatform.BusinessLayer.History.DB.ReceiveHistoryRequest
+- uid: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  commentId: T:TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+  parent: TradingPlatform.BusinessLayer.History.DB
+  name: RecordHistoryRequest
+  nameWithType: RecordHistoryRequest
+  fullName: TradingPlatform.BusinessLayer.History.DB.RecordHistoryRequest
+- uid: TradingPlatform.BusinessLayer.History.DB
+  commentId: N:TradingPlatform.BusinessLayer.History.DB
+  name: TradingPlatform.BusinessLayer.History.DB
+  nameWithType: TradingPlatform.BusinessLayer.History.DB
+  fullName: TradingPlatform.BusinessLayer.History.DB

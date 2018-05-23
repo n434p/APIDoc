@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters
+  commentId: T:TradingPlatform.BusinessLayer.TradingOperationParameters
+  id: TradingOperationParameters
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TradingOperationParameters.Account
+  - TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument
+  - TradingPlatform.BusinessLayer.TradingOperationParameters.Order
+  - TradingPlatform.BusinessLayer.TradingOperationParameters.Position
+  langs:
+  - csharp
+  - vb
+  name: TradingOperationParameters
+  nameWithType: TradingOperationParameters
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    id: TradingOperationParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    startLine: 5
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class TradingOperationParameters
+    content.vb: Public Class TradingOperationParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Account
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationParameters.Account
+  id: Account
+  parent: TradingPlatform.BusinessLayer.TradingOperationParameters
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: TradingOperationParameters.Account
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Account
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    id: Account
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Account Account { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Account
+    content.vb: Public Property Account As Account
+  overload: TradingPlatform.BusinessLayer.TradingOperationParameters.Account*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.TradingOperationParameters
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: TradingOperationParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument Instrument { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public Property Instrument As Instrument
+  overload: TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Order
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationParameters.Order
+  id: Order
+  parent: TradingPlatform.BusinessLayer.TradingOperationParameters
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: TradingOperationParameters.Order
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Order
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    id: Order
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Order Order { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Order
+    content.vb: Public Property Order As Order
+  overload: TradingPlatform.BusinessLayer.TradingOperationParameters.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Position
+  commentId: P:TradingPlatform.BusinessLayer.TradingOperationParameters.Position
+  id: Position
+  parent: TradingPlatform.BusinessLayer.TradingOperationParameters
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: TradingOperationParameters.Position
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Position
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    id: Position
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/Trading/TradingOperationParameters.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Position Position { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Position
+    content.vb: Public Property Position As Position
+  overload: TradingPlatform.BusinessLayer.TradingOperationParameters.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Account*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationParameters.Account
+  name: Account
+  nameWithType: TradingOperationParameters.Account
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Account
+- uid: TradingPlatform.BusinessLayer.Account
+  commentId: T:TradingPlatform.BusinessLayer.Account
+  parent: TradingPlatform.BusinessLayer
+  name: Account
+  nameWithType: Account
+  fullName: TradingPlatform.BusinessLayer.Account
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument
+  name: Instrument
+  nameWithType: TradingOperationParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Order*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationParameters.Order
+  name: Order
+  nameWithType: TradingOperationParameters.Order
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Order
+- uid: TradingPlatform.BusinessLayer.Order
+  commentId: T:TradingPlatform.BusinessLayer.Order
+  parent: TradingPlatform.BusinessLayer
+  name: Order
+  nameWithType: Order
+  fullName: TradingPlatform.BusinessLayer.Order
+- uid: TradingPlatform.BusinessLayer.TradingOperationParameters.Position*
+  commentId: Overload:TradingPlatform.BusinessLayer.TradingOperationParameters.Position
+  name: Position
+  nameWithType: TradingOperationParameters.Position
+  fullName: TradingPlatform.BusinessLayer.TradingOperationParameters.Position
+- uid: TradingPlatform.BusinessLayer.Position
+  commentId: T:TradingPlatform.BusinessLayer.Position
+  parent: TradingPlatform.BusinessLayer
+  name: Position
+  nameWithType: Position
+  fullName: TradingPlatform.BusinessLayer.Position

@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+  commentId: T:TradingPlatform.BusinessLayer.SeekOriginHistory
+  id: SeekOriginHistory
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SeekOriginHistory.Begin
+  - TradingPlatform.BusinessLayer.SeekOriginHistory.End
+  langs:
+  - csharp
+  - vb
+  name: SeekOriginHistory
+  nameWithType: SeekOriginHistory
+  fullName: TradingPlatform.BusinessLayer.SeekOriginHistory
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: SeekOriginHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 61
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum SeekOriginHistory
+    content.vb: Public Enum SeekOriginHistory
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.SeekOriginHistory.Begin
+  commentId: F:TradingPlatform.BusinessLayer.SeekOriginHistory.Begin
+  id: Begin
+  parent: TradingPlatform.BusinessLayer.SeekOriginHistory
+  langs:
+  - csharp
+  - vb
+  name: Begin
+  nameWithType: SeekOriginHistory.Begin
+  fullName: TradingPlatform.BusinessLayer.SeekOriginHistory.Begin
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Begin
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 63
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Begin = 0
+    return:
+      type: TradingPlatform.BusinessLayer.SeekOriginHistory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SeekOriginHistory.End
+  commentId: F:TradingPlatform.BusinessLayer.SeekOriginHistory.End
+  id: End
+  parent: TradingPlatform.BusinessLayer.SeekOriginHistory
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: SeekOriginHistory.End
+  fullName: TradingPlatform.BusinessLayer.SeekOriginHistory.End
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: End
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 64
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: End = 1
+    return:
+      type: TradingPlatform.BusinessLayer.SeekOriginHistory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.SeekOriginHistory
+  commentId: T:TradingPlatform.BusinessLayer.SeekOriginHistory
+  parent: TradingPlatform.BusinessLayer
+  name: SeekOriginHistory
+  nameWithType: SeekOriginHistory
+  fullName: TradingPlatform.BusinessLayer.SeekOriginHistory

@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  commentId: T:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  id: IOAuthBrowserControl
+  parent: TradingPlatform.BusinessLayer.Licence
+  children:
+  - TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.BrowserClosed
+  - TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser
+  - TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IOAuthBrowserControl
+  nameWithType: IOAuthBrowserControl
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  type: Interface
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    id: IOAuthBrowserControl
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: public interface IOAuthBrowserControl
+    content.vb: Public Interface IOAuthBrowserControl
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.BrowserClosed
+  commentId: E:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.BrowserClosed
+  id: BrowserClosed
+  parent: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  langs:
+  - csharp
+  - vb
+  name: BrowserClosed
+  nameWithType: IOAuthBrowserControl.BrowserClosed
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.BrowserClosed
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    id: BrowserClosed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: event Action BrowserClosed
+    return:
+      type: System.Action
+    content.vb: Event BrowserClosed As Action
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser(System.String)
+  id: ShowBrowser(System.String)
+  parent: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  langs:
+  - csharp
+  - vb
+  name: ShowBrowser(String)
+  nameWithType: IOAuthBrowserControl.ShowBrowser(String)
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    id: ShowBrowser
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: void ShowBrowser(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Sub ShowBrowser(url As String)
+  overload: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser*
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser
+  commentId: M:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser
+  id: CloseBrowser
+  parent: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl
+  langs:
+  - csharp
+  - vb
+  name: CloseBrowser()
+  nameWithType: IOAuthBrowserControl.CloseBrowser()
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    id: CloseBrowser
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Licence/SystemBrowser/IOAuthBrowserControl.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Licence
+  syntax:
+    content: void CloseBrowser()
+    content.vb: Sub CloseBrowser
+  overload: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser*
+references:
+- uid: TradingPlatform.BusinessLayer.Licence
+  commentId: N:TradingPlatform.BusinessLayer.Licence
+  name: TradingPlatform.BusinessLayer.Licence
+  nameWithType: TradingPlatform.BusinessLayer.Licence
+  fullName: TradingPlatform.BusinessLayer.Licence
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser
+  name: ShowBrowser
+  nameWithType: IOAuthBrowserControl.ShowBrowser
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.ShowBrowser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser*
+  commentId: Overload:TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser
+  name: CloseBrowser
+  nameWithType: IOAuthBrowserControl.CloseBrowser
+  fullName: TradingPlatform.BusinessLayer.Licence.IOAuthBrowserControl.CloseBrowser

@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SettingItemRelationDelegate
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemRelationDelegate
+  id: SettingItemRelationDelegate
+  parent: TradingPlatform.BusinessLayer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SettingItemRelationDelegate
+  nameWithType: SettingItemRelationDelegate
+  fullName: TradingPlatform.BusinessLayer.SettingItemRelationDelegate
+  type: Delegate
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Settings/Relations/SettingItemRelation.cs
+    id: SettingItemRelationDelegate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Settings/Relations/SettingItemRelation.cs
+    startLine: 100
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public delegate bool SettingItemRelationDelegate(SettingItemRelationParameters relationParameters);
+    parameters:
+    - id: relationParameters
+      type: TradingPlatform.BusinessLayer.SettingItemRelationParameters
+    return:
+      type: System.Boolean
+    content.vb: Public Delegate Function SettingItemRelationDelegate(relationParameters As SettingItemRelationParameters) As Boolean
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.SettingItemRelationParameters
+  commentId: T:TradingPlatform.BusinessLayer.SettingItemRelationParameters
+  parent: TradingPlatform.BusinessLayer
+  name: SettingItemRelationParameters
+  nameWithType: SettingItemRelationParameters
+  fullName: TradingPlatform.BusinessLayer.SettingItemRelationParameters
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

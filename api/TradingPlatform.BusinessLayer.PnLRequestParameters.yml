@@ -1,0 +1,749 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.PnLRequestParameters
+  id: PnLRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.#ctor
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.Account
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.ID
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.Side
+  - TradingPlatform.BusinessLayer.PnLRequestParameters.Type
+  langs:
+  - csharp
+  - vb
+  name: PnLRequestParameters
+  nameWithType: PnLRequestParameters
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: PnLRequestParameters
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class PnLRequestParameters : RequestParameters'
+    content.vb: >-
+      Public Class PnLRequestParameters
+          Inherits RequestParameters
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.RequestParameters
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Type
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PnLRequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override RequestType Type { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.RequestType
+    content.vb: Public Overrides ReadOnly Property Type As RequestType
+  overridden: TradingPlatform.BusinessLayer.RequestParameters.Type
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument
+  id: Instrument
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: PnLRequestParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: Instrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument Instrument { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public Property Instrument As Instrument
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Account
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.Account
+  id: Account
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: PnLRequestParameters.Account
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Account
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: Account
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Account Account { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Account
+    content.vb: Public Property Account As Account
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.Account*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice
+  id: OpenPrice
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: OpenPrice
+  nameWithType: PnLRequestParameters.OpenPrice
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: OpenPrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double OpenPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property OpenPrice As Double
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice
+  id: ClosePrice
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ClosePrice
+  nameWithType: PnLRequestParameters.ClosePrice
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: ClosePrice
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double ClosePrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ClosePrice As Double
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Side
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.Side
+  id: Side
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Side
+  nameWithType: PnLRequestParameters.Side
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Side
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: Side
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Side Side { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Side
+    content.vb: Public Property Side As Side
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.Side*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity
+  id: Quantity
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: PnLRequestParameters.Quantity
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: Quantity
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public double Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Quantity As Double
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.ID
+  commentId: P:TradingPlatform.BusinessLayer.PnLRequestParameters.ID
+  id: ID
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: PnLRequestParameters.ID
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.ID
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: ID
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string ID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ID As String
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.ID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.PnLRequestParameters.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.PnLRequestParameters
+  langs:
+  - csharp
+  - vb
+  name: PnLRequestParameters()
+  nameWithType: PnLRequestParameters.PnLRequestParameters()
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.PnLRequestParameters()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/RequestParameters/PnLRequestParameters.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public PnLRequestParameters()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.PnLRequestParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.RequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.RequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: RequestParameters
+  nameWithType: RequestParameters
+  fullName: TradingPlatform.BusinessLayer.RequestParameters
+- uid: TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  commentId: P:TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+  parent: TradingPlatform.BusinessLayer.RequestParameters
+  name: CancellationToken
+  nameWithType: RequestParameters.CancellationToken
+  fullName: TradingPlatform.BusinessLayer.RequestParameters.CancellationToken
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.RequestParameters.Type
+  commentId: P:TradingPlatform.BusinessLayer.RequestParameters.Type
+  parent: TradingPlatform.BusinessLayer.RequestParameters
+  name: Type
+  nameWithType: RequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.RequestParameters.Type
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.Type
+  name: Type
+  nameWithType: PnLRequestParameters.Type
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Type
+- uid: TradingPlatform.BusinessLayer.RequestType
+  commentId: T:TradingPlatform.BusinessLayer.RequestType
+  parent: TradingPlatform.BusinessLayer
+  name: RequestType
+  nameWithType: RequestType
+  fullName: TradingPlatform.BusinessLayer.RequestType
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument
+  name: Instrument
+  nameWithType: PnLRequestParameters.Instrument
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Instrument
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Account*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.Account
+  name: Account
+  nameWithType: PnLRequestParameters.Account
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Account
+- uid: TradingPlatform.BusinessLayer.Account
+  commentId: T:TradingPlatform.BusinessLayer.Account
+  parent: TradingPlatform.BusinessLayer
+  name: Account
+  nameWithType: Account
+  fullName: TradingPlatform.BusinessLayer.Account
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice
+  name: OpenPrice
+  nameWithType: PnLRequestParameters.OpenPrice
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.OpenPrice
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice
+  name: ClosePrice
+  nameWithType: PnLRequestParameters.ClosePrice
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.ClosePrice
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Side*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.Side
+  name: Side
+  nameWithType: PnLRequestParameters.Side
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Side
+- uid: TradingPlatform.BusinessLayer.Side
+  commentId: T:TradingPlatform.BusinessLayer.Side
+  parent: TradingPlatform.BusinessLayer
+  name: Side
+  nameWithType: Side
+  fullName: TradingPlatform.BusinessLayer.Side
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity
+  name: Quantity
+  nameWithType: PnLRequestParameters.Quantity
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.Quantity
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.ID*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.ID
+  name: ID
+  nameWithType: PnLRequestParameters.ID
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.ID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.PnLRequestParameters.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.PnLRequestParameters.#ctor
+  name: PnLRequestParameters
+  nameWithType: PnLRequestParameters.PnLRequestParameters
+  fullName: TradingPlatform.BusinessLayer.PnLRequestParameters.PnLRequestParameters

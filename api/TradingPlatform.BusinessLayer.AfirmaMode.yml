@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AfirmaMode
+  commentId: T:TradingPlatform.BusinessLayer.AfirmaMode
+  id: AfirmaMode
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AfirmaMode.Blackman
+  - TradingPlatform.BusinessLayer.AfirmaMode.BlackmanHarris
+  - TradingPlatform.BusinessLayer.AfirmaMode.Hamming
+  - TradingPlatform.BusinessLayer.AfirmaMode.Hanning
+  langs:
+  - csharp
+  - vb
+  name: AfirmaMode
+  nameWithType: AfirmaMode
+  fullName: TradingPlatform.BusinessLayer.AfirmaMode
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: AfirmaMode
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum AfirmaMode
+    content.vb: Public Enum AfirmaMode
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.AfirmaMode.Hanning
+  commentId: F:TradingPlatform.BusinessLayer.AfirmaMode.Hanning
+  id: Hanning
+  parent: TradingPlatform.BusinessLayer.AfirmaMode
+  langs:
+  - csharp
+  - vb
+  name: Hanning
+  nameWithType: AfirmaMode.Hanning
+  fullName: TradingPlatform.BusinessLayer.AfirmaMode.Hanning
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Hanning
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 67
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Hanning = 0
+    return:
+      type: TradingPlatform.BusinessLayer.AfirmaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AfirmaMode.Hamming
+  commentId: F:TradingPlatform.BusinessLayer.AfirmaMode.Hamming
+  id: Hamming
+  parent: TradingPlatform.BusinessLayer.AfirmaMode
+  langs:
+  - csharp
+  - vb
+  name: Hamming
+  nameWithType: AfirmaMode.Hamming
+  fullName: TradingPlatform.BusinessLayer.AfirmaMode.Hamming
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Hamming
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 68
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Hamming = 1
+    return:
+      type: TradingPlatform.BusinessLayer.AfirmaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AfirmaMode.Blackman
+  commentId: F:TradingPlatform.BusinessLayer.AfirmaMode.Blackman
+  id: Blackman
+  parent: TradingPlatform.BusinessLayer.AfirmaMode
+  langs:
+  - csharp
+  - vb
+  name: Blackman
+  nameWithType: AfirmaMode.Blackman
+  fullName: TradingPlatform.BusinessLayer.AfirmaMode.Blackman
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: Blackman
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Blackman = 2
+    return:
+      type: TradingPlatform.BusinessLayer.AfirmaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.AfirmaMode.BlackmanHarris
+  commentId: F:TradingPlatform.BusinessLayer.AfirmaMode.BlackmanHarris
+  id: BlackmanHarris
+  parent: TradingPlatform.BusinessLayer.AfirmaMode
+  langs:
+  - csharp
+  - vb
+  name: BlackmanHarris
+  nameWithType: AfirmaMode.BlackmanHarris
+  fullName: TradingPlatform.BusinessLayer.AfirmaMode.BlackmanHarris
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    id: BlackmanHarris
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Modules/Enums.cs
+    startLine: 70
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: BlackmanHarris = 3
+    return:
+      type: TradingPlatform.BusinessLayer.AfirmaMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.AfirmaMode
+  commentId: T:TradingPlatform.BusinessLayer.AfirmaMode
+  parent: TradingPlatform.BusinessLayer
+  name: AfirmaMode
+  nameWithType: AfirmaMode
+  fullName: TradingPlatform.BusinessLayer.AfirmaMode

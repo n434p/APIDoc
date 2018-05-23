@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.RenkoStyle
+  commentId: T:TradingPlatform.BusinessLayer.RenkoStyle
+  id: RenkoStyle
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.RenkoStyle.AdvancedClassic
+  - TradingPlatform.BusinessLayer.RenkoStyle.AdvancedHighLow
+  - TradingPlatform.BusinessLayer.RenkoStyle.Classic
+  - TradingPlatform.BusinessLayer.RenkoStyle.HighLow
+  langs:
+  - csharp
+  - vb
+  name: RenkoStyle
+  nameWithType: RenkoStyle
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: RenkoStyle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum RenkoStyle
+    content.vb: Public Enum RenkoStyle
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.RenkoStyle.Classic
+  commentId: F:TradingPlatform.BusinessLayer.RenkoStyle.Classic
+  id: Classic
+  parent: TradingPlatform.BusinessLayer.RenkoStyle
+  langs:
+  - csharp
+  - vb
+  name: Classic
+  nameWithType: RenkoStyle.Classic
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle.Classic
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: Classic
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Classic = 0
+    return:
+      type: TradingPlatform.BusinessLayer.RenkoStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.RenkoStyle.HighLow
+  commentId: F:TradingPlatform.BusinessLayer.RenkoStyle.HighLow
+  id: HighLow
+  parent: TradingPlatform.BusinessLayer.RenkoStyle
+  langs:
+  - csharp
+  - vb
+  name: HighLow
+  nameWithType: RenkoStyle.HighLow
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle.HighLow
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: HighLow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: HighLow = 1
+    return:
+      type: TradingPlatform.BusinessLayer.RenkoStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.RenkoStyle.AdvancedClassic
+  commentId: F:TradingPlatform.BusinessLayer.RenkoStyle.AdvancedClassic
+  id: AdvancedClassic
+  parent: TradingPlatform.BusinessLayer.RenkoStyle
+  langs:
+  - csharp
+  - vb
+  name: AdvancedClassic
+  nameWithType: RenkoStyle.AdvancedClassic
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle.AdvancedClassic
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: AdvancedClassic
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AdvancedClassic = 2
+    return:
+      type: TradingPlatform.BusinessLayer.RenkoStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.RenkoStyle.AdvancedHighLow
+  commentId: F:TradingPlatform.BusinessLayer.RenkoStyle.AdvancedHighLow
+  id: AdvancedHighLow
+  parent: TradingPlatform.BusinessLayer.RenkoStyle
+  langs:
+  - csharp
+  - vb
+  name: AdvancedHighLow
+  nameWithType: RenkoStyle.AdvancedHighLow
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle.AdvancedHighLow
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    id: AdvancedHighLow
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/HistoryEnums.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: AdvancedHighLow = 3
+    return:
+      type: TradingPlatform.BusinessLayer.RenkoStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.RenkoStyle
+  commentId: T:TradingPlatform.BusinessLayer.RenkoStyle
+  parent: TradingPlatform.BusinessLayer
+  name: RenkoStyle
+  nameWithType: RenkoStyle
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle

@@ -1,0 +1,719 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Rule
+  commentId: T:TradingPlatform.BusinessLayer.Rule
+  id: Rule
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_CHANGE_TO_MARKET
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_AMOUNT
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_ORDERTYPE
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_PRICE
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_TIF
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_REVERSE_POSITION
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_SL
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_SL_TRAILING
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_TP
+  - TradingPlatform.BusinessLayer.Rule.ALLOW_TRADING
+  - TradingPlatform.BusinessLayer.Rule.LastMessage
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: Rule
+  fullName: TradingPlatform.BusinessLayer.Rule
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: Rule
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public abstract class Rule
+    content.vb: Public MustInherit Class Rule
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_TRADING
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_TRADING
+  id: ALLOW_TRADING
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_TRADING
+  nameWithType: Rule.ALLOW_TRADING
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_TRADING
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_TRADING
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_TRADING = "Allow trading"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_TRADING As String = "Allow trading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_SL
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_SL
+  id: ALLOW_SL
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_SL
+  nameWithType: Rule.ALLOW_SL
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_SL
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_SL
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_SL = "Allow SL"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_SL As String = "Allow SL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_TP
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_TP
+  id: ALLOW_TP
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_TP
+  nameWithType: Rule.ALLOW_TP
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_TP
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_TP
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_TP = "Allow TP"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_TP As String = "Allow TP"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_SL_TRAILING
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_SL_TRAILING
+  id: ALLOW_SL_TRAILING
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_SL_TRAILING
+  nameWithType: Rule.ALLOW_SL_TRAILING
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_SL_TRAILING
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_SL_TRAILING
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_SL_TRAILING = "Allow SL Trailing"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_SL_TRAILING As String = "Allow SL Trailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_ORDERTYPE
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_ORDERTYPE
+  id: ALLOW_MODIFY_ORDERTYPE
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_MODIFY_ORDERTYPE
+  nameWithType: Rule.ALLOW_MODIFY_ORDERTYPE
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_ORDERTYPE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_MODIFY_ORDERTYPE
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_MODIFY_ORDERTYPE = "Allow modify order type"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_MODIFY_ORDERTYPE As String = "Allow modify order type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_AMOUNT
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_AMOUNT
+  id: ALLOW_MODIFY_AMOUNT
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_MODIFY_AMOUNT
+  nameWithType: Rule.ALLOW_MODIFY_AMOUNT
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_AMOUNT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_MODIFY_AMOUNT
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_MODIFY_AMOUNT = "Allow modify amount"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_MODIFY_AMOUNT As String = "Allow modify amount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_PRICE
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_PRICE
+  id: ALLOW_MODIFY_PRICE
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_MODIFY_PRICE
+  nameWithType: Rule.ALLOW_MODIFY_PRICE
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_PRICE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_MODIFY_PRICE
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_MODIFY_PRICE = "Allow modify price"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_MODIFY_PRICE As String = "Allow modify price"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_TIF
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_TIF
+  id: ALLOW_MODIFY_TIF
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_MODIFY_TIF
+  nameWithType: Rule.ALLOW_MODIFY_TIF
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_MODIFY_TIF
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_MODIFY_TIF
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_MODIFY_TIF = "Allow modify tif"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_MODIFY_TIF As String = "Allow modify tif"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_CHANGE_TO_MARKET
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_CHANGE_TO_MARKET
+  id: ALLOW_CHANGE_TO_MARKET
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_CHANGE_TO_MARKET
+  nameWithType: Rule.ALLOW_CHANGE_TO_MARKET
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_CHANGE_TO_MARKET
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_CHANGE_TO_MARKET
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_CHANGE_TO_MARKET = "Allow change to market"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_CHANGE_TO_MARKET As String = "Allow change to market"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.ALLOW_REVERSE_POSITION
+  commentId: F:TradingPlatform.BusinessLayer.Rule.ALLOW_REVERSE_POSITION
+  id: ALLOW_REVERSE_POSITION
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: ALLOW_REVERSE_POSITION
+  nameWithType: Rule.ALLOW_REVERSE_POSITION
+  fullName: TradingPlatform.BusinessLayer.Rule.ALLOW_REVERSE_POSITION
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: ALLOW_REVERSE_POSITION
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string ALLOW_REVERSE_POSITION = "Allow reverse position"
+    return:
+      type: System.String
+    content.vb: Public Const ALLOW_REVERSE_POSITION As String = "Allow reverse position"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Rule.LastMessage
+  commentId: P:TradingPlatform.BusinessLayer.Rule.LastMessage
+  id: LastMessage
+  parent: TradingPlatform.BusinessLayer.Rule
+  langs:
+  - csharp
+  - vb
+  name: LastMessage
+  nameWithType: Rule.LastMessage
+  fullName: TradingPlatform.BusinessLayer.Rule.LastMessage
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    id: LastMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/Rules/Rule.cs
+    startLine: 46
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public MessageRule LastMessage { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.MessageRule
+    content.vb: Public Property LastMessage As MessageRule
+  overload: TradingPlatform.BusinessLayer.Rule.LastMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Rule.LastMessage*
+  commentId: Overload:TradingPlatform.BusinessLayer.Rule.LastMessage
+  name: LastMessage
+  nameWithType: Rule.LastMessage
+  fullName: TradingPlatform.BusinessLayer.Rule.LastMessage
+- uid: TradingPlatform.BusinessLayer.Integration.MessageRule
+  commentId: T:TradingPlatform.BusinessLayer.Integration.MessageRule
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: MessageRule
+  nameWithType: MessageRule
+  fullName: TradingPlatform.BusinessLayer.Integration.MessageRule
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration

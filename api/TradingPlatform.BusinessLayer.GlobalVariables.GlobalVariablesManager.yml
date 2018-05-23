@@ -1,0 +1,855 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  id: GlobalVariablesManager
+  parent: TradingPlatform.BusinessLayer.GlobalVariables
+  children:
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists(System.String)
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue(System.String)
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove(System.String)
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue(System.String,System.Object,TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime)
+  - TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue(System.String,System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: GlobalVariablesManager
+  nameWithType: GlobalVariablesManager
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: GlobalVariablesManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  syntax:
+    content: public static class GlobalVariablesManager
+    content.vb: Public Module GlobalVariablesManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue(System.String,System.Object,TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime)
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue(System.String,System.Object,TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime)
+  id: SetValue(System.String,System.Object,TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime)
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: SetValue(String, Object, VariableLifetime)
+  nameWithType: GlobalVariablesManager.SetValue(String, Object, VariableLifetime)
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue(System.String, System.Object, TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: SetValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nSets variable value to a global storage \n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        GlobalVariablesManager(){\n             base.ProjectName = &quot;GlobalVariablesManager&quot;;\n             base.Password=GetHashedPassword(ProjectName);              \n        }\n\n       [InputParameter(&quot;Period&quot;, 0, 1, 9999)]\n        public int period = 5;\n\n        public override void OnQuote()\n        {\n             //Simplified way to store a global variable   \n\n             GlobalVariablesManager.SetValue(&quot;global_variable_period&quot;, period, VariableLifetime.SaveSession);\n\n             //However, to indicate any variable belongs to certain indicator/strategy and to avoid unexpected erasing of data the best practice is to provide to a key holder multiple details such as name, params, hashed password etc.\n\n             GlobalVariablesManager.SetValue(&quot;global_variable_period&quot; +Instruments.Current.Name+period+Password, period, VariableLifetime.SaveSession);\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static void SetValue(string name, object value, VariableLifetime lifetime = VariableLifetime.SaveSession)
+    parameters:
+    - id: name
+      type: System.String
+      description: Variable name
+    - id: value
+      type: System.Object
+      description: New value
+    - id: lifetime
+      type: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+      description: Variable lifetime
+    content.vb: Public Shared Sub SetValue(name As String, value As Object, lifetime As VariableLifetime = VariableLifetime.SaveSession)
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove(System.String)
+  id: Remove(System.String)
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: Remove(String)
+  nameWithType: GlobalVariablesManager.Remove(String)
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: Remove
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 107
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nRemoves specified variable from global storage\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        public override void Init()\n        {   \n             //Simplified way to remove a global variable   \n\n             GlobalVariablesManager.Remove(&quot;global_variable_period&quot;);\n\n             //However, to remove certain variable, which belongs to indicator/strategy and to avoid unexpected erasing of data the best practice is to provide to a key holder multiple details such as name, params, hashed password etc. Follow SetValue() example.\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static bool Remove(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Variable name
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Remove(name As String) As Boolean
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count
+  id: Count
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: Count()
+  nameWithType: GlobalVariablesManager.Count()
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: Count
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 140
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nReturns variables&apos; count in global storage\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        public override void Init()\n        {            \n            if(GlobalVariablesManager.Count()>0)\n            {\n                Print(&quot;Your session obtains &quot;+GlobalVariablesManager.Count()+&quot; global variables&quot;);\n            }\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static int Count()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Count As Integer
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll
+  id: RemoveAll
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll()
+  nameWithType: GlobalVariablesManager.RemoveAll()
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: RemoveAll
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 173
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nRemoves all variables from global storage\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        public override void Init()\n        {      \n            GlobalVariablesManager.RemoveAll();     \n\n            if(GlobalVariablesManager.Count()==0)\n            {\n                Print(&quot;Your session does not have any global variables&quot;);\n            }\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static void RemoveAll()
+    content.vb: Public Shared Sub RemoveAll
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists(System.String)
+  id: Exists(System.String)
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: Exists(String)
+  nameWithType: GlobalVariablesManager.Exists(String)
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: Exists
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 210
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nCheck if variable with specified name exists in global storage\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    { \n        public override void Init()\n        {      \n             //Simplified way to check an existance of a global variable  \n\n             if(GlobalVariablesManager.Exists(&quot;global_variable_period&quot;))\n                Print(&quot;Your session has this global variable&quot;);\n             else\n                GlobalVariablesManager.SetValue(&quot;global_variable_period&quot;);         \n\n             //However, to obtain certain variable, which belongs to indicator/strategy and to avoid unexpected erasing of data the best practice is to provide to a key holder multiple details such as name, params, hashed password etc. Follow SetValue() example.\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static bool Exists(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Variable name
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function Exists(name As String) As Boolean
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue(System.String)
+  id: GetValue(System.String)
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: GetValue(String)
+  nameWithType: GlobalVariablesManager.GetValue(String)
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: GetValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 246
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nReturns variable value by name\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    { \n        public override void Init()\n        {  \n            //Simplified way to retrieve global variable value\n\n             if(GlobalVariablesManager.Exists(&quot;global_variable_period&quot;))\n                //Always perform a type casting before assigning any variable from global storage\n                period = (int)GlobalVariablesManager.GetValue(&quot;global_variable_period&quot;); \n\n            //However, to obtain certain variable, which belongs to indicator/strategy and to avoid unexpected erasing of data the best practice is to provide to a key holder multiple details such as name, params, hashed password etc. Follow SetValue() example.\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static object GetValue(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Variable name
+    return:
+      type: System.Object
+      description: Variable value
+    content.vb: Public Shared Function GetValue(name As String) As Object
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue(System.String,System.Object@)
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue(System.String,System.Object@)
+  id: TryGetValue(System.String,System.Object@)
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue(String, out Object)
+  nameWithType: GlobalVariablesManager.TryGetValue(String, out Object)
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue(System.String, out System.Object)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: TryGetValue
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 291
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nPerforms a variable assigning from a global storage if such name exists in a scope\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {  \n        public override void Init()\n        {  \n             int new_period;\n\n             //Simplified way to retrieve global variable value\n\n             if(GlobalVariablesManager.TryGetValue(&quot;global_variable_period&quot;))\n                Print(&quot;New variable is assigned from globals: &quot; + new_period);\n             if(new_period==period)\n                Print(&quot;Matching, no need to re-assign globals: &quot;);    \n             else\n                GlobalVariablesManager.SetValue(&quot;global_variable_period&quot;, period, VariableLifetime.SaveSession);   \n\n             //However, to obtain certain variable, which belongs to indicator/strategy and to avoid unexpected erasing of data the best practice is to provide to a key holder multiple details such as name, params, hashed password etc. Follow SetValue() example.\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static bool TryGetValue(string name, out object obj)
+    parameters:
+    - id: name
+      type: System.String
+      description: Variable name
+    - id: obj
+      type: System.Object
+      description: Variable value
+    return:
+      type: System.Boolean
+      description: True if variable exists
+    content.vb: Public Shared Function TryGetValue(name As String, ByRef obj As Object) As Boolean
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue*
+  nameWithType.vb: GlobalVariablesManager.TryGetValue(String, ByRef Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue(System.String, ByRef System.Object)
+  name.vb: TryGetValue(String, ByRef Object)
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush
+  id: Flush
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: GlobalVariablesManager.Flush()
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: Flush
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 331
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nSaves all serializable variables to disk\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        Connection myConnection = Connection.CurrentConnection;\n        public override void OnQuote()\n        {             \n             if(myConnection.Status==Disconnected)\n                GlobalVariablesManager.Flush();\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static void Flush()
+    content.vb: Public Shared Sub Flush
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList
+  commentId: M:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList
+  id: GetGlobalVariablesList
+  parent: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager
+  langs:
+  - csharp
+  - vb
+  name: GetGlobalVariablesList()
+  nameWithType: GlobalVariablesManager.GetGlobalVariablesList()
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    id: GetGlobalVariablesList
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/GlobalVariables/GlobalVariablesManager.cs
+    startLine: 395
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.GlobalVariables
+  summary: "\nReturns all global variables as list\n"
+  example:
+  - "\n<span id=\"Example 1\">\n<pre><code>using System;\nusing System.Text;\nusing PTLRuntime.NETScript;\n\nnamespace GlobalVariablesManager\n{\n    public class GlobalVariablesManager : NETIndicator\n    {\n        List &lt;GlobalVariable>global_List=new List&lt;GlobalVariable>(); \n        public override void Init()\n        {             \n             if(GlobalVariablesManager.Count()>0)\n                global_List=GlobalVariablesManager.GetGlobalVariablesList();\n\n             foreach (var el in global_List)\n             {\n                Print(el.Name);\n             }\n        }\n    }\n}</code></pre>\n</span>\n"
+  syntax:
+    content: public static List<GlobalVariable> GetGlobalVariablesList()
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable}
+      description: Collection of global variables
+    content.vb: Public Shared Function GetGlobalVariablesList As List(Of GlobalVariable)
+  overload: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer.GlobalVariables
+  commentId: N:TradingPlatform.BusinessLayer.GlobalVariables
+  name: TradingPlatform.BusinessLayer.GlobalVariables
+  nameWithType: TradingPlatform.BusinessLayer.GlobalVariables
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue
+  name: SetValue
+  nameWithType: GlobalVariablesManager.SetValue
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.SetValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  commentId: T:TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+  parent: TradingPlatform.BusinessLayer.GlobalVariables
+  name: VariableLifetime
+  nameWithType: VariableLifetime
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.VariableLifetime
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove
+  name: Remove
+  nameWithType: GlobalVariablesManager.Remove
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Remove
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count
+  name: Count
+  nameWithType: GlobalVariablesManager.Count
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll
+  name: RemoveAll
+  nameWithType: GlobalVariablesManager.RemoveAll
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.RemoveAll
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists
+  name: Exists
+  nameWithType: GlobalVariablesManager.Exists
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Exists
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue
+  name: GetValue
+  nameWithType: GlobalVariablesManager.GetValue
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetValue
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue
+  name: TryGetValue
+  nameWithType: GlobalVariablesManager.TryGetValue
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.TryGetValue
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush
+  name: Flush
+  nameWithType: GlobalVariablesManager.Flush
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.Flush
+- uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList*
+  commentId: Overload:TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList
+  name: GetGlobalVariablesList
+  nameWithType: GlobalVariablesManager.GetGlobalVariablesList
+  fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariablesManager.GetGlobalVariablesList
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GlobalVariable>
+  nameWithType: List<GlobalVariable>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable>
+  nameWithType.vb: List(Of GlobalVariable)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable)
+  name.vb: List(Of GlobalVariable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+    name: GlobalVariable
+    nameWithType: GlobalVariable
+    fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+    name: GlobalVariable
+    nameWithType: GlobalVariable
+    fullName: TradingPlatform.BusinessLayer.GlobalVariables.GlobalVariable
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  commentId: T:TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  id: EmailSendCompletedStatus
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Failure
+  - TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Success
+  langs:
+  - csharp
+  - vb
+  name: EmailSendCompletedStatus
+  nameWithType: EmailSendCompletedStatus
+  fullName: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailSendCompletedResult.cs
+    id: EmailSendCompletedStatus
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailSendCompletedResult.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum EmailSendCompletedStatus
+    content.vb: Public Enum EmailSendCompletedStatus
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Success
+  commentId: F:TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Success
+  id: Success
+  parent: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: EmailSendCompletedStatus.Success
+  fullName: TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Success
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailSendCompletedResult.cs
+    id: Success
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailSendCompletedResult.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Success = 0
+    return:
+      type: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Failure
+  commentId: F:TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Failure
+  id: Failure
+  parent: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  langs:
+  - csharp
+  - vb
+  name: Failure
+  nameWithType: EmailSendCompletedStatus.Failure
+  fullName: TradingPlatform.BusinessLayer.EmailSendCompletedStatus.Failure
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailSendCompletedResult.cs
+    id: Failure
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/MailUtils/EmailSendCompletedResult.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Failure = 1
+    return:
+      type: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  commentId: T:TradingPlatform.BusinessLayer.EmailSendCompletedStatus
+  parent: TradingPlatform.BusinessLayer
+  name: EmailSendCompletedStatus
+  nameWithType: EmailSendCompletedStatus
+  fullName: TradingPlatform.BusinessLayer.EmailSendCompletedStatus

@@ -1,0 +1,695 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  commentId: T:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  id: NativeMouseEventArgs
+  parent: TradingPlatform.BusinessLayer.Native
+  children:
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.#ctor(TradingPlatform.BusinessLayer.Native.NativeMouseButtons,System.Int32,System.Int32,System.Int32,System.Int32)
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X
+  - TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y
+  langs:
+  - csharp
+  - vb
+  name: NativeMouseEventArgs
+  nameWithType: NativeMouseEventArgs
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: NativeMouseEventArgs
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 6
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public class NativeMouseEventArgs
+    content.vb: Public Class NativeMouseEventArgs
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.Chart.ChartMouseNativeEventArgs
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.#ctor(TradingPlatform.BusinessLayer.Native.NativeMouseButtons,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.#ctor(TradingPlatform.BusinessLayer.Native.NativeMouseButtons,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(TradingPlatform.BusinessLayer.Native.NativeMouseButtons,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NativeMouseEventArgs(NativeMouseButtons, Int32, Int32, Int32, Int32)
+  nameWithType: NativeMouseEventArgs.NativeMouseEventArgs(NativeMouseButtons, Int32, Int32, Int32, Int32)
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.NativeMouseEventArgs(TradingPlatform.BusinessLayer.Native.NativeMouseButtons, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public NativeMouseEventArgs(NativeMouseButtons button, int clicks, int x, int y, int delta)
+    parameters:
+    - id: button
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+    - id: clicks
+      type: System.Int32
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: delta
+      type: System.Int32
+    content.vb: Public Sub New(button As NativeMouseButtons, clicks As Integer, x As Integer, y As Integer, delta As Integer)
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button
+  id: Button
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: NativeMouseEventArgs.Button
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: Button
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public NativeMouseButtons Button { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+    content.vb: Public ReadOnly Property Button As NativeMouseButtons
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks
+  id: Clicks
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Clicks
+  nameWithType: NativeMouseEventArgs.Clicks
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: Clicks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 52
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public int Clicks { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Clicks As Integer
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X
+  id: X
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: NativeMouseEventArgs.X
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: X
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 59
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public int X { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property X As Integer
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y
+  id: Y
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: NativeMouseEventArgs.Y
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: Y
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 66
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public int Y { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Y As Integer
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta
+  id: Delta
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Delta
+  nameWithType: NativeMouseEventArgs.Delta
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: Delta
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 75
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public int Delta { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Delta As Integer
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location
+  id: Location
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: NativeMouseEventArgs.Location
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: Location
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 83
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  syntax:
+    content: public Point Location { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Point
+    content.vb: Public ReadOnly Property Location As Point
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled
+  commentId: P:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled
+  id: Handled
+  parent: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Handled
+  nameWithType: NativeMouseEventArgs.Handled
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    id: Handled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Native/NativeMouseEventArgs.cs
+    startLine: 89
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Native
+  summary: "\nGets or sets a value indicating whether the event was handled.\ntrue to bypass the control&apos;s default handling; otherwise, false to also pass the event along to the default control handler.\n"
+  example: []
+  syntax:
+    content: public bool Handled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Handled As Boolean
+  overload: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Native
+  commentId: N:TradingPlatform.BusinessLayer.Native
+  name: TradingPlatform.BusinessLayer.Native
+  nameWithType: TradingPlatform.BusinessLayer.Native
+  fullName: TradingPlatform.BusinessLayer.Native
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.#ctor
+  name: NativeMouseEventArgs
+  nameWithType: NativeMouseEventArgs.NativeMouseEventArgs
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.NativeMouseEventArgs
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  commentId: T:TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+  parent: TradingPlatform.BusinessLayer.Native
+  name: NativeMouseButtons
+  nameWithType: NativeMouseButtons
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseButtons
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button
+  name: Button
+  nameWithType: NativeMouseEventArgs.Button
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Button
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks
+  name: Clicks
+  nameWithType: NativeMouseEventArgs.Clicks
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Clicks
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X
+  name: X
+  nameWithType: NativeMouseEventArgs.X
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.X
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y
+  name: Y
+  nameWithType: NativeMouseEventArgs.Y
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Y
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta
+  name: Delta
+  nameWithType: NativeMouseEventArgs.Delta
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Delta
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location
+  name: Location
+  nameWithType: NativeMouseEventArgs.Location
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Location
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled*
+  commentId: Overload:TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled
+  name: Handled
+  nameWithType: NativeMouseEventArgs.Handled
+  fullName: TradingPlatform.BusinessLayer.Native.NativeMouseEventArgs.Handled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.TimeInForce
+  commentId: T:TradingPlatform.BusinessLayer.TimeInForce
+  id: TimeInForce
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.TimeInForce.Day
+  - TradingPlatform.BusinessLayer.TimeInForce.Default
+  - TradingPlatform.BusinessLayer.TimeInForce.FOK
+  - TradingPlatform.BusinessLayer.TimeInForce.GTC
+  - TradingPlatform.BusinessLayer.TimeInForce.GTD
+  - TradingPlatform.BusinessLayer.TimeInForce.GTT
+  - TradingPlatform.BusinessLayer.TimeInForce.IOC
+  langs:
+  - csharp
+  - vb
+  name: TimeInForce
+  nameWithType: TimeInForce
+  fullName: TradingPlatform.BusinessLayer.TimeInForce
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: TimeInForce
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 88
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public enum TimeInForce
+    content.vb: Public Enum TimeInForce
+  extensionMethods:
+  - TradingPlatform.BusinessLayer.TimeInForce.TradingPlatform.BusinessLayer.Extensions.Format(System.DateTime)
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.TimeInForce.Day
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.Day
+  id: Day
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: TimeInForce.Day
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.Day
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Day
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 90
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Day = 0
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeInForce.FOK
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.FOK
+  id: FOK
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: FOK
+  nameWithType: TimeInForce.FOK
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.FOK
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: FOK
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: FOK = 1
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeInForce.GTC
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.GTC
+  id: GTC
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: GTC
+  nameWithType: TimeInForce.GTC
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.GTC
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: GTC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 92
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: GTC = 2
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeInForce.IOC
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.IOC
+  id: IOC
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: IOC
+  nameWithType: TimeInForce.IOC
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.IOC
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: IOC
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 93
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: IOC = 3
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeInForce.GTD
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.GTD
+  id: GTD
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: GTD
+  nameWithType: TimeInForce.GTD
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.GTD
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: GTD
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 94
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: GTD = 4
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeInForce.GTT
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.GTT
+  id: GTT
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: GTT
+  nameWithType: TimeInForce.GTT
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.GTT
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: GTT
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 95
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: GTT = 5
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.TimeInForce.Default
+  commentId: F:TradingPlatform.BusinessLayer.TimeInForce.Default
+  id: Default
+  parent: TradingPlatform.BusinessLayer.TimeInForce
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: TimeInForce.Default
+  fullName: TradingPlatform.BusinessLayer.TimeInForce.Default
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    id: Default
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/BusinessObjectsEnums.cs
+    startLine: 96
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Default = 6
+    return:
+      type: TradingPlatform.BusinessLayer.TimeInForce
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.TimeInForce.TradingPlatform.BusinessLayer.Extensions.Format(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  name: Format(DateTime)
+  nameWithType: Extensions.Format(DateTime)
+  fullName: TradingPlatform.BusinessLayer.Extensions.Format(System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.Format(System.DateTime)
+    name: Format
+    nameWithType: Extensions.Format
+    fullName: TradingPlatform.BusinessLayer.Extensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.Format(System.DateTime)
+    name: Format
+    nameWithType: Extensions.Format
+    fullName: TradingPlatform.BusinessLayer.Extensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+  isExternal: true
+  name: Format(TimeInForce, DateTime)
+  nameWithType: Extensions.Format(TimeInForce, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce, System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+    name: Format
+    nameWithType: Extensions.Format
+    fullName: TradingPlatform.BusinessLayer.Extensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.TimeInForce
+    name: TimeInForce
+    nameWithType: TimeInForce
+    fullName: TradingPlatform.BusinessLayer.TimeInForce
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.Format(TradingPlatform.BusinessLayer.TimeInForce,System.DateTime)
+    name: Format
+    nameWithType: Extensions.Format
+    fullName: TradingPlatform.BusinessLayer.Extensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.TimeInForce
+    name: TimeInForce
+    nameWithType: TimeInForce
+    fullName: TradingPlatform.BusinessLayer.TimeInForce
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.TimeInForce
+  commentId: T:TradingPlatform.BusinessLayer.TimeInForce
+  parent: TradingPlatform.BusinessLayer
+  name: TimeInForce
+  nameWithType: TimeInForce
+  fullName: TradingPlatform.BusinessLayer.TimeInForce

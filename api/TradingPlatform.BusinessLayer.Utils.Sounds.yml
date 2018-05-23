@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds
+  commentId: N:TradingPlatform.BusinessLayer.Utils.Sounds
+  id: TradingPlatform.BusinessLayer.Utils.Sounds
+  children:
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  - TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Utils.Sounds
+  nameWithType: TradingPlatform.BusinessLayer.Utils.Sounds
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  name: Sound
+  nameWithType: Sound
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem
+  name: SoundItem
+  nameWithType: SoundItem
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.SoundItem

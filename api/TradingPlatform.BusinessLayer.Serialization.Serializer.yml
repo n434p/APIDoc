@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.Serializer
+  id: Serializer
+  parent: TradingPlatform.BusinessLayer.Serialization
+  children:
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.CORE_SERIALIZATION_NAMESPACE_NAME
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary``1(System.String)
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML(System.String,System.Type)
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml``1(System.IO.Stream)
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml``1(System.String)
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary``1(System.String,``0)
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML(System.String,System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization})
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml``1(System.IO.Stream,``0)
+  - TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml``1(System.String,``0)
+  langs:
+  - csharp
+  - vb
+  name: Serializer
+  nameWithType: Serializer
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: Serializer
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public class Serializer
+    content.vb: Public Class Serializer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.CORE_SERIALIZATION_NAMESPACE_NAME
+  commentId: F:TradingPlatform.BusinessLayer.Serialization.Serializer.CORE_SERIALIZATION_NAMESPACE_NAME
+  id: CORE_SERIALIZATION_NAMESPACE_NAME
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: CORE_SERIALIZATION_NAMESPACE_NAME
+  nameWithType: Serializer.CORE_SERIALIZATION_NAMESPACE_NAME
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.CORE_SERIALIZATION_NAMESPACE_NAME
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: CORE_SERIALIZATION_NAMESPACE_NAME
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 25
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public const string CORE_SERIALIZATION_NAMESPACE_NAME = "TradingPlatform"
+    return:
+      type: System.String
+    content.vb: Public Const CORE_SERIALIZATION_NAMESPACE_NAME As String = "TradingPlatform"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml``1(System.String,``0)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml``1(System.String,``0)
+  id: SerializeXml``1(System.String,``0)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeXml<T>(String, T)
+  nameWithType: Serializer.SerializeXml<T>(String, T)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: SerializeXml
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public bool SerializeXml<T>(string filePath, T item)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: item
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function SerializeXml(Of T)(filePath As String, item As T) As Boolean
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml*
+  nameWithType.vb: Serializer.SerializeXml(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml(Of T)(System.String, T)
+  name.vb: SerializeXml(Of T)(String, T)
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml``1(System.IO.Stream,``0)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml``1(System.IO.Stream,``0)
+  id: SerializeXml``1(System.IO.Stream,``0)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeXml<T>(Stream, T)
+  nameWithType: Serializer.SerializeXml<T>(Stream, T)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml<T>(System.IO.Stream, T)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: SerializeXml
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 50
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public bool SerializeXml<T>(Stream stream, T item)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: item
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function SerializeXml(Of T)(stream As Stream, item As T) As Boolean
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml*
+  nameWithType.vb: Serializer.SerializeXml(Of T)(Stream, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml(Of T)(System.IO.Stream, T)
+  name.vb: SerializeXml(Of T)(Stream, T)
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary``1(System.String,``0)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary``1(System.String,``0)
+  id: SerializeBinary``1(System.String,``0)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeBinary<T>(String, T)
+  nameWithType: Serializer.SerializeBinary<T>(String, T)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: SerializeBinary
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 69
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public bool SerializeBinary<T>(string filePath, T item)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: item
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function SerializeBinary(Of T)(filePath As String, item As T) As Boolean
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary*
+  nameWithType.vb: Serializer.SerializeBinary(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary(Of T)(System.String, T)
+  name.vb: SerializeBinary(Of T)(String, T)
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML(System.String,System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization})
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML(System.String,System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization})
+  id: SerializeXML(System.String,System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization})
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeXML(String, List<IXElementSerialization>)
+  nameWithType: Serializer.SerializeXML(String, List<IXElementSerialization>)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML(System.String, System.Collections.Generic.List<TradingPlatform.BusinessLayer.Serialization.IXElementSerialization>)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: SerializeXML
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public bool SerializeXML(string filePath, List<IXElementSerialization> list)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: list
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization}
+    return:
+      type: System.Boolean
+    content.vb: Public Function SerializeXML(filePath As String, list As List(Of IXElementSerialization)) As Boolean
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML*
+  nameWithType.vb: Serializer.SerializeXML(String, List(Of IXElementSerialization))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML(System.String, System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Serialization.IXElementSerialization))
+  name.vb: SerializeXML(String, List(Of IXElementSerialization))
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml``1(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml``1(System.String)
+  id: DeserializeXml``1(System.String)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeXml<T>(String)
+  nameWithType: Serializer.DeserializeXml<T>(String)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: DeserializeXml
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 111
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public T DeserializeXml<T>(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function DeserializeXml(Of T)(filePath As String) As T
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml*
+  nameWithType.vb: Serializer.DeserializeXml(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml(Of T)(System.String)
+  name.vb: DeserializeXml(Of T)(String)
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml``1(System.IO.Stream)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml``1(System.IO.Stream)
+  id: DeserializeXml``1(System.IO.Stream)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeXml<T>(Stream)
+  nameWithType: Serializer.DeserializeXml<T>(Stream)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml<T>(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: DeserializeXml
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 138
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public T DeserializeXml<T>(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function DeserializeXml(Of T)(stream As Stream) As T
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml*
+  nameWithType.vb: Serializer.DeserializeXml(Of T)(Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml(Of T)(System.IO.Stream)
+  name.vb: DeserializeXml(Of T)(Stream)
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary``1(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary``1(System.String)
+  id: DeserializeBinary``1(System.String)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeBinary<T>(String)
+  nameWithType: Serializer.DeserializeBinary<T>(String)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: DeserializeBinary
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 155
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public T DeserializeBinary<T>(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function DeserializeBinary(Of T)(filePath As String) As T
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary*
+  nameWithType.vb: Serializer.DeserializeBinary(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary(Of T)(System.String)
+  name.vb: DeserializeBinary(Of T)(String)
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML(System.String,System.Type)
+  commentId: M:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML(System.String,System.Type)
+  id: DeserializeXML(System.String,System.Type)
+  parent: TradingPlatform.BusinessLayer.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeXML(String, Type)
+  nameWithType: Serializer.DeserializeXML(String, Type)
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    id: DeserializeXML
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/Messages/Serializer.cs
+    startLine: 212
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Serialization
+  syntax:
+    content: public List<IXElementSerialization> DeserializeXML(string filePath, Type baseType)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: baseType
+      type: System.Type
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization}
+    content.vb: Public Function DeserializeXML(filePath As String, baseType As Type) As List(Of IXElementSerialization)
+  overload: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml
+  name: SerializeXml
+  nameWithType: Serializer.SerializeXml
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXml
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary
+  name: SerializeBinary
+  nameWithType: Serializer.SerializeBinary
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeBinary
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML
+  name: SerializeXML
+  nameWithType: Serializer.SerializeXML
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.SerializeXML
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Serialization.IXElementSerialization}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IXElementSerialization>
+  nameWithType: List<IXElementSerialization>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Serialization.IXElementSerialization>
+  nameWithType.vb: List(Of IXElementSerialization)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Serialization.IXElementSerialization)
+  name.vb: List(Of IXElementSerialization)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+    name: IXElementSerialization
+    nameWithType: IXElementSerialization
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+    name: IXElementSerialization
+    nameWithType: IXElementSerialization
+    fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml
+  name: DeserializeXml
+  nameWithType: Serializer.DeserializeXml
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXml
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary
+  name: DeserializeBinary
+  nameWithType: Serializer.DeserializeBinary
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeBinary
+- uid: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML*
+  commentId: Overload:TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML
+  name: DeserializeXML
+  nameWithType: Serializer.DeserializeXML
+  fullName: TradingPlatform.BusinessLayer.Serialization.Serializer.DeserializeXML
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

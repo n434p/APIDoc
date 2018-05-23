@@ -1,0 +1,1353 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  id: HistoryAggregationRenko
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.#ctor(TradingPlatform.BusinessLayer.Period,System.Int32,TradingPlatform.BusinessLayer.RenkoStyle,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_EXTENSION
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_INVERSION
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_STYLE
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType
+  - TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString
+  langs:
+  - csharp
+  - vb
+  name: HistoryAggregationRenko
+  nameWithType: HistoryAggregationRenko
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: HistoryAggregationRenko
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public sealed class HistoryAggregationRenko : HistoryAggregationHeikenAshi, ICustomizable, ICloneable, IComparable'
+    content.vb: >-
+      Public NotInheritable Class HistoryAggregationRenko
+          Inherits HistoryAggregationHeikenAshi
+          Implements ICustomizable, ICloneable, IComparable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.HistoryAggregation
+  - TradingPlatform.BusinessLayer.HistoryAggregationTime
+  - TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable
+  - System.ICloneable
+  - System.IComparable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.HistoryAggregationTime.Period
+  - TradingPlatform.BusinessLayer.HistoryAggregationTime.DefaultRange
+  - TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime(System.DateTime)
+  - TradingPlatform.BusinessLayer.HistoryAggregation.Name
+  - TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+  - TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+  - TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+  - TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+  - TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+  - TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  - TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  - TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  - TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize
+  id: BrickSize
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: BrickSize
+  nameWithType: HistoryAggregationRenko.BrickSize
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: BrickSize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 18
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int BrickSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BrickSize As Integer
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle
+  id: RenkoStyle
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: RenkoStyle
+  nameWithType: HistoryAggregationRenko.RenkoStyle
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: RenkoStyle
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public RenkoStyle RenkoStyle { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.RenkoStyle
+    content.vb: Public ReadOnly Property RenkoStyle As RenkoStyle
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension
+  id: Extension
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: HistoryAggregationRenko.Extension
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: Extension
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int Extension { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Extension As Integer
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion
+  id: Inversion
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: Inversion
+  nameWithType: HistoryAggregationRenko.Inversion
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: Inversion
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public int Inversion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Inversion As Integer
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks
+  id: ShowWicks
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: ShowWicks
+  nameWithType: HistoryAggregationRenko.ShowWicks
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: ShowWicks
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool ShowWicks { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ShowWicks As Boolean
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar
+  id: BuildCurrentBar
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: BuildCurrentBar
+  nameWithType: HistoryAggregationRenko.BuildCurrentBar
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: BuildCurrentBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool BuildCurrentBar { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property BuildCurrentBar As Boolean
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: HistoryAggregationRenko.Settings
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Overrides Property Settings As IList(Of SettingItem)
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Settings
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType
+  id: TimeScaleType
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: TimeScaleType
+  nameWithType: HistoryAggregationRenko.TimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: TimeScaleType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 131
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override HistoryAggregationTimeScaleType TimeScaleType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+    content.vb: Public Overrides ReadOnly Property TimeScaleType As HistoryAggregationTimeScaleType
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregationTime.TimeScaleType
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  id: SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  nameWithType: HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: SETTINGS_AGGREGATION_RENKO_BRICK_SIZE
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 134
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_RENKO_BRICK_SIZE = "Brick size"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_RENKO_BRICK_SIZE As String = "Brick size"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_STYLE
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_STYLE
+  id: SETTINGS_AGGREGATION_RENKO_STYLE
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_RENKO_STYLE
+  nameWithType: HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_STYLE
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_STYLE
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: SETTINGS_AGGREGATION_RENKO_STYLE
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 135
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_RENKO_STYLE = "Style"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_RENKO_STYLE As String = "Style"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  id: SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  nameWithType: HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 136
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR = "Build current bar"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_RENKO_BUILD_CURRENT_BAR As String = "Build current bar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_EXTENSION
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_EXTENSION
+  id: SETTINGS_AGGREGATION_RENKO_EXTENSION
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_RENKO_EXTENSION
+  nameWithType: HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_EXTENSION
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_EXTENSION
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: SETTINGS_AGGREGATION_RENKO_EXTENSION
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 137
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_RENKO_EXTENSION = "Extension, %"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_RENKO_EXTENSION As String = "Extension, %"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_INVERSION
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_INVERSION
+  id: SETTINGS_AGGREGATION_RENKO_INVERSION
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_RENKO_INVERSION
+  nameWithType: HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_INVERSION
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_INVERSION
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: SETTINGS_AGGREGATION_RENKO_INVERSION
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 138
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_RENKO_INVERSION = "Inversion, %"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_RENKO_INVERSION As String = "Inversion, %"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  id: SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  nameWithType: HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: SETTINGS_AGGREGATION_RENKO_SHOW_WICKS
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 139
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public const string SETTINGS_AGGREGATION_RENKO_SHOW_WICKS = "Show wicks"
+    return:
+      type: System.String
+    content.vb: Public Const SETTINGS_AGGREGATION_RENKO_SHOW_WICKS As String = "Show wicks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.#ctor(TradingPlatform.BusinessLayer.Period,System.Int32,TradingPlatform.BusinessLayer.RenkoStyle,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationRenko.#ctor(TradingPlatform.BusinessLayer.Period,System.Int32,TradingPlatform.BusinessLayer.RenkoStyle,System.Int32,System.Int32,System.Boolean,System.Boolean)
+  id: '#ctor(TradingPlatform.BusinessLayer.Period,System.Int32,TradingPlatform.BusinessLayer.RenkoStyle,System.Int32,System.Int32,System.Boolean,System.Boolean)'
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: HistoryAggregationRenko(Period, Int32, RenkoStyle, Int32, Int32, Boolean, Boolean)
+  nameWithType: HistoryAggregationRenko.HistoryAggregationRenko(Period, Int32, RenkoStyle, Int32, Int32, Boolean, Boolean)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.HistoryAggregationRenko(TradingPlatform.BusinessLayer.Period, System.Int32, TradingPlatform.BusinessLayer.RenkoStyle, System.Int32, System.Int32, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 142
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryAggregationRenko(Period period, int brickSize, RenkoStyle renkoStyle, int extension = 100, int inversion = 100, bool showWicks = false, bool buildCurrentBar = true)
+    parameters:
+    - id: period
+      type: TradingPlatform.BusinessLayer.Period
+    - id: brickSize
+      type: System.Int32
+    - id: renkoStyle
+      type: TradingPlatform.BusinessLayer.RenkoStyle
+    - id: extension
+      type: System.Int32
+    - id: inversion
+      type: System.Int32
+    - id: showWicks
+      type: System.Boolean
+    - id: buildCurrentBar
+      type: System.Boolean
+    content.vb: Public Sub New(period As Period, brickSize As Integer, renkoStyle As RenkoStyle, extension As Integer = 100, inversion As Integer = 100, showWicks As Boolean = False, buildCurrentBar As Boolean = True)
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone
+  id: Clone
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: HistoryAggregationRenko.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: Clone
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 167
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Clone As Object
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString
+  id: ToString
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationRenko
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: HistoryAggregationRenko.ToString()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    id: ToString
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/History/Aggregations/HistoryAggregationRenko.cs
+    startLine: 170
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+  overload: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregation
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregation
+  nameWithType: HistoryAggregation
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTime
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationTime
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregationTime
+  nameWithType: HistoryAggregationTime
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregationHeikenAshi
+  nameWithType: HistoryAggregationHeikenAshi
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTime.Period
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationTime.Period
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTime
+  name: Period
+  nameWithType: HistoryAggregationTime.Period
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime.Period
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTime.DefaultRange
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationTime.DefaultRange
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTime
+  name: DefaultRange
+  nameWithType: HistoryAggregationTime.DefaultRange
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime.DefaultRange
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime(System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime(System.DateTime)
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTime
+  isExternal: true
+  name: FormatTime(DateTime)
+  nameWithType: HistoryAggregationTime.FormatTime(DateTime)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime(System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime(System.DateTime)
+    name: FormatTime
+    nameWithType: HistoryAggregationTime.FormatTime
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime(System.DateTime)
+    name: FormatTime
+    nameWithType: HistoryAggregationTime.FormatTime
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime.FormatTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.Name
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.Name
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: Name
+  nameWithType: HistoryAggregation.Name
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.Name
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: TICK
+  nameWithType: HistoryAggregation.TICK
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.TICK
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: TIME
+  nameWithType: HistoryAggregation.TIME
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.TIME
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: RENKO
+  nameWithType: HistoryAggregation.RENKO
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.RENKO
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: HEIKEN_ASHI
+  nameWithType: HistoryAggregation.HEIKEN_ASHI
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.HEIKEN_ASHI
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: RANGE_BARS
+  nameWithType: HistoryAggregation.RANGE_BARS
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.RANGE_BARS
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: SETTINGS_AGGREGATION_PERIOD
+  nameWithType: HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_PERIOD
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: SETTINGS_AGGREGATION_INSTRUMENT
+  nameWithType: HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_INSTRUMENT
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  commentId: F:TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: SETTINGS_AGGREGATION_HISTORY_TYPE
+  nameWithType: HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.SETTINGS_AGGREGATION_HISTORY_TYPE
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: HistoryAggregation.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: HistoryAggregation.CompareTo
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: HistoryAggregation.CompareTo
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+  parent: TradingPlatform.BusinessLayer.HistoryAggregation
+  name: FullDescription
+  nameWithType: HistoryAggregation.FullDescription
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregation.FullDescription
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize
+  name: BrickSize
+  nameWithType: HistoryAggregationRenko.BrickSize
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BrickSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle
+  name: RenkoStyle
+  nameWithType: HistoryAggregationRenko.RenkoStyle
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.RenkoStyle
+- uid: TradingPlatform.BusinessLayer.RenkoStyle
+  commentId: T:TradingPlatform.BusinessLayer.RenkoStyle
+  parent: TradingPlatform.BusinessLayer
+  name: RenkoStyle
+  nameWithType: RenkoStyle
+  fullName: TradingPlatform.BusinessLayer.RenkoStyle
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension
+  name: Extension
+  nameWithType: HistoryAggregationRenko.Extension
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Extension
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion
+  name: Inversion
+  nameWithType: HistoryAggregationRenko.Inversion
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Inversion
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks
+  name: ShowWicks
+  nameWithType: HistoryAggregationRenko.ShowWicks
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ShowWicks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar
+  name: BuildCurrentBar
+  nameWithType: HistoryAggregationRenko.BuildCurrentBar
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.BuildCurrentBar
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Settings
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Settings
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+  name: Settings
+  nameWithType: HistoryAggregationHeikenAshi.Settings
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Settings
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings
+  name: Settings
+  nameWithType: HistoryAggregationRenko.Settings
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTime.TimeScaleType
+  commentId: P:TradingPlatform.BusinessLayer.HistoryAggregationTime.TimeScaleType
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationTime
+  name: TimeScaleType
+  nameWithType: HistoryAggregationTime.TimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTime.TimeScaleType
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType
+  name: TimeScaleType
+  nameWithType: HistoryAggregationRenko.TimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.TimeScaleType
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  commentId: T:TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+  parent: TradingPlatform.BusinessLayer
+  name: HistoryAggregationTimeScaleType
+  nameWithType: HistoryAggregationTimeScaleType
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationTimeScaleType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.#ctor
+  name: HistoryAggregationRenko
+  nameWithType: HistoryAggregationRenko.HistoryAggregationRenko
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.HistoryAggregationRenko
+- uid: TradingPlatform.BusinessLayer.Period
+  commentId: T:TradingPlatform.BusinessLayer.Period
+  parent: TradingPlatform.BusinessLayer
+  name: Period
+  nameWithType: Period
+  fullName: TradingPlatform.BusinessLayer.Period
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+  name: Clone()
+  nameWithType: HistoryAggregationHeikenAshi.Clone()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+    name: Clone
+    nameWithType: HistoryAggregationHeikenAshi.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+    name: Clone
+    nameWithType: HistoryAggregationHeikenAshi.Clone
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone
+  name: Clone
+  nameWithType: HistoryAggregationRenko.Clone
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.Clone
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+  commentId: M:TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+  parent: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi
+  name: ToString()
+  nameWithType: HistoryAggregationHeikenAshi.ToString()
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+    name: ToString
+    nameWithType: HistoryAggregationHeikenAshi.ToString
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+    name: ToString
+    nameWithType: HistoryAggregationHeikenAshi.ToString
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString*
+  commentId: Overload:TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString
+  name: ToString
+  nameWithType: HistoryAggregationRenko.ToString
+  fullName: TradingPlatform.BusinessLayer.HistoryAggregationRenko.ToString

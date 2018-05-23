@@ -1,0 +1,2229 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.CustomInstrument
+  commentId: T:TradingPlatform.BusinessLayer.CustomInstrument
+  id: CustomInstrument
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.CustomInstrument.#ctor(System.String)
+  - TradingPlatform.BusinessLayer.CustomInstrument.Dispose
+  langs:
+  - csharp
+  - vb
+  name: CustomInstrument
+  nameWithType: CustomInstrument
+  fullName: TradingPlatform.BusinessLayer.CustomInstrument
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/CustomInstrument.cs
+    id: CustomInstrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/CustomInstrument.cs
+    startLine: 9
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nBase class for all Custom instruments: Synthetics, Custom Formulas, etc.\n"
+  example: []
+  syntax:
+    content: 'public class CustomInstrument : Instrument, IConnectionBindedObject, IUniqueID, IComparable, IRulesContainer, IXElementSerialization, IDisposable'
+    content.vb: >-
+      Public Class CustomInstrument
+          Inherits Instrument
+          Implements IConnectionBindedObject, IUniqueID, IComparable, IRulesContainer, IXElementSerialization, IDisposable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.BusinessObject
+  - TradingPlatform.BusinessLayer.Instrument
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.Synthetic
+  implements:
+  - TradingPlatform.BusinessLayer.IUniqueID
+  - System.IComparable
+  - TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  - System.IDisposable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Instrument.Id
+  - TradingPlatform.BusinessLayer.Instrument.Symbol
+  - TradingPlatform.BusinessLayer.Instrument.Description
+  - TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  - TradingPlatform.BusinessLayer.Instrument.Product
+  - TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  - TradingPlatform.BusinessLayer.Instrument.Exchange
+  - TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  - TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  - TradingPlatform.BusinessLayer.Instrument.MaxLot
+  - TradingPlatform.BusinessLayer.Instrument.MinLot
+  - TradingPlatform.BusinessLayer.Instrument.NettingType
+  - TradingPlatform.BusinessLayer.Instrument.Group
+  - TradingPlatform.BusinessLayer.Instrument.QuotingType
+  - TradingPlatform.BusinessLayer.Instrument.LotSize
+  - TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  - TradingPlatform.BusinessLayer.Instrument.LotStep
+  - TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  - TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  - TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  - TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  - TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  - TradingPlatform.BusinessLayer.Instrument.OptionType
+  - TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  - TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  - TradingPlatform.BusinessLayer.Instrument.Underlier
+  - TradingPlatform.BusinessLayer.Instrument.Ask
+  - TradingPlatform.BusinessLayer.Instrument.AskSize
+  - TradingPlatform.BusinessLayer.Instrument.Bid
+  - TradingPlatform.BusinessLayer.Instrument.BidSize
+  - TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  - TradingPlatform.BusinessLayer.Instrument.Last
+  - TradingPlatform.BusinessLayer.Instrument.LastSize
+  - TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  - TradingPlatform.BusinessLayer.Instrument.Open
+  - TradingPlatform.BusinessLayer.Instrument.PrevClose
+  - TradingPlatform.BusinessLayer.Instrument.High
+  - TradingPlatform.BusinessLayer.Instrument.Low
+  - TradingPlatform.BusinessLayer.Instrument.Volume
+  - TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  - TradingPlatform.BusinessLayer.Instrument.Ticks
+  - TradingPlatform.BusinessLayer.Instrument.Trades
+  - TradingPlatform.BusinessLayer.Instrument.Asks
+  - TradingPlatform.BusinessLayer.Instrument.Bids
+  - TradingPlatform.BusinessLayer.Instrument.Spread
+  - TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  - TradingPlatform.BusinessLayer.Instrument.Change
+  - TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  - TradingPlatform.BusinessLayer.Instrument.HistoryType
+  - TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  - TradingPlatform.BusinessLayer.Instrument.VolumeType
+  - TradingPlatform.BusinessLayer.Instrument.NewQuote
+  - TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  - TradingPlatform.BusinessLayer.Instrument.NewLast
+  - TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  - TradingPlatform.BusinessLayer.Instrument.Updated
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  - TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  - TradingPlatform.BusinessLayer.Instrument.InitialState
+  - TradingPlatform.BusinessLayer.Instrument.GetMessage
+  - TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  - TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  - TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.TickSize
+  - TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  - TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  - TradingPlatform.BusinessLayer.Instrument.ToString
+  - TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  - TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  - TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  - TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  - TradingPlatform.BusinessLayer.Instrument.ToXElement
+  - TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  - TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  - TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  - TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  - TradingPlatform.BusinessLayer.BusinessObject.State
+  - TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.CustomInstrument.#ctor(System.String)
+  commentId: M:TradingPlatform.BusinessLayer.CustomInstrument.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TradingPlatform.BusinessLayer.CustomInstrument
+  langs:
+  - csharp
+  - vb
+  name: CustomInstrument(String)
+  nameWithType: CustomInstrument.CustomInstrument(String)
+  fullName: TradingPlatform.BusinessLayer.CustomInstrument.CustomInstrument(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/CustomInstrument.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/CustomInstrument.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public CustomInstrument(string connectionID)
+    parameters:
+    - id: connectionID
+      type: System.String
+    content.vb: Public Sub New(connectionID As String)
+  overload: TradingPlatform.BusinessLayer.CustomInstrument.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.CustomInstrument.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.CustomInstrument.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.CustomInstrument
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CustomInstrument.Dispose()
+  fullName: TradingPlatform.BusinessLayer.CustomInstrument.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/CustomInstrument.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/CustomInstruments/CustomInstrument.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void Dispose()
+    content.vb: Public Overridable Sub Dispose
+  overload: TradingPlatform.BusinessLayer.CustomInstrument.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.BusinessObject
+  commentId: T:TradingPlatform.BusinessLayer.BusinessObject
+  parent: TradingPlatform.BusinessLayer
+  name: BusinessObject
+  nameWithType: BusinessObject
+  fullName: TradingPlatform.BusinessLayer.BusinessObject
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.IUniqueID
+  commentId: T:TradingPlatform.BusinessLayer.IUniqueID
+  parent: TradingPlatform.BusinessLayer
+  name: IUniqueID
+  nameWithType: IUniqueID
+  fullName: TradingPlatform.BusinessLayer.IUniqueID
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  commentId: T:TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+  parent: TradingPlatform.BusinessLayer.Serialization
+  name: IXElementSerialization
+  nameWithType: IXElementSerialization
+  fullName: TradingPlatform.BusinessLayer.Serialization.IXElementSerialization
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.Instrument.Id
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Id
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Id
+  nameWithType: Instrument.Id
+  fullName: TradingPlatform.BusinessLayer.Instrument.Id
+- uid: TradingPlatform.BusinessLayer.Instrument.Symbol
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Symbol
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Symbol
+  nameWithType: Instrument.Symbol
+  fullName: TradingPlatform.BusinessLayer.Instrument.Symbol
+- uid: TradingPlatform.BusinessLayer.Instrument.Description
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Description
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Description
+  nameWithType: Instrument.Description
+  fullName: TradingPlatform.BusinessLayer.Instrument.Description
+- uid: TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.InstrumentType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: InstrumentType
+  nameWithType: Instrument.InstrumentType
+  fullName: TradingPlatform.BusinessLayer.Instrument.InstrumentType
+- uid: TradingPlatform.BusinessLayer.Instrument.Product
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Product
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Product
+  nameWithType: Instrument.Product
+  fullName: TradingPlatform.BusinessLayer.Instrument.Product
+- uid: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: QuotingCurrency
+  nameWithType: Instrument.QuotingCurrency
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuotingCurrency
+- uid: TradingPlatform.BusinessLayer.Instrument.Exchange
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Exchange
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Exchange
+  nameWithType: Instrument.Exchange
+  fullName: TradingPlatform.BusinessLayer.Instrument.Exchange
+- uid: TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: QuoteDelay
+  nameWithType: Instrument.QuoteDelay
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuoteDelay
+- uid: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: InstrumentAdditionalInfo
+  nameWithType: Instrument.InstrumentAdditionalInfo
+  fullName: TradingPlatform.BusinessLayer.Instrument.InstrumentAdditionalInfo
+- uid: TradingPlatform.BusinessLayer.Instrument.MaxLot
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.MaxLot
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: MaxLot
+  nameWithType: Instrument.MaxLot
+  fullName: TradingPlatform.BusinessLayer.Instrument.MaxLot
+- uid: TradingPlatform.BusinessLayer.Instrument.MinLot
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.MinLot
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: MinLot
+  nameWithType: Instrument.MinLot
+  fullName: TradingPlatform.BusinessLayer.Instrument.MinLot
+- uid: TradingPlatform.BusinessLayer.Instrument.NettingType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.NettingType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: NettingType
+  nameWithType: Instrument.NettingType
+  fullName: TradingPlatform.BusinessLayer.Instrument.NettingType
+- uid: TradingPlatform.BusinessLayer.Instrument.Group
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Group
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Group
+  nameWithType: Instrument.Group
+  fullName: TradingPlatform.BusinessLayer.Instrument.Group
+- uid: TradingPlatform.BusinessLayer.Instrument.QuotingType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuotingType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: QuotingType
+  nameWithType: Instrument.QuotingType
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuotingType
+- uid: TradingPlatform.BusinessLayer.Instrument.LotSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LotSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: LotSize
+  nameWithType: Instrument.LotSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.LotSize
+- uid: TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.VariableTickList
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: VariableTickList
+  nameWithType: Instrument.VariableTickList
+  fullName: TradingPlatform.BusinessLayer.Instrument.VariableTickList
+- uid: TradingPlatform.BusinessLayer.Instrument.LotStep
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LotStep
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: LotStep
+  nameWithType: Instrument.LotStep
+  fullName: TradingPlatform.BusinessLayer.Instrument.LotStep
+- uid: TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: ExpirationDate
+  nameWithType: Instrument.ExpirationDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.ExpirationDate
+- uid: TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: LastTradingDate
+  nameWithType: Instrument.LastTradingDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastTradingDate
+- uid: TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.MaturityDate
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: MaturityDate
+  nameWithType: Instrument.MaturityDate
+  fullName: TradingPlatform.BusinessLayer.Instrument.MaturityDate
+- uid: TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.StrikePrice
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: StrikePrice
+  nameWithType: Instrument.StrikePrice
+  fullName: TradingPlatform.BusinessLayer.Instrument.StrikePrice
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.OptionStyle
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: OptionStyle
+  nameWithType: Instrument.OptionStyle
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionStyle
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.OptionType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: OptionType
+  nameWithType: Instrument.OptionType
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionType
+- uid: TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.OptionSerie
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: OptionSerie
+  nameWithType: Instrument.OptionSerie
+  fullName: TradingPlatform.BusinessLayer.Instrument.OptionSerie
+- uid: TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.UnderlierName
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: UnderlierName
+  nameWithType: Instrument.UnderlierName
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnderlierName
+- uid: TradingPlatform.BusinessLayer.Instrument.Underlier
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Underlier
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Underlier
+  nameWithType: Instrument.Underlier
+  fullName: TradingPlatform.BusinessLayer.Instrument.Underlier
+- uid: TradingPlatform.BusinessLayer.Instrument.Ask
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Ask
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Ask
+  nameWithType: Instrument.Ask
+  fullName: TradingPlatform.BusinessLayer.Instrument.Ask
+- uid: TradingPlatform.BusinessLayer.Instrument.AskSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AskSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: AskSize
+  nameWithType: Instrument.AskSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.AskSize
+- uid: TradingPlatform.BusinessLayer.Instrument.Bid
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Bid
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Bid
+  nameWithType: Instrument.Bid
+  fullName: TradingPlatform.BusinessLayer.Instrument.Bid
+- uid: TradingPlatform.BusinessLayer.Instrument.BidSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.BidSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: BidSize
+  nameWithType: Instrument.BidSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.BidSize
+- uid: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: QuoteDateTime
+  nameWithType: Instrument.QuoteDateTime
+  fullName: TradingPlatform.BusinessLayer.Instrument.QuoteDateTime
+- uid: TradingPlatform.BusinessLayer.Instrument.Last
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Last
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Last
+  nameWithType: Instrument.Last
+  fullName: TradingPlatform.BusinessLayer.Instrument.Last
+- uid: TradingPlatform.BusinessLayer.Instrument.LastSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LastSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: LastSize
+  nameWithType: Instrument.LastSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastSize
+- uid: TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.LastDateTime
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: LastDateTime
+  nameWithType: Instrument.LastDateTime
+  fullName: TradingPlatform.BusinessLayer.Instrument.LastDateTime
+- uid: TradingPlatform.BusinessLayer.Instrument.Open
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Open
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Open
+  nameWithType: Instrument.Open
+  fullName: TradingPlatform.BusinessLayer.Instrument.Open
+- uid: TradingPlatform.BusinessLayer.Instrument.PrevClose
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.PrevClose
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: PrevClose
+  nameWithType: Instrument.PrevClose
+  fullName: TradingPlatform.BusinessLayer.Instrument.PrevClose
+- uid: TradingPlatform.BusinessLayer.Instrument.High
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.High
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: High
+  nameWithType: Instrument.High
+  fullName: TradingPlatform.BusinessLayer.Instrument.High
+- uid: TradingPlatform.BusinessLayer.Instrument.Low
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Low
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Low
+  nameWithType: Instrument.Low
+  fullName: TradingPlatform.BusinessLayer.Instrument.Low
+- uid: TradingPlatform.BusinessLayer.Instrument.Volume
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Volume
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Volume
+  nameWithType: Instrument.Volume
+  fullName: TradingPlatform.BusinessLayer.Instrument.Volume
+- uid: TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: PrevSettlement
+  nameWithType: Instrument.PrevSettlement
+  fullName: TradingPlatform.BusinessLayer.Instrument.PrevSettlement
+- uid: TradingPlatform.BusinessLayer.Instrument.Ticks
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Ticks
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Ticks
+  nameWithType: Instrument.Ticks
+  fullName: TradingPlatform.BusinessLayer.Instrument.Ticks
+- uid: TradingPlatform.BusinessLayer.Instrument.Trades
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Trades
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Trades
+  nameWithType: Instrument.Trades
+  fullName: TradingPlatform.BusinessLayer.Instrument.Trades
+- uid: TradingPlatform.BusinessLayer.Instrument.Asks
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Asks
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Asks
+  nameWithType: Instrument.Asks
+  fullName: TradingPlatform.BusinessLayer.Instrument.Asks
+- uid: TradingPlatform.BusinessLayer.Instrument.Bids
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Bids
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Bids
+  nameWithType: Instrument.Bids
+  fullName: TradingPlatform.BusinessLayer.Instrument.Bids
+- uid: TradingPlatform.BusinessLayer.Instrument.Spread
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Spread
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Spread
+  nameWithType: Instrument.Spread
+  fullName: TradingPlatform.BusinessLayer.Instrument.Spread
+- uid: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: SpreadPercentage
+  nameWithType: Instrument.SpreadPercentage
+  fullName: TradingPlatform.BusinessLayer.Instrument.SpreadPercentage
+- uid: TradingPlatform.BusinessLayer.Instrument.Change
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.Change
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Change
+  nameWithType: Instrument.Change
+  fullName: TradingPlatform.BusinessLayer.Instrument.Change
+- uid: TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: ChangePercentage
+  nameWithType: Instrument.ChangePercentage
+  fullName: TradingPlatform.BusinessLayer.Instrument.ChangePercentage
+- uid: TradingPlatform.BusinessLayer.Instrument.HistoryType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.HistoryType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: HistoryType
+  nameWithType: Instrument.HistoryType
+  fullName: TradingPlatform.BusinessLayer.Instrument.HistoryType
+- uid: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: AvailableHistoryTypes
+  nameWithType: Instrument.AvailableHistoryTypes
+  fullName: TradingPlatform.BusinessLayer.Instrument.AvailableHistoryTypes
+- uid: TradingPlatform.BusinessLayer.Instrument.VolumeType
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.VolumeType
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: VolumeType
+  nameWithType: Instrument.VolumeType
+  fullName: TradingPlatform.BusinessLayer.Instrument.VolumeType
+- uid: TradingPlatform.BusinessLayer.Instrument.NewQuote
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewQuote
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: NewQuote
+  nameWithType: Instrument.NewQuote
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewQuote
+- uid: TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewLevel2
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: NewLevel2
+  nameWithType: Instrument.NewLevel2
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewLevel2
+- uid: TradingPlatform.BusinessLayer.Instrument.NewLast
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewLast
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: NewLast
+  nameWithType: Instrument.NewLast
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewLast
+- uid: TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.NewDayBar
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: NewDayBar
+  nameWithType: Instrument.NewDayBar
+  fullName: TradingPlatform.BusinessLayer.Instrument.NewDayBar
+- uid: TradingPlatform.BusinessLayer.Instrument.Updated
+  commentId: E:TradingPlatform.BusinessLayer.Instrument.Updated
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Updated
+  nameWithType: Instrument.Updated
+  fullName: TradingPlatform.BusinessLayer.Instrument.Updated
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: AllowCalculateRealtimeTicks
+  nameWithType: Instrument.AllowCalculateRealtimeTicks
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTicks
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: AllowCalculateRealtimeTrades
+  nameWithType: Instrument.AllowCalculateRealtimeTrades
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeTrades
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: AllowCalculateRealtimeVolume
+  nameWithType: Instrument.AllowCalculateRealtimeVolume
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeVolume
+- uid: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: AllowCalculateRealtimeChange
+  nameWithType: Instrument.AllowCalculateRealtimeChange
+  fullName: TradingPlatform.BusinessLayer.Instrument.AllowCalculateRealtimeChange
+- uid: TradingPlatform.BusinessLayer.Instrument.InitialState
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.InitialState
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: InitialState()
+  nameWithType: Instrument.InitialState()
+  fullName: TradingPlatform.BusinessLayer.Instrument.InitialState()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.InitialState
+    name: InitialState
+    nameWithType: Instrument.InitialState
+    fullName: TradingPlatform.BusinessLayer.Instrument.InitialState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.InitialState
+    name: InitialState
+    nameWithType: Instrument.InitialState
+    fullName: TradingPlatform.BusinessLayer.Instrument.InitialState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetMessage
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetMessage
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: GetMessage()
+  nameWithType: Instrument.GetMessage()
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetMessage()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetMessage
+    name: GetMessage
+    nameWithType: Instrument.GetMessage
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetMessage
+    name: GetMessage
+    nameWithType: Instrument.GetMessage
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: Subscribe(SubscribeQuoteType)
+  nameWithType: Instrument.Subscribe(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: Subscribe
+    nameWithType: Instrument.Subscribe
+    fullName: TradingPlatform.BusinessLayer.Instrument.Subscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.Subscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: Subscribe
+    nameWithType: Instrument.Subscribe
+    fullName: TradingPlatform.BusinessLayer.Instrument.Subscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: SubscribeAction(SubscribeQuoteType)
+  nameWithType: Instrument.SubscribeAction(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: SubscribeAction
+    nameWithType: Instrument.SubscribeAction
+    fullName: TradingPlatform.BusinessLayer.Instrument.SubscribeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.SubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: SubscribeAction
+    nameWithType: Instrument.SubscribeAction
+    fullName: TradingPlatform.BusinessLayer.Instrument.SubscribeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: UnSubscribe(SubscribeQuoteType)
+  nameWithType: Instrument.UnSubscribe(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: UnSubscribe
+    nameWithType: Instrument.UnSubscribe
+    fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribe(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: UnSubscribe
+    nameWithType: Instrument.UnSubscribe
+    fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: UnSubscribeAction(SubscribeQuoteType)
+  nameWithType: Instrument.UnSubscribeAction(SubscribeQuoteType)
+  fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: UnSubscribeAction
+    nameWithType: Instrument.UnSubscribeAction
+    fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction(TradingPlatform.BusinessLayer.SubscribeQuoteType)
+    name: UnSubscribeAction
+    nameWithType: Instrument.UnSubscribeAction
+    fullName: TradingPlatform.BusinessLayer.Instrument.UnSubscribeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+    name: SubscribeQuoteType
+    nameWithType: SubscribeQuoteType
+    fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: GetHistory(Period, HistoryType, DateTime, DateTime)
+  nameWithType: Instrument.GetHistory(Period, HistoryType, DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period, TradingPlatform.BusinessLayer.HistoryType, System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+    name: GetHistory
+    nameWithType: Instrument.GetHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Period
+    name: Period
+    nameWithType: Period
+    fullName: TradingPlatform.BusinessLayer.Period
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.Period,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+    name: GetHistory
+    nameWithType: Instrument.GetHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Period
+    name: Period
+    nameWithType: Period
+    fullName: TradingPlatform.BusinessLayer.Period
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: GetHistory(HistoryAggregation, HistoryType, DateTime, DateTime)
+  nameWithType: Instrument.GetHistory(HistoryAggregation, HistoryType, DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation, TradingPlatform.BusinessLayer.HistoryType, System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+    name: GetHistory
+    nameWithType: Instrument.GetHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation
+    name: HistoryAggregation
+    nameWithType: HistoryAggregation
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryAggregation,TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+    name: GetHistory
+    nameWithType: Instrument.GetHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryAggregation
+    name: HistoryAggregation
+    nameWithType: HistoryAggregation
+    fullName: TradingPlatform.BusinessLayer.HistoryAggregation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: GetHistory(HistoryRequestParameters)
+  nameWithType: Instrument.GetHistory(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: GetHistory
+    nameWithType: Instrument.GetHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetHistory(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: GetHistory
+    nameWithType: Instrument.GetHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: CreateHistoricalData(HistoryRequestParameters)
+  nameWithType: Instrument.CreateHistoricalData(HistoryRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: CreateHistoricalData
+    nameWithType: Instrument.CreateHistoricalData
+    fullName: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData(TradingPlatform.BusinessLayer.HistoryRequestParameters)
+    name: CreateHistoricalData
+    nameWithType: Instrument.CreateHistoricalData
+    fullName: TradingPlatform.BusinessLayer.Instrument.CreateHistoricalData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: GetTickHistory(HistoryType, DateTime, DateTime)
+  nameWithType: Instrument.GetTickHistory(HistoryType, DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType, System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+    name: GetTickHistory
+    nameWithType: Instrument.GetTickHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetTickHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetTickHistory(TradingPlatform.BusinessLayer.HistoryType,System.DateTime,System.DateTime)
+    name: GetTickHistory
+    nameWithType: Instrument.GetTickHistory
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetTickHistory
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.HistoryType
+    name: HistoryType
+    nameWithType: HistoryType
+    fullName: TradingPlatform.BusinessLayer.HistoryType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: RoundPriceToTickSize(Double)
+  nameWithType: Instrument.RoundPriceToTickSize(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+    name: RoundPriceToTickSize
+    nameWithType: Instrument.RoundPriceToTickSize
+    fullName: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize(System.Double)
+    name: RoundPriceToTickSize
+    nameWithType: Instrument.RoundPriceToTickSize
+    fullName: TradingPlatform.BusinessLayer.Instrument.RoundPriceToTickSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: CalculatePrice(Double, Double)
+  nameWithType: Instrument.CalculatePrice(Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double, System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+    name: CalculatePrice
+    nameWithType: Instrument.CalculatePrice
+    fullName: TradingPlatform.BusinessLayer.Instrument.CalculatePrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CalculatePrice(System.Double,System.Double)
+    name: CalculatePrice
+    nameWithType: Instrument.CalculatePrice
+    fullName: TradingPlatform.BusinessLayer.Instrument.CalculatePrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: CalculateTicks(Double, Double)
+  nameWithType: Instrument.CalculateTicks(Double, Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double, System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+    name: CalculateTicks
+    nameWithType: Instrument.CalculateTicks
+    fullName: TradingPlatform.BusinessLayer.Instrument.CalculateTicks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CalculateTicks(System.Double,System.Double)
+    name: CalculateTicks
+    nameWithType: Instrument.CalculateTicks
+    fullName: TradingPlatform.BusinessLayer.Instrument.CalculateTicks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: GetTickSize(Double)
+  nameWithType: Instrument.GetTickSize(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+    name: GetTickSize
+    nameWithType: Instrument.GetTickSize
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetTickSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetTickSize(System.Double)
+    name: GetTickSize
+    nameWithType: Instrument.GetTickSize
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetTickSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: GetTickCost(Double)
+  nameWithType: Instrument.GetTickCost(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+    name: GetTickCost
+    nameWithType: Instrument.GetTickCost
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetTickCost
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetTickCost(System.Double)
+    name: GetTickCost
+    nameWithType: Instrument.GetTickCost
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetTickCost
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: FindVariableTick(Double)
+  nameWithType: Instrument.FindVariableTick(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+    name: FindVariableTick
+    nameWithType: Instrument.FindVariableTick
+    fullName: TradingPlatform.BusinessLayer.Instrument.FindVariableTick
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FindVariableTick(System.Double)
+    name: FindVariableTick
+    nameWithType: Instrument.FindVariableTick
+    fullName: TradingPlatform.BusinessLayer.Instrument.FindVariableTick
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.TickSize
+  commentId: P:TradingPlatform.BusinessLayer.Instrument.TickSize
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: TickSize
+  nameWithType: Instrument.TickSize
+  fullName: TradingPlatform.BusinessLayer.Instrument.TickSize
+- uid: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: GetVWAPForOrderRequest(OrderRequestParameters)
+  nameWithType: Instrument.GetVWAPForOrderRequest(OrderRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetVWAPForOrderRequest
+    nameWithType: Instrument.GetVWAPForOrderRequest
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest(TradingPlatform.BusinessLayer.OrderRequestParameters)
+    name: GetVWAPForOrderRequest
+    nameWithType: Instrument.GetVWAPForOrderRequest
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetVWAPForOrderRequest
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderRequestParameters
+    name: OrderRequestParameters
+    nameWithType: OrderRequestParameters
+    fullName: TradingPlatform.BusinessLayer.OrderRequestParameters
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: OnUpdated()
+  nameWithType: Instrument.OnUpdated()
+  fullName: TradingPlatform.BusinessLayer.Instrument.OnUpdated()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+    name: OnUpdated
+    nameWithType: Instrument.OnUpdated
+    fullName: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+    name: OnUpdated
+    nameWithType: Instrument.OnUpdated
+    fullName: TradingPlatform.BusinessLayer.Instrument.OnUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.ToString
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.ToString
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: ToString()
+  nameWithType: Instrument.ToString()
+  fullName: TradingPlatform.BusinessLayer.Instrument.ToString()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.ToString
+    name: ToString
+    nameWithType: Instrument.ToString
+    fullName: TradingPlatform.BusinessLayer.Instrument.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.ToString
+    name: ToString
+    nameWithType: Instrument.ToString
+    fullName: TradingPlatform.BusinessLayer.Instrument.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: CreateInfo()
+  nameWithType: Instrument.CreateInfo()
+  fullName: TradingPlatform.BusinessLayer.Instrument.CreateInfo()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+    name: CreateInfo
+    nameWithType: Instrument.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+    name: CreateInfo
+    nameWithType: Instrument.CreateInfo
+    fullName: TradingPlatform.BusinessLayer.Instrument.CreateInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: FormatPrice(Double)
+  nameWithType: Instrument.FormatPrice(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+    name: FormatPrice
+    nameWithType: Instrument.FormatPrice
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatPrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatPrice(System.Double)
+    name: FormatPrice
+    nameWithType: Instrument.FormatPrice
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatPrice
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: FormatPriceWithMaxPrecision(Double)
+  nameWithType: Instrument.FormatPriceWithMaxPrecision(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+    name: FormatPriceWithMaxPrecision
+    nameWithType: Instrument.FormatPriceWithMaxPrecision
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision(System.Double)
+    name: FormatPriceWithMaxPrecision
+    nameWithType: Instrument.FormatPriceWithMaxPrecision
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatPriceWithMaxPrecision
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: FormatQuantity(Double, Boolean, Boolean)
+  nameWithType: Instrument.FormatQuantity(Double, Boolean, Boolean)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+    name: FormatQuantity
+    nameWithType: Instrument.FormatQuantity
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatQuantity
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatQuantity(System.Double,System.Boolean,System.Boolean)
+    name: FormatQuantity
+    nameWithType: Instrument.FormatQuantity
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatQuantity
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: FormatOffset(Double)
+  nameWithType: Instrument.FormatOffset(Double)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+    name: FormatOffset
+    nameWithType: Instrument.FormatOffset
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatOffset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FormatOffset(System.Double)
+    name: FormatOffset
+    nameWithType: Instrument.FormatOffset
+    fullName: TradingPlatform.BusinessLayer.Instrument.FormatOffset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: Instrument.CompareTo(Object)
+  fullName: TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: Instrument.CompareTo
+    fullName: TradingPlatform.BusinessLayer.Instrument.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: Instrument.CompareTo
+    fullName: TradingPlatform.BusinessLayer.Instrument.CompareTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.ToXElement
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.ToXElement
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: ToXElement()
+  nameWithType: Instrument.ToXElement()
+  fullName: TradingPlatform.BusinessLayer.Instrument.ToXElement()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.ToXElement
+    name: ToXElement
+    nameWithType: Instrument.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Instrument.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.ToXElement
+    name: ToXElement
+    nameWithType: Instrument.ToXElement
+    fullName: TradingPlatform.BusinessLayer.Instrument.ToXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  isExternal: true
+  name: FromXElement(XElement, DeserializationInfo)
+  nameWithType: Instrument.FromXElement(XElement, DeserializationInfo)
+  fullName: TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement, TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: Instrument.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Instrument.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.FromXElement(System.Xml.Linq.XElement,TradingPlatform.BusinessLayer.Serialization.DeserializationInfo)
+    name: FromXElement
+    nameWithType: Instrument.FromXElement
+    fullName: TradingPlatform.BusinessLayer.Instrument.FromXElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+    name: DeserializationInfo
+    nameWithType: DeserializationInfo
+    fullName: TradingPlatform.BusinessLayer.Serialization.DeserializationInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: GetAlowedOrderTypes(OrderTypeUsage)
+  nameWithType: Instrument.GetAlowedOrderTypes(OrderTypeUsage)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+    name: GetAlowedOrderTypes
+    nameWithType: Instrument.GetAlowedOrderTypes
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderTypeUsage
+    name: OrderTypeUsage
+    nameWithType: OrderTypeUsage
+    fullName: TradingPlatform.BusinessLayer.OrderTypeUsage
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes(TradingPlatform.BusinessLayer.OrderTypeUsage)
+    name: GetAlowedOrderTypes
+    nameWithType: Instrument.GetAlowedOrderTypes
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetAlowedOrderTypes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.OrderTypeUsage
+    name: OrderTypeUsage
+    nameWithType: OrderTypeUsage
+    fullName: TradingPlatform.BusinessLayer.OrderTypeUsage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  commentId: M:TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  parent: TradingPlatform.BusinessLayer.Instrument
+  name: GetDefaultAccount(Account)
+  nameWithType: Instrument.GetDefaultAccount(Account)
+  fullName: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+    name: GetDefaultAccount
+    nameWithType: Instrument.GetDefaultAccount
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount(TradingPlatform.BusinessLayer.Account)
+    name: GetDefaultAccount
+    nameWithType: Instrument.GetDefaultAccount
+    fullName: TradingPlatform.BusinessLayer.Instrument.GetDefaultAccount
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: ConnectionId
+  nameWithType: BusinessObject.ConnectionId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.ConnectionId
+- uid: TradingPlatform.BusinessLayer.BusinessObject.State
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.State
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: State
+  nameWithType: BusinessObject.State
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.State
+- uid: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  commentId: P:TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+  parent: TradingPlatform.BusinessLayer.BusinessObject
+  name: UniqueId
+  nameWithType: BusinessObject.UniqueId
+  fullName: TradingPlatform.BusinessLayer.BusinessObject.UniqueId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Serialization
+  commentId: N:TradingPlatform.BusinessLayer.Serialization
+  name: TradingPlatform.BusinessLayer.Serialization
+  nameWithType: TradingPlatform.BusinessLayer.Serialization
+  fullName: TradingPlatform.BusinessLayer.Serialization
+- uid: TradingPlatform.BusinessLayer.CustomInstrument.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.CustomInstrument.#ctor
+  name: CustomInstrument
+  nameWithType: CustomInstrument.CustomInstrument
+  fullName: TradingPlatform.BusinessLayer.CustomInstrument.CustomInstrument
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.CustomInstrument.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.CustomInstrument.Dispose
+  name: Dispose
+  nameWithType: CustomInstrument.Dispose
+  fullName: TradingPlatform.BusinessLayer.CustomInstrument.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

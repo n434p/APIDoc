@@ -1,0 +1,933 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestStrategy.TestStrategy
+  commentId: T:TestStrategy.TestStrategy
+  id: TestStrategy
+  parent: TestStrategy
+  children:
+  - TestStrategy.TestStrategy.#ctor
+  - TestStrategy.TestStrategy.Clear
+  - TestStrategy.TestStrategy.Init
+  - TestStrategy.TestStrategy.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  langs:
+  - csharp
+  - vb
+  name: TestStrategy
+  nameWithType: TestStrategy
+  fullName: TestStrategy.TestStrategy
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    id: TestStrategy
+    path: ../BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    startLine: 6
+  assemblies:
+  - Strategies
+  namespace: TestStrategy
+  syntax:
+    content: 'public class TestStrategy : Strategy, IModule, IDisposable, ICustomizable'
+    content.vb: >-
+      Public Class TestStrategy
+          Inherits Strategy
+          Implements IModule, IDisposable, ICustomizable
+  inheritance:
+  - System.Object
+  - TradingPlatform.BusinessLayer.ExecutionEntity
+  - TradingPlatform.BusinessLayer.Strategy
+  implements:
+  - TradingPlatform.BusinessLayer.IModule
+  - System.IDisposable
+  - TradingPlatform.BusinessLayer.ICustomizable
+  inheritedMembers:
+  - TradingPlatform.BusinessLayer.Strategy.State
+  - TradingPlatform.BusinessLayer.Strategy.Instrument
+  - TradingPlatform.BusinessLayer.Strategy.Instruments
+  - TradingPlatform.BusinessLayer.Strategy.Account
+  - TradingPlatform.BusinessLayer.Strategy.Accounts
+  - TradingPlatform.BusinessLayer.Strategy.Settings
+  - TradingPlatform.BusinessLayer.Strategy.Run
+  - TradingPlatform.BusinessLayer.Strategy.Stop
+  - TradingPlatform.BusinessLayer.Strategy.Dispose
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  - TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  - TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TestStrategy.TestStrategy.#ctor
+  commentId: M:TestStrategy.TestStrategy.#ctor
+  id: '#ctor'
+  parent: TestStrategy.TestStrategy
+  langs:
+  - csharp
+  - vb
+  name: TestStrategy()
+  nameWithType: TestStrategy.TestStrategy()
+  fullName: TestStrategy.TestStrategy.TestStrategy()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    id: .ctor
+    path: ../BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    startLine: 8
+  assemblies:
+  - Strategies
+  namespace: TestStrategy
+  syntax:
+    content: public TestStrategy()
+    content.vb: Public Sub New
+  overload: TestStrategy.TestStrategy.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TestStrategy.TestStrategy.Init
+  commentId: M:TestStrategy.TestStrategy.Init
+  id: Init
+  parent: TestStrategy.TestStrategy
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: TestStrategy.Init()
+  fullName: TestStrategy.TestStrategy.Init()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    id: Init
+    path: ../BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    startLine: 15
+  assemblies:
+  - Strategies
+  namespace: TestStrategy
+  syntax:
+    content: public override void Init()
+    content.vb: Public Overrides Sub Init
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  overload: TestStrategy.TestStrategy.Init*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TestStrategy.TestStrategy.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:TestStrategy.TestStrategy.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  id: OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: TestStrategy.TestStrategy
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate(UpdateArgs)
+  nameWithType: TestStrategy.OnUpdate(UpdateArgs)
+  fullName: TestStrategy.TestStrategy.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    id: OnUpdate
+    path: ../BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    startLine: 17
+  assemblies:
+  - Strategies
+  namespace: TestStrategy
+  syntax:
+    content: public override void OnUpdate(UpdateArgs args)
+    parameters:
+    - id: args
+      type: TradingPlatform.BusinessLayer.UpdateArgs
+    content.vb: Public Overrides Sub OnUpdate(args As UpdateArgs)
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  overload: TestStrategy.TestStrategy.OnUpdate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TestStrategy.TestStrategy.Clear
+  commentId: M:TestStrategy.TestStrategy.Clear
+  id: Clear
+  parent: TestStrategy.TestStrategy
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: TestStrategy.Clear()
+  fullName: TestStrategy.TestStrategy.Clear()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    id: Clear
+    path: ../BusinessLayer/Modules/Scripts/Strategies/TestStrategy.cs
+    startLine: 22
+  assemblies:
+  - Strategies
+  namespace: TestStrategy
+  syntax:
+    content: public override void Clear()
+    content.vb: Public Overrides Sub Clear
+  overridden: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  overload: TestStrategy.TestStrategy.Clear*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TestStrategy
+  commentId: N:TestStrategy
+  name: TestStrategy
+  nameWithType: TestStrategy
+  fullName: TestStrategy
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity
+  commentId: T:TradingPlatform.BusinessLayer.ExecutionEntity
+  parent: TradingPlatform.BusinessLayer
+  name: ExecutionEntity
+  nameWithType: ExecutionEntity
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity
+- uid: TradingPlatform.BusinessLayer.Strategy
+  commentId: T:TradingPlatform.BusinessLayer.Strategy
+  parent: TradingPlatform.BusinessLayer
+  name: Strategy
+  nameWithType: Strategy
+  fullName: TradingPlatform.BusinessLayer.Strategy
+- uid: TradingPlatform.BusinessLayer.IModule
+  commentId: T:TradingPlatform.BusinessLayer.IModule
+  parent: TradingPlatform.BusinessLayer
+  name: IModule
+  nameWithType: IModule
+  fullName: TradingPlatform.BusinessLayer.IModule
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: TradingPlatform.BusinessLayer.Strategy.State
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.State
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: State
+  nameWithType: Strategy.State
+  fullName: TradingPlatform.BusinessLayer.Strategy.State
+- uid: TradingPlatform.BusinessLayer.Strategy.Instrument
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Instrument
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Instrument
+  nameWithType: Strategy.Instrument
+  fullName: TradingPlatform.BusinessLayer.Strategy.Instrument
+- uid: TradingPlatform.BusinessLayer.Strategy.Instruments
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Instruments
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Instruments
+  nameWithType: Strategy.Instruments
+  fullName: TradingPlatform.BusinessLayer.Strategy.Instruments
+- uid: TradingPlatform.BusinessLayer.Strategy.Account
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Account
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Account
+  nameWithType: Strategy.Account
+  fullName: TradingPlatform.BusinessLayer.Strategy.Account
+- uid: TradingPlatform.BusinessLayer.Strategy.Accounts
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Accounts
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Accounts
+  nameWithType: Strategy.Accounts
+  fullName: TradingPlatform.BusinessLayer.Strategy.Accounts
+- uid: TradingPlatform.BusinessLayer.Strategy.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Strategy.Settings
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Settings
+  nameWithType: Strategy.Settings
+  fullName: TradingPlatform.BusinessLayer.Strategy.Settings
+- uid: TradingPlatform.BusinessLayer.Strategy.Run
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.Run
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Run()
+  nameWithType: Strategy.Run()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Run()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Strategy.Run
+    name: Run
+    nameWithType: Strategy.Run
+    fullName: TradingPlatform.BusinessLayer.Strategy.Run
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Strategy.Run
+    name: Run
+    nameWithType: Strategy.Run
+    fullName: TradingPlatform.BusinessLayer.Strategy.Run
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Strategy.Stop
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.Stop
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Stop()
+  nameWithType: Strategy.Stop()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Stop()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Strategy.Stop
+    name: Stop
+    nameWithType: Strategy.Stop
+    fullName: TradingPlatform.BusinessLayer.Strategy.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Strategy.Stop
+    name: Stop
+    nameWithType: Strategy.Stop
+    fullName: TradingPlatform.BusinessLayer.Strategy.Stop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Strategy.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.Strategy.Dispose
+  parent: TradingPlatform.BusinessLayer.Strategy
+  name: Dispose()
+  nameWithType: Strategy.Dispose()
+  fullName: TradingPlatform.BusinessLayer.Strategy.Dispose()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Strategy.Dispose
+    name: Dispose
+    nameWithType: Strategy.Dispose
+    fullName: TradingPlatform.BusinessLayer.Strategy.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Strategy.Dispose
+    name: Dispose
+    nameWithType: Strategy.Dispose
+    fullName: TradingPlatform.BusinessLayer.Strategy.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Name
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Name
+  nameWithType: ExecutionEntity.Name
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Name
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  commentId: P:TradingPlatform.BusinessLayer.ExecutionEntity.Description
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Description
+  nameWithType: ExecutionEntity.Description
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Description
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Print(String, Object[])
+  nameWithType: ExecutionEntity.Print(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Print(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String, System.Object())
+  name.vb: Print(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Print(System.String,System.Object[])
+    name: Print
+    nameWithType: ExecutionEntity.Print
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  isExternal: true
+  name: Alert(String, Object[])
+  nameWithType: ExecutionEntity.Alert(String, Object[])
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object[])
+  nameWithType.vb: ExecutionEntity.Alert(String, Object())
+  fullName.vb: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String, System.Object())
+  name.vb: Alert(String, Object())
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Alert(System.String,System.Object[])
+    name: Alert
+    nameWithType: ExecutionEntity.Alert
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Alert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnSettingsUpdated()
+  nameWithType: ExecutionEntity.OnSettingsUpdated()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: ExecutionEntity.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+    name: OnSettingsUpdated
+    nameWithType: ExecutionEntity.OnSettingsUpdated
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnSettingsUpdated
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TestStrategy.TestStrategy.#ctor*
+  commentId: Overload:TestStrategy.TestStrategy.#ctor
+  name: TestStrategy
+  nameWithType: TestStrategy.TestStrategy
+  fullName: TestStrategy.TestStrategy.TestStrategy
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Init()
+  nameWithType: ExecutionEntity.Init()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+    name: Init
+    nameWithType: ExecutionEntity.Init
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TestStrategy.TestStrategy.Init*
+  commentId: Overload:TestStrategy.TestStrategy.Init
+  name: Init
+  nameWithType: TestStrategy.Init
+  fullName: TestStrategy.TestStrategy.Init
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: OnUpdate(UpdateArgs)
+  nameWithType: ExecutionEntity.OnUpdate(UpdateArgs)
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate(TradingPlatform.BusinessLayer.UpdateArgs)
+    name: OnUpdate
+    nameWithType: ExecutionEntity.OnUpdate
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.OnUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TradingPlatform.BusinessLayer.UpdateArgs
+    name: UpdateArgs
+    nameWithType: UpdateArgs
+    fullName: TradingPlatform.BusinessLayer.UpdateArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TestStrategy.TestStrategy.OnUpdate*
+  commentId: Overload:TestStrategy.TestStrategy.OnUpdate
+  name: OnUpdate
+  nameWithType: TestStrategy.OnUpdate
+  fullName: TestStrategy.TestStrategy.OnUpdate
+- uid: TradingPlatform.BusinessLayer.UpdateArgs
+  commentId: T:TradingPlatform.BusinessLayer.UpdateArgs
+  parent: TradingPlatform.BusinessLayer
+  name: UpdateArgs
+  nameWithType: UpdateArgs
+  fullName: TradingPlatform.BusinessLayer.UpdateArgs
+- uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  commentId: M:TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  parent: TradingPlatform.BusinessLayer.ExecutionEntity
+  name: Clear()
+  nameWithType: ExecutionEntity.Clear()
+  fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+    name: Clear
+    nameWithType: ExecutionEntity.Clear
+    fullName: TradingPlatform.BusinessLayer.ExecutionEntity.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TestStrategy.TestStrategy.Clear*
+  commentId: Overload:TestStrategy.TestStrategy.Clear
+  name: Clear
+  nameWithType: TestStrategy.Clear
+  fullName: TestStrategy.TestStrategy.Clear

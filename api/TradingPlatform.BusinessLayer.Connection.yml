@@ -1,0 +1,2101 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Connection
+  commentId: T:TradingPlatform.BusinessLayer.Connection
+  id: Connection
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.Connection.Accounts
+  - TradingPlatform.BusinessLayer.Connection.Assets
+  - TradingPlatform.BusinessLayer.Connection.Connect
+  - TradingPlatform.BusinessLayer.Connection.DealTickets
+  - TradingPlatform.BusinessLayer.Connection.Disconnect
+  - TradingPlatform.BusinessLayer.Connection.Exchanges
+  - TradingPlatform.BusinessLayer.Connection.GetAllRules
+  - TradingPlatform.BusinessLayer.Connection.GetInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters,TradingPlatform.BusinessLayer.NonFixedListDownload)
+  - TradingPlatform.BusinessLayer.Connection.GetReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  - TradingPlatform.BusinessLayer.Connection.HistoryMetaData
+  - TradingPlatform.BusinessLayer.Connection.Id
+  - TradingPlatform.BusinessLayer.Connection.Instruments
+  - TradingPlatform.BusinessLayer.Connection.InstrumentTypes
+  - TradingPlatform.BusinessLayer.Connection.Name
+  - TradingPlatform.BusinessLayer.Connection.Orders
+  - TradingPlatform.BusinessLayer.Connection.OrdersHistory
+  - TradingPlatform.BusinessLayer.Connection.OrderTypes
+  - TradingPlatform.BusinessLayer.Connection.PingTime
+  - TradingPlatform.BusinessLayer.Connection.Positions
+  - TradingPlatform.BusinessLayer.Connection.ReportTypes
+  - TradingPlatform.BusinessLayer.Connection.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  - TradingPlatform.BusinessLayer.Connection.Settings
+  - TradingPlatform.BusinessLayer.Connection.State
+  - TradingPlatform.BusinessLayer.Connection.StateChanged
+  - TradingPlatform.BusinessLayer.Connection.Trades
+  - TradingPlatform.BusinessLayer.Connection.Type
+  - TradingPlatform.BusinessLayer.Connection.UserType
+  - TradingPlatform.BusinessLayer.Connection.VendorName
+  langs:
+  - csharp
+  - vb
+  name: Connection
+  nameWithType: Connection
+  fullName: TradingPlatform.BusinessLayer.Connection
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Connection
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: 'public class Connection : ICustomizable'
+    content.vb: >-
+      Public Class Connection
+          Implements ICustomizable
+  inheritance:
+  - System.Object
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Connection.Id
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Id
+  id: Id
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Connection.Id
+  fullName: TradingPlatform.BusinessLayer.Connection.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Id
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: TradingPlatform.BusinessLayer.Connection.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.Name
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Name
+  id: Name
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Connection.Name
+  fullName: TradingPlatform.BusinessLayer.Connection.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Name
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: TradingPlatform.BusinessLayer.Connection.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.VendorName
+  commentId: P:TradingPlatform.BusinessLayer.Connection.VendorName
+  id: VendorName
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: VendorName
+  nameWithType: Connection.VendorName
+  fullName: TradingPlatform.BusinessLayer.Connection.VendorName
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: VendorName
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public string VendorName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property VendorName As String
+  overload: TradingPlatform.BusinessLayer.Connection.VendorName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Settings
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Settings
+  id: Settings
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Connection.Settings
+  fullName: TradingPlatform.BusinessLayer.Connection.Settings
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Settings
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 42
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IList<SettingItem> Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+    content.vb: Public Property Settings As IList(Of SettingItem)
+  overload: TradingPlatform.BusinessLayer.Connection.Settings*
+  implements:
+  - TradingPlatform.BusinessLayer.ICustomizable.Settings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.State
+  commentId: P:TradingPlatform.BusinessLayer.Connection.State
+  id: State
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Connection.State
+  fullName: TradingPlatform.BusinessLayer.Connection.State
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: State
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 48
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionState State { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionState
+    content.vb: Public ReadOnly Property State As ConnectionState
+  overload: TradingPlatform.BusinessLayer.Connection.State*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.UserType
+  commentId: P:TradingPlatform.BusinessLayer.Connection.UserType
+  id: UserType
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: Connection.UserType
+  fullName: TradingPlatform.BusinessLayer.Connection.UserType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: UserType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 63
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionUserType UserType { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionUserType
+    content.vb: Public ReadOnly Property UserType As ConnectionUserType
+  overload: TradingPlatform.BusinessLayer.Connection.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Type
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Type
+  id: Type
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Connection.Type
+  fullName: TradingPlatform.BusinessLayer.Connection.Type
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Type
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 65
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionType Type { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ConnectionType
+    content.vb: Public Property Type As ConnectionType
+  overload: TradingPlatform.BusinessLayer.Connection.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.StateChanged
+  commentId: E:TradingPlatform.BusinessLayer.Connection.StateChanged
+  id: StateChanged
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: StateChanged
+  nameWithType: Connection.StateChanged
+  fullName: TradingPlatform.BusinessLayer.Connection.StateChanged
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: StateChanged
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 73
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event EventHandler<ConnectionStateChangedEventArgs> StateChanged
+    return:
+      type: System.EventHandler{TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs}
+    content.vb: Public Event StateChanged As EventHandler(Of ConnectionStateChangedEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.PingTime
+  commentId: P:TradingPlatform.BusinessLayer.Connection.PingTime
+  id: PingTime
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: PingTime
+  nameWithType: Connection.PingTime
+  fullName: TradingPlatform.BusinessLayer.Connection.PingTime
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: PingTime
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 77
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public TimeSpan PingTime { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property PingTime As TimeSpan
+  overload: TradingPlatform.BusinessLayer.Connection.PingTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.HistoryMetaData
+  commentId: P:TradingPlatform.BusinessLayer.Connection.HistoryMetaData
+  id: HistoryMetaData
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: HistoryMetaData
+  nameWithType: Connection.HistoryMetaData
+  fullName: TradingPlatform.BusinessLayer.Connection.HistoryMetaData
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: HistoryMetaData
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 79
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public HistoryMetadata HistoryMetaData { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+    content.vb: Public ReadOnly Property HistoryMetaData As HistoryMetadata
+  overload: TradingPlatform.BusinessLayer.Connection.HistoryMetaData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Assets
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Assets
+  id: Assets
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Assets
+  nameWithType: Connection.Assets
+  fullName: TradingPlatform.BusinessLayer.Connection.Assets
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Assets
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 87
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Asset[] Assets { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Asset[]
+    content.vb: Public ReadOnly Property Assets As Asset()
+  overload: TradingPlatform.BusinessLayer.Connection.Assets*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Accounts
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Accounts
+  id: Accounts
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Accounts
+  nameWithType: Connection.Accounts
+  fullName: TradingPlatform.BusinessLayer.Connection.Accounts
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Accounts
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 89
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Account[] Accounts { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Account[]
+    content.vb: Public ReadOnly Property Accounts As Account()
+  overload: TradingPlatform.BusinessLayer.Connection.Accounts*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Instruments
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Instruments
+  id: Instruments
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Instruments
+  nameWithType: Connection.Instruments
+  fullName: TradingPlatform.BusinessLayer.Connection.Instruments
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Instruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument[] Instruments { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument[]
+    content.vb: Public ReadOnly Property Instruments As Instrument()
+  overload: TradingPlatform.BusinessLayer.Connection.Instruments*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.InstrumentTypes
+  commentId: P:TradingPlatform.BusinessLayer.Connection.InstrumentTypes
+  id: InstrumentTypes
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: InstrumentTypes
+  nameWithType: Connection.InstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Connection.InstrumentTypes
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: InstrumentTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 93
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public InstrumentType[] InstrumentTypes { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.InstrumentType[]
+    content.vb: Public ReadOnly Property InstrumentTypes As InstrumentType()
+  overload: TradingPlatform.BusinessLayer.Connection.InstrumentTypes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Exchanges
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Exchanges
+  id: Exchanges
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Exchanges
+  nameWithType: Connection.Exchanges
+  fullName: TradingPlatform.BusinessLayer.Connection.Exchanges
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Exchanges
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 95
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Exchange[] Exchanges { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Exchange[]
+    content.vb: Public ReadOnly Property Exchanges As Exchange()
+  overload: TradingPlatform.BusinessLayer.Connection.Exchanges*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Orders
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Orders
+  id: Orders
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Orders
+  nameWithType: Connection.Orders
+  fullName: TradingPlatform.BusinessLayer.Connection.Orders
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Orders
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 97
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Order[] Orders { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Order[]
+    content.vb: Public ReadOnly Property Orders As Order()
+  overload: TradingPlatform.BusinessLayer.Connection.Orders*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.OrdersHistory
+  commentId: P:TradingPlatform.BusinessLayer.Connection.OrdersHistory
+  id: OrdersHistory
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: OrdersHistory
+  nameWithType: Connection.OrdersHistory
+  fullName: TradingPlatform.BusinessLayer.Connection.OrdersHistory
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: OrdersHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 99
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public OrderHistory[] OrdersHistory { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OrderHistory[]
+    content.vb: Public ReadOnly Property OrdersHistory As OrderHistory()
+  overload: TradingPlatform.BusinessLayer.Connection.OrdersHistory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Positions
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Positions
+  id: Positions
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Positions
+  nameWithType: Connection.Positions
+  fullName: TradingPlatform.BusinessLayer.Connection.Positions
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Positions
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 101
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Position[] Positions { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Position[]
+    content.vb: Public ReadOnly Property Positions As Position()
+  overload: TradingPlatform.BusinessLayer.Connection.Positions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Trades
+  commentId: P:TradingPlatform.BusinessLayer.Connection.Trades
+  id: Trades
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Trades
+  nameWithType: Connection.Trades
+  fullName: TradingPlatform.BusinessLayer.Connection.Trades
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Trades
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 103
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Trade[] Trades { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Trade[]
+    content.vb: Public ReadOnly Property Trades As Trade()
+  overload: TradingPlatform.BusinessLayer.Connection.Trades*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.OrderTypes
+  commentId: P:TradingPlatform.BusinessLayer.Connection.OrderTypes
+  id: OrderTypes
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: OrderTypes
+  nameWithType: Connection.OrderTypes
+  fullName: TradingPlatform.BusinessLayer.Connection.OrderTypes
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: OrderTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 105
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public OrderType[] OrderTypes { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.OrderType[]
+    content.vb: Public ReadOnly Property OrderTypes As OrderType()
+  overload: TradingPlatform.BusinessLayer.Connection.OrderTypes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.ReportTypes
+  commentId: P:TradingPlatform.BusinessLayer.Connection.ReportTypes
+  id: ReportTypes
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: ReportTypes
+  nameWithType: Connection.ReportTypes
+  fullName: TradingPlatform.BusinessLayer.Connection.ReportTypes
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: ReportTypes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 107
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ReportType[] ReportTypes { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.ReportType[]
+    content.vb: Public ReadOnly Property ReportTypes As ReportType()
+  overload: TradingPlatform.BusinessLayer.Connection.ReportTypes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.DealTickets
+  commentId: P:TradingPlatform.BusinessLayer.Connection.DealTickets
+  id: DealTickets
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: DealTickets
+  nameWithType: Connection.DealTickets
+  fullName: TradingPlatform.BusinessLayer.Connection.DealTickets
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: DealTickets
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 120
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public DealTicket[] DealTickets { get; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.DealTicket[]
+    content.vb: Public ReadOnly Property DealTickets As DealTicket()
+  overload: TradingPlatform.BusinessLayer.Connection.DealTickets*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TradingPlatform.BusinessLayer.Connection.Connect
+  commentId: M:TradingPlatform.BusinessLayer.Connection.Connect
+  id: Connect
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Connect()
+  nameWithType: Connection.Connect()
+  fullName: TradingPlatform.BusinessLayer.Connection.Connect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Connect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 140
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public ConnectionResult Connect()
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+    content.vb: Public Function Connect As ConnectionResult
+  overload: TradingPlatform.BusinessLayer.Connection.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.Disconnect
+  commentId: M:TradingPlatform.BusinessLayer.Connection.Disconnect
+  id: Disconnect
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: Connection.Disconnect()
+  fullName: TradingPlatform.BusinessLayer.Connection.Disconnect()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: Disconnect
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 347
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nDisconect method summary\n"
+  example: []
+  syntax:
+    content: public void Disconnect()
+    content.vb: Public Sub Disconnect
+  overload: TradingPlatform.BusinessLayer.Connection.Disconnect*
+  seealso:
+  - linkId: TradingPlatform.BusinessLayer.Report
+    commentId: T:TradingPlatform.BusinessLayer.Report
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.GetInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters,TradingPlatform.BusinessLayer.NonFixedListDownload)
+  commentId: M:TradingPlatform.BusinessLayer.Connection.GetInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters,TradingPlatform.BusinessLayer.NonFixedListDownload)
+  id: GetInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters,TradingPlatform.BusinessLayer.NonFixedListDownload)
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: GetInstrument(GetInstrumentRequestParameters, NonFixedListDownload)
+  nameWithType: Connection.GetInstrument(GetInstrumentRequestParameters, NonFixedListDownload)
+  fullName: TradingPlatform.BusinessLayer.Connection.GetInstrument(TradingPlatform.BusinessLayer.GetInstrumentRequestParameters, TradingPlatform.BusinessLayer.NonFixedListDownload)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: GetInstrument
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 582
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Instrument GetInstrument(GetInstrumentRequestParameters parameters, NonFixedListDownload downloadInstrument = NonFixedListDownload.Download)
+    parameters:
+    - id: parameters
+      type: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+    - id: downloadInstrument
+      type: TradingPlatform.BusinessLayer.NonFixedListDownload
+    return:
+      type: TradingPlatform.BusinessLayer.Instrument
+    content.vb: Public Function GetInstrument(parameters As GetInstrumentRequestParameters, downloadInstrument As NonFixedListDownload = NonFixedListDownload.Download) As Instrument
+  overload: TradingPlatform.BusinessLayer.Connection.GetInstrument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Connection.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  id: SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: SearchInstruments(SearchInstrumentsRequestParameters)
+  nameWithType: Connection.SearchInstruments(SearchInstrumentsRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Connection.SearchInstruments(TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: SearchInstruments
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 648
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public IList<Instrument> SearchInstruments(SearchInstrumentsRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+    return:
+      type: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument}
+    content.vb: Public Function SearchInstruments(requestParameters As SearchInstrumentsRequestParameters) As IList(Of Instrument)
+  overload: TradingPlatform.BusinessLayer.Connection.SearchInstruments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.GetReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  commentId: M:TradingPlatform.BusinessLayer.Connection.GetReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  id: GetReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: GetReport(ReportRequestParameters)
+  nameWithType: Connection.GetReport(ReportRequestParameters)
+  fullName: TradingPlatform.BusinessLayer.Connection.GetReport(TradingPlatform.BusinessLayer.ReportRequestParameters)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: GetReport
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 706
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public Report GetReport(ReportRequestParameters requestParameters)
+    parameters:
+    - id: requestParameters
+      type: TradingPlatform.BusinessLayer.ReportRequestParameters
+    return:
+      type: TradingPlatform.BusinessLayer.Report
+    content.vb: Public Function GetReport(requestParameters As ReportRequestParameters) As Report
+  overload: TradingPlatform.BusinessLayer.Connection.GetReport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Connection.GetAllRules
+  commentId: M:TradingPlatform.BusinessLayer.Connection.GetAllRules
+  id: GetAllRules
+  parent: TradingPlatform.BusinessLayer.Connection
+  langs:
+  - csharp
+  - vb
+  name: GetAllRules()
+  nameWithType: Connection.GetAllRules()
+  fullName: TradingPlatform.BusinessLayer.Connection.GetAllRules()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    id: GetAllRules
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Connection/Connection.cs
+    startLine: 994
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public List<Rule> GetAllRules()
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Rule}
+    content.vb: Public Function GetAllRules As List(Of Rule)
+  overload: TradingPlatform.BusinessLayer.Connection.GetAllRules*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TradingPlatform.BusinessLayer.ICustomizable
+  commentId: T:TradingPlatform.BusinessLayer.ICustomizable
+  parent: TradingPlatform.BusinessLayer
+  name: ICustomizable
+  nameWithType: ICustomizable
+  fullName: TradingPlatform.BusinessLayer.ICustomizable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Connection.Id*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Id
+  name: Id
+  nameWithType: Connection.Id
+  fullName: TradingPlatform.BusinessLayer.Connection.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Connection.Name*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Name
+  name: Name
+  nameWithType: Connection.Name
+  fullName: TradingPlatform.BusinessLayer.Connection.Name
+- uid: TradingPlatform.BusinessLayer.Connection.VendorName*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.VendorName
+  name: VendorName
+  nameWithType: Connection.VendorName
+  fullName: TradingPlatform.BusinessLayer.Connection.VendorName
+- uid: TradingPlatform.BusinessLayer.Connection.Settings*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Settings
+  name: Settings
+  nameWithType: Connection.Settings
+  fullName: TradingPlatform.BusinessLayer.Connection.Settings
+- uid: TradingPlatform.BusinessLayer.ICustomizable.Settings
+  commentId: P:TradingPlatform.BusinessLayer.ICustomizable.Settings
+  parent: TradingPlatform.BusinessLayer.ICustomizable
+  name: Settings
+  nameWithType: ICustomizable.Settings
+  fullName: TradingPlatform.BusinessLayer.ICustomizable.Settings
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.SettingItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SettingItem>
+  nameWithType: IList<SettingItem>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.SettingItem>
+  nameWithType.vb: IList(Of SettingItem)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.SettingItem)
+  name.vb: IList(Of SettingItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.SettingItem
+    name: SettingItem
+    nameWithType: SettingItem
+    fullName: TradingPlatform.BusinessLayer.SettingItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.Connection.State*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.State
+  name: State
+  nameWithType: Connection.State
+  fullName: TradingPlatform.BusinessLayer.Connection.State
+- uid: TradingPlatform.BusinessLayer.ConnectionState
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionState
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionState
+  nameWithType: ConnectionState
+  fullName: TradingPlatform.BusinessLayer.ConnectionState
+- uid: TradingPlatform.BusinessLayer.Connection.UserType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.UserType
+  name: UserType
+  nameWithType: Connection.UserType
+  fullName: TradingPlatform.BusinessLayer.Connection.UserType
+- uid: TradingPlatform.BusinessLayer.ConnectionUserType
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionUserType
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionUserType
+  nameWithType: ConnectionUserType
+  fullName: TradingPlatform.BusinessLayer.ConnectionUserType
+- uid: TradingPlatform.BusinessLayer.Connection.Type*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Type
+  name: Type
+  nameWithType: Connection.Type
+  fullName: TradingPlatform.BusinessLayer.Connection.Type
+- uid: TradingPlatform.BusinessLayer.ConnectionType
+  commentId: T:TradingPlatform.BusinessLayer.ConnectionType
+  parent: TradingPlatform.BusinessLayer
+  name: ConnectionType
+  nameWithType: ConnectionType
+  fullName: TradingPlatform.BusinessLayer.ConnectionType
+- uid: System.EventHandler{TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs}
+  commentId: T:System.EventHandler{TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ConnectionStateChangedEventArgs>
+  nameWithType: EventHandler<ConnectionStateChangedEventArgs>
+  fullName: System.EventHandler<TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs>
+  nameWithType.vb: EventHandler(Of ConnectionStateChangedEventArgs)
+  fullName.vb: System.EventHandler(Of TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs)
+  name.vb: EventHandler(Of ConnectionStateChangedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+    name: ConnectionStateChangedEventArgs
+    nameWithType: ConnectionStateChangedEventArgs
+    fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+    name: ConnectionStateChangedEventArgs
+    nameWithType: ConnectionStateChangedEventArgs
+    fullName: TradingPlatform.BusinessLayer.ConnectionStateChangedEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Connection.PingTime*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.PingTime
+  name: PingTime
+  nameWithType: Connection.PingTime
+  fullName: TradingPlatform.BusinessLayer.Connection.PingTime
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: TradingPlatform.BusinessLayer.Connection.HistoryMetaData*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.HistoryMetaData
+  name: HistoryMetaData
+  nameWithType: Connection.HistoryMetaData
+  fullName: TradingPlatform.BusinessLayer.Connection.HistoryMetaData
+- uid: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+  commentId: T:TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: HistoryMetadata
+  nameWithType: HistoryMetadata
+  fullName: TradingPlatform.BusinessLayer.Integration.HistoryMetadata
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: TradingPlatform.BusinessLayer.Connection.Assets*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Assets
+  name: Assets
+  nameWithType: Connection.Assets
+  fullName: TradingPlatform.BusinessLayer.Connection.Assets
+- uid: TradingPlatform.BusinessLayer.Asset[]
+  isExternal: true
+  name: Asset[]
+  nameWithType: Asset[]
+  fullName: TradingPlatform.BusinessLayer.Asset[]
+  nameWithType.vb: Asset()
+  fullName.vb: TradingPlatform.BusinessLayer.Asset()
+  name.vb: Asset()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Asset
+    name: Asset
+    nameWithType: Asset
+    fullName: TradingPlatform.BusinessLayer.Asset
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Asset
+    name: Asset
+    nameWithType: Asset
+    fullName: TradingPlatform.BusinessLayer.Asset
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Accounts*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Accounts
+  name: Accounts
+  nameWithType: Connection.Accounts
+  fullName: TradingPlatform.BusinessLayer.Connection.Accounts
+- uid: TradingPlatform.BusinessLayer.Account[]
+  isExternal: true
+  name: Account[]
+  nameWithType: Account[]
+  fullName: TradingPlatform.BusinessLayer.Account[]
+  nameWithType.vb: Account()
+  fullName.vb: TradingPlatform.BusinessLayer.Account()
+  name.vb: Account()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Account
+    name: Account
+    nameWithType: Account
+    fullName: TradingPlatform.BusinessLayer.Account
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Instruments*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Instruments
+  name: Instruments
+  nameWithType: Connection.Instruments
+  fullName: TradingPlatform.BusinessLayer.Connection.Instruments
+- uid: TradingPlatform.BusinessLayer.Instrument[]
+  isExternal: true
+  name: Instrument[]
+  nameWithType: Instrument[]
+  fullName: TradingPlatform.BusinessLayer.Instrument[]
+  nameWithType.vb: Instrument()
+  fullName.vb: TradingPlatform.BusinessLayer.Instrument()
+  name.vb: Instrument()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.InstrumentTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.InstrumentTypes
+  name: InstrumentTypes
+  nameWithType: Connection.InstrumentTypes
+  fullName: TradingPlatform.BusinessLayer.Connection.InstrumentTypes
+- uid: TradingPlatform.BusinessLayer.InstrumentType[]
+  isExternal: true
+  name: InstrumentType[]
+  nameWithType: InstrumentType[]
+  fullName: TradingPlatform.BusinessLayer.InstrumentType[]
+  nameWithType.vb: InstrumentType()
+  fullName.vb: TradingPlatform.BusinessLayer.InstrumentType()
+  name.vb: InstrumentType()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.InstrumentType
+    name: InstrumentType
+    nameWithType: InstrumentType
+    fullName: TradingPlatform.BusinessLayer.InstrumentType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.InstrumentType
+    name: InstrumentType
+    nameWithType: InstrumentType
+    fullName: TradingPlatform.BusinessLayer.InstrumentType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Exchanges*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Exchanges
+  name: Exchanges
+  nameWithType: Connection.Exchanges
+  fullName: TradingPlatform.BusinessLayer.Connection.Exchanges
+- uid: TradingPlatform.BusinessLayer.Exchange[]
+  isExternal: true
+  name: Exchange[]
+  nameWithType: Exchange[]
+  fullName: TradingPlatform.BusinessLayer.Exchange[]
+  nameWithType.vb: Exchange()
+  fullName.vb: TradingPlatform.BusinessLayer.Exchange()
+  name.vb: Exchange()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Exchange
+    name: Exchange
+    nameWithType: Exchange
+    fullName: TradingPlatform.BusinessLayer.Exchange
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Exchange
+    name: Exchange
+    nameWithType: Exchange
+    fullName: TradingPlatform.BusinessLayer.Exchange
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Orders*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Orders
+  name: Orders
+  nameWithType: Connection.Orders
+  fullName: TradingPlatform.BusinessLayer.Connection.Orders
+- uid: TradingPlatform.BusinessLayer.Order[]
+  isExternal: true
+  name: Order[]
+  nameWithType: Order[]
+  fullName: TradingPlatform.BusinessLayer.Order[]
+  nameWithType.vb: Order()
+  fullName.vb: TradingPlatform.BusinessLayer.Order()
+  name.vb: Order()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Order
+    name: Order
+    nameWithType: Order
+    fullName: TradingPlatform.BusinessLayer.Order
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Order
+    name: Order
+    nameWithType: Order
+    fullName: TradingPlatform.BusinessLayer.Order
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.OrdersHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.OrdersHistory
+  name: OrdersHistory
+  nameWithType: Connection.OrdersHistory
+  fullName: TradingPlatform.BusinessLayer.Connection.OrdersHistory
+- uid: TradingPlatform.BusinessLayer.OrderHistory[]
+  isExternal: true
+  name: OrderHistory[]
+  nameWithType: OrderHistory[]
+  fullName: TradingPlatform.BusinessLayer.OrderHistory[]
+  nameWithType.vb: OrderHistory()
+  fullName.vb: TradingPlatform.BusinessLayer.OrderHistory()
+  name.vb: OrderHistory()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderHistory
+    name: OrderHistory
+    nameWithType: OrderHistory
+    fullName: TradingPlatform.BusinessLayer.OrderHistory
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderHistory
+    name: OrderHistory
+    nameWithType: OrderHistory
+    fullName: TradingPlatform.BusinessLayer.OrderHistory
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Positions*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Positions
+  name: Positions
+  nameWithType: Connection.Positions
+  fullName: TradingPlatform.BusinessLayer.Connection.Positions
+- uid: TradingPlatform.BusinessLayer.Position[]
+  isExternal: true
+  name: Position[]
+  nameWithType: Position[]
+  fullName: TradingPlatform.BusinessLayer.Position[]
+  nameWithType.vb: Position()
+  fullName.vb: TradingPlatform.BusinessLayer.Position()
+  name.vb: Position()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Position
+    name: Position
+    nameWithType: Position
+    fullName: TradingPlatform.BusinessLayer.Position
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Position
+    name: Position
+    nameWithType: Position
+    fullName: TradingPlatform.BusinessLayer.Position
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Trades*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Trades
+  name: Trades
+  nameWithType: Connection.Trades
+  fullName: TradingPlatform.BusinessLayer.Connection.Trades
+- uid: TradingPlatform.BusinessLayer.Trade[]
+  isExternal: true
+  name: Trade[]
+  nameWithType: Trade[]
+  fullName: TradingPlatform.BusinessLayer.Trade[]
+  nameWithType.vb: Trade()
+  fullName.vb: TradingPlatform.BusinessLayer.Trade()
+  name.vb: Trade()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Trade
+    name: Trade
+    nameWithType: Trade
+    fullName: TradingPlatform.BusinessLayer.Trade
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Trade
+    name: Trade
+    nameWithType: Trade
+    fullName: TradingPlatform.BusinessLayer.Trade
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.OrderTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.OrderTypes
+  name: OrderTypes
+  nameWithType: Connection.OrderTypes
+  fullName: TradingPlatform.BusinessLayer.Connection.OrderTypes
+- uid: TradingPlatform.BusinessLayer.OrderType[]
+  isExternal: true
+  name: OrderType[]
+  nameWithType: OrderType[]
+  fullName: TradingPlatform.BusinessLayer.OrderType[]
+  nameWithType.vb: OrderType()
+  fullName.vb: TradingPlatform.BusinessLayer.OrderType()
+  name.vb: OrderType()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+    nameWithType: OrderType
+    fullName: TradingPlatform.BusinessLayer.OrderType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.OrderType
+    name: OrderType
+    nameWithType: OrderType
+    fullName: TradingPlatform.BusinessLayer.OrderType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.ReportTypes*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.ReportTypes
+  name: ReportTypes
+  nameWithType: Connection.ReportTypes
+  fullName: TradingPlatform.BusinessLayer.Connection.ReportTypes
+- uid: TradingPlatform.BusinessLayer.ReportType[]
+  isExternal: true
+  name: ReportType[]
+  nameWithType: ReportType[]
+  fullName: TradingPlatform.BusinessLayer.ReportType[]
+  nameWithType.vb: ReportType()
+  fullName.vb: TradingPlatform.BusinessLayer.ReportType()
+  name.vb: ReportType()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.ReportType
+    name: ReportType
+    nameWithType: ReportType
+    fullName: TradingPlatform.BusinessLayer.ReportType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.ReportType
+    name: ReportType
+    nameWithType: ReportType
+    fullName: TradingPlatform.BusinessLayer.ReportType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.DealTickets*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.DealTickets
+  name: DealTickets
+  nameWithType: Connection.DealTickets
+  fullName: TradingPlatform.BusinessLayer.Connection.DealTickets
+- uid: TradingPlatform.BusinessLayer.DealTicket[]
+  isExternal: true
+  name: DealTicket[]
+  nameWithType: DealTicket[]
+  fullName: TradingPlatform.BusinessLayer.DealTicket[]
+  nameWithType.vb: DealTicket()
+  fullName.vb: TradingPlatform.BusinessLayer.DealTicket()
+  name.vb: DealTicket()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.DealTicket
+    name: DealTicket
+    nameWithType: DealTicket
+    fullName: TradingPlatform.BusinessLayer.DealTicket
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.DealTicket
+    name: DealTicket
+    nameWithType: DealTicket
+    fullName: TradingPlatform.BusinessLayer.DealTicket
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TradingPlatform.BusinessLayer.Connection.Connect*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Connect
+  name: Connect
+  nameWithType: Connection.Connect
+  fullName: TradingPlatform.BusinessLayer.Connection.Connect
+- uid: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  commentId: T:TradingPlatform.BusinessLayer.Integration.ConnectionResult
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: ConnectionResult
+  nameWithType: ConnectionResult
+  fullName: TradingPlatform.BusinessLayer.Integration.ConnectionResult
+- uid: TradingPlatform.BusinessLayer.Report
+  commentId: T:TradingPlatform.BusinessLayer.Report
+  parent: TradingPlatform.BusinessLayer
+  name: Report
+  nameWithType: Report
+  fullName: TradingPlatform.BusinessLayer.Report
+- uid: TradingPlatform.BusinessLayer.Connection.Disconnect*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.Disconnect
+  name: Disconnect
+  nameWithType: Connection.Disconnect
+  fullName: TradingPlatform.BusinessLayer.Connection.Disconnect
+- uid: TradingPlatform.BusinessLayer.Connection.GetInstrument*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.GetInstrument
+  name: GetInstrument
+  nameWithType: Connection.GetInstrument
+  fullName: TradingPlatform.BusinessLayer.Connection.GetInstrument
+- uid: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: GetInstrumentRequestParameters
+  nameWithType: GetInstrumentRequestParameters
+  fullName: TradingPlatform.BusinessLayer.GetInstrumentRequestParameters
+- uid: TradingPlatform.BusinessLayer.NonFixedListDownload
+  commentId: T:TradingPlatform.BusinessLayer.NonFixedListDownload
+  parent: TradingPlatform.BusinessLayer
+  name: NonFixedListDownload
+  nameWithType: NonFixedListDownload
+  fullName: TradingPlatform.BusinessLayer.NonFixedListDownload
+- uid: TradingPlatform.BusinessLayer.Instrument
+  commentId: T:TradingPlatform.BusinessLayer.Instrument
+  parent: TradingPlatform.BusinessLayer
+  name: Instrument
+  nameWithType: Instrument
+  fullName: TradingPlatform.BusinessLayer.Instrument
+- uid: TradingPlatform.BusinessLayer.Connection.SearchInstruments*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.SearchInstruments
+  name: SearchInstruments
+  nameWithType: Connection.SearchInstruments
+  fullName: TradingPlatform.BusinessLayer.Connection.SearchInstruments
+- uid: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: SearchInstrumentsRequestParameters
+  nameWithType: SearchInstrumentsRequestParameters
+  fullName: TradingPlatform.BusinessLayer.SearchInstrumentsRequestParameters
+- uid: System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument}
+  commentId: T:System.Collections.Generic.IList{TradingPlatform.BusinessLayer.Instrument}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Instrument>
+  nameWithType: IList<Instrument>
+  fullName: System.Collections.Generic.IList<TradingPlatform.BusinessLayer.Instrument>
+  nameWithType.vb: IList(Of Instrument)
+  fullName.vb: System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.Instrument)
+  name.vb: IList(Of Instrument)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Instrument
+    name: Instrument
+    nameWithType: Instrument
+    fullName: TradingPlatform.BusinessLayer.Instrument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Connection.GetReport*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.GetReport
+  name: GetReport
+  nameWithType: Connection.GetReport
+  fullName: TradingPlatform.BusinessLayer.Connection.GetReport
+- uid: TradingPlatform.BusinessLayer.ReportRequestParameters
+  commentId: T:TradingPlatform.BusinessLayer.ReportRequestParameters
+  parent: TradingPlatform.BusinessLayer
+  name: ReportRequestParameters
+  nameWithType: ReportRequestParameters
+  fullName: TradingPlatform.BusinessLayer.ReportRequestParameters
+- uid: TradingPlatform.BusinessLayer.Connection.GetAllRules*
+  commentId: Overload:TradingPlatform.BusinessLayer.Connection.GetAllRules
+  name: GetAllRules
+  nameWithType: Connection.GetAllRules
+  fullName: TradingPlatform.BusinessLayer.Connection.GetAllRules
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.Rule}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.Rule}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Rule>
+  nameWithType: List<Rule>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.Rule>
+  nameWithType.vb: List(Of Rule)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.Rule)
+  name.vb: List(Of Rule)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.Rule
+    name: Rule
+    nameWithType: Rule
+    fullName: TradingPlatform.BusinessLayer.Rule
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.Rule
+    name: Rule
+    nameWithType: Rule
+    fullName: TradingPlatform.BusinessLayer.Rule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

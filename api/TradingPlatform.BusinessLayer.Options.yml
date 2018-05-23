@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Options
+  commentId: N:TradingPlatform.BusinessLayer.Options
+  id: TradingPlatform.BusinessLayer.Options
+  children:
+  - TradingPlatform.BusinessLayer.Options.BlackScholesPriceModel
+  - TradingPlatform.BusinessLayer.Options.OptionMath
+  - TradingPlatform.BusinessLayer.Options.OptionPriceType
+  - TradingPlatform.BusinessLayer.Options.PriceModel
+  - TradingPlatform.BusinessLayer.Options.PriceModels
+  langs:
+  - csharp
+  - vb
+  name: TradingPlatform.BusinessLayer.Options
+  nameWithType: TradingPlatform.BusinessLayer.Options
+  fullName: TradingPlatform.BusinessLayer.Options
+  type: Namespace
+  assemblies:
+  - TradingPlatform.BusinessLayer
+references:
+- uid: TradingPlatform.BusinessLayer.Options.BlackScholesPriceModel
+  commentId: T:TradingPlatform.BusinessLayer.Options.BlackScholesPriceModel
+  name: BlackScholesPriceModel
+  nameWithType: BlackScholesPriceModel
+  fullName: TradingPlatform.BusinessLayer.Options.BlackScholesPriceModel
+- uid: TradingPlatform.BusinessLayer.Options.OptionMath
+  commentId: T:TradingPlatform.BusinessLayer.Options.OptionMath
+  name: OptionMath
+  nameWithType: OptionMath
+  fullName: TradingPlatform.BusinessLayer.Options.OptionMath
+- uid: TradingPlatform.BusinessLayer.Options.PriceModels
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModels
+  parent: TradingPlatform.BusinessLayer.Options
+  name: PriceModels
+  nameWithType: PriceModels
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModels
+- uid: TradingPlatform.BusinessLayer.Options.OptionPriceType
+  commentId: T:TradingPlatform.BusinessLayer.Options.OptionPriceType
+  parent: TradingPlatform.BusinessLayer.Options
+  name: OptionPriceType
+  nameWithType: OptionPriceType
+  fullName: TradingPlatform.BusinessLayer.Options.OptionPriceType
+- uid: TradingPlatform.BusinessLayer.Options.PriceModel
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModel
+  parent: TradingPlatform.BusinessLayer.Options
+  name: PriceModel
+  nameWithType: PriceModel
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModel
+- uid: TradingPlatform.BusinessLayer.Options
+  commentId: N:TradingPlatform.BusinessLayer.Options
+  name: TradingPlatform.BusinessLayer.Options
+  nameWithType: TradingPlatform.BusinessLayer.Options
+  fullName: TradingPlatform.BusinessLayer.Options

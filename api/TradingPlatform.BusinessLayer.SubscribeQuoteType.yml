@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  commentId: T:TradingPlatform.BusinessLayer.SubscribeQuoteType
+  id: SubscribeQuoteType
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.SubscribeQuoteType.Last
+  - TradingPlatform.BusinessLayer.SubscribeQuoteType.Level2
+  - TradingPlatform.BusinessLayer.SubscribeQuoteType.Quote
+  langs:
+  - csharp
+  - vb
+  name: SubscribeQuoteType
+  nameWithType: SubscribeQuoteType
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: SubscribeQuoteType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 31
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nQuote type for subscribtion dictum\n"
+  example: []
+  syntax:
+    content: public enum SubscribeQuoteType
+    content.vb: Public Enum SubscribeQuoteType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.SubscribeQuoteType.Quote
+  commentId: F:TradingPlatform.BusinessLayer.SubscribeQuoteType.Quote
+  id: Quote
+  parent: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: SubscribeQuoteType.Quote
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType.Quote
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Quote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 36
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nLevel 1 quote\n"
+  example: []
+  syntax:
+    content: Quote = 0
+    return:
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SubscribeQuoteType.Level2
+  commentId: F:TradingPlatform.BusinessLayer.SubscribeQuoteType.Level2
+  id: Level2
+  parent: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  langs:
+  - csharp
+  - vb
+  name: Level2
+  nameWithType: SubscribeQuoteType.Level2
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType.Level2
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Level2
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nLevel 2 quote\n"
+  example: []
+  syntax:
+    content: Level2 = 1
+    return:
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.SubscribeQuoteType.Last
+  commentId: F:TradingPlatform.BusinessLayer.SubscribeQuoteType.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: SubscribeQuoteType.Last
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType.Last
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 44
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nLast\n"
+  example: []
+  syntax:
+    content: Last = 2
+    return:
+      type: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.SubscribeQuoteType
+  commentId: T:TradingPlatform.BusinessLayer.SubscribeQuoteType
+  parent: TradingPlatform.BusinessLayer
+  name: SubscribeQuoteType
+  nameWithType: SubscribeQuoteType
+  fullName: TradingPlatform.BusinessLayer.SubscribeQuoteType

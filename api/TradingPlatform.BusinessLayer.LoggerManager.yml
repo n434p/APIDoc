@@ -1,0 +1,894 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.LoggerManager
+  commentId: T:TradingPlatform.BusinessLayer.LoggerManager
+  id: LoggerManager
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.LoggerManager.#ctor
+  - TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel
+  - TradingPlatform.BusinessLayer.LoggerManager.GetHistory(System.DateTime,System.DateTime)
+  - TradingPlatform.BusinessLayer.LoggerManager.Log(System.Exception,System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  - TradingPlatform.BusinessLayer.LoggerManager.Log(System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  - TradingPlatform.BusinessLayer.LoggerManager.Log(TradingPlatform.BusinessLayer.ILoggable,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  - TradingPlatform.BusinessLayer.LoggerManager.NewLog
+  - TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel(System.Collections.Generic.List{System.String})
+  langs:
+  - csharp
+  - vb
+  name: LoggerManager
+  nameWithType: LoggerManager
+  fullName: TradingPlatform.BusinessLayer.LoggerManager
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: LoggerManager
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public class LoggerManager
+    content.vb: Public Class LoggerManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.LoggerManager.NewLog
+  commentId: E:TradingPlatform.BusinessLayer.LoggerManager.NewLog
+  id: NewLog
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: NewLog
+  nameWithType: LoggerManager.NewLog
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.NewLog
+  type: Event
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: NewLog
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public event Action<LoggerEvent> NewLog
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.LoggerEvent}
+    content.vb: Public Event NewLog As Action(Of LoggerEvent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LoggerManager.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.LoggerManager.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: LoggerManager()
+  nameWithType: LoggerManager.LoggerManager()
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.LoggerManager()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public LoggerManager()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.LoggerManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel
+  commentId: P:TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel
+  id: DefaultLogLevel
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: DefaultLogLevel
+  nameWithType: LoggerManager.DefaultLogLevel
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: DefaultLogLevel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nCurrent logging level\n"
+  example: []
+  syntax:
+    content: public LoggingLevel DefaultLogLevel { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    content.vb: Public Property DefaultLogLevel As LoggingLevel
+  overload: TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LoggerManager.Log(System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.LoggerManager.Log(System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: Log(String, LoggingLevel, String)
+  nameWithType: LoggerManager.Log(String, LoggingLevel, String)
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.Log(System.String, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: Log
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 47
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSets logs with custom messag, logging level, connection name \n"
+  example: []
+  syntax:
+    content: public void Log(string message, LoggingLevel loggingLevel = LoggingLevel.System, string connectionName = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: loggingLevel
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connectionName
+      type: System.String
+    content.vb: Public Sub Log(message As String, loggingLevel As LoggingLevel = LoggingLevel.System, connectionName As String = Nothing)
+  overload: TradingPlatform.BusinessLayer.LoggerManager.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LoggerManager.Log(System.Exception,System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.LoggerManager.Log(System.Exception,System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(System.Exception,System.String,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: Log(Exception, String, LoggingLevel, String)
+  nameWithType: LoggerManager.Log(Exception, String, LoggingLevel, String)
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.Log(System.Exception, System.String, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: Log
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 78
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSets logs with exception and custom message (optional), logging level, connection name \n"
+  example: []
+  syntax:
+    content: public void Log(Exception ex, string message = null, LoggingLevel loggingLevel = LoggingLevel.Error, string connectionName = null)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: message
+      type: System.String
+    - id: loggingLevel
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connectionName
+      type: System.String
+    content.vb: Public Sub Log(ex As Exception, message As String = Nothing, loggingLevel As LoggingLevel = LoggingLevel.Error, connectionName As String = Nothing)
+  overload: TradingPlatform.BusinessLayer.LoggerManager.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LoggerManager.Log(TradingPlatform.BusinessLayer.ILoggable,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  commentId: M:TradingPlatform.BusinessLayer.LoggerManager.Log(TradingPlatform.BusinessLayer.ILoggable,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  id: Log(TradingPlatform.BusinessLayer.ILoggable,TradingPlatform.BusinessLayer.LoggingLevel,System.String)
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: Log(ILoggable, LoggingLevel, String)
+  nameWithType: LoggerManager.Log(ILoggable, LoggingLevel, String)
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.Log(TradingPlatform.BusinessLayer.ILoggable, TradingPlatform.BusinessLayer.LoggingLevel, System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: Log
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 113
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSets logs with objects inherited from ILoggable interface,logging level, connection name \n"
+  example: []
+  syntax:
+    content: public void Log(ILoggable loggable, LoggingLevel loggingLevel = LoggingLevel.System, string connectionName = null)
+    parameters:
+    - id: loggable
+      type: TradingPlatform.BusinessLayer.ILoggable
+    - id: loggingLevel
+      type: TradingPlatform.BusinessLayer.LoggingLevel
+    - id: connectionName
+      type: System.String
+    content.vb: Public Sub Log(loggable As ILoggable, loggingLevel As LoggingLevel = LoggingLevel.System, connectionName As String = Nothing)
+  overload: TradingPlatform.BusinessLayer.LoggerManager.Log*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel(System.Collections.Generic.List{System.String})
+  commentId: M:TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel(System.Collections.Generic.List{System.String})
+  id: SetLogLevel(System.Collections.Generic.List{System.String})
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: SetLogLevel(List<String>)
+  nameWithType: LoggerManager.SetLogLevel(List<String>)
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel(System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: SetLogLevel
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 151
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nSets a log level in case of deep debug\n"
+  example: []
+  syntax:
+    content: public void SetLogLevel(List<string> args)
+    parameters:
+    - id: args
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Sub SetLogLevel(args As List(Of String))
+  overload: TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel*
+  nameWithType.vb: LoggerManager.SetLogLevel(List(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel(System.Collections.Generic.List(Of System.String))
+  name.vb: SetLogLevel(List(Of String))
+- uid: TradingPlatform.BusinessLayer.LoggerManager.GetHistory(System.DateTime,System.DateTime)
+  commentId: M:TradingPlatform.BusinessLayer.LoggerManager.GetHistory(System.DateTime,System.DateTime)
+  id: GetHistory(System.DateTime,System.DateTime)
+  parent: TradingPlatform.BusinessLayer.LoggerManager
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(DateTime, DateTime)
+  nameWithType: LoggerManager.GetHistory(DateTime, DateTime)
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.GetHistory(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    id: GetHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Logging/LoggerManager.cs
+    startLine: 173
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public List<LoggerEvent> GetHistory(DateTime from, DateTime to)
+    parameters:
+    - id: from
+      type: System.DateTime
+    - id: to
+      type: System.DateTime
+    return:
+      type: System.Collections.Generic.List{TradingPlatform.BusinessLayer.LoggerEvent}
+    content.vb: Public Function GetHistory(from As Date, to As Date) As List(Of LoggerEvent)
+  overload: TradingPlatform.BusinessLayer.LoggerManager.GetHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action{TradingPlatform.BusinessLayer.LoggerEvent}
+  commentId: T:System.Action{TradingPlatform.BusinessLayer.LoggerEvent}
+  parent: System
+  definition: System.Action`1
+  name: Action<LoggerEvent>
+  nameWithType: Action<LoggerEvent>
+  fullName: System.Action<TradingPlatform.BusinessLayer.LoggerEvent>
+  nameWithType.vb: Action(Of LoggerEvent)
+  fullName.vb: System.Action(Of TradingPlatform.BusinessLayer.LoggerEvent)
+  name.vb: Action(Of LoggerEvent)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+    nameWithType: LoggerEvent
+    fullName: TradingPlatform.BusinessLayer.LoggerEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+    nameWithType: LoggerEvent
+    fullName: TradingPlatform.BusinessLayer.LoggerEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.LoggerManager.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.LoggerManager.#ctor
+  name: LoggerManager
+  nameWithType: LoggerManager.LoggerManager
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.LoggerManager
+- uid: TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel*
+  commentId: Overload:TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel
+  name: DefaultLogLevel
+  nameWithType: LoggerManager.DefaultLogLevel
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.DefaultLogLevel
+- uid: TradingPlatform.BusinessLayer.LoggingLevel
+  commentId: T:TradingPlatform.BusinessLayer.LoggingLevel
+  parent: TradingPlatform.BusinessLayer
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: TradingPlatform.BusinessLayer.LoggingLevel
+- uid: TradingPlatform.BusinessLayer.LoggerManager.Log*
+  commentId: Overload:TradingPlatform.BusinessLayer.LoggerManager.Log
+  name: Log
+  nameWithType: LoggerManager.Log
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.Log
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: TradingPlatform.BusinessLayer.ILoggable
+  commentId: T:TradingPlatform.BusinessLayer.ILoggable
+  parent: TradingPlatform.BusinessLayer
+  name: ILoggable
+  nameWithType: ILoggable
+  fullName: TradingPlatform.BusinessLayer.ILoggable
+- uid: TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel*
+  commentId: Overload:TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel
+  name: SetLogLevel
+  nameWithType: LoggerManager.SetLogLevel
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.SetLogLevel
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: TradingPlatform.BusinessLayer.LoggerManager.GetHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.LoggerManager.GetHistory
+  name: GetHistory
+  nameWithType: LoggerManager.GetHistory
+  fullName: TradingPlatform.BusinessLayer.LoggerManager.GetHistory
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Collections.Generic.List{TradingPlatform.BusinessLayer.LoggerEvent}
+  commentId: T:System.Collections.Generic.List{TradingPlatform.BusinessLayer.LoggerEvent}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<LoggerEvent>
+  nameWithType: List<LoggerEvent>
+  fullName: System.Collections.Generic.List<TradingPlatform.BusinessLayer.LoggerEvent>
+  nameWithType.vb: List(Of LoggerEvent)
+  fullName.vb: System.Collections.Generic.List(Of TradingPlatform.BusinessLayer.LoggerEvent)
+  name.vb: List(Of LoggerEvent)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+    nameWithType: LoggerEvent
+    fullName: TradingPlatform.BusinessLayer.LoggerEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.LoggerEvent
+    name: LoggerEvent
+    nameWithType: LoggerEvent
+    fullName: TradingPlatform.BusinessLayer.LoggerEvent
+  - name: )
+    nameWithType: )
+    fullName: )

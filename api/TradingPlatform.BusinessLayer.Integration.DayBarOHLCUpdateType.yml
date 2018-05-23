@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  id: DayBarOHLCUpdateType
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Ask
+  - TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Bid
+  - TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.BidAskAverage
+  - TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Last
+  langs:
+  - csharp
+  - vb
+  name: DayBarOHLCUpdateType
+  nameWithType: DayBarOHLCUpdateType
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: DayBarOHLCUpdateType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public enum DayBarOHLCUpdateType
+    content.vb: Public Enum DayBarOHLCUpdateType
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Last
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Last
+  id: Last
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: DayBarOHLCUpdateType.Last
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Last
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: Last
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Last = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Bid
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Bid
+  id: Bid
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: DayBarOHLCUpdateType.Bid
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Bid
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: Bid
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Bid = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Ask
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Ask
+  id: Ask
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: DayBarOHLCUpdateType.Ask
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.Ask
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: Ask
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: Ask = 2
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.BidAskAverage
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.BidAskAverage
+  id: BidAskAverage
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  langs:
+  - csharp
+  - vb
+  name: BidAskAverage
+  nameWithType: DayBarOHLCUpdateType.BidAskAverage
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType.BidAskAverage
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: BidAskAverage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: BidAskAverage = 3
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: DayBarOHLCUpdateType
+  nameWithType: DayBarOHLCUpdateType
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType

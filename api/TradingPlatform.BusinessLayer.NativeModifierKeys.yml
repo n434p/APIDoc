@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys
+  commentId: T:TradingPlatform.BusinessLayer.NativeModifierKeys
+  id: NativeModifierKeys
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.NativeModifierKeys.Alt
+  - TradingPlatform.BusinessLayer.NativeModifierKeys.Control
+  - TradingPlatform.BusinessLayer.NativeModifierKeys.None
+  - TradingPlatform.BusinessLayer.NativeModifierKeys.Shift
+  langs:
+  - csharp
+  - vb
+  name: NativeModifierKeys
+  nameWithType: NativeModifierKeys
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: NativeModifierKeys
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 177
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum NativeModifierKeys
+    content.vb: >-
+      <Flags>
+
+      Public Enum NativeModifierKeys
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys.None
+  commentId: F:TradingPlatform.BusinessLayer.NativeModifierKeys.None
+  id: None
+  parent: TradingPlatform.BusinessLayer.NativeModifierKeys
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: NativeModifierKeys.None
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys.None
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: None
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 180
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: None = 0
+    return:
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys.Alt
+  commentId: F:TradingPlatform.BusinessLayer.NativeModifierKeys.Alt
+  id: Alt
+  parent: TradingPlatform.BusinessLayer.NativeModifierKeys
+  langs:
+  - csharp
+  - vb
+  name: Alt
+  nameWithType: NativeModifierKeys.Alt
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys.Alt
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Alt
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 181
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Alt = 1
+    return:
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys.Shift
+  commentId: F:TradingPlatform.BusinessLayer.NativeModifierKeys.Shift
+  id: Shift
+  parent: TradingPlatform.BusinessLayer.NativeModifierKeys
+  langs:
+  - csharp
+  - vb
+  name: Shift
+  nameWithType: NativeModifierKeys.Shift
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys.Shift
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Shift
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 182
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Shift = 2
+    return:
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys.Control
+  commentId: F:TradingPlatform.BusinessLayer.NativeModifierKeys.Control
+  id: Control
+  parent: TradingPlatform.BusinessLayer.NativeModifierKeys
+  langs:
+  - csharp
+  - vb
+  name: Control
+  nameWithType: NativeModifierKeys.Control
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys.Control
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    id: Control
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Enums.cs
+    startLine: 183
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: Control = 4
+    return:
+      type: TradingPlatform.BusinessLayer.NativeModifierKeys
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer.NativeModifierKeys
+  commentId: T:TradingPlatform.BusinessLayer.NativeModifierKeys
+  parent: TradingPlatform.BusinessLayer
+  name: NativeModifierKeys
+  nameWithType: NativeModifierKeys
+  fullName: TradingPlatform.BusinessLayer.NativeModifierKeys

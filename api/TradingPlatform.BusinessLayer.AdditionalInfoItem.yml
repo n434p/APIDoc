@@ -1,0 +1,784 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  commentId: T:TradingPlatform.BusinessLayer.AdditionalInfoItem
+  id: AdditionalInfoItem
+  parent: TradingPlatform.BusinessLayer
+  children:
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  - TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfoItem
+  nameWithType: AdditionalInfoItem
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: AdditionalInfoItem
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 7
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataContract(Name = "AdditionalInfoItem", Namespace = "TradingPlatform")]
+
+      public class AdditionalInfoItem
+    content.vb: >-
+      <DataContract(Name:="AdditionalInfoItem", Namespace:="TradingPlatform")>
+
+      Public Class AdditionalInfoItem
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TradingPlatform.BusinessLayer.AccountAdditionalInfoItem
+  - TradingPlatform.BusinessLayer.InstrumentAdditionalInfoItem
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: AdditionalInfoItem
+    - name: Namespace
+      type: System.String
+      value: TradingPlatform
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  id: GroupInfo
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: GroupInfo
+  nameWithType: AdditionalInfoItem.GroupInfo
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.GroupInfo
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: GroupInfo
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string GroupInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public GroupInfo As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  id: SortIndex
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: SortIndex
+  nameWithType: AdditionalInfoItem.SortIndex
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.SortIndex
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: SortIndex
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public int SortIndex
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public SortIndex As Integer
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  id: NameKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: NameKey
+  nameWithType: AdditionalInfoItem.NameKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.NameKey
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: NameKey
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string NameKey
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public NameKey As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  id: ToolTipKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: ToolTipKey
+  nameWithType: AdditionalInfoItem.ToolTipKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.ToolTipKey
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: ToolTipKey
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string ToolTipKey
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public ToolTipKey As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  id: DataType
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: AdditionalInfoItem.DataType
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.DataType
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: DataType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 19
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public ComparingType DataType
+    return:
+      type: TradingPlatform.BusinessLayer.ComparingType
+    content.vb: >-
+      <DataMember>
+
+      Public DataType As ComparingType
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  id: Value
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: AdditionalInfoItem.Value
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Value
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: Value
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 21
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public object Value
+    return:
+      type: System.Object
+    content.vb: >-
+      <DataMember>
+
+      Public Value As Object
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  id: Hidden
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: AdditionalInfoItem.Hidden
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Hidden
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: Hidden
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 23
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: >-
+      [DataMember]
+
+      public bool Hidden
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Hidden As Boolean
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  id: APIKey
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: APIKey
+  nameWithType: AdditionalInfoItem.APIKey
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.APIKey
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: APIKey
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  summary: "\nключ для апи, обязательно для заполнения и должен быть уникальным\n"
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public string APIKey
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public APIKey As String
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  commentId: F:TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  id: UseColor
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: UseColor
+  nameWithType: AdditionalInfoItem.UseColor
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.UseColor
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: UseColor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 30
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public bool UseColor
+    return:
+      type: System.Boolean
+    content.vb: Public UseColor As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  commentId: M:TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  id: Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  parent: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  langs:
+  - csharp
+  - vb
+  name: Update(AdditionalInfoItem)
+  nameWithType: AdditionalInfoItem.Update(AdditionalInfoItem)
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update(TradingPlatform.BusinessLayer.AdditionalInfoItem)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    id: Update
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/BusinessObjects/AdditionalInfo/AdditionalInfoItem.cs
+    startLine: 32
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer
+  syntax:
+    content: public virtual void Update(AdditionalInfoItem item)
+    parameters:
+    - id: item
+      type: TradingPlatform.BusinessLayer.AdditionalInfoItem
+    content.vb: Public Overridable Sub Update(item As AdditionalInfoItem)
+  overload: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.ComparingType
+  commentId: T:TradingPlatform.BusinessLayer.ComparingType
+  parent: TradingPlatform.BusinessLayer
+  name: ComparingType
+  nameWithType: ComparingType
+  fullName: TradingPlatform.BusinessLayer.ComparingType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update*
+  commentId: Overload:TradingPlatform.BusinessLayer.AdditionalInfoItem.Update
+  name: Update
+  nameWithType: AdditionalInfoItem.Update
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem.Update
+- uid: TradingPlatform.BusinessLayer.AdditionalInfoItem
+  commentId: T:TradingPlatform.BusinessLayer.AdditionalInfoItem
+  parent: TradingPlatform.BusinessLayer
+  name: AdditionalInfoItem
+  nameWithType: AdditionalInfoItem
+  fullName: TradingPlatform.BusinessLayer.AdditionalInfoItem

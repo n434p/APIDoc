@@ -1,0 +1,1104 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  commentId: T:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  id: DayBarMessageCreator
+  parent: TradingPlatform.BusinessLayer.Integration
+  children:
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.#ctor
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory(System.String,TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType)
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.GenerationThreadsCount
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.LoadHistory
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast(TradingPlatform.BusinessLayer.Last)
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote(TradingPlatform.BusinessLayer.Quote)
+  - TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.PushMessage
+  langs:
+  - csharp
+  - vb
+  name: DayBarMessageCreator
+  nameWithType: DayBarMessageCreator
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: DayBarMessageCreator
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: 'public class DayBarMessageCreator : IDisposable'
+    content.vb: >-
+      Public Class DayBarMessageCreator
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType
+  commentId: P:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType
+  id: OHLCUpdateType
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: OHLCUpdateType
+  nameWithType: DayBarMessageCreator.OHLCUpdateType
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: OHLCUpdateType
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 20
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public DayBarOHLCUpdateType OHLCUpdateType { get; set; }
+    parameters: []
+    return:
+      type: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+    content.vb: Public Property OHLCUpdateType As DayBarOHLCUpdateType
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.LoadHistory
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.LoadHistory
+  id: LoadHistory
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: LoadHistory
+  nameWithType: DayBarMessageCreator.LoadHistory
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.LoadHistory
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: LoadHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 22
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public Func<HistoryRequestParameters, IList<IHistoryItem>> LoadHistory
+    return:
+      type: System.Func{TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}}
+    content.vb: Public LoadHistory As Func(Of HistoryRequestParameters, IList(Of IHistoryItem))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.PushMessage
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.PushMessage
+  id: PushMessage
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: PushMessage
+  nameWithType: DayBarMessageCreator.PushMessage
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.PushMessage
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: PushMessage
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 24
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public Action<DayBar> PushMessage
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.DayBar}
+    content.vb: Public PushMessage As Action(Of DayBar)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar
+  commentId: P:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar
+  id: CorrectDayBar
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: CorrectDayBar
+  nameWithType: DayBarMessageCreator.CorrectDayBar
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: CorrectDayBar
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 26
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public Action<DayBar> CorrectDayBar { get; set; }
+    parameters: []
+    return:
+      type: System.Action{TradingPlatform.BusinessLayer.DayBar}
+    content.vb: Public Property CorrectDayBar As Action(Of DayBar)
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount
+  commentId: P:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount
+  id: DayToLoadCount
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: DayToLoadCount
+  nameWithType: DayBarMessageCreator.DayToLoadCount
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount
+  type: Property
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: DayToLoadCount
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 28
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public uint DayToLoadCount { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property DayToLoadCount As UInteger
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.GenerationThreadsCount
+  commentId: F:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.GenerationThreadsCount
+  id: GenerationThreadsCount
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: GenerationThreadsCount
+  nameWithType: DayBarMessageCreator.GenerationThreadsCount
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.GenerationThreadsCount
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: GenerationThreadsCount
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 34
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public int GenerationThreadsCount
+    return:
+      type: System.Int32
+    content.vb: Public GenerationThreadsCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.#ctor
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.#ctor
+  id: '#ctor'
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: DayBarMessageCreator()
+  nameWithType: DayBarMessageCreator.DayBarMessageCreator()
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayBarMessageCreator()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: .ctor
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 40
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public DayBarMessageCreator()
+    content.vb: Public Sub New
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize
+  id: Initialize
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: DayBarMessageCreator.Initialize()
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: Initialize
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 48
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote(TradingPlatform.BusinessLayer.Quote)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote(TradingPlatform.BusinessLayer.Quote)
+  id: ProcessQuote(TradingPlatform.BusinessLayer.Quote)
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: ProcessQuote(Quote)
+  nameWithType: DayBarMessageCreator.ProcessQuote(Quote)
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote(TradingPlatform.BusinessLayer.Quote)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: ProcessQuote
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 71
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public DayBar ProcessQuote(Quote quote1)
+    parameters:
+    - id: quote1
+      type: TradingPlatform.BusinessLayer.Quote
+    return:
+      type: TradingPlatform.BusinessLayer.DayBar
+    content.vb: Public Function ProcessQuote(quote1 As Quote) As DayBar
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast(TradingPlatform.BusinessLayer.Last)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast(TradingPlatform.BusinessLayer.Last)
+  id: ProcessLast(TradingPlatform.BusinessLayer.Last)
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: ProcessLast(Last)
+  nameWithType: DayBarMessageCreator.ProcessLast(Last)
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast(TradingPlatform.BusinessLayer.Last)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: ProcessLast
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 79
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public DayBar ProcessLast(Last last)
+    parameters:
+    - id: last
+      type: TradingPlatform.BusinessLayer.Last
+    return:
+      type: TradingPlatform.BusinessLayer.DayBar
+    content.vb: Public Function ProcessLast(last As Last) As DayBar
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory(System.String,TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType)
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory(System.String,TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType)
+  id: CreateDBFromHistory(System.String,TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType)
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: CreateDBFromHistory(String, DayBarOHLCUpdateType)
+  nameWithType: DayBarMessageCreator.CreateDBFromHistory(String, DayBarOHLCUpdateType)
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory(System.String, TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType)
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: CreateDBFromHistory
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 91
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void CreateDBFromHistory(string symbol, DayBarOHLCUpdateType updateType)
+    parameters:
+    - id: symbol
+      type: System.String
+    - id: updateType
+      type: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+    content.vb: Public Sub CreateDBFromHistory(symbol As String, updateType As DayBarOHLCUpdateType)
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate
+  id: CheckIfNeedUpdate
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: CheckIfNeedUpdate()
+  nameWithType: DayBarMessageCreator.CheckIfNeedUpdate()
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: CheckIfNeedUpdate
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 103
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void CheckIfNeedUpdate()
+    content.vb: Public Sub CheckIfNeedUpdate
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose
+  commentId: M:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose
+  id: Dispose
+  parent: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DayBarMessageCreator.Dispose()
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose()
+  type: Method
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    id: Dispose
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Integration/DayBarGenerator/DayBarMessageCreator.cs
+    startLine: 145
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Integration
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TradingPlatform.BusinessLayer.Integration
+  commentId: N:TradingPlatform.BusinessLayer.Integration
+  name: TradingPlatform.BusinessLayer.Integration
+  nameWithType: TradingPlatform.BusinessLayer.Integration
+  fullName: TradingPlatform.BusinessLayer.Integration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType
+  name: OHLCUpdateType
+  nameWithType: DayBarMessageCreator.OHLCUpdateType
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.OHLCUpdateType
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  commentId: T:TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+  parent: TradingPlatform.BusinessLayer.Integration
+  name: DayBarOHLCUpdateType
+  nameWithType: DayBarOHLCUpdateType
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarOHLCUpdateType
+- uid: System.Func{TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}}
+  commentId: T:System.Func{TradingPlatform.BusinessLayer.HistoryRequestParameters,System.Collections.Generic.IList{TradingPlatform.BusinessLayer.IHistoryItem}}
+  parent: System
+  definition: System.Func`2
+  name: Func<HistoryRequestParameters, IList<IHistoryItem>>
+  nameWithType: Func<HistoryRequestParameters, IList<IHistoryItem>>
+  fullName: System.Func<TradingPlatform.BusinessLayer.HistoryRequestParameters, System.Collections.Generic.IList<TradingPlatform.BusinessLayer.IHistoryItem>>
+  nameWithType.vb: Func(Of HistoryRequestParameters, IList(Of IHistoryItem))
+  fullName.vb: System.Func(Of TradingPlatform.BusinessLayer.HistoryRequestParameters, System.Collections.Generic.IList(Of TradingPlatform.BusinessLayer.IHistoryItem))
+  name.vb: Func(Of HistoryRequestParameters, IList(Of IHistoryItem))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.HistoryRequestParameters
+    name: HistoryRequestParameters
+    nameWithType: HistoryRequestParameters
+    fullName: TradingPlatform.BusinessLayer.HistoryRequestParameters
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.IHistoryItem
+    name: IHistoryItem
+    nameWithType: IHistoryItem
+    fullName: TradingPlatform.BusinessLayer.IHistoryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{TradingPlatform.BusinessLayer.DayBar}
+  commentId: T:System.Action{TradingPlatform.BusinessLayer.DayBar}
+  parent: System
+  definition: System.Action`1
+  name: Action<DayBar>
+  nameWithType: Action<DayBar>
+  fullName: System.Action<TradingPlatform.BusinessLayer.DayBar>
+  nameWithType.vb: Action(Of DayBar)
+  fullName.vb: System.Action(Of TradingPlatform.BusinessLayer.DayBar)
+  name.vb: Action(Of DayBar)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TradingPlatform.BusinessLayer.DayBar
+    name: DayBar
+    nameWithType: DayBar
+    fullName: TradingPlatform.BusinessLayer.DayBar
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TradingPlatform.BusinessLayer.DayBar
+    name: DayBar
+    nameWithType: DayBar
+    fullName: TradingPlatform.BusinessLayer.DayBar
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar
+  name: CorrectDayBar
+  nameWithType: DayBarMessageCreator.CorrectDayBar
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CorrectDayBar
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount
+  name: DayToLoadCount
+  nameWithType: DayBarMessageCreator.DayToLoadCount
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayToLoadCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.#ctor*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.#ctor
+  name: DayBarMessageCreator
+  nameWithType: DayBarMessageCreator.DayBarMessageCreator
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.DayBarMessageCreator
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize
+  name: Initialize
+  nameWithType: DayBarMessageCreator.Initialize
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Initialize
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote
+  name: ProcessQuote
+  nameWithType: DayBarMessageCreator.ProcessQuote
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessQuote
+- uid: TradingPlatform.BusinessLayer.Quote
+  commentId: T:TradingPlatform.BusinessLayer.Quote
+  parent: TradingPlatform.BusinessLayer
+  name: Quote
+  nameWithType: Quote
+  fullName: TradingPlatform.BusinessLayer.Quote
+- uid: TradingPlatform.BusinessLayer.DayBar
+  commentId: T:TradingPlatform.BusinessLayer.DayBar
+  parent: TradingPlatform.BusinessLayer
+  name: DayBar
+  nameWithType: DayBar
+  fullName: TradingPlatform.BusinessLayer.DayBar
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast
+  name: ProcessLast
+  nameWithType: DayBarMessageCreator.ProcessLast
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.ProcessLast
+- uid: TradingPlatform.BusinessLayer.Last
+  commentId: T:TradingPlatform.BusinessLayer.Last
+  parent: TradingPlatform.BusinessLayer
+  name: Last
+  nameWithType: Last
+  fullName: TradingPlatform.BusinessLayer.Last
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory
+  name: CreateDBFromHistory
+  nameWithType: DayBarMessageCreator.CreateDBFromHistory
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CreateDBFromHistory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate
+  name: CheckIfNeedUpdate
+  nameWithType: DayBarMessageCreator.CheckIfNeedUpdate
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.CheckIfNeedUpdate
+- uid: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose*
+  commentId: Overload:TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose
+  name: Dispose
+  nameWithType: DayBarMessageCreator.Dispose
+  fullName: TradingPlatform.BusinessLayer.Integration.DayBarMessageCreator.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

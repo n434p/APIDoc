@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Options.PriceModels
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModels
+  id: PriceModels
+  parent: TradingPlatform.BusinessLayer.Options
+  children:
+  - TradingPlatform.BusinessLayer.Options.PriceModels.Binominal
+  - TradingPlatform.BusinessLayer.Options.PriceModels.BlackScholes
+  langs:
+  - csharp
+  - vb
+  name: PriceModels
+  nameWithType: PriceModels
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModels
+  type: Enum
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/OptionMath.cs
+    id: PriceModels
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/OptionMath.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: public enum PriceModels
+    content.vb: Public Enum PriceModels
+  extensionMethods:
+  - System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TradingPlatform.BusinessLayer.Options.PriceModels.BlackScholes
+  commentId: F:TradingPlatform.BusinessLayer.Options.PriceModels.BlackScholes
+  id: BlackScholes
+  parent: TradingPlatform.BusinessLayer.Options.PriceModels
+  langs:
+  - csharp
+  - vb
+  name: BlackScholes
+  nameWithType: PriceModels.BlackScholes
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModels.BlackScholes
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/OptionMath.cs
+    id: BlackScholes
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/OptionMath.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: BlackScholes = 0
+    return:
+      type: TradingPlatform.BusinessLayer.Options.PriceModels
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TradingPlatform.BusinessLayer.Options.PriceModels.Binominal
+  commentId: F:TradingPlatform.BusinessLayer.Options.PriceModels.Binominal
+  id: Binominal
+  parent: TradingPlatform.BusinessLayer.Options.PriceModels
+  langs:
+  - csharp
+  - vb
+  name: Binominal
+  nameWithType: PriceModels.Binominal
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModels.Binominal
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/OptionMath.cs
+    id: Binominal
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/OptionsMath/OptionMath.cs
+    startLine: 33
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Options
+  syntax:
+    content: Binominal = 1
+    return:
+      type: TradingPlatform.BusinessLayer.Options.PriceModels
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TradingPlatform.BusinessLayer.Options
+  commentId: N:TradingPlatform.BusinessLayer.Options
+  name: TradingPlatform.BusinessLayer.Options
+  nameWithType: TradingPlatform.BusinessLayer.Options
+  fullName: TradingPlatform.BusinessLayer.Options
+- uid: System.Enum.TradingPlatform.BusinessLayer.Extensions.GetDescription
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  parent: TradingPlatform.BusinessLayer.Extensions
+  definition: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  name: GetDescription()
+  nameWithType: Extensions.GetDescription()
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription()
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  commentId: M:TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  isExternal: true
+  name: GetDescription(Enum)
+  nameWithType: Extensions.GetDescription(Enum)
+  fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TradingPlatform.BusinessLayer.Extensions.GetDescription(System.Enum)
+    name: GetDescription
+    nameWithType: Extensions.GetDescription
+    fullName: TradingPlatform.BusinessLayer.Extensions.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TradingPlatform.BusinessLayer.Extensions
+  commentId: T:TradingPlatform.BusinessLayer.Extensions
+  parent: TradingPlatform.BusinessLayer
+  name: Extensions
+  nameWithType: Extensions
+  fullName: TradingPlatform.BusinessLayer.Extensions
+- uid: TradingPlatform.BusinessLayer
+  commentId: N:TradingPlatform.BusinessLayer
+  name: TradingPlatform.BusinessLayer
+  nameWithType: TradingPlatform.BusinessLayer
+  fullName: TradingPlatform.BusinessLayer
+- uid: TradingPlatform.BusinessLayer.Options.PriceModels
+  commentId: T:TradingPlatform.BusinessLayer.Options.PriceModels
+  parent: TradingPlatform.BusinessLayer.Options
+  name: PriceModels
+  nameWithType: PriceModels
+  fullName: TradingPlatform.BusinessLayer.Options.PriceModels

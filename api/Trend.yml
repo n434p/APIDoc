@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Trend
+  commentId: N:Trend
+  id: Trend
+  children:
+  - Trend.ADX
+  - Trend.Alligator
+  - Trend.DMI
+  - Trend.ICH
+  - Trend.SAR
+  - Trend.SI
+  - Trend.ZZ
+  langs:
+  - csharp
+  - vb
+  name: Trend
+  nameWithType: Trend
+  fullName: Trend
+  type: Namespace
+  assemblies:
+  - Indicators
+references:
+- uid: Trend.ADX
+  commentId: T:Trend.ADX
+  name: ADX
+  nameWithType: ADX
+  fullName: Trend.ADX
+- uid: Trend.Alligator
+  commentId: T:Trend.Alligator
+  name: Alligator
+  nameWithType: Alligator
+  fullName: Trend.Alligator
+- uid: Trend.DMI
+  commentId: T:Trend.DMI
+  name: DMI
+  nameWithType: DMI
+  fullName: Trend.DMI
+- uid: Trend.ICH
+  commentId: T:Trend.ICH
+  name: ICH
+  nameWithType: ICH
+  fullName: Trend.ICH
+- uid: Trend.SAR
+  commentId: T:Trend.SAR
+  name: SAR
+  nameWithType: SAR
+  fullName: Trend.SAR
+- uid: Trend.SI
+  commentId: T:Trend.SI
+  name: SI
+  nameWithType: SI
+  fullName: Trend.SI
+- uid: Trend.ZZ
+  commentId: T:Trend.ZZ
+  name: ZZ
+  nameWithType: ZZ
+  fullName: Trend.ZZ

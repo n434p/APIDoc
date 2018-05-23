@@ -1,0 +1,604 @@
+### YamlMime:ManagedReference
+items:
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  commentId: T:TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  id: Sound
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds
+  children:
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionFinished
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionLost
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.DefaultAlert
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderCreatedCancelledReplaced
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderFilled
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderRejected
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.PositionClosed
+  - TradingPlatform.BusinessLayer.Utils.Sounds.Sound.UpdateAvailable
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: Sound
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  type: Class
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: Sound
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 8
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static class Sound
+    content.vb: Public Module Sound
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionFinished
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionFinished
+  id: ConnectionFinished
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: ConnectionFinished
+  nameWithType: Sound.ConnectionFinished
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionFinished
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: ConnectionFinished
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 10
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string ConnectionFinished
+    return:
+      type: System.String
+    content.vb: Public Shared ConnectionFinished As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionLost
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionLost
+  id: ConnectionLost
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: ConnectionLost
+  nameWithType: Sound.ConnectionLost
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.ConnectionLost
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: ConnectionLost
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 11
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string ConnectionLost
+    return:
+      type: System.String
+    content.vb: Public Shared ConnectionLost As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderCreatedCancelledReplaced
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderCreatedCancelledReplaced
+  id: OrderCreatedCancelledReplaced
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: OrderCreatedCancelledReplaced
+  nameWithType: Sound.OrderCreatedCancelledReplaced
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderCreatedCancelledReplaced
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: OrderCreatedCancelledReplaced
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 12
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string OrderCreatedCancelledReplaced
+    return:
+      type: System.String
+    content.vb: Public Shared OrderCreatedCancelledReplaced As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderFilled
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderFilled
+  id: OrderFilled
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: OrderFilled
+  nameWithType: Sound.OrderFilled
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderFilled
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: OrderFilled
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 13
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string OrderFilled
+    return:
+      type: System.String
+    content.vb: Public Shared OrderFilled As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderRejected
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderRejected
+  id: OrderRejected
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: OrderRejected
+  nameWithType: Sound.OrderRejected
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.OrderRejected
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: OrderRejected
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 14
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string OrderRejected
+    return:
+      type: System.String
+    content.vb: Public Shared OrderRejected As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.PositionClosed
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.PositionClosed
+  id: PositionClosed
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: PositionClosed
+  nameWithType: Sound.PositionClosed
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.PositionClosed
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: PositionClosed
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 15
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string PositionClosed
+    return:
+      type: System.String
+    content.vb: Public Shared PositionClosed As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.DefaultAlert
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.DefaultAlert
+  id: DefaultAlert
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: DefaultAlert
+  nameWithType: Sound.DefaultAlert
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.DefaultAlert
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: DefaultAlert
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 16
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string DefaultAlert
+    return:
+      type: System.String
+    content.vb: Public Shared DefaultAlert As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.UpdateAvailable
+  commentId: F:TradingPlatform.BusinessLayer.Utils.Sounds.Sound.UpdateAvailable
+  id: UpdateAvailable
+  parent: TradingPlatform.BusinessLayer.Utils.Sounds.Sound
+  langs:
+  - csharp
+  - vb
+  name: UpdateAvailable
+  nameWithType: Sound.UpdateAvailable
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds.Sound.UpdateAvailable
+  type: Field
+  source:
+    remote:
+      path: C:/Quantower/development/BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    id: UpdateAvailable
+    path: ../BusinessLayer/TradingPlatform.BusinessLayer/Utils/Sounds/Sound.cs
+    startLine: 17
+  assemblies:
+  - TradingPlatform.BusinessLayer
+  namespace: TradingPlatform.BusinessLayer.Utils.Sounds
+  syntax:
+    content: public static string UpdateAvailable
+    return:
+      type: System.String
+    content.vb: Public Shared UpdateAvailable As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TradingPlatform.BusinessLayer.Utils.Sounds
+  commentId: N:TradingPlatform.BusinessLayer.Utils.Sounds
+  name: TradingPlatform.BusinessLayer.Utils.Sounds
+  nameWithType: TradingPlatform.BusinessLayer.Utils.Sounds
+  fullName: TradingPlatform.BusinessLayer.Utils.Sounds
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
